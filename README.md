@@ -1,4 +1,113 @@
-# GroupProject
+
+![Travis (.org)](https://img.shields.io/travis/MaxSkippGriff/single-page-app)
+![GitHub contributors](https://img.shields.io/github/contributors/MaxSkippGriff/single-page-app)
+![GitHub milestones](https://img.shields.io/github/milestones/open/MaxSkippGriff/single-page-app)
+![GitHub top language](https://img.shields.io/github/languages/top/MaxSkippGriff/single-page-app)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/MaxSkippGriff/single-page-app)
+
+
+# NotSoBored Games
+
+
+
+
+
+<div align="left">
+
+## Our Webpage
+
+NotSoBored games is a concept designed to help tackle isolation in the elderly by the means of providing them with an easy to use, multiplayer online board game experience. This addresses the growing issue of isolation in the elderly population. The scope of the project is to develop an online multiplayer gaming/video communication application which can connect the elderly especially during the pandemic and national lockdown.
+
+
+## Our Team
+
+* Chris - Coder/BackEnd :technologist:
+
+* Lizhao - Coder/Full-stack :woman_technologist:
+
+* Harri - Leader/Coder :prince:
+
+* Max - Coder/FrontEnd :artist:
+
+
+## Project Objectives
+
+The main objective of this project is to explore whether an SPA can be used as a fun tool for reconnecting the elderly and addressing the issue of loneliness.
+
+In our project report we explain and analyse our single page app, from ideation to implementation. We also identify promising avenues for future work.
+
+You can find the table of contents below which links you to each of the subsections of our report.
+
+___
+
+## Table of contents
+
+## [1. Background and Motivation](Portfolio/Background.md)
+
+This section is comprised of the following subsections:
+
+* Background literature
+* State of the art survey
+* Problem definition
+* Motivation
+
+
+## [2. System Design](Portfolio/UX_Design.md)
+
+This section is comprised of the following subsections:
+
+* Design Process and Ideation
+* Identification of users and stakeholders
+* UX approach - design methods
+* Understanding user group
+* Wireframes and interaction flow diagrams
+
+
+## [3. System Implementation](Portfolio/System_Implementation.md)
+
+This section is comprised of the following subsections:
+
+* Stack architecture and system design
+* Back End - database implementation
+* Middle Tier - express, Node, the RESTful API
+* Front End - Angular
+* Authentication
+* Deployment and integration
+
+
+## [4. Sprints & Project Management](Portfolio/Sprints_Project_Management.md)
+
+This section is comprised of the following subsections:
+
+* Group working methods
+* Team roles and contributions
+* Documentation of sprints
+* Team use of Git
+
+
+## [5. Evaluation](Portfolio/Evaluation.md)
+
+This section is comprised of the following subsections:
+
+* Evaluation of design
+* Unit testing
+* User acceptance testing
+* Reflection on working practices
+* Reflection of successes
+* Social and ethical implicatoins
+* Future work
+
+
+## Technologies Used
+Project is created with:
+* MEAN stack
+* Docker
+* etc
+
+![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</div>
+
+___
+
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
