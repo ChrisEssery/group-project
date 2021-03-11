@@ -16,7 +16,7 @@
 
 ## Our Webpage
 
-NotSoBored games is a concept designed to help tackle isolation in the elderly by the means of providing them with an easy to use, multiplayer online board game experience. This addresses the growing issue of isolation in the elderly population. The scope of the project is to develop an online multiplayer gaming/video communication application which can connect the elderly especially during the pandemic and national lockdown.
+NotSoBored games is a concept designed to help tackle isolation in the elderly by the means of providing them with an easy to use, multiplayer online board game experience. The overarching aim of this project is to addresses the growing issue of loneliness and isolation in the elderly population. To realise this aim, we create an online multiplayer gaming/video communication application which can connect the elderly. This is particularly important given Covid-19 pandemic and national lockdown.
 
 
 ## Our Team
@@ -32,9 +32,9 @@ NotSoBored games is a concept designed to help tackle isolation in the elderly b
 
 ## Project Objectives
 
-The main objective of this project is to explore whether an SPA can be used as a fun tool for reconnecting the elderly and addressing the issue of loneliness.
+The main objective of this project is to explore whether an single page app (SPA) can be used as a fun tool for reconnecting the elderly to tackle the growing issue of loneliness and isolation in the elderly population.
 
-In our project report we explain and analyse our single page app, from ideation to implementation. We also identify promising avenues for future work.
+In our project report we explain and analyse our SPA, from ideation to implementation. We also identify promising avenues for future work.
 
 You can find the table of contents below which links you to each of the subsections of our report.
 
@@ -102,17 +102,12 @@ This section is comprised of the following subsections:
 Project is created with:
 * MEAN stack
 * Docker
-* etc
+* [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</div>
 
 ___
 
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
-
-## NotSoBored Games
-NotSoBored Games – an online, multiplayer board game application with integrated video chat designed to help tackle isolation in the elderly population.
 
 ## Development server
 
