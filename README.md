@@ -5,12 +5,9 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/MaxSkippGriff/single-page-app)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/MaxSkippGriff/single-page-app)
 
-
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/notSoBoredLogo.png)</div>
-
-<div align="center">
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/notSoBoredLogo.png)
 
 # NotSoBored Games
 </div>
