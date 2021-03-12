@@ -1,6 +1,6 @@
 # Background and Motivation
 
-In this section we discuss the background and motivation of the app. We start with the background literature on the topics of loneliness in the elderly and online multiplayer games. We then go on to present our state of the art survey. We also explain the problem definition and our motivation for creating this product.
+In this section we discuss the background literature, state-of-the-art survey and motivation and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We then go on to present our state of the art survey before explaining the problem definition and motivation behind creating this product.
 
 ## Table of contents
 
