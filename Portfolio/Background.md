@@ -22,7 +22,7 @@ In this section we discuss the background literature, state-of-the-art survey an
 
 ## Background literature
 
-In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during their later years [[**1**]](#references). These figures point to a growing public health issue affecting older members of our society - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
+In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during their later years [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
 ### Defining key terms
 
