@@ -8,7 +8,7 @@
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/tree/dev/Logo/notSoBoredLogo.png?raw=true)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/notSoBoredLogo.png)
 
 </div>
 
