@@ -22,15 +22,13 @@ In this section we discuss the background literature, state-of-the-art survey an
 
 ## Background literature
 
-In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people.
-
-According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during their later years [[**1**]](#references). These figures point to a growing public health issue affecting older members of our society - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
+In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during their later years [[**1**]](#references). These figures point to a growing public health issue affecting older members of our society - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
 ### Defining key terms
 
-Following Valtora and Hanratty, we define loneliness as having a social and emotional component. According to their definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
+Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 
-Social isolation, they regard as having many dimensions. According to their definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
+Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
 ### Public health concerns
 
