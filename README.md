@@ -34,7 +34,7 @@ NotSoBored games is a concept designed to help tackle social isolation and lonel
 
 The main objective of this project is to explore whether an single page app (SPA) can be used as a fun tool for reconnecting the elderly to tackle the growing issue of loneliness and isolation in the elderly population.
 
-In our project report we explain and analyse our SPA, from ideation to implementation. We also identify promising avenues for future work.
+In our project report we explain and analyse our SPA, from ideation to implementation. We also cover background literature, do a state-of-the-art survey and identify promising avenues for future work.
 
 You can find the table of contents below which links you to each of the subsections of our report.
 
