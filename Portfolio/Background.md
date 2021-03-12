@@ -1,22 +1,23 @@
 # Background and Motivation
 
-In this section we discuss the background literature, state-of-the-art survey and motivation and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We then go on to present our state of the art survey before explaining the problem definition and motivation behind creating this product.
+In this section we discuss the background literature, state-of-the-art survey and motivation and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We then go on to present our state of the art survey before explaining the problem definition and motivation behind this product.
 
 ## Table of contents
 
 * [**Background literature**](#background-literature)
-   * Background literature
-   * State of the art survey
-   * Problem definition
+   * [Background literature](#background-literature)
+   * [State of the art survey](#state-of-the-art-survey)
+   * [Motivation](#motivation)
 
 
 * [**State of the art survey**](#state-of-the-art-survey)
-   * Stack architecture and system design
-   * Back End - database implementation
+   * [State of the art survey](#state-of-the-art-survey)
+   * [Evaluation of survey](#evaluation-of-survey)
 
 
-* [**Problem Definition**](#problem-definition)
+* [**Problem definition**](#problem-definition)
    * [Motivation](#motivation)
+   * [Problem definition](#problem-definition)
 
 
 ## Background literature
@@ -38,6 +39,8 @@ Social isolation, they regard as having many dimensions. According to their defi
 ## State of the art survey
 
 When conducting the state of the art survey, we took the decision to...
+
+## Evaluation of survey
 
 
 ## Problem definition
