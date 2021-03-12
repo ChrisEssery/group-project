@@ -43,7 +43,7 @@ When conducting the state of the art survey, we took the decision to...
 
 ## Problem definition
 
-When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address.
+When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
