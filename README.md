@@ -10,10 +10,6 @@
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/notSoBoredLogo.png)
 
-</div>
-
-<div align="center">
-
 # NotSoBored Games
 
 </div>
