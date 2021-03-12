@@ -16,7 +16,7 @@
 
 ## Our Webpage
 
-NotSoBored games is a concept designed to help tackle isolation in the elderly by the means of providing them with an easy to use, multiplayer online board game experience. The overarching aim of this project is to address this growing issue of loneliness and isolation in the elderly population. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA). This serves to connect people and improve their sense of wellbeing, which is an issue of particular importance given the current Covid-19 pandemic and national lockdown.
+NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population by the means  an easy to use, multiplayer online board game experience. The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA). This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change due to the current Covid-19 pandemic and national lockdown, this seems an important intervention to help tackle these public health concerns.
 
 
 ## Our Team
