@@ -21,7 +21,18 @@ In this section we discuss the background and motivation of the app. We start wi
 
 ## Background literature
 
-With regards to the background literature we decided to...
+In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people.
+
+According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness[**1**][#references]. These figures point to a growing public health issue affecting older members of our society. This issue is likely to continue giving the growing size of our ageing society both in the UK and internationally.
+
+### Defining key terms
+
+Following Valtora and Hanratty, we define loneliness as having a social and emotional component. According to their definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[**2**][#references].
+
+Social isolation, they regard as having many dimensions. According to their definition, social isolation refers to a lack of social interactions with friends, family, and the community [**2**][#references].
+
+### Public health concerns
+
 
 
 ## State of the art survey
@@ -40,6 +51,12 @@ Our problem definition was isolation in the elderly and insufficient online tool
 The motivation behind our webpage is to create a SPA which is able to tackle a real-world problem of loneliness in leveraging a multiplayer online board game.
 
 The overarching aim is to create a game which is able to engage the elderly through an fun, engaging platform. To realise this aim, we created an SPA which helps the elderly to reconnect and enjoy some classic games.
+
+## References
+
+[1] Fakoya, O.A., McCorry, N.K. & Donnelly, M. Loneliness and social isolation interventions for older adults: a scoping review of reviews. BMC Public Health 20, 129 (2020). https://doi.org/10.1186/s12889-020-8251-6
+
+[2] Valtorta N, Hanratty B. Loneliness, isolation and the health of older adults: do we need a new research agenda? J R Soc Med Suppl. 2012;105(12):518–22.
 
 ___
 
