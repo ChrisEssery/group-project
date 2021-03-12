@@ -49,9 +49,9 @@ Our problem definition was social isolation and loneliness in the elderly and in
 
 ## Motivation
 
-The motivation behind our webpage is to create a SPA capable of tackling a real-world problem of loneliness in leveraging a multiplayer online board game.
+The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.
 
-The overarching aim is to create a game that can engage the elderly through a fun, engaging platform. To realise this aim, we created a SPA that helps the elderly to reconnect and enjoy some classic games.
+The overarching aim is to create a game that can engage the elderly through a fun, engaging platform. To realise this aim, we created a SPA that helps the elderly to connect with friends and loved ones, and enjoy some classic board games.
 
 ## References
 
