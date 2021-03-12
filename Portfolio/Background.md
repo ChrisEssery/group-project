@@ -43,15 +43,15 @@ When conducting the state of the art survey, we took the decision to...
 
 ## Problem definition
 
-When considering the problem definition we felt it was important to choose something that was both relevant and of genuine importance. As such, we decided that isolation in the elderly would be a good target problem, since isolation is a pressing issue in modern times for which there are few available online tools designed to address.
+When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address.
 
-Our problem definition was isolation in the elderly and insufficient online tools to help address this issue. Our proposed solution to this problem was to connect the elderly through an online multiplayer game which reduces feelings of loneliness in the elderly thereby improving their wellbeing.
+Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
 ## Motivation
 
-The motivation behind our webpage is to create a SPA which is able to tackle a real-world problem of loneliness in leveraging a multiplayer online board game.
+The motivation behind our webpage is to create a SPA capable of tackling a real-world problem of loneliness in leveraging a multiplayer online board game.
 
-The overarching aim is to create a game which is able to engage the elderly through an fun, engaging platform. To realise this aim, we created an SPA which helps the elderly to reconnect and enjoy some classic games.
+The overarching aim is to create a game that can engage the elderly through a fun, engaging platform. To realise this aim, we created a SPA that helps the elderly to reconnect and enjoy some classic games.
 
 ## References
 
