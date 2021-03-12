@@ -23,13 +23,13 @@ In this section we discuss the background and motivation of the app. We start wi
 
 In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people.
 
-According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness[**1**](#references) during their later years. These figures point to a growing public health issue affecting older members of our society - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
+According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness[[**1**]](#references) during their later years. These figures point to a growing public health issue affecting older members of our society - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
 ### Defining key terms
 
-Following Valtora and Hanratty, we define loneliness as having a social and emotional component. According to their definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[**2**](#references).
+Following Valtora and Hanratty, we define loneliness as having a social and emotional component. According to their definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 
-Social isolation, they regard as having many dimensions. According to their definition, social isolation refers to a lack of social interactions with friends, family, and the community [**2**](#references).
+Social isolation, they regard as having many dimensions. According to their definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
 ### Public health concerns
 
