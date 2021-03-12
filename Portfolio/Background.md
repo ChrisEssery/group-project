@@ -6,8 +6,8 @@ In this section we discuss the background literature, state-of-the-art survey an
 
 * [**Background literature**](#background-literature)
    * [Background literature](#background-literature)
-   * [State of the art survey](#state-of-the-art-survey)
-   * [Motivation](#motivation)
+   * [Defining key terms](#defining-key-terms)
+   * [Public health concerns](#public-health-concerns)
 
 
 * [**State of the art survey**](#state-of-the-art-survey)
