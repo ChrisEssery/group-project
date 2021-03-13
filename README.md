@@ -17,7 +17,10 @@
 
 ## Our Webpage
 
-NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population by the means  an easy to use, multiplayer online board game experience. The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA). This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change due to the current Covid-19 pandemic and national lockdown, this seems an important intervention to help tackle these public health concerns.
+NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With four fun board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard.
+
+If you're tired of lockdown and want to connect with loved ones this engaging multiplayer experience is just for you.
+
 
 
 ## Our Team
@@ -32,6 +35,8 @@ NotSoBored games is a concept designed to help tackle social isolation and lonel
 
 
 ## Project Objectives
+
+The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA). This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change due to the current Covid-19 crisis, this seems an important tool to help tackle these public health concerns.
 
 The main objective of this project is to explore whether an single page app (SPA) can be used as a fun tool for reconnecting the elderly to tackle the growing issue of loneliness and isolation in the elderly population.
 
