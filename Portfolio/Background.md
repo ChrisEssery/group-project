@@ -21,11 +21,13 @@ In this section we discuss the background literature, state-of-the-art survey an
 
 
 ## Background literature
-TO DO: Edit this section
+TO DO: Edit this section.
+
 In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
 ### Defining key terms
-TO DO: Edit this section
+TO DO: Edit this section.
+
 Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 
 Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
@@ -37,7 +39,8 @@ Need to add something about the age group we will be targeting. Above 70? Or old
 There are several public health concerns linked to loneliness and isolation. First, health issues. Second, mental health issues with increased levels of negative emotions such as anxiety and depression. Third, cognitive decline? Find some references to back these claims up.
 
 ## State of the art survey
-TO DO: Edit this section
+TO DO: Edit this section.
+
 We now turn to a state of the art survey. After reviewing the state of the art technologies used we discovered that...
 
 Digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits. Provide references.
@@ -52,7 +55,8 @@ We can discuss the benefits of adding increased level of difficulty, and how we 
 
 
 ## Problem definition
-TO DO: Edit this section
+TO DO: Edit this section.
+
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
 
 According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**4**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
@@ -60,7 +64,8 @@ According to research by Kaufman et al, digital games offer opportunities for ol
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
 ## Motivation
-TO DO: Edit this section
+TO DO: Edit this section.
+
 The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.
 
 The overarching aim is to create a game that can engage the elderly through a fun, engaging platform. To realise this aim, we created a SPA that helps the elderly to connect with friends and loved ones, and enjoy some classic board games.
