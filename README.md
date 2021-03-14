@@ -36,7 +36,7 @@ NotSoBored games is a concept designed to help tackle social isolation and lonel
 
 The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA).
 
-This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change since the Covid-19 pandemic, this is an important tool to help combat these public health concerns.
+This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change since the Covid-19 pandemic, we feel that this is an important and useful tool to help combat these public health concerns.
 
 The main objective of this project is to explore whether a single page app (SPA) can be used as a  tool to improve the quality of life of older people and help tackle the growing issue of loneliness and isolation in this group.
 
