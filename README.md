@@ -38,13 +38,11 @@ If you're tired of lockdown and want to connect with loved ones then this engagi
 
 The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA).
 
-This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change since the Covid-19 pandemic, we feel that this is an important and useful tool to help combat these public health concerns.
+This web app serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change since the Covid-19 pandemic, we feel that this is an important and useful tool to help combat these public health concerns.
 
 The main objective of this project is to explore whether a single page app (SPA) can be used as a  tool to improve the quality of life of older people and help tackle the growing issue of loneliness and isolation in this group.
 
-In our project report we explain and analyse our SPA, from ideation to implementation, as well as research background literature, a state-of-the-art survey and identify promising avenues for future work.
-
-You can find the table of contents below which links you to each of the subsections of our report.
+In our project report we explain and analyse our SPA, from ideation to implementation, as well as research background literature, a state-of-the-art survey and identify promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
 
 ___
 
