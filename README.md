@@ -17,9 +17,7 @@
 
 ## Our Webpage
 
-NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With four fun board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard.
-
-If you're tired of lockdown and want to connect with loved ones this engaging multiplayer experience is just for you.
+NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With four fun board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. If you're tired of lockdown and want to connect with loved ones this engaging multiplayer experience is just for you.
 
 
 
@@ -36,11 +34,13 @@ If you're tired of lockdown and want to connect with loved ones this engaging mu
 
 ## Project Objectives
 
-The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA). This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change due to the current Covid-19 crisis, this seems an important tool to help tackle these public health concerns.
+The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA).
 
-The main objective of this project is to explore whether an single page app (SPA) can be used as a fun tool for reconnecting the elderly to tackle the growing issue of loneliness and isolation in the elderly population.
+This serves to connect older adults, reduce levels of loneliness and improve health and wellbeing. Given the huge societal change due to the Covid-19 pandemic, this is an important tool to help combat these public health concerns.
 
-In our project report we explain and analyse our SPA, from ideation to implementation. We also cover background literature, do a state-of-the-art surveyidentify promising avenues for future work.
+The main objective of this project is to explore whether a single page app (SPA) can be used as a  tool to improve the quality of life of older people and help tackle the growing issue of loneliness and isolation in this group. 
+
+In our project report we explain and analyse our SPA, from ideation to implementation, as well as research background literature, a state-of-the-art survey and identify promising avenues for future work.
 
 You can find the table of contents below which links you to each of the subsections of our report.
 

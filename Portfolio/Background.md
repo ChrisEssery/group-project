@@ -32,11 +32,19 @@ Social isolation, Valtora and Hanratt claim, has multiple dimensions. According 
 
 ### Public health concerns
 
-
+There are several public health concerns linked to loneliness and isolation. First, health issues. Second, mental health issues with increased levels of negative emotions such as anxiety and depression. Third, cognitive decline? Find some references to back these claims up.
 
 ## State of the art survey
 
-When conducting the state of the art survey, we took the decision to...
+We now turn to a state of the art survey. After reviewing the state of the art technologies used for the elderly we discovered that...
+
+Digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits.
+
+Provide examples of what are the current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing
+
+We need to outline how our app differs from these apps. And also mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach
+
+"A recent study showed that  playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**3**]](#references).
 
 ## Evaluation of survey
 
@@ -44,6 +52,8 @@ When conducting the state of the art survey, we took the decision to...
 ## Problem definition
 
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
+
+According to research by X, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention. This is something they can do from the ease of their armchair which is fun, entertaining and which is of value and meaning.
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
@@ -58,6 +68,8 @@ The overarching aim is to create a game that can engage the elderly through a fu
 [1] Fakoya, O.A., McCorry, N.K. & Donnelly, M. Loneliness and social isolation interventions for older adults: a scoping review of reviews. BMC Public Health 20, 129 (2020). https://doi.org/10.1186/s12889-020-8251-6
 
 [2] Valtorta N, Hanratty B. Loneliness, isolation and the health of older adults: do we need a new research agenda? J R Soc Med Suppl. 2012;105(12):518–22.
+
+[3] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 
 ___
 
