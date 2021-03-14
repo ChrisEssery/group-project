@@ -17,7 +17,9 @@
 
 ## Our Webpage
 
-NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With four fun board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. If you're tired of lockdown and want to connect with loved ones this engaging multiplayer experience is just for you.
+NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With four fun board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard.
+
+If you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
 
 
 
