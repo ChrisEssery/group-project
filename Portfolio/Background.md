@@ -21,44 +21,46 @@ In this section we discuss the background literature, state-of-the-art survey an
 
 
 ## Background literature
-
+TO DO: Edit this section
 In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
 ### Defining key terms
-
+TO DO: Edit this section
 Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 
 Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
+
+Need to add something about the age group we will be targeting. Above 70? Or older? Also, should we use 'elderly' or 'older adults' to refer to the group? Do some research to find the best terminology.
 
 ### Public health concerns
 
 There are several public health concerns linked to loneliness and isolation. First, health issues. Second, mental health issues with increased levels of negative emotions such as anxiety and depression. Third, cognitive decline? Find some references to back these claims up.
 
 ## State of the art survey
+TO DO: Edit this section
+We now turn to a state of the art survey. After reviewing the state of the art technologies used we discovered that...
 
-We now turn to a state of the art survey. After reviewing the state of the art technologies used for the elderly we discovered that...
+Digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits. Provide references.
 
-Digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits.
+Pete: Provide examples of the "current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing."
 
-Provide examples of what are the current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing
+According to Pete, we need to outline how our app differs from these apps. We also need to mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach.
 
-We need to outline how our app differs from these apps. And also mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach
-
-"A recent study showed that  playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**3**]](#references).
+We can discuss the benefits of adding increased level of difficulty, and how we will (possibly?) try and incorporate this into the web app. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**3**]](#references).
 
 ## Evaluation of survey
 
 
 ## Problem definition
-
+TO DO: Edit this section
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
 
-According to research by X, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention. This is something they can do from the ease of their armchair which is fun, entertaining and which is of value and meaning.
+According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**4**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
 ## Motivation
-
+TO DO: Edit this section
 The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.
 
 The overarching aim is to create a game that can engage the elderly through a fun, engaging platform. To realise this aim, we created a SPA that helps the elderly to connect with friends and loved ones, and enjoy some classic board games.
@@ -69,7 +71,7 @@ The overarching aim is to create a game that can engage the elderly through a fu
 
 [2] Valtorta N, Hanratty B. Loneliness, isolation and the health of older adults: do we need a new research agenda? J R Soc Med Suppl. 2012;105(12):518–22.
 
-[3] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
+[3, 4] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 
 ___
 
