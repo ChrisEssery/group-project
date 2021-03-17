@@ -1,40 +1,87 @@
 # Evaluation
 
-In this section we evaluate our app. We start with the initial to our working app. We include details about some users and their interests. We also explain the interface before looking at areas where we could have developed the product.
+In this section we evaluate our app. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We then move on to unit testing, with a focus on how our selected harness helped us throughout the project build. After unit testing, we go on to look at user acceptance testing and we reflect on our working practices and successes. Finally, we discuss the social and ethical implications of our product and future work. 
 
 ## Table of contents
 
-* [**Background literature**](#background-literature)
-   * Background literature
-   * State of the art survey
-   * Problem definition
+* [**Evaluation of design**](#evaluation-of-design)
+   * Strengths
+   * Weaknesses
+   * Lessons learned
+
+* [**Unit testing**](#unit-testing)
+   * Testing harness
+   * Rationale
+
+* [**User acceptance testing**](#user-acceptance-testing)
+  * User acceptance testing
 
 
-* [**State of the art survey**](#state-of-the-art-survey)
-   * Stack architecture and system design
-   * Back End - database implementation
+* [**Reflection on working practices**](#reflection-on-working-practices)
+  * Our working practices
+  * Benefits and drawbacks
 
 
-* [**Problem Definition**](#problem-definition)
-   * Design Process and Ideation
-   * Identification of users and stakeholders
+* [**Reflection of successes**](#reflection-of-successes)
+  * Successes
+  * Strengths
+
+
+* [**Social and ethical implications**](#social-and-ethical-implications)
+  * Social implications
+  * Ethical implications
+  * Data security
+
+* [**Future work**](#future-work)
+  * Impact of our work
+  * Possible extensions
 
 
 
-## Background literature
 
-With regards to the background literature we decided to...
+## Evaluation of design
+
+When it came to the design of the project we felt... with this in mind, we will now evaluate the strengths, weaknesses and potential extensions of the design before reflecting on the lessons we've learned about this aspect of the project.
+
+### Strengths
+
+With regard to the strengths of the design,
+
+### Weaknesses
+
+Given the time constraints of this unit...
+
+### Possible Extensions
+
+There are many possible extensions to mention here...
+
+### Lessons learned
+
+We have learned many lessons...
 
 
-## State of the art survey
+## Unit testing
 
-When conducting the state of the art survey, we took the decision to...
+Unit testing is obviously very important when it comes to building a prototype web application. One important point concerns the practicality of unit testing. A testing harness offers a standardised framework for automatically testing code. It serves to ensure that the code does not regress to a weaker state (which can be overcome through regression testing) and makes the code clear and maintainable.
 
 
-## Problem definition
+## Reflection on working practices
 
-When considering the problem definition we felt it was important to choose something that was relevant and of genuine importance. As such, we...
+We now turn to our working practices...
 
+
+## Reflection of successes
+
+There have been many successes throughout the duration of this unit.
+
+
+## Social and ethical implications
+
+The social and ethical implications of our app were of
+
+## Future work
+
+There is, we feel, a lot of scope for future work in this area. In particular...
 
 
 ___

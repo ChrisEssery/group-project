@@ -100,7 +100,7 @@ This section is comprised of the following subsections:
 * User acceptance testing
 * Reflection on working practices
 * Reflection of successes
-* Social and ethical implicatoins
+* Social and ethical implications
 * Future work
 
 
