@@ -25,13 +25,13 @@ If you're tired of lockdown and want to connect with loved ones then this engagi
 
 ## Our Team
 
-* Chris - Coder/BackEnd :technologist:
+* Chris - Coder/Full-stack :technologist:
 
 * Lizhao - Coder/Full-stack :woman_technologist:
 
-* Harri - Leader/Coder :prince:
+* Harri - Leader/Full-stack :prince:
 
-* Max - Coder/FrontEnd :artist:
+* Max - Coder/Full-stack :artist:
 
 
 ## Project Objectives
