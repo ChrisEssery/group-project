@@ -1,6 +1,6 @@
 # 4. Sprints & Project Management
 
-In this section we discuss the sprints and project management. We start with the initial to our working app. We include details about some users and their interests. We also explain the interface before looking at areas where we could have developed the product.
+In this section, we discuss project sprints and management. We start by going over the team organisation, roles, and contributions. We then move on to discuss the way we approached communication and documentation of sprints. Finally, we discuss the team use of git and the impact Covid-19 had on our working practices.
 
 ## Table of contents
 
@@ -41,7 +41,7 @@ Max, who likes design, dedicated most of his time to the FrontEnd. He got involv
 
 ## Communication
 
-In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design, implementation and write code together. Therefore it was essential that we kept in regular contact with each other. We did this via the communication platform, Microsoft Teams, which we felt was an excellent platform for hosting meetings.
+In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design, implementation and write code together. Therefore, it was essential that we kept in regular contact with each other. We did this via the communication platform, Microsoft Teams, which we felt was an excellent platform for hosting meetings.
 
 The reasons for this are as follows. First, by the beginning of TB2 we were all very familiar with the platform, since it had formed the basis of nearly all our taught modules on the MSc. Second, we decided that given its messaging and video conferencing functionality we could easily move between typed messages and face-to-face discussions. The former were very useful throughout the day, as a way of sharing thoughts, ideas and developments concerning the project. The latter enabled us to simulate the type of face-to-face conversation that we would have in the lab were in not for the national lockdown.
 
@@ -49,7 +49,7 @@ Given this, we were able to work collaboratively whilst living in different part
 
 ## Documentation of sprints
 
-When considering the problem definition we felt it was important to choose something that was relevant and of genuine importance. As such, we...
+When it came to documenting our project sprints, we decided. As such, we...
 
 ## Team use of Git
 
