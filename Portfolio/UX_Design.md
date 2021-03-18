@@ -35,6 +35,17 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
+<br/><br/>
+<br/><br/>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="Sublime's custom image">
+  <br/><br/>
+  <b >Paper Prototype Demo</b>
+  <br/><br/>
+  <br/><br/>
+</p>
+
+
 
 ## Identification of users and stakeholders
 
