@@ -7,6 +7,7 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { TitleComponent } from './start-page/title/title.component';
 import { BackgroundComponent } from './start-page/background/background.component';
 import { BgmComponent } from './start-page/bgm/bgm.component';
+import { ConnectFourComponent } from './connect-four/connect-four.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { BgmComponent } from './start-page/bgm/bgm.component';
     StartPageComponent,
     TitleComponent,
     BackgroundComponent,
-    BgmComponent
+    BgmComponent,
+    ConnectFourComponent
   ],
   imports: [
     BrowserModule,
