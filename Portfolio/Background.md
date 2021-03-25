@@ -1,6 +1,6 @@
 # Background and Motivation
 
-In this section we discuss the background literature, state-of-the-art survey and motivation and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We then go on to present our state of the art survey before explaining the problem definition and motivation behind this product.
+In this section we discuss the background literature, state-of-the-art survey and motivation and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We then go on to present our state of the art survey of current applications used to address these issues, before explaining the problem definition and motivation behind our product.
 
 ## Table of contents
 
@@ -21,9 +21,10 @@ In this section we discuss the background literature, state-of-the-art survey an
 
 
 ## Background literature
-TO DO: Edit this section.
 
-In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
+In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. We define key terms and identify public health concerns and current interventions.
+
+According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
 ### Defining key terms
 TO DO: Edit this section.
@@ -32,11 +33,15 @@ Following Valtora and Hanratty, we define loneliness as both a social and emotio
 
 Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
-Need to add something about the age group we will be targeting. Above 70? Or older? Also, should we use 'elderly' or 'older adults' to refer to the group? Do some research to find the best terminology.
+Our target group is adults above the age 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game.
 
 ### Public health concerns
 
-There are several public health concerns linked to loneliness and isolation. First, health issues. Second, mental health issues with increased levels of negative emotions such as anxiety and depression. Third, cognitive decline? Find some references to back these claims up.
+There are several public health concerns linked to loneliness and isolation. First, there are health issues. These health issues include...
+
+Second, mental health issues with increased levels of negative emotions such as anxiety and depression. This is a very significant effect of isolation which is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health due to a lack motivation for self-care, less desire to go outside leading to melatonin suppression which is linked to insomnia; depression leading to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise.
+
+The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Find some references to back these claims up.
 
 ## State of the art survey
 TO DO: Edit this section.
@@ -49,9 +54,9 @@ Pete: Provide examples of the "current solutions out there/trends/relations betw
 
 According to Pete, we need to outline how our app differs from these apps. We also need to mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach.
 
-We can discuss the benefits of adding increased level of difficulty, and how we will (possibly?) try and incorporate this into the web app. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**3**]](#references).
+We can discuss the benefits of adding increased level of difficulty, and how we will (possibly?) try and incorporate this into the web app.
 
-## Evaluation of survey
+The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**3**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, it we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
 
 ## Problem definition

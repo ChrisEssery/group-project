@@ -17,10 +17,9 @@
 
 ## Our Webpage
 
-NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With four fun board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard.
+NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
 
-If you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
-
+Reconnect with old friends by playing fun, classic board games. With video communication functionality you'll be able to see one another while you go head-to-head. Not only is this a fun, social thing to do, but the games are challenging enough to keep you engaged and leave you feeling like you've achieved something. 
 
 
 ## Our Team
@@ -36,11 +35,11 @@ If you're tired of lockdown and want to connect with loved ones then this engagi
 
 ## Project Objectives
 
-The overarching aim of this project is to use this online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA).
+The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA).
 
-Given the huge societal change since the Covid-19 pandemic and increased levels of loneliness and social isolation, NotSoBored games serves as a useful tool to help combat these public health concerns.
+Given the huge societal change since the Covid-19 pandemic and resulting increase in levels of loneliness and social isolation, NotSoBored games is a perfect tool to help combat these public health concerns.
 
-The main objective of this project is to explore whether a single page app (SPA) can be used as a  tool to improve the quality of life of older people and help tackle the growing issue of loneliness and isolation in this group.
+The main objective of this project is to explore whether a single page app (SPA) can be used as a tool to improve the quality of life of older people and help tackle the growing issue of loneliness and isolation in this group.
 
 In our project report we explain and analyse our SPA, from ideation to implementation, as well as research background literature, a state-of-the-art survey and identify promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
 
@@ -57,19 +56,7 @@ This section is comprised of the following subsections:
 * Problem definition
 * Motivation
 
-
-## [2. System Design](Portfolio/UX_Design.md)
-
-This section is comprised of the following subsections:
-
-* Design Process and Ideation
-* Identification of users and stakeholders
-* UX approach - design methods
-* Understanding user group
-* Wireframes and interaction flow diagrams
-
-
-## [3. System Implementation](Portfolio/System_Implementation.md)
+## [2. System Implementation](Portfolio/System_Implementation.md)
 
 This section is comprised of the following subsections:
 
@@ -79,6 +66,16 @@ This section is comprised of the following subsections:
 * Front End - Angular
 * Authentication
 * Deployment and integration
+
+## [3. UX Design](Portfolio/UX_Design.md)
+
+This section is comprised of the following subsections:
+
+* Design Process and Ideation
+* Identification of users and stakeholders
+* UX approach - design methods
+* Understanding user group
+* Wireframes and interaction flow diagrams
 
 
 ## [4. Sprints & Project Management](Portfolio/Sprints_Project_Management.md)
@@ -100,6 +97,16 @@ This section is comprised of the following subsections:
 * User acceptance testing
 * Reflection on working practices
 * Reflection of successes
+* Social and ethical implications
+* Future work
+
+## [6. Conclusion](Portfolio/Conclusion.md)
+
+This section is comprised of the following subsections:
+
+* Reflection on working practices
+* Reflection of successes
+* Impact of Covid-19
 * Social and ethical implications
 * Future work
 

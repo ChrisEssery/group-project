@@ -1,6 +1,6 @@
 # Evaluation
 
-In this section we evaluate our app. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We then move on to unit testing, with a focus on how our selected harness helped us throughout the project build. After unit testing, we go on to look at user acceptance testing and we reflect on our working practices and successes. Finally, we discuss the social and ethical implications of our product and future work. 
+In this section we evaluate our app. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We then move on to unit testing, with a focus on how our selected harness helped us throughout the project build. After unit testing, we go on to look at user acceptance testing and we reflect on our working practices and successes. Finally, we discuss the social and ethical implications of our product and future work.
 
 ## Table of contents
 
@@ -15,28 +15,7 @@ In this section we evaluate our app. We start by evaluating the design of the ap
 
 * [**User acceptance testing**](#user-acceptance-testing)
   * User acceptance testing
-
-
-* [**Reflection on working practices**](#reflection-on-working-practices)
-  * Our working practices
-  * Benefits and drawbacks
-
-
-* [**Reflection of successes**](#reflection-of-successes)
-  * Successes
-  * Strengths
-
-
-* [**Social and ethical implications**](#social-and-ethical-implications)
-  * Social implications
-  * Ethical implications
-  * Data security
-
-* [**Future work**](#future-work)
-  * Impact of our work
-  * Possible extensions
-
-
+  * Findings and implications
 
 
 ## Evaluation of design
@@ -64,26 +43,31 @@ We have learned many lessons...
 
 Unit testing is obviously very important when it comes to building a prototype web application. One important point concerns the practicality of unit testing. A testing harness offers a standardised framework for automatically testing code. It serves to ensure that the code does not regress to a weaker state (which can be overcome through regression testing) and makes the code clear and maintainable.
 
+### Testing harness
 
-## Reflection on working practices
-
-We now turn to our working practices...
-
-
-## Reflection of successes
-
-There have been many successes throughout the duration of this unit.
+### Rationale
 
 
-## Social and ethical implications
+## User acceptance testing
 
-The social and ethical implications of our app were of
-
-## Future work
-
-There is, we feel, a lot of scope for future work in this area. In particular...
+We now turn to the user acceptance testing.
 
 
+### Methods undertaken
+
+
+### Findings and implications
+
+We conducted an evaluation of our design with users
+
+
+## References
+
+[1] Brey, P. (2007). Ethical Aspects of Information Security and Privacy, in: Security, Privacy, and Trust in Modern Data Management, 21-36.
+
+[2] Hung, M., et al (2013). Uncovering patterns of technology use in consumer health informatics. Wiley interdisciplinary reviews. Computational statistics 5, 6: 432–447.
+
+[3] Votipka, D., et al (2018). Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes, IEEE Symposium on Security and Privacy (SP), 374-391.
 ___
 
 
