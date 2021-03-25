@@ -61,14 +61,7 @@ We now turn to the user acceptance testing.
 We conducted an evaluation of our design with users
 
 
-## References
 
-[1] Brey, P. (2007). Ethical Aspects of Information Security and Privacy, in: Security, Privacy, and Trust in Modern Data Management, 21-36.
-
-[2] Hung, M., et al (2013). Uncovering patterns of technology use in consumer health informatics. Wiley interdisciplinary reviews. Computational statistics 5, 6: 432–447.
-
-[3] Votipka, D., et al (2018). Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes, IEEE Symposium on Security and Privacy (SP), 374-391.
-___
 
 
 
