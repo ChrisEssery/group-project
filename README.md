@@ -19,7 +19,7 @@
 
 NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
 
-Reconnect with old friends, play fun board games, and enjoy yourself. With video communication functionality, you'll be able to see each other while you go head-to-head. And the games will be challenging enough to keep you on your toes - leaving you with a sense of achievement. 
+Reconnect with old friends, play fun board games, and enjoy yourself. With video communication functionality, you'll be able to see each other while you go head-to-head. And the games will be challenging enough to keep you on your toes - leaving you with a sense of achievement.
 
 
 ## Our Team
@@ -33,15 +33,15 @@ Reconnect with old friends, play fun board games, and enjoy yourself. With video
 * Max - Coder/Full-stack :artist:
 
 
-## Project Objectives
+## Aims and Objectives
 
-The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an online multiplayer gaming/video communication application through a single page app (SPA).
+The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an engaging, easy-to-use online multiplayer gaming application with video communication functionality through a single page app (SPA).
 
-Given the huge societal change since the Covid-19 pandemic and resulting increase in levels of loneliness and social isolation, NotSoBored games is a perfect tool to help combat these public health concerns.
+Given the huge societal change since the COVID-19 pandemic with enforced "social distancing" to reduce transmission rates, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly in older adults [[**1**]].  NotSoBored games is a perfect tool to help combat these public health concerns. Our proposed method differs from and contributes to existing methods since it combine a simple, visually appealing user interface with video communication functionality to deliver an engaging experience unlike existing online games which don't have video communication or are difficult to use. As such, we offer a novel alternative.
 
-The main objective of this project is to explore whether a single page app (SPA) can be used as a tool to improve the quality of life of older people and help tackle the growing issue of loneliness and isolation in this group.
+The main objective of this project is to explore whether we can improve upon existing online games for the elderly by delivering an SPA that can be used as a tool that is fun, engaging and easy to use. We investigate the hypothesis that the application can improve the quality of life of our stakeholders by conducting user testing. Based on our results, we believe our application can be used to help tackle the growing issue of loneliness and isolation in this group.
 
-In our project report we explain and analyse our SPA, from ideation to implementation, as well as research background literature, a state-of-the-art survey and identify promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
+In our project report we explain and analyse our SPA, from ideation to implementation, we also give an overview of background literature, do a state-of-the-art survey and identify promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
 
 ___
 
@@ -121,27 +121,6 @@ Project is created with:
 
 ___
 
+## References
 
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `--prod` flag for a production build.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+[1] Hwang, Tzung-Jeng et al. “Loneliness and social isolation during the COVID-19 pandemic.” International psychogeriatrics vol. 32,10 (2020): 1217-1220. doi:10.1017/S1041610220000988
