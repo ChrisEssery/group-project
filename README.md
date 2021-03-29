@@ -1,10 +1,11 @@
 
 ![Travis (.org)](https://img.shields.io/travis/ChrisEssery/group-project)
 ![GitHub contributors](https://img.shields.io/github/contributors/ChrisEssery/group-project)
- ![GitHub milestones](https://img.shields.io/github/milestones/open/ChrisEssery/group-project)
+![GitHub milestones](https://img.shields.io/github/milestones/open/ChrisEssery/group-project)
 ![GitHub top language](https://img.shields.io/github/languages/top/ChrisEssery/group-project)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ChrisEssery/group-project)
 ![Github commit activity](https://img.shields.io/github/commit-activity/w/ChrisEssery/group-project)
+![Github last commit](https://img.shields.io/github/last-commit/ChrisEssery/group-project)
 
 <div align="center">
 
