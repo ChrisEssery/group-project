@@ -5,27 +5,26 @@ In this section we discuss the the system implementation of the app. We start wi
 ## Table of contents
 
 * [**Stack architecture and system design**](#Stack-architecture-and-system-design)
-   * Overview of stack
+   * [Overview of stack](#overview-of-stack)
 
 * [**Back End**](#back-end)
-   * MongoDB
+   * [MongoDB](#mongodb)
 
 * [**Middle tier**](#middle-tier)
-   * Express
-   * Node
-   * RESTful API
+   * [Express](#express)
+   * [Node](#node)
+   * [RESTful API](#restful-api)
 
 * [**Front end**](#front-end)
-   * Angular
+   * [Angular](#angular)
 
 * [**Authentication**](#authentication)
-   * Design Process and Ideation
-   * Identification of users and stakeholders
+   * [Design Process and Ideation](#design-process-and-ideation)
+   * [Identification of users and stakeholders](#identification-of-users-and-stakeholders)
 
 * [**Deployment and integration**](#deployment-and-integration)
-   * Design Process and Ideation
-   * Identification of users and stakeholders
-
+   * [Design Process and Ideation](#design-process-and-ideation)
+   * [Identification of users and stakeholders](#identification-of-users-and-stakeholders)
 
 
 ## Stack architecture and system design

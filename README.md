@@ -17,9 +17,9 @@
 
 ## Our Webpage
 
-NotSoBored games is a concept designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
+NotSoBored games is a single page app (SPA) designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
 
-Reconnect with old friends, play fun board games, and enjoy yourself. With video communication functionality, you'll be able to see each other while you go head-to-head. And the games will be challenging enough to keep you on your toes - leaving you with a sense of achievement.
+Reconnect with old friends, play fun board games, and enjoy yourself. With video communication functionality, chat with your opponent as you go head-to-head. And don't worry, the games will be challenging enough to keep you on your toes - leaving you coming back for more.
 
 
 ## Our Team
@@ -35,9 +35,9 @@ Reconnect with old friends, play fun board games, and enjoy yourself. With video
 
 ## Aims and Objectives
 
-The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an engaging, easy-to-use online multiplayer gaming application with video communication functionality through a single page app (SPA).
+The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an engaging, easy-to-use online multiplayer gaming application with video communication functionality delivered through a single page app (SPA).
 
-Given the huge societal change since the COVID-19 pandemic with enforced "social distancing", there has been a significant rise in levels of loneliness and social isolation in the general population, particularly in older adults [[**1**]](#references).  NotSoBored games is a perfect tool to help combat these public health concerns. Our proposed method differs from and contributes to existing methods since it combine a simple, visually appealing user interface with video communication functionality to deliver an engaging experience unlike existing online games which don't have video communication or are difficult to use. As such, we offer a novel alternative.
+Given the huge societal change since the COVID-19 pandemic with enforced "social distancing" and restrictions on movement, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly in older adults [[**1**]](#references).  NotSoBored games is designed to help combat these public health concerns. Our proposed method differs from and contributes to existing methods by combing a simple, visually appealing user interface with video communication functionality. This deliver an engaging experience unlike existing online games which lack video communication and ease of use. We offer a novel alternative.
 
 The main objective of this project is to explore whether we can improve upon existing online games for the elderly by delivering an SPA that can be used as a tool that is fun, engaging and easy to use. We investigate the hypothesis that the application can improve the quality of life of our stakeholders by conducting user testing. Based on our results, we believe our application can be used to help tackle the growing issue of loneliness and isolation in this group.
 

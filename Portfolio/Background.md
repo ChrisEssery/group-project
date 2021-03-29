@@ -9,7 +9,6 @@ In this section we discuss the background literature, state-of-the-art survey an
    * [Defining key terms](#defining-key-terms)
    * [Public health concerns](#public-health-concerns)
 
-
 * [**State of the art survey**](#state-of-the-art-survey)
    * [State of the art survey](#state-of-the-art-survey)
    * [Evaluation of survey](#evaluation-of-survey)
@@ -26,25 +25,29 @@ In what follows, we provide an overview of the background literature relating to
 
 According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
-### Defining key terms
-TO DO: Edit this section.
+<div align="center">
 
-Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background1.png)
+
+</div>
+
+### Defining key terms
+
+Now, let's define key terms. Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 
 Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
-Our target group is adults above the age 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game.
+Our target group is adults above the age 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game. And for our user testing we asked a wide range of users to test our prototype and provide their feedback in our user test survey (see [here](#user-testing) for the results of that survey).
 
 ### Public health concerns
 
-There are several public health concerns linked to loneliness and isolation. First, there are health issues. These health issues include...
+There are several public health concerns linked to loneliness and isolation. First, let's look at health issues. The health issues associated with loneliness and isolation range from These health issues include...
 
-Second, mental health issues with increased levels of negative emotions such as anxiety and depression. This is a very significant effect of isolation which is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health due to a lack motivation for self-care, less desire to go outside leading to melatonin suppression which is linked to insomnia; depression leading to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise.
+Second, mental health issues with increased levels of negative emotions such as anxiety and depression. This is a very significant effect of isolation which is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health due to a lack motivation to prioritise self-care as well as less desire to go outside leading to melatonin suppression which is linked to insomnia. There is also an increased likelihood for depression which can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, heart disease and high blood pressure.
 
 The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Find some references to back these claims up.
 
 ## State of the art survey
-TO DO: Edit this section.
 
 We now turn to a state of the art survey. After reviewing the state of the art technologies used we discovered that...
 
@@ -60,7 +63,6 @@ The level of difficulty of our chosen games is something to bear in mind since r
 
 
 ## Problem definition
-TO DO: Edit this section.
 
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
 
@@ -69,7 +71,6 @@ According to research by Kaufman et al, digital games offer opportunities for ol
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
 ## Motivation
-TO DO: Edit this section.
 
 The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.
 
@@ -84,11 +85,3 @@ The overarching aim is to create a game that can engage the elderly through a fu
 [3, 4] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 
 ___
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| email         | right-aligned | 50    |
-| email         | centered      | 23    |
-| emaul         | are neat      | 23    |
