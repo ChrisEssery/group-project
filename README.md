@@ -1,9 +1,9 @@
 
-![Travis (.org)](https://img.shields.io/travis/ChrisEssery/group-project/blob/dev/)
-![GitHub contributors](https://img.shields.io/github/contributors/ChrisEssery/group-project/blob/dev/)
-![GitHub milestones](https://img.shields.io/github/milestones/open/ChrisEssery/group-project/blob/dev/)
-![GitHub top language](https://img.shields.io/github/languages/top/ChrisEssery/group-project/blob/dev/)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ChrisEssery/group-project/blob/dev/)
+![Travis (.org)](https://img.shields.io/travis/ChrisEssery/group-project)
+![GitHub contributors](https://img.shields.io/github/contributors/ChrisEssery/group-project)
+![GitHub milestones](https://img.shields.io/github/milestones/open/ChrisEssery/group-project)
+![GitHub top language](https://img.shields.io/github/languages/top/ChrisEssery/group-project)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ChrisEssery/group-project)
 
 <div align="center">
 
