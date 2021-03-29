@@ -103,11 +103,3 @@ Angular is a client-side framework which is really effective at building SPAs. T
 ## Deployment
 
 ___
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| email         | right-aligned | 50    |
-| email         | centered      | 23    |
-| emaul         | are neat      | 23    |
