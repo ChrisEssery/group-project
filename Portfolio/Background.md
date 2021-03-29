@@ -40,9 +40,9 @@ Our target group is adults above the age 70. However, we acknowledge that indivi
 
 ### Public health concerns
 
-There are several public health concerns linked to loneliness and isolation. First, let's look at health issues. The health issues associated with loneliness and isolation range from high blood pressure, suppressed immune function, heart disease, body aches and headaches.
+There are several public health concerns linked to loneliness and isolation. First, let's look at health issues. The health issues associated with loneliness and isolation range from high blood pressure, suppressed immune function and heart disease to body aches and headaches.
 
-Second, mental health issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect which is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health. This is because poor mental health can lead to a lack motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the abovementioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
+The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect, and is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health. This is because poor mental health can lead to a lack motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the abovementioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
 Overall, the impact of mental health problems are nontrivial. The increased likelihood for depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
 
