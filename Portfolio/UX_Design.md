@@ -36,7 +36,7 @@ Below is a picture of a mind map created for our project ideation phase. The min
 
 </div>
 
-Here is a mind map of the different real world issues and problems we were considering. The idea here was to combine the issue/problem with a style of game to generate a board game for our SPA.
+Here is a mind map of the different real world issues and problems we were considering. The idea here was to combine a real world issue/problem with a particular type of game to generate a a board game for our SPA.
 
 <div align="center">
 
