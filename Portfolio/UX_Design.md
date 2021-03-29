@@ -1,3 +1,11 @@
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/header.png)
+
+</div>
+
+___
+
 # UX Design
 
 In this section we discuss the design of our app. We start with the initial to our working app. We include details about some users and their interests. We also explain the interface before looking at areas where we could have developed the product.
@@ -11,7 +19,6 @@ In this section we discuss the design of our app. We start with the initial to o
    * [Stakeholders](#stakeholders)
    * [Admin](#admin)
    * [Problem definition](#problem-definition)
-
 
 * [**UX approach - design methods**](#ux-approach-design-methods)
   * [Understanding user group](#understanding-user-group)
