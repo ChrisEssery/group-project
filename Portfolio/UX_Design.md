@@ -28,7 +28,7 @@ With regards to the background literature we decided to...
 ### Design Process and ideation
 
 
-Below is a picture of a mind map created for our project ideation phase. The mind map shows the different types of games we were considering when trying to determine what board game wewere going to build.
+Below is a picture of a mind map created for our project ideation phase. The mind map shows the different types of games we were considering when trying to determine what board game to build.
 
 <div align="center">
 
