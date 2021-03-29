@@ -58,7 +58,13 @@ Client(browser) is presentation and UI. This can be served by Amazon Web Service
 </div>
 
 
-Sever side we have the business logic, persistent data storage and authentication.
+Sever side we have the business logic, persistent data storage and authentication. Below is a diagram of a MEAN stack request/response data flow between client-server-database:
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation7.png)
+
+</div>
 
 How do we conenct these two? We send requests and responses. These are called AJAX (Background) requests and responses. We get JSON formatted data from this.
 
