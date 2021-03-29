@@ -21,7 +21,7 @@
 
 NotSoBored games is a single page app (SPA) designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
 
-Reconnect with old friends, play fun board games, and enjoy yourself. And with live video chat, you'll be able see your opponent as you go head-to-head, as you compete at different difficulty levels that will keep you on your toes.
+Reconnect with old friends, play fun board games, and enjoy yourself. And with live video chat, you'll be able see your opponent as you go head-to-head, competing at different difficulty levels that will keep you on your toes.
 
 
 ## Our Team
