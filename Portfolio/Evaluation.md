@@ -13,17 +13,15 @@ In this section we evaluate our app. We start by evaluating the design of the ap
 ## Table of contents
 
 * [**Evaluation of design**](#evaluation-of-design)
-   * Strengths
-   * Weaknesses
-   * Lessons learned
-
+   * [Strengths](#strengths)
+   * [Weaknesses](#weaknesses)
+   * [Lessons learned](#lessons-learned)
 * [**Unit testing**](#unit-testing)
-   * Testing harness
-   * Rationale
-
+   * [Testing harness](#testing-harness)
+   * [Rationale](#rationale)
 * [**User acceptance testing**](#user-acceptance-testing)
-  * User acceptance testing
-  * Findings and implications
+  * [User acceptance testing](#user-acceptance-testing)
+  * [Findings and implications](#findings-and-implications)
 
 
 ## Evaluation of design

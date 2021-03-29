@@ -16,11 +16,9 @@ In this section we discuss the background literature, state-of-the-art survey an
    * [Background literature](#background-literature)
    * [Defining key terms](#defining-key-terms)
    * [Public health concerns](#public-health-concerns)
-
 * [**State of the art survey**](#state-of-the-art-survey)
    * [State of the art survey](#state-of-the-art-survey)
    * [Evaluation of survey](#evaluation-of-survey)
-
 * [**Problem definition**](#problem-definition)
    * [Motivation](#motivation)
    * [Problem definition](#problem-definition)
