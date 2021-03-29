@@ -31,6 +31,12 @@ In this section we discuss the the system implementation of the app. We start wi
 
 In this section, we will now give a quick overview of the architecture and how it functions. First though, let's define key terms. To begin with, what is a single page application?
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation5.png)
+
+</div>
+
 In an angular app, we have one root index.html file. We serve that from our node server or from a different server (it can be decoupled from node) This html page includes script imports that houses our angular app, the angular framework and our code. We use that application to dynamically re-render what the user sees without sending a request for a second page to be rendered by the server because we never need to reload the page. We instead navigate to the page directly. We add new elements, helped out by the angular framework. This offers a powerful way to change the page. This provides a really interative and fast webpage. Instant re-rendering, instant user feedback and makes building an engaging UI possible. Dynamically re-rendered all the time by angular.
 
 How does the MEAN stack work then?
