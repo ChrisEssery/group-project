@@ -51,7 +51,12 @@ Let's have a look at the architecture. We have the client side in the browser an
 
 Client(browser) is presentation and UI. This can be served by Amazon Web Services (AWS), it doesn't have to be served by the node backend.
 
+<div align="center">
+
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation6.png)
+
+</div>
+
 
 Sever side we have the business logic, persistent data storage and authentication.
 
