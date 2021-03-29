@@ -27,7 +27,7 @@ In this section we discuss the design of our app. We start with the initial to o
 
 ## UX Design
 
-With regards to the background literature we decided to...
+With regard to the UX design, we decided to...
 
 ### Design Process and ideation
 
