@@ -20,7 +20,7 @@ In this section we discuss the background literature, state-of-the-art survey an
 
 ## Background literature
 
-In what follows, we provide an overview of the background literature relating to social isolation and loneliness among older people. We define key terms and identify public health concerns and current interventions.
+In this section, we provide an overview of the background literature relating to social isolation and loneliness among older people. We define key terms and identify public health concerns and current interventions.
 
 According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
@@ -40,11 +40,13 @@ Our target group is adults above the age 70. However, we acknowledge that indivi
 
 ### Public health concerns
 
-There are several public health concerns linked to loneliness and isolation. First, let's look at health issues. The health issues associated with loneliness and isolation range from These health issues include...
+There are several public health concerns linked to loneliness and isolation. First, let's look at health issues. The health issues associated with loneliness and isolation range from high blood pressure, suppressed immune function, heart disease, body aches and headaches.
 
-Second, mental health issues with increased levels of negative emotions such as anxiety and depression. This is a very significant effect of isolation which is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health due to a lack motivation to prioritise self-care as well as less desire to go outside leading to melatonin suppression which is linked to insomnia. There is also an increased likelihood for depression which can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, heart disease and high blood pressure.
+Second, mental health issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect which is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health. This is because poor mental health can lead to a lack motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the abovementioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
-The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Find some references to back these claims up.
+Overall, the impact of mental health problems are nontrivial. The increased likelihood for depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
+
+The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network people can experience a decline in their mental acuity, choosing not to seek out activities which challenge their mind and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain in older age, while others such as conceptual reasoning and memory decline. It is very important therefore to exercise their minds to avoid cognitive decline [[**3**]](#references).
 
 ## State of the art survey
 
@@ -64,14 +66,14 @@ We can discuss the benefits of adding increased level of difficulty, and how we 
 
 </div>
 
-The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**3**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, it we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
+The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, it we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
 
 ## Problem definition
 
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
 
-According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**4**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
+According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
@@ -87,6 +89,7 @@ The overarching aim is to create a game that can engage the elderly through a fu
 
 [2] Valtorta N, Hanratty B. Loneliness, isolation and the health of older adults: do we need a new research agenda? J R Soc Med Suppl. 2012;105(12):518–22.
 
-[3, 4] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
+[3]  Williams, K. N., & Kemper, S. (2010). Interventions to reduce cognitive decline in aging. Journal of psychosocial nursing and mental health services, 48(5), 42–51. https://doi.org/10.3928/02793695-20100331-03 Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 
+[4, 5] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 ___
