@@ -95,10 +95,6 @@ This section is comprised of the following subsections:
 * Evaluation of design
 * Unit testing
 * User acceptance testing
-* Reflection on working practices
-* Reflection of successes
-* Social and ethical implications
-* Future work
 
 ## [6. Conclusion](Portfolio/Conclusion.md)
 
@@ -113,9 +109,8 @@ This section is comprised of the following subsections:
 
 ## Technologies Used
 Project is created with:
-* MEAN stack
+* MEAN stack with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 * Docker
-* [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</div>
 
