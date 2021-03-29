@@ -40,13 +40,13 @@ Our target group is adults above the age 70. However, we acknowledge that indivi
 
 ### Public health concerns
 
-There are several public health concerns linked to loneliness and isolation. First, let's look at health issues. The health issues associated with loneliness and isolation range from high blood pressure, suppressed immune function and heart disease to body aches and headaches.
+There are several public health concerns linked to loneliness and isolation. Let's begin by looking at health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains and headaches.
 
 The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect, and is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health. This is because poor mental health can lead to a lack motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the abovementioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
-Overall, the impact of mental health problems are nontrivial. The increased likelihood for depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
+Overall, the impact of mental health problems is nontrivial. The increased likelihood for depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
 
-The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network people can experience a decline in their mental acuity, choosing not to seek out activities which challenge their mind and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain in older age, while others such as conceptual reasoning and memory decline. It is very important therefore to exercise their minds to avoid cognitive decline [[**3**]](#references).
+The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network people can experience a decline in their mental acuity, choosing to avoid activities which challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain in older age, while others such as conceptual reasoning and memory decline. It is very important therefore to exercise their minds to avoid cognitive decline [[**3**]](#references).
 
 ## State of the art survey
 
