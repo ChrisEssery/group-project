@@ -1,3 +1,11 @@
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/header.png)
+
+</div>
+
+___
+
 # Evaluation
 
 In this section we evaluate our app. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We then move on to unit testing, with a focus on how our selected harness helped us throughout the project build. After unit testing, we go on to look at user acceptance testing and we reflect on our working practices and successes. Finally, we discuss the social and ethical implications of our product and future work.
@@ -5,17 +13,15 @@ In this section we evaluate our app. We start by evaluating the design of the ap
 ## Table of contents
 
 * [**Evaluation of design**](#evaluation-of-design)
-   * Strengths
-   * Weaknesses
-   * Lessons learned
-
+   * [Strengths](#strengths)
+   * [Weaknesses](#weaknesses)
+   * [Lessons learned](#lessons-learned)
 * [**Unit testing**](#unit-testing)
-   * Testing harness
-   * Rationale
-
+   * [Testing harness](#testing-harness)
+   * [Rationale](#rationale)
 * [**User acceptance testing**](#user-acceptance-testing)
-  * User acceptance testing
-  * Findings and implications
+   * [User acceptance testing](#user-acceptance-testing)
+   * [Findings and implications](#findings-and-implications)
 
 
 ## Evaluation of design

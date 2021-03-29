@@ -1,3 +1,11 @@
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/header.png)
+
+</div>
+
+___
+
 # System Implementation
 
 In this section we discuss the the system implementation of the app. We start with a stack architecture and system design overview. Then, we look closely at the middle tier covering Express, Node, RESTful API. After that we move to the front end and go over Angular, before moving on to authentication and deployment and integration.
@@ -6,22 +14,17 @@ In this section we discuss the the system implementation of the app. We start wi
 
 * [**Stack architecture and system design**](#Stack-architecture-and-system-design)
    * [Overview of stack](#overview-of-stack)
-
 * [**Back End**](#back-end)
    * [MongoDB](#mongodb)
-
 * [**Middle tier**](#middle-tier)
    * [Express](#express)
    * [Node](#node)
    * [RESTful API](#restful-api)
-
 * [**Front end**](#front-end)
    * [Angular](#angular)
-
 * [**Authentication**](#authentication)
    * [Design Process and Ideation](#design-process-and-ideation)
    * [Identification of users and stakeholders](#identification-of-users-and-stakeholders)
-
 * [**Deployment and integration**](#deployment-and-integration)
    * [Design Process and Ideation](#design-process-and-ideation)
    * [Identification of users and stakeholders](#identification-of-users-and-stakeholders)
@@ -49,9 +52,22 @@ How does the MEAN stack work then?
 
 Let's have a look at the architecture. We have the client side in the browser and the server side where we run our business logic which the user only indiretly uses. In the client side we use angular. On the server-side, we use node.js, expresss and mongoDB (not direcly connected to by Anglar).
 
-Client(browser) is presentation and UI. This can be served by AWS, it doesn't have to be served by the node backend.
+Client(browser) is presentation and UI. This can be served by Amazon Web Services (AWS), it doesn't have to be served by the node backend.
 
-Sever side we have the business logic, persistent data storage and authentication.
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation6.png)
+
+</div>
+
+
+Sever side we have the business logic, persistent data storage and authentication. Below is a diagram of a MEAN stack request/response data flow between client-server-database:
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation7.png)
+
+</div>
 
 How do we conenct these two? We send requests and responses. These are called AJAX (Background) requests and responses. We get JSON formatted data from this.
 

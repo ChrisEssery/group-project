@@ -1,3 +1,11 @@
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/header.png)
+
+</div>
+
+___
+
 # UX Design
 
 In this section we discuss the design of our app. We start with the initial to our working app. We include details about some users and their interests. We also explain the interface before looking at areas where we could have developed the product.
@@ -6,16 +14,12 @@ In this section we discuss the design of our app. We start with the initial to o
 
 * [**UX Design**](#ux-design)
    * [Design Process and Ideation](#design-process-and-ideation)
-
 * [**Identification of users and stakeholders**](#identification-of-users-and-stakeholders)
    * [Stakeholders](#stakeholders)
    * [Admin](#admin)
    * [Problem definition](#problem-definition)
-
-
 * [**UX approach - design methods**](#ux-approach-design-methods)
   * [Understanding user group](#understanding-user-group)
-
 * [**Wireframes and interaction flow diagrams**](#wireframes-and-interaction-flow-diagrams)
   * [Web wireframe](#web-wireframe)
   * [MEAN stack wireframe](#mean-stack-wireframe)
@@ -23,7 +27,7 @@ In this section we discuss the design of our app. We start with the initial to o
 
 ## UX Design
 
-With regards to the background literature we decided to...
+With regard to the UX design, we decided to...
 
 ### Design Process and ideation
 

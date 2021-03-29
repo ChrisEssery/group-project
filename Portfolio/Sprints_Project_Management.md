@@ -1,3 +1,11 @@
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/header.png)
+
+</div>
+
+___
+
 # 4. Sprints & Project Management
 
 In this section, we discuss project sprints and management. We start by going over the team organisation, roles, and contributions. We then move on to discuss the way we approached communication and documentation of sprints. Finally, we discuss the team use of git and the impact Covid-19 had on our working practices.
