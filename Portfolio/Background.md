@@ -13,7 +13,6 @@ In this section we discuss the background literature, state-of-the-art survey an
    * [State of the art survey](#state-of-the-art-survey)
    * [Evaluation of survey](#evaluation-of-survey)
 
-
 * [**Problem definition**](#problem-definition)
    * [Motivation](#motivation)
    * [Problem definition](#problem-definition)
@@ -58,6 +57,12 @@ Pete: Provide examples of the "current solutions out there/trends/relations betw
 According to Pete, we need to outline how our app differs from these apps. We also need to mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach.
 
 We can discuss the benefits of adding increased level of difficulty, and how we will (possibly?) try and incorporate this into the web app.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
+
+</div>
 
 The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**3**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, it we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
