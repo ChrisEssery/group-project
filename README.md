@@ -1,9 +1,9 @@
 
-![Travis (.org)](https://img.shields.io/travis/MaxSkippGriff/single-page-app)
-![GitHub contributors](https://img.shields.io/github/contributors/MaxSkippGriff/single-page-app)
-![GitHub milestones](https://img.shields.io/github/milestones/open/MaxSkippGriff/single-page-app)
-![GitHub top language](https://img.shields.io/github/languages/top/MaxSkippGriff/single-page-app)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/MaxSkippGriff/single-page-app)
+![Travis (.org)](https://img.shields.io/travis/ChrisEssery/group-project/blob/dev/)
+![GitHub contributors](https://img.shields.io/github/contributors/ChrisEssery/group-project/blob/dev/)
+![GitHub milestones](https://img.shields.io/github/milestones/open/ChrisEssery/group-project/blob/dev/)
+![GitHub top language](https://img.shields.io/github/languages/top/ChrisEssery/group-project/blob/dev/)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ChrisEssery/group-project/blob/dev/)
 
 <div align="center">
 
