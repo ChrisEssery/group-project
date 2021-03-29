@@ -66,11 +66,11 @@ This is the big picture view of the MEAN stack.
 
 </div>
 
-For our databse, we used mongoDB, the NoSQL databse which stores documents in collections insted of records in tables as in the SQL databse. Store applicatoin data (users, products) and enforces no data schema or relations. it is way less strict than a SQL databse. Finally, it is easily to connect to Noe/Expressbut importantly not angular. This is a powerful database which can be integrated into a Node/Express environment.
+For our databse, we used mongoDB. MongoDB is a NoSQL database which stores documents in collections instead of records in tables as with a SQL database. MongoDB stores application data (e.g., users and products) and enforces no data schema or relations. For this reason is is much less strict than a SQL database. It is also easily connected to Node.js and Express, but importantly not angular for security reasons. Because mongoDB is a powerful database that can be easily integrated into a Node/Express environment, it was an obvious choice, as we were looking to buil dour application quickly and with as little problems as possible. The 'M' in MEAN was, therefore, very important to ensure everything worked well and without issues.
 
-It is highly scalable.
+Another advantage of mongoDB is that it is highly scalable. Were we to continue with NotSoBored games and try make it into a business, mongoDB would allow for us to scale in size.
 
-We could have used a SQL database in this project. But we decided not to do this because we doen't have data with lots of connections so it doesn't seem necessary to use SQL. We are using this stack though
+So, why didn't we use a SQL database instead? We decided not to do this because we wanted to use the MEAN stack, which is a recognised stack that enables quick builds, and we also recognised that, for our purposes, we don't require a database to hold data with lots of connections. Instead, the data we will be storing requires very few. Give this fact, we felt it wasn't necessary to use SQL.
 
 ## Middle tier
 
@@ -83,11 +83,9 @@ Now, turning to the middle tier, we have Express, Node.js and RESTful API.
 
 </div>
 
-Node.js is the language used for the backend. It is a server-side library with javascript on the server-side. It listens to requirest and responds accorindingly, it executes server-side logic and interacts with databases and files.
+Node.js is the language used for the backend. Specifically, it is a server-side library with javascript on the server-side. It listens to requests and responds accordingly. It executes server-side logic and interacts with databases and files.
 
-This is an alternative to PHP, Ruby on
-
-Express is a Node.js framework which simplifies writing server-side logic. It offers the same functionalities as node and is middleware-base. funnel requests through functions. It includes routing, view-rendering and more.
+This is an alternative to PHP. Express is a Node.js framework which simplifies writing server-side logic. It is build on top of the node.js framework, and enhances its functionality. It offers the same functionalities as node and is middleware-based, funnelling requests through functions. Its functionality includes routing, view-rendering and more, and depending on the client requests, it uses 'routes' to assist in directing users to different parts of a web application, thereby fast tracking the process improving the speed of server-based applications.  
 
 
 ## Front end
