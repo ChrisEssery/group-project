@@ -54,6 +54,12 @@ This is the big picture view of the MEAN stack.
 
 ## Back end
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation2.png)
+
+</div>
+
 For our databse, we used mongoDB, the NoSQL databse which stores documents in collections insted of records in tables as in the SQL databse. Store applicatoin data (users, products) and enforces no data schema or relations. it is way less strict than a SQL databse. Finally, it is easily to connect to Noe/Expressbut importantly not angular. This is a powerful database which can be integrated into a Node/Express environment.
 
 It is highly scalable.
@@ -62,7 +68,14 @@ We could have used a SQL database in this project. But we decided not to do this
 
 ## Middle tier
 
-When conducting the state of the art survey, we took the decision to...
+Now, turning to the middle tier, we have Express, Node.js and RESTful API.
+
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation3.png)
+
+</div>
 
 Node.js is the language used for the backend. It is a server-side library with javascript on the server-side. It listens to requirest and responds accorindingly, it executes server-side logic and interacts with databases and files.
 
@@ -73,7 +86,15 @@ Express is a Node.js framework which simplifies writing server-side logic. It of
 
 ## Front end
 
-For the front end, we decided to use Angular. Angular is a client-side framework which is really effective at building SPAs. This is because it simultaneously renders UI with dynamic data, handles user input and communicates with the services in the back end. This, in many ways, creates an expreience similar to that of a mobile app.
+For the front end, we decided to use Angular.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation4.png)
+
+</div>
+
+Angular is a client-side framework which is really effective at building SPAs. This is because it simultaneously renders UI with dynamic data, handles user input and communicates with the services in the back end. This, in many ways, creates an expreience similar to that of a mobile app.
 
 ## Authentication
 
