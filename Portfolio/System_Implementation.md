@@ -49,7 +49,9 @@ How does the MEAN stack work then?
 
 Let's have a look at the architecture. We have the client side in the browser and the server side where we run our business logic which the user only indiretly uses. In the client side we use angular. On the server-side, we use node.js, expresss and mongoDB (not direcly connected to by Anglar).
 
-Client(browser) is presentation and UI. This can be served by AWS, it doesn't have to be served by the node backend.
+Client(browser) is presentation and UI. This can be served by Amazon Web Services (AWS), it doesn't have to be served by the node backend.
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation6.png)
 
 Sever side we have the business logic, persistent data storage and authentication.
 
