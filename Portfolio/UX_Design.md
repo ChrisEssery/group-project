@@ -27,6 +27,23 @@ With regards to the background literature we decided to...
 
 ### Design Process and ideation
 
+
+Below is a picture of a mind map created for our project ideation phase. The mind map shows the different types of games we were considering when trying to determine what board game wewere going to build.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/mind_map.png)
+
+</div>
+
+Here is a mind map of the different real world issues and problems we were considering. The idea here was to combine the issue/problem with a style of game to generate a board game for our SPA.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/mind_map2.png)
+
+</div>
+
 The following are photos of the ideas matrix we used to generate ideas for the application. Different types of games are in the rows and different types of real-world issues are in the columns.
 
 [![ideas1.png](https://i.postimg.cc/TwvNhtdg/ideas1.png)](https://postimg.cc/WDSwH6J1)
