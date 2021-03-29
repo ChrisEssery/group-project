@@ -5,7 +5,7 @@
 ![GitHub top language](https://img.shields.io/github/languages/top/ChrisEssery/group-project)
 ![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ChrisEssery/group-project)
 ![Github commit activity](https://img.shields.io/github/commit-activity/w/ChrisEssery/group-project)
-![Github last commit](https://img.shields.io/github/last-commit/ChrisEssery/group-project)
+![Github commit](https://img.shields.io/github/last-commit/ChrisEssery/group-project)
 
 <div align="center">
 
