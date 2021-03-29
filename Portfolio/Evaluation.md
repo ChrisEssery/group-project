@@ -20,8 +20,8 @@ In this section we evaluate our app. We start by evaluating the design of the ap
    * [Testing harness](#testing-harness)
    * [Rationale](#rationale)
 * [**User acceptance testing**](#user-acceptance-testing)
-  * [User acceptance testing](#user-acceptance-testing)
-  * [Findings and implications](#findings-and-implications)
+   * [User acceptance testing](#user-acceptance-testing)
+   * [Findings and implications](#findings-and-implications)
 
 
 ## Evaluation of design
