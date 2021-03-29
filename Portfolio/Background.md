@@ -56,9 +56,7 @@ The third public health concern is cognitive decline. As with the previous two h
 
 ## State of the art survey
 
-We now turn to a state of the art survey. After reviewing the state of the art technologies used we discovered that...
-
-Digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits. Provide references.
+We now turn to our state of the art survey. After reviewing the state of the art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits. According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
 Pete: Provide examples of the "current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing."
 
@@ -78,8 +76,6 @@ The level of difficulty of our chosen games is something to bear in mind since r
 ## Problem definition
 
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
-
-According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
