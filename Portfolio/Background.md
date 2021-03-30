@@ -78,7 +78,11 @@ Puzzle games sucha s candy crush is a popular mobile game. There are also consol
 
 ### AARP's free online games
 
+<div align="center">
+
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background5.png)
+
+</div>
 
 This site contains a very large number of different board games ranging from sudoku and checkers to chess and scrabble.
 
@@ -90,7 +94,11 @@ No video communication functionality.
 
 ### Gametable's free online Games
 
+<div align="center">
+
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background4.png)
+
+</div>
 
 This site contains a fewer games that AARP.
 
@@ -102,7 +110,11 @@ No video communication functionality.
 
 ### Lexulous
 
+<div align="center">
+
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background3.png)
+
+</div>
 
 For example, Lexulous and Words with friends are scrabble-style games easily downloaded from the App store.
 
