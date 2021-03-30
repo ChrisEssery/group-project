@@ -98,8 +98,8 @@
 }
 .bgPulse span:nth-child(13)
 {
-    top: 65%;
-    left: 30%;
+    top: 70%;
+    left: 80%;
     animation: animate 7s linear infinite;
 }
 .bgPulse span:nth-child(14)
