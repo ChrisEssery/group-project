@@ -74,11 +74,11 @@ We now turn to our state of the art survey. After reviewing the state of the art
 
 We now turn to the state of the art survey. There are a wide range of digital games designed for the elderly and games which can be easily used by the elderly. Mobile games are an good option as you have thousands of fun, free games which allow you to play against friends, family and anyone in the world.
 
-For example, Lexulous and Words with friends are scrabble-style games easily downloaded from the App store.
-
 Puzzle games sucha s candy crush is a popular mobile game. There are also console games, but for our purposes we will be focusing on games that you can access through a webpage. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games hosts a huge range of card, puzzle, and arcade games. Gametable's free online games is an example which is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's and ... after we have done this we will look at two outliers which merit consideration.
 
 ### AARP's free online games
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background5.png)
 
 This site contains a very large number of different board games ranging from sudoku and checkers to chess and scrabble.
 
@@ -90,6 +90,8 @@ No video communication functionality.
 
 ### Gametable's free online Games
 
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background4.png)
+
 This site contains a fewer games that AARP.
 
 It is free
@@ -98,6 +100,11 @@ It is a clean, straightforward homepage and is very easy to use.
 
 No video communication functionality.
 
+### Lexulous
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background3.png)
+
+For example, Lexulous and Words with friends are scrabble-style games easily downloaded from the App store.
 
 
 ### Outliers
