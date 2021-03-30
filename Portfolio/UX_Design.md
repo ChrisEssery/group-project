@@ -94,7 +94,9 @@ When identifying the users and stakeholders we took the decision to...
 
 
 
+## Game design for older people
 
+A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli. Ijsselsteijn et al () conduct research on the design of digital games for the elderly from the perspective of health and psychology. In this work, the authors stress the importance of going beyong typical usability requirements to account for the wide range of abiiities and impairments in the 70+ age group. Some of the suggestions include: using a game for social and educational purposes, for relaxation and entertainment, motivation for sharpening the mind, for encouraging physical activity. Similarly, Wang () suggests a very similar set of design requirements.
 
 
 
@@ -104,9 +106,11 @@ When considering the UX approach we felt it was important to choose something th
 
 ## Wireframes and interaction flow diagrams
 
+## References
 
+[3] Ijsselsteijn W., Herman H. et al., “Digital game design for elderly users”, Eindhoven University of Technology, 2007. https://dl.acm.org/citation.cfm?id=1328206
 
-
+[4] Wang J., “Digital Game Design for Elderly Users: A Multi-Disciplinary Review”, The University of Birmingham, School of Computer Science, August 2016, http://www.cs.bham.ac.uk/~rjh/courses/ResearchTopicsInHCI/2015-16/Submissions/wangjiahui.pdf
 
 ___
 
