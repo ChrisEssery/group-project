@@ -62,7 +62,7 @@ According to research by Kaufman et al, digital games offer opportunities for ol
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background5.png)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background6.png)
 
 </div>
 
