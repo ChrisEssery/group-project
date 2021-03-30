@@ -62,7 +62,7 @@ According to research by Kaufman et al, digital games offer opportunities for ol
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background6.png)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
 
 </div>
 
@@ -145,7 +145,7 @@ We can discuss the benefits of adding increased level of difficulty, and how we 
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background6.png)
 
 </div>
 
