@@ -54,7 +54,22 @@ Overall, the impact of mental health problems is nontrivial. The increased likel
 
 The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network people can experience a decline in their mental acuity, choosing to avoid activities which challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain in older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
 
-## State of the art survey
+### Can digital games help tackle the health concerns associated with loneliness and isolation?
+
+Before reviewing existing solutions and identifying the gap in the market with respect to digital games for the elderly, we will look at what science tells about the role digital games can play in tackling loneliness and isolation.
+
+According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
+
+Although the wide held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have showed that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks and shopping [[**6**]](#references). Research has also shown that brain training on a daily basis can have a long lasting effects for a person's cognitive abilities.
+
+For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function and processing speed. Furthermore, most research shows that playing games improves life satisfaction and quality of life.
+
+
+In addition to this, there is research which suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
+
+## State of the art survey: what is out there already?
+
+We now turn to our state of the art survey. After reviewing the state of the art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits.
 
 We now turn to the state of the art survey. There are a wide range of digital games designed for the elderly and games which can be easily used by the elderly. Mobile games are an good option as you have thousands of fun, free games which allow you to play against friends, family and anyone in the world.
 
@@ -83,32 +98,15 @@ It is a clean, straightforward homepage and is very easy to use.
 No video communication functionality.
 
 
-### Gap in the market?
-
-There exists a gap in the market for a site like Gametable, which is multiplayer and has video communication functionality. There doesn't appear to be anything in the market which offers both of these services. 
-
-### Can digital games help tackle the health concerns associated with loneliness and isolation?
-
-Before reviewing existing solutions and identifying the gap in the market with respect to digital games for the elderly, we will look at what science tells about the role digital games can play in tackling loneliness and isolation.
-
-According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
-
-Although the wide held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have showed that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks and shopping [[**6**]](#references). Research has also shown that brain training on a daily basis can have a long lasting effects for a person's cognitive abilities.
-
-For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function and processing speed. Furthermore, most research shows that playing games improves life satisfaction and quality of life.
-
-
-In addition to this, there is research which suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
-
-### What is out there already?
-
-We now turn to our state of the art survey. After reviewing the state of the art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits. B
-
 
 ### Outliers
 
+There are a few outliers which host digital games for the elderly.
+
 
 ### A gap in the market
+
+There exists a gap in the market for a site like Gametable, which is multiplayer and has video communication functionality. There doesn't appear to be anything in the market which offers both of these services.
 
 
 
