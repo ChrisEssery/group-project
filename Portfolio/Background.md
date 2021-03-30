@@ -56,7 +56,31 @@ The third public health concern is cognitive decline. As with the previous two h
 
 ## State of the art survey
 
-We now turn to our state of the art survey. After reviewing the state of the art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits. According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
+### Can digital games help tackle the health concerns associate with loneliness and isolation?
+
+Before reviewing existing solutions and identifying the gap in the market with respect to digital games for the elderly, we will look at what science tells about the role digital games can play in tackling loneliness and isolation.
+
+According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
+
+Although the wide held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have showed that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks and shopping [[**6**]](#references). Research has also shown that brain training on a daily basis can have a long lasting effects for a person's cognitive abilities.
+
+For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function and processing speed. Furthermore, most research shows that playing games improves life satisfaction and quality of life.
+
+
+In addition to this, there is research which suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
+
+### What is out there already?
+
+We now turn to our state of the art survey. After reviewing the state of the art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits. B
+
+
+### Outliers
+
+
+### A gap in the market
+
+
+
 
 Pete: Provide examples of the "current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing."
 
@@ -94,4 +118,7 @@ The overarching aim is to create a game that can engage the elderly through a fu
 [3]  Williams, K. N., & Kemper, S. (2010). Interventions to reduce cognitive decline in aging. Journal of psychosocial nursing and mental health services, 48(5), 42–51. https://doi.org/10.3928/02793695-20100331-03 Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 
 [4, 5] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
+
+[6] Corbett A, Owen A, Hampshire A, Grahn J, Stenton R, Dajani S, Burns A, Howard R, Williams N, Williams G, Ballard C. The Effect of an Online Cognitive Training Package in Healthy Older Adults: An Online Randomized Controlled Trial. J Am Med Dir Assoc. 2015 Nov 1;16(11):990-7. doi: 10.1016/j.jamda.2015.06.014. PMID: 26543007.
+
 ___
