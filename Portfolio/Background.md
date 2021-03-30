@@ -60,6 +60,12 @@ Before reviewing existing solutions and identifying the gap in the market with r
 
 According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background5.png)
+
+</div>
+
 Although the wide held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have showed that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks and shopping [[**6**]](#references). Research has also shown that brain training on a daily basis can have a long lasting effects for a person's cognitive abilities.
 
 For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function and processing speed. Furthermore, most research shows that playing games improves life satisfaction and quality of life.
