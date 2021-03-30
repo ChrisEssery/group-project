@@ -64,8 +64,9 @@ Although the wide held view of ageing is that physical and cognitive decline are
 
 For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function and processing speed. Furthermore, most research shows that playing games improves life satisfaction and quality of life.
 
-
 In addition to this, there is research which suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
+
+The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, it we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
 ## State of the art survey: what is out there already?
 
@@ -123,7 +124,6 @@ We can discuss the benefits of adding increased level of difficulty, and how we 
 
 </div>
 
-The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, it we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
 
 ## Problem definition
