@@ -43,7 +43,7 @@ Given the huge societal impact of the COVID-19 crisis with restrictions on peopl
 
 The main objective of this project is to explore whether we can improve upon existing online games for the elderly by delivering an SPA that can be used as a tool that is fun, engaging and easy to use. We investigate the hypothesis that the application can improve the quality of life of our stakeholders by conducting user testing. Based on our results, we believe our application can be used to help tackle the growing issue of loneliness and isolation in this group.
 
-In our project report we explain and analyse our SPA, from ideation to implementation, we also give an overview of background literature, do a state-of-the-art survey and identify promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
+In our project report we explain and analyse our SPA, from ideation to implementation, we also give an overview of background literature, conduct a state-of-the-art survey and identify promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
 
 ___
 
