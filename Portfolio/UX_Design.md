@@ -73,7 +73,7 @@ When identifying the users and stakeholders we took the decision to...
 
 | Stakeholder                                                                         | Stakeholder's story                                                 |
 | ----------------------------------------------------------------------------------- |:-------------------------------------------------------------------:|
-|<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">|<div style="text-align: right"> Bill likes cheese more than anything else. He also loves to design and build websites. </div>                                                                                                                                                        |                                                                                                           
+|<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">|<div style="text-align: right"> Bill enjoys playing board games but he has no experience with digital games. He wasnts a challenge, but he also doesn't want to get lost in the complexity of 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages.  </div>                                                                                                                                                        |                                                                                                           
 |                                                                                     |                                                                     |
 
 
@@ -81,7 +81,7 @@ When identifying the users and stakeholders we took the decision to...
 
 | Stakeholder                                                                         | Stakeholder's story                                                 |
 | ----------------------------------------------------------------------------------- |:-------------------------------------------------------------------:|
-|<img align="left" width="100" height="100" src="https://www.placecage.com/100/100">|<div style="text-align: right"> Tony does not like cheese at all. But more importantly, he really loves to play games. </div>                                                                                                                                                        |                                                                                                           
+|<img align="left" width="100" height="100" src="https://www.placecage.com/100/100">|<div style="text-align: right"> Tony, 78, has been a regular gamer for many years. He thinks it is the best form of entertainment. He isn't fussy about what he plays so long as it's fun and social, he's happy. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                     |                                                                     |
 
 
