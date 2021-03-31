@@ -1,3 +1,8 @@
+/*
+   Leave spec.ts since it contains unit tests
+   for main component. 
+*/
+
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
 import { MemoryGameComponent } from './memory-game.component';

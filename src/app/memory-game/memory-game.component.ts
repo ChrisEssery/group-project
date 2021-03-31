@@ -1,3 +1,7 @@
+/*
+   TO DO: Complete OnInit with basic game commands.
+*/
+
 import { Component, OnInit } from '@angular/core';
 
 @Component({

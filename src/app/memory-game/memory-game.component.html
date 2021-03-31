@@ -1,1 +1,18 @@
-<p>memory-game works!</p>
+<!--Set class attributes for HTML elements-->
+
+<div class = "game-wrapper">
+   <div class= "memory-game" *ngIf = "cards.length; else noSelectedGame" >
+
+   <header class = "game-header">
+      <div class = "header-item">
+         <h3 class = "game-icon"> {{game.icon}} </h3>
+      </div>
+      <div class = "header-item">
+         <h4> Moves: {{moves}}</h4>
+      </div>
+
+   </header>
+
+
+
+</div>
