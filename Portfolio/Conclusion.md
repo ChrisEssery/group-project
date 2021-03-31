@@ -6,7 +6,7 @@
 
 ___
 
-# Evaluation
+# Conclusion
 
 In this final section, we reflect on our app and how far we've come. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We reflect on our working practices and successes and finally we discuss the social and ethical implications of our product and future work.
 
