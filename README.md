@@ -1,10 +1,10 @@
 
-![Travis (.org)](https://img.shields.io/travis/ChrisEssery/group-project/dev)
-![GitHub contributors](https://img.shields.io/github/contributors/ChrisEssery/group-project/dev)
-![GitHub milestones](https://img.shields.io/github/milestones/open/ChrisEssery/group-project/dev)
-![GitHub top language](https://img.shields.io/github/languages/top/ChrisEssery/group-project/dev)
-![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ChrisEssery/group-project/dev)
-![Github commit activity](https://img.shields.io/github/commit-activity/w/ChrisEssery/group-project/dev)
+![Travis (.org)](https://img.shields.io/travis/ChrisEssery/group-project/tree/dev)
+![GitHub contributors](https://img.shields.io/github/contributors/ChrisEssery/group-project/tree/dev)
+![GitHub milestones](https://img.shields.io/github/milestones/open/ChrisEssery/group-project/tree/dev)
+![GitHub top language](https://img.shields.io/github/languages/top/ChrisEssery/group-project/tree/dev)
+![GitHub closed pull requests](https://img.shields.io/github/issues-pr-closed-raw/ChrisEssery/group-project/tree/dev)
+![Github commit activity](https://img.shields.io/github/commit-activity/w/ChrisEssery/group-project/tree/dev)
 
 
 <div align="center">
