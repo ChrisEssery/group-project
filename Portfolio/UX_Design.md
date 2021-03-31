@@ -8,7 +8,7 @@ ___
 
 # UX Design
 
-In this section we discuss the design of our app. We start with the initial to our working app. We include details about some users and their interests. We also explain the interface before looking at areas where we could have developed the product.
+In this section, we discuss the design of our app. We start with the initial to our working app. We include details about some users and their interests. We also explain the interface before looking at areas where we could have developed the product.
 
 ## Table of contents
 
@@ -73,7 +73,7 @@ When identifying the users and stakeholders we took the decision to...
 
 | Stakeholder                                                                         | Stakeholder's story                                                 |
 | ----------------------------------------------------------------------------------- |:-------------------------------------------------------------------:|
-|<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">|<div style="text-align: right"> Bill enjoys playing board games but he has no experience with digital games. He wasnts a challenge, but he also doesn't want to get lost in the complexity of 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages.  </div>                                                                                                                                                        |                                                                                                           
+|<img align="left" width="100" height="100" src="http://www.fillmurray.com/100/100">|<div style="text-align: right"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages.  </div>                                                                                                                                                        |                                                                                                           
 |                                                                                     |                                                                     |
 
 
@@ -89,14 +89,14 @@ When identifying the users and stakeholders we took the decision to...
 
 | Stakeholder                                                                         | Stakeholder's story                                                 |
 | ----------------------------------------------------------------------------------- |:-------------------------------------------------------------------:|
-|<img align="left" width="100" height="100" src="https://www.stevensegallery.com/100/100">|<div style="text-align: right"> John loves to develop android products. In his spare time he likes to play challenging games. </div>                                                                                                                                                        |                                                                                                           
+|<img align="left" width="100" height="100" src="https://www.stevensegallery.com/100/100">|<div style="text-align: right"> John knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                     |                                                                     |
 
 
 
 ## Game design for older people
 
-A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli. Ijsselsteijn et al () conduct research on the design of digital games for the elderly from the perspective of health and psychology. In this work, the authors stress the importance of going beyong typical usability requirements to account for the wide range of abiiities and impairments in the 70+ age group. Some of the suggestions include: using a game for social and educational purposes, for relaxation and entertainment, motivation for sharpening the mind, for encouraging physical activity. Similarly, Wang () suggests a very similar set of design requirements.
+A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli. Ijsselsteijn et al () conduct research on the design of digital games for the elderly from the perspective of health and psychology. In this work, the authors stress the importance of going beyong typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group. Some of the suggestions include: using a game for social and educational purposes, for relaxation and entertainment, motivation for sharpening the mind, for encouraging physical activity. Similarly, Wang () suggests a very similar set of design requirements.
 
 
 

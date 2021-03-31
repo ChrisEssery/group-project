@@ -8,7 +8,7 @@ ___
 
 # Evaluation
 
-In this final section we reflect on our app and how far we've come. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We reflect on our working practices and successes and finally we discuss the social and ethical implications of our product and future work.
+In this final section, we reflect on our app and how far we've come. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We reflect on our working practices and successes and finally we discuss the social and ethical implications of our product and future work.
 
 ## Table of contents
 
@@ -16,16 +16,13 @@ In this final section we reflect on our app and how far we've come. We start by 
 * [**Reflection on working practices**](#reflection-on-working-practices)
   * Our working practices
   * Benefits and drawbacks
-
 * [**Reflection of successes**](#reflection-of-successes)
   * Successes
   * Strengths
-
 * [**Social and ethical implications**](#social-and-ethical-implications)
   * Social implications
   * Ethical implications
   * Data security
-
 * [**Future work**](#future-work)
   * Impact of our work
   * Possible extensions
