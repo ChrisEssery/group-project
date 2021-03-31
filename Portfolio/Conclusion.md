@@ -76,11 +76,3 @@ There is, we feel, a lot of scope for future work in this area. In particular...
 
 [3] Votipka, D., et al (2018). Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes, IEEE Symposium on Security and Privacy (SP), 374-391.
 ___
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| email         | right-aligned | 50    |
-| email         | centered      | 23    |
-| emaul         | are neat      | 23    |

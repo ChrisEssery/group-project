@@ -67,12 +67,4 @@ We now turn to the user acceptance testing.
 We conducted an evaluation of our design with users
 
 
-
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| email         | right-aligned | 50    |
-| email         | centered      | 23    |
-| emaul         | are neat      | 23    |
+___

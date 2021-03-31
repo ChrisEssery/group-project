@@ -113,11 +113,3 @@ When considering the UX approach we felt it was important to choose something th
 [4] Wang J., “Digital Game Design for Elderly Users: A Multi-Disciplinary Review”, The University of Birmingham, School of Computer Science, August 2016, http://www.cs.bham.ac.uk/~rjh/courses/ResearchTopicsInHCI/2015-16/Submissions/wangjiahui.pdf
 
 ___
-
-
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| email         | right-aligned | 50    |
-| email         | centered      | 23    |
-| emaul         | are neat      | 23    |
