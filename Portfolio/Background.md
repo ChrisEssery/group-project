@@ -36,9 +36,11 @@ According to recent figures, around 50% of people over the age of 60 will face s
 
 </div>
 
+Before going any further, we have to define key terms, specifically loneliness and isolation.
+
 ### Defining key terms
 
-Now, let's define key terms. Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
+Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 
 Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
@@ -98,6 +100,11 @@ It is fairly straightforward to navigate, however the webpage is quite cluttered
 
 No video communication functionality.
 
+### The Pros:
+- Consists
+### The Cons:
+- Inflexible
+
 ### Gametable's free online Games
 
 <div align="center">
@@ -114,6 +121,13 @@ It is a clean, straightforward homepage and is very easy to use.
 
 No video communication functionality.
 
+
+### The Pros:
+- Straightforward
+
+### The Cons:
+- Hard to idenfity and measure progress within each stage
+
 ### Lexulous
 
 <div align="center">
@@ -123,6 +137,14 @@ No video communication functionality.
 </div>
 
 For example, Lexulous and Words with friends are scrabble-style games easily downloaded from the App store.
+
+
+### The Pros:
+- Straightforward to manage
+
+
+### The Cons:
+- Excludes the client
 
 
 ### Outliers
