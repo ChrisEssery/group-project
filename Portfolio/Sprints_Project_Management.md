@@ -13,6 +13,7 @@ In this section, we discuss project sprints and management. We start by going ov
 ## Table of contents
 
 * [**Group working methods**](#group-working-methods)
+   * [Software Development Lifecycle](#software-development-lifecycle)
    * [Team Organisation](#team-ogranisation)
    * [Team roles and contributions](#team-roles-and-contributions)
 * [**Communication**](#communication)
@@ -27,6 +28,58 @@ In this section, we discuss project sprints and management. We start by going ov
 With regard to the group working methods, we knew it was very important to maintain regular contact with one another throughout the duration of the unit. Given that we were working remotely, communication was obviously essential. For a discussion on our chosen form of communication, see [Communication](#communication).
 
 We also realised the importance of delegation. So, to ensure that the team was organised with a clear, delegated structure in mind we assigned team roles. For a discussion of this, see [Team Organisation](#team-ogranisation) and [Team roles and contributions](#team-roles-and-contributions).
+
+## Software development lifecycle
+
+In order to produce working software, it is important to follow a recognised methodology for guiding collaborative decision making from project initiation to production use by end-users. There are two main methodologies to choose from: the waterfall method and the agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll consider these now.
+
+### The waterfall method
+
+First, let's look at the waterfall method. The lifecyle of this approach is depicted below:
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/sprints2.png)
+
+</div>
+
+The main focus of this approach is structure. Milestones are set, breaking the project into manageable chunks. These chunks represent phases which are connected in a linear sequence, where each phase requires certain deliverables to initiate the next phase.
+
+The Pros:
+-
+-
+-
+-
+
+The Cons:
+-
+-
+-
+-
+
+### The Agile methods
+
+Now, let's take a look at the Agile methodology. The lifecyle of this approach is depicted below:
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/sprints1.png)
+
+</div>
+
+This method is flexible throughout the build. It is flexible with respect to the stakeholders, which means that the product is more tailored to their needs. There are no rigid rules with the Agile system development lifecycle. it can be changed and altered as required by your project or organisation. Given the flexibility of this method, one of the most important aspects of the method is communication, since the wants and desires of the stakeholders may change during the initial planning and the iterations of the lifecyle.
+
+The Pros:
+-
+-
+-
+-
+
+The consider
+-
+-
+-
+-
 
 ## Team Organisation
 
