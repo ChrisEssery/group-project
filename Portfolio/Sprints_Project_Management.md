@@ -87,6 +87,19 @@ There are several different frameworks used to implement the Agile method: Featu
 - Greater time and commitment
 - No finite end to the project
 
+
+### Our chosen methodology
+
+In light of the strengths and weaknesses of both methodologies, we decided...
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/sprints3.png)
+
+</div>
+
+
+
 ## Team Organisation
 
 Each of our team members had a unique set of skills that they were able to bring to the project, with different strengths and perspectives. Given this, we decided to assign roles to team members according to where they thought their strengths lay in software engineering.
