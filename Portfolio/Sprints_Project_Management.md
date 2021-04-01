@@ -45,13 +45,13 @@ First, let's look at the waterfall method. The lifecyle of this approach is depi
 
 The main focus of this approach is structure. Milestones are set, breaking the project into manageable chunks. These chunks represent phases which are connected in a linear sequence, where each phase requires certain deliverables to initiate the next phase.
 
-The Pros:
+### The Pros:
 -
 -
 -
 -
 
-The Cons:
+### The Cons:
 -
 -
 -
@@ -69,13 +69,13 @@ Now, let's take a look at the Agile methodology. The lifecyle of this approach i
 
 This method is flexible throughout the build. It is flexible with respect to the stakeholders, which means that the product is more tailored to their needs. There are no rigid rules with the Agile system development lifecycle. it can be changed and altered as required by your project or organisation. Given the flexibility of this method, one of the most important aspects of the method is communication, since the wants and desires of the stakeholders may change during the initial planning and the iterations of the lifecyle.
 
-The Pros:
+### The Pros:
 -
 -
 -
 -
 
-The consider
+### The Cons
 -
 -
 -
