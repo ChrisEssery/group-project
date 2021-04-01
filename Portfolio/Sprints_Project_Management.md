@@ -31,7 +31,7 @@ We also realised the importance of delegation. So, to ensure that the team was o
 
 ## Software development lifecycle
 
-In order to produce working software, it is important to follow a recognised methodology for guiding collaborative decision making from project initiation to production use by end-users. There are two main methodologies to choose from: the waterfall method and the agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll consider these now.
+In order to produce working software, it is important to follow a recognised methodology. The methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll consider these now.
 
 ### The waterfall method
 
@@ -46,16 +46,17 @@ First, let's look at the waterfall method. The lifecyle of this approach is depi
 The main focus of this approach is structure. Milestones are set, breaking the project into manageable chunks. These chunks represent phases which are connected in a linear sequence, where each phase requires certain deliverables to initiate the next phase.
 
 ### The Pros:
--
--
--
--
+- Consists of clear defined stages
+- Phases completed in a linear process, one after the other
+- Straightforward to manage
+- The lifecyle is well documented and easy to follow
 
 ### The Cons:
--
--
--
--
+- Inflexible to changing requirements
+- Excludes the client
+- Working software not produced until late in the lifecyle
+- Hard to idenfity and measure progress within each stage
+- Testing occurs near the end of the lifecyle
 
 ### The Agile methods
 
@@ -67,19 +68,24 @@ Now, let's take a look at the Agile methodology. The lifecyle of this approach i
 
 </div>
 
+The main feature of this model is that software development is broken down into incremental cycles.
+
 This method is flexible throughout the build. It is flexible with respect to the stakeholders, which means that the product is more tailored to their needs. There are no rigid rules with the Agile system development lifecycle. it can be changed and altered as required by your project or organisation. Given the flexibility of this method, one of the most important aspects of the method is communication, since the wants and desires of the stakeholders may change during the initial planning and the iterations of the lifecyle.
 
+There are several different frameworks used to implement the Agile method: Feature Driven Development (FDD), Dynamic Software Development (DSDM) and Crystal Methodologies.
+
 ### The Pros:
--
--
--
--
+- Client-focused approach
+- Flexibility allows changes to occur at any stage
+- Working software delivered quickly
+- Allows for improvement of features designed earlier in the lifecyle
 
 ### The Cons
--
--
--
--
+- Easy to lose focus if the client is unclear on their requirements
+- Insufficient attention given to design and necessary documentation
+- Lacks predictability
+- Greater time and commitment
+- No finite end to the project
 
 ## Team Organisation
 
