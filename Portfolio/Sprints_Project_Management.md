@@ -31,11 +31,11 @@ We also realised the importance of delegation. So, to ensure that the team was o
 
 ## Software development lifecycle
 
-In order to produce working software, it is important to follow a recognised methodology. The methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now cover these approaches.
+In order to produce working software, it is important to follow a recognised methodology. The methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now take a look at these approaches.
 
 ### The waterfall method
 
-First, let's look at the waterfall method. The lifecyle of this approach is depicted below:
+First, we'll look the waterfall method. The lifecyle of this approach is depicted below:
 
 <div align="center">
 
