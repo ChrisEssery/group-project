@@ -46,6 +46,8 @@ There have been many successes throughout the duration of this unit.
 
 ## Social and ethical implications
 
+TO DO: edit this + add more implications
+
 Ethical issues concerning data privacy and security of our prototype were addressed by our team, particularly at the later stages of the project.
 
 To determine whether our approach was morally permissible, we can apply the theories of normative ethics. According to deontological and virtue ethics perspectives, our project should have complied with some ethical codes of conduct. This is because compliance with codes of conduct ensures conformity to universal rules, norms and core values, which is in clear accordance with deontological and virtue ethics since both of these theories require adherence to rules and values. Failing to adhere to these rules and values, therefore, amounts to unethical behaviour. In light of this, we decided to follow the BSC code of conduct. The BSC is a value-based code of ethics for IT professionals, which we decided would be appropriate to use as an ethical framework to guide our actions and decisions during the project, and which aligns with the goals of normative ethics.
