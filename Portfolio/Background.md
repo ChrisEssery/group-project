@@ -44,23 +44,24 @@ Following Valtora and Hanratty, we define loneliness as both a social and emotio
 
 Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
-Our target group is adults above the age 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game. And for our user testing we asked a wide range of users to test our prototype and provide their feedback in our user test survey (see [here](#user-testing) for the results of that survey).
+Our target group is adults above the age of 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game. And for our user testing we asked a wide range of users to test our prototype and provide their feedback in our user test survey (see [here](#user-testing) for the results of that survey).
 
 ### Public health concerns
 
+Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 There are several public health concerns linked to loneliness and isolation. Let's begin by looking at the health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains, and headaches.
 
-The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect, and is closely interconnected with health issues since the adverse effects of poor mental health often impact upon a person's physical health. This is because poor mental health can lead to a lack motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the abovementioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
+The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the abovementioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
-Overall, the impact of mental health problems is nontrivial. The increased likelihood for depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
+Overall, the impact of mental health problems is nontrivial. The increased likelihood of depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
 
-The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network people can experience a decline in their mental acuity, choosing to avoid activities which challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain in older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
+The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network, people can experience a decline in their mental acuity, choosing to avoid activities that challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain during older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
 
 ### Can digital games help tackle the health concerns associated with loneliness and isolation?
 
-Before reviewing existing solutions and identifying the gap in the market with respect to digital games for the elderly, we will look at what science tells about the role digital games can play in tackling loneliness and isolation.
+Before reviewing existing solutions and identifying the gap in the market concerning digital games for the elderly, we will look at what science tells about the role digital games can play in tackling loneliness and isolation.
 
-According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduce depression, as well as having social benefits and improved cognitive performance with regard to working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
+According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduces depression, as well as having social benefits and improved cognitive performance concerning working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
 <div align="center">
 
@@ -68,21 +69,21 @@ According to research by Kaufman et al, digital games offer opportunities for ol
 
 </div>
 
-Although the wide held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have showed that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks and shopping [[**6**]](#references). Research has also shown that brain training on a daily basis can have a long lasting effects for a person's cognitive abilities.
+Although the widely held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have shown that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks, and shopping [[**6**]](#references). Research has also shown that brain training daily can have long-lasting effects on a person's cognitive abilities.
 
-For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function and processing speed. Furthermore, most research shows that playing games improves life satisfaction and quality of life.
+For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function, and processing speed. Furthermore, most research shows that playing games improve life satisfaction and quality of life.
 
-In addition to this, there is research which suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
+In addition to this, there is research that suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
 
-The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing  at  an  intermediate  and  advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, it we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
+The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing at an intermediate and advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
 ## State of the art survey: what is out there already?
 
-We now turn to our state of the art survey. After reviewing the state of the art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional and cognitive benefits.
+We now turn to our state-of-the-art survey. After reviewing the state-of-the-art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional, and cognitive benefits.
 
-We now turn to the state of the art survey. There are a wide range of digital games designed for the elderly and games which can be easily used by the elderly. Mobile games are an good option as you have thousands of fun, free games which allow you to play against friends, family and anyone in the world.
+We now turn to the state-of-the-art survey. There is a wide range of digital games designed for the elderly and games that can be easily used by the elderly. Mobile games are a good option as you have thousands of fun, free games that allow you to play against friends, family, and anyone in the world.
 
-Puzzle games sucha s candy crush is a popular mobile game. There are also console games, but for our purposes we will be focusing on games that you can access through a webpage. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games hosts a huge range of card, puzzle, and arcade games. Gametable's free online games is an example which is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's and ... after we have done this we will look at two outliers which merit consideration.
+Puzzle games such as candy crush is a popular mobile game. There are also console games, but for our purposes, we will be focusing on games that you can access through a webpage. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games host a huge range of card, puzzle, and arcade games. Gametable's free online games are an example that is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's, and ... after we have done this we will look at two outliers that merit consideration.
 
 ### AARP's free online games
 
@@ -101,9 +102,14 @@ It is fairly straightforward to navigate, however the webpage is quite cluttered
 No video communication functionality.
 
 ### The Pros:
-- Consists
+- Site contains a wide variety of games
+- Responsive
+- Clean designed
+
 ### The Cons:
-- Inflexible
+- Membership fee is quite high
+- Paradox of choice - too many games to choose from
+- No video game functionality
 
 ### Gametable's free online Games
 
@@ -115,7 +121,7 @@ No video communication functionality.
 
 This site contains a fewer games that AARP.
 
-It is free
+It's free
 
 It is a clean, straightforward homepage and is very easy to use.
 
@@ -123,10 +129,18 @@ No video communication functionality.
 
 
 ### The Pros:
-- Straightforward
+- Straightforward to navigate
+- It's free
+- Fewer games
+- Clean design
+- Engaging interface
+
 
 ### The Cons:
-- Hard to idenfity and measure progress within each stage
+- No video communication functionality
+- Fewer games
+- No multiplayer functionality
+
 
 ### Lexulous
 
@@ -140,11 +154,17 @@ For example, Lexulous and Words with friends are scrabble-style games easily dow
 
 
 ### The Pros:
-- Straightforward to manage
+- Straightforward to use
+- Multiplayer functionality
+- Possible to play with friends and family
+- Good for brain training
 
 
 ### The Cons:
-- Excludes the client
+- Limited to scrabble-style game
+- Is it better than competitors, for e.g., wordswithfriends?
+- Requires download which might confuse users
+
 
 
 ### Outliers
@@ -154,10 +174,7 @@ There are a few outliers which host digital games for the elderly.
 
 ### A gap in the market
 
-There exists a gap in the market for a site like Gametable, which is multiplayer and has video communication functionality. There doesn't appear to be anything in the market which offers both of these services.
-
-
-
+There exists a gap in the market for a site like Gametable, but with added features such as multiplayer mode and and with video communication functionality. There doesn't appear to be anything in the market which offers both of these services.
 
 Pete: Provide examples of the "current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing."
 
