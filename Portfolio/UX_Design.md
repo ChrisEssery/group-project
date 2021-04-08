@@ -70,6 +70,12 @@ As you can see, the rows are populated with different types of games. These incl
 
 When identifying the users and stakeholders we took the decision to...
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob.pdf)
+
+</div>
+
 
 | Stakeholder                                                                         | Stakeholder's story                                                 |
 | ----------------------------------------------------------------------------------- |:-------------------------------------------------------------------:|
