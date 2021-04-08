@@ -81,6 +81,12 @@ The level of difficulty of our chosen games is something to bear in mind since r
 
 We now turn to our state-of-the-art survey. After reviewing the state-of-the-art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional, and cognitive benefits.
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background10.png)
+
+</div>
+
 We now turn to the state-of-the-art survey. There is a wide range of digital games designed for the elderly and games that can be easily used by the elderly. Mobile games are a good option as you have thousands of fun, free games that allow you to play against friends, family, and anyone in the world.
 
 Puzzle games such as candy crush is a popular mobile game. There are also console games, but for our purposes, we will be focusing on games that you can access through a webpage. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games host a huge range of card, puzzle, and arcade games. Gametable's free online games are an example that is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's, and ... after we have done this we will look at two outliers that merit consideration.

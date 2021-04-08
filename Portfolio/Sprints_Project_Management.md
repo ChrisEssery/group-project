@@ -14,12 +14,19 @@ In this section, we discuss project sprints and management. We start by going ov
 
 * [**Group working methods**](#group-working-methods)
    * [Software Development Lifecycle](#software-development-lifecycle)
-   * [Team Organisation](#team-ogranisation)
-   * [Team roles and contributions](#team-roles-and-contributions)
+      * [The waterfall method](#the-waterfall-method)
+      * [The Agile method](#the-agile-method)
+      * [Agile - Our chosen methodology](#agile-our-chosen-methodology)
+* [**Team Organisation**](#team-ogranisation)
+* [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
 * [**Documentation of sprints**](documentation-of-sprints)
-   * [Team use of Git](team-use-of-git)
-   * [The Impact of COVID-19](the-impact-of-covid-19)
+   * [Sprint 1: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 2: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 3: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 4: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
+* [**Team use of Git**](team-use-of-git)
+* [**The Impact of COVID-19**](the-impact-of-covid-19)
 
 
 
@@ -88,9 +95,9 @@ There are several different frameworks used to implement the Agile method: Featu
 - No finite end to the project
 
 
-### Our chosen methodology
+### Agile - Our chosen methodology
 
-In light of the strengths and weaknesses of both methodologies, we decided...
+In light of the strengths and weaknesses of both methodologies, we decided to use the Agile approach for our project development.
 
 <div align="center">
 
@@ -98,6 +105,25 @@ In light of the strengths and weaknesses of both methodologies, we decided...
 
 </div>
 
+The format of our software development was as follows. Our build was broken down into sprints. Each sprint centres around a particular set of features, tests to test the robustness those features, and making sure that our users' expectations and demands are met through the creation of those added features.
+
+Following standard practice, we broke the sprints down into two week cycles. During each cycle we created a backlog of tasks and user feedback. We used the feedback from previous sprints to help inform the project development. We then reviewed our progress during our weekly meetings. During these reviews we conducted integration testing and assurance testing. Following this, we then aimed to  merge all changes to the master branch of Github.
+
+Our sprints really got under way in March. These continued until early May. The sprints centred around a feature implementation required for that week as well as any tasks in the backlog from previous weeks.
+
+The goals for the week were decided and we kept to those goals until the end of the week. We reviewed our work at the end of each sprint. This meant that our approach towards the development of the product was consistent with the agile methodology.
+
+The requirements acted to inform our tests. This meant that our systems were able to integrate properly at the end of each sprint.
+
+Given the fact that we had very little time to build the product, we felt that it was important to deploy a working application as soon as we possibly could.
+
+With respect to the meetings and sprints and how they worked, we met every Monday at 11am. And then on Wednesdays and Fridays. In every successive meeting we discussesd the work we had done, and when items were assigned tasks as "complete". We compiled a list of Backlog and items that were complete.
+
+At the heart of this process was the users. So, during every sprint we had the users in mind, making sure to address their goals and demands.
+
+We used Jira to implement these actions, and created Gantt charts to visualise the progress of tasks. Jira helped structure the timetable so it was clear what was being done by who and where in the lifecycle it sat.
+
+In the following, we give a detailed account of each sprint, the actions which arose from it and how our two users "Bob" and "Simon" felt about the new features.
 
 
 ## Team Organisation
@@ -127,9 +153,175 @@ The reasons for this are as follows. First, by the beginning of TB2 we were all 
 
 Given this, we were able to work collaboratively whilst living in different parts of the country. And with regard to the frequency of our meetings, we decided it would be reasonable to initially meet three times a week on Mondays, Wednesdays and Fridays but with flexibility to increase that frequency in the later stages of the module if that was deemed necessary.
 
+
 ## Documentation of sprints
 
-When it came to documenting our project sprints, we decided. As such, we...
+The sprints are in chronological order, starting with the first sprint in late February all the way up to the final sprint in May.
+
+### Sprint 1: (18.02.21 - 02.03.21)
+
+The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+
+   * We made the group decision to use the MEAN stack.
+   * Decided to create a multiplayer game with video feed.
+   * Set up GitHub repository and familiarised ourselves with the platform.
+
+#### Evaluation of Sprint
+
+This was our first sprint. There
+
+### Sprint 2: (02.03.21 - 16.03.21)
+
+The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of github with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+
+   * We made the group decision to use the MEAN stack.
+   * Decided to create a multiplayer game with video feed.
+   * Set up GitHub repository and familiarised ourselves with the platform.
+
+<table>
+<tr>
+    <th>Stakeholders</th>
+    <th>Feedback from Users</th>
+</tr>
+<tr>
+   <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Bob (End-User)</a></td>
+   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+</tr>
+<tr>
+    <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Simon (End-User)</a></td>
+   <td>This looks really good. I am very please with this.</td>
+</tr>
+</table>
+
+#### Evaluation of Sprint
+
+
+
+### Sprint 3: (16.03.21 - 30.03.21)
+
+The aim of this sprint was to
+
+   * We made
+   * Decided
+   * Set up
+
+<table>
+<tr>
+    <th>Stakeholders</th>
+    <th>Feedback from Users</th>
+</tr>
+<tr>
+   <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Bob (End-User)</a></td>
+   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+</tr>
+<tr>
+    <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Simon (End-User)</a></td>
+   <td>This looks really good. I am very please with this.</td>
+</tr>
+</table>
+
+#### Evaluation of Sprint
+
+
+
+### Sprint 4: (30.03.21 - 14.04.21)
+
+The aim of this sprint was to decide on
+
+   * We made the group decision to use the MEAN stack.
+   * Decided to create a multiplayer game with video feed.
+   * Set up GitHub repository and familiarised ourselves with the platform.
+
+
+<table>
+<tr>
+    <th>Stakeholders</th>
+    <th>Feedback from Users</th>
+</tr>
+<tr>
+   <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Bob (End-User)</a></td>
+   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+</tr>
+<tr>
+    <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Simon (End-User)</a></td>
+   <td>This looks really good. I am very please with this.</td>
+</tr>
+</table>
+
+#### Evaluation of Sprint
+
+### Sprint 5: (14.04.21 - 28.04.21)
+
+The aim of this sprint was to decide on
+
+   * We made the group decision to use the MEAN stack.
+   * Decided to create a multiplayer game with video feed.
+   * Set up GitHub repository and familiarised ourselves with the platform.
+
+
+<table>
+<tr>
+    <th>Stakeholders</th>
+    <th>Feedback from Users</th>
+</tr>
+<tr>
+   <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Bob (End-User)</a></td>
+   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+</tr>
+<tr>
+    <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Simon (End-User)</a></td>
+   <td>This looks really good. I am very please with this.</td>
+</tr>
+</table>
+
+#### Evaluation of Sprint
+
+### Sprint 6: (28.04.21 - 05.05.21)
+
+The aim of this sprint was to decide on
+
+   * We made the group decision to use the MEAN stack.
+   * Decided to create a multiplayer game with video feed.
+   * Set up GitHub repository and familiarised ourselves with the platform.
+
+
+<table>
+<tr>
+    <th>Stakeholders</th>
+    <th>Feedback from Users</th>
+</tr>
+<tr>
+   <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Bob (End-User)</a></td>
+   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+</tr>
+<tr>
+    <td><img src="/Portfolio/Logo/user_bob.png" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
+       <br>Simon (End-User)</a></td>
+   <td>This looks really good. I am very please with this.</td>
+</tr>
+</table>
+
+#### Evaluation of Sprint
+
 
 ## Team use of Git
 
