@@ -14,18 +14,21 @@ In this final section, we reflect on our app and how far we've come. We start by
 
 
 * [**Reflection on working practices**](#reflection-on-working-practices)
-  * Our working practices
-  * Benefits and drawbacks
-* [**Reflection of successes**](#reflection-of-successes)
-  * Successes
-  * Strengths
+  * [Our working practices](#our-working-practices)
+  * [Evaluation of working practices](#evaluation-of-working-practices)
+* [**Reflection of success of project**](#reflection-of-success-of-proejct)
+  * [How well did our project fulfil the brief?](#how-well-did-our-project-fulfil-the-brief?)
+  * [Were objectives met?](#were-objectives-met?)
+* [**Impact of Covid-19s**](#social-and-ethical-implications)
+  * [How Covid-19 affected our project](#how-covid-19-affected-our-project)
 * [**Social and ethical implications**](#social-and-ethical-implications)
-  * Social implications
-  * Ethical implications
-  * Data security
+  * [Our ethical responsibilities](#our-ethical-responsibilities)
+  * [Social implications](#social-implications)
+  * [Data protection](#data-protection)
 * [**Future work**](#future-work)
-  * Impact of our work
-  * Possible extensions
+  * [Impact of our work](#Impact-of-our-work)
+  * [Design, development, and evaluation](#design,-development,-and evaluation)
+  * [Possible extensions](#possible-extensions)
 
 
 
@@ -39,36 +42,72 @@ When it came to the design of the project we felt... with this in mind, we will 
 We now turn to our working practices...
 
 
-## Reflection of successes
+### Our working practices
+
+
+### Evaluation of working practices
+
+
+
+## Reflection of success of project
 
 There have been many successes throughout the duration of this unit.
+
+
+### How well did our project fulfil the brief?
+
+
+### Were objectives met?
+
+
+## Impact of Covid-19
+
+
+### How Covid-19 affected our project
+
 
 
 ## Social and ethical implications
 
 TO DO: edit this + add more implications
 
-Ethical issues concerning data privacy and security of our prototype were addressed by our team, particularly at the later stages of the project.
+Ethical issues concerning data privacy and security of our prototype were addressed by our team, particularly during the later stages of the project.
 
-To determine whether our approach was morally permissible, we can apply the theories of normative ethics. According to deontological and virtue ethics perspectives, our project should have complied with some ethical codes of conduct. This is because compliance with codes of conduct ensures conformity to universal rules, norms and core values, which is in clear accordance with deontological and virtue ethics since both of these theories require adherence to rules and values. Failing to adhere to these rules and values, therefore, amounts to unethical behaviour. In light of this, we decided to follow the BSC code of conduct. The BSC is a value-based code of ethics for IT professionals, which we decided would be appropriate to use as an ethical framework to guide our actions and decisions during the project, and which aligns with the goals of normative ethics.
+### Our ethical responsibilities
+
+To determine whether our approach was morally permissible, we can apply the theories of normative ethics. According to deontological and virtue ethics perspectives, our project should have complied with some ethical codes of conduct. This is because compliance with codes of conduct ensures conformity to universal rules, norms and core values, which is in accordance with deontological and virtue ethics since both theories require adherence to rules and values. Failing to adhere to these rules and values, therefore, amounts to unethical behaviour. In light of this, we decided to follow the BSC code of conduct, a value-based code of ethics for IT professionals. We decided this would be appropriate to use as an ethical framework to guide our actions and decisions during the project, and which aligns with the goals of normative ethics.
 
 By explicitly citing this as our code of conduct, we felt that we would be more likely to avoid behaving unethically, and that if we were challenged on ethical grounds despite having followed this code of conduct, we would be able to justify our actions by referring to it. This, we felt, would be particularly important in relation to working practices concerned with the way we handled and stored people's data. In addition to this, from a consequentialist perspective, conformance to the BSC arguably produces a morally good outcome, which focuses on mitigating risk and maximising human welfare.
 
+
+### Social implications
+
+
+
+### Data protection
+
 Now, turning to data protection. As moral individuals, we were aware that as computer scientists we have a professional and moral responsibility to protect personal data. Our jobs involve the protection of privacy which is a fundamental moral human right - a right that preserves autonomy and dignity [**1**](#references) which is of paramount importance when dealing with stakeholders. That's not to say it's an absolute right like the right to life; it's a qualified right, so there are extreme circumstances in which it can be infringed upon.
 
-Given this, from design to implementation, privacy protection was of paramount importance to use. We used the ‘The International Data Privacy Principles' (IDPPs) as an appropriate guide to managing personal data. This complies normative ethics since in enshrines values and encourages positive outcomes.
+Given this, from design to implementation, privacy protection was of paramount importance to use. We used the ‘The International Data Privacy Principles' (IDPPs) as an appropriate guide to managing personal data. This complies normative ethics since in enshrines values and encourages positive outcomes. A further strength of the project concerns its approach to data protection. Specifically, the we (maybe, possibly) anonymised participants' personal data, and the software has (maybe, possibly if we have time) implementations to remove personal data if the participant so desires. This is in clear accordance with General Data Protection Regulation (GDPR).
 
-A further strength of the project concerns its approach to data protection. Specifically, the we (maybe, possibly) anonymised participants' personal data, and the software has (maybe, possibly if we have time) implementations to remove personal data if the participant so desires. This is in clear accordance with General Data Protection Regulation (GDPR).
-
-Despite all of this, there are certainly limitations with our product. For instance, we weren't able to focus on protect data as robustly as we would have liked. This was due to time constraints and heavy workloads.
-
-One possible extension concerns testing. In particular, the software would benefit from some more extensive testing. A possible project extension to address this limitation would be to conduct rigorous tests to determine what a hacker could manipulate, attack those vulnerabilities and then fix them [**3**](#references).
+Despite all of this, there are certainly limitations with our product. For instance, we weren't able to focus on protect data as robustly as we would have liked. This was due to time constraints and heavy workloads. One possible extension concerns testing. In particular, the software would benefit from some more extensive testing. A possible project extension to address this limitation would be to conduct rigorous tests to determine what a hacker could manipulate, attack those vulnerabilities and then fix them [**3**](#references).
 
 For example, a brute-force attack to guess a user password and a simple account suspension on the third incorrect entry of the password. A secure-sockets-layer (SSL) encryption to ensure data transferred between devices is encrypted and secure would have established greater data security. These nontrivial features would bolster the security of the app and make it a better candidate for future use in data gathering, which is important given the significance of privacy and security concerns in the uptake of mobile health technologies [**2**](#references). Maybe this is a little over the top though for our purposes. But regardless, we can discuss this added security as a potential feature were we to scale up this project.
 
 ## Future work
 
 There is, we feel, a lot of scope for future work in this area. In particular...
+
+
+### Impact of our work
+
+
+### Design, development, and evaluation
+
+
+### Possible extensions
+
+
 
 ## References
 
