@@ -22,9 +22,11 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Communication**](#communication)
 * [**Documentation of sprints**](documentation-of-sprints)
    * [Sprint 1: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 2: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 3: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 4: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 2: (02.03.21 - 16.03.21)](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 3: (16.03.21 - 30.03.21)](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 4: (30.03.21 - 14.04.21)](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 5: (14.04.21) - 28.04.21](#Sprint-1-18-02-21-02-03-21)
+   * [Sprint 6: (28.04.21 - 05.05.21](#Sprint-1-18-02-21-02-03-21)
 * [**Team use of Git**](team-use-of-git)
 * [**The Impact of COVID-19**](the-impact-of-covid-19)
 
@@ -159,6 +161,8 @@ Given this, we were able to work collaboratively whilst living in different part
 The sprints are in chronological order, starting with the first sprint in late February all the way up to the final sprint in May.
 
 ### Sprint 1: (18.02.21 - 02.03.21)
+___
+
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
@@ -171,6 +175,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 This was our first sprint. There
 
 ### Sprint 2: (02.03.21 - 16.03.21)
+___
+
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of github with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
@@ -202,6 +208,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 ### Sprint 3: (16.03.21 - 30.03.21)
+___
+
 
 The aim of this sprint was to
 
@@ -233,6 +241,8 @@ The aim of this sprint was to
 
 
 ### Sprint 4: (30.03.21 - 14.04.21)
+___
+
 
 The aim of this sprint was to decide on
 
@@ -263,6 +273,8 @@ The aim of this sprint was to decide on
 #### Evaluation of Sprint
 
 ### Sprint 5: (14.04.21 - 28.04.21)
+___
+
 
 The aim of this sprint was to decide on
 
@@ -293,6 +305,8 @@ The aim of this sprint was to decide on
 #### Evaluation of Sprint
 
 ### Sprint 6: (28.04.21 - 05.05.21)
+___
+
 
 The aim of this sprint was to decide on
 
