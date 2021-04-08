@@ -184,7 +184,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Portfolio/Logo/user_bob.jpg" width=20%>
+   <td><img src="group-project/tree/main/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
        <br>Bob (End-User)</a></td>
    <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
