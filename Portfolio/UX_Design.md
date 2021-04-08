@@ -101,10 +101,10 @@ A digital game for the elderly should be designed with the needs of the target u
 In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Ijsselsteijn et al () conducted research on the design of digital games for the elderly from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
 Some of the suggestions include:
 
-      * Using a game for social and educational purposes
-      * For relaxation and entertainment
-      * Motivation for sharpening the mind
-      * Encouraging physical activity
+- Using a game for social and educational purposes
+- For relaxation and entertainment
+- Motivation for sharpening the mind
+- Encouraging physical activity
 
 Similarly, Wang () suggests a very similar set of design requirements.
 
