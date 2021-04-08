@@ -78,8 +78,8 @@ When identifying the users and stakeholders we took the decision to...
 
 
 |                                                                             User's story                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align: left"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages.  </div>                                                                                                                                                        |                                                                                                           
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|<div style="text-align:center"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages.  </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                           |
 
 
@@ -91,16 +91,16 @@ When identifying the users and stakeholders we took the decision to...
 
 
 |                                                                               User's story                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align: left"> Simon, 78, has been a regular gamer for many years. He thinks it is the best form of entertainment. He isn't fussy about what he plays so long as it's fun and social, he's happy. </div>                                                                                                                                                        |                                                                                                           
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|<div style="text-align:center"> Simon, 78, has been a regular gamer for many years. He thinks it is the best form of entertainment. He isn't fussy about what he plays so long as it's fun and social, he's happy. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
 
 
 
 
 |                                                                               User's story                                                 |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align: left"> John knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|<div style="text-align:center"> John knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
 
 
