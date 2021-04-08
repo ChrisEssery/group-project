@@ -29,7 +29,7 @@ In this section, we discuss the the system implementation of the app. We start w
    * [Angular](#angular)
    * [Details of Implementation](#details-of-implementation)
 * [**Authentication**](#authentication)
-   * [Details of Implementation](#details-of-implementation)]
+   * [Details of Implementation](#details-of-implementation)
 * [**Deployment and integration**](#deployment-and-integration)
    * [Details of Implementation](#details-of-implementation)
 
