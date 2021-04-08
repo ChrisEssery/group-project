@@ -72,7 +72,7 @@ When identifying the users and stakeholders we took the decision to...
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob.pdf)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob_profile.jpg)
 
 </div>
 
