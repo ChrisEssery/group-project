@@ -185,14 +185,14 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 <tr>
    <td><img src="/Logo/user_bob.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Bob (End-User)</a></td>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Bob (User)</a></td>
    <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
 </tr>
 <tr>
-    <td><img src="https://www.placecage.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Simon (End-User)</a></td>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
    <td>This looks really good. I am very please with this.</td>
 </tr>
 </table>
@@ -215,15 +215,15 @@ The aim of this sprint was to
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="http://www.fillmurray.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Bob (End-User)</a></td>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Bob (User)</a></td>
    <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
 </tr>
 <tr>
-    <td><img src="https://www.placecage.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Simon (End-User)</a></td>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
    <td>This looks really good. I am very please with this.</td>
 </tr>
 </table>
@@ -247,15 +247,15 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="http://www.fillmurray.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Bob (End-User)</a></td>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Bob (User)</a></td>
    <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
 </tr>
 <tr>
-    <td><img src="https://www.placecage.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Simon (End-User)</a></td>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
    <td>This looks really good. I am very please with this.</td>
 </tr>
 </table>
@@ -277,15 +277,15 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="http://www.fillmurray.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Bob (End-User)</a></td>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Bob (User)</a></td>
    <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
 </tr>
 <tr>
-    <td><img src="https://www.placecage.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Simon (End-User)</a></td>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
    <td>This looks really good. I am very please with this.</td>
 </tr>
 </table>
@@ -307,15 +307,15 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="http://www.fillmurray.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Bob (End-User)</a></td>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Bob (User)</a></td>
    <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
 </tr>
 <tr>
-    <td><img src="https://www.placecage.com/100/100">
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#users">
-       <br>Simon (End-User)</a></td>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
    <td>This looks really good. I am very please with this.</td>
 </tr>
 </table>
