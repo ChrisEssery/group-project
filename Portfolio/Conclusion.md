@@ -27,7 +27,7 @@ In this final section, we reflect on our application and how far we've come. We 
   * [Data protection](#data-protection)
 * [**Future work**](#future-work)
   * [Impact of our work](#Impact-of-our-work)
-  * [Design, development, and evaluation](#design,-development,-and evaluation)
+  * [Design, development, and evaluation](#design-development-and-evaluation)
   * [Possible extensions](#possible-extensions)
 
 
