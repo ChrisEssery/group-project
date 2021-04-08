@@ -24,14 +24,14 @@ In this section, we discuss the the system implementation of the app. We start w
    * [Express](#express)
    * [Node](#node)
    * [RESTful API](#restful-api)
-   * [Details of Implementation](#details-of-implementation)]
+   * [Details of Implementation](#details-of-implementation)
 * [**Front end**](#front-end)
    * [Angular](#angular)
-   * [Details of Implementation](#details-of-implementation)]
+   * [Details of Implementation](#details-of-implementation)
 * [**Authentication**](#authentication)
    * [Details of Implementation](#details-of-implementation)]
 * [**Deployment and integration**](#deployment-and-integration)
-   * [Details of Implementation](#details-of-implementation)]
+   * [Details of Implementation](#details-of-implementation)
 
 
 ## Stack architecture and system design
