@@ -65,6 +65,10 @@ There have been many successes throughout the duration of this unit.
 
 ### How Covid-19 affected our project
 
+The outbreak of COVID-19 in March, and the subsequent lockdowns running up to the end of April affected each us in many ways. It is to this topic we now turn our attention. In particular, we will cover the main ways in which the pandemic affected our project.
+
+The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was...
+
 
 
 ## Social and ethical implications
