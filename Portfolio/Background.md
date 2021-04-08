@@ -174,7 +174,7 @@ There are a few outliers which host digital games for the elderly.
 
 ### A gap in the market
 
-There exists a gap in the market for a site like Gametable, but with added features such as multiplayer mode and and with video communication functionality. There doesn't appear to be anything in the market which offers both of these services.
+There exists a gap in the market for a site like Gametable, but with added features such as multiplayer mode and with video communication functionality. There doesn't appear to be anything in the market which offers both of these services.
 
 Pete: Provide examples of the "current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing."
 
