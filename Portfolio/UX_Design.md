@@ -95,6 +95,11 @@ When identifying the users and stakeholders we took the decision to...
 |<div style="text-align:center"> Simon, 78, has been a regular gamer for many years. He thinks it is the best form of entertainment. He isn't fussy about what he plays so long as it's fun and social, he's happy. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_sally_profile.jpg)
+
+</div>
 
 
 
