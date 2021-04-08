@@ -8,7 +8,7 @@ ___
 
 # Conclusion
 
-In this final section, we reflect on our app and how far we've come. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We reflect on our working practices and successes and finally we discuss the social and ethical implications of our product and future work.
+In this final section, we reflect on our application and how far we've come. We start by reflecting on our working practices, evaluating strengths and weaknesses. We the go on to reflect on the success of the project, with a focus on whether we met the brief and objectives were met. We then assess the impact Covid-19 had on our project. Finally, we discuss the social and ethical implications of our product and look ahead to future work in terms of design, development and evaluation, and the impact of our work more generally.
 
 ## Table of contents
 
