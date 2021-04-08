@@ -193,13 +193,13 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    <td><img src="/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
-   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
-   <td>This looks really good. I am very please with this.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 </table>
 
