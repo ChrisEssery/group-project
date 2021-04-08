@@ -70,7 +70,6 @@ The outbreak of COVID-19 in March, and the subsequent lockdowns running up to th
 The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was...
 
 
-
 ## Social and ethical implications
 
 TO DO: edit this + add more implications

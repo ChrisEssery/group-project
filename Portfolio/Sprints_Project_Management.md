@@ -135,9 +135,5 @@ When it came to documenting our project sprints, we decided. As such, we...
 
 
 
-## The Impact of COVID-19
-
-The outbreak of COVID-19 in March, and the subsequent lockdowns running up to the end of April affected each us in many ways. The first issue Covid-19 brought was that it prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was...
-
 
 ___
