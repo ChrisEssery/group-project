@@ -178,7 +178,7 @@ This was our first sprint. There
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of github with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
@@ -187,18 +187,21 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 <table>
 <tr>
     <th>Stakeholders</th>
+    <th>Backlog item</th>
     <th>Feedback from Users</th>
 </tr>
 <tr>
    <td><img src="/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 </table>
@@ -220,19 +223,22 @@ The aim of this sprint was to
 <table>
 <tr>
     <th>Stakeholders</th>
+    <th>Backlog item</th>
     <th>Feedback from Users</th>
 </tr>
 <tr>
    <td><img src="/Logo/user_bob.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
-   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
-   <td>This looks really good. I am very please with this.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 </table>
 
@@ -250,23 +256,25 @@ The aim of this sprint was to decide on
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-
 <table>
 <tr>
     <th>Stakeholders</th>
+    <th>Backlog item</th>
     <th>Feedback from Users</th>
 </tr>
 <tr>
    <td><img src="/Logo/user_bob.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
-   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
-   <td>This looks really good. I am very please with this.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 </table>
 
@@ -282,23 +290,25 @@ The aim of this sprint was to decide on
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-
 <table>
 <tr>
     <th>Stakeholders</th>
+    <th>Backlog item</th>
     <th>Feedback from Users</th>
 </tr>
 <tr>
    <td><img src="/Logo/user_bob.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
-   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
-   <td>This looks really good. I am very please with this.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 </table>
 
@@ -314,23 +324,25 @@ The aim of this sprint was to decide on
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-
 <table>
 <tr>
     <th>Stakeholders</th>
+    <th>Backlog item</th>
     <th>Feedback from Users</th>
 </tr>
 <tr>
    <td><img src="/Logo/user_bob.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
-   <td>I have been waiting for something like this for ages. Thank you! I really like the interface. I think it's clean and god I love to eat chocolate. </td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=20%>
-     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md#identification-of-users-and-stakeholders">
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
-   <td>This looks really good. I am very please with this.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 </table>
 
