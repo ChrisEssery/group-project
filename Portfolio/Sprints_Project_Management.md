@@ -192,7 +192,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=20%>
+   <td><img src="/Logo/user_bob.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -200,7 +200,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=20%>
+    <td><img src="/Logo/user_simon.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -231,7 +231,7 @@ The aim of this sprint was to
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=20%>
+   <td><img src="/Logo/user_bob.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -239,7 +239,7 @@ The aim of this sprint was to
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=20%>
+    <td><img src="/Logo/user_simon.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -270,7 +270,7 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=20%>
+   <td><img src="/Logo/user_bob.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -278,7 +278,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=20%>
+    <td><img src="/Logo/user_simon.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -306,7 +306,7 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=20%>
+   <td><img src="/Logo/user_bob.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -314,7 +314,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=20%>
+    <td><img src="/Logo/user_simon.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -343,7 +343,7 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=20%>
+   <td><img src="/Logo/user_bob.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -351,7 +351,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=20%>
+    <td><img src="/Logo/user_simon.jpg" width=10%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
