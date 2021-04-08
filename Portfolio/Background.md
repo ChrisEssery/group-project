@@ -83,7 +83,7 @@ We now turn to our state-of-the-art survey. After reviewing the state-of-the-art
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background10.png)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background11.png)
 
 </div>
 
