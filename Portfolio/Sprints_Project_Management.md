@@ -194,14 +194,20 @@ ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
+### Key points
+
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
+### Relevant backlog items
 
 → backlog item: integrate video chat
+→ backlog item: create start page
+→ backlog item: add audio to start page
+→ backlog item: create login
 
-
+Given the client-led approach of the Agile method, we now turn to user feedback. These are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](Portfolio/Evaluation.md).
 
 ### User feedback
 
@@ -395,7 +401,7 @@ The aim of this sprint was to decide on
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
-   
+
 ### User feedback
 
 <table>
