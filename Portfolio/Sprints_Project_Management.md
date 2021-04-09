@@ -20,13 +20,13 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Team Organisation**](#team-ogranisation)
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
-* [**Documentation of sprints**](documentation-of-sprints)
-   * [Sprint 1: (18.02.21 - 02.03.21)](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 2: (02.03.21 - 16.03.21)](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 3: (16.03.21 - 30.03.21)](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 4: (30.03.21 - 14.04.21)](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 5: (14.04.21) - 28.04.21](#Sprint-1-18-02-21-02-03-21)
-   * [Sprint 6: (28.04.21 - 05.05.21](#Sprint-1-18-02-21-02-03-21)
+* [**Documentation of sprints**](#documentation-of-sprints)
+   * [Sprint 1: (18.02.21 - 02.03.21)](#Sprint-1180221-020321)
+   * [Sprint 2: (02.03.21 - 16.03.21)](#Sprint-1180221-020321)
+   * [Sprint 3: (16.03.21 - 30.03.21)](#Sprint-1180221-020321)
+   * [Sprint 4: (30.03.21 - 14.04.21)](#Sprint-1180221-020321)
+   * [Sprint 5: (14.04.21) - 28.04.21](#Sprint-1180221-020321)
+   * [Sprint 6: (28.04.21 - 05.05.21](#Sprint-1180221-020321)
 * [**Team use of Git**](team-use-of-git)
 * [**The Impact of COVID-19**](the-impact-of-covid-19)
 
@@ -207,6 +207,14 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
+<tr>
+    <td><img src="/Logo/user_sally.jpg" width=30%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
 </table>
 
 #### Evaluation of Sprint
@@ -240,6 +248,14 @@ The aim of this sprint was to
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=30%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+    <td><img src="/Logo/user_sally.jpg" width=30%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
@@ -282,6 +298,15 @@ The aim of this sprint was to decide on
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+    <td><img src="/Logo/user_sally.jpg" width=30%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 </table>
@@ -321,6 +346,14 @@ The aim of this sprint was to decide on
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
+<tr>
+    <td><img src="/Logo/user_sally.jpg" width=30%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
 </table>
 
 #### Evaluation of Sprint
@@ -352,6 +385,14 @@ The aim of this sprint was to decide on
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=30%>
+     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+       <br>Simon (User)</a></td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
+   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+    <td><img src="/Logo/user_sally.jpg" width=30%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>As data sent from the web to create new profile did not add default values for other required data (e.g. remaining_sec), the system will crash if a request for this faulty data was fetched and attempted to be sent.</td>
