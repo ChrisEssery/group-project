@@ -252,6 +252,9 @@ The aim of this sprint was to
    * Decided
    * Set up
 
+
+### User feedback
+
 <table>
 <tr>
  <th>Stakeholders</th>
@@ -299,6 +302,8 @@ The aim of this sprint was to decide on
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
+### User feedback
+
 <table>
 <tr>
  <th>Stakeholders</th>
@@ -344,6 +349,8 @@ The aim of this sprint was to decide on
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
+### User feedback
+
 <table>
 <tr>
  <th>Stakeholders</th>
@@ -388,6 +395,8 @@ The aim of this sprint was to decide on
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
+   
+### User feedback
 
 <table>
 <tr>
