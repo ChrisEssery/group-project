@@ -206,7 +206,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <th>Feedback from Users</th>
 </tr>
 <tr>
-  <td><img src="/Logo/user_bob.jpg" width=20%>
+  <td><img src="/Logo/user_bob.jpg" >
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Bob (User)</a></td>
  <td>Start page.</td>
