@@ -191,7 +191,6 @@ This was our first sprint. There
 ### Sprint 2: (02.03.21 - 16.03.21)
 ___
 
-
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
 ### Key points
@@ -254,6 +253,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 ### Sprint 3: (16.03.21 - 30.03.21)
 ___
 
+The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
 ### Key points
 
@@ -313,7 +313,7 @@ ___
 ___
 
 
-The aim of this sprint was to decide on
+The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
 ### Key points
 
@@ -371,7 +371,7 @@ The aim of this sprint was to decide on
 ___
 
 
-The aim of this sprint was to decide on
+The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
 ### Key points
 
@@ -428,8 +428,7 @@ The aim of this sprint was to decide on
 ### Sprint 6: (28.04.21 - 05.05.21)
 ___
 
-
-The aim of this sprint was to decide on
+The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
 ### Key points
 
