@@ -188,7 +188,7 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
-### Sprint 1: (18.02.21 - 02.03.21)
+## Sprint 1: (18.02.21 - 02.03.21)
 ___
 
 
@@ -202,7 +202,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 This was our first sprint. There
 
-### Sprint 2: (02.03.21 - 16.03.21)
+## Sprint 2: (02.03.21 - 16.03.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
@@ -264,7 +264,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 
 
 
-### Sprint 3: (16.03.21 - 30.03.21)
+## Sprint 3: (16.03.21 - 30.03.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
@@ -324,7 +324,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-### Sprint 4: (30.03.21 - 14.04.21)
+## Sprint 4: (30.03.21 - 14.04.21)
 ___
 
 
@@ -382,7 +382,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
-### Sprint 5: (14.04.21 - 28.04.21)
+## Sprint 5: (14.04.21 - 28.04.21)
 ___
 
 
@@ -440,7 +440,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
-### Sprint 6: (28.04.21 - 05.05.21)
+## Sprint 6: (28.04.21 - 05.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
