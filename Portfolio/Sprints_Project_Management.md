@@ -215,13 +215,13 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 
 <table>
 <tr>
- <th>Stakeholders</th>
+ <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
  <th>Feedback from Users</th>
 </tr>
 <tr>
-  <td>As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td><img src="/Logo/user_bob.jpg" width=50%>
+  <td><img src="/Logo/user_bob.jpg" width=50%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Bob (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Start page.</td>
@@ -274,7 +274,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 <table>
 <tr>
- <th>Stakeholders</th>
+ <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
  <th>Feedback from Users</th>
@@ -334,7 +334,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 <table>
 <tr>
- <th>Stakeholders</th>
+ <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
  <th>Feedback from Users</th>
@@ -392,7 +392,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 <table>
 <tr>
- <th>Stakeholders</th>
+ <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
  <th>Feedback from Users</th>
@@ -449,7 +449,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 <table>
 <tr>
- <th>Stakeholders</th>
+ <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
  <th>Feedback from Users</th>
