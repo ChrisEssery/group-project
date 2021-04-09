@@ -184,7 +184,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-#### Evaluation of Sprint
+### Evaluation of Sprint
 
 This was our first sprint. There
 
@@ -246,7 +246,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 </table>
 
-#### Evaluation of Sprint
+### Evaluation of Sprint
 
 
 
@@ -305,7 +305,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
-#### Evaluation of Sprint
+### Evaluation of Sprint
 
 
 
@@ -365,7 +365,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
-#### Evaluation of Sprint
+### Evaluation of Sprint
 
 ### Sprint 5: (14.04.21 - 28.04.21)
 ___
@@ -423,7 +423,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
-#### Evaluation of Sprint
+### Evaluation of Sprint
 
 ### Sprint 6: (28.04.21 - 05.05.21)
 ___
