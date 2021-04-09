@@ -3,11 +3,11 @@ import { Router } from '@angular/router';
 declare var JitsiMeetExternalAPI: any;
 
 @Component({
-    selector: 'app-jitsi',
-    templateUrl: './jitsi.component.html',
-    styleUrls: ['./jitsi.component.scss']
+    selector: 'app-jitsi-two',
+    templateUrl: './jitsi-two.component.html',
+    styleUrls: ['./jitsi-two.component.scss']
 })
-export class JitsiComponent implements OnInit, AfterViewInit {
+export class JitsiTwoComponent implements OnInit, AfterViewInit {
   domain: string = "meet.jit.si"; // For self hosted use your domain
   room: any;
   options: any;
@@ -38,7 +38,7 @@ export class JitsiComponent implements OnInit, AfterViewInit {
           interfaceConfigOverwrite: {
               // overwrite interface properties
           },
-          parentNode: document.querySelector('#jitsi-iframe'),
+          parentNode: document.querySelector('#jitsi-iframe2'),
           userInfo: {
               displayName: this.user.name
           }

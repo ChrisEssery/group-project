@@ -26,9 +26,9 @@ h3 {
     flex-wrap: wrap;
     background-color:rgb(2, 3, 97);
     padding: 10px;
+    flex: initial;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+  
   }
   
   .grid div {
@@ -53,6 +53,7 @@ h3 {
     background-color:rgb(2, 3, 97);
  }
 
+
  .bgPulse {
   position: absolute;
   width: 100%;
@@ -61,6 +62,24 @@ h3 {
   animation : bgColor 20s linear infinite;
 }
 
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.jitsi {
+  padding-top: 50px;
+  padding-left:  50px;
+  flex: 1;
+}
+
+.empty {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left:  60px;
+  flex: 0 0 20%;
+}
 
 @keyframes animate
 {

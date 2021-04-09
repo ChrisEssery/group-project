@@ -9,6 +9,7 @@ import { BackgroundComponent } from './start-page/background/background.componen
 import { BgmComponent } from './start-page/bgm/bgm.component';
 import { ConnectFourComponent } from './connect-four/connect-four.component';
 import { JitsiComponent } from './jitsi/jitsi.component';
+import { JitsiTwoComponent } from './jitsi-two/jitsi-two.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { JitsiComponent } from './jitsi/jitsi.component';
     BackgroundComponent,
     BgmComponent,
     ConnectFourComponent,
-    JitsiComponent
+    JitsiComponent,
+    JitsiTwoComponent
   ],
   imports: [
     BrowserModule,

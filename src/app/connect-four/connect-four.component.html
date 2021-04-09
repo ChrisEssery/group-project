@@ -1,24 +1,11 @@
 <html>
     <div class="bgPulse">
-        <div class="wrapper">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    <h3>The Current Player is: Player<span id="current-player"> 1</span></h3>
-    <h3 id="result"></h3>
+        <h3>The Current Player is: Player<span id="current-player"> 1</span></h3>
+        <h3 id="result"></h3>
+        <div class="wrapper"> 
+            <div class="empty">
+            <app-jitsi-two></app-jitsi-two>
+            </div>
     <div class="grid">
         <div></div>
         <div></div>
@@ -71,8 +58,9 @@
         <div class=bottom></div>
     </div>
     <div class="jitsi">
-        <ng-content></ng-content><app-jitsi></app-jitsi>
+        <app-jitsi></app-jitsi>
         </div>
     </div>
+  
 </div>
 </html>
