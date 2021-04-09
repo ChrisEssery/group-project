@@ -206,7 +206,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=30%>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>Start page.</td>
@@ -214,7 +214,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=30%>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>Multiplayer</td>
@@ -222,7 +222,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_sally.jpg" width=30%>
+    <td><img src="/Logo/user_sally.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Sally (User)</a></td>
    <td>Multiplayer.</td>
@@ -253,7 +253,7 @@ The aim of this sprint was to
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=30%>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>Insert here.</td>
@@ -261,7 +261,7 @@ The aim of this sprint was to
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=30%>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>Insert here</td>
@@ -269,7 +269,7 @@ The aim of this sprint was to
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_sally.jpg" width=30%>
+    <td><img src="/Logo/user_sally.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Sally (User)</a></td>
    <td>Insert here</td>
@@ -300,7 +300,7 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=30%>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>Insert here</td>
@@ -308,7 +308,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=30%>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>Insert here</td>
@@ -316,7 +316,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_sally.jpg" width=30%>
+    <td><img src="/Logo/user_sally.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Sally (User)</a></td>
    <td>Insert here.</td>
@@ -345,7 +345,7 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=30%>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>Insert here</td>
@@ -353,7 +353,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=30%>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>Insert here.</td>
@@ -361,7 +361,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_sally.jpg" width=30%>
+    <td><img src="/Logo/user_sally.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Sally (User)</a></td>
    <td>Insert here</td>
@@ -390,7 +390,7 @@ The aim of this sprint was to decide on
     <th>Feedback from Users</th>
 </tr>
 <tr>
-   <td><img src="/Logo/user_bob.jpg" width=30%>
+   <td><img src="/Logo/user_bob.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Bob (User)</a></td>
    <td>Insert here</td>
@@ -398,7 +398,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_simon.jpg" width=30%>
+    <td><img src="/Logo/user_simon.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Simon (User)</a></td>
    <td>Insert here</td>
@@ -406,7 +406,7 @@ The aim of this sprint was to decide on
    <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 <tr>
-    <td><img src="/Logo/user_sally.jpg" width=30%>
+    <td><img src="/Logo/user_sally.jpg" width=20%>
      <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
        <br>Sally (User)</a></td>
    <td>Insert here.</td>
