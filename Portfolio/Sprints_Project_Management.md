@@ -221,7 +221,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <th>Feedback from Users</th>
 </tr>
 <tr>
-  <td><img src="/Logo/user_bob.jpg" width=40%>
+  <td><img src="/Logo/user_bob.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Bob (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Start page.</td>
@@ -229,7 +229,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-  <td><img src="/Logo/user_simon.jpg" width=40%>
+  <td><img src="/Logo/user_simon.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Simon (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer</td>
@@ -237,7 +237,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-   <td><img src="/Logo/user_sally.jpg" width=40%>
+   <td><img src="/Logo/user_sally.jpg" width=30%>
     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
       <br>Sally (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer.</td>
@@ -280,7 +280,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <th>Feedback from Users</th>
 </tr>
 <tr>
-  <td><img src="/Logo/user_bob.jpg" width=50%>
+  <td><img src="/Logo/user_bob.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Bob (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Start page.</td>
@@ -288,7 +288,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-  <td><img src="/Logo/user_simon.jpg" width=50%>
+  <td><img src="/Logo/user_simon.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Simon (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer</td>
@@ -296,7 +296,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-   <td><img src="/Logo/user_sally.jpg" width=50%>
+   <td><img src="/Logo/user_sally.jpg" width=30%>
     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
       <br>Sally (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer.</td>
@@ -340,7 +340,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <th>Feedback from Users</th>
 </tr>
 <tr>
-  <td><img src="/Logo/user_bob.jpg" width=50%>
+  <td><img src="/Logo/user_bob.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Bob (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Start page.</td>
@@ -348,7 +348,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-  <td><img src="/Logo/user_simon.jpg" width=50%>
+  <td><img src="/Logo/user_simon.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Simon (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer</td>
@@ -356,7 +356,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-   <td><img src="/Logo/user_sally.jpg" width=50%>
+   <td><img src="/Logo/user_sally.jpg" width=30%>
     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
       <br>Sally (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer.</td>
@@ -398,7 +398,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <th>Feedback from Users</th>
 </tr>
 <tr>
-  <td><img src="/Logo/user_bob.jpg" width=50%>
+  <td><img src="/Logo/user_bob.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Bob (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Start page.</td>
@@ -406,7 +406,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-  <td><img src="/Logo/user_simon.jpg" width=50%>
+  <td><img src="/Logo/user_simon.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Simon (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer</td>
@@ -414,7 +414,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-   <td><img src="/Logo/user_sally.jpg" width=50%>
+   <td><img src="/Logo/user_sally.jpg" width=30%>
     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
       <br>Sally (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer.</td>
@@ -455,7 +455,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <th>Feedback from Users</th>
 </tr>
 <tr>
-  <td><img src="/Logo/user_bob.jpg" width=50%>
+  <td><img src="/Logo/user_bob.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Bob (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Start page.</td>
@@ -463,7 +463,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-  <td><img src="/Logo/user_simon.jpg" width=50%>
+  <td><img src="/Logo/user_simon.jpg" width=30%>
    <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
    <br>Simon (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer</td>
@@ -471,7 +471,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
-   <td><img src="/Logo/user_sally.jpg" width=50%>
+   <td><img src="/Logo/user_sally.jpg" width=30%>
     <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
       <br>Sally (User)</a> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer.</td>
