@@ -129,7 +129,7 @@ We used Jira to implement these actions, and created Gantt charts to visualise t
 
 ### Product backlog
 
-We generated a product backlog. This is a list of the main deliverables we intended to implement during each sprint. These deliverables, or items, are prioritized to ensure that the most important features are completed before less important ones. These items were carried forward to subsequent sprints were we unable to complete them within the intended sprint. This served as an essential part of our product development, since it helped our decision making with regard to task assignment and prioritisation.
+Within Jira there is a Backlog. This is a product backlog which contains list of the main deliverables we intended to implement during each sprint. These deliverables, or items, are prioritised to ensure that the most important features are completed before less important ones. These items were carried forward to subsequent sprints were we unable to complete them within the intended sprint. This served as an essential part of our product development, since it helped our decision making with regard to task assignment and prioritisation.
 
 In the following, we give a detailed account of each sprint, the actions which arose from it and how our two users "Bob" and "Simon" felt about the new features.
 
