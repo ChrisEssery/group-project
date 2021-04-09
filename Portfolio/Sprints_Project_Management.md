@@ -211,7 +211,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
        <br>Bob (User)</a></td>
    <td>Start page.</td>
    <td>Since w.</td>
-   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype. </td>
+   <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+. </td>
 </tr>
 <tr>
     <td><img src="/Logo/user_simon.jpg" width=20%>
@@ -219,7 +220,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
        <br>Simon (User)</a></td>
    <td>Multiplayer</td>
    <td>Research multiplayer APIs</td>
-   <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+   <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+</td>
 </tr>
 <tr>
     <td><img src="/Logo/user_sally.jpg" width=20%>
