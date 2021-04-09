@@ -123,7 +123,13 @@ With respect to the meetings and sprints and how they worked, we met every Monda
 
 At the heart of this process was the users. So, during every sprint we had the users in mind, making sure to address their goals and demands.
 
+### Jira
+
 We used Jira to implement these actions, and created Gantt charts to visualise the progress of tasks. Jira helped structure the timetable so it was clear what was being done by who and where in the lifecycle it sat.
+
+### Product backlog
+
+We generated a product backlog. This is a list of the main deliverables we intended to implement during each sprint. These deliverables, or items, are prioritized to ensure that the most important features are completed before less important ones. These items were carried forward to subsequent sprints were we unable to complete them within the intended sprint. This served as an essential part of our product development, since it helped our decision making with regard to task assignment and prioritisation.
 
 In the following, we give a detailed account of each sprint, the actions which arose from it and how our two users "Bob" and "Simon" felt about the new features.
 
@@ -173,6 +179,14 @@ Given this, we were able to work collaboratively whilst living in different part
 ## Documentation of sprints
 
 The sprints are in chronological order, starting with the first sprint in late February all the way up to the final sprint in May.
+
+We will be referring to the meeting notes, the product backlog (that is, the list of key features to be implemented), and the user feedback.
+
+This will be broken down into four parts:
+ 1. Main goals/aims of the sprint
+ 2. Key points from the meeting
+ 3. Backlog items
+ 4. Feedback from users
 
 ### Sprint 1: (18.02.21 - 02.03.21)
 ___
