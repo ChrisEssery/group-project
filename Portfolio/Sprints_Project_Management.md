@@ -202,12 +202,13 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Relevant backlog items
 
+ ```
+   → backlog item: integrate video chat
+   → backlog item: create start page
+   → backlog item: add audio to start page
+   → backlog item: create login
 
-   *  → backlog item: integrate video chat
-   *  → backlog item: create start page
-   *  → backlog item: add audio to start page
-   *  → backlog item: create login
-
+ ```
 
 Given the client-led approach of the Agile method, we now turn to user feedback. These are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](Portfolio/Evaluation.md).
 
@@ -254,13 +255,21 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 ___
 
 
-The aim of this sprint was to
+### Key points
 
-   * We made
-   * Decided
-   * Set up
+   * We made the group decision to use the MEAN stack.
+   * Decided to create a multiplayer game with video feed.
+   * Set up GitHub repository and familiarised ourselves with the platform.
 
+### Relevant backlog items
 
+ ```
+   → backlog item: integrate video chat
+   → backlog item: create start page
+   → backlog item: add audio to start page
+   → backlog item: create login
+
+ ```
 ### User feedback
 
 <table>
@@ -306,10 +315,21 @@ ___
 
 The aim of this sprint was to decide on
 
+### Key points
+
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
+### Relevant backlog items
+
+ ```
+   → backlog item: integrate video chat
+   → backlog item: create start page
+   → backlog item: add audio to start page
+   → backlog item: create login
+
+ ```
 ### User feedback
 
 <table>
@@ -353,10 +373,21 @@ ___
 
 The aim of this sprint was to decide on
 
+### Key points
+
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
+### Relevant backlog items
+
+ ```
+   → backlog item: integrate video chat
+   → backlog item: create start page
+   → backlog item: add audio to start page
+   → backlog item: create login
+
+ ```
 ### User feedback
 
 <table>
@@ -400,10 +431,21 @@ ___
 
 The aim of this sprint was to decide on
 
+### Key points
+
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
+### Relevant backlog items
+
+ ```
+   → backlog item: integrate video chat
+   → backlog item: create start page
+   → backlog item: add audio to start page
+   → backlog item: create login
+
+ ```
 ### User feedback
 
 <table>
