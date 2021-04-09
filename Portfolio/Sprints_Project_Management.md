@@ -202,10 +202,10 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 ### Relevant backlog items
 
  ```
-   → backlog item: integrate video chat
-   → backlog item: create start page
-   → backlog item: add audio to start page
-   → backlog item: create login
+   → Backlog item: integrate video chat
+   → Backlog item: create start page
+   → Backlog item: add audio to start page
+   → Backlog item: create login
 
  ```
 
@@ -263,13 +263,13 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Relevant backlog items
 
- ```
-   → backlog item: integrate video chat
-   → backlog item: create start page
-   → backlog item: add audio to start page
-   → backlog item: create login
+```
+  → Backlog item: integrate video chat
+  → Backlog item: create start page
+  → Backlog item: add audio to start page
+  → Backlog item: create login
 
- ```
+```
 ### User feedback
 
 <table>
@@ -323,13 +323,13 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Relevant backlog items
 
- ```
-   → backlog item: integrate video chat
-   → backlog item: create start page
-   → backlog item: add audio to start page
-   → backlog item: create login
+```
+  → Backlog item: integrate video chat
+  → Backlog item: create start page
+  → Backlog item: add audio to start page
+  → Backlog item: create login
 
- ```
+```
 ### User feedback
 
 <table>
@@ -381,13 +381,13 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Relevant backlog items
 
- ```
-   → backlog item: integrate video chat
-   → backlog item: create start page
-   → backlog item: add audio to start page
-   → backlog item: create login
+```
+  → Backlog item: integrate video chat
+  → Backlog item: create start page
+  → Backlog item: add audio to start page
+  → Backlog item: create login
 
- ```
+```
 ### User feedback
 
 <table>
@@ -438,13 +438,13 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Relevant backlog items
 
- ```
-   → backlog item: integrate video chat
-   → backlog item: create start page
-   → backlog item: add audio to start page
-   → backlog item: create login
+```
+  → Backlog item: integrate video chat
+  → Backlog item: create start page
+  → Backlog item: add audio to start page
+  → Backlog item: create login
 
- ```
+```
 ### User feedback
 
 <table>
