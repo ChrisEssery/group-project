@@ -223,7 +223,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
  ```
 
-Given the client-led approach of the Agile method, we now turn to user feedback. These are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](Portfolio/Evaluation.md).
+Given the client-led approach of the Agile method, we now turn to user feedback. These are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md).
 
 ### User feedback
 
