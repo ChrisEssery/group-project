@@ -107,6 +107,17 @@ It is fairly straightforward to navigate, however the webpage is quite cluttered
 
 No video communication functionality.
 
+<table>
+<tr>
+  <th>The Pros</th>
+  <th>The Cons</th>
+</tr>
+<tr>
+  <td>- Site contains a wide variety of games  <br /> - Responsive  <br /> - Clean designed</td>
+  <td>- Membership fee is quite high  <br /> - Paradox of choice - too many games to choose from  <br /> - No video game functionality </td>
+</tr>
+</table>
+
 ### The Pros:
 - Site contains a wide variety of games
 - Responsive
@@ -133,6 +144,16 @@ It is a clean, straightforward homepage and is very easy to use.
 
 No video communication functionality.
 
+<table>
+<tr>
+  <th>The Pros</th>
+  <th>The Cons</th>
+</tr>
+<tr>
+  <td>- Site contains a wide variety of games  <br /> - Responsive  <br /> - Clean designed</td>
+  <td>- Membership fee is quite high  <br /> - Paradox of choice - too many games to choose from  <br /> - No video game functionality </td>
+</tr>
+</table>
 
 ### The Pros:
 - Straightforward to navigate
@@ -158,6 +179,16 @@ No video communication functionality.
 
 For example, Lexulous and Words with friends are scrabble-style games easily downloaded from the App store.
 
+<table>
+<tr>
+  <th>The Pros</th>
+  <th>The Cons</th>
+</tr>
+<tr>
+  <td>- Site contains a wide variety of games  <br /> - Responsive  <br /> - Clean designed</td>
+  <td>- Membership fee is quite high  <br /> - Paradox of choice - too many games to choose from  <br /> - No video game functionality </td>
+</tr>
+</table>
 
 ### The Pros:
 - Straightforward to use
