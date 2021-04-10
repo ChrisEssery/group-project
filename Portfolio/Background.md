@@ -92,6 +92,7 @@ We now turn to the state-of-the-art survey. There is a wide range of digital gam
 Puzzle games such as candy crush is a popular mobile game. There are also console games, but for our purposes, we will be focusing on games that you can access through a webpage. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games host a huge range of card, puzzle, and arcade games. Gametable's free online games are an example that is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's, and ... after we have done this we will look at two outliers that merit consideration.
 
 ### AARP's free online games
+___
 
 <div align="center">
 
@@ -107,16 +108,6 @@ It is fairly straightforward to navigate, however the webpage is quite cluttered
 
 No video communication functionality.
 
-<table>
-<tr>
-  <th>The Pros</th>
-  <th>The Cons</th>
-</tr>
-<tr>
-  <td>- Site contains a wide variety of games  <br /> - Responsive  <br /> - Clean designed</td>
-  <td>- Membership fee is quite high  <br /> - Paradox of choice - too many games to choose from  <br /> - No video game functionality </td>
-</tr>
-</table>
 
 ### The Pros:
 - Site contains a wide variety of games
@@ -129,6 +120,7 @@ No video communication functionality.
 - No video game functionality
 
 ### Gametable's free online Games
+___
 
 <div align="center">
 
@@ -144,16 +136,6 @@ It is a clean, straightforward homepage and is very easy to use.
 
 No video communication functionality.
 
-<table>
-<tr>
-  <th>The Pros</th>
-  <th>The Cons</th>
-</tr>
-<tr>
-  <td>- Site contains a wide variety of games  <br /> - Responsive  <br /> - Clean designed</td>
-  <td>- Membership fee is quite high  <br /> - Paradox of choice - too many games to choose from  <br /> - No video game functionality </td>
-</tr>
-</table>
 
 ### The Pros:
 - Straightforward to navigate
@@ -170,6 +152,7 @@ No video communication functionality.
 
 
 ### Lexulous
+___
 
 <div align="center">
 
@@ -179,16 +162,6 @@ No video communication functionality.
 
 For example, Lexulous and Words with friends are scrabble-style games easily downloaded from the App store.
 
-<table>
-<tr>
-  <th>The Pros</th>
-  <th>The Cons</th>
-</tr>
-<tr>
-  <td>- Site contains a wide variety of games  <br /> - Responsive  <br /> - Clean designed</td>
-  <td>- Membership fee is quite high  <br /> - Paradox of choice - too many games to choose from  <br /> - No video game functionality </td>
-</tr>
-</table>
 
 ### The Pros:
 - Straightforward to use
@@ -238,6 +211,19 @@ Our problem definition was social isolation and loneliness in the elderly and in
 The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.
 
 The overarching aim is to create a game that can engage the elderly through a fun, engaging platform. To realise this aim, we created a SPA that helps the elderly to connect with friends and loved ones, and enjoy some classic board games.
+
+
+<table>
+<tr>
+  <th>The Pros</th>
+  <th>The Cons</th>
+</tr>
+<tr>
+  <td>- Site contains a wide variety of games  <br /> - Responsive  <br /> - Clean designed</td>
+  <td>- Membership fee is quite high  <br />- Paradox of choice - too many games to choose from
+  - No video game functionality </td>
+</tr>
+</table>
 
 ## References
 
