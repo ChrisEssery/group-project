@@ -102,6 +102,7 @@ Based on the report, we focused on the following key issues to update:
 Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQzi/NotSoBoredGames?node-id=6%3A137&scaling=scale-down&page-id=6%3A121) for our website:
 <br/><br/>
 <p align="center">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/updated%20wireframe.png" alt="">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
   <br/><br/>
   <b>UI Wireframe</b>
