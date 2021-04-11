@@ -72,7 +72,6 @@ At this stage, we integrated all the web pages together and focused on adding na
   <b >Paper Prototype Demo</b>
   <br/><br/>
 </p>
-<br/><br/>
 
 **Version 3: UI wireframe in Figma**
 
@@ -91,7 +90,6 @@ See our full test report [here](https://my.helio.app/report/01F1WDKPM82XVYYJVE0H
 <br/><br/>
 Based on the report, we focused on the following key issues to update:
 - We updated the profile page of the user and added more information about the user's gaming experience to enhance the user experience. This includes the number of matches recently played, the win rate of the user, the people recently played with etc.
-- How to play?
 
 - We added a "how to play" button under the title of each games and the player can click on the button to learn the rules and operations before starting the game.
 
