@@ -56,15 +56,75 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
+### Evolution of UI Design
+
+**Version 1: paper prototype**
+
+At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with considration of  the content and funcionaility of each page. 
+
+**Version 2: short paper prototype video**
+
+At this stage, we integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flow goes well. 
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="Sublime's custom image">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="">
   <br/><br/>
   <b >Paper Prototype Demo</b>
   <br/><br/>
 </p>
+<br/><br/>
+Meanwhile, we also created some logos for our website.
+<p align="center">
+  <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/A_few_logo_ideas.png" alt="">
+  <br/><br/>
+  <b >Paper Logo Ideas</b>
+  <br/><br/>
+</p>
+
+**Version 3: UI wireframe in Figma**
+
+At this stage, we converted the paper prototype of our website to a wireframe to simulate all the features (including the structure of menu, button control, requests and responses) we have planned with the use of [Figma](https://www.figma.com/) (a digital design and prototyping tool). See our initial wireframe version [here](https://www.figma.com/proto/0CgBZ0XKPHl8fCcgvPSsWr/NotSoBoredGames-Copy?node-id=6%3A137&scaling=scale-down&page-id=6%3A121).
 
 
+**Version 4: Updated UI wireframe in Figma**
+
+We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes. 
+Here are some sample questions from the prototype test:
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test1.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test2.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test3.png)
+See our full test report [here](https://my.helio.app/report/01F1WDKPM82XVYYJVE0HS5Q93T).
+<br/><br/>
+Based on the report, we focused on the following key issues to update:
+- Scoring: 
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback3.png)
+Solutions: Inspired from this feedback, we updated the profile page of the user and added more information about the user's gaming experience to enhance the user experience. This includes the number of matches recently played, the win rate of the user, the people recently played with etc.
+- How to play?
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback2.png)
+Solution: We added a "how to play" button under the title of each games and the player can click on the button to learn the rules and operations before starting the game.
+- Random match? Play with friends?
+
+ ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback4.png)
+Solution: After the game menu page, we planned to add a new option for the user to choose who they want to play with. If the user chooses to play with friends, we will provide the online friends from their friendlist so that they can select and send invitation to the friend.
+- Leaderboard
+ 
+ Solution: We added a button to view the leaderboard of each game.
+- Combination of text and icon
+
+ ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback4.png)
+Solution: we used combination of text and icon to present information/button.
+
+Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQzi/NotSoBoredGames?node-id=6%3A137&scaling=scale-down&page-id=6%3A121) for our website:
+<br/><br/>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
+  <br/><br/>
+  <b>UI Wireframe</b>
+  <br/><br/>
+</p>
+<br/><br/>
 
 ## Identification of users and stakeholders
 
