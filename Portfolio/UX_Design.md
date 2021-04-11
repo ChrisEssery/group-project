@@ -103,9 +103,10 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
 <br/><br/>
 <p align="center">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/updated%20wireframe.png" alt="">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
+  <b align="center">UI Wireframe</b>
   <br/><br/>
-  <b>UI Wireframe</b>
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
+  <b align="center">UI Demo</b>
   <br/><br/>
 </p>
 
