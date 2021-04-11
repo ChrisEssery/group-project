@@ -73,13 +73,6 @@ At this stage, we integrated all the web pages together and focused on adding na
   <br/><br/>
 </p>
 <br/><br/>
-Meanwhile, we also created some logos for our website.
-<p align="center">
-  <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/A_few_logo_ideas.png" alt="">
-  <br/><br/>
-  <b >Paper Logo Ideas</b>
-  <br/><br/>
-</p>
 
 **Version 3: UI wireframe in Figma**
 
@@ -89,6 +82,7 @@ At this stage, we converted the paper prototype of our website to a wireframe to
 **Version 4: Updated UI wireframe in Figma**
 
 We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes. 
+
 Here are some sample questions from the prototype test:
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test1.png)
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test2.png)
@@ -96,25 +90,16 @@ Here are some sample questions from the prototype test:
 See our full test report [here](https://my.helio.app/report/01F1WDKPM82XVYYJVE0HS5Q93T).
 <br/><br/>
 Based on the report, we focused on the following key issues to update:
-- Scoring: 
-
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback3.png)
-Solutions: Inspired from this feedback, we updated the profile page of the user and added more information about the user's gaming experience to enhance the user experience. This includes the number of matches recently played, the win rate of the user, the people recently played with etc.
+- We updated the profile page of the user and added more information about the user's gaming experience to enhance the user experience. This includes the number of matches recently played, the win rate of the user, the people recently played with etc.
 - How to play?
 
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback2.png)
-Solution: We added a "how to play" button under the title of each games and the player can click on the button to learn the rules and operations before starting the game.
-- Random match? Play with friends?
+- We added a "how to play" button under the title of each games and the player can click on the button to learn the rules and operations before starting the game.
 
- ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback4.png)
-Solution: After the game menu page, we planned to add a new option for the user to choose who they want to play with. If the user chooses to play with friends, we will provide the online friends from their friendlist so that they can select and send invitation to the friend.
-- Leaderboard
+- After the game menu page, we planned to add a new option for the user to choose who they want to play with. If the user chooses to play with friends, we will provide the online friends from their friendlist so that they can select and send invitation to the friend.
  
- Solution: We added a button to view the leaderboard of each game.
-- Combination of text and icon
+- We added a button to view the leaderboard of each game.
 
- ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/feedback4.png)
-Solution: we used combination of text and icon to present information/button.
+- We used combination of text and icon to present information/button.
 
 Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQzi/NotSoBoredGames?node-id=6%3A137&scaling=scale-down&page-id=6%3A121) for our website:
 <br/><br/>
@@ -124,7 +109,7 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <b>UI Wireframe</b>
   <br/><br/>
 </p>
-<br/><br/>
+
 
 ## Identification of users and stakeholders
 
