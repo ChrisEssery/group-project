@@ -68,7 +68,7 @@ At this stage, we integrated all the web pages together and focused on adding na
 <br/><br/>
 <p align="center">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="">
-  <br/><br/>
+  <br/>
   <b >Paper Prototype Demo</b>
   <br/><br/>
 </p>
@@ -103,9 +103,11 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
 <br/><br/>
 <p align="center">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/updated%20wireframe.png" alt="">
+  <br/>
   <b align="center">UI Wireframe</b>
   <br/><br/>
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
+  <br/>
   <b align="center">UI Demo</b>
   <br/><br/>
 </p>
