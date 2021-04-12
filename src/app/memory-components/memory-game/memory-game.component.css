@@ -1,0 +1,18 @@
+/* Game wrappers for page parameters */
+
+.board {
+	 width: 600px;
+	 max-width: 100%;
+	 margin: 10px auto;
+}
+ .board__cards {
+	 display: flex;
+	 flex-flow: row wrap;
+}
+ .board__info {
+	 display: flex;
+	 align-items: center;
+	 justify-content: space-between;
+	 padding: 10px;
+	 color: #fff;
+}
