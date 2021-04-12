@@ -2,38 +2,39 @@
  
 
  .guest{
-    margin:40% 20%;
+    margin:40% 10%;
  }
 
  .login{
-    margin:40% 65%;
+    margin:40% 66%;
  }
  .button{
-    background-color: transparent;
-    display:inline-block;
-    padding:0.6em 2em;
-    border:0.05em solid #FFFFFF;
-    position:absolute;
-    cursor: pointer;
-    border-radius:0.8em;
-    box-sizing: border-box;
-    text-decoration:none;
-    font-family: 'Luckiest Guy', cursive;
-    font-weight:200;
-    font-size: 33px;
-    color:#FFFFFF;
-    text-align:center;
-    transition: all 0.2s;
+   z-index: 6;
+   background-color: transparent;
+   width: 370px;
+   padding:0.6em 2em;
+   border:0.05em solid #FFFFFF;
+   position:absolute;
+   cursor: pointer;
+   border-radius:0.8em;
+   box-sizing: border-box;
+   text-decoration:none;
+   font-family: 'Luckiest Guy', cursive;
+   font-weight:200;
+   font-size: 33px;
+   color:#FFFFFF;
+   text-align:center;
+   transition: all 0.2s;
 }
 
 .button:hover{
-   color:grey;
-   background-color:#FFFFFF;
+  color:grey;
+  background-color:#FFFFFF;
 }
 
 @media all and (max-width:30em){
-    .button{
-       display:block;
-       margin:0.4em auto;
-    }
+   .button{
+      display:block;
+      margin:0.4em auto;
+   }
 } 

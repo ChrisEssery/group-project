@@ -12,7 +12,9 @@ import { Btngrp1Component } from './start-page/btngrp1/btngrp1.component';
 import { LoginComponent } from './login/login.component';
 import { Title2Component } from './title2/title2.component';
 import { SignupComponent } from './signup/signup.component';
-import { GamesComponent } from './games/games.component';
+import { ProfileComponent } from './profile/profile.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { MenuPageComponent } from './menu-page/menu-page.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +27,9 @@ import { GamesComponent } from './games/games.component';
     LoginComponent,
     Title2Component,
     SignupComponent,
-    GamesComponent
+    ProfileComponent,
+    LeaderboardComponent,
+    MenuPageComponent
   ],
   imports: [
     BrowserModule,

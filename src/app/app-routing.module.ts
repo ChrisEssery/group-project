@@ -4,7 +4,10 @@ import { RouterModule, Routes } from '@angular/router';
 import { StartPageComponent } from './start-page/start-page.component';
 import { LoginComponent } from './login/login.component';
 import { SignupComponent } from './signup/signup.component';
-import { GamesComponent } from './games/games.component';
+import { ProfileComponent } from './profile/profile.component';
+import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { MenuPageComponent } from './menu-page/menu-page.component';
+
 
 const routes: Routes = [
  {
@@ -20,8 +23,16 @@ const routes: Routes = [
     component: SignupComponent
   },
   {
-    path: 'games',
-    component: GamesComponent
+    path: 'leaderboard',
+    component: LeaderboardComponent
+  },
+  {
+    path: 'profile',
+    component: ProfileComponent
+  },
+  {
+    path: 'play',
+    component: MenuPageComponent
   }
 
 ];

@@ -22,7 +22,7 @@
              <div *ngIf="email.errors">Invalid email address</div>
          </div>
 
-         <button [disabled]="!registerForm.form.valid" class="btn" type="submit">Sign up</button>
+         <button [disabled]="!registerForm.form.valid" class="btn" type="submit" routerLink="/play">Sign up</button>
          <p class="info">
              <a routerLink="/login" class="form__link" id="linkCreateAccount">Already have an account? Log in here</a>
           </p>
