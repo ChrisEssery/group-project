@@ -12,6 +12,7 @@ import { MemoryGameComponent } from './memory-components/memory-game/memory-game
 import { StartLoginComponent } from './route/start-login/start-login.component';
 import { ButtonComponent } from './memory-components/button/button.component';
 import { CardsComponent } from './cards/cards.component';
+import { HeadingComponent } from './heading/heading.component';
 
 @NgModule({
   declarations: [
@@ -23,7 +24,8 @@ import { CardsComponent } from './cards/cards.component';
     MemoryGameComponent,
     StartLoginComponent,
     ButtonComponent,
-    CardsComponent
+    CardsComponent,
+    HeadingComponent
   ],
 
   imports: [
