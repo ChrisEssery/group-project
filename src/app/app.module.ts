@@ -7,8 +7,8 @@ import { StartPageComponent } from './start-page/start-page.component';
 import { TitleComponent } from './start-page/title/title.component';
 import { BackgroundComponent } from './start-page/background/background.component';
 import { BgmComponent } from './start-page/bgm/bgm.component';
-import { MemoryGameComponent } from './memory-game/memory-game.component';
-import { StartLoginComponent } from './start-login/start-login.component';
+import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
+import { StartLoginComponent } from './route/start-login/start-login.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +25,7 @@ import { StartLoginComponent } from './start-login/start-login.component';
     BrowserModule,
     AppRoutingModule
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })

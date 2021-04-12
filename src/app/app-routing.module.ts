@@ -4,7 +4,7 @@ import { StartLoginComponent } from "./route/start-login/start-login.component";
 
 const routes: Routes = [
   { path: "", redirectTo: "/start-login", pathMatch: "full" },
-  { path: "start-login", component: StartComponent }
+  { path: "start-login", component: StartLoginComponent }
 ];
 
 @NgModule({
