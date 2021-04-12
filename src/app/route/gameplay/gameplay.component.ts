@@ -6,7 +6,6 @@ import { Router } from "@angular/router";
 @Component({
   selector: 'app-gameplay',
   templateUrl: './gameplay.component.html',
-  styleUrls: ['./gameplay.component.css']
 })
 export class GameplayComponent implements OnInit {
 

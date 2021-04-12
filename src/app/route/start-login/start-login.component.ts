@@ -7,7 +7,7 @@ import { Router } from "@angular/router";
   templateUrl: './start-login.component.html',
   styleUrls: ['./start-login.component.css']
 })
-export class StartLoginComponent implements OnInit {
+export class StartLoginComponent {
   constructor(public gameService: GameService, public router: Router) {}
 
   startGame() {

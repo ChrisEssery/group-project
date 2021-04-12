@@ -3,7 +3,7 @@
 */
 
 import { Component, OnInit } from '@angular/core';
-import { GameService } from "src/app/services/game.service";
+import { GameService } from "src/app/service/game.service";
 
 @Component({
   selector: 'app-memory-game',
@@ -14,7 +14,6 @@ export class MemoryGameComponent implements OnInit {
 
   constructor(public gameService: GameService) {}
 
-  ngOnInit(): void {
-  }
+  ngOnInit() {}
 
 }

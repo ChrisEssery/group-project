@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 import { Cards } from "src/app/cards/card.class";
 import { GameService } from "src/app/service/game.service";
 
@@ -8,7 +8,7 @@ import { GameService } from "src/app/service/game.service";
   styleUrls: ['./cards.component.css']
 })
 export class CardsComponent implements OnInit {
-  @Input() card: Cards;
+  @Input() cards: Cards;
 
   constructor(public gameService: GameService) {}
 
