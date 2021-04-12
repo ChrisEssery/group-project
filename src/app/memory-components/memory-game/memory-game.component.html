@@ -2,9 +2,18 @@
 
 
 <div class="memory-game">
+ <app-heading></app-heading>
 
-  <div class="board__cards">
-    <app-card *ngFor="let card of gameService.cards" [card]="card"></app-card>
-  </div>
+ <div class="board__cards">
+   <app-cards *ngFor="let card of gameService.cards" [card]="card"></app-cards>
+ </div>
+
+ <div class="board__info">
+   <p>Rounds: {{ gameService.rounds }}</p>
+   <button class="cheat-btn" (click)="gameService.toggleCheat()">Cheat</button>
+   <p>Player: {{ gameService.playerName }}</p>
+ </div>
+
+
 
 </div>
