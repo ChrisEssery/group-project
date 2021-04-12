@@ -1,4 +1,4 @@
-export class Card {
+export class Cards {
   id: string;
   visible: boolean = false;
   image: { name: string; path: string };

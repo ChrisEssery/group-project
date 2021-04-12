@@ -26,7 +26,7 @@ export class GameService {
     return this.cards.every(card => card.visible === true);
   }
 
-  showCard(card: Card): void {
+  showCard(card: Cards): void {
     if (!this.isMoveValid()) return;
 
     if (this.isCardValid(card)) {
@@ -76,7 +76,7 @@ export class GameService {
   }
 
   //check whether card is valid
-  private isCardValid(card: Card): boolean {
+  private isCardValid(card: Cards): boolean {
     return this.activeCards.length < 2 && !card.visible;
   }
 
