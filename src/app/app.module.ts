@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { FormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -9,6 +10,7 @@ import { BackgroundComponent } from './start-page/background/background.componen
 import { BgmComponent } from './start-page/bgm/bgm.component';
 import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
 import { StartLoginComponent } from './route/start-login/start-login.component';
+import { ButtonComponent } from './components/button/button.component';
 
 @NgModule({
   declarations: [
@@ -18,12 +20,14 @@ import { StartLoginComponent } from './route/start-login/start-login.component';
     BackgroundComponent,
     BgmComponent,
     MemoryGameComponent,
-    StartLoginComponent
+    StartLoginComponent,
+    ButtonComponent
   ],
 
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    FormsModule
   ],
 
   providers: [],
