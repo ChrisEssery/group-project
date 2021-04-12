@@ -6,8 +6,8 @@ describe('StartLoginComponent', () => {
   let component: StartLoginComponent;
   let fixture: ComponentFixture<StartLoginComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(async(() => {
+   TestBed.configureTestingModule({
       declarations: [ StartLoginComponent ]
     })
     .compileComponents();

@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { GameService } from "src/app/service/game.service";
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-start-login',
@@ -6,10 +8,11 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./start-login.component.css']
 })
 export class StartLoginComponent implements OnInit {
+  constructor(public gameService: GameService, public router: Router) {}
 
-  constructor() { }
-
-  ngOnInit(): void {
-  }
-
+  startGame() {
+    if (this.gameService.playerName && this.gameService.playerName.trim()) {
+      this.router.navigate(["playing"]);
+   }
+ }
 }
