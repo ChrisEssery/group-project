@@ -10,7 +10,7 @@ import { BackgroundComponent } from './start-page/background/background.componen
 import { BgmComponent } from './start-page/bgm/bgm.component';
 import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
 import { StartLoginComponent } from './route/start-login/start-login.component';
-import { ButtonComponent } from './components/button/button.component';
+import { ButtonComponent } from './memory-components/button/button.component';
 
 @NgModule({
   declarations: [
