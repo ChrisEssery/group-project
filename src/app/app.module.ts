@@ -6,7 +6,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { CardsComponent } from './memory-components/cards/cards.component';
-import { LeaderboardComponent } from './leaderboard/leaderboard.component';
+import { LeaderboardComponent } from './route/leaderboard/leaderboard.component';
 import { GameplayComponent } from './route/gameplay/gameplay.component';
 import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
 import { GameWindowComponent } from './game-window/game-window.component';
