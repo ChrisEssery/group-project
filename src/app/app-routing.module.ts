@@ -4,7 +4,8 @@ import { StartLoginComponent } from "./route/start-login/start-login.component";
 
 const routes: Routes = [
   { path: "", redirectTo: "/start-login", pathMatch: "full" },
-  { path: "start-login", component: StartLoginComponent }
+  { path: "start-login", component: StartLoginComponent },
+   { path: "playing", component: GamePlayComponent }
 ];
 
 @NgModule({
