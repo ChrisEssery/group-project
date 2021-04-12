@@ -9,6 +9,7 @@ import { BackgroundComponent } from './start-page/background/background.componen
 import { BgmComponent } from './start-page/bgm/bgm.component';
 import { MemoryGameComponent } from './memory-game/memory-game.component';
 import { StartLoginComponent } from './start-login/start-login.component';
+import { ButtonComponent } from './button/button.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +19,8 @@ import { StartLoginComponent } from './start-login/start-login.component';
     BackgroundComponent,
     BgmComponent,
     MemoryGameComponent,
-    StartLoginComponent
+    StartLoginComponent,
+    ButtonComponent
   ],
   imports: [
     BrowserModule,
