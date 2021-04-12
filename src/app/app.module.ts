@@ -13,6 +13,7 @@ import { StartLoginComponent } from './route/start-login/start-login.component';
 import { ButtonComponent } from './memory-components/button/button.component';
 import { CardsComponent } from './memory-components/cards.component';
 import { HeadingComponent } from './heading/heading.component';
+import { GameplayComponent } from './gameplay/gameplay.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { HeadingComponent } from './heading/heading.component';
     StartLoginComponent,
     ButtonComponent,
     CardsComponent,
-    HeadingComponent
+    HeadingComponent,
+    GameplayComponent
   ],
 
   imports: [
