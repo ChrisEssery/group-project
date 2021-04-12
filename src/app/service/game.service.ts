@@ -82,7 +82,7 @@ export class GameService {
   }
 
   //check whether card is valid
-  private isCardValid(card: Cards): boolean {
+  private isCardValid(cards: Cards): boolean {
     return this.activeCards.length < 2 && !card.visible;
   }
 
