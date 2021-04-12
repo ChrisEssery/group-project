@@ -1,6 +1,6 @@
 /*
    Leave spec.ts since it contains unit tests
-   for main component. 
+   for main component.
 */
 
 import { ComponentFixture, TestBed } from '@angular/core/testing';
@@ -11,12 +11,12 @@ describe('MemoryGameComponent', () => {
   let component: MemoryGameComponent;
   let fixture: ComponentFixture<MemoryGameComponent>;
 
-  beforeEach(async () => {
-    await TestBed.configureTestingModule({
+  beforeEach(async(() => {
+    TestBed.configureTestingModule({
       declarations: [ MemoryGameComponent ]
     })
     .compileComponents();
-  });
+  }));
 
   beforeEach(() => {
     fixture = TestBed.createComponent(MemoryGameComponent);

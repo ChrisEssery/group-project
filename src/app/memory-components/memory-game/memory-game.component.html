@@ -1,9 +1,8 @@
 <!--Set class attributes for HTML elements-->
-
-
+<!--Title-->
 <div class="memory-game">
  <app-heading></app-heading>
-
+<!--Cards-->
  <div class="board__cards">
    <app-cards *ngFor="let card of gameService.cards" [card]="card"></app-cards>
  </div>
@@ -13,5 +12,21 @@
    <button class="cheat-btn" (click)="gameService.toggleCheat()">Cheat</button>
    <p>Player: {{ gameService.playerName }}</p>
  </div>
+
+ <!--Main window for gameplay-->
+ <app-game-window [visible]="gameService.isGameOver">
+   <div class="game-window-content">
+     <h2 class="game-window-content__title">Congratulations! You won! </h2>
+     <p class="game-window-content__rounds">
+       Number of rounds: {{ gameService.rounds }}
+     </p>
+     <!--Button to play again-->
+     <app-button (click)="gameService.playAgain()" type="button">
+       Play again
+     </app-button>
+
+     <a class="game-window-content__link" routerLink="/ranking">Ranking</a>
+   </div>
+ </app-game-window >
 
 </div>
