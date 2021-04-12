@@ -4,9 +4,9 @@ import { GameplayComponent } from "./route/gameplay/gameplay.component";
 import { LeaderboardComponent } from "./route/leaderboard/leaderboard.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "/playing", pathMatch: "full" },
-  { path: "playing", component: GameplayComponent },
-  { path: "ranking", component: LeaderboardComponent }
+  { path: "", redirectTo: "/gameplay", pathMatch: "full" },
+  { path: "gameplay", component: GameplayComponent },
+  { path: "leaderboard", component: LeaderboardComponent }
 ];
 
 @NgModule({

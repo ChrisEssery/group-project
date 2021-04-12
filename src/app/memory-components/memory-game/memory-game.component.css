@@ -1,18 +1,38 @@
 /* Game wrappers for page parameters */
 
-.board {
+.memory-game {
 	 width: 600px;
 	 max-width: 100%;
 	 margin: 10px auto;
 }
- .board__cards {
+ .memory-game__cards {
 	 display: flex;
 	 flex-flow: row wrap;
 }
- .board__info {
+ .memory-game__info {
 	 display: flex;
 	 align-items: center;
 	 justify-content: space-between;
 	 padding: 10px;
 	 color: #fff;
+}
+ .memory-game .game-window_content__title {
+	 font-weight: normal;
+	 text-align: center;
+	 margin-bottom: 15px;
+	 color: #383838;
+}
+ .memory-game .game-window_content__link {
+	 color: #4d8c22;
+	 margin: 0 20px;
+}
+ .memory-game .game-window_content__rounds {
+	 margin-bottom: 10px;
+	 text-align: center;
+	 color: #919191;
+}
+ .cheat-btn {
+	 color: #5bbd7b;
+	 background: none;
+	 border: none;
 }

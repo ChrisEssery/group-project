@@ -3,11 +3,11 @@
 <div class="memory-game">
  <app-heading></app-heading>
 <!--Cards-->
- <div class="board__cards">
+ <div class="memory-game__cards">
    <app-cards *ngFor="let card of gameService.cards" [card]="card"></app-cards>
  </div>
 
- <div class="board__info">
+ <div class="memory-game__info">
    <p>Rounds: {{ gameService.rounds }}</p>
    <button class="cheat-btn" (click)="gameService.toggleCheat()">Cheat</button>
    <p>Player: {{ gameService.playerName }}</p>
@@ -15,9 +15,9 @@
 
  <!--Main window for gameplay-->
  <app-game-window [visible]="gameService.isGameOver">
-   <div class="game-window-content">
-     <h2 class="game-window-content__title">Congratulations! You won! </h2>
-     <p class="game-window-content__rounds">
+   <div class="game-window_content">
+     <h2 class="game-window_content__title">Congratulations! You won! </h2>
+     <p class="game-window_content__rounds">
        Number of rounds: {{ gameService.rounds }}
      </p>
      <!--Button to play again-->
@@ -25,7 +25,7 @@
        Play again
      </app-button>
 
-     <a class="game-window-content__link" routerLink="/ranking">Ranking</a>
+     <a class="game-window_content__link" routerLink="/leaderboard">Leaderboard</a>
    </div>
  </app-game-window >
 
