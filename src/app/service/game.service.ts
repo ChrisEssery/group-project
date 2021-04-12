@@ -1,6 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Cards } from "../cards/card.class";
 import { CardService } from "./card.service";
+import { LeaderboardService } from "./leaderboard.service";
 import { Router } from "@angular/router";
 
 // request dependencies from external source
@@ -17,6 +18,7 @@ export class GameService {
 
   constructor(
     private cardService: CardService,
+    private leaderboardService: LeaderboardService,
     private router: Router
   ) {
     this.cards = this.cardService.getCards();
@@ -36,6 +38,10 @@ export class GameService {
 
     if (this.activeCards.length === 2) {
       this.runRound();
+    }
+
+    if (this.isGameOver) {
+      this.addPlayerInRanking();
     }
 
   }
@@ -101,4 +107,10 @@ export class GameService {
     this.activeCards = [];
   }
 
+  private addPlayerInRanking(): void {
+    this.leaderboardService.addPlayer({
+      name: this.playerName,
+      rounds: this.rounds
+    });
+  }
 }
