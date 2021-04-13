@@ -13,7 +13,7 @@ export class GameplayComponent implements OnInit {
 
   ngOnInit() {
     if (!this.gameService.playerName) {
-      this.router.navigate(["start"]);
+      this.router.navigate(["startpage"]);
     }
    }
 

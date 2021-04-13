@@ -28,12 +28,12 @@ export class GameService {
     return this.cards.every(card => card.visible === true);
   }
 
-  showCard(card: Cards): void {
+  showCard(cards: Cards): void {
     if (!this.isMoveValid()) return;
 
-    if (this.isCardValid(card)) {
-      this.activeCards.push(card);
-      card.show();
+    if (this.isCardValid(cards)) {
+      this.activeCards.push(cards);
+      cards.show();
     }
 
     if (this.activeCards.length === 2) {
@@ -83,7 +83,7 @@ export class GameService {
 
   //check whether card is valid
   private isCardValid(cards: Cards): boolean {
-    return this.activeCards.length < 2 && !card.visible;
+    return this.activeCards.length < 2 && !cards.visible;
   }
 
   // locks board

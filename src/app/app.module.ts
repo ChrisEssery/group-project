@@ -1,12 +1,12 @@
-import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 /*import { RouterModule } from '@angular/router';*/
 import { AppComponent } from './app.component';
-import { StartPageComponent } from './start-page/start-page.component';
-import { BackgroundComponent } from './start-page/background/background.component';
+import { StartPageComponent } from './route/start-page/start-page.component';
+import { BackgroundComponent } from './route/start-page/background/background.component';
 import { CardsComponent } from './memory-components/cards/cards.component';
 import { LeaderboardComponent } from './route/leaderboard/leaderboard.component';
 import { GameplayComponent } from './route/gameplay/gameplay.component';
@@ -14,8 +14,6 @@ import { MemoryGameComponent } from './memory-components/memory-game/memory-game
 import { GameWindowComponent } from './memory-components/game-window/game-window.component';
 import { ButtonComponent } from './memory-components/button/button.component';
 import { HeadingComponent } from './memory-components/heading/heading.component';
-import { StartPageComponent } from './start-page/start-page.component';
-import { BackgroundComponent } from './background/background.component';
 
 
 
@@ -30,16 +28,14 @@ import { BackgroundComponent } from './background/background.component';
     MemoryGameComponent,
     GameWindowComponent,
     ButtonComponent,
-    HeadingComponent,
-    StartPageComponent,
-    BackgroundComponent
+    HeadingComponent
   ],
 
   imports: [
     BrowserModule,
-    AppRoutingModule,
     FormsModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    AppRoutingModule
   ],
   providers: [],
   bootstrap: [AppComponent]

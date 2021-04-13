@@ -1,10 +1,12 @@
 <!--Set class attributes for HTML elements-->
+<app-background></app-background>
+
 <!--Title-->
 <div class="memory-game">
  <app-heading></app-heading>
 <!--Cards-->
  <div class="memory-game__cards">
-   <app-cards *ngFor="let card of gameService.cards" [card]="card"></app-cards>
+   <app-cards *ngFor="let card of gameService.cards" [card]="cards"></app-cards>
  </div>
 
  <div class="memory-game__info">
@@ -21,7 +23,7 @@
        Number of rounds: {{ gameService.rounds }}
      </p>
      <!--Button to play again-->
-     <app-button (click)="gameService.playAgain()" type="button">
+     <app-button (click)="gameService.playAgain()" type="btn">
        Play again
      </app-button>
 
