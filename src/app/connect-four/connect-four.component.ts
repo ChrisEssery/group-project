@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import io from "socket.io-client";
 
 @Component({
   selector: 'app-connect-four',
@@ -6,10 +7,16 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./connect-four.component.css']
 })
 export class ConnectFourComponent implements OnInit {
+  playerNumber;
+  
+  constructor() {
+    this.playerNumber = 0;
+   }
+  private socket: any;
 
-  constructor() { }
 
   ngOnInit(): void {
+    this.socket = io("http://localhost:3000");
   }
   
   ngAfterViewInit(){
