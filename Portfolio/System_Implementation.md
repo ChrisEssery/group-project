@@ -112,7 +112,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 First draft:
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/ERD1.png
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/ERD1.png)
 
 ## Middle tier
 
