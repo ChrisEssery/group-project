@@ -5,27 +5,36 @@
 	 max-width: 100%;
 	 margin: 10px auto;
 }
+
  .memory-game__cards {
 	 display: flex;
 	 flex-flow: row wrap;
 }
+
+ /* rounds and player */
  .memory-game__info {
+  position: absolute;
 	 display: flex;
 	 align-items: center;
-	 justify-content: space-between;
+	 justify-content: space-evenly;
 	 padding: 10px;
-	 color: #fff;
+	 color: #FFFF00;
 }
+
  .memory-game .game-window_content__title {
+  position: absolute;
 	 font-weight: normal;
 	 text-align: center;
 	 margin-bottom: 15px;
 	 color: #383838;
 }
+
  .memory-game .game-window_content__link {
 	 margin: 0 20px;
 }
+
  .memory-game .game-window_content__rounds {
+  position: absolute;
 	 margin-bottom: 10px;
 	 text-align: center;
 	 color: #919191;

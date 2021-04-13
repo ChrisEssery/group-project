@@ -1,8 +1,9 @@
 <!--Set class attributes for HTML elements-->
-
+<app-background></app-background>
 <!--Title-->
+<app-heading></app-heading>
+
 <div class="memory-game">
- <app-heading></app-heading>
 <!--Cards-->
  <div class="memory-game__cards">
    <app-cards *ngFor="let card of gameService.cards" [card]="cards"></app-cards>
@@ -10,6 +11,7 @@
 
  <div class="memory-game__info">
    <p>Rounds: {{ gameService.rounds }}</p>
+   
    <p>Player: {{ gameService.playerName }}</p>
  </div>
 
@@ -25,7 +27,7 @@
        Play again
      </app-button>
 
-     <a class="game-window_content__link" routerLink="/leaderboard">Leaderboard</a>
+     <a class="game-window_content__link" routerLink="/leaderboard">Leaderboard </a>
    </div>
  </app-game-window >
 

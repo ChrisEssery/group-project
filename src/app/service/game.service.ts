@@ -12,7 +12,6 @@ export class GameService {
   cards: Cards[] = [];
   activeCards: Cards[] = [];
   isBoardLocked: boolean = false;
-  isCheatActivated: boolean = false;
   rounds: number = 0;
   playerName: string;
 
@@ -28,12 +27,15 @@ export class GameService {
     return this.cards.every(card => card.visible === true);
   }
 
-  showCard(cards: Cards): void {
-    if (!this.isMoveValid()) return;
+  //when card clicked, flips 180
+  //revealing the other side
+  showCard(card: Cards): void {
+    if (!this.isMoveValid())
+      return;
 
-    if (this.isCardValid(cards)) {
-      this.activeCards.push(cards);
-      cards.show();
+    if (this.isCardValid(card)) {
+      this.activeCards.push(card);
+      card.show();
     }
 
     if (this.activeCards.length === 2) {
@@ -45,18 +47,14 @@ export class GameService {
     }
 
   }
-
+  // once gameplay complete,
+  // start again
   playAgain(): void {
     this.router.navigate(["gameplay"]);
     this.cards = this.cardService.getCards();
     this.activeCards = [];
     this.rounds = 0;
     this.isBoardLocked = false;
-  }
-
-  // possibly unnecessary option to see cards
-  toggleCheat(): void {
-    this.isCheatActivated = !this.isCheatActivated;
   }
 
   // check whether move is valid
@@ -71,7 +69,8 @@ export class GameService {
     if (this.isMatch()) {
       this.activeCards = [];
       this.unlockBoard();
-    } else {
+    }
+    else {
       setTimeout(() => {
         this.hideSelectedCards();
         this.unlockBoard();
