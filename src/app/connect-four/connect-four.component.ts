@@ -9,8 +9,7 @@ import io from "socket.io-client";
 export class ConnectFourComponent implements OnInit {
 
   constructor() {
-   }
-
+  }
 
   ngOnInit(): void {
 
@@ -20,7 +19,6 @@ export class ConnectFourComponent implements OnInit {
   const squares = document.querySelectorAll('.grid div')
   const result = document.querySelector('#result')
   const displayCurrentPlayer = document.querySelector('#current-player')
-  let currentPlayer = 1
   let currentPlayerType = "user";
   let playerNumber = 0;
   let ready = false;
@@ -28,35 +26,93 @@ export class ConnectFourComponent implements OnInit {
   const turnTaken = -1;
   const isGameOver = false;
   const infoDisplay = document.querySelector('#space');
-  const startGameButton = document.querySelector('#startButton');
-  startGameButton.addEventListener('click', startGame);
-  
-
+  const connectToGameButton = document.querySelector('#connectButton');
+  const readyForGameButton = document.querySelector('#readyButton')
+  connectToGameButton.addEventListener('click', connectToGame);
+  const userSlots = [];
+  const opponentSlots = [];
+  let slotTaken = -1;
   
   // Start game
-  function startGame(){
+  function connectToGame(){
+    // Creates socket to use for the game
+
     const socket = io("http://localhost:3000");
+
+    // Gets your player number
     socket.on('player-number', num => {
-      if(num === - 1){
+      if(num === -1){
         infoDisplay.innerHTML = "Sorry, the server is full.";
       } else {
         playerNumber = parseInt(num);
         if(playerNumber === 1) {
           currentPlayerType = "enemy";
         }
-        console.log(playerNumber);
+        // Get other player status
+        socket.emit('check-players');
       }
     })
+
     // Another player has connected or disconnected
     socket.on('player-connection', num => {
       console.log(`Player number ${num} has connected or disconnected`);
       playerConnectedOrDisconnected(num);
     })
 
+    // On enemy ready
+    socket.on('opponent-ready', num => {
+      opponentReady = true;
+      playerReady(num);
+      if(ready){
+        playGame(socket);
+      }
+    })
+
+    // Check player status
+    socket.on('check-players', players => {
+      players.forEach((p, i) => {
+        if(p.connected){
+          playerConnectedOrDisconnected(i);
+        }
+        if(p.ready){
+          playerReady(i);
+          if(i !== playerNumber){
+            opponentReady = true;
+          }
+        }
+      })
+    })
+
+    // Ready button click
+    readyForGameButton.addEventListener('click', () => {
+      playGame(socket);
+    })
+
+    // Setup event listeners
+   /* opponentSlots.forEach(square => {
+      square.addEventListener('click', () => {
+        if(currentPlayerType === 'user' && ready && opponentReady){
+          slotTaken = square.dataset.id;
+          socket.emit('takeSlot', slotTaken);
+        }
+      })
+    }) */
+
+    // On turn received
+    socket.on('takeSlot', id => {
+      opponentTurn(id);
+      playGame(socket); 
+    })
+
+    socket.on('slot-reply', id =>{
+      playGame(socket);
+    })
+    
+
     function playerConnectedOrDisconnected(num){
       let player = `.p${parseInt(num) + 1}`;
-      let test = document.getElementById(`${player} .connected span`);
-      test.classList.toggle('green');
+      const target = <HTMLElement><any>document.querySelector(`${player} .connected span`);
+      target.classList.add("green");
       if(parseInt(num) === playerNumber){
         let myElement = <HTMLElement><any>document.querySelector(player);
         myElement.style.fontWeight = 'bold';
@@ -72,12 +128,21 @@ export class ConnectFourComponent implements OnInit {
         ready = true;
         playerReady(playerNumber);
       }
+      if(opponentReady){
+        if(currentPlayerType === 'user'){
+            displayCurrentPlayer.innerHTML = 'Your turn!';
+        }
+        if(currentPlayerType === 'enemy'){
+          displayCurrentPlayer.innerHTML = 'Opponent\'s turn';
+        }
+      }
     }
 
     function playerReady(num) {
-      
+      let player = `.p${parseInt(num) + 1}`;
+      const target = <HTMLElement><any>document.querySelector(`${player} .ready span`);
     }
-
+  
     function checkBoard() {
       for (let y = 0; y < winningArrays.length; y++) {
         const square1 = squares[winningArrays[y][0]]
@@ -109,25 +174,55 @@ export class ConnectFourComponent implements OnInit {
     }
   
     for (let i = 0; i < squares.length; i++) {
+      (squares[i] as HTMLElement).dataset.id = String(i);
       squares[i].addEventListener("click",function (){
         //if the square below your current square is taken, you can go ontop of it
-        if (squares[i + 7].classList.contains('taken') &&!squares[i].classList.contains('taken') || squares[i+7].classList.contains('bottom') &&!squares[i].classList.contains('taken')) {
-          if (currentPlayer == 1) {
-            squares[i].classList.add('taken')
-            squares[i].classList.add('player-one')
-            currentPlayer = 2
-            displayCurrentPlayer.innerHTML = String(currentPlayer);
-          } else if (currentPlayer == 2){
-            squares[i].classList.add('taken')
-            squares[i].classList.add('player-two')
-            currentPlayer = 1
-            displayCurrentPlayer.innerHTML = String(currentPlayer);      
-          } 
-        } else alert('cant go here')
-        checkBoard()
+        if(currentPlayerType === 'user' && ready && opponentReady){
+          let sq = (squares[i] as HTMLElement).dataset.id;
+          slotTaken = parseInt(sq)
+          socket.emit('takeSlot', slotTaken);
+          if (squares[i + 7].classList.contains('taken') &&!squares[i].classList.contains('taken') || squares[i+7].classList.contains('bottom') &&!squares[i].classList.contains('taken')) {
+            if (playerNumber == 0) {
+              squares[i].classList.add('taken')
+              squares[i].classList.add('player-one')
+            } else if (playerNumber == 1){
+              squares[i].classList.add('taken')
+              squares[i].classList.add('player-two')  
+            } 
+          } else alert('cant go here')
+          currentPlayerType = 'enemy'
+          checkBoard()
+         playGame(socket);
+        }
       })
     }
 
+    function opponentTurn(id){
+      if(playerNumber == 0){
+        playerNumber = 1;
+      }
+      else{
+        playerNumber = 0;
+      }
+      console.log("Taking a turn...");
+      if (squares[id + 7].classList.contains('taken') &&!squares[id].classList.contains('taken') || squares[id+7].classList.contains('bottom') &&!squares[id].classList.contains('taken')) {
+        if (playerNumber == 0) {
+          squares[id].classList.add('taken')
+          squares[id].classList.add('player-one')
+          playerNumber = 1;
+        } else if (playerNumber == 1){
+          squares[id].classList.add('taken')
+          squares[id].classList.add('player-two') 
+          playerNumber = 0;
+   
+        } 
+      } else alert('cant go here')
+      currentPlayerType = 'user';
+      checkBoard()
+
+      
+    }
+    }
 
   const winningArrays = [
     [0, 1, 2, 3],
@@ -203,5 +298,4 @@ export class ConnectFourComponent implements OnInit {
   }
   
   
-}
 }

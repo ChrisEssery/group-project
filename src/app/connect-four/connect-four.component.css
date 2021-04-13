@@ -61,6 +61,22 @@ h3 {
   animation : bgColor 20s linear infinite;
 }
 
+.connected, .ready {
+  font-weight: normal;
+}
+
+.connected span,
+.ready span {
+  display: inline-flex;
+  width: 1rem;
+  height: 1rem;
+  background: white;
+}
+
+.green {
+  background: green;
+}
+
 
 
 @keyframes animate
@@ -98,20 +114,4 @@ h3 {
   {
       background: #f44336;
   }
-}
-
-.connected, .ready {
-  font-weight: normal;
-}
-
-.connected span,
-.ready span {
-  display: inline-block;
-  width: 1rem;
-  height: 1rem;
-  background: red;
-}
-
-span.green {
-  background: green;
 }
