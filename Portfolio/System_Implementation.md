@@ -103,6 +103,9 @@ Another advantage of mongoDB is that it is highly scalable. Were we to continue 
 
 So, why didn't we use a SQL database instead? We decided not to do this because we wanted to use the MEAN stack, which is a recognised stack that enables quick builds, and we also recognised that, for our purposes, we don't require a database to hold data with lots of connections. Instead, the data we will be storing requires very few. Give this fact, we felt it wasn't necessary to use SQL.
 
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Mongooseicon.png)
+
+With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. 
 
 ### Details of Implementation
 
