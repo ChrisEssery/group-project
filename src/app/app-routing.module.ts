@@ -6,9 +6,8 @@ import { GameplayComponent } from "./route/gameplay/gameplay.component";
 import { LeaderboardComponent } from "./route/leaderboard/leaderboard.component";
 
 const routes: Routes = [
-  { path: "", redirectTo: "/startpage", pathMatch: "full" },
-  { path: "startpage", component: StartPageComponent },
-  { path: "gameplay", component: GameplayComponent },
+  { path: '', component: StartPageComponent },
+  { path: 'gameplay', component: GameplayComponent },
   { path: 'leaderboard', component: LeaderboardComponent }
 ];
 

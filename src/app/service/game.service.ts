@@ -47,7 +47,7 @@ export class GameService {
   }
 
   playAgain(): void {
-    this.router.navigate(["playing"]);
+    this.router.navigate(["gameplay"]);
     this.cards = this.cardService.getCards();
     this.activeCards = [];
     this.rounds = 0;

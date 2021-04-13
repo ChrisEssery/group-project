@@ -7,13 +7,13 @@ import { Router } from "@angular/router";
   templateUrl: './start-page.component.html',
   styleUrls: ['./start-page.component.css']
 })
-export class StartPageComponent implements OnInit {
+export class StartPageComponent {
 
   constructor(public gameService: GameService, public router: Router) {}
 
   startGame() {
     if (this.gameService.playerName && this.gameService.playerName.trim()) {
-      this.router.navigate(["playing"]);
+      this.router.navigate(["gameplay"]);
     }
   }
 }
