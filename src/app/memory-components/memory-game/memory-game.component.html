@@ -1,6 +1,5 @@
 <!--Set class attributes for HTML elements-->
 <app-background></app-background>
-<!--Title-->
 <app-heading></app-heading>
 
 <div class="memory-game">
@@ -17,9 +16,9 @@
 
  <!--Window for gameplay-->
  <app-game-window [visible]="gameService.isGameOver">
-   <div class="game-window_content">
-     <h2 class="game-window_content__title">Congratulations! You won! </h2>
-     <p class="game-window_content__rounds">
+   <div class="game-window-content">
+     <h2 class="game-window-content__title">Congratulations! You won! </h2>
+     <p class="game-window-content__rounds">
        Number of rounds: {{ gameService.rounds }}
      </p>
      <!--Button to play again-->
@@ -27,7 +26,7 @@
        Play again
      </app-button>
 
-     <a class="game-window_content__link" routerLink="/leaderboard">Leaderboard </a>
+     <a class="game-window-content__link" routerLink="/leaderboard">Leaderboard </a>
    </div>
  </app-game-window >
 

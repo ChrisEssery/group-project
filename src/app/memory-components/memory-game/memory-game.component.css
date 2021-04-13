@@ -21,7 +21,7 @@
 	 color: #FFFF00;
 }
 
- .memory-game .game-window_content__title {
+ .memory-game .game-window-content__title {
   position: absolute;
 	 font-weight: normal;
 	 text-align: center;
@@ -29,11 +29,11 @@
 	 color: #383838;
 }
 
- .memory-game .game-window_content__link {
+ .memory-game .game-window-content__link {
 	 margin: 0 20px;
 }
 
- .memory-game .game-window_content__rounds {
+ .memory-game .game-window-content__rounds {
   position: absolute;
 	 margin-bottom: 10px;
 	 text-align: center;
