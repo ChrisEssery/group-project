@@ -26,13 +26,13 @@ Reconnect with old friends, play fun board games, and enjoy yourself. With live 
 
 ## Our Team
 
-* Chris - Coder/Full-stack :technologist:
+* Chris - Coder/Front-end :technologist:
 
 * Lizhao - Coder/Full-stack :woman_technologist:
 
-* Harri - Leader/Full-stack :prince:
+* Harri - Organiser/Back-end :prince:
 
-* Max - Coder/Full-stack :artist:
+* Max - Scribe/Front-end :artist:
 
 
 ## Aims and Objectives
