@@ -9,7 +9,7 @@ Http.listen(3000, () => {
 // Handle connection request
 const connections = [null, null]
 
-Socketio.on('connection', socket => {
+Socketio.on('connection', (socket) => {
     console.log('New connection');
     // Find available player numbers
     let playerIndex = -1;
@@ -20,10 +20,22 @@ Socketio.on('connection', socket => {
             break;
         }
     }
+    Socketio.emit('player-number', playerIndex);
+    console.log(`Player ${playerIndex} has connected`);
     if(playerIndex === -1){
         return;
     }
-    Socketio.emit('player-number', playerIndex);
-    console.log(`Player ${playerIndex} has connected`);
-})
+
+    connections[playerIndex] = false;
+
+    // Tell everyone what player number just connected
+    socket.broadcast.emit('player-connection', playerIndex);
+
+    socket.on('disconnect', () => {
+        console.log(`Player ${playerIndex} disconnected`);
+        connections[playerIndex] = null;
+        //Tell what player disconnected
+        socket.broadcast.emit('player-connection', playerIndex);
+    })
+});
 

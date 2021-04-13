@@ -7,16 +7,13 @@ import io from "socket.io-client";
   styleUrls: ['./connect-four.component.css']
 })
 export class ConnectFourComponent implements OnInit {
-  playerNumber;
-  
+
   constructor() {
-    this.playerNumber = 0;
    }
-  private socket: any;
 
 
   ngOnInit(): void {
-    this.socket = io("http://localhost:3000");
+
   }
   
   ngAfterViewInit(){
@@ -24,6 +21,113 @@ export class ConnectFourComponent implements OnInit {
   const result = document.querySelector('#result')
   const displayCurrentPlayer = document.querySelector('#current-player')
   let currentPlayer = 1
+  let currentPlayerType = "user";
+  let playerNumber = 0;
+  let ready = false;
+  let opponentReady = false;
+  const turnTaken = -1;
+  const isGameOver = false;
+  const infoDisplay = document.querySelector('#space');
+  const startGameButton = document.querySelector('#startButton');
+  startGameButton.addEventListener('click', startGame);
+  
+
+  
+  // Start game
+  function startGame(){
+    const socket = io("http://localhost:3000");
+    socket.on('player-number', num => {
+      if(num === - 1){
+        infoDisplay.innerHTML = "Sorry, the server is full.";
+      } else {
+        playerNumber = parseInt(num);
+        if(playerNumber === 1) {
+          currentPlayerType = "enemy";
+        }
+        console.log(playerNumber);
+      }
+    })
+    // Another player has connected or disconnected
+    socket.on('player-connection', num => {
+      console.log(`Player number ${num} has connected or disconnected`);
+      playerConnectedOrDisconnected(num);
+    })
+
+    function playerConnectedOrDisconnected(num){
+      let player = `.p${parseInt(num) + 1}`;
+      let test = document.getElementById(`${player} .connected span`);
+      test.classList.toggle('green');
+      if(parseInt(num) === playerNumber){
+        let myElement = <HTMLElement><any>document.querySelector(player);
+        myElement.style.fontWeight = 'bold';
+      }
+    }
+
+    function playGame(socket){
+      if(isGameOver){
+        return;
+      }
+      if(!ready){
+        socket.emit('player-ready');
+        ready = true;
+        playerReady(playerNumber);
+      }
+    }
+
+    function playerReady(num) {
+      
+    }
+
+    function checkBoard() {
+      for (let y = 0; y < winningArrays.length; y++) {
+        const square1 = squares[winningArrays[y][0]]
+        const square2 = squares[winningArrays[y][1]]
+        const square3 = squares[winningArrays[y][2]]
+        const square4 = squares[winningArrays[y][3]]
+  
+        //check those squares to see if they all have the class of player-one
+        if (
+          square1.classList.contains('player-one') &&
+          square2.classList.contains('player-one') &&
+          square3.classList.contains('player-one') &&
+          square4.classList.contains('player-one')
+        )
+        {
+          result.innerHTML = 'Player One Wins!'
+        }
+        //check those squares to see if they all have the class of player-two
+        if (
+          square1.classList.contains('player-two') &&
+          square2.classList.contains('player-two') &&
+          square3.classList.contains('player-two') &&
+          square4.classList.contains('player-two')
+        )
+        {
+          result.innerHTML = 'Player Two Wins!'
+        }
+      }
+    }
+  
+    for (let i = 0; i < squares.length; i++) {
+      squares[i].addEventListener("click",function (){
+        //if the square below your current square is taken, you can go ontop of it
+        if (squares[i + 7].classList.contains('taken') &&!squares[i].classList.contains('taken') || squares[i+7].classList.contains('bottom') &&!squares[i].classList.contains('taken')) {
+          if (currentPlayer == 1) {
+            squares[i].classList.add('taken')
+            squares[i].classList.add('player-one')
+            currentPlayer = 2
+            displayCurrentPlayer.innerHTML = String(currentPlayer);
+          } else if (currentPlayer == 2){
+            squares[i].classList.add('taken')
+            squares[i].classList.add('player-two')
+            currentPlayer = 1
+            displayCurrentPlayer.innerHTML = String(currentPlayer);      
+          } 
+        } else alert('cant go here')
+        checkBoard()
+      })
+    }
+
 
   const winningArrays = [
     [0, 1, 2, 3],
@@ -96,56 +200,8 @@ export class ConnectFourComponent implements OnInit {
     [12, 19, 26, 33],
     [13, 20, 27, 34],
   ]
-
-  function checkBoard() {
-    for (let y = 0; y < winningArrays.length; y++) {
-      const square1 = squares[winningArrays[y][0]]
-      const square2 = squares[winningArrays[y][1]]
-      const square3 = squares[winningArrays[y][2]]
-      const square4 = squares[winningArrays[y][3]]
-
-      //check those squares to see if they all have the class of player-one
-      if (
-        square1.classList.contains('player-one') &&
-        square2.classList.contains('player-one') &&
-        square3.classList.contains('player-one') &&
-        square4.classList.contains('player-one')
-      )
-      {
-        result.innerHTML = 'Player One Wins!'
-      }
-      //check those squares to see if they all have the class of player-two
-      if (
-        square1.classList.contains('player-two') &&
-        square2.classList.contains('player-two') &&
-        square3.classList.contains('player-two') &&
-        square4.classList.contains('player-two')
-      )
-      {
-        result.innerHTML = 'Player Two Wins!'
-      }
-    }
   }
-
-  for (let i = 0; i < squares.length; i++) {
-    squares[i].addEventListener("click",function (){
-      //if the square below your current square is taken, you can go ontop of it
-      if (squares[i + 7].classList.contains('taken') &&!squares[i].classList.contains('taken') || squares[i+7].classList.contains('bottom')) {
-        if (currentPlayer == 1) {
-          squares[i].classList.add('taken')
-          squares[i].classList.add('player-one')
-          currentPlayer = 2
-          displayCurrentPlayer.innerHTML = String(currentPlayer);
-        } else if (currentPlayer == 2){
-          squares[i].classList.add('taken')
-          squares[i].classList.add('player-two')
-          currentPlayer = 1
-          displayCurrentPlayer.innerHTML = String(currentPlayer);      
-        } 
-      } else alert('cant go here')
-      checkBoard()
-    })
-  }
+  
   
 }
 }
