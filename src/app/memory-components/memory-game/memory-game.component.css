@@ -15,7 +15,7 @@
  .memory-game__info {
   position: absolute;
 	 display: flex;
-	 align-items: center;
+	 align-items: space-evenly;
 	 justify-content: space-evenly;
 	 padding: 10px;
 	 color: #FFFF00;
