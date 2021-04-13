@@ -5,8 +5,7 @@ import { FormsModule, ReactiveFormsModule } from "@angular/forms";
 import { AppRoutingModule } from './app-routing.module';
 /*import { RouterModule } from '@angular/router';*/
 import { AppComponent } from './app.component';
-import { StartPageComponent } from './route/start-page/start-page.component';
-import { BackgroundComponent } from './route/start-page/background/background.component';
+/* import { BackgroundComponent } from './route/gameplay/background/background.component'; */
 import { CardsComponent } from './memory-components/cards/cards.component';
 import { LeaderboardComponent } from './route/leaderboard/leaderboard.component';
 import { GameplayComponent } from './route/gameplay/gameplay.component';
@@ -20,8 +19,7 @@ import { HeadingComponent } from './memory-components/heading/heading.component'
 @NgModule({
   declarations: [
     AppComponent,
-    StartPageComponent,
-    BackgroundComponent,
+   /* BackgroundComponent, */
     CardsComponent,
     LeaderboardComponent,
     GameplayComponent,

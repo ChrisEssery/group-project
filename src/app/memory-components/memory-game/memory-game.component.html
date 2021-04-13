@@ -1,5 +1,4 @@
 <!--Set class attributes for HTML elements-->
-<app-background></app-background>
 
 <!--Title-->
 <div class="memory-game">
@@ -11,7 +10,6 @@
 
  <div class="memory-game__info">
    <p>Rounds: {{ gameService.rounds }}</p>
-   <button class="cheat-btn" (click)="gameService.toggleCheat()">Cheat</button>
    <p>Player: {{ gameService.playerName }}</p>
  </div>
 
@@ -23,7 +21,7 @@
        Number of rounds: {{ gameService.rounds }}
      </p>
      <!--Button to play again-->
-     <app-button (click)="gameService.playAgain()" type="btn">
+     <app-button (click)="gameService.playAgain()" type="button">
        Play again
      </app-button>
 
