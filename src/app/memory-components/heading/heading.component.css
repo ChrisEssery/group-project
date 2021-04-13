@@ -1,7 +1,7 @@
 .title {
   position: absolute;
+  text-align: center;
 	 font-weight: normal;
 	 color: #FFFF00;
-	 margin: 50px 0;
-	 text-align: center;
+	 margin: 15px 0;
 }
