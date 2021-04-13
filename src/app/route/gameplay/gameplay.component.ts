@@ -8,7 +8,7 @@ import { GameService } from "src/app/service/game.service";
   templateUrl: './gameplay.component.html',
 })
 export class GameplayComponent implements OnInit {
-   constructor(public gameService: GameService) {}
+   constructor(private gameService: GameService) {}
 
    ngOnInit() {}
 
