@@ -44,7 +44,7 @@ In order to produce working software, it is important to follow a recognised met
 
 ### The waterfall method
 
-First, we'll look the waterfall method. The lifecyle of this approach is depicted below:
+First, we'll look the waterfall method. The lifecycle of this approach is depicted below:
 
 <div align="center">
 
@@ -58,14 +58,14 @@ The main focus of this approach is structure. Milestones are set, breaking the p
 - Consists of clear defined stages
 - Phases completed in a linear process, one after the other
 - Straightforward to manage
-- The lifecyle is well documented and easy to follow
+- The lifecycle is well documented and easy to follow
 
 ### The Cons:
 - Inflexible to changing requirements
 - Excludes the client
-- Working software not produced until late in the lifecyle
-- Hard to idenfity and measure progress within each stage
-- Testing occurs near the end of the lifecyle
+- Working software not produced until late in the lifecycle
+- Hard to identify and measure progress within each stage
+- Testing occurs near the end of the lifecycle
 
 ### The Agile methods
 
@@ -109,7 +109,7 @@ In light of the strengths and weaknesses of both methodologies, we decided to us
 
 The format of our software development was as follows. Our build was broken down into sprints. Each sprint centres around a particular set of features, tests to test the robustness those features, and making sure that our users' expectations and demands are met through the creation of those added features.
 
-Following standard practice, we broke the sprints down into two week cycles. During each cycle we created a backlog of tasks and user feedback. We used the feedback from previous sprints to help inform the project development. We then reviewed our progress during our weekly meetings. During these reviews we conducted integration testing and assurance testing. Following this, we then aimed to  merge all changes to the master branch of Github.
+Following standard practice, we broke the sprints into two week cycles. During each cycle we created a backlog of tasks and user feedback. We used the feedback from previous sprints to help inform the project development. We then reviewed our progress during our weekly meetings. During these reviews we conducted integration testing and assurance testing. Following this, we then aimed to  merge all changes to the master branch of Github.
 
 Our sprints really got under way in March. These continued until early May. The sprints centred around a feature implementation required for that week as well as any tasks in the backlog from previous weeks.
 
@@ -119,7 +119,7 @@ The requirements acted to inform our tests. This meant that our systems were abl
 
 Given the fact that we had very little time to build the product, we felt that it was important to deploy a working application as soon as we possibly could.
 
-With respect to the meetings and sprints and how they worked, we met every Monday at 11am. And then on Wednesdays and Fridays. In every successive meeting we discussesd the work we had done, and when items were assigned tasks as "complete". We compiled a list of Backlog and items that were complete.
+With respect to the meetings and sprints and how they worked, we met every Monday at 11am. And then on Wednesdays and Fridays. In every successive meeting we discussed the work we had done, and when items were assigned tasks as "complete". We compiled a list of Backlog and items that were complete.
 
 At the heart of this process was the users. So, during every sprint we had the users in mind, making sure to address their goals and demands.
 
@@ -130,6 +130,8 @@ We used Jira to implement these actions, and created Gantt charts to visualise t
 ### Product backlog
 
 Within Jira there is a Backlog. This is a product backlog which contains list of the main deliverables we intended to implement during each sprint. These deliverables, or items, are prioritised to ensure that the most important features are completed before less important ones. These items were carried forward to subsequent sprints were we unable to complete them within the intended sprint. This served as an essential part of our product development, since it helped our decision making with regard to task assignment and prioritisation.
+
+The presence of an item in the backlog guarantees that the item is being worked on. However, it does not ensure that the item will be completed before the end of the sprint, or at all. In some circumstances, backlog items will not be completed due to practical issues.
 
 In the following, we give a detailed account of each sprint, the actions which arose from it and how our two users "Bob" and "Simon" felt about the new features.
 
@@ -198,6 +200,18 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
    * Get user feedback
+
+### Relevant backlog items
+
+The following are a list of tasks and features that the team were tasked to deliver by the end of the sprint.
+
+    ```
+      → Backlog item: design and build start page
+      → Backlog item: add audio to start page
+      → Backlog item: start building games
+      → Backlog item: design backend
+
+    ```
 
 ### Evaluation of Sprint
 
