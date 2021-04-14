@@ -178,21 +178,29 @@ export class ConnectFourComponent implements OnInit {
       squares[i].addEventListener("click",function (){
         //if the square below your current square is taken, you can go ontop of it
         if(currentPlayerType === 'user' && ready && opponentReady){
-          let sq = (squares[i] as HTMLElement).dataset.id;
-          slotTaken = parseInt(sq)
-          socket.emit('takeSlot', slotTaken);
           if (squares[i + 7].classList.contains('taken') &&!squares[i].classList.contains('taken') || squares[i+7].classList.contains('bottom') &&!squares[i].classList.contains('taken')) {
             if (playerNumber == 0) {
               squares[i].classList.add('taken')
               squares[i].classList.add('player-one')
+              let sq = (squares[i] as HTMLElement).dataset.id;
+              slotTaken = parseInt(sq)
+              socket.emit('takeSlot', slotTaken);
+              checkBoard()
+              currentPlayerType = 'enemy'
+              playGame(socket);
             } else if (playerNumber == 1){
               squares[i].classList.add('taken')
               squares[i].classList.add('player-two')  
+              let sq = (squares[i] as HTMLElement).dataset.id;
+              slotTaken = parseInt(sq)
+              socket.emit('takeSlot', slotTaken);
+              checkBoard()
+              currentPlayerType = 'enemy'
+              playGame(socket);
+              
             } 
           } else alert('cant go here')
-          currentPlayerType = 'enemy'
-          checkBoard()
-         playGame(socket);
+         
         }
       })
     }
@@ -214,7 +222,6 @@ export class ConnectFourComponent implements OnInit {
           squares[id].classList.add('taken')
           squares[id].classList.add('player-two') 
           playerNumber = 0;
-   
         } 
       } else alert('cant go here')
       currentPlayerType = 'user';
