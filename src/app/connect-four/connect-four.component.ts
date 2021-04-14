@@ -199,7 +199,7 @@ export class ConnectFourComponent implements OnInit {
               playGame(socket);
               
             } 
-          } else alert('cant go here')
+          } else alert('You can\'t go here!')
          
         }
       })
@@ -223,7 +223,7 @@ export class ConnectFourComponent implements OnInit {
           squares[id].classList.add('player-two') 
           playerNumber = 0;
         } 
-      } else alert('cant go here')
+      } else alert('You can\'t go here!')
       currentPlayerType = 'user';
       checkBoard()
 
