@@ -111,7 +111,7 @@ export class ConnectFourComponent implements OnInit {
 
     function playerConnectedOrDisconnected(num){
       let player = `.p${parseInt(num) + 1}`;
-      const target = <HTMLElement><any>document.querySelector(`${player} .connected span`);
+      const target = <HTMLElement><any>document.querySelector(`${player} .connected`);
       target.classList.add("green");
       if(parseInt(num) === playerNumber){
         let myElement = <HTMLElement><any>document.querySelector(player);

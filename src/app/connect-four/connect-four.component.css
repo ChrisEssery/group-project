@@ -53,20 +53,47 @@ h3 {
     background-color:rgb(2, 3, 97);
  }
 
- #connectButton, #readyButton {
-  display: inline-block;
-  padding:0.35em 1.2em;
-  border:0.1em solid #FFFFFF;
-  margin:0 0.3em 0.3em 0;
-  border-radius:0.12em;
-  box-sizing: border-box;
-  text-decoration:none;
-  font-family:'Roboto', sans-serif;
-  font-weight:300;
-  color:#FFFFFF;
-  text-align:center;
-  transition: all 0.2s;
+
+ #connectButton {
+   margin-left: 600px;
+   margin-top: 25px;
+   align-content: center;
  }
+ #readyButton {
+  margin-left: 950px;
+  margin-top: 25px;
+  align-content: center;
+}
+
+ #connectButton, #readyButton {
+    background-color: transparent;
+    display:inline-block;
+    padding:0.6em 2em;
+    border:0.05em solid #FFFFFF;
+    position:absolute;
+    cursor: pointer;
+    border-radius:0.8em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight:200;
+    font-size: 33px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+#connectButton:hover, #readyButton:hover{
+   color:grey;
+   background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+   #connectButton, #readyButton{
+       display:block;
+       margin:0.4em auto;
+    }
+} 
 
  .bgPulse {
   position: absolute;
@@ -83,15 +110,29 @@ h3 {
 
 .p1, .p2 {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px ;
+  margin-left: 100px;
+  margin-top: 30px;
 }
 
-.connected span,
-.ready span {
+.p1 span {
   display: inline-flex;
-  width: 1rem;
-  height: 1rem;
-  background: white;
+  width: 2rem;
+  height: 2rem;
+  background: red;
+  border-radius: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style:solid
+}
+
+.p2 span {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: blue;
+  border-radius: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style:solid
 }
 
 
