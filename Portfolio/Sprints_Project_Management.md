@@ -21,10 +21,10 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
 * [**Documentation of sprints**](#documentation-of-sprints)
-   * [Sprint 1: (18.02.21 - 02.03.21)](#Sprint-1180221-020321)
-   * [Sprint 2: (02.03.21 - 16.03.21)](#Sprint-1180221-020321)
-   * [Sprint 3: (16.03.21 - 30.03.21)](#Sprint-1180221-020321)
-   * [Sprint 4: (30.03.21 - 14.04.21)](#Sprint-1180221-020321)
+   * [Sprint 1: Ideation and Setup (18.02.21 - 02.03.21)](#Sprint-1180221-020321)
+   * [Sprint 2: Build game frontend and design backend (02.03.21 - 16.03.21)](#Sprint-1180221-020321)
+   * [Sprint 3: Deploy the product (16.03.21 - 30.03.21)](#Sprint-1180221-020321)
+   * [Sprint 4: Testing before release (30.03.21 - 14.04.21)](#Sprint-1180221-020321)
    * [Sprint 5: (14.04.21) - 28.04.21](#Sprint-1180221-020321)
    * [Sprint 6: (28.04.21 - 05.05.21](#Sprint-1180221-020321)
 * [**Team use of Git**](team-use-of-git)
@@ -188,7 +188,7 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
-## Sprint 1: (18.02.21 - 02.03.21)
+## Sprint 1: Ideation and Setup (18.02.21 - 02.03.21)
 ___
 
 
@@ -197,29 +197,30 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * We made the group decision to use the MEAN stack.
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
+   * Get user feedback
 
 ### Evaluation of Sprint
 
-This was our first sprint. There
+This was our first sprint. Our focus was on choosing the design and structure of the application. After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't much we could ask our user's since we were in a very early stage. We maybe could have benefited from getting different branches setup on our GitHub repository.
 
-## Sprint 2: (02.03.21 - 16.03.21)
+## Sprint 2: Build game frontend and design backend (02.03.21 - 16.03.21)
 ___
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was to get something built. We decided to build four games. We also wanted to get the start page up and running, so we had to familiarise ourselves Angular.
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
+   * Games allocated to team members
+   * Build and run start page
    * Set up GitHub repository and familiarised ourselves with the platform.
 
 ### Relevant backlog items
 
  ```
-   → Backlog item: integrate video chat
-   → Backlog item: create start page
+   → Backlog item: design and build start page
    → Backlog item: add audio to start page
-   → Backlog item: create login
+   → Backlog item: start building games
+   → Backlog item: design backend
 
  ```
 
@@ -237,10 +238,10 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
  <td>Start page.</td>
- <td>Front End: login/signup UI design. Back End: user account management  (Database Creation (Design)) api</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <td>Front End: start page UI design. Back End: design user account management  (Database Creation (Design)) api</td>
+ <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. There is also music which improves the experience. My only reservation is the moving title. I would prefer if the title stopped moving after a short period of time.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -262,9 +263,9 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 
 ### Evaluation of Sprint
 
+During this sprint, we
 
-
-## Sprint 3: (16.03.21 - 30.03.21)
+## Sprint 3: Deploy the product (16.03.21 - 30.03.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
@@ -324,24 +325,25 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-## Sprint 4: (30.03.21 - 14.04.21)
+## Sprint 4: Testing before release (30.03.21 - 14.04.21)
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was to make sure our application, including the video chat and friend invite functionality, was working properly and fit for pre-release. In order to ensure it was we had to conduct rigorous testing.
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
-   * Set up GitHub repository and familiarised ourselves with the platform.
+   * Test video chat
+   * Conduct rigorous Testing
+   * Debugging
+   * Add component to add friends
 
 ### Relevant backlog items
 
 ```
-  → Backlog item: integrate video chat
-  → Backlog item: create start page
-  → Backlog item: add audio to start page
+  → Backlog item: test video chat
+  → Backlog item: testing
+  → Backlog item: build and test friend invite component
   → Backlog item: create login
 
 ```
