@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
+import{UserdataService} from '../userdata.service';
 
 @Component({
   selector: 'app-signup',
@@ -13,13 +16,18 @@ export class SignupComponent implements OnInit {
     username: ''
   }
 
-  constructor() { }
+  errMsg = ''
 
-  ngOnInit(): void {
-  }
+  constructor(
+    private http: HttpClient,
+    private router: Router,
+    private dataService: UserdataService
+  ) { }
 
+  ngOnInit(): void {}
   signup(){
-    console.log("signed up")
+    const formData = this.signUpForm
+    this.dataService.addUser(formData, this.errMsg)
   }
 
 }
