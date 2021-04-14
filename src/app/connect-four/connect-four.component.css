@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+body {
+  background-color: #9c27b0;
+  width: 100vw;
+  min-height: 100vh;
+}
+
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Luckiest Guy', cursive;
+    color:  gold;
+    letter-spacing: 4px;
+    text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 
+    0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);;
+}
+
+.grid {
+    border: 5px solid;
+    height: 590px;
+    width: 720px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color:rgb(2, 3, 97);
+    padding: 10px;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .grid div {
+    height: 80px;
+    width: 80px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 40px;
+  }
+  
+  .player-one {
+    background-color: red !important;
+    border-radius: 40px;
+  }
+  
+  .player-two {
+    background-color: blue !important;
+    border-radius: 40px;
+  }
+ div.bottom {
+    margin-top: 200px;
+    background-color:rgb(2, 3, 97);
+ }
+
+
+ #connectButton {
+   margin-left: 600px;
+   margin-top: 25px;
+   align-content: center;
+ }
+ #readyButton {
+  margin-left: 950px;
+  margin-top: 25px;
+  align-content: center;
+}
+
+ #connectButton, #readyButton {
+    background-color: transparent;
+    display:inline-block;
+    padding:0.6em 2em;
+    border:0.05em solid #FFFFFF;
+    position:absolute;
+    cursor: pointer;
+    border-radius:0.8em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family: 'Luckiest Guy', cursive;
+    font-weight:200;
+    font-size: 33px;
+    color:#FFFFFF;
+    text-align:center;
+    transition: all 0.2s;
+}
+
+#connectButton:hover, #readyButton:hover{
+   color:grey;
+   background-color:#FFFFFF;
+}
+
+@media all and (max-width:30em){
+   #connectButton, #readyButton{
+       display:block;
+       margin:0.4em auto;
+    }
+} 
+
+ .bgPulse {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  animation : bgColor 20s linear infinite;
+} 
+
+.connected, .ready {
+  font-weight: normal;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.p1, .p2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px ;
+  margin-left: 100px;
+  margin-top: 30px;
+}
+
+.p1 span {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: red;
+  border-radius: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style:solid
+}
+
+.p2 span {
+  display: inline-flex;
+  width: 2rem;
+  height: 2rem;
+  background: blue;
+  border-radius: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  border-style:solid
+}
+
+
+
+
+@keyframes animate
+{
+  0%
+  {
+      transform: scale(0) translateY(0) rotate(0deg);
+      opacity: 1;
+  }
+  100%
+  {
+      transform: scale(1) translateY(-100px) rotate(360deg);
+      opacity: 0;
+  }
+}
+@keyframes bgColor
+{
+  0%
+  {
+      background: #F44336;
+  }
+  25%
+  {
+      background: #03a9f4;
+  }
+  50%
+  {
+      background: #9c27b0;
+  }
+  75%
+  {
+      background: uniquewhite;
+  }
+  100%
+  {
+      background: #f44336;
+  }
+} 

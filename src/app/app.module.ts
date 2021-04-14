@@ -15,6 +15,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ProfileComponent } from './profile/profile.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 import { MenuPageComponent } from './menu-page/menu-page.component';
+import { ConnectFourComponent } from './connect-four/connect-four.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,9 @@ import { MenuPageComponent } from './menu-page/menu-page.component';
     SignupComponent,
     ProfileComponent,
     LeaderboardComponent,
-    MenuPageComponent
+    MenuPageComponent,
+    ConnectFourComponent
+
   ],
   imports: [
     BrowserModule,
