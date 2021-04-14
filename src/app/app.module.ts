@@ -7,6 +7,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BackgroundComponent } from './route/gameplay/background/background.component';
 import { CardsComponent } from './memory-components/cards/cards.component';
+import { StartComponent } from "./route/start/start.component";
 import { LeaderboardComponent } from './route/leaderboard/leaderboard.component';
 import { GameplayComponent } from './route/gameplay/gameplay.component';
 import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
@@ -21,6 +22,7 @@ import { HeadingComponent } from './memory-components/heading/heading.component'
     AppComponent,
     BackgroundComponent,
     CardsComponent,
+    StartComponent,
     LeaderboardComponent,
     GameplayComponent,
     MemoryGameComponent,
