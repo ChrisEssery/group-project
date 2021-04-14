@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Cards } from "../cards/card.class";
+import { Cards } from "../cards/cards.class";
 import { CARDS_IMAGES_PATHS } from "../card-path/images.config";
 
 @Injectable({

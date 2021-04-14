@@ -1,14 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { GameService } from "src/app/service/game.service";
-/*import { Router } from "@angular/router"; */
+import { Router } from "@angular/router";
 
 @Component({
   selector: 'app-gameplay',
   templateUrl: './gameplay.component.html',
 })
 export class GameplayComponent implements OnInit {
-   constructor(private gameService: GameService) {}
+ constructor(private gameService: GameService, private router: Router) {}
 
-   ngOnInit() {}
-
+ ngOnInit() {
+   if (!this.gameService.playerName) {
+     this.router.navigate(["start-page"]);
+   }
+ }
 }

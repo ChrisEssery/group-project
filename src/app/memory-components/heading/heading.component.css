@@ -1,7 +1,13 @@
 .title {
   position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: 'Luckiest Guy', cursive;
+  color: gold;
+  position: absolute;
+  top: 20px;
+  font-size: 60px;
+  color: gold;
+  margin: 2%;
   text-align: center;
-	 font-weight: normal;
-	 color: #FFFF00;
-	 margin: 15px 0;
 }

@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Cards } from "../cards/card.class";
+import { Cards } from "../cards/cards.class";
 import { CardService } from "./card.service";
 import { LeaderboardService } from "./leaderboard.service";
 import { Router } from "@angular/router";
@@ -12,6 +12,7 @@ export class GameService {
   cards: Cards[] = [];
   activeCards: Cards[] = [];
   isBoardLocked: boolean = false;
+  isCheatActivated: boolean = false;
   rounds: number = 0;
   playerName: string;
 
@@ -24,18 +25,18 @@ export class GameService {
   }
 
   get isGameOver(): boolean {
-    return this.cards.every(card => card.visible === true);
+    return this.cards.every(cards => cards.visible === true);
   }
 
   //when card clicked, flips 180
   //revealing the other side
-  showCard(card: Cards): void {
+  showCard(cards: Cards): void {
     if (!this.isMoveValid())
       return;
 
-    if (this.isCardValid(card)) {
-      this.activeCards.push(card);
-      card.show();
+    if (this.isCardValid(cards)) {
+      this.activeCards.push(cards);
+      cards.show();
     }
 
     if (this.activeCards.length === 2) {
@@ -55,6 +56,10 @@ export class GameService {
     this.activeCards = [];
     this.rounds = 0;
     this.isBoardLocked = false;
+  }
+
+  toggleCheat(): void {
+    this.isCheatActivated = !this.isCheatActivated;
   }
 
   // check whether move is valid

@@ -1,8 +1,10 @@
 <!--Set class attributes for HTML elements-->
+
 <app-background></app-background>
 <app-heading></app-heading>
 
 <div class="memory-game">
+
 <!--Cards-->
  <div class="memory-game__cards">
    <app-cards *ngFor="let card of gameService.cards" [card]="cards"></app-cards>
@@ -10,14 +12,14 @@
 
  <div class="memory-game__info">
    <p>Rounds: {{ gameService.rounds }}</p>
-
+  
    <p>Player: {{ gameService.playerName }}</p>
  </div>
 
- <!--Window for gameplay-->
+ <!--Window for end of gameplay-->
  <app-game-window [visible]="gameService.isGameOver">
    <div class="game-window-content">
-     <h2 class="game-window-content__title">Congratulations! You won! </h2>
+     <h2 class="game-window-content__title">Congratulations! You won!</h2>
      <p class="game-window-content__rounds">
        Number of rounds: {{ gameService.rounds }}
      </p>
@@ -29,5 +31,4 @@
      <a class="game-window-content__link" routerLink="/leaderboard">Leaderboard </a>
    </div>
  </app-game-window >
-
 </div>
