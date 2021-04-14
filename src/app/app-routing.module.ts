@@ -7,6 +7,7 @@ import { SignupComponent } from './signup/signup.component';
 import { ProfileComponent } from './profile/profile.component';
 import { LeaderboardComponent } from './leaderboard/leaderboard.component';
 import { MenuPageComponent } from './menu-page/menu-page.component';
+import { ConnectFourComponent } from './connect-four/connect-four.component';
 
 
 const routes: Routes = [
@@ -33,6 +34,10 @@ const routes: Routes = [
   {
     path: 'play',
     component: MenuPageComponent
+  },
+  {
+    path: 'connect4',
+    component: ConnectFourComponent
   }
 
 ];
