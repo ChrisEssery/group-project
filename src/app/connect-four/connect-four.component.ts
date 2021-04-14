@@ -24,7 +24,7 @@ export class ConnectFourComponent implements OnInit {
   let ready = false;
   let opponentReady = false;
   const turnTaken = -1;
-  const isGameOver = false;
+  let isGameOver = false;
   const infoDisplay = document.querySelector('#space');
   const connectToGameButton = document.querySelector('#connectButton');
   const readyForGameButton = document.querySelector('#readyButton')
@@ -120,6 +120,9 @@ export class ConnectFourComponent implements OnInit {
     }
 
     function playGame(socket){
+      socket.on('game-over', over => {
+        isGameOver = over;
+      })
       if(isGameOver){
         return;
       }
@@ -158,6 +161,9 @@ export class ConnectFourComponent implements OnInit {
           square4.classList.contains('player-one')
         )
         {
+          isGameOver = true;
+          socket.emit('game-over');
+          displayCurrentPlayer.innerHTML = '';
           result.innerHTML = 'Player One Wins!'
         }
         //check those squares to see if they all have the class of player-two
@@ -168,7 +174,10 @@ export class ConnectFourComponent implements OnInit {
           square4.classList.contains('player-two')
         )
         {
-          result.innerHTML = 'Player Two Wins!'
+          isGameOver = true;
+          socket.emit('game-over');
+          displayCurrentPlayer.innerHTML = '';
+          result.innerHTML = 'Player Two Wins!';
         }
       }
     }
@@ -177,7 +186,7 @@ export class ConnectFourComponent implements OnInit {
       (squares[i] as HTMLElement).dataset.id = String(i);
       squares[i].addEventListener("click",function (){
         //if the square below your current square is taken, you can go ontop of it
-        if(currentPlayerType === 'user' && ready && opponentReady){
+        if(currentPlayerType === 'user' && ready && opponentReady && !isGameOver){
           if (squares[i + 7].classList.contains('taken') &&!squares[i].classList.contains('taken') || squares[i+7].classList.contains('bottom') &&!squares[i].classList.contains('taken')) {
             if (playerNumber == 0) {
               squares[i].classList.add('taken')

@@ -70,5 +70,9 @@ Socketio.on('connection', socket => {
         // Forward to the other player
         socket.broadcast.emit('slot-reply', id);
     })
+
+    socket.on('game-over', () => {
+        socket.broadcast.emit('game-over', true);
+    })
 });
 
