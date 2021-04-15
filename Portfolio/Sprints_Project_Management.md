@@ -21,12 +21,14 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
 * [**Documentation of sprints**](#documentation-of-sprints)
-   * [Sprint 1: Ideation and Setup (18.02.21 - 02.03.21)](#Sprint-1180221-020321)
-   * [Sprint 2: Build game frontend and design backend (02.03.21 - 16.03.21)](#Sprint-1180221-020321)
-   * [Sprint 3: Deploy the product (16.03.21 - 30.03.21)](#Sprint-1180221-020321)
-   * [Sprint 4: Testing before release (30.03.21 - 14.04.21)](#Sprint-1180221-020321)
-   * [Sprint 5: (14.04.21) - 28.04.21](#Sprint-1180221-020321)
-   * [Sprint 6: (28.04.21 - 05.05.21](#Sprint-1180221-020321)
+   * [Sprint 1: Ideation and Setup (01.03.21 - 08.03.21)](#Sprint-1180221-020321)
+   * [Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)](#Sprint-1180221-020321)
+   * [Sprints paused: other work commitments/no new tasks (15.03.21 - 29.03.21)](#Sprint-1180221-020321)
+   * [Sprint 3: Deploy the product (29.03.21 - 05.04.21)](#Sprint-1180221-020321)
+   * [Sprint 4: Testing before release (05.03.21 - 12.04.21)](#Sprint-1180221-020321)
+   * [Sprint 5: (12.04.21 - 19.04.21)](#Sprint-1180221-020321)
+   * [Sprint 6: (19.04.21 - 26.05.21)](#Sprint-1180221-020321)
+   * [Sprint 7: (26.05.21 - 03.06.21)](#Sprint-1180221-020321)
 * [**Team use of Git**](team-use-of-git)
 * [**The Impact of COVID-19**](the-impact-of-covid-19)
 
@@ -190,7 +192,7 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
-## Sprint 1: Ideation and Setup (18.02.21 - 02.03.21)
+## Sprint 1: Ideation and Setup (01.03.21 - 08.03.21)
 ___
 
 
@@ -217,7 +219,7 @@ The following are a list of tasks and features that the team were tasked to deli
 
 This was our first sprint. Our focus was on choosing the design and structure of the application. After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't much we could ask our user's since we were in a very early stage. We maybe could have benefited from getting different branches setup on our GitHub repository.
 
-## Sprint 2: Build game frontend and design backend (02.03.21 - 16.03.21)
+## Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)
 ___
 
 The aim of this sprint was to get something built. We decided to build four games. We also wanted to get the start page up and running, so we had to familiarise ourselves Angular.
@@ -279,7 +281,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 
 During this sprint, we
 
-## Sprint 3: Deploy the product (16.03.21 - 30.03.21)
+## Sprint 3: Deploy the product (29.03.21 - 05.04.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
@@ -339,7 +341,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-## Sprint 4: Testing before release (30.03.21 - 14.04.21)
+## Sprint 4: Testing before release (05.03.21 - 12.04.21)
 ___
 
 
@@ -398,7 +400,7 @@ The aim of this sprint was to make sure our application, including the video cha
 
 ### Evaluation of Sprint
 
-## Sprint 5: (14.04.21 - 28.04.21)
+## Sprint 5: (12.04.21 - 19.04.21)
 ___
 
 
@@ -456,7 +458,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
-## Sprint 6: (28.04.21 - 05.05.21)
+## Sprint 6: (26.05.21 - 03.06.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.

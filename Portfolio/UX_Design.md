@@ -60,11 +60,11 @@ As you can see, the rows are populated with different types of games. These incl
 
 **Version 1: paper prototype**
 
-At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with considration of  the content and funcionaility of each page. 
+At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with considration of  the content and funcionaility of each page.
 
 **Version 2: short paper prototype video**
 
-At this stage, we integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flow goes well. 
+At this stage, we integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flow goes well.
 <br/><br/>
 <p align="center">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="">
@@ -80,7 +80,7 @@ At this stage, we converted the paper prototype of our website to a wireframe to
 
 **Version 4: Updated UI wireframe in Figma**
 
-We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes. 
+We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes.
 
 Here are some sample questions from the prototype test:
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test1.png)
@@ -94,7 +94,7 @@ Based on the report, we focused on the following key issues to update:
 - We added a "how to play" button under the title of each games and the player can click on the button to learn the rules and operations before starting the game.
 
 - After the game menu page, we planned to add a new option for the user to choose who they want to play with. If the user chooses to play with friends, we will provide the online friends from their friendlist so that they can select and send invitation to the friend.
- 
+
 - We added a button to view the leaderboard of each game.
 
 - We used combination of text and icon to present information/button.
@@ -115,7 +115,7 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
 
 ## Identification of users and stakeholders
 
-When identifying the users and stakeholders we took the decision to...
+When identifying the users and stakeholders we took the decision to have two end-users and two additional stakeholders, namely a product manager who could advise us on the design of our product and a care home manager acting as a sponsor. These end-users and stakeholders are all proto-personas, meaning that they are fictional characters whose identities have been used to represent real feedback from real users. These proto-personas are based on assumptions about the relevant stakeholders, and are designed to simulate a real-life agile project wherein there is a continuous dialogue between the software development team and their clients, owing to its client-led approach.
 
 <div align="center">
 
@@ -126,7 +126,9 @@ When identifying the users and stakeholders we took the decision to...
 
 |                                                                             User's story                                                 |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages.  </div>                                                                                                                                                        |                                                                                                           
+|<div style="text-align:center"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface.
+
+He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.  </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                           |
 
 
@@ -152,7 +154,7 @@ When identifying the users and stakeholders we took the decision to...
 
 |                                                                               User's story                                                 |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> John knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
+|<div style="text-align:center"> Sally knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
 
 
