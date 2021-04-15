@@ -1,12 +1,12 @@
 import { TestBed } from '@angular/core/testing';
 
-import { LeaderboardService } from './leaderboard.service';
+import { RankingService } from './ranking.service';
 
-describe('LeaderboardService', () => {
+describe('RankingService', () => {
   beforeEach(() => TestBed.configureTestingModule({}));
 
   it('should be created', () => {
-    const service: LeaderboardService = TestBed.get(LeaderboardService);
+    const service: RankingService = TestBed.get(RankingService);
     expect(service).toBeTruthy();
   });
 });

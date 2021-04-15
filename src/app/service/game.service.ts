@@ -1,7 +1,7 @@
 import { Injectable } from "@angular/core";
 import { Card } from "../cards/card.class";
 import { CardService } from "./card.service";
-import { LeaderboardService } from "./leaderboard.service";
+import { RankingService } from "./ranking.service";
 import { Router } from "@angular/router";
 
 // request dependencies from external source
@@ -18,12 +18,12 @@ export class GameService {
 
   constructor(
     private cardService: CardService,
-    private leaderboardService: LeaderboardService,
+    private leaderboardService: RankingService,
     private router: Router
   ) {
     this.cards = this.cardService.getCards();
   }
-  
+
   //determines when game has finished
   get isGameOver(): boolean {
     return this.cards.every(cards => cards.visible === true);

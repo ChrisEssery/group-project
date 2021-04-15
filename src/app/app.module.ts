@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { BackgroundComponent } from './route/gameplay/background/background.component';
 import { CardComponent } from './memory-components/card/card.component';
 import { StartComponent } from "./route/start/start.component";
-import { LeaderboardComponent } from './route/leaderboard/leaderboard.component';
+import { RankingComponent } from './route/ranking/ranking.component';
 import { GameplayComponent } from './route/gameplay/gameplay.component';
 import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
 import { GameWindowComponent } from './memory-components/game-window/game-window.component';
@@ -22,7 +22,7 @@ import { HeadingComponent } from './memory-components/heading/heading.component'
     BackgroundComponent,
     CardComponent,
     StartComponent,
-    LeaderboardComponent,
+    RankingComponent,
     GameplayComponent,
     MemoryGameComponent,
     GameWindowComponent,

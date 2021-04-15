@@ -19,16 +19,13 @@
  <!--Window for end of gameplay-->
  <app-game-window [visible]="gameService.isGameOver">
    <div class="game-window-content">
-     <h2 class="game-window-content__title">Congratulations! You won!</h2>
-     <p class="game-window-content__rounds">
-       Number of rounds: {{ gameService.rounds }}
-     </p>
+
      <!--Button to play again-->
      <app-button (click)="gameService.playAgain()" type="button">
        Play again
      </app-button>
 
-     <a class="game-window-content__link" routerLink="/leaderboard">Leaderboard </a>
+     <a class="game-window-content__link" routerLink="/ranking">Leaderboard </a>
    </div>
  </app-game-window >
 </div>
