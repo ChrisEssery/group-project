@@ -13,6 +13,7 @@ The data is sent and returned in a uniform format using JSON Object
 | 401         | UNAUTHORIZED                         |                                                              |
 | 403         | FORBIDDEN                            |                                                              |
 | 404         | NOT FOUND                            |                                                              |
+| 409         | Conflict                             | A validation error occurred while creating an object         |
 | 422         | Unprocesable entity [POST/PUT/PATCH] | A validation error occurred while creating an object         |
 | 500         | INTERNAL SERVER ERROR                |                                                              |
 
