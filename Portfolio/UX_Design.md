@@ -132,17 +132,6 @@ These proto-personas are based on assumptions about the relevant stakeholders, a
 |                                                                                                                                                           |
 
 
-<div align="center">
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_simon_profile.jpg)
-
-</div>
-
-
-|                                                                               User's story                                                 |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> Simon, 78, has been a regular gamer for many years. He thinks it is the best form of entertainment. He isn't fussy about what he plays so long as it's fun and social, he's happy. </div>                                                                                                                                                        |                                                                                                           
-|                                                                                                                                                          |
 
 <div align="center">
 
@@ -157,7 +146,17 @@ These proto-personas are based on assumptions about the relevant stakeholders, a
 |<div style="text-align:center"> Sally knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
 
+<div align="center">
 
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_simon_profile.jpg)
+
+</div>
+
+
+|                                                                               Sponsor's story                                                 |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|<div style="text-align:center"> Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. He wants to use our product to help improve the lives of the residents in the care home he manages. His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective. </div>                                                                                                                                                        |                                                                                                           
+|                                                                                                                                                          |
 
 ## Game design for older people
 
