@@ -118,10 +118,10 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
 When identifying the users and stakeholders, we took the decision to use two end-users and two additional stakeholders to advise us during the development lifecycle.
 
 ```
-  End-user: member of target group
-  End-user: member of target group
-  Product manager: specialist external advisor
-  Sponsor: external sponsor with understanding of end-users
+  1. End-user: member of target group
+  2. End-user: member of target group
+  3. Product manager: specialist external advisor
+  4. Sponsor: external sponsor with understanding of end-users
 
 ```
 
