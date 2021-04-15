@@ -11,7 +11,7 @@ import {Router} from '@angular/router';
 
 export class UserdataService {
 
-  private REST_API_SERVER = "http://localhost:3000/users";
+  private REST_API_SERVER = "http://localhost:3000/api/users";
 
   constructor(private httpClient: HttpClient, private router: Router) { }
 

@@ -3,9 +3,8 @@ var Schema = mongoose.Schema;
 
 var GameInstance = new Schema({
   gameName: {type: String},
-  //refering the the username
-  player1: {type: String, unique: true},
-  player2: {type: String, unique: true},
+  player1: {type: String, unique: true},//refering the the username
+  player2: {type: String, unique: true},//refering the the username
   date: {type: Date, default: Date.now},
 });
 

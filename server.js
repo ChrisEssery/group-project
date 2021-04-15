@@ -4,6 +4,7 @@ const express = require('express');
 const path = require('path');
 const http = require('http');
 const bodyParser = require('body-parser');
+const session = require('express-session');
 
 // Get our API routes
 const api = require('./server/routes/api');
@@ -13,6 +14,16 @@ const app = express();
 // Parsers for POST data
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
+
+// Session setup
+app.use(session({
+  secret: 'secret',  
+  resave: false,
+  saveUninitialized: true,
+  cookie: {
+      maxAge: 10 * 1000  // valid period
+  }
+}));
 
 // Point static path to dist (folder where build files are located)
 app.use(express.static(path.join(__dirname, 'dist/group-project')));
