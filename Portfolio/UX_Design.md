@@ -129,7 +129,7 @@ The end-users are two members of our target group, both with interests in online
 
 These proto-personas are based on assumptions about the relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework.
 
-There was plenty of scope to include more stakeholders to this list of four, however due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint. 
+There was plenty of scope to include more stakeholders to this list of four, however due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint.
 
 <div align="center">
 
@@ -157,6 +157,19 @@ There was plenty of scope to include more stakeholders to this list of four, how
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
 |<div style="text-align:center"> Sally knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/manager_jack_profile.jpg)
+
+</div>
+
+
+|                                                                               Product Manager's story                                                 |
+| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
+|<div style="text-align:center"> Jack, 36, is a product manager. Within his role, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.  </div>                                                                                                                                                        |                                                                                                           
+|                                                                                                                                                          |
+
 
 <div align="center">
 
