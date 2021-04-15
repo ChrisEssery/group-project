@@ -125,7 +125,7 @@ When identifying the users and stakeholders, we took the decision to use two end
 
 ```
 
-The end-users are two members of our target group, who both have interests in online gaming as a platform for connecting with others. The two additional stakeholders are a product manager who offers advice on the design of the product, and a care home manager acting as a sponsor. It is important to note that these end-users and stakeholders are all 'proto-personas', namely they are fictional characters whose identities have been created to guarantee our approach aligns with the agile method. It is also important to note that the views of these fictional characters represent real feedback collected from real users during user testing.
+The end-users are two members of our target group, both with interests in online gaming as a platform for connecting with others. The two additional stakeholders are a product manager who offers advice on the design of the product, and a care home manager acting as a sponsor. It is important to note that these end-users and stakeholders are all 'proto-personas', namely they are fictional characters whose identities have been created to guarantee our approach aligns with the agile method. It is also important to note that the views of these fictional characters represent real feedback collected from real users during user testing.
 
 These proto-personas are based on assumptions about the relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework.
 
