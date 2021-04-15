@@ -21,6 +21,7 @@ The data is sent and returned in a uniform format using JSON Object
 When an error occurs, the HTTP Status Code is 4xx error, such as 400,403,404
 
 Format:
+return a error message
 
 ```
 {
@@ -28,15 +29,271 @@ Format:
 }
 ```
 
-## Return value:
 
-- GET /collection：Returns a list (array) of resource objects
+### Create a new game instance
 
-- GET /collection/resource：Returns a single resource object
-- POST /collection：
-- PUT /collection/resource：
-- PATCH /collection/resource:
-- DELETE /collection/resource：
+**Request:**
+
+HTTP Method: `POST`
+
+Path: `/api/games/memorygame` OR `/api/games/connect4`
+
+
+```
+{
+   "player1": "aa",
+   "player2": "bb",
+}
+```
+
+**Response:**
+
+status code: 201
+```
+{
+   "gamename" : "memory game".
+   "player1": "aa",
+   "player2": "bb",
+    "date" : "YYYY-mm-dd"
+}
+```
+
+### Add a winning record to a player
+
+**Request**
+
+HTTP Method: `POST`
+
+Path: `/api/users/wins/:username`
+
+| parameters | isRequired | explanation |
+| ---------- | ---------- | ----------- |
+| username   | YES        | username     |
+
+
+**Response:**
+
+status code: 201
+```
+{
+   "result message" :"OK"
+}
+```
+
+
+### Create a new user (to be completed using token)
+
+HTTP Method: `POST`
+
+Path: `/api/users`
+
+| parameters | isRequired | explanation |
+| ---------- | ---------- | ----------- |
+| username   | YES        | username    |
+| email      | YES        | email       |
+| Password   | YES        | password    |
+
+```
+{
+   "username": "lily",
+   "email": "lily@email.com",
+   "password": "12345"
+}
+```
+
+
+### Get the friendlist of a user
+
+**Request**
+
+HTTP Method: `GET`
+
+Path: `/api/users/friends/:username`
+
+| parameters | isRequired | explanation |
+| ---------- | ---------- | ----------- |
+| username   | YES        | username    |
+
+
+**Response**
+status code: 200
+
+```
+{
+   "friends" : [
+   {
+   "username": "lily",
+   "age": "",
+   "location": "",
+   "gender": "",
+   "name": "",
+   "surname": "",
+   },
+   {
+   "username": "bob",
+   "age": "",
+   "location": "",
+   "gender": "",
+   "name": "",
+   "surname": "",
+   },
+   {
+   "username": "tom",
+   "age": "",
+   "location": "",
+   "gender": "",
+   "name": "",
+   "surname": "",
+   }]
+}
+```
+
+
+### Get the personal information of a user
+
+**Request**
+
+HTTP Method: `GET`
+
+Path: `/api/users/info/:username`
+
+| parameters | isRequired | explanation |
+| ---------- | ---------- | ----------- |
+| username   | YES        | username    |
+
+
+**Response**
+status code: 200
+```
+{
+   "username": "lily",
+   "age": "",
+   "location": "",
+   "gender": "",
+   "name": "",
+   "surname": "",
+}
+```
+
+
+### Get the game instances of a user
+**Request**
+
+HTTP Method: `GET`
+
+Path: `/api/users/game_instances/:username`
+
+| parameters | isRequired | explanation |
+| ---------- | ---------- | ----------- |
+| username   | YES        | username    |
+
+
+**Response**
+status code: 200
+
+```
+{
+   "gameinstance": [
+   {
+   "gamename" : "memory game".
+   "player1": "aa",
+   "player2": "bb",
+    "date" : "YYYY-mm-dd"
+   },
+   {
+   "gamename" : "connect 4".
+   "player1": "aa",
+   "player2": "cc",
+    "date" : "YYYY-mm-dd"
+   }]
+}
+```
+
+
+### Add a friend to a user's friendlist
+**Request**
+
+HTTP Method: `POST`
+
+Path: `/api/users/friends/:username`
+
+| parameters | isRequired | explanation |
+| ---------- | ---------- | ----------- |
+| username   | YES        | username    |
+
+**Response**
+status code : 201
+
+```
+{
+   "username": "lily",
+   "age": "",
+   "location": "",
+   "gender": "",
+   "name": "",
+   "surname": "",
+}
+```
+
+
+
+### Update a user's personal information
+**Request**
+
+HTTP Method: `PUT`
+
+Path: `/api/users/info/:username`
+
+| parameters | isRequired | explanation |
+| ---------- | ---------- | ----------- |
+| username   | YES        | username    |
+
+**Response**
+```
+{
+   "result message": "OK",
+}
+```
+
+
+
+### Get the rank based on user win times
+**Request**
+
+HTTP Method: `GET`
+
+Path: `/api/leaderboard/:limit`
+
+| parameters | isRequired | explanation       |
+| ---------- | ---------- | ----------------- |
+| limit      | YES        | top numbers limit |
+
+**Response**
+status code: 200
+```
+{
+   [
+   {
+   "rank" : 1,
+   "username" : "aaa"
+   "wins": 10
+   },
+   {
+    "rank" : 2,
+    "username" : "bbb",
+    "wins": 8
+   },
+   {
+    "rank" : 3,
+    "username" : "ccc",
+    "wins": 6
+   }]
+}
+```
+
+
+## [test database](https://cloud.mongodb.com/v2/607757d7e20e220444c4632a#metrics/replicaSet/60775a4bd3357825deb23168/explorer/test/users/find)
+
 
 ## User
 
@@ -108,242 +365,3 @@ Status: 409
 }
 ```
 
-
-
-**USER Login**
-
-HTTP method: GET
-
-Request path: /api/users
-
-
-
-**Get User specific info**
-
-HTTP method: GET
-
-Request path: /api/users/(specific title)
-
-
-
-**Add friend**
-
-HTTP method: PATCH/PUT
-
-Request path: /api/users/(parameters? like two user ids)
-
-
-
-**Sign out**
-
-WAY 1:
-
-PATCH
-
-Api/users/online
-
-
-
-WAY2:
-
-Using express session
-
-DELETE 
-
-Api/session
-
-
-
-**CREATE A GAME INSTANCE**
-
-POST
-
-Api/games/:game_name
-
-
-
-**END A GAME INSTANCE**
-
-DELETE
-
- DELETE localhost:3000/api/game_instance
-
- POST localhost:3000/api/endagameinstance
-
-save the record to the user db
-
-https://www.youtube.com/watch?v=vjf774RKrLc
-
-
-
-## GAME: 
-
-### Create a new game instance
-
-HTTP Method: `POST`
-
-Path: `/api/games/memorygame` OR `/api/games/connect4`
-
-Request:
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| player1    | YES        | user_id     |
-| player2    | YES        | user_id     |
-
-```
-{
-   "player1": 1,
-   "player2": 2,
-}
-```
-
-
-
-### Add a winning record to a player
-
-HTTP Method: `POST`
-
-Path: `/api/users/wins`
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| username   | YES        | user_id     |
-
-```
-{
-   "username": lily
-}
-```
-
-
-
-### Create a new user
-
-HTTP Method: `POST`
-
-Path: `/api/users`
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| username   | YES        | username    |
-| email      | YES        | email       |
-| Password   | YES        | password    |
-
-```
-{
-   "username": lily,
-   "email": lily@email.com,
-   "password": 12345
-}
-```
-
-
-
-### Get the friendlist of a user
-
-HTTP Method: `GET`
-
-Path: `/api/users/friends`
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| username   | YES        | username    |
-
-```
-{
-   "username": lily,
-}
-```
-
-
-
-### Get the personal information of a user
-
-HTTP Method: `GET`
-
-Path: `/api/users/info`
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| username   | YES        | username    |
-
-```
-{
-   "username": lily,
-}
-```
-
-
-
-### Get the game instances of a user
-
-HTTP Method: `GET`
-
-Path: `/api/users/game_instances`
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| username   | YES        | username    |
-
-```
-{
-   "username": lily,
-}
-```
-
-
-
-### Add a friend to a user's friendlist
-
-HTTP Method: `POST`
-
-Path: `/api/users/friends`
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| username   | YES        | username    |
-
-```
-{
-   "username": lily,
-}
-```
-
-
-
-### Update a user's personal information
-
-HTTP Method: `POST`
-
-Path: `/api/users/info`
-
-| parameters | isRequired | explanation |
-| ---------- | ---------- | ----------- |
-| username   | YES        | username    |
-
-```
-{
-   "username": lily,
-}
-```
-
-
-
-### Get the rank based on user win times
-
-HTTP Method: `GET`
-
-Path: `/api/leaderboard`
-
-| parameters | isRequired | explanation       |
-| ---------- | ---------- | ----------------- |
-| limit      | YES        | top numbers limit |
-
-```
-{
-   "limit": 10,
-}
-```
-
-## [test database](https://cloud.mongodb.com/v2/607757d7e20e220444c4632a#metrics/replicaSet/60775a4bd3357825deb23168/explorer/test/users/find)
