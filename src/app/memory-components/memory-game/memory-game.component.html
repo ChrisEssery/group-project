@@ -7,12 +7,12 @@
 
 <!--Cards-->
  <div class="memory-game__cards">
-   <app-cards *ngFor="let card of gameService.cards" [card]="cards"></app-cards>
+   <app-card *ngFor="let card of gameService.cards" [card]="card"></app-card>
  </div>
 
  <div class="memory-game__info">
    <p>Rounds: {{ gameService.rounds }}</p>
-  
+
    <p>Player: {{ gameService.playerName }}</p>
  </div>
 

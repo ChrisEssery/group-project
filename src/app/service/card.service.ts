@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Cards } from "../cards/cards.class";
+import { Card } from "../cards/card.class";
 import { CARDS_IMAGES_PATHS } from "../card-path/images.config";
 
 @Injectable({
@@ -10,12 +10,12 @@ export class CardService {
   constructor() {}
 
   // get cards and place them on memory game board
-  getCards(): Cards[] {
+  getCards(): Card[] {
     const cards = [];
 
     for (let i = 0; i < CARDS_IMAGES_PATHS.length; i++) {
-      cards.push(new Cards(i, CARDS_IMAGES_PATHS[i]));
-      cards.push(new Cards(i, CARDS_IMAGES_PATHS[i]));
+      cards.push(new Card(i, CARDS_IMAGES_PATHS[i]));
+      cards.push(new Card(i, CARDS_IMAGES_PATHS[i]));
     }
 
     this.shuffleArray(cards);

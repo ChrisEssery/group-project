@@ -1,5 +1,5 @@
 
-export class Cards {
+export class Card {
   id: string;
   visible: boolean = false;
   image: { name: string; path: string };

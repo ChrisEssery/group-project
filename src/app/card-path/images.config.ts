@@ -1,3 +1,4 @@
+// Temporary images for cards
 export const CARDS_IMAGES_PATHS = [
   {
     name: "Angular",

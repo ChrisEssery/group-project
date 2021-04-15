@@ -1,5 +1,5 @@
 import { Injectable } from "@angular/core";
-import { Cards } from "../cards/cards.class";
+import { Card } from "../cards/card.class";
 import { CardService } from "./card.service";
 import { LeaderboardService } from "./leaderboard.service";
 import { Router } from "@angular/router";
@@ -9,8 +9,8 @@ import { Router } from "@angular/router";
   providedIn: "root"
 })
 export class GameService {
-  cards: Cards[] = [];
-  activeCards: Cards[] = [];
+  cards: Card[] = [];
+  activeCards: Card[] = [];
   isBoardLocked: boolean = false;
   isCheatActivated: boolean = false;
   rounds: number = 0;
@@ -23,20 +23,20 @@ export class GameService {
   ) {
     this.cards = this.cardService.getCards();
   }
-
+  
+  //determines when game has finished
   get isGameOver(): boolean {
     return this.cards.every(cards => cards.visible === true);
   }
 
   //when card clicked, flips 180
   //revealing the other side
-  showCard(cards: Cards): void {
-    if (!this.isMoveValid())
-      return;
+  showCard(card: Card): void {
+    if (!this.isMoveValid()) return;
 
-    if (this.isCardValid(cards)) {
-      this.activeCards.push(cards);
-      cards.show();
+    if (this.isCardValid(card)) {
+      this.activeCards.push(card);
+      card.show();
     }
 
     if (this.activeCards.length === 2) {
@@ -46,7 +46,6 @@ export class GameService {
     if (this.isGameOver) {
       this.addPlayerInRanking();
     }
-
   }
   // once gameplay complete,
   // start again
@@ -86,8 +85,8 @@ export class GameService {
   }
 
   //check whether card is valid
-  private isCardValid(cards: Cards): boolean {
-    return this.activeCards.length < 2 && !cards.visible;
+  private isCardValid(card: Card): boolean {
+    return this.activeCards.length < 2 && !card.visible;
   }
 
   // locks board
