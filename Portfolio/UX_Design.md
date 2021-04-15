@@ -131,11 +131,21 @@ These proto-personas are based on assumptions about the relevant stakeholders, a
 
 There was plenty of scope to include more stakeholders to this list of four, however due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint.
 
+## End-Users
+
 <div align="center">
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob_profile.jpg)
 
 </div>
+
+### Motivations
+Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
+
+### Expectations
+
+
+### Special Requirements
 
 
 |                                                                             User's story                                                 |
@@ -158,6 +168,8 @@ There was plenty of scope to include more stakeholders to this list of four, how
 |<div style="text-align:center"> Sally knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
 
+## Product manager
+
 <div align="center">
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/manager_jack_profile.jpg)
@@ -170,6 +182,7 @@ There was plenty of scope to include more stakeholders to this list of four, how
 |<div style="text-align:center"> Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.  </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                          |
 
+## Sponsor
 
 <div align="center">
 
