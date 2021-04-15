@@ -115,7 +115,9 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
 
 ## Identification of users and stakeholders
 
-When identifying the users and stakeholders we took the decision to have two end-users and two additional stakeholders, namely a product manager who could advise us on the design of our product and a care home manager acting as a sponsor. These end-users and stakeholders are all proto-personas, meaning that they are fictional characters whose identities have been used to represent real feedback from real users. These proto-personas are based on assumptions about the relevant stakeholders, and are designed to simulate a real-life agile project wherein there is a continuous dialogue between the software development team and their clients, owing to its client-led approach.
+When identifying the users and stakeholders we took the decision to have two end-users and two additional stakeholders, namely a product manager who could advise us on the design of our product and a care home manager acting as a sponsor. These end-users and stakeholders are all proto-personas, meaning that they are fictional characters whose identities have been used to represent real feedback from real users.
+
+These proto-personas are based on assumptions about the relevant stakeholders, and are designed to simulate a real-life agile project wherein there is a continuous dialogue between the software development team and their clients, owing to its client-led approach.
 
 <div align="center">
 
@@ -126,9 +128,7 @@ When identifying the users and stakeholders we took the decision to have two end
 
 |                                                                             User's story                                                 |
 | :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface.
-
-He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.  </div>                                                                                                                                                        |                                                                                                           
+|<div style="text-align:center"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.  </div>                                                                                                                                                        |                                                                                                           
 |                                                                                                                                                           |
 
 
