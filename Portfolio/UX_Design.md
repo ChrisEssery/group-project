@@ -140,18 +140,13 @@ There was plenty of scope to include more stakeholders to this list of four, how
 </div>
 
 ### Motivations
+
 Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
 
 ### Expectations
 
 
 ### Special Requirements
-
-
-|                                                                             User's story                                                 |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.  </div>                                                                                                                                                        |                                                                                                           
-|                                                                                                                                                           |
 
 
 
@@ -161,12 +156,15 @@ Bill enjoys playing board games, but he has no experience with digital games. He
 
 </div>
 
+### Motivations
+
+Sally knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly.
+
+### Expectations
 
 
-|                                                                               User's story                                                 |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> Sally knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly. </div>                                                                                                                                                        |                                                                                                           
-|                                                                                                                                                          |
+### Special Requirements
+
 
 ## Product manager
 
@@ -176,11 +174,14 @@ Bill enjoys playing board games, but he has no experience with digital games. He
 
 </div>
 
+### Motivations
 
-|                                                                               Product Manager's story                                                 |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.  </div>                                                                                                                                                        |                                                                                                           
-|                                                                                                                                                          |
+Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.
+
+### Expectations
+
+
+
 
 ## Sponsor
 
@@ -190,11 +191,16 @@ Bill enjoys playing board games, but he has no experience with digital games. He
 
 </div>
 
+### Motivations
 
-|                                                                               Sponsor's story                                                 |
-| :-----------------------------------------------------------------------------------------------------------------------------------------------------:|
-|<div style="text-align:center"> Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. He wants to use our product to help improve the lives of the residents in the care home he manages. His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective. </div>                                                                                                                                                        |                                                                                                           
-|                                                                                                                                                          |
+Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. He wants to use our product to help improve the lives of the residents in the care home he manages. His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective.
+
+### Expectations
+
+
+### Special Requirements
+
+
 
 ## Game design for older people
 
