@@ -9,7 +9,7 @@
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/logo.svg)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Hnet.com-image.gif)
 
 # NotSoBored Games
 </div>
