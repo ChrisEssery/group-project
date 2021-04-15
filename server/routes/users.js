@@ -23,6 +23,10 @@ router.get('/:userId', async (req, res) => {
     
 
 })
+// router.post('/', (req, res) => {
+//     console.log(req.body);
+
+// })
 
 router.post('/', async (req, res) => {
     const user = new User ({
@@ -31,20 +35,12 @@ router.post('/', async (req, res) => {
         email: req.body.email
     })
 
-    // user.save().then(data => {
-    //     res.status(201).json(data)
-    // })
-    // .catch(err => {
-    //     res.json({message: err});
-    // })
     try{
-        const savedUser = await(user.save());
-        res.json(savedUser);
+        const savedUser = await user.save(user);
+        res.status(201).json(savedUser);
     }catch(err){
-        res.json({message:err});
+        res.json({message : err});
     }
-    
-
 
 })
 

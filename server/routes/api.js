@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const mongoose = require('mongoose');
-const db = require('../db');
+const db = require('../../db');
 
 //import routes and use them as middlewares
 const usersRoute = require("./users");
