@@ -11,7 +11,8 @@ const User = new Schema ({
   gender: {type: String},
   location: {type: String},
   wins: {type: Number},
-  friends: [{type: Schema.Types.ObjectId, ref: 'User'}],
+  // friends: [{type: Schema.Types.ObjectId, ref: 'User'}],
+  friends: [{type: String, unique: true}], //referring to the username of a friend
   gamesinstance: [{type: Schema.Types.ObjectId, ref: 'GameInstance'}]
 });
 
