@@ -346,4 +346,4 @@ Path: `/api/leaderboard`
 }
 ```
 
-**[test database]**(https://cloud.mongodb.com/v2/607757d7e20e220444c4632a#metrics/replicaSet/60775a4bd3357825deb23168/explorer/test/users/find)
+## [test database](https://cloud.mongodb.com/v2/607757d7e20e220444c4632a#metrics/replicaSet/60775a4bd3357825deb23168/explorer/test/users/find)
