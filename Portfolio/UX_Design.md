@@ -129,6 +129,8 @@ The end-users are two members of our target group, both with interests in online
 
 These proto-personas are based on assumptions about the relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework.
 
+There was plenty of scope to include more stakeholders to this list of four, however due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint. 
+
 <div align="center">
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob_profile.jpg)
