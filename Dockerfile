@@ -1,22 +1,27 @@
 # We use the official image as a parent image.
-FROM node:12.16.1-alpine As builder
+FROM node:10-alpine
+
+RUN mkdir -p /home/node/app/node_modules && chown -R node:node /home/node/app
 
 # Set the working directory.
-WORKDIR /usr/src/app
+WORKDIR /home/node/app
 
 # Copy the file(s) from your host to your current location.
-COPY package.json package-lock.json ./
+COPY package*.json ./
+
+# Change the user to node. This will apply to both the runtime user and the following commands.
+USER node
 
 # Run the command inside your image filesystem.
 RUN npm install
 
-RUN npm install cors
-
-COPY . .
+COPY --chown=node:node . .
 
 # Building the website
-RUN npm run build --prod
+RUN ./node_modules/.bin/ng build
 
-FROM nginx:1.15.8-alpine
+# Add metadata to the image to describe which port the container is listening on at runtime.
+EXPOSE 3000
 
-COPY --from=builder /usr/src/app/dist/group-project/ /usr/share/nginx/html
+# Run the specified command within the container.
+CMD [ "node", "server.js" ]
