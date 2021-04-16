@@ -133,7 +133,7 @@ There was plenty of scope to include more stakeholders to this list of four, how
 
 ## End-Users
 
-The first of our end-users is Bob Smith. His 'wants' and 'challenges' are specified below, as well as his motivations for wanting to play online games, and his expectations and special requirements.
+In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [ Sprints & Project Management](#Portfolio/Sprints_Project_Management/documentation-of-sprints.md)The first of our end-users is Bob Smith. His 'wants' and 'challenges' are specified below, as well as his motivations for wanting to play online games, and his expectations and special requirements.
 
 <div align="center">
 
@@ -235,5 +235,7 @@ When considering the UX approach we felt it was important to choose something th
 [3] Ijsselsteijn W., Herman H. et al., “Digital game design for elderly users”, Eindhoven University of Technology, 2007. https://dl.acm.org/citation.cfm?id=1328206
 
 [4] Wang J., “Digital Game Design for Elderly Users: A Multi-Disciplinary Review”, The University of Birmingham, School of Computer Science, August 2016, http://www.cs.bham.ac.uk/~rjh/courses/ResearchTopicsInHCI/2015-16/Submissions/wangjiahui.pdf
+
+[5] Inspiration for our proto-personas came from the following source https://www.uxpin.com/studio/blog/ux-designers-5-minute-guide-lean-personas/
 
 ___
