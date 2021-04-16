@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import io from "socket.io-client";
 
 @Component({
@@ -37,7 +37,7 @@ export class ConnectFourComponent implements OnInit {
   function connectToGame(){
     // Creates socket to use for the game
 
-    const socket = io("http://localhost:3000");
+    const socket = io("51.141.45.207:3080");
 
     // Gets your player number
     socket.on('player-number', num => {

@@ -21,7 +21,7 @@ COPY --chown=node:node . .
 RUN ./node_modules/.bin/ng build
 
 # Add metadata to the image to describe which port the container is listening on at runtime.
-EXPOSE 3000
+EXPOSE 3000 3080
 
 # Run the specified command within the container.
 CMD [ "node", "server.js" ]
