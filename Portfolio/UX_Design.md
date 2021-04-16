@@ -137,6 +137,8 @@ In what follows, we will outline our stakeholder stories. These stories will lis
 
 Turning to our stakeholders, we have the first of our end-users. His name is Bob Smith. We have broken down his 'wants' and 'challenges' below, as well as his motivations for playing online games, his experience, expectations aof the product and special requirements.
 
+___
+
 <div align="center">
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob_profile.jpg)
@@ -153,6 +155,8 @@ Bob enjoys playing board games, but he has no experience with digital games. He 
 ### Special Requirements
 
 The second of our end-users is Sally Gardner. Her personal requirements are included below.
+
+___
 
 <div align="center">
 
@@ -174,6 +178,8 @@ Sally knows nothing about digital games. He used to play board games when he was
 
 The third stakeholder is a product manager called Jack Barnett. As with the end-users, his background and interest in the project is listed below.
 
+___
+
 <div align="center">
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/manager_jack_profile.jpg)
@@ -192,6 +198,8 @@ Jack, 36, is a product manager. In his role as a product manager, he is responsi
 ## Sponsor
 
 Our final stakeholder is called Simon Sharma. His background and requirements are listed below.
+
+___
 
 <div align="center">
 
