@@ -55,7 +55,7 @@ returned data:
 - [x] [User Sign out](#User_Log_Out)
 - [ ] [Get a user 's personal information](#Get_a_user's_personal_information)
 - [ ] [Get a user's friendlist](#Get_a_user's_friendlist)
-- [ ] [Get a user's game history]#(Get_a_user's_game_history)
+- [ ] [Get a user's game history](#Get_a_user's_game_history)
 - [ ] [Update a user's personal information](#Update_a_user's_personal_information)
 - [ ] [Add a friend to a user's friendlist](#Add_a_friend_to_a_user's_friendlist)
 - [ ] [Add a new game instance](#Add_a_new_game_instance)
@@ -90,8 +90,7 @@ returned data:
 {
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTkxMzkxODY1OTN9.TaeRt9GQIF8tewkNj8hUtV_2OV3Nv8jO3slV1A7Cr50",
     "user": {
-        "username": "aaa",
-        "email": "aaa@email.com"
+        "username": "aaa"
     }
 }
 ```
@@ -122,9 +121,7 @@ returned data:
 {
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2MDc4ZTAzZTBiNWEzMDNmNGNmZjJmYTciLCJleHAiOjE2MTkxMzkzNzgyMzh9.ag0HFpkeDdIecpKRpEi9GXYDTHZWPwm_9VcXDxwQ_Co",
     "user": {
-        "username": "ccc",
-        "email": "ccc@email.com",
-        "password": "12345"
+        "username": "ccc"
     }
 }
 ```
