@@ -81,7 +81,7 @@ router.post('/session', async (req, res) => {
     delete targetUser.password;
     res.status(201).json({
     token,
-    user: targetUser
+    user: body,
   })
 })
 
