@@ -50,7 +50,8 @@ export class UserdataService {
       })
       .catch(err => {
         if (err.status === 401) {
-          errMsg=err.error;
+          errMsg="invalid uername/password";
+          console.log(errMsg);
         }
       })
   }
