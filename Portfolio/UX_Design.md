@@ -133,7 +133,9 @@ There was plenty of scope to include more stakeholders to this list of four, how
 
 ## End-Users
 
-In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [ Sprints & Project Management](#Portfolio/Sprints_Project_Management/documentation-of-sprints.md)The first of our end-users is Bob Smith. His 'wants' and 'challenges' are specified below, as well as his motivations for wanting to play online games, and his expectations and special requirements.
+In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [Documentation of sprints](Portfolio/Sprints_Project_Management/documentation-of-sprints.md).
+
+Turning to our stakeholders, we have the first of our end-users. His name is Bob Smith. We have broken down his 'wants' and 'challenges' below, as well as his motivations for playing online games, his experience, expectations aof the product and special requirements.
 
 <div align="center">
 
