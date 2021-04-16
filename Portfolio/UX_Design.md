@@ -133,6 +133,8 @@ There was plenty of scope to include more stakeholders to this list of four, how
 
 ## End-Users
 
+The first of our end-users is Bob Smith. His 'wants' and 'challenges' are specified below, as well as his motivations for wanting to play online games, and his expectations and special requirements.
+
 <div align="center">
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob_profile.jpg)
@@ -141,14 +143,14 @@ There was plenty of scope to include more stakeholders to this list of four, how
 
 ### Motivations
 
-Bill enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
+Bob enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
 
 ### Expectations
 
 
 ### Special Requirements
 
-
+The second of our end-users is Sally Gardner. Her personal requirements are included below.
 
 <div align="center">
 
@@ -168,6 +170,8 @@ Sally knows nothing about digital games. He used to play board games when he was
 
 ## Product manager
 
+The third stakeholder is a product manager called Jack Barnett. As with the end-users, his background and interest in the project is listed below.
+
 <div align="center">
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/manager_jack_profile.jpg)
@@ -184,6 +188,8 @@ Jack, 36, is a product manager. In his role as a product manager, he is responsi
 
 
 ## Sponsor
+
+Our final stakeholder is called Simon Sharma. His background and requirements are listed below.
 
 <div align="center">
 
