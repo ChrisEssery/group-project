@@ -66,7 +66,7 @@ returned data:
 
 ### User Register
 
-**Request: **
+**Request:**
 
 - HTTP Method: `POST`
 - Path: `/users`
@@ -99,7 +99,7 @@ returned data:
 
 ### User Log In
 
-**Request: **
+**Request:**
 
 - HTTP Method: `POST`
 - Path: `/users/session`
@@ -132,7 +132,7 @@ returned data:
 
 ### User Log Out
 
-**Request: **
+**Request:**
 
 - HTTP Method: `DELETE`
 - Path: `/users/session`
@@ -145,7 +145,7 @@ returned data:
 
 ### Get a user 's personal information
 
-**Request: **
+**Request:**
 
 - HTTP Method: `GET`
 - Path: `/users/info/:username`
@@ -177,7 +177,7 @@ returned data:
 
 ### Get a user's friendlist
 
-**Request: **
+**Request:**
 
 - HTTP Method: `GET`
 - Path: `/users/friends/:username`
@@ -204,7 +204,7 @@ returned data:
 
 ### Get a user's game history
 
-**Request: **
+**Request:**
 
 - HTTP Method: `GET`
 - Path: `/users/games/:username&&limit`
@@ -242,7 +242,7 @@ returned data:
 
 ### Update a user's personal information
 
-**Request: **
+**Request:**
 
 - HTTP Method: `PUT`
 - Path: `/users/info/:username`
@@ -280,7 +280,7 @@ returned data:
 
 ### Add a friend to a user's friendlist
 
-**Request: **
+**Request:**
 
 - HTTP Method: `POST`
 - Path: `/users/friends/:username`
