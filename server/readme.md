@@ -90,8 +90,7 @@ returned data:
 {
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTkxMzkxODY1OTN9.TaeRt9GQIF8tewkNj8hUtV_2OV3Nv8jO3slV1A7Cr50",
     "user": {
-        "username": "aaa",
-        "email": "aaa@email.com"
+        "username": "aaa"
     }
 }
 ```
@@ -122,9 +121,7 @@ returned data:
 {
     "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2MDc4ZTAzZTBiNWEzMDNmNGNmZjJmYTciLCJleHAiOjE2MTkxMzkzNzgyMzh9.ag0HFpkeDdIecpKRpEi9GXYDTHZWPwm_9VcXDxwQ_Co",
     "user": {
-        "username": "ccc",
-        "email": "ccc@email.com",
-        "password": "12345"
+        "username": "ccc"
     }
 }
 ```
