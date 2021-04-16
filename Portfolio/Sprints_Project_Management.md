@@ -260,20 +260,29 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. There is also music which improves the experience. My only reservation is the moving title. I would prefer if the title stopped moving after a short period of time.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer</td>
- <td>Research multiplayer APIs</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
-</tr>
-<tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Multiplayer.</td>
  <td>Research multiplayer APIs</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+<td><img src="/Logo/manager_jack.jpg" width=45%>
+<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<td>Multiplayer</td>
+<td>Research multiplayer APIs</td>
+<td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+</tr>
+<tr>
+ <td><img src="/Logo/user_simon.jpg" width=45%>
+ <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <td>Multiplayer</td>
+ <td>Research multiplayer APIs</td>
+ <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+</tr>
 </tr>
 </table>
 
@@ -381,14 +390,6 @@ The aim of this sprint was to make sure our application, including the video cha
  <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer</td>
- <td>Research multiplayer APIs</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
-</tr>
-<tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
@@ -396,6 +397,23 @@ The aim of this sprint was to make sure our application, including the video cha
  <td>Research multiplayer APIs</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
+<tr>
+<td><img src="/Logo/manager_jack.jpg" width=45%>
+<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<td>Multiplayer</td>
+<td>Research multiplayer APIs</td>
+<td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+</tr>
+<tr>
+<td><img src="/Logo/user_simon.jpg" width=45%>
+<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+<td>Multiplayer</td>
+<td>Research multiplayer APIs</td>
+<td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+</tr>
+<tr>
 </table>
 
 ### Evaluation of Sprint
