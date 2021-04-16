@@ -78,9 +78,13 @@ Ethical issues concerning data privacy and security of our prototype were addres
 
 ### Our ethical responsibilities
 
+## Normative ethics and ethical frameworks
+
 To determine whether our approach was morally permissible, we can apply the theories of normative ethics. According to deontological and virtue ethics perspectives, our project should have complied with some ethical codes of conduct. This is because compliance with codes of conduct ensures conformity to universal rules, norms and core values, which is in accordance with deontological and virtue ethics since both theories require adherence to rules and values. Failing to adhere to these rules and values, therefore, amounts to unethical behaviour. In light of this, we decided to follow the BSC code of conduct, a value-based code of ethics for IT professionals. We decided this would be appropriate to use as an ethical framework to guide our actions and decisions during the project, and which aligns with the goals of normative ethics.
 
 By explicitly citing this as our code of conduct, we felt that we would be more likely to avoid behaving unethically, and that if we were challenged on ethical grounds despite having followed this code of conduct, we would be able to justify our actions by referring to it. This, we felt, would be particularly important in relation to working practices concerned with the way we handled and stored people's data. In addition to this, from a consequentialist perspective, conformance to the BSC arguably produces a morally good outcome, which focuses on mitigating risk and maximising human welfare.
+
+Further to this, took the decision to follow the W3C TAG Ethical Web Principles. According to these principles, "The web should empower an equitable, informed and interconnected society". This captures the main idea at the heart of our ethical approach to creating our product. 
 
 
 ### Social implications
