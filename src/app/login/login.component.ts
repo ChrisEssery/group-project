@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
+import { Router } from '@angular/router';
+import{UserdataService} from '../userdata.service';
 
 @Component({
   selector: 'app-login',
@@ -11,14 +14,20 @@ export class LoginComponent implements OnInit {
     username: '',
     password: ''
   }
+  errMsg = ''
 
-  constructor() { }
+  constructor(
+    private http: HttpClient,
+    private router: Router,
+    private dataService: UserdataService
+  ) {}
 
   ngOnInit(): void {
   }
 
   login(){
-    console.log("logged in successfully")
+    const formData = this.checkLoginForm
+    this.dataService.login(formData, this.errMsg)
   }
 
 }

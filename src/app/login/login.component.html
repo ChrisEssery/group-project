@@ -10,6 +10,9 @@
          </div>
          <div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username is required</div>
 
+         <div *ngIf="errMsg" class="alert alert-danger">
+            {{errMsg}}
+          </div>
          <div class="textbox">
              <i class="fas fa-lock"></i>
              <input type="password" placeholder="Password" required [(ngModel)]="checkLoginForm.password" name="password" #password="ngModel">

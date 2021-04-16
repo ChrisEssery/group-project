@@ -27,7 +27,7 @@ export class UserdataService {
         errMsg = ''
         //deal with user tokens
         window.localStorage.setItem('auth_token', data.token)
-        window.localStorage.setItem('user_info', JSON.stringify(data.user))
+        window.localStorage.setItem('username', JSON.stringify(data.user))
         //redirects to the main play page
         this.router.navigate(['/play'])
         console.log("user added")
@@ -39,4 +39,20 @@ export class UserdataService {
         }
       })
   }
+  public login(formData:any, errMsg:String){
+    this.httpClient.post(this.REST_API_SERVER+'/session', formData)
+      .toPromise()
+      .then((data: any) => {
+        window.localStorage.setItem('auth_token', data.token)
+        window.localStorage.setItem('username', JSON.stringify(data.user))
+        this.router.navigate(['/play'])
+        console.log("user signed in")
+      })
+      .catch(err => {
+        if (err.status === 401) {
+          errMsg=err.error;
+        }
+      })
+  }
 }
+//currentuser = JSON.Stringify(window.localStorage.getItem('username'))

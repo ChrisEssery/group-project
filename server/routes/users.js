@@ -47,7 +47,7 @@ router.post('/', async (req, res) => {
     delete body.password
     res.status(201).json({
     token,
-    user: body
+    user: body.username
   })
 })
 
@@ -81,7 +81,7 @@ router.post('/session', async (req, res) => {
     delete targetUser.password;
     res.status(201).json({
     token,
-    user: body,
+    user: body.username,
   })
 })
 
