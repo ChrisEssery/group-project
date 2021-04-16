@@ -95,7 +95,8 @@ returned data:
     }
 }
 ```
-<br>
+
+
 
 ### User Log In
 
@@ -127,7 +128,7 @@ returned data:
     }
 }
 ```
-<br>
+
 ### User Log Out
 
 **Request:**
@@ -170,7 +171,7 @@ returned data:
     }
 }
 ```
-<br>
+
 ### Get a user's friendlist
 
 **Request:**
@@ -195,7 +196,7 @@ returned data:
    {"username": "tom"}]
 }
 ```
-<br>
+
 ### Get a user's game history
 
 **Request:**
@@ -231,7 +232,7 @@ returned data:
    }]
 }
 ```
-<br>
+
 ### Update a user's personal information
 
 **Request:**
@@ -267,7 +268,7 @@ returned data:
     "result": "updated successfully"
 }
 ```
-<br>
+
 ### Add a friend to a user's friendlist
 
 **Request:**
@@ -298,7 +299,7 @@ returned data:
     "result": "friend added successfully"
 }
 ```
-<br>
+
 
 ### Add a new game instance
 
@@ -363,7 +364,7 @@ returned data:
 }
 ```
 
-<br>
+
 
 ### Get top users according to winning times
 
@@ -400,7 +401,7 @@ returned data:
 }
 ```
 
-<br>
+
 
 ### Get top users of a specific game according to the game score
 
