@@ -9,16 +9,14 @@
              <input type="text" placeholder="Username" required [(ngModel)]="checkLoginForm.username" name="username" #username="ngModel">
          </div>
          <div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username is required</div>
-
-         <div *ngIf="errMsg" class="alert alert-danger">
-            {{errMsg}}
-          </div>
          <div class="textbox">
              <i class="fas fa-lock"></i>
              <input type="password" placeholder="Password" required [(ngModel)]="checkLoginForm.password" name="password" #password="ngModel">
             </div>
          <div [hidden]="password.valid || password.pristine"class="alert alert-danger">Password is required</div>
-        
+         <div *ngIf="errMsg" class="alert alert-danger">
+            {{errMsg}}
+        </div>
          <button [disabled]="!loginForm.form.valid" class="btn" type="submit">Sign in</button>
          <!-- <p class="info">
              <a href="./" class="form__link">Forgot your password?</a>

@@ -4,6 +4,7 @@ import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { map, filter, switchMap } from 'rxjs/operators';
 import {Router} from '@angular/router';
+enum Result {OK, CONFLICT, ERROR}
 
 @Injectable({
   providedIn: 'root'
@@ -17,43 +18,6 @@ export class UserdataService {
 
   public getAllUsers(){
     return this.httpClient.get(this.REST_API_SERVER)
-  }
-
-  // create a new user
-  public addUser(formData:any, errMsg:String){
-    this.httpClient.post(this.REST_API_SERVER, formData)
-      .toPromise()
-      .then((data: any) => {
-        errMsg = ''
-        //deal with user tokens
-        window.localStorage.setItem('auth_token', data.token)
-        window.localStorage.setItem('username', JSON.stringify(data.user))
-        //redirects to the main play page
-        this.router.navigate(['/play'])
-        console.log("user added")
-      })
-      .catch(err => {
-        //if the username already exists, send the alert
-        if (err.status === 409) {
-          errMsg= 'Username already exists'
-        }
-      })
-  }
-  public login(formData:any, errMsg:String){
-    this.httpClient.post(this.REST_API_SERVER+'/session', formData)
-      .toPromise()
-      .then((data: any) => {
-        window.localStorage.setItem('auth_token', data.token)
-        window.localStorage.setItem('username', JSON.stringify(data.user))
-        this.router.navigate(['/play'])
-        console.log("user signed in")
-      })
-      .catch(err => {
-        if (err.status === 401) {
-          errMsg="invalid uername/password";
-          console.log(errMsg);
-        }
-      })
   }
 }
 //currentuser = JSON.Stringify(window.localStorage.getItem('username'))
