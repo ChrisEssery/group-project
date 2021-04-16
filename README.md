@@ -32,7 +32,7 @@ Reconnect with old friends, play fun board games, and enjoy yourself. With live 
 
 * Harri - Organiser/Back-end :prince:
 
-* Max - Scribe/Front-end :artist:
+* Max - Writer/coder/Front-end :artist:
 
 
 ## Aims and Objectives
