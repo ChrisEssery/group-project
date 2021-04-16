@@ -7,6 +7,7 @@ declare var JitsiMeetExternalAPI: any;
     templateUrl: './jitsi.component.html',
     styleUrls: ['./jitsi.component.scss']
 })
+
 export class JitsiComponent implements OnInit, AfterViewInit {
   domain: string = "meet.jit.si"; // For self hosted use your domain
   room: any;
@@ -32,8 +33,8 @@ export class JitsiComponent implements OnInit, AfterViewInit {
   ngAfterViewInit(): void {
       this.options = {
           roomName: this.room,
-          width: 416,
-          height: 234,
+          width: 576,
+          height: 576,
           configOverwrite: { prejoinPageEnabled: false },
           interfaceConfigOverwrite: {
               // overwrite interface properties
