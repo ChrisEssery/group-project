@@ -273,7 +273,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
 <td>Multiplayer</td>
 <td>Research multiplayer APIs</td>
-<td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
