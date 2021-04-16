@@ -23,13 +23,14 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Documentation of sprints**](#documentation-of-sprints)
    * [Sprint 1: Ideation and Setup (01.03.21 - 08.03.21)](#Sprint-1180221-020321)
    * [Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)](#Sprint-1180221-020321)
-   * [Sprints paused: other work commitments/no new tasks (15.03.21 - 29.03.21)](#Sprint-1180221-020321)
-   * [Sprint 3: Deploy the product (29.03.21 - 05.04.21)](#Sprint-1180221-020321)
-   * [Sprint 4: Testing before release (05.03.21 - 12.04.21)](#Sprint-1180221-020321)
-   * [Sprint 5: (12.04.21 - 19.04.21)](#Sprint-1180221-020321)
-   * [Sprint 6: (19.04.21 - 26.05.21)](#Sprint-1180221-020321)
-   * [Sprint 7: (26.05.21 - 03.06.21)](#Sprint-1180221-020321)
-* [**Team use of Git**](team-use-of-git)
+   * [Sprint 3: Deploy the product (15.03.21 - 22.03.21)](#Sprint-1180221-020321)
+   * [Sprints paused: other work commitments/no new tasks (22.03.21 - 05.03.21)](#Sprint-1180221-020321)
+   * [Sprint 4: User testing (05.03.21 - 12.04.21)](#Sprint-1180221-020321)
+   * [Sprint 5: Adding new features (12.04.21 - 19.04.21)](#Sprint-1180221-020321)
+   * [Sprint 6: Improving added features (19.04.21 - 26.04.21)](#Sprint-1180221-020321)
+   * [Sprint 7: Testing and obtaining further feedback (26.04.21 - 03.05.21)](#Sprint-1180221-020321)
+   * [Sprint 8: Final pre-release push (03.05.21 - 10.05.21)](#Sprint-1180221-020321)
+* [**Team use of Git**](#team-use-of-git)
 * [**The Impact of COVID-19**](the-impact-of-covid-19)
 
 
@@ -196,39 +197,56 @@ This will be broken down into four parts:
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github, and tried to develop our understanding the basic operations of GitHub, the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull request (for a discussion on our approach to GitHub, see [**Team use of Git**](team-use-of-git)). We agreed upon the channels of communication we would use, namely Microsoft Teams and Discord. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
    * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
+   * Create a group Discord server
    * Set up GitHub repository and familiarised ourselves with the platform.
-   * Get user feedback
+   * Agreed to setup a protocol with regard to GitHub.
+   * Create a simple paper prototype of the UI design.
 
 ### Relevant backlog items
 
 The following are a list of tasks and features that the team were tasked to deliver by the end of the sprint.
 
     ```
-      → Backlog item: design and build start page
-      → Backlog item: add audio to start page
-      → Backlog item: start building games
-      → Backlog item: design backend
+      → Backlog item: setup GitHub repository
+      → Backlog item: create a GitHub protocol and familiarise ourselves with it
+      → Backlog item: create a simple UI design paper prototype
+      → Backlog item: create a group Discord server
+      → Backlog item: create stakeholder stories
 
     ```
 
 ### Evaluation of Sprint
 
-This was our first sprint. Our focus was on choosing the design and structure of the application. After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't much we could ask our user's since we were in a very early stage. We maybe could have benefited from getting different branches setup on our GitHub repository.
+This was our first sprint. The main goal of this sprint was to establish a communication and GitHub protocol. This was important, we felt, because once our channels of communication were setup we could then work efficiently and effectively. It was particularly important to make sure every team member had a good working understanding of how to use GitHub. On reflection, we should have dedicated more time to doing this. In particular, we would have benefited from one team member becoming the GitHub expert who could then go on to teach other team members how to use the platform. We should have also made sure that the GitHub protocol was fully understood by everyone and that we had an idea of how we would work together to push our progress to the repository. We could have also benefited from getting different branches setup on our GitHub repository.
+
+Another area we could have improved on was the approach taken to the Agile methodology. Specifically, we should have taken time to learn the methodology and be able to draw out a rough timeline for our development lifecycle. This would have given us structure and reassurance that we were tackling the tasks at hand in the correct way. That said, we still defined our weekly goals and had established several lines of communication which all served to keep every team member up-to-date on group progress.
+
+After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't much we could ask our user's since we were in a very early stage.
+
 
 ## Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)
 ___
 
-The aim of this sprint was to get something built. We decided to build four games. We also wanted to get the start page up and running, so we had to familiarise ourselves Angular.
+The aim of this sprint was to get something built and pushed onto GitHub. We decided to build four games and assigned two of those games to different team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find establish any problems or issues they might have we the product and closely follow the agile methodology.
 
 ### Key points
 
-   * Games allocated to team members
-   * Build and run start page
-   * Set up GitHub repository and familiarised ourselves with the platform.
+  * Games allocated to team members
+  * Chris updated on progress of Connect 4 game.
+  * Browsed previously completed group projects together and took notes
+  * Discussed how our stakeholder stories and their feedback
+
+
+### Key implementations
+
+   * GitHub protocol established
+   * User stories created
+   * Lizhao presented the paper prototype video she has been creating.
+   * Chris updated on progress of the Java produced Connect 4 game.
+   * Browsed previously completed group projects together.
 
 ### Relevant backlog items
 
@@ -290,7 +308,9 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 
 During this sprint, we
 
-## Sprint 3: Deploy the product (29.03.21 - 05.04.21)
+
+
+## Sprint 3: Deploy the product (15.03.21 - 22.03.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
@@ -350,7 +370,11 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-## Sprint 4: Testing before release (05.03.21 - 12.04.21)
+## Sprints paused: other work commitments/no new tasks (22.03.21 - 05.03.21)
+
+
+
+## Sprint 4: User testing (05.03.21 - 12.04.21)
 ___
 
 
@@ -418,7 +442,7 @@ The aim of this sprint was to make sure our application, including the video cha
 
 ### Evaluation of Sprint
 
-## Sprint 5: (12.04.21 - 19.04.21)
+## Sprint 5: Adding new features (12.04.21 - 19.04.21)
 ___
 
 
@@ -476,7 +500,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
-## Sprint 6: (26.05.21 - 03.06.21)
+## Sprint 7: Testing and obtaining further feedback (26.04.21 - 03.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
@@ -533,6 +557,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </table>
 
 ### Evaluation of Sprint
+
+## Sprint 8: Final pre-release push (03.05.21 - 10.05.21)
 
 
 ## Team use of Git
