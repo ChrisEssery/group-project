@@ -16,7 +16,7 @@ const User = new Schema ({
     gamename:{type: String},
     date: {type: Date, default: Date.now},
     playedWith: {type: String},
-    isWon:{type: Boolean}}]
+    result:{type: String}}]
 });
 
 module.exports = mongoose.model('User', User);
