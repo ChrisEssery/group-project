@@ -6,8 +6,8 @@
 - Use the HTTP Status Code to identify the Status
 - The data is transferred in a uniform format using JSON
 - Web APIs are designed according to the Representational State Transfer (REST) architectural style.
-
-
+<br>
+<br>
 
 ### Returned Status Code Specification
 
@@ -24,7 +24,7 @@
 | 422         | Unprocesable entity [POST/PUT/PATCH] | A validation error occurred while creating an object         |
 | 500         | INTERNAL SERVER ERROR                |                                                              |
 
-
+<br>
 
 ### Handling Error 
 
@@ -43,8 +43,8 @@ returned data:
   error: 'invalid password'
 }
 ```
-
-
+<br>
+<br>
 
 ## API Request & Response
 
@@ -62,7 +62,8 @@ returned data:
 - [ ] [Get top users according to winning times](#Get_top_users_according_to_winning_times)
 - [ ] [Get top users of a specific game according to the game score](#Get_top_users_of_a_specific_game_according_to_the_game_score)
 
-
+<br>
+<br>
 
 ### User Register
 
@@ -94,8 +95,7 @@ returned data:
     }
 }
 ```
-
-
+<br>
 
 ### User Log In
 
@@ -127,9 +127,7 @@ returned data:
     }
 }
 ```
-
-
-
+<br>
 ### User Log Out
 
 **Request:**
@@ -172,9 +170,7 @@ returned data:
     }
 }
 ```
-
-
-
+<br>
 ### Get a user's friendlist
 
 **Request:**
@@ -199,9 +195,7 @@ returned data:
    {"username": "tom"}]
 }
 ```
-
-
-
+<br>
 ### Get a user's game history
 
 **Request:**
@@ -237,9 +231,7 @@ returned data:
    }]
 }
 ```
-
-
-
+<br>
 ### Update a user's personal information
 
 **Request:**
@@ -275,9 +267,7 @@ returned data:
     "result": "updated successfully"
 }
 ```
-
-
-
+<br>
 ### Add a friend to a user's friendlist
 
 **Request:**
@@ -308,8 +298,7 @@ returned data:
     "result": "friend added successfully"
 }
 ```
-
-
+<br>
 
 ### Add a new game instance
 
@@ -374,7 +363,7 @@ returned data:
 }
 ```
 
-### 
+<br>
 
 ### Get top users according to winning times
 
@@ -411,7 +400,7 @@ returned data:
 }
 ```
 
-### 
+<br>
 
 ### Get top users of a specific game according to the game score
 
