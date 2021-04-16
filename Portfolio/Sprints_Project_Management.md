@@ -236,8 +236,9 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 
   * Games allocated to team members
   * Chris updated on progress of Connect 4 game.
-  * Browsed previously completed group projects together and took notes
-  * Discussed how our stakeholder stories and their feedback
+  * Browsed previously completed group projects together and took notes.
+  * Discussed how our stakeholder stories and their feedback.
+  * Start documentation early, creating sections and subsections according to report instructions.
 
 
 ### Key implementations
@@ -558,10 +559,20 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
+
 ## Sprint 8: Final pre-release push (03.05.21 - 10.05.21)
 
 
-## Team use of Git
+## Team use of GitHub
+
+At the centre of this whole project was GitHub. It was an indispensable platform which we used to great effect. Given the importance of this platform, we knew that it was very important that we used the platform in a structured and rational way. As such, we decided to draw up some guidelines on how to use GitHub. Going forward, this was essential since it meant that we were able to push progress onto the repository where everyone could access it and commit further changes.
+
+We created a number of branches. First, there was our main branch. This was were our finalised documentation and code would sit. We periodically merged this branch with our development, or 'dev' branch.  
+
+1. Create dev branch
+2. Create game branches
+3. Create database branch
+4. Create multiplayer branch
 
 
 
