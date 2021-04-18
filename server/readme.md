@@ -53,11 +53,11 @@ returned data:
 - [x] [User Register](#User_Register)
 - [x] [User Log in](#User_Log_In)
 - [x] [User Sign out](#User_Log_Out)
-- [ ] [Get a user 's personal information](#Get_a_user's_personal_information)
-- [ ] [Get a user's friendlist](#Get_a_user's_friendlist)
+- [x] [Get a user 's personal information](#Get_a_user's_personal_information)
+- [x] [Get a user's friendlist](#Get_a_user's_friendlist)
 - [ ] [Get a user's game history](#Get_a_user's_game_history)
-- [ ] [Update a user's personal information](#Update_a_user's_personal_information)
-- [ ] [Add a friend to a user's friendlist](#Add_a_friend_to_a_user's_friendlist)
+- [x] [Update a user's personal information](#Update_a_user's_personal_information)
+- [x] [Add a friend to a user's friendlist](#Add_a_friend_to_a_user's_friendlist)
 - [ ] [Add a new game instance](#Add_a_new_game_instance)
 - [ ] [Get top users according to winning times](#Get_top_users_according_to_winning_times)
 - [ ] [Get top users of a specific game according to the game score](#Get_top_users_of_a_specific_game_according_to_the_game_score)
@@ -163,7 +163,7 @@ returned data:
         "surname": "Smith",
         "age": 70,
         "gender": "male",
-        "location": "bristol",
+        "location": "bristol"
 }
 ```
 
@@ -185,10 +185,10 @@ returned data:
 
 ```
 {
-   "friends" : [
-   {"username": "lily"},
-   {"username": "bob"},
-   {"username": "tom"}]
+   "friends": [
+        "aaa",
+        "bbb"
+    ]
 }
 ```
 
@@ -248,7 +248,7 @@ returned data:
    "surname": "Smith",
    "age": 70,
    "gender": "male",
-   "location": "bristol",
+   "location": "bristol"
 }
         
 ```
