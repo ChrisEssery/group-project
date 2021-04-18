@@ -157,7 +157,6 @@ returned data:
 
 ```
 {
-    "user": {
         "username": "aaa",
         "email": "aaa@email.com",
         "name": "aaa" ,
@@ -165,7 +164,6 @@ returned data:
         "age": 70,
         "gender": "male",
         "location": "bristol",
-    }
 }
 ```
 
