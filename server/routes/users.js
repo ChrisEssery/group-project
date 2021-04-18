@@ -92,6 +92,85 @@ router.delete('/session', (req, res) => {
     res.status(204).json({})
   })
 
+//Get a user 's personal information
+router.get('/info/:username', async (req, res) => {
+    const user = await User.findOne({username: req.params.username})
+    if(!user){
+        return res.status(404).json({
+            error: 'invalid username'
+        })
+    }
+    return res.status(200).json({
+        username: user.username,
+        email: user.email,
+        name: user.name,
+        surname: user.surname,
+        age: user.age,
+        gender: user.gender,
+        location: user.location
+    })
+})
+
+//Update a user's personal information
+router.put('/info/:username', async (req, res) => {
+    const body = req.body
+    const user = await User.findOne({username: req.params.username})
+    if(!user){
+        return res.status(404).json({
+            error: 'invalid username'
+        })
+    }
+    const filter = {username: req.params.username}
+    const update = {
+        email: body.email,
+        name: body.name,
+        surname: body.surname,
+        age: body.age,
+        gender: body.gender,
+        location: body.location
+    }
+    await User.findOneAndUpdate(filter, update)
+    return res.status(201).json({
+        result: "updated successfully"
+    })
+})
+
+//Get a user's friendlist
+router.get('/friends/:username', async (req, res) => {
+    const user = await User.findOne({username: req.params.username})
+    if(!user){
+        return res.status(404).json({
+            error: 'invalid username'
+        })
+    }
+    return res.status(200).json({
+        friends: user.friends
+    })
+})
+
+//Add a friend to a user's friendlist
+router.post('/friends/:username', async (req, res) => {
+    const user = await User.findOne({username: req.params.username})
+    if(!user){
+        return res.status(404).json({
+            error: 'invalid username'
+        })
+    }
+    newFriend = req.body.friendName
+    if(!newFriend){
+        return res.status(400).json({
+            error: 'bad request'
+        })
+    }
+    await user.friends.push(newFriend)
+    await user.save(user)
+    newuser = await User.findOne({username: req.params.username});
+    return res.status(201).json({
+        result: "friend " + newFriend + " is added successfully",
+        friends: newuser
+    })
+})
+
 
 module.exports = router;
 
