@@ -5,6 +5,7 @@
 - Interfaces that require authorization must provide the request header field X-Access-Token information
 - Use the HTTP Status Code to identify the Status
 - The data is transferred in a uniform format using JSON
+- User password is encrypted using blueimp-md5
 - Web APIs are designed according to the Representational State Transfer (REST) architectural style.
 <br>
 <br>
