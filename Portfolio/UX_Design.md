@@ -8,7 +8,7 @@ ___
 
 # UX Design
 
-In this section, we discuss the design of our app. We start with the initial to our working app. We include details about some users and their interests. We also explain the interface before looking at areas where we could have developed the product.
+In this section, we discuss the User Experience (UX) design of our app. We start by outlining the design process and ideation and evolution of user interface (UI) design. We then identify our stakeholders and provide details regarding their 'stories'. Following this, we discuss our UX approach and design and discuss the importance of the user group.
 
 ## Table of contents
 
