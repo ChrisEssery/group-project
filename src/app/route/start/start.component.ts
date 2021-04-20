@@ -8,8 +8,11 @@ import { Router } from "@angular/router";
   styleUrls: ['./start.component.css']
 })
 export class StartComponent {
+  // Logic for start page passed to gameservice.
   constructor(public gameService: GameService, public router: Router) {}
 
+  // Game starts one the player has entered
+  // his/her name
   startGame() {
     if (this.gameService.playerName && this.gameService.playerName.trim()) {
       this.router.navigate(["gameplay"]);

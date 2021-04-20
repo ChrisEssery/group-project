@@ -8,6 +8,8 @@ import { GameService } from "src/app/service/game.service";
   styleUrls: ["./ranking.component.css"]
 })
 export class RankingComponent implements OnInit {
+  // Logic for leaderboard passed to ranking
+  // and game service
   constructor(
     public rankingService: RankingService,
     public gameService: GameService

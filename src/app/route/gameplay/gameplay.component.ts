@@ -7,9 +7,11 @@ import { Router } from "@angular/router";
   templateUrl: './gameplay.component.html',
 })
 export class GameplayComponent implements OnInit {
+  // Gameplay logic passed to gameservice
  constructor(private gameService: GameService, private router: Router) {}
 
  ngOnInit() {
+   // Navigate back to start 
    if (!this.gameService.playerName) {
      this.router.navigate(["start"]);
    }

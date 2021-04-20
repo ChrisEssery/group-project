@@ -1,3 +1,6 @@
+// Contains logic for getting
+// cards and shuffling them
+
 import { Injectable } from "@angular/core";
 import { Card } from "../cards/card.class";
 import { CARDS_IMAGES_PATHS } from "../card-path/images.config";
@@ -9,7 +12,7 @@ import { CARDS_IMAGES_PATHS } from "../card-path/images.config";
 export class CardService {
   constructor() {}
 
-  // get cards and place them on memory game board
+  // Get cards and place them on memory game board
   getCards(): Card[] {
     const cards = [];
 
@@ -23,6 +26,7 @@ export class CardService {
     return cards;
   }
 
+  // Shuffle array of cards using random function
   private shuffleArray(elements: any[]): void {
     for (let i = elements.length - 1; i > 0; i--) {
       const j = Math.floor(Math.random() * (i + 1));
