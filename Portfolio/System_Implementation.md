@@ -105,7 +105,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Mongooseicon.png)
 
-With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. 
+With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database.
 
 ### Details of Implementation
 
@@ -176,5 +176,12 @@ Finally, we consider deployment.
 
 
 ### Details of Implementation
+
+
+## Navigate
+
+- [Go To Next Section](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
+- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+
 
 ___

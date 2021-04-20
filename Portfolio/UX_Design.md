@@ -260,6 +260,12 @@ Similarly, Wang () suggests a very similar set of design requirements.
 
 ## Wireframes and interaction flow diagrams
 
+
+## Navigate
+
+- [Go To Next Section](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md)
+- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+
 ## References
 
 [3] Ijsselsteijn W., Herman H. et al., “Digital game design for elderly users”, Eindhoven University of Technology, 2007. https://dl.acm.org/citation.cfm?id=1328206
