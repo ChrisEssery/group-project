@@ -39,9 +39,16 @@ Reconnect with old friends, play fun board games, and enjoy yourself. With live 
 
 The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create an engaging, easy-to-use online multiplayer gaming application with video communication functionality delivered through a single page app (SPA).
 
-Given the huge societal impact of the COVID-19 crisis with restrictions on people's lives and enforced "social distancing" measures, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly among older adults [[**1**]](#references).  NotSoBored games is designed to help combat these public health concerns. Our proposed method differs from and contributes to existing methods by combing a simple, visually appealing user interface with video communication functionality. This delivers an engaging experience unlike existing online games which lack video communication and ease of use.
+Given the huge societal impact of the COVID-19 crisis with restrictions on people's lives and enforced "social distancing" measures, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly among older adults [[**1**]](#references).  NotSoBored games is designed to help combat these public health concerns. Our proposed method differs from and contributes to existing methods by combing a simple, visually appealing user interface with video communication functionality. This delivers an engaging experience unlike existing online games which lack video communication functionality and ease of use.
 
-The main objective of this project is to explore whether we can improve upon existing online games for the elderly by delivering an SPA that can be used as a tool that is fun, engaging and easy to use. We investigate the hypothesis that the application can improve the quality of life of our stakeholders by conducting user testing. Based on our results, we believe our application can be used to help tackle the growing issue of loneliness and isolation in this group.
+The main objective of this project is to explore whether we can improve upon existing online games for the elderly by delivering an SPA that can be used as a tool that is fun, engaging and easy to use. Our remaining objectives are as follows:
+
+  * Build and deploy a responsive SPA using the MEAN stack, as per the project brief.
+  * Implement a login, leaderboard and two board games with multiplayer functionality and video chat.
+  * Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.
+  * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
+
+We also investigate the hypothesis that the application can improve the quality of life of our stakeholders by conducting user testing. Based on our results, we believe our application can be used to help tackle the growing issue of loneliness and isolation in this group.
 
 In our project report we explain and analyse our SPA, from ideation to implementation, we also give an overview of background literature, conduct a state-of-the-art survey and identify promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
 

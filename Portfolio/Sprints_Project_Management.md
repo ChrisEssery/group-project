@@ -372,7 +372,7 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 
 ## Sprints paused: other work commitments/no new tasks (22.03.21 - 05.03.21)
 
-By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These two reasons, taken together, were, we felt, sufficient to warrant pausing the sprints and focusing on both of these things before moving on to the next sprint. 
+By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These two reasons, taken together, were, we felt, sufficient to warrant pausing the sprints and focusing on both of these things before moving on to the next sprint.
 
 ## Sprint 4: User testing (05.03.21 - 12.04.21)
 ___
