@@ -8,6 +8,8 @@ import { TitleComponent } from './start-page/title/title.component';
 import { BackgroundComponent } from './start-page/background/background.component';
 import { BgmComponent } from './start-page/bgm/bgm.component';
 import { ConnectFourComponent } from './connect-four/connect-four.component';
+import { JitsiComponent } from './jitsi/jitsi.component';
+
 
 @NgModule({
   declarations: [
@@ -16,7 +18,8 @@ import { ConnectFourComponent } from './connect-four/connect-four.component';
     TitleComponent,
     BackgroundComponent,
     BgmComponent,
-    ConnectFourComponent
+    ConnectFourComponent,
+    JitsiComponent
   ],
   imports: [
     BrowserModule,
