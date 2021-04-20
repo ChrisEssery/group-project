@@ -60,8 +60,8 @@ returned data:
 - [x] [Update a user's personal information](#Update_a_user's_personal_information)
 - [x] [Add a friend to a user's friendlist](#Add_a_friend_to_a_user's_friendlist)
 - [x] [Add a new game instance](#Add_a_new_game_instance)
-- [ ] [Get top users according to winning times](#Get_top_users_according_to_winning_times)
-- [ ] [Get top users of a specific game according to the game score](#Get_top_users_of_a_specific_game_according_to_the_game_score)
+- [x] [Get top users according to winning times](#Get_top_users_according_to_winning_times)
+- [x] [Get top users of a specific game according to the game score](#Get_top_users_of_a_specific_game_according_to_the_game_score)
 
 <br>
 <br>
@@ -325,15 +325,15 @@ returned data:
    "players": [
       {
          "username" : "aaa",
-         "result" : "WIN"
+         "result" : "WIN",
+         "score": 23  //not required, add it if there is a score
       },
       {
          "username" :"bbb",
          "result": "LOSE"
       }
-   ]
-   "difficultyLevel": "easy" //if there is a choice of difficulty level
-   "score" :20 //if there is a score
+   ],
+   "difficultyLevel": "easy", //if there is a choice of difficulty level
 }
 ```
 
@@ -353,7 +353,7 @@ returned data:
 **Request:**
 
 - HTTP Method: `GET`
-- Path:  `/api/users/leaderboard/:limit`
+- Path:  `/api/users/wins/:limit`
 
 | parameters | isRequired | explanation                        |
 | ---------- | ---------- | ---------------------------------- |
@@ -366,20 +366,16 @@ returned data:
 
 ```
 {
-   "limit" : 3,
-   "users": [
-   {
-   "username" : "aaa".
-   "wins": 23,
-   },
-   {
-   "username" : "bbb".
-   "wins": 20,
-   },
-   {
-   "username" : "ccc".
-   "wins": 19,
-   }]
+   [
+    {
+        "username": "aaa",
+        "wins": 3
+    },
+    {
+        "username": "bbb",
+        "wins": 1
+    }
+   ]
 }
 ```
 
@@ -390,11 +386,13 @@ returned data:
 **Request:**
 
 - HTTP Method: `GET`
-- Path:  `/api/games/memorygame/leaderboard/:limit`
+- Path:  `/api/games/scores/:gamename/:limit/:order`
 
 | parameters | isRequired | explanation                        |
 | ---------- | ---------- | ---------------------------------- |
 | Limit      | YES        | the number of top players returned |
+| gamename   | YES        | e.g. memorygame OR connect4        |
+| order      | YES        | sort order: 1 -> sort in ascending order， 0 -> sort in descending order       |
 
 **Response:**
 
@@ -403,20 +401,16 @@ returned data:
 
 ```
 {
-   "limit" : 3,
-   "users": [
-   {
-   "username" : "aaa".
-   "score": 10,
-   },
-   {
-   "username" : "bbb".
-   "score": 12,
-   },
-   {
-   "username" : "ccc".
-   "score": 13,
-   }]
+  [
+    {
+        "score": 19,
+        "username": "aaa"
+    },
+    {
+        "score": 20,
+        "username": "ddd"
+    }
+  ]
 }
 ```
 

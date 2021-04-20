@@ -6,9 +6,9 @@ var Game = new Schema({
     date: {type: Date, default: Date.now},
     players: [{
         username: {type: String, required: true}, //player1's username
-        result: {type: String, required: true}
+        result: {type: String, required: true},
+        score: {type: Number}
     }],
-    score: {type: Number},
     difficultyLevel: {type: String},
   });
   

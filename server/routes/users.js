@@ -6,16 +6,6 @@ const jwt = require('jwt-simple');
 const moment = require('moment');
 
 
-
-router.get('/:userId', async (req, res) => {
-    try{
-        const user = await User.findById(req.params.userId);
-        res.json(user)
-    }catch(err){
-        res.json({message:err});
-    }
-})
-
 //user register
 router.post('/', async (req, res) => {
     const body = req.body;
@@ -175,17 +165,32 @@ router.post('/friends/:username', async (req, res) => {
 router.get('/games/:username/:limit', async (req, res) =>{
     limit = req.params.limit
     targetUser = await User.findOne({username:req.params.username})
-    // .sort({date: -1}).limit(limit) , {gamesPlayed: 1}
     games = targetUser.gamesPlayed
-    var ret = games.sort(function(a, b) {b.date - a.date}).slice(limit)
+    var ret = games.sort(function(a, b) {b.date - a.date}).slice(0, limit)
     res.status(200).json({gamesPlayed: ret})
-    // targetUser = await User.findOne(req.params.username)
-    // limit = req.params.limit
-    // targetUser.find().sort({date: -1}).limit(limit).then(item => {
-    //   console.log(item)
-    // })
-  
 })
+
+router.get('/wins/:limit', async (req, res) => {
+    limit = req.params.limit
+    if(!limit || isNaN(limit)) {
+        console.log("error")
+        res.status(400).json({error: 'invaid parameter'})
+    }
+    result = []
+    await (await (User.find().sort({wins: -1}))).forEach((function(user) {
+        if(user.wins > 0){
+            record = {}
+            record.username = user.username
+            record.wins = user.wins
+            result.push(record)
+        }
+    }))
+    return res.status(200).json(result.slice(0, limit))
+})
+
+router.get('*', (req, res) => {
+    res.status(400).json({error: "invalid request"})
+  })
 
 module.exports = router;
 
