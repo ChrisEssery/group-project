@@ -21,14 +21,14 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
 * [**Documentation of sprints**](#documentation-of-sprints)
-   * [Sprint 1: Ideation and Setup (01.03.21 - 08.03.21)](#Sprint-1-ideation-and-setup-010321-080321)
-   * [Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)](#Sprint-2-start-frontend-and-design-backend-080321-150321)
-   * [Sprint 3: Deploy the product (15.03.21 - 22.03.21)](#Sprint-3-deploy-the-product-150321-220321)
-   * [Sprints paused: other work commitments/no new tasks (22.03.21 - 05.04.21)](#Sprint-paused-other-commitments-no-new-tasks-220321-050421)
-   * [Sprint 4: User testing (05.04.21 - 12.04.21)](#Sprint-4-user-testing-050421-120421)
-   * [Sprint 5: Adding new features (12.04.21 - 19.04.21)](#Sprint-5-adding-new-features-120421-190421)
-   * [Sprint 6: Improving added features (19.04.21 - 26.04.21)](#Sprint-6-improving-added-features-190421-260421)
-   * [Sprint 7: Testing and obtaining feedback (26.04.21 - 03.05.21)](#Sprint-7-testing-and-obtaining-feedback-260421-030521)
+   * [Sprint 1: Ideation and Setup (01.03.21 - 08.03.21)](#sprint-1-ideation-and-setup-010321-080321)
+   * [Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)](#sprint-2-start-frontend-and-design-backend-080321-150321)
+   * [Sprint 3: Deploy the product (15.03.21 - 22.03.21)](#sprint-3-deploy-the-product-150321-220321)
+   * [Sprints paused: other work commitments/no new tasks (22.03.21 - 05.04.21)](#sprints-paused-other-commitments-no-new-tasks-220321-050421)
+   * [Sprint 4: User testing (05.04.21 - 12.04.21)](#sprint-4-user-testing-050421-120421)
+   * [Sprint 5: Adding new features (12.04.21 - 19.04.21)](#sprint-5-adding-new-features-120421-190421)
+   * [Sprint 6: Improving added features (19.04.21 - 26.04.21)](#sprint-6-improving-added-features-190421-260421)
+   * [Sprint 7: Testing and obtaining feedback before release (26.04.21 - 03.05.21)](#sprint-7-testing-and-obtaining-feedback-before-release-260421-030521)
 * [**Team use of Git**](#team-use-of-git)
 * [**The Impact of COVID-19**](the-impact-of-covid-19)
 
@@ -500,7 +500,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
-## Sprint 7: Testing and obtaining further feedback (26.04.21 - 03.05.21)
+## Sprint 7: Testing and obtaining further feedback before release (26.04.21 - 03.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
