@@ -20,7 +20,7 @@ In this section, we discuss the User Experience (UX) design of our app. We start
    * [End-user](#end-user)
    * [Product manager](#project-manager)
    * [Sponsor](#sponsor)
-* [**UX approach - design methods**](#ux-approach-design-methods)
+* [**UX approach - design methods**](#ux-approach--design-methods)
   * [Understanding user group](#understanding-user-group)
 
 
@@ -235,6 +235,10 @@ Simon's expectations are that the group will embrace the project using the Agile
 ### Special Requirements
 
 
+## UX approach - design methods
+
+When considering the UX approach we felt it was important to choose something that was relevant and of genuine importance. As such, we honed in on major issues facing society. After drafting two project proposals we decided that NotSoBored Games was the best project given the constraints of time, skills and resources we had to design and implement the application.
+
 
 ## Game design for older people
 
@@ -251,10 +255,6 @@ Some of the suggestions include:
 Similarly, Wang () suggests a very similar set of design requirements.
 
 
-
-## UX approach - design methods
-
-When considering the UX approach we felt it was important to choose something that was relevant and of genuine importance. As such, we honed in on major issues facing society. After drafting two project proposals we decided that NotSoBored Games was the best project given the constraints of time, skills and resources we had to design and implement the application.
 
 ## Understanding user group
 
