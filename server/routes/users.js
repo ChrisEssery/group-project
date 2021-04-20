@@ -171,6 +171,21 @@ router.post('/friends/:username', async (req, res) => {
     })
 })
 
+//Get a user's game history
+router.get('/games/:username/:limit', async (req, res) =>{
+    limit = req.params.limit
+    targetUser = await User.findOne({username:req.params.username})
+    // .sort({date: -1}).limit(limit) , {gamesPlayed: 1}
+    games = targetUser.gamesPlayed
+    var ret = games.sort(function(a, b) {b.date - a.date}).slice(limit)
+    res.status(200).json({gamesPlayed: ret})
+    // targetUser = await User.findOne(req.params.username)
+    // limit = req.params.limit
+    // targetUser.find().sort({date: -1}).limit(limit).then(item => {
+    //   console.log(item)
+    // })
+  
+})
 
 module.exports = router;
 

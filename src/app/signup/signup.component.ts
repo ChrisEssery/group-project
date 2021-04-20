@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { UserdataService } from '../userdata.service';
+enum Result {OK, CONFLICT, ERROR, UNDEFINED}
 
 @Component({
   selector: 'app-signup',
@@ -20,9 +22,11 @@ export class SignupComponent implements OnInit {
   constructor(
     private http: HttpClient,
     private router: Router,
+    private userdataService : UserdataService
   ) { }
 
   ngOnInit(): void {}
+
   signup(){
     const formData = this.signUpForm
     this.http.post(this.REST_API_SERVER, formData).toPromise()

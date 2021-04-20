@@ -15,7 +15,7 @@ const User = new Schema ({
   gamesPlayed: [{
     gamename:{type: String},
     date: {type: Date, default: Date.now},
-    playedWith: {type: String},
+    playedWith: [{type: String}],
     result:{type: String}}]
 });
 

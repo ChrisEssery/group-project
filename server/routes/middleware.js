@@ -12,7 +12,7 @@ exports.check_api_token = (req, res, next) => {
   
     // check the token
     try {
-      const decodedToken = jwt.decode(token, 'itcast')
+      const decodedToken = jwt.decode(token, 'secret')
   
       // check if it is expired
       if (decodedToken.exp < moment().valueOf()) {

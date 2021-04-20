@@ -1,4 +1,4 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 .navbar{
     background-color: transparent;
     z-index: 4;
@@ -6,9 +6,6 @@
 .nav-link{
     font-size: 14px;
 }
-
- @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
- 
 
  .left{
     margin-top:40%;

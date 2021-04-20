@@ -58,7 +58,7 @@ returned data:
 - [ ] [Get a user's game history](#Get_a_user's_game_history)
 - [x] [Update a user's personal information](#Update_a_user's_personal_information)
 - [x] [Add a friend to a user's friendlist](#Add_a_friend_to_a_user's_friendlist)
-- [ ] [Add a new game instance](#Add_a_new_game_instance)
+- [x] [Add a new game instance](#Add_a_new_game_instance)
 - [ ] [Get top users according to winning times](#Get_top_users_according_to_winning_times)
 - [ ] [Get top users of a specific game according to the game score](#Get_top_users_of_a_specific_game_according_to_the_game_score)
 
@@ -197,7 +197,7 @@ returned data:
 **Request:**
 
 - HTTP Method: `GET`
-- Path: `/users/games/:username&&limit`
+- Path: `/users/games/:username/:limit`
 
 | parameters | isRequired | explanation                                      |
 | ---------- | ---------- | ------------------------------------------------ |
@@ -211,20 +211,37 @@ returned data:
 
 ```
 {
-   "username" : "aa",
-   "gamesPlayed": [
    {
-   "gamename" : "memory game".
-   "playedWith": "bb",
-   "date" : "2021-01-10",
-   "result": "win"
-   },
-   {
-   "gamename" : "connect 4".
-   "playedWith": "cc",
-   "date" : "2021-02-02",
-   "result": "lose"
-   }]
+    "gamesPlayed": [
+        {
+            "playedWith": [
+                "ccc"
+            ],
+            "_id": "607e40cea16282839a87a28f",
+            "gamename": "Memory Game",
+            "result": "WIN",
+            "date": "2021-04-20T10:47:42.447Z"
+        },
+        {
+            "playedWith": [
+                "ddd"
+            ],
+            "_id": "607e41369343f383a60ba17f",
+            "gamename": "Memory Game",
+            "result": "LOSE",
+            "date": "2021-04-20T10:49:26.527Z"
+        },
+        {
+            "playedWith": [
+                "bbb"
+            ],
+            "_id": "607e4147af357383aea89ab3",
+            "gamename": "Connect 4",
+            "result": "WIN",
+            "date": "2021-04-20T10:49:43.921Z"
+        }
+    ]
+}
 }
 ```
 
@@ -298,24 +315,23 @@ returned data:
 
 ### Add a new game instance
 
-#### 1. Add a new memory game instance
-
 **Request:**
-
 - HTTP Method: `POST`
-- Path: `/api/games/memorygame`
+- Path: `/api/games/memorygame` OR `/api/games/connect4`
 - Sent data:
-
-
 ```
 {
-   "player1": "aaa", //player1's username
-   "player2": "bbb",//player2's username
-    "result": {
-        "winners": ["aaa", "bbb"], //winners can be one or two
-        "score": 12,
-    },
-    "difficultyLevel": "easy" //if there is a choice of difficulty level
+   "players": [
+      {
+         "username" : "aaa",
+         "result" : "WIN"
+      },
+      {
+         "username" :"bbb",
+         "result": "LOSE"
+      }
+   ]
+   "difficultyLevel": "easy" //if there is a choice of difficulty level
 }
 ```
 
@@ -328,37 +344,6 @@ returned data:
    "result": "game added successfully"
 }
 ```
-
-#### 2. Add a new connect 4 game instance
-
-**Request:**
-
-- HTTP Method: `POST`
-- Path:  `/api/games/connect4`
-- Sent Data
-
-
-```
-{
-   "player1": "aa",
-   "player2": "bb",
-}
-```
-
-**Response:**
-
-- status code: 201
-- Returned data:
-
-```
-{
-   "player1": "aaa", //player1's username
-   "player2": "bbb",//player2's username
-   "winner": "bbb"
-   "difficultyLevel": "easy" //if there is a choice of difficulty level
-}
-```
-
 
 
 ### Get top users according to winning times
@@ -403,7 +388,7 @@ returned data:
 **Request:**
 
 - HTTP Method: `GET`
-- Path:  `/api/games/memorygame/leaderboard`/:limit
+- Path:  `/api/games/memorygame/leaderboard/:limit`
 
 | parameters | isRequired | explanation                        |
 | ---------- | ---------- | ---------------------------------- |

@@ -4,7 +4,7 @@ import { Observable, throwError } from 'rxjs';
 import { catchError, retry } from 'rxjs/operators';
 import { map, filter, switchMap } from 'rxjs/operators';
 import {Router} from '@angular/router';
-enum Result {OK, CONFLICT, ERROR}
+enum Result {OK, CONFLICT, ERROR, UNDEFINED}
 
 @Injectable({
   providedIn: 'root'
@@ -13,6 +13,7 @@ enum Result {OK, CONFLICT, ERROR}
 export class UserdataService {
 
   private REST_API_SERVER = "http://localhost:3000/api/users";
+  private status:number = Result.UNDEFINED;
 
   constructor(private httpClient: HttpClient, private router: Router) { }
 
