@@ -137,7 +137,7 @@ In what follows, we will outline our stakeholder stories. These stories will lis
 
 ## End-user
 
-Turning to our stakeholders, we have the first of our end-users. His name is Bob Smith. We have broken down his 'wants' and 'challenges' below, as well as his motivations for playing online games, his experience, expectations of the product and special requirements.
+Turning to our stakeholders, we have the first of our end-users. This end-user is called is Bob Smith. Below we have broken down his 'wants' and 'challenges', as well as his motivations, experience, expectations, and special requirements in relation to our product.
 
 ___
 
