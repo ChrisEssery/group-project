@@ -333,6 +333,7 @@ returned data:
       }
    ]
    "difficultyLevel": "easy" //if there is a choice of difficulty level
+   "score" :20 //if there is a score
 }
 ```
 

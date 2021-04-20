@@ -8,6 +8,7 @@ var Game = new Schema({
         username: {type: String, required: true}, //player1's username
         result: {type: String, required: true}
     }],
+    score: {type: Number},
     difficultyLevel: {type: String},
   });
   
