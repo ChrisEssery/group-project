@@ -634,10 +634,9 @@ We created a number of branches. First, there was our main branch. This was were
 4. Create multiplayer branch
 
 
+___
+
 ## Navigate
 
-- [Go To Next Section](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
+- [Go To Next Section: Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
-
-
-___

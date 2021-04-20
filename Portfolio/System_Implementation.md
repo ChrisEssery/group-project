@@ -178,10 +178,9 @@ Finally, we consider deployment.
 ### Details of Implementation
 
 
+___
+
 ## Navigate
 
-- [Go To Next Section](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
+- [Go To Next Section: UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
-
-
-___
