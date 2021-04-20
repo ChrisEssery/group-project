@@ -104,11 +104,11 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Mongooseicon.png)
 
-With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilizes an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate the collections with the required information. This straightforward approach aides the production of the API and also allows us to send the populated data wherever needed for front-end use or displaying.
+With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilizes an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for front-end use easily.
 
 ### Details of Implementation
 
-With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an intial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars.
+With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an intial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars. This allowed potential to expand the app to have a leaderboard element and some customization.
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/ERD1.png)
 
@@ -173,9 +173,9 @@ We will now cover our approach to authentication.
 
 ## Deployment
 
-The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app which rely on differing libraries can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best softwares in deployment today.      
+The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_image.png)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
 
 ### Details of Implementation
 
@@ -183,7 +183,9 @@ Initially a Dockerfile was created so that the node element of our app could be 
 
 In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
 
-Once the back-end work had began we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Furthermore, the configuration file was edited to capture the video element to our app. Containerising this was essential in allowing the video feed to work alongside all our other componenets. (More from Chris into how this was done?)
+Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble.
+
+Upon implementing the video element of our app, the configuration file was edited. Containerising this element seperately was essential in allowing the video feed to work alongside all our other componenets. (More from Chris into how this was done?)
 ___
 
 ## Navigate
