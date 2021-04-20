@@ -159,7 +159,7 @@ Max, who likes design, dedicated most of his time to the FrontEnd. He got involv
 
 ## Communication
 
-In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design, implementation and write code together. Therefore, it was essential that we kept in regular contact with each other. We did this via the communication platform, Microsoft Teams, which we felt was an excellent platform for hosting meetings.
+In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings.
 
 <div align="center">
 
@@ -167,7 +167,9 @@ In light of the COVID-19 pandemic and national lockdown, our team was unable to 
 
 </div>
 
-We also created a discord server. This, too, was an excellent platform for quick-time communication.
+The reasons why we chose this platform are as follows. First, by the beginning of TB2 we were all very familiar with the platform, since it had formed the basis of all our taught modules on the MSc. Second, we decided that given its messaging and video conferencing functionality we could easily move between typed messages and face-to-face discussions. The former were very useful throughout the day, as a way of sharing thoughts, ideas and developments concerning the project. The latter enabled us to simulate the type of face-to-face conversation that we would have had in the lab were in not for the national lockdown.
+
+The second communication platform we used was Discord, the instant messaging group-chat platform designed for groups and communities. As with Microsoft Teams, we were familiar with Discord since we had been using it throughout TB1. This, too, was an excellent platform for instant messaging and quick-time communication.
 
 <div align="center">
 
@@ -175,9 +177,7 @@ We also created a discord server. This, too, was an excellent platform for quick
 
 </div>
 
-The reasons for this are as follows. First, by the beginning of TB2 we were all very familiar with the platform, since it had formed the basis of nearly all our taught modules on the MSc. Second, we decided that given its messaging and video conferencing functionality we could easily move between typed messages and face-to-face discussions. The former were very useful throughout the day, as a way of sharing thoughts, ideas and developments concerning the project. The latter enabled us to simulate the type of face-to-face conversation that we would have in the lab were in not for the national lockdown.
-
-Given this, we were able to work collaboratively whilst living in different parts of the country. And with regard to the frequency of our meetings, we decided it would be reasonable to initially meet three times a week on Mondays, Wednesdays and Fridays but with flexibility to increase that frequency in the later stages of the module if that was deemed necessary.
+Because we were familiar with both of these applications, we were able to seamlessly communicate without any user error, and we were able to work collaboratively whilst living in different parts of the country which was essential given the Covid-19 crisis and national lockdown. In terms of the frequency of our meetings, we decided it would be reasonable to initially meet three times a week on Mondays, Wednesdays and Fridays, but with the flexibility to increase that frequency in the later stages of the module when we began weekly sprints.
 
 
 ## Documentation of sprints
