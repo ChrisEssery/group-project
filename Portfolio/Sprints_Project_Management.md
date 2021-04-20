@@ -21,15 +21,14 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
 * [**Documentation of sprints**](#documentation-of-sprints)
-   * [Sprint 1: Ideation and Setup (01.03.21 - 08.03.21)](#Sprint-1180221-020321)
-   * [Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)](#Sprint-1180221-020321)
-   * [Sprint 3: Deploy the product (15.03.21 - 22.03.21)](#Sprint-1180221-020321)
-   * [Sprints paused: other work commitments/no new tasks (22.03.21 - 05.03.21)](#Sprint-1180221-020321)
-   * [Sprint 4: User testing (05.03.21 - 12.04.21)](#Sprint-1180221-020321)
-   * [Sprint 5: Adding new features (12.04.21 - 19.04.21)](#Sprint-1180221-020321)
-   * [Sprint 6: Improving added features (19.04.21 - 26.04.21)](#Sprint-1180221-020321)
-   * [Sprint 7: Testing and obtaining further feedback (26.04.21 - 03.05.21)](#Sprint-1180221-020321)
-   * [Sprint 8: Final pre-release push (03.05.21 - 10.05.21)](#Sprint-1180221-020321)
+   * [Sprint 1: Ideation and Setup (01.03.21 - 08.03.21)](#Sprint-1-ideation-and-setup-010321-080321)
+   * [Sprint 2: Build game frontend and design backend (08.03.21 - 15.03.21)](#Sprint-2-start-frontend-and-design-backend-080321-150321)
+   * [Sprint 3: Deploy the product (15.03.21 - 22.03.21)](#Sprint-3-deploy-the-product-150321-220321)
+   * [Sprints paused: other work commitments/no new tasks (22.03.21 - 05.04.21)](#Sprint-paused-other-commitments-no-new-tasks-220321-050421)
+   * [Sprint 4: User testing (05.04.21 - 12.04.21)](#Sprint-4-user-testing-050421-120421)
+   * [Sprint 5: Adding new features (12.04.21 - 19.04.21)](#Sprint-5-adding-new-features-120421-190421)
+   * [Sprint 6: Improving added features (19.04.21 - 26.04.21)](#Sprint-6-improving-added-features-190421-260421)
+   * [Sprint 7: Testing and obtaining feedback (26.04.21 - 03.05.21)](#Sprint-7-testing-and-obtaining-feedback-260421-030521)
 * [**Team use of Git**](#team-use-of-git)
 * [**The Impact of COVID-19**](the-impact-of-covid-19)
 
@@ -237,11 +236,11 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
   * Games allocated to team members
   * Chris updated on progress of Connect 4 game.
   * Browsed previously completed group projects together and took notes.
-  * Discussed how our stakeholder stories and their feedback.
+  * Discussed stakeholder stories and their feedback.
   * Start documentation early, creating sections and subsections according to report instructions.
 
 
-### Key implementations
+### Key implementations from previous sprint
 
    * GitHub protocol established
    * User stories created
@@ -259,7 +258,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 
  ```
 
-Given the client-led approach of the Agile method, we now turn to user feedback. These are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md).
+Given the client-led approach of the Agile method, we now turn to user feedback. Please note that these are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md).
 
 ### User feedback
 
@@ -307,14 +306,14 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 
 ### Evaluation of Sprint
 
-During this sprint, we
+During this sprint, our focus was to get started on the frontend. This was because we wanted to have something to show our users as earlier as possible to obtain feedback and make changes and modifications based on their responses. The backlog of items implemented from the previous sprint, such as creating stakeholder stories and creating a paper prototype were crucial to make sure that we were adopting the agile framework, putting the end-user first and changing and refining the product according to their feedback.
 
 
 
 ## Sprint 3: Deploy the product (15.03.21 - 22.03.21)
 ___
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was to have something to show our stakeholders and obtain feedback.
 
 ### Key points
 
@@ -369,11 +368,11 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
-
+We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we were able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle.
 
 ## Sprints paused: other work commitments/no new tasks (22.03.21 - 05.03.21)
 
-
+By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These two reasons, taken together, were, we felt, sufficient to warrant pausing the sprints and focusing on both of these things before moving on to the next sprint. 
 
 ## Sprint 4: User testing (05.03.21 - 12.04.21)
 ___
@@ -559,8 +558,6 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Evaluation of Sprint
 
-
-## Sprint 8: Final pre-release push (03.05.21 - 10.05.21)
 
 
 ## Team use of GitHub
