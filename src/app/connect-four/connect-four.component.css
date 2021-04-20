@@ -26,9 +26,9 @@ h3 {
     flex-wrap: wrap;
     background-color:rgb(2, 3, 97);
     padding: 10px;
+    flex: initial;
     overflow: hidden;
-    margin-left: auto;
-    margin-right: auto;
+  
   }
   
   .grid div {
@@ -38,7 +38,7 @@ h3 {
     margin: 10px;
     border-radius: 40px;
   }
-  
+
   .player-one {
     background-color: red !important;
     border-radius: 40px;
@@ -137,6 +137,12 @@ h3 {
 
 
 
+.empty {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-left:  60px;
+  flex: 0 0 15%;
+}
 
 @keyframes animate
 {
