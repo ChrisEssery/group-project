@@ -14,15 +14,15 @@ In this section, we discuss the design of our app. We start with the initial to 
 
 * [**UX Design**](#ux-design)
    * [Design Process and Ideation](#design-process-and-ideation)
+   * [Evolution of UI Design](#evolution-of-ui-design)
 * [**Identification of users and stakeholders**](#identification-of-users-and-stakeholders)
    * [Stakeholders](#stakeholders)
-   * [Admin](#admin)
-   * [Problem definition](#problem-definition)
+   * [End-user](#end-users)
+   * [Product manager](#project-manager)
+   * [Sponsor](#sponsor)
 * [**UX approach - design methods**](#ux-approach-design-methods)
   * [Understanding user group](#understanding-user-group)
-* [**Wireframes and interaction flow diagrams**](#wireframes-and-interaction-flow-diagrams)
-  * [Web wireframe](#web-wireframe)
-  * [MEAN stack wireframe](#mean-stack-wireframe)
+
 
 
 ## UX Design
@@ -131,11 +131,13 @@ These proto-personas are based on assumptions about the relevant stakeholders, a
 
 There was plenty of scope to include more stakeholders to this list of four, however due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint.
 
-## End-Users
+## Stakeholders
 
 In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [Documentation of sprints](Portfolio/Sprints_Project_Management/documentation-of-sprints.md).
 
-Turning to our stakeholders, we have the first of our end-users. His name is Bob Smith. We have broken down his 'wants' and 'challenges' below, as well as his motivations for playing online games, his experience, expectations aof the product and special requirements.
+## End-user
+
+Turning to our stakeholders, we have the first of our end-users. His name is Bob Smith. We have broken down his 'wants' and 'challenges' below, as well as his motivations for playing online games, his experience, expectations of the product and special requirements.
 
 ___
 
@@ -147,12 +149,19 @@ ___
 
 ### Motivations
 
-Bob enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more. He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
+Bob enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more.
+
+He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
 
 ### Expectations
 
+Bob's expectations are that the application will be easy to use and that the interface will be bright.
 
 ### Special Requirements
+
+Bob's vision has been fading for a few years so he would really like to have a bright, lively interface to engage with.
+
+## End-user
 
 The second of our end-users is Sally Gardner. Her personal requirements are included below.
 
@@ -166,12 +175,15 @@ ___
 
 ### Motivations
 
-Sally knows nothing about digital games. He used to play board games when he was younger, but he doesn't play anyone since he doesn't socialise very much. After his wife passed away a few years ago, he began to withdraw from socialising. His family visit him when they can, but they would like to see him more often. John thinks that an online game platform might a good way for him to connect with his family more regularly.
+Sally knows nothing about digital games. She used to play board games when she was younger, but she doesn't play anyone since she doesn't socialise very much. After her husband passed away a few years ago, she began to withdraw from social life. Her family visit her when they can, but they would like to see her more often. Sally thinks that an online game platform might a good way for her to connect with his family more regularly and overcome the loneliness and isolation she's been feeling since her husband's death.
 
 ### Expectations
 
+Sally's expectations are...
 
 ### Special Requirements
+
+Sally's special requirements are that
 
 
 ## Product manager
@@ -188,10 +200,13 @@ ___
 
 ### Motivations
 
-Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.
+Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible.
+
+He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.
 
 ### Expectations
 
+Jack's expectations are that the group will use the Agile methodology as best they can, that they will communicate regularly, aim to produce a minimum viable product as soon as they can, and make sure that the needs of the end-user are put above all else.
 
 
 
@@ -209,10 +224,13 @@ ___
 
 ### Motivations
 
-Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. He wants to use our product to help improve the lives of the residents in the care home he manages. His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective.
+Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. He wants to use our product to help improve the lives of the residents in the care home he manages.
+
+His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective.
 
 ### Expectations
 
+Simon's expectations are that the group will embrace the project using the Agile methodology.
 
 ### Special Requirements
 
@@ -237,6 +255,8 @@ Similarly, Wang () suggests a very similar set of design requirements.
 ## UX approach - design methods
 
 When considering the UX approach we felt it was important to choose something that was relevant and of genuine importance. As such, we honed in on major issues facing society. After drafting two project proposals we decided that NotSoBored Games was the best project given the constraints of time, skills and resources we had to design and implement the application.
+
+## Understanding user group
 
 ## Wireframes and interaction flow diagrams
 
