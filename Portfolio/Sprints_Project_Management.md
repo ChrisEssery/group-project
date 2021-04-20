@@ -29,8 +29,8 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 5 - Adding new features (12.04.21-19.04.21)](#sprint-5-adding-new-features-120421-190421)
    * [Sprint 6 - Improving added features (19.04.21-26.04.21)](#sprint-6-improving-added-features-190421-260421)
    * [Sprint 7 - Testing and obtaining feedback before release (26.04.21-03.05.21)](#sprint-7-testing-and-obtaining-feedback-before-release-260421-030521)
-* [**Team use of Git**](#team-use-of-git)
-* [**The Impact of COVID-19**](the-impact-of-covid-19)
+* [**Team use of GitHub**](#team-use-of-git)
+
 
 
 
