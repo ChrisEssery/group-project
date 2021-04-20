@@ -56,7 +56,7 @@ returned data:
 - [x] [User Sign out](#User_Log_Out)
 - [x] [Get a user 's personal information](#Get_a_user's_personal_information)
 - [x] [Get a user's friendlist](#Get_a_user's_friendlist)
-- [ ] [Get a user's game history](#Get_a_user's_game_history)
+- [x] [Get a user's game history](#Get_a_user's_game_history)
 - [x] [Update a user's personal information](#Update_a_user's_personal_information)
 - [x] [Add a friend to a user's friendlist](#Add_a_friend_to_a_user's_friendlist)
 - [x] [Add a new game instance](#Add_a_new_game_instance)
