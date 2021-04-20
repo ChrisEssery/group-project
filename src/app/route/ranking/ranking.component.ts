@@ -7,6 +7,8 @@ import { GameService } from "src/app/service/game.service";
   templateUrl: "./ranking.component.html",
   styleUrls: ["./ranking.component.css"]
 })
+// Logic for leaderboard passed to ranking
+// and game service
 export class RankingComponent implements OnInit {
   constructor(
     public rankingService: RankingService,

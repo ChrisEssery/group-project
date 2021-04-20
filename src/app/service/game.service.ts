@@ -1,10 +1,14 @@
+// Contains gameplay logic for
+// memory game and adding players
+// to leaderboard.
+
 import { Injectable } from "@angular/core";
 import { Card } from "../cards/card.class";
 import { CardService } from "./card.service";
 import { RankingService } from "./ranking.service";
 import { Router } from "@angular/router";
 
-// request dependencies from external source
+// Request dependencies from external source
 @Injectable({
   providedIn: "root"
 })
@@ -12,7 +16,6 @@ export class GameService {
   cards: Card[] = [];
   activeCards: Card[] = [];
   isBoardLocked: boolean = false;
-  isCheatActivated: boolean = false;
   rounds: number = 0;
   playerName: string;
 
@@ -24,13 +27,13 @@ export class GameService {
     this.cards = this.cardService.getCards();
   }
 
-  //determines when game has finished
+  // Determines when game has finished
   get isGameOver(): boolean {
     return this.cards.every(cards => cards.visible === true);
   }
 
-  //when card clicked, flips 180
-  //revealing the other side
+  // When card is clicked, flip 180
+  // revealing the other side
   showCard(card: Card): void {
     if (!this.isMoveValid()) return;
 
@@ -47,7 +50,7 @@ export class GameService {
       this.addPlayerInRanking();
     }
   }
-  // once gameplay complete,
+  // Once gameplay is complete,
   // start again
   playAgain(): void {
     this.router.navigate(["gameplay"]);
@@ -57,11 +60,7 @@ export class GameService {
     this.isBoardLocked = false;
   }
 
-  toggleCheat(): void {
-    this.isCheatActivated = !this.isCheatActivated;
-  }
-
-  // check whether move is valid
+  // Check whether move is valid
   // i.e. unlocked and not gameover
   private isMoveValid(): boolean {
     return !this.isGameOver && !this.isBoardLocked;
@@ -69,7 +68,8 @@ export class GameService {
 
   private runRound() {
     this.lockBoard();
-
+    // If there is a match,
+    // keep cards showing
     if (this.isMatch()) {
       this.activeCards = [];
       this.unlockBoard();
@@ -84,32 +84,37 @@ export class GameService {
     this.rounds++;
   }
 
-  //check whether card is valid
+  // Checks whether card is in correct
+  // format
   private isCardValid(card: Card): boolean {
     return this.activeCards.length < 2 && !card.visible;
   }
 
-  // locks board
+  // Locks board
   private lockBoard(): void {
     this.isBoardLocked = true;
   }
 
-  // unlocks board
+  // Unlocks board
   private unlockBoard(): void {
     this.isBoardLocked = false;
   }
 
-  // determines whether cards match
+  // Determines whether cards match
   private isMatch(): boolean {
     return this.activeCards[0].id === this.activeCards[1].id;
   }
 
+  // Hides cards so they are facing
+  // down
   private hideSelectedCards(): void {
     this.activeCards[0].hide();
     this.activeCards[1].hide();
     this.activeCards = [];
   }
 
+  // Adds new player and number
+  // of rounds to the leaderboard
   private addPlayerInRanking(): void {
     this.leaderboardService.addPlayer({
       name: this.playerName,
