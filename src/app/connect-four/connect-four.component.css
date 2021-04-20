@@ -8,9 +8,8 @@ body {
 
 h3 {
     font-family: Arial, Helvetica, sans-serif;
-    padding-left: 20px;
+    padding-left: 450px;
     font-size: 50px;
-    text-align: center;
     font-family: 'Luckiest Guy', cursive;
     color:  gold;
     letter-spacing: 4px;
@@ -55,12 +54,12 @@ h3 {
 
 
  #connectButton {
-   margin-left: 600px;
+   margin-left: 450px;
    margin-top: 25px;
    align-content: center;
  }
  #readyButton {
-  margin-left: 950px;
+  margin-left: 800px;
   margin-top: 25px;
   align-content: center;
 }
@@ -133,6 +132,17 @@ h3 {
   border-radius: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   border-style:solid
+}
+
+.wrapper{
+  display: flex;
+  justify-content: space-between;
+}
+
+.jitsi {
+  padding-top: 20px;
+  padding-left:  50px;
+  flex: 1;
 }
 
 
