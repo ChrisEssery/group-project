@@ -562,7 +562,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-## Sprint 7 - Testing and obtaining further feedback before release (26.04.21-03.05.21)
+## Sprint 7 : Testing and obtaining further feedback before release (26.04.21-03.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
