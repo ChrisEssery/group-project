@@ -133,7 +133,7 @@ There was plenty of scope to include more stakeholders to this list of four, how
 
 ## Stakeholders
 
-In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [Documentation of sprints](Portfolio/Sprints_Project_Management/documentation-of-sprints.md).
+In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [Documentation of sprints](#Portfolio/Sprints_Project_Management/documentation-of-sprints.md).
 
 ## End-user
 
