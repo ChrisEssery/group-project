@@ -17,7 +17,7 @@ In this section, we discuss the design of our app. We start with the initial to 
    * [Evolution of UI Design](#evolution-of-ui-design)
 * [**Identification of users and stakeholders**](#identification-of-users-and-stakeholders)
    * [Stakeholders](#stakeholders)
-   * [End-user](#end-users)
+   * [End-user](#end-user)
    * [Product manager](#project-manager)
    * [Sponsor](#sponsor)
 * [**UX approach - design methods**](#ux-approach-design-methods)
