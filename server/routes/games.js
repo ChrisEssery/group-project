@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const User = require("../models/user");
-const Game = require("../models/games/game");
+const Game = require("../models/game");
 const {check_api_token} = require('./middleware');
 const { isTemplateExpression } = require('typescript');
 

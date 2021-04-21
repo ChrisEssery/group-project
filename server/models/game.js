@@ -9,7 +9,7 @@ var Game = new Schema({
         result: {type: String, required: true},
         score: {type: Number}
     }],
-    difficultyLevel: {type: String},
+    difficultyLevel: {type: String}, // not required
   });
   
   module.exports = mongoose.model('Game', Game);
