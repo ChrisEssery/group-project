@@ -161,11 +161,20 @@ He thinks that online games aren't just for teenagers, they're for people of all
 ### Expectations
 
 Bob's expectations are as follows:
-   * He expects the application will be easy to use and that the interface will be bright.
+
+   * He expects the application will be easy to use.
+   * He wants the interface to bright, bold and easy to see.
+   * He wants to be challenged by the games.
+   * He wants to compete against other players.
 
 ### Special Requirements
 
-Bob's vision has been fading for a few years so he would really like to have a bright, lively interface to engage with.
+Bob'd special requirements are:
+
+   * Bob's vision has been fading for a few years so he would really like to have a bright, lively interface to engage with.
+   * Bob's memory occasionally fails him, so he would like there to be short instructions on how to play the games.
+
+Tailoring the design of the product to meet these needs would, therefore, be beneficial to sally's experience.
 
 ## End-user
 
@@ -193,17 +202,18 @@ Sally thinks that an online game platform might a good way for her to connect wi
 
 Sally's expectations are as follows:
 
-   * She doesn't want the games to be too difficult for her
-   * She wants to be able to see her opponent while she plays the games
-   *
+   * She doesn't want the games to be too difficult for her.
+   * She wants to be able to see her opponent while she plays the games.
+   * The layout of the website will be easy to navigate.
 
 ### Special Requirements
 
-Sally's special requirements are that
+Sally's special requirements are:
 
-   * Sally experiences anxiety, so she doesn't want to feel overwhelmed by the interface
-   * Sally's hearing isn't particularly good so if there is audio she wants it to be loud
+   * Sally experiences anxiety, so she doesn't want to feel overwhelmed by the interface.
+   * Sally's hearing isn't particularly good so if there is audio she wants it to be loud.
 
+Tailoring the design of the product to meet these needs would, therefore, be beneficial to sally's experience.
 
 ## Product manager
 
@@ -221,16 +231,20 @@ ___
 
 Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. His motivations are as follows:
 
-   * He wants to deliver a good product to the end-users
-   * He
-   *
+   * He wants to deliver a good product to the end-users.
+   * He wants to create added value and improve the quality of life of the end-users.
 
 He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.
 
 ### Expectations
 
-Jack's expectations are that the group will use the Agile methodology as best they can, that they will communicate regularly, aim to produce a minimum viable product as soon as they can, and make sure that the needs of the end-user are put above all else.
+Jack's expectations are as follows:
 
+   * That the group will use the Agile methodology as best they can, that they will communicate regularly.
+   * That the group aim to produce a minimum viable product as soon as they can.
+   * He expects the group to make sure that the needs of the end-user are put above all else.
+
+Meeting these expectations is important for our project since the advise of the product manager is valuable since he is experienced and well-informed on the processes surrounding the development lifecycle and best practice.
 
 
 ## Sponsor
@@ -250,24 +264,30 @@ ___
 Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. His main motivations are as follows:
 
    * He wants to use our product to help improve the lives of the residents in the care home he manages.
+   * He would like to use the platform himself to further cultivate close relationships with the care home residents.
 
 His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective.
 
 ### Expectations
 
-Simon's expectations are that the group will embrace the project using the Agile methodology.
+Simon's expectations are as follows:
 
-### Special Requirements
+   * The group will embrace the project using the Agile methodology.
+   * That the group listen to the stakeholders throughout the build.
+   * The games are presented in a clear way and are challenging enough.
+   * He expects multiplayer mode and video chat.
 
+As with the other stakeholders, tailoring the design of the product to meet these expectations would be beneficial to our stakeholders' interaction with and experience of the product.
 
 ## UX approach - design methods
 
-When considering the UX approach we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**]. In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
+When considering the UX approach we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
 
 ### Design heuristics
 
 Before explaining our design method, we should define what a heuristic is. A heuristic is a quick, effective way to solve a problem or decide on a particular course of action. It's a practical shortcut which is known to work. In the context of UX design, professionals can assess a design or products' usability by means of heuristics. These heuristics are contained within a criteria or list of questions to ask so as to identify limitations and faults with the design. This helps to catch any issues which may have been overlooked by the team responsible for UX and UI design.
 
+```
    1. Keep users informed about its status appropriately and promptly.
    2. Show information in ways users understand from how the real world operates, and in the users’ language.
    3. Offer users control and let them undo errors easily.
@@ -278,7 +298,7 @@ Before explaining our design method, we should define what a heuristic is. A heu
    8. Have no clutter, containing only relevant information for current tasks.
    9. Provide plain-language help regarding errors and solutions.
    10. List concise steps in lean, searchable documentation for overcoming problems.
-
+```
 
 ## Game design for older people
 
