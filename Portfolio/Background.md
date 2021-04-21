@@ -206,6 +206,8 @@ When considering the problem definition, we felt it was important to combat an i
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
+Clearly, the problem of social isolation and loneliness in the elderly is a huge issue facing humanity. A growing elderly population with increased needs in later life present a serious health care crisis. The scope and challenge of this problem, clearly, go beyond the scope of our project. In light of this, our scope is narrowed to make a real, meaningful impact on the lives of our target population. 
+
 ## Motivation
 
 The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.

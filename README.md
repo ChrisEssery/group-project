@@ -19,9 +19,11 @@
 
 ## Our Webpage
 
-NotSoBored games is a single page app (SPA) designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you will be spoilt for choice as you play with friends and family to compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
+NotSoBored games is a single page app (SPA) designed to help tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you will be spoilt for choice as you play with friends and family to earn points and compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
 
-Reconnect with old friends, play fun board games, and enjoy yourself. With live video chat, you'll be able see your opponent as you go head-to-head, competing at different levels of difficulty to keep you on your toes.
+Reconnect with loved ones, play fun games, and enjoy yourself. With live video chat, you'll be able see each other as you go head-to-head, competing at different levels of difficulty to challenge yourselves.
+
+Don't get bored, get NotSoBored Games.
 
 
 ## Our Team
@@ -32,7 +34,7 @@ Reconnect with old friends, play fun board games, and enjoy yourself. With live 
 
 * Harri - Organiser/Back-end :prince:
 
-* Max - Writer/coder/Front-end :artist:
+* Max - Writer/Coder/Front-end :artist:
 
 
 ## Aims and Objectives
@@ -121,6 +123,12 @@ This section is comprised of the following subsections:
 Project is created with:
 * MEAN stack with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 * Docker
+
+
+## Copyright
+
+Please note that all photos used in this report were obtained from [unsplash](https://unsplash.com/), a curated selection of images licensed under the Unsplash license, a similar license to Creative Commons photos.
+
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</div>
 
