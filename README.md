@@ -13,7 +13,7 @@
 
 # NotSoBored Games
 ### *Don't Get Bored*,
-  *Get NotSoBored Games*.
+###  *Get NotSoBored Games*.
 </div>
 
 
@@ -28,7 +28,7 @@ Reconnect with loved ones, play fun games, and enjoy yourself. With live video c
 <div align="center">
 
 ### *Don't Get Bored*,
-  *Get NotSoBored Games*.
+###  *Get NotSoBored Games*.
 
 </div>
 
