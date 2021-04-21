@@ -104,7 +104,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Mongooseicon.png)
 
-With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilizes an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for front-end use easily.
+With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilizes an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for easy front-end use.
 
 ### Details of Implementation
 
@@ -115,8 +115,6 @@ With Lizhao and Harri working on the backend they had to maintain good communica
 Upon implementation of this proposed schema we noted a few issues in the design. Firstly, the 'GameManager' part of the collection was largely obsolete and thus was removed. We also decided against the 'avatar' extra for the moment given the large workload we still had. Once all concerns had been discussed between the back-end team, Harri produced the intial database. From there on Lizhao took over in writing her API to write and use the stored data as needed.
 
 --Show a final database design schema--
-
---Lizhao's bit on API--    
 
 ## Middle tier
 
@@ -183,9 +181,8 @@ Initially a Dockerfile was created so that the node element of our app could be 
 
 In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
 
-Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble.
+Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
 
-Upon implementing the video element of our app, the configuration file was edited. Containerising this element seperately was essential in allowing the video feed to work alongside all our other componenets. (More from Chris into how this was done?)
 ___
 
 ## Navigate
