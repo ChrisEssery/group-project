@@ -25,7 +25,7 @@ Reconnect with loved ones, play fun games, and enjoy yourself. With live video c
 
 <div align="center">
 
-***So Don't Get Bored, Get NotSoBored Games***.
+### ***So Don't Get Bored, Get NotSoBored Games***.
 
 </div>
 
