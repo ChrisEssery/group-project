@@ -12,6 +12,7 @@
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Hnet.com-image.gif)
 
 # NotSoBored Games
+### *Don't Get Bored, Get NotSoBored Games*.
 </div>
 
 
