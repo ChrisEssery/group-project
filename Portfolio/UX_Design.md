@@ -150,13 +150,18 @@ ___
 
 ### Motivations
 
-Bob enjoys playing board games, but he has no experience with digital games. He wants a challenge, but he wants to do this with friends or family. He also doesn't want to get lost in the complexity of a 'busy' interface. He wants to play games to stimulate his brain and learn more.
+Bob enjoys playing board games, but he has no experience with digital games. His motivations are as follows:
+
+   * He wants a challenge, but he wants to do this with friends or family.
+   * He also doesn't want to get lost in the complexity of a 'busy' interface.
+   * He wants to play games to stimulate his brain and learn more.
 
 He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
 
 ### Expectations
 
-Bob's expectations are that the application will be easy to use and that the interface will be bright.
+Bob's expectations are as follows:
+   * He expects the application will be easy to use and that the interface will be bright.
 
 ### Special Requirements
 
@@ -176,15 +181,28 @@ ___
 
 ### Motivations
 
-Sally knows nothing about digital games. She used to play board games when she was younger, but she doesn't play anyone since she doesn't socialise very much. After her husband passed away a few years ago, she began to withdraw from social life. Her family visit her when they can, but they would like to see her more often. Sally thinks that an online game platform might a good way for her to connect with his family more regularly and overcome the loneliness and isolation she's been feeling since her husband's death.
+Sally knows nothing about digital games. She used to play board games when she was younger, but she doesn't play anyone since she doesn't socialise very much. After her husband passed away a few years ago, she began to withdraw from social life. Her family visit her when they can, but they would like to see her more often. Her motivations are:
+
+   * She wants a to socialise with family and loved ones.
+   * She wants to engage in something that is fun.
+   * She wants to make sure is doing things to stimulate her brain.
+
+Sally thinks that an online game platform might a good way for her to connect with his family more regularly and overcome the loneliness and isolation she's been feeling since her husband's death.
 
 ### Expectations
 
-Sally's expectations are...
+Sally's expectations are as follows:
+
+   * She doesn't want the games to be too difficult for her
+   * She wants to be able to see her opponent while she plays the games
+   *
 
 ### Special Requirements
 
 Sally's special requirements are that
+
+   * Sally experiences anxiety, so she doesn't want to feel overwhelmed by the interface
+   * Sally's hearing isn't particularly good so if there is audio she wants it to be loud
 
 
 ## Product manager
@@ -201,7 +219,11 @@ ___
 
 ### Motivations
 
-Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible.
+Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. His motivations are as follows:
+
+   * He wants to deliver a good product to the end-users
+   * He
+   *
 
 He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.
 
@@ -225,7 +247,9 @@ ___
 
 ### Motivations
 
-Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. He wants to use our product to help improve the lives of the residents in the care home he manages.
+Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. His main motivations are as follows:
+
+   * He wants to use our product to help improve the lives of the residents in the care home he manages.
 
 His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective.
 
@@ -238,7 +262,7 @@ Simon's expectations are that the group will embrace the project using the Agile
 
 ## UX approach - design methods
 
-When considering the UX approach we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue". In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
+When considering the UX approach we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**]. In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
 
 ### Design heuristics
 
@@ -285,6 +309,7 @@ Similarly, Wang () suggests a very similar set of design requirements.
 
 [5] Inspiration for our proto-personas came from the following source https://www.uxpin.com/studio/blog/ux-designers-5-minute-guide-lean-personas/
 
+[6] Rolf Molich and Jakob Nielsen. 1990. Improving a human-computer dialogue. Commun. ACM 33, 3 (March 1990), 338–348. DOI:https://doi.org/10.1145/77481.77486
 ___
 
 ## Navigate
