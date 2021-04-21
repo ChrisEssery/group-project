@@ -56,6 +56,7 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
+
 ### Evolution of UI Design
 
 **Version 1: paper prototype**
@@ -237,7 +238,22 @@ Simon's expectations are that the group will embrace the project using the Agile
 
 ## UX approach - design methods
 
-When considering the UX approach we felt it was important to choose something that was relevant and of genuine importance. As such, we honed in on major issues facing society. After drafting two project proposals we decided that NotSoBored Games was the best project given the constraints of time, skills and resources we had to design and implement the application.
+When considering the UX approach we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue". In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
+
+### Design heuristics
+
+Before explaining our design method, we should define what a heuristic is. A heuristic is a quick, effective way to solve a problem or decide on a particular course of action. It's a practical shortcut which is known to work. In the context of UX design, professionals can assess a design or products' usability by means of heuristics. These heuristics are contained within a criteria or list of questions to ask so as to identify limitations and faults with the design. This helps to catch any issues which may have been overlooked by the team responsible for UX and UI design.
+
+   1. Keep users informed about its status appropriately and promptly.
+   2. Show information in ways users understand from how the real world operates, and in the users’ language.
+   3. Offer users control and let them undo errors easily.
+   4. Be consistent so users aren’t confused over what different words, icons, etc. mean.
+   5. Prevent errors – a system should either avoid conditions where errors arise or warn users before they take risky actions (e.g., “Are you sure you want to do this?” messages).
+   6. Have visible information, instructions, etc. to let users recognise options, actions, etc. instead of forcing them to rely on memory.
+   7. Be flexible so experienced users find faster ways to attain goals.
+   8. Have no clutter, containing only relevant information for current tasks.
+   9. Provide plain-language help regarding errors and solutions.
+   10. List concise steps in lean, searchable documentation for overcoming problems.
 
 
 ## Game design for older people

@@ -59,15 +59,28 @@ There have been many successes throughout the duration of this unit.
 
 ### Were objectives met?
 
+To reflect on whether our project objectives were met, let's turn to the objectives we set ourselves. These are as follows:
+
+  * Build and deploy a responsive SPA using the MEAN stack, as per the project brief.
+  * Implement a login, leaderboard and two board games with multiplayer functionality and video chat.
+  * Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.
+  * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
+  * Deliver an SPA that can be used as a tool that is fun, engaging and easy to use.
+
+Let's begin with the first of these objectives. 
+
 
 ## Impact of Covid-19
 
+We now turn to a discussion of the impact of Covid-19. In this section we will give a subjective account of how the pandemic affected our lives and in particular how it impacted
 
 ### How Covid-19 affected our project
 
 The outbreak of COVID-19 in March, and the subsequent lockdowns running up to the end of April affected each us in many ways. It is to this topic we now turn our attention. In particular, we will cover the main ways in which the pandemic affected our project.
 
-The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was...
+The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was the stress component of the pandemic. Not only did we feel increased levels of stress due to the existential threat of the virus, we also found that the masters conversion was especially challenging given that we had so few face-to-face interactions with tutors, TAs and other students. This certainly had an impact on the experience of the masters.
+
+In relation to our group project,
 
 
 ## Social and ethical implications
@@ -77,6 +90,8 @@ TO DO: edit this + add more implications
 Ethical issues concerning data privacy and security of our prototype were addressed by our team, particularly during the later stages of the project.
 
 ### Our ethical responsibilities
+
+First, we will turn to our ethical responsibilities as moral individuals. We will then use that to explain which ethical framework we used to guide us throughout the project, before turning our attention to the social implications of
 
 ### Normative ethics and ethical frameworks
 
@@ -111,7 +126,7 @@ For example, a brute-force attack to guess a user password and a simple account 
 
 There is, we feel, a lot of scope for future work in this area. In particular...
 
-One possible extension concerns adding more games to the platform. Originally, we had planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning minimum viable product with two games at an early stage in the agile cycle than to deploy one with more games at the very end of the the lifecycle. 
+One possible extension concerns adding more games to the platform. Originally, we had planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning minimum viable product with two games at an early stage in the agile cycle than to deploy one with more games at the very end of the the lifecycle.
 
 
 Another extension concerns
