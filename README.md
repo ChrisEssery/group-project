@@ -12,8 +12,6 @@
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Hnet.com-image.gif)
 
 # NotSoBored Games
-### *Don't Get Bored*,
-###  *Get NotSoBored Games*.
 </div>
 
 
@@ -27,8 +25,7 @@ Reconnect with loved ones, play fun games, and enjoy yourself. With live video c
 
 <div align="center">
 
-### *Don't Get Bored*,
-###  *Get NotSoBored Games*.
+### *Don't Get Bored, Get NotSoBored Games*.
 
 </div>
 
