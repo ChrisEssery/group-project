@@ -11,7 +11,7 @@
 
 # NotSoBored Games
 ### *Don't Get Bored, Get NotSoBored Games*.
-[Our Team](#our-team) · [Aims & Objectives](#aims-&-objectives) · [Table of Contents](#table-of-contents) · [Technologies](#technologies)
+[Our Team](#our-team) · [Aims & Objectives](#aims-and-objectives) · [Table of Contents](#table-of-contents) · [Technologies](#technologies)
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Hnet.com-image.gif)
 
