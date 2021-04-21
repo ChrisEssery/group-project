@@ -300,6 +300,9 @@ Before explaining our design method, we should define what a heuristic is. A heu
    10. List concise steps in lean, searchable documentation for overcoming problems.
 ```
 
+These criteria will be used to conduct a heuristic evaluation of our product's design. Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
+
+
 ## Game design for older people
 
 A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.

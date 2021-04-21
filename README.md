@@ -23,7 +23,7 @@ NotSoBored games is a single page app (SPA) designed to help tackle social isola
 
 Reconnect with loved ones, play fun games, and enjoy yourself. With live video chat, you'll be able see each other as you go head-to-head, competing at different levels of difficulty to challenge yourselves.
 
-Don't get bored, get NotSoBored Games.
+*So Don't Get Bored, Get NotSoBored Games.*
 
 
 ## Our Team
