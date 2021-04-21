@@ -16,7 +16,7 @@ In this final section, we reflect on our application and how far we've come. We 
 * [**Reflection on working practices**](#reflection-on-working-practices)
   * [Our working practices](#our-working-practices)
   * [Evaluation of working practices](#evaluation-of-working-practices)
-* [**Reflection of success of project**](#reflection-of-success-of-proejct)
+* [**Reflection of success of project**](#reflection-of-success-of-project)
   * [How well did our project fulfil the brief?](#how-well-did-our-project-fulfil-the-brief?)
   * [Were objectives met?](#were-objectives-met?)
 * [**Impact of Covid-19s**](#social-and-ethical-implications)
@@ -89,6 +89,12 @@ Further to this, took the decision to follow the W3C TAG Ethical Web Principles.
 
 ### Social implications
 
+Given that our product is an online game, we recognise that it has the capacity to be addictive for some people. What's more, we are aware that excessive use of an online game could be linked to mental health issues such as anxiety and depression. A further concern is that the competitive feature of a leaderboard might serve to elevate stress levels in the players.
+
+It could also demotivate people from doing outdoor activities, and as such might decentivise healthy behaviours. Too much screen time can also be cause eye strain.
+
+Whilst these considerations are important to bear in mind, it is not clear whether there would be a clear causal link between playing our game and increased levels of negative emotions. The most we could reasonably speculate is that there could be a correlation. Notwithstanding this point, these social implications would be concerning enough to merit consideration and draw up a protocol for dealing with. Since our product is still in its early stages there is no need to explore these options, however it is worth bearing them in mind and ways to address any possible issues which might arise.
+
 
 
 ### Data protection
@@ -104,6 +110,14 @@ For example, a brute-force attack to guess a user password and a simple account 
 ## Future work
 
 There is, we feel, a lot of scope for future work in this area. In particular...
+
+One possible extension concerns adding more games to the platform. Originally, we had planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning minimum viable product with two games at an early stage in the agile cycle than to deploy one with more games at the very end of the the lifecycle. 
+
+
+Another extension concerns
+
+
+A further extension concerns
 
 
 ### Impact of our work

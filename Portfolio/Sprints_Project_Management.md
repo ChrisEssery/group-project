@@ -204,7 +204,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Agreed to setup a protocol with regard to GitHub.
    * Create a simple paper prototype of the UI design.
 
-### Relevant backlog items
+### Backlog items
 
 The following are a list of tasks and features that the team were tasked to deliver by the end of the sprint.
 
@@ -248,7 +248,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
    * Chris updated on progress of the Java produced Connect 4 game.
    * Browsed previously completed group projects together.
 
-### Relevant backlog items
+### New backlog items
 
  ```
    → Backlog item: design and build start page
@@ -321,17 +321,27 @@ The aim of this sprint was to have something to show our stakeholders and obtain
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-### Relevant backlog items
+
+### Key implementations from previous sprint
+
+   * GitHub protocol established
+   * User stories created
+   * Lizhao presented the paper prototype video she has been creating.
+   * Chris updated on progress of the Java produced Connect 4 game.
+   * Browsed previously completed group projects together.
+
+
+### Backlog items
 
 ```
-  → Backlog item: integrate video chat
+  → Backlog item: research video chat APIs
   → Backlog item: create start page
-  → Backlog item: add audio to start page
   → Backlog item: create login
+  → Backlog item: add audio to start page
 
 ```
-### User feedback
 
+### User feedback
 
 <table>
 <tr>
@@ -343,36 +353,49 @@ The aim of this sprint was to have something to show our stakeholders and obtain
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Start page.</td>
- <td>Front End: login/signup UI design. Back End: user account management  (Database Creation (Design)) api</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
+ <td>N/A</td>
+ <td>Paper prototype.</td>
+ <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer.</td>
- <td>Research multiplayer APIs</td>
+ <td>N/A.</td>
+ <td>Paper prototype</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+<td><img src="/Logo/manager_jack.jpg" width=45%>
+<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<td>N/A</td>
+<td>Create stakeholder stories</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer</td>
- <td>Research multiplayer APIs</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <td>N/A</td>
+ <td>Paper prototype and research target population</td>
+ <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+</tr>
 </tr>
 </table>
+
 
 ### Evaluation of Sprint
 
 We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we were able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle.
 
 ## Sprints paused : other work commitments/no new tasks (22.03.21-05.03.21)
+___
 
-By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These two reasons, taken together, were, we felt, sufficient to warrant pausing the sprints and focusing on both of these things before moving on to the next sprint.
+By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These two reasons were, we felt, sufficient to warrant pausing the sprints before moving on to the next sprint.
+
+This was a decision we took based on the situation we found ourselves in - one which demonstrates the flexible nature of the methodology.
 
 ## Sprint 4 : User testing (05.03.21-12.04.21)
 ___
@@ -387,15 +410,25 @@ The aim of this sprint was to make sure our application, including the video cha
    * Debugging
    * Add component to add friends
 
-### Relevant backlog items
+### Key implementations from previous sprint
+
+   * GitHub protocol established
+   * User stories created
+   * Lizhao presented the paper prototype video she has been creating.
+   * Chris updated on progress of the Java produced Connect 4 game.
+   * Browsed previously completed group projects together.
+
+
+### Backlog items
 
 ```
-  → Backlog item: test video chat
-  → Backlog item: testing
-  → Backlog item: build and test friend invite component
+  → Backlog item: research video chat APIs
+  → Backlog item: create start page
   → Backlog item: create login
+  → Backlog item: add audio to start page
 
 ```
+
 ### User feedback
 
 <table>
@@ -408,36 +441,36 @@ The aim of this sprint was to make sure our application, including the video cha
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Start page.</td>
- <td>Front End: login/signup UI design. Back End: user account management  (Database Creation (Design)) api</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
+ <td>N/A</td>
+ <td>Paper prototype.</td>
+ <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer.</td>
- <td>Research multiplayer APIs</td>
+ <td>N/A.</td>
+ <td>Paper prototype</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
-<td>Multiplayer</td>
-<td>Research multiplayer APIs</td>
-<td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+<td>N/A</td>
+<td>Create stakeholder stories</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
 </tr>
 <tr>
-<td><img src="/Logo/user_simon.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
-<td>Multiplayer</td>
-<td>Research multiplayer APIs</td>
-<td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <td><img src="/Logo/user_simon.jpg" width=45%>
+ <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <td>N/A</td>
+ <td>Paper prototype and research target population</td>
+ <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
 </tr>
-<tr>
+</tr>
 </table>
 
 ### Evaluation of Sprint
@@ -454,15 +487,25 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-### Relevant backlog items
+### Key implementations from previous sprint
+
+   * GitHub protocol established
+   * User stories created
+   * Lizhao presented the paper prototype video she has been creating.
+   * Chris updated on progress of the Java produced Connect 4 game.
+   * Browsed previously completed group projects together.
+
+
+### Backlog items
 
 ```
-  → Backlog item: integrate video chat
+  → Backlog item: research video chat APIs
   → Backlog item: create start page
-  → Backlog item: add audio to start page
   → Backlog item: create login
+  → Backlog item: add audio to start page
 
 ```
+
 ### User feedback
 
 <table>
@@ -475,26 +518,35 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Start page.</td>
- <td>Front End: login/signup UI design. Back End: user account management  (Database Creation (Design)) api</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
+ <td>N/A</td>
+ <td>Paper prototype.</td>
+ <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer.</td>
- <td>Research multiplayer APIs</td>
+ <td>N/A.</td>
+ <td>Paper prototype</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+<td><img src="/Logo/manager_jack.jpg" width=45%>
+<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<td>N/A</td>
+<td>Create stakeholder stories</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer</td>
- <td>Research multiplayer APIs</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <td>N/A</td>
+ <td>Paper prototype and research target population</td>
+ <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+</tr>
 </tr>
 </table>
 
@@ -513,17 +565,26 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-### Relevant backlog items
+### Key implementations from previous sprint
+
+   * GitHub protocol established
+   * User stories created
+   * Lizhao presented the paper prototype video she has been creating.
+   * Chris updated on progress of the Java produced Connect 4 game.
+   * Browsed previously completed group projects together.
+
+
+### Backlog items
 
 ```
-  → Backlog item: integrate video chat
+  → Backlog item: research video chat APIs
   → Backlog item: create start page
-  → Backlog item: add audio to start page
   → Backlog item: create login
+  → Backlog item: add audio to start page
 
 ```
-### User feedback
 
+### User feedback
 
 <table>
 <tr>
@@ -535,26 +596,35 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Start page.</td>
- <td>Front End: login/signup UI design. Back End: user account management  (Database Creation (Design)) api</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
+ <td>N/A</td>
+ <td>Paper prototype.</td>
+ <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer.</td>
- <td>Research multiplayer APIs</td>
+ <td>N/A.</td>
+ <td>Paper prototype</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+<td><img src="/Logo/manager_jack.jpg" width=45%>
+<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<td>N/A</td>
+<td>Create stakeholder stories</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer</td>
- <td>Research multiplayer APIs</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <td>N/A</td>
+ <td>Paper prototype and research target population</td>
+ <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+</tr>
 </tr>
 </table>
 
@@ -573,17 +643,26 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Decided to create a multiplayer game with video feed.
    * Set up GitHub repository and familiarised ourselves with the platform.
 
-### Relevant backlog items
+### Key implementations from previous sprint
+
+   * GitHub protocol established
+   * User stories created
+   * Lizhao presented the paper prototype video she has been creating.
+   * Chris updated on progress of the Java produced Connect 4 game.
+   * Browsed previously completed group projects together.
+
+
+### Backlog items
 
 ```
-  → Backlog item: integrate video chat
+  → Backlog item: research video chat APIs
   → Backlog item: create start page
-  → Backlog item: add audio to start page
   → Backlog item: create login
+  → Backlog item: add audio to start page
 
 ```
-### User feedback
 
+### User feedback
 
 <table>
 <tr>
@@ -595,26 +674,35 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Start page.</td>
- <td>Front End: login/signup UI design. Back End: user account management  (Database Creation (Design)) api</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
+ <td>N/A</td>
+ <td>Paper prototype.</td>
+ <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer.</td>
- <td>Research multiplayer APIs</td>
+ <td>N/A.</td>
+ <td>Paper prototype</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+</tr>
+<tr>
+<td><img src="/Logo/manager_jack.jpg" width=45%>
+<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<td>N/A</td>
+<td>Create stakeholder stories</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Multiplayer</td>
- <td>Research multiplayer APIs</td>
- <td>The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.</td>
+ <td>N/A</td>
+ <td>Paper prototype and research target population</td>
+ <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+</tr>
 </tr>
 </table>
 
@@ -639,4 +727,4 @@ ___
 ## Navigate
 
 - [Go To Next Section: Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
-- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+- [Go Back To: Readme](https://github.com/ChrisEssery/group-project/tree/dev)
