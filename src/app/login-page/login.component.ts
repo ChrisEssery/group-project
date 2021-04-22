@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
 import { DataService } from '../_services/data.service';
 
@@ -16,14 +15,13 @@ export class LoginComponent implements OnInit {
   }
   errMsg = ''
   constructor(
-    private http: HttpClient,
     private router: Router,
     private dataService: DataService
   ) {}
 
   ngOnInit(): void {
   }
-  
+
   login(){
     const formData = this.checkLoginForm 
     this.dataService.login(formData).subscribe(

@@ -40,7 +40,24 @@ const routes: Routes = [
         component: LeaderboardComponent
       }
     ]
-  },
+  }
+  // {
+  //   path: 'memorygame',
+  //   children: [
+  //     {
+  //       path: '',
+  //       component: ...Component 
+  //     },
+  //     {
+  //       path: '', 
+  //       component: ...Component
+  //     },
+  //     {
+  //       path: '',
+  //       component: ...Component
+  //     }
+  //   ]
+  // },
 
 ];
 

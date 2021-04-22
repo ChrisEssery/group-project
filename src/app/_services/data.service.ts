@@ -49,7 +49,7 @@ export class DataService {
     return this.httpClient.post(this.REST_API_SERVER_GAME+'/'+gameName, gameInfo)
   }
   getWinsLeaderboard(limit: number){
-    return this.httpClient.get(this.REST_API_SERVER_GAME+'/leaderboard/'+limit)
+    return this.httpClient.get(this.REST_API_SERVER_USER+'/leaderboard/'+limit)
   }
   getGameScoreLeaderboard(gameName:String, limit:number, ascend:boolean){
     return this.httpClient.get(this.REST_API_SERVER_GAME+'scores/'+gameName+'/'+limit+'/'+ascend)

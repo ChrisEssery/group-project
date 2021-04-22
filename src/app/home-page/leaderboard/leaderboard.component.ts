@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { HttpClient } from '@angular/common/http';
-import { Router } from '@angular/router'
+import { Router } from '@angular/router';
+import { DataService } from '../../_services/data.service';
 
 @Component({
   selector: 'app-leaderboard',
@@ -9,27 +9,22 @@ import { Router } from '@angular/router'
 })
 export class LeaderboardComponent implements OnInit {
 
-  user = JSON.parse(window.localStorage.getItem('user')|| '{}')
+  players:any=[]
 
   constructor(
-    private http: HttpClient,
+    private dataService: DataService,
     private router: Router
   ) {}
 
   ngOnInit(): void {
-  }
-
-  signout (e: { preventDefault: () => void; }) {
-    console.log(this.user)
-    e.preventDefault()
-    this.http.delete('http://localhost:3000/api/users/session')
-      .toPromise()
-      .then(data => {
-        window.localStorage.removeItem('auth_token')
-        this.router.navigate(['/login'])
-      })
-      .catch(err => {
-        window.alert('Log out failed. Please try again')
-      })
+    this.dataService.getWinsLeaderboard(10).subscribe(
+      (data:any)=>{
+        this.players=data
+        console.log(data)
+      },
+      error=>{
+        console.log("fail to load the data")
+      }
+    )
   }
 }
