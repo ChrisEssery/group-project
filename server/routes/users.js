@@ -148,16 +148,27 @@ router.post('/friends/:username', async (req, res) => {
     }
     newFriend = req.body.friendName
     if(!newFriend){
-        return res.status(400).json({
-            error: 'bad request'
+        return res.status(404).json({
+            error: 'invalid username'+req.body.friendName
         })
+    }
+    existed = false
+    user.friends.forEach(function(friend){
+        if(friend===newFriend){
+            existed = true
+        }
+    })
+    if(existed === true){
+        return res.status(201).json({
+            result: "friend " + newFriend + " is added successfully",
+            friends: user.friends})
     }
     await user.friends.push(newFriend)
     await user.save(user)
     newuser = await User.findOne({username: req.params.username});
     return res.status(201).json({
         result: "friend " + newFriend + " is added successfully",
-        friends: newuser
+        friendlist: newuser.friends
     })
 })
 
@@ -165,19 +176,24 @@ router.post('/friends/:username', async (req, res) => {
 router.get('/games/:username/:limit', async (req, res) =>{
     limit = req.params.limit
     targetUser = await User.findOne({username:req.params.username})
+    if(!targetUser){
+        return res.status(404).json({
+            error: 'invalid username'
+        })
+    }
     games = targetUser.gamesPlayed
-    var ret = games.sort(function(a, b) {b.date - a.date}).slice(0, limit)
+    var ret = games.sort(function(a, b) {a.date - b.date}).slice(-limit)
     res.status(200).json({gamesPlayed: ret})
 })
 
-router.get('/wins/:limit', async (req, res) => {
+router.get('/leaderboard/:limit', async (req, res) => {
     limit = req.params.limit
     if(!limit || isNaN(limit)) {
         console.log("error")
-        res.status(400).json({error: 'invaid parameter'})
+        res.status(400).json({error: 'invaid parameter '+ limit})
     }
     result = []
-    await (await (User.find().sort({wins: -1}))).forEach((function(user) {
+    await (await (User.find({},{_id: 0}).sort({wins: -1}))).forEach((function(user) {
         if(user.wins > 0){
             record = {}
             record.username = user.username
@@ -193,6 +209,3 @@ router.get('*', (req, res) => {
   })
 
 module.exports = router;
-
-//delete: User.remove({_id: req.params.userId})
-//update: User.updateOne({_id: req.params.userId} {$set:{}})

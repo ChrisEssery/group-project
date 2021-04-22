@@ -5,6 +5,7 @@ const path = require('path');
 const http = require('http');
 const bodyParser = require('body-parser');
 const session = require('express-session');
+require('dotenv/config');
 
 // Get our API routes
 const api = require('./server/routes/api');

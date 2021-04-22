@@ -29,7 +29,7 @@ export class LoginComponent implements OnInit {
       .then((data:any) => {
         window.localStorage.setItem('auth_token', data.token)
         window.localStorage.setItem('user', JSON.stringify(data.user))
-        this.router.navigate(['/play'])
+        this.router.navigate(['/home'])
       })
       .catch(err =>{
         if(err.status === 401){

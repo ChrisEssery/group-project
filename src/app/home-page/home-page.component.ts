@@ -3,11 +3,11 @@ import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router'
 
 @Component({
-  selector: 'app-menu-page',
-  templateUrl: './menu-page.component.html',
-  styleUrls: ['./menu-page.component.css']
+  selector: 'app-home-page',
+  templateUrl: './home-page.component.html',
+  styleUrls: ['./home-page.component.css']
 })
-export class MenuPageComponent implements OnInit {
+export class HomePageComponent implements OnInit {
   user = JSON.parse(window.localStorage.getItem('user')|| '{}')
 
   constructor(

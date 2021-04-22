@@ -34,7 +34,7 @@ export class SignupComponent implements OnInit {
       this.errMsg = ''
       window.localStorage.setItem('auth_token', data.token)
       window.localStorage.setItem('user', JSON.stringify(data.user))
-      this.router.navigate(['/play'])
+      this.router.navigate(['/home'])
     })
     .catch(err => {
       if(err.status === 409) {

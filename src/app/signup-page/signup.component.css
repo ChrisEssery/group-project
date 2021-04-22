@@ -1,5 +1,5 @@
 @import "https://use.fontawesome.com/releases/v5.5.0/css/all.css";
-@import url('../login/login.component.css');
+@import url('../login-page/login.component.css');
 
 .ng-valid[required], .ng-valid.required  {
   border-left: 10px solid #42A948; /* green */

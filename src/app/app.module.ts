@@ -11,14 +11,17 @@ import { AppComponent } from './app.component';
 import { StartPageComponent } from './start-page/start-page.component';
 import { TitleComponent } from './start-page/title/title.component';
 import { BackgroundComponent } from './start-page/background/background.component';
-import { BgmComponent } from './bgm/bgm.component';
+import { BgmComponent } from './common/bgm/bgm.component';
 import { Btngrp1Component } from './start-page/btngrp1/btngrp1.component';
-import { LoginComponent } from './login/login.component';
-import { Title2Component } from './title2/title2.component';
-import { SignupComponent } from './signup/signup.component';
-import { ProfileComponent } from './profile/profile.component';
-import { LeaderboardComponent } from './leaderboard/leaderboard.component';
-import { MenuPageComponent } from './menu-page/menu-page.component';
+import { LoginComponent } from './login-page/login.component';
+import { Title2Component } from './common/title2/title2.component';
+import { SignupComponent } from './signup-page/signup.component';
+import { ProfileComponent } from './home-page/profile/profile.component';
+import { LeaderboardComponent } from './home-page/leaderboard/leaderboard.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { NavbarComponent } from './home-page/navbar/navbar.component';
+import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
+
 
 @NgModule({
   declarations: [
@@ -33,7 +36,9 @@ import { MenuPageComponent } from './menu-page/menu-page.component';
     SignupComponent,
     ProfileComponent,
     LeaderboardComponent,
-    MenuPageComponent
+    HomePageComponent,
+    NavbarComponent,
+    GameMenuComponent
   ],
   imports: [
     BrowserModule,

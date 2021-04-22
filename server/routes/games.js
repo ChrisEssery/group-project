@@ -23,9 +23,9 @@ router.post('/:gamename', async (req, res) => {
     players: body.players
     // diffcultylevel: body.diffcultylevel
   })
-  await gameInstance.save(gameInstance);
   players = body.players
   players.forEach(player => updateUserGameHistory(player, players, gamename))
+  await gameInstance.save(gameInstance);
   return res.status(201).json({result: "game added"})
 })
 

@@ -89,10 +89,8 @@ returned data:
 
 ```
 {
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTkxMzkxODY1OTN9.TaeRt9GQIF8tewkNj8hUtV_2OV3Nv8jO3slV1A7Cr50",
-    "user": {
-        "username": "aaa"
-    }
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJleHAiOjE2MTk2NTQ0NzI0Nzh9.Ha9QrGrexSwW_qhkXM6Rt6oPTxFmyWzpBUeDTbklvLg",
+    "user": "aaa"
 }
 ```
 
@@ -120,10 +118,10 @@ returned data:
 
 ```
 {
-    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2MDc4ZTAzZTBiNWEzMDNmNGNmZjJmYTciLCJleHAiOjE2MTkxMzkzNzgyMzh9.ag0HFpkeDdIecpKRpEi9GXYDTHZWPwm_9VcXDxwQ_Co",
-    "user": {
-        "username": "ccc"
-    }
+    {
+    "token": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiI2MDc4ZTAzZTBiNWEzMDNmNGNmZjJmYTciLCJleHAiOjE2MTk2NTQ1MTIxMzl9.nR3kFnBseD8oeEfcPFrmKe8eLEExRiIzwlUZv_5ABXY",
+    "user": "ccc"
+}
 }
 ```
 
@@ -203,7 +201,7 @@ returned data:
 | parameters | isRequired | explanation                                      |
 | ---------- | ---------- | ------------------------------------------------ |
 | username   | YES        | username                                         |
-| limit      | YES        | the number of games returned (according to time) |
+| limit      | YES        | the number of games returned (from the most recent) |
 
 **Response:**
 
@@ -212,37 +210,26 @@ returned data:
 
 ```
 {
-   {
     "gamesPlayed": [
         {
             "playedWith": [
-                "ccc"
+                "bbb"
             ],
-            "_id": "607e40cea16282839a87a28f",
+            "_id": "6080bfd26216e5aaeee2049d",
             "gamename": "Memory Game",
-            "result": "WIN",
-            "date": "2021-04-20T10:47:42.447Z"
-        },
-        {
-            "playedWith": [
-                "ddd"
-            ],
-            "_id": "607e41369343f383a60ba17f",
-            "gamename": "Memory Game",
-            "result": "LOSE",
-            "date": "2021-04-20T10:49:26.527Z"
+            "result": "win",
+            "date": "2021-04-22T00:14:10.968Z"
         },
         {
             "playedWith": [
                 "bbb"
             ],
-            "_id": "607e4147af357383aea89ab3",
+            "_id": "6080bfff6216e5aaeee204a2",
             "gamename": "Connect 4",
-            "result": "WIN",
-            "date": "2021-04-20T10:49:43.921Z"
+            "result": "win",
+            "date": "2021-04-22T00:14:55.965Z"
         }
     ]
-}
 }
 ```
 
@@ -309,7 +296,11 @@ returned data:
 
 ```
 {
-    "result": "friend added successfully"
+    "result": "friend aaa is added successfully",
+    "friends": [
+        "bbb",
+        "aaa"
+    ]
 }
 ```
 
@@ -333,7 +324,7 @@ returned data:
          "result": "LOSE"
       }
    ],
-   "difficultyLevel": "easy", //if there is a choice of difficulty level
+   "difficultyLevel": "easy" //if there is a choice of difficulty level
 }
 ```
 
@@ -343,7 +334,7 @@ returned data:
 
 ```
 {
-   "result": "game added successfully"
+    "result": "game added"
 }
 ```
 
@@ -353,7 +344,7 @@ returned data:
 **Request:**
 
 - HTTP Method: `GET`
-- Path:  `/api/users/wins/:limit`
+- Path:  `/api/users/leaderboard/:limit`
 
 | parameters | isRequired | explanation                        |
 | ---------- | ---------- | ---------------------------------- |
@@ -365,18 +356,16 @@ returned data:
 - Returned data:
 
 ```
-{
-   [
+[
     {
         "username": "aaa",
-        "wins": 3
+        "wins": 5
     },
     {
         "username": "bbb",
         "wins": 1
     }
-   ]
-}
+]
 ```
 
 
@@ -390,7 +379,7 @@ returned data:
 
 | parameters | isRequired | explanation                        |
 | ---------- | ---------- | ---------------------------------- |
-| Limit      | YES        | the number of top players returned |
+| Limit      | YES        | e.g. 3 means the top 3 scores      |
 | gamename   | YES        | e.g. memorygame OR connect4        |
 | order      | YES        | sort order: 1 -> sort in ascending order， 0 -> sort in descending order       |
 
