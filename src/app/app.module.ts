@@ -3,7 +3,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {HTTP_INTERCEPTORS} from '@angular/common/http'
-import { UserdataService } from './userdata.service';
+import { DataService } from './_services/data.service';
 
 
 import { AppRoutingModule } from './app-routing.module';
@@ -47,7 +47,7 @@ import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [UserdataService],
+  providers: [DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

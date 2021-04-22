@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
+import { DataService } from '../_services/data.service';
 
 @Component({
   selector: 'app-login',
@@ -14,27 +15,30 @@ export class LoginComponent implements OnInit {
     password: ''
   }
   errMsg = ''
-  private REST_API_SERVER = "http://localhost:3000/api/users";
   constructor(
     private http: HttpClient,
     private router: Router,
+    private dataService: DataService
   ) {}
 
   ngOnInit(): void {
   }
-
+  
   login(){
-    const formData = this.checkLoginForm
-    this.http.post(this.REST_API_SERVER+'/session', formData).toPromise()
-      .then((data:any) => {
+    const formData = this.checkLoginForm 
+    this.dataService.login(formData).subscribe(
+      (data:any)=>{
+        this.errMsg = ''
         window.localStorage.setItem('auth_token', data.token)
         window.localStorage.setItem('user', JSON.stringify(data.user))
         this.router.navigate(['/home'])
-      })
-      .catch(err =>{
-        if(err.status === 401){
-          this.errMsg = "invalid username/password"
-        }
-      })
+      },
+      error=>{
+        if(error.status === 401) {
+                this.errMsg ="invalid username/password"
+              }
+      }
+    )
+
   }
 }

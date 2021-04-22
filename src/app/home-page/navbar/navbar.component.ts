@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router'
+import { DataService } from '../../_services/data.service';
 
 @Component({
   selector: 'app-navbar',
@@ -13,7 +14,8 @@ export class NavbarComponent implements OnInit {
 
   constructor(
     private http: HttpClient,
-    private router: Router
+    private router: Router,
+    private dataService: DataService
   ) {}
 
   ngOnInit(): void {
@@ -21,13 +23,12 @@ export class NavbarComponent implements OnInit {
   signout (e: { preventDefault: () => void; }) {
     console.log(this.user)
     e.preventDefault()
-    this.http.delete('http://localhost:3000/api/users/session')
-      .toPromise()
-      .then(data => {
+    this.dataService.signout(this.user).subscribe(
+      data => {
         window.localStorage.removeItem('auth_token')
         this.router.navigate(['/login'])
-      })
-      .catch(err => {
+      },
+      error => {
         window.alert('Log out failed. Please try again')
       })
   }
