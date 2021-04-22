@@ -2,11 +2,12 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 
 import { StartPageComponent } from './start-page/start-page.component';
-import { LoginComponent } from './login/login.component';
-import { SignupComponent } from './signup/signup.component';
-import { ProfileComponent } from './profile/profile.component';
-import { LeaderboardComponent } from './leaderboard/leaderboard.component';
-import { MenuPageComponent } from './menu-page/menu-page.component';
+import { LoginComponent } from './login-page/login.component';
+import { SignupComponent } from './signup-page/signup.component';
+import { ProfileComponent } from './home-page/profile/profile.component';
+import { LeaderboardComponent } from './home-page/leaderboard/leaderboard.component';
+import { HomePageComponent } from './home-page/home-page.component';
+import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
 
 
 const routes: Routes = [
@@ -23,17 +24,23 @@ const routes: Routes = [
     component: SignupComponent
   },
   {
-    path: 'leaderboard',
-    component: LeaderboardComponent
+    path: 'home',
+    component: HomePageComponent,
+    children: [
+      {
+        path: '',
+        component: GameMenuComponent //redirects to game menu page by default with path /home
+      },
+      {
+        path: 'profile', // subpath : /home/profile
+        component: ProfileComponent
+      },
+      {
+        path: 'leaderboard',
+        component: LeaderboardComponent
+      }
+    ]
   },
-  {
-    path: 'profile',
-    component: ProfileComponent
-  },
-  {
-    path: 'play',
-    component: MenuPageComponent
-  }
 
 ];
 

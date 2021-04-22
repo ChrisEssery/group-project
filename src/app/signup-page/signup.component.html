@@ -8,7 +8,9 @@
              <input type="text" placeholder="Username" name="username"  required [(ngModel)]="signUpForm.username" #username="ngModel">
          </div>
          <div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username is required</div>
-
+         <div *ngIf="errMsg" class="alert alert-danger">
+            {{errMsg}}
+          </div>
          <div class="textbox">
              <i class="fas fa-lock"></i>
              <input type="password" placeholder="Password" name="password" required [(ngModel)]="signUpForm.password" #password="ngModel">
@@ -22,7 +24,7 @@
              <div *ngIf="email.errors">Invalid email address</div>
          </div>
 
-         <button [disabled]="!registerForm.form.valid" class="btn" type="submit" routerLink="/play">Sign up</button>
+         <button [disabled]="!registerForm.form.valid" class="btn" type="submit">Sign up</button>
          <p class="info">
              <a routerLink="/login" class="form__link" id="linkCreateAccount">Already have an account? Log in here</a>
           </p>
