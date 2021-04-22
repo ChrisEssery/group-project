@@ -17,8 +17,8 @@ const options = {
 };
 
 
-// const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
-const url = `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@test.345as.mongodb.net/${MONGO_DB}?retryWrites=true&w=majority`;
+const url = `mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOSTNAME}:${MONGO_PORT}/${MONGO_DB}?authSource=admin`;
+// const url = `mongodb+srv://${MONGO_USERNAME}:${MONGO_PASSWORD}@test.345as.mongodb.net/${MONGO_DB}?retryWrites=true&w=majority`;
 mongoose.connect(url, options).then(function () {
   console.log('MongoDB is connected');
 })
