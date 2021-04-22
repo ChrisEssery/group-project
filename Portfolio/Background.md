@@ -206,6 +206,8 @@ When considering the problem definition, we felt it was important to combat an i
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
+Clearly, the problem of social isolation and loneliness in the elderly is a huge issue facing humanity. A growing elderly population with increased needs in later life present a serious health care crisis. The scope and challenge of this problem, clearly, go beyond the scope of our project. In light of this, our scope is narrowed to make a real, meaningful impact on the lives of our target population. 
+
 ## Motivation
 
 The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.
@@ -225,6 +227,7 @@ The overarching aim is to create a game that can engage the elderly through a fu
 </tr>
 </table>
 
+
 ## References
 
 [1] Fakoya, O.A., McCorry, N.K. & Donnelly, M. Loneliness and social isolation interventions for older adults: a scoping review of reviews. BMC Public Health 20, 129 (2020). https://doi.org/10.1186/s12889-020-8251-6
@@ -238,3 +241,9 @@ The overarching aim is to create a game that can engage the elderly through a fu
 [6] Corbett A, Owen A, Hampshire A, Grahn J, Stenton R, Dajani S, Burns A, Howard R, Williams N, Williams G, Ballard C. The Effect of an Online Cognitive Training Package in Healthy Older Adults: An Online Randomized Controlled Trial. J Am Med Dir Assoc. 2015 Nov 1;16(11):990-7. doi: 10.1016/j.jamda.2015.06.014. PMID: 26543007.
 
 ___
+
+
+## Navigate
+
+- [Go To Next Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md)
+- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)

@@ -68,3 +68,8 @@ We conducted an evaluation of our design with users
 
 
 ___
+
+## Navigate
+
+- [Go To Next Section: Conclusion](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Conclusion.md)
+- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)

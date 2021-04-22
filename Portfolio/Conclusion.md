@@ -16,7 +16,7 @@ In this final section, we reflect on our application and how far we've come. We 
 * [**Reflection on working practices**](#reflection-on-working-practices)
   * [Our working practices](#our-working-practices)
   * [Evaluation of working practices](#evaluation-of-working-practices)
-* [**Reflection of success of project**](#reflection-of-success-of-proejct)
+* [**Reflection of success of project**](#reflection-of-success-of-project)
   * [How well did our project fulfil the brief?](#how-well-did-our-project-fulfil-the-brief?)
   * [Were objectives met?](#were-objectives-met?)
 * [**Impact of Covid-19s**](#social-and-ethical-implications)
@@ -59,15 +59,28 @@ There have been many successes throughout the duration of this unit.
 
 ### Were objectives met?
 
+To reflect on whether our project objectives were met, let's turn to the objectives we set ourselves. These are as follows:
+
+  * Build and deploy a responsive SPA using the MEAN stack, as per the project brief.
+  * Implement a login, leaderboard and two board games with multiplayer functionality and video chat.
+  * Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.
+  * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
+  * Deliver an SPA that can be used as a tool that is fun, engaging and easy to use.
+
+Let's begin with the first of these objectives. 
+
 
 ## Impact of Covid-19
 
+We now turn to a discussion of the impact of Covid-19. In this section we will give a subjective account of how the pandemic affected our lives and in particular how it impacted
 
 ### How Covid-19 affected our project
 
 The outbreak of COVID-19 in March, and the subsequent lockdowns running up to the end of April affected each us in many ways. It is to this topic we now turn our attention. In particular, we will cover the main ways in which the pandemic affected our project.
 
-The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was...
+The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was the stress component of the pandemic. Not only did we feel increased levels of stress due to the existential threat of the virus, we also found that the masters conversion was especially challenging given that we had so few face-to-face interactions with tutors, TAs and other students. This certainly had an impact on the experience of the masters.
+
+In relation to our group project,
 
 
 ## Social and ethical implications
@@ -78,12 +91,24 @@ Ethical issues concerning data privacy and security of our prototype were addres
 
 ### Our ethical responsibilities
 
+First, we will turn to our ethical responsibilities as moral individuals. We will then use that to explain which ethical framework we used to guide us throughout the project, before turning our attention to the social implications of
+
+### Normative ethics and ethical frameworks
+
 To determine whether our approach was morally permissible, we can apply the theories of normative ethics. According to deontological and virtue ethics perspectives, our project should have complied with some ethical codes of conduct. This is because compliance with codes of conduct ensures conformity to universal rules, norms and core values, which is in accordance with deontological and virtue ethics since both theories require adherence to rules and values. Failing to adhere to these rules and values, therefore, amounts to unethical behaviour. In light of this, we decided to follow the BSC code of conduct, a value-based code of ethics for IT professionals. We decided this would be appropriate to use as an ethical framework to guide our actions and decisions during the project, and which aligns with the goals of normative ethics.
 
 By explicitly citing this as our code of conduct, we felt that we would be more likely to avoid behaving unethically, and that if we were challenged on ethical grounds despite having followed this code of conduct, we would be able to justify our actions by referring to it. This, we felt, would be particularly important in relation to working practices concerned with the way we handled and stored people's data. In addition to this, from a consequentialist perspective, conformance to the BSC arguably produces a morally good outcome, which focuses on mitigating risk and maximising human welfare.
 
+Further to this, took the decision to follow the W3C TAG Ethical Web Principles. According to these principles, "The web should empower an equitable, informed and interconnected society". This captures the main idea at the heart of our ethical approach to creating our product.
+
 
 ### Social implications
+
+Given that our product is an online game, we recognise that it has the capacity to be addictive for some people. What's more, we are aware that excessive use of an online game could be linked to mental health issues such as anxiety and depression. A further concern is that the competitive feature of a leaderboard might serve to elevate stress levels in the players.
+
+It could also demotivate people from doing outdoor activities, and as such might decentivise healthy behaviours. Too much screen time can also be cause eye strain.
+
+Whilst these considerations are important to bear in mind, it is not clear whether there would be a clear causal link between playing our game and increased levels of negative emotions. The most we could reasonably speculate is that there could be a correlation. Notwithstanding this point, these social implications would be concerning enough to merit consideration and draw up a protocol for dealing with. Since our product is still in its early stages there is no need to explore these options, however it is worth bearing them in mind and ways to address any possible issues which might arise.
 
 
 
@@ -100,6 +125,14 @@ For example, a brute-force attack to guess a user password and a simple account 
 ## Future work
 
 There is, we feel, a lot of scope for future work in this area. In particular...
+
+One possible extension concerns adding more games to the platform. Originally, we had planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning minimum viable product with two games at an early stage in the agile cycle than to deploy one with more games at the very end of the the lifecycle.
+
+
+Another extension concerns
+
+
+A further extension concerns
 
 
 ### Impact of our work
@@ -120,3 +153,8 @@ There is, we feel, a lot of scope for future work in this area. In particular...
 
 [3] Votipka, D., et al (2018). Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes, IEEE Symposium on Security and Privacy (SP), 374-391.
 ___
+
+## Navigate
+
+- [Go To Previous Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
+- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
