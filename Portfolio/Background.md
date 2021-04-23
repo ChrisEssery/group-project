@@ -184,7 +184,7 @@ There are a few outliers which host digital games for the elderly.
 
 ### A gap in the market
 
-There exists a gap in the market for a site like Gametable, but with added features such as multiplayer mode and with video communication functionality. There doesn't appear to be anything in the market which offers both of these services.
+After conducting our state-of-the-art survey, we managed to garner useful data about games for older adults. One of the main insights we arrived at is that there exists a gap in the market. In particular, there is a gap in the market for a site like Gametable which is easy-to-use and with few games to choose from, but with added features of multiplayer mode and video communication functionality. These two features, it is clear, are lacking in current products - there doesn't appear to be anything in the market which offers both of these services.
 
 Pete: Provide examples of the "current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing."
 
@@ -206,7 +206,7 @@ When considering the problem definition, we felt it was important to combat an i
 
 Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
-Clearly, the problem of social isolation and loneliness in the elderly is a huge issue facing humanity. A growing elderly population with increased needs in later life present a serious health care crisis. The scope and challenge of this problem, clearly, go beyond the scope of our project. In light of this, our scope is narrowed to make a real, meaningful impact on the lives of our target population. 
+Clearly, the problem of social isolation and loneliness in the elderly is a huge issue facing humanity. A growing elderly population with increased needs in later life present a serious health care crisis. The scope and challenge of this problem, clearly, go beyond the scope of our project. In light of this, our scope is narrowed to make a real, meaningful impact on the lives of our target population.
 
 ## Motivation
 

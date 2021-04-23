@@ -281,7 +281,7 @@ As with the other stakeholders, tailoring the design of the product to meet thes
 
 ## UX approach - design methods
 
-When considering the UX approach we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
+When considering the UX approach, we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
 
 ### Design heuristics
 
@@ -302,10 +302,21 @@ Before explaining our design method, we should define what a heuristic is. A heu
 
 These criteria will be used to conduct a heuristic evaluation of our product's design. Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
 
+<table>
+<tr>
+  <th>The Pros</th>
+  <th>The Cons</th>
+</tr>
+<tr>
+  <td>- Evaluators can focus directly on specific issues, flag them and find optimal solutions <br /> - Evaluators can identify faults with individual elements and determine their impact on the overall UX  <br /> - Compared to testing on users, you can obtain feedback without ethical issues and costs. </td>
+  <td>- Evaluators' insights are subjective; findings can lack proof and be biased <br /> - Finding several evaluators may be hard and expensive  <br />- Evaluators can identify issues that aren't usability problems </td>
+</tr>
+</table>
+
 
 ## Game design for older people
 
-A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
+For a better insight into the usability requirements for our target users, we must now look at design requirements. A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
 
 In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Ijsselsteijn et al () conducted research on the design of digital games for the elderly from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
 Some of the suggestions include:
@@ -338,4 +349,5 @@ ___
 ## Navigate
 
 - [Go To Next Section: Sprints & Project Management](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md)
+- [Go To Previous Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)

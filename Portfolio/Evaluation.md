@@ -72,4 +72,5 @@ ___
 ## Navigate
 
 - [Go To Next Section: Conclusion](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Conclusion.md)
+- [Go To Previous Section: Sprints & Project Management](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
