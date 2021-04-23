@@ -27,12 +27,16 @@ In this section, we discuss the User Experience (UX) design of our app. We start
 
 ## UX Design
 
-With regard to the UX design, we decided to...
+With regard to the UX design, we felt it was very important early on to consider how the design of our product would impact our stakeholders. We began this process in the project ideation phase. For a discussion on our design process and ideation, see [Design process and ideation](#design-process-and-ideation).
+
+We also realised that this design process would change and develop over time. To capture this evolution of our design, we provide a detailed overview of the evolution of our UI design. For a discussion of this, see [Evolution of UI Design](#evolution-of-ui-design). As previously mentioned, from an early stage we were very aware of how important our stakeholders were in shaping the UI design. For details about our users and stakeholders, see [Identification of users and stakeholders](#identification-of-users-and-stakeholders). Finally, we talk about our approach to UX, and in particular, focus on the design methods we made use of to ensure that our product met their personal requirements. For a discussion of this, see [UX approach - design methods](#ux-approach--design-methods).
 
 ### Design Process and ideation
 
 
-Below is a picture of a mind map created for our project ideation phase. The mind map shows the different types of games we were considering when trying to determine what board game to build.
+First, let's discuss our design process and ideation. This phase of the project is
+
+Below is a mind map created for our project ideation phase. This mind map shows the different types of games we were considering when trying to determine what board game to build. The types of games were decided by our team during a group meeting on Microsoft Teams. Each team member contributed their own ideas, and we compiled a list of games that we knew of and were interested in.
 
 <div align="center">
 
@@ -40,7 +44,7 @@ Below is a picture of a mind map created for our project ideation phase. The min
 
 </div>
 
-Here is a mind map of the different real world issues and problems we were considering. The idea here was to combine a real world issue/problem with a particular type of game to generate a a board game for our SPA.
+Below is another mind map which contains different real world issues and problems. As with the above mind map, as a team we came up with a list of real world problems. The idea here was to use a particular type of game to tackle one of these real world problems.
 
 <div align="center">
 
@@ -48,7 +52,7 @@ Here is a mind map of the different real world issues and problems we were consi
 
 </div>
 
-The following are photos of the ideas matrix we used to generate ideas for the application. Different types of games are in the rows and different types of real-world issues are in the columns.
+The images below show the ideas matrix we used to generate ideas for the application. As you can see, types of games are in the rows and types of real-world issues are in the columns. This creates a matrix where the remaining cells within the matrix should be populated with a particular game to solve a particular world problem.
 
 [![ideas1.png](https://i.postimg.cc/TwvNhtdg/ideas1.png)](https://postimg.cc/WDSwH6J1)
 
@@ -56,12 +60,14 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
+Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UI design. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. It is to this we now turn.
+
 
 ### Evolution of UI Design
 
 **Version 1: paper prototype**
 
-At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with considration of  the content and funcionaility of each page.
+At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with consideration of the content and functionality of each page.
 
 **Version 2: short paper prototype video**
 
