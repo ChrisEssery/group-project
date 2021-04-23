@@ -1,28 +1,32 @@
 <app-background></app-background>
 <app-title2></app-title2>
-
-
-<div class="login-box">
-    <form #loginForm="ngForm" class="login" (submit)="login()">
-         <div class="textbox">
-             <i class="fas fa-user"></i>
-             <input type="text" placeholder="Username" required [(ngModel)]="checkLoginForm.username" name="username" #username="ngModel">
-         </div>
-         <div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username is required</div>
-         <div class="textbox">
-             <i class="fas fa-lock"></i>
-             <input type="password" placeholder="Password" required [(ngModel)]="checkLoginForm.password" name="password" #password="ngModel">
-            </div>
-         <div [hidden]="password.valid || password.pristine"class="alert alert-danger">Password is required</div>
-         <div *ngIf="errMsg" class="alert alert-danger">
-            {{errMsg}}
+<br>
+<br>
+<div class="container">
+    <div class="row justify-content-md-center">
+        <div class="login-box col-md-12 text-center">
+            <form #loginForm="ngForm" class="login" (submit)="login()">
+                 <div class="textbox">
+                     <i class="fas fa-user"></i>
+                     <input type="text" placeholder="Username" required [(ngModel)]="checkLoginForm.username" name="username" #username="ngModel">
+                 </div>
+                 <div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username is required</div>
+                 <div class="textbox">
+                     <i class="fas fa-lock"></i>
+                     <input type="password" placeholder="Password" required [(ngModel)]="checkLoginForm.password" name="password" #password="ngModel">
+                    </div>
+                 <div [hidden]="password.valid || password.pristine"class="alert alert-danger">Password is required</div>
+                 <div *ngIf="errMsg" class="alert alert-danger">
+                    {{errMsg}}
+                </div>
+                 <button [disabled]="!loginForm.form.valid" class="btn" type="submit">Sign in</button>
+                 <!-- <p class="info">
+                     <a href="./" class="form__link">Forgot your password?</a>
+                 </p> -->
+                 <p class="info">
+                     <a routerLink="/signup" class="form__link" id="linkCreateAccount">Don't have an account? Create account</a>
+                  </p>
+            </form>
         </div>
-         <button [disabled]="!loginForm.form.valid" class="btn" type="submit">Sign in</button>
-         <!-- <p class="info">
-             <a href="./" class="form__link">Forgot your password?</a>
-         </p> -->
-         <p class="info">
-             <a routerLink="/signup" class="form__link" id="linkCreateAccount">Don't have an account? Create account</a>
-          </p>
-    </form>
+    </div>
 </div>
