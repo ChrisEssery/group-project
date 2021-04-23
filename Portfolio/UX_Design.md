@@ -119,6 +119,8 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <br/><br/>
 </p>
 
+As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
+
 
 ## Identification of users and stakeholders
 
