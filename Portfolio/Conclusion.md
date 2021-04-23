@@ -156,6 +156,5 @@ ___
 
 ## Navigate
 
-- [Go To Previous Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
 - [Go To Previous Section: Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
