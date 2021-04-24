@@ -4,6 +4,7 @@ const User = require("../models/user");
 const md5 = require('blueimp-md5');
 const jwt = require('jwt-simple');
 const moment = require('moment');
+const {check_api_token} = require('./middleware');
 
 
 //user register
@@ -74,6 +75,8 @@ router.post('/session', async (req, res) => {
     user: body.username,
   })
 })
+
+router.use(check_api_token);
 
 //sign out
 router.delete('/session', (req, res) => {

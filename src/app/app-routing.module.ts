@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AuthGuard } from './_services/auth-guard.guard';
 
 import { StartPageComponent } from './start-page/start-page.component';
 import { LoginComponent } from './login-page/login.component';
@@ -26,10 +27,11 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomePageComponent,
+    canActivate:[AuthGuard], //Prevent unauthorized access
     children: [
       {
         path: '',
-        component: GameMenuComponent //redirects to game menu page by default with path /home
+        component: GameMenuComponent //redirect to game menu page by default with path /home
       },
       {
         path: 'profile', // subpath : /home/profile
@@ -63,6 +65,7 @@ const routes: Routes = [
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule],
+  providers:[AuthGuard]
 })
 export class AppRoutingModule { }

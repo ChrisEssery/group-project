@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router'
-import { DataService } from '../../_services/data.service';
+import { AuthService } from '../../_services/auth.service';
+import { TokenStorageService } from '../../_services/token-storage.service';
 
 @Component({
   selector: 'app-navbar',
@@ -10,12 +11,13 @@ import { DataService } from '../../_services/data.service';
 })
 export class NavbarComponent implements OnInit {
 
-  user = JSON.parse(window.localStorage.getItem('user')|| '{}')
+  user=this.tokenStorageService.getUser()
 
   constructor(
     private http: HttpClient,
     private router: Router,
-    private dataService: DataService
+    private authService: AuthService,
+    private tokenStorageService: TokenStorageService
   ) {}
 
   ngOnInit(): void {
@@ -23,9 +25,9 @@ export class NavbarComponent implements OnInit {
   signout (e: { preventDefault: () => void; }) {
     console.log(this.user)
     e.preventDefault()
-    this.dataService.signout(this.user).subscribe(
+    this.authService.signout(this.user).subscribe(
       data => {
-        window.localStorage.removeItem('auth_token')
+        this.tokenStorageService.signOut()
         this.router.navigate(['/login'])
       },
       error => {

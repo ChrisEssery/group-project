@@ -1,7 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
 import { Router } from '@angular/router';
-import { DataService } from '../_services/data.service';
+import { AuthService } from '../_services/auth.service';
+import { TokenStorageService } from '../_services/token-storage.service';
 
 @Component({
   selector: 'app-signup',
@@ -20,24 +21,25 @@ export class SignupComponent implements OnInit {
   constructor(
     private http: HttpClient,
     private router: Router,
-    private dataService: DataService
+    private authService: AuthService,
+    private tokenStorageService: TokenStorageService
   ) { }
 
   ngOnInit(): void {}
 
   signup(): void{
     const formData = this.signUpForm
-    this.dataService.register(formData).subscribe(
+    this.authService.register(formData).subscribe(
       (data:any)=>{
         this.errMsg = ''
-        window.localStorage.setItem('auth_token', data.token)
-            window.localStorage.setItem('user', JSON.stringify(data.user))
-            this.router.navigate(['/home'])
+        this.tokenStorageService.saveToken(data.token)
+        this.tokenStorageService.saveUser(data.user)
+        this.router.navigate(['/home'])
       },
       error=>{
         if(error.status === 409) {
-                this.errMsg ="Username already exists"
-              }
+          this.errMsg ="Username already exists"
+        }
       }
     )
   }

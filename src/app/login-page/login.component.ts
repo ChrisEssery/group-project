@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
-import { DataService } from '../_services/data.service';
+import { AuthService } from '../_services/auth.service';
+import { TokenStorageService } from '../_services/token-storage.service';
 
 @Component({
   selector: 'app-login',
@@ -16,7 +17,8 @@ export class LoginComponent implements OnInit {
   errMsg = ''
   constructor(
     private router: Router,
-    private dataService: DataService
+    private authService: AuthService,
+    private tokenStorageService: TokenStorageService
   ) {}
 
   ngOnInit(): void {
@@ -24,17 +26,17 @@ export class LoginComponent implements OnInit {
 
   login(){
     const formData = this.checkLoginForm 
-    this.dataService.login(formData).subscribe(
+    this.authService.login(formData).subscribe(
       (data:any)=>{
         this.errMsg = ''
-        window.localStorage.setItem('auth_token', data.token)
-        window.localStorage.setItem('user', JSON.stringify(data.user))
+        this.tokenStorageService.saveToken(data.token)
+        this.tokenStorageService.saveUser(data.user)
         this.router.navigate(['/home'])
       },
       error=>{
         if(error.status === 401) {
-                this.errMsg ="invalid username/password"
-              }
+          this.errMsg ="invalid username/password"
+        }
       }
     )
 

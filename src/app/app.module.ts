@@ -4,8 +4,10 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 import {HttpClientModule} from '@angular/common/http';
 import {HTTP_INTERCEPTORS} from '@angular/common/http'
 import { DataService } from './_services/data.service';
+import { AuthService } from './_services/auth.service';
+import { TokenStorageService } from './_services/token-storage.service';
 
-
+import { AuthInterceptor } from './_services/auth.interceptor';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { StartPageComponent } from './start-page/start-page.component';
@@ -47,7 +49,7 @@ import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
     AppRoutingModule,
     HttpClientModule,
   ],
-  providers: [DataService],
+  providers: [{ provide: HTTP_INTERCEPTORS, useClass: AuthInterceptor, multi: true }, DataService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
