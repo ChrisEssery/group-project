@@ -727,5 +727,5 @@ ___
 ## Navigate
 
 - [Go To Next Section: Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
-- [Go To Previous Section: Background](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
+- [Go To Previous Section: UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
 - [Go Back To: Readme](https://github.com/ChrisEssery/group-project/tree/dev)
