@@ -34,7 +34,7 @@ We also realised that this design process would change and develop over time. To
 ### Design Process and ideation
 
 
-First, let's discuss our design process and ideation. This phase of the project is
+First, let's discuss our design process and ideation. This phase of the project was not only fun and exciting but it gave rise to a collaborative ideation which lay the foundations for our product. This process occured over a relatively short timeframe, and involved changes, alterations and refinements along the way.
 
 Below is a mind map created for our project ideation phase. This mind map shows the different types of games we were considering when trying to determine what board game to build. The types of games were decided by our team during a group meeting on Microsoft Teams. Each team member contributed their own ideas, and we compiled a list of games that we knew of and were interested in.
 
@@ -59,6 +59,12 @@ The images below show the ideas matrix we used to generate ideas for the applica
 As you can see, the rows are populated with different types of games. These include 'unforgiving games' 'card games' 'guessing games' and 'educational games'. Along the columns there are different real-world issues such as 'political issues' 'mental health issues' and 'learning english'.
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
+
+We realised that the serious problem of the rules needed to be fun and integrated right from the beginning of the application. So, it became clear, after consultation with our end-users that we ought to include a simple, clear outline of the rules in the start page.
+
+Does our app have a clear goal? Is this apparent up front to the user? or uncovered through use? or never discovered? Raising awareness? Provoking behaviour change and facilitating learning and promoting wellbeing through socialising. Motivations with respect to the gameplay. The users have extrinsic motivations in the form of leaderboards, winning and social contact and then that turns into intrinsic motivation of enjoyment, purpose, growth and curiosity. Intrinsic and extrinsic.
+
+Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
 
 Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UI design. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. It is to this we now turn.
 
@@ -119,7 +125,7 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <br/><br/>
 </p>
 
-As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
+As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, intuitive, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
 
 
 ## Identification of users and stakeholders
