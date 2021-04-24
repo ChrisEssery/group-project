@@ -67,12 +67,12 @@ To reflect on whether our project objectives were met, let's turn to the objecti
   * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
   * Deliver an SPA that can be used as a tool that is fun, engaging and easy to use.
 
-Let's begin with the first of these objectives. 
+Let's begin with the first of these objectives.
 
 
 ## Impact of Covid-19
 
-We now turn to a discussion of the impact of Covid-19. In this section we will give a subjective account of how the pandemic affected our lives and in particular how it impacted
+We now turn to a discussion of the impact of Covid-19. In this section we will give a subjective account of how the pandemic affected our lives and in particular how it impacted our studies in general and the software engineering project in particular.
 
 ### How Covid-19 affected our project
 
@@ -91,7 +91,7 @@ Ethical issues concerning data privacy and security of our prototype were addres
 
 ### Our ethical responsibilities
 
-First, we will turn to our ethical responsibilities as moral individuals. We will then use that to explain which ethical framework we used to guide us throughout the project, before turning our attention to the social implications of
+First, we will turn to our ethical responsibilities as moral individuals, using normative ethics. Using those insights we will explain the ethical framework we used to guide us throughout the project, before turning our attention to the social implications associated with our product and data protection.
 
 ### Normative ethics and ethical frameworks
 
@@ -156,5 +156,5 @@ ___
 
 ## Navigate
 
-- [Go To Previous Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
+- [Go To Previous Section: Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)

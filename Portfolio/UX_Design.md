@@ -27,12 +27,16 @@ In this section, we discuss the User Experience (UX) design of our app. We start
 
 ## UX Design
 
-With regard to the UX design, we decided to...
+With regard to the UX design, we felt it was very important early on to consider how the design of our product would impact our stakeholders. We began this process in the project ideation phase. For a discussion on our design process and ideation, see [Design process and ideation](#design-process-and-ideation).
+
+We also realised that this design process would change and develop over time. To capture this evolution of our design, we provide a detailed overview of the evolution of our UI design. For a discussion of this, see [Evolution of UI Design](#evolution-of-ui-design). As previously mentioned, from an early stage we were very aware of how important our stakeholders were in shaping the UI design. For details about our users and stakeholders, see [Identification of users and stakeholders](#identification-of-users-and-stakeholders). Finally, we talk about our approach to UX, and in particular, focus on the design methods we made use of to ensure that our product met their personal requirements. For a discussion of this, see [UX approach - design methods](#ux-approach--design-methods).
 
 ### Design Process and ideation
 
 
-Below is a picture of a mind map created for our project ideation phase. The mind map shows the different types of games we were considering when trying to determine what board game to build.
+First, let's discuss our design process and ideation. This phase of the project is
+
+Below is a mind map created for our project ideation phase. This mind map shows the different types of games we were considering when trying to determine what board game to build. The types of games were decided by our team during a group meeting on Microsoft Teams. Each team member contributed their own ideas, and we compiled a list of games that we knew of and were interested in.
 
 <div align="center">
 
@@ -40,7 +44,7 @@ Below is a picture of a mind map created for our project ideation phase. The min
 
 </div>
 
-Here is a mind map of the different real world issues and problems we were considering. The idea here was to combine a real world issue/problem with a particular type of game to generate a a board game for our SPA.
+Below is another mind map which contains different real world issues and problems. As with the above mind map, as a team we came up with a list of real world problems. The idea here was to use a particular type of game to tackle one of these real world problems.
 
 <div align="center">
 
@@ -48,7 +52,7 @@ Here is a mind map of the different real world issues and problems we were consi
 
 </div>
 
-The following are photos of the ideas matrix we used to generate ideas for the application. Different types of games are in the rows and different types of real-world issues are in the columns.
+The images below show the ideas matrix we used to generate ideas for the application. As you can see, types of games are in the rows and types of real-world issues are in the columns. This creates a matrix where the remaining cells within the matrix should be populated with a particular game to solve a particular world problem.
 
 [![ideas1.png](https://i.postimg.cc/TwvNhtdg/ideas1.png)](https://postimg.cc/WDSwH6J1)
 
@@ -56,12 +60,14 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
+Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UI design. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. It is to this we now turn.
+
 
 ### Evolution of UI Design
 
 **Version 1: paper prototype**
 
-At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with considration of  the content and funcionaility of each page.
+At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with consideration of the content and functionality of each page.
 
 **Version 2: short paper prototype video**
 
@@ -112,6 +118,8 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <b align="center">UI Demo</b>
   <br/><br/>
 </p>
+
+As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
 
 
 ## Identification of users and stakeholders
@@ -281,7 +289,7 @@ As with the other stakeholders, tailoring the design of the product to meet thes
 
 ## UX approach - design methods
 
-When considering the UX approach we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
+When considering the UX approach, we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
 
 ### Design heuristics
 
@@ -302,10 +310,21 @@ Before explaining our design method, we should define what a heuristic is. A heu
 
 These criteria will be used to conduct a heuristic evaluation of our product's design. Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
 
+<table>
+<tr>
+  <th>The Pros</th>
+  <th>The Cons</th>
+</tr>
+<tr>
+  <td>- Evaluators can focus directly on specific issues, flag them and find optimal solutions <br /> - Evaluators can identify faults with individual elements and determine their impact on the overall UX  <br /> - Compared to testing on users, you can obtain feedback without ethical issues and costs. </td>
+  <td>- Evaluators' insights are subjective; findings can lack proof and be biased <br /> - Finding several evaluators may be hard and expensive  <br />- Evaluators can identify issues that aren't usability problems </td>
+</tr>
+</table>
+
 
 ## Game design for older people
 
-A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
+For a better insight into the usability requirements for our target users, we must now look at design requirements. A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
 
 In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Ijsselsteijn et al () conducted research on the design of digital games for the elderly from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
 Some of the suggestions include:
@@ -338,4 +357,5 @@ ___
 ## Navigate
 
 - [Go To Next Section: Sprints & Project Management](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md)
+- [Go To Previous Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)

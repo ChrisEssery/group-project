@@ -177,7 +177,7 @@ The deployment of our app utilized the software known as Docker. Compatibility f
 
 ### Details of Implementation
 
-Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production. 
+Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
 
 In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
 
@@ -188,4 +188,5 @@ ___
 ## Navigate
 
 - [Go To Next Section: UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
+- [Go To Previous Section: Background](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md)
 - [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
