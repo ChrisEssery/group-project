@@ -60,6 +60,8 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
+After some deliberation our team decided that we would develop a product designed to help older adults socialise through the medium of online games. This, we felt, was a very relevant issue in society - one which we all had experience of with grandparents - and it was an issue which could be addressed through serious play. As mentioned the [Background](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of the report, this concept was essential for shaping our understanding of the product, what it would look like and how it would work. 
+
 We realised that the serious problem of the rules needed to be fun and integrated right from the beginning of the application. So, it became clear, after consultation with our end-users that we ought to include a simple, clear outline of the rules in the start page.
 
 Does our app have a clear goal? Is this apparent up front to the user? or uncovered through use? or never discovered? Raising awareness? Provoking behaviour change and facilitating learning and promoting wellbeing through socialising. Motivations with respect to the gameplay. The users have extrinsic motivations in the form of leaderboards, winning and social contact and then that turns into intrinsic motivation of enjoyment, purpose, growth and curiosity. Intrinsic and extrinsic.
