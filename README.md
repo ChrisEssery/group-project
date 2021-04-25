@@ -41,21 +41,21 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 ## Aims and Objectives
 
-The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create a playful, easy-to-use online multiplayer gaming platform delivered through a single page app (SPA).
+The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create a playful, easy-to-use online multiplayer gaming platform delivered through a SPA.
 
 Given the huge societal impact of the COVID-19 crisis with restrictions on people's lives and enforced "social distancing" measures, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly among older adults [[**1**]](#references).  NotSoBored games is designed to help combat these public health concerns. Our proposed method differs from and contributes to existing methods by combing a simple, visually appealing user interface with video communication functionality. This delivers an engaging experience, unlike existing online games which lack video communication functionality and ease of use.
 
 Our project objectives are as follows:
 
-  * Build and deploy a responsive SPA using the MEAN stack, as per the project brief.
+  * Build and deploy a responsive SPA using the [MEAN stack](#https://www.mongodb.com/mean-stack), as per the project brief.
   * Implement a login, leaderboard, and two board games with multiplayer functionality and video chat.
   * Conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user and applies playfulness - and serious play - to the system.
   * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
   * Deliver a SPA that can be used as a tool that is fun, engaging, and easy to use.
 
-We investigate whether these objectives are met and, based on our results, claim that our application uses 'serious play' to help tackle the growing issue of loneliness and isolation in this group.
+We investigate whether these objectives are met and, based on our results, claim that our application successfully uses 'serious play' to help tackle the growing issue of loneliness and isolation in this group.
 
-In our project report, we explain and analyse our SPA, from ideation to implementation. In particular, we give an overview of background literature, conduct a state-of-the-art survey, provide a detailed account of our system design and implementation, project management before evaluating our progress and identifying promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
+In our project report, we explain and analyse our SPA, from ideation to implementation. In particular, we give an overview of background literature, conduct a state-of-the-art survey, provide a detailed account of our system design and implementation, and project management before evaluating our progress and identifying promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
 
 ___
 
