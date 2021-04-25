@@ -48,7 +48,6 @@ Our target group is adults above the age of 70. However, we acknowledge that ind
 
 ### Public health concerns
 
-Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 There are several public health concerns linked to loneliness and isolation. Let's begin by looking at the health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains, and headaches.
 
 The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the above-mentioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
@@ -57,17 +56,30 @@ Overall, the impact of mental health problems is nontrivial. The increased likel
 
 The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network, people can experience a decline in their mental acuity, choosing to avoid activities that challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain during older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
 
+
 ### What is 'serious play' and how can it be used to address loneliness and isolation?
 
-Using Zimmerman (2004), we can categorise 'play' as 'game play', where play is a verb, a doing word. In these cases play arise through the interaction with structures and rules. The second category is ludic activity, where play activities are not only games, unstructure play, simulation and there are no strongly defined objective. Finally, there is play as mindset which is an adjective where the spirit of play is imbibed into non-typical play activities.
-
-We aren't playing a straight up game but we were thinking about play as an activity. Play can be found within games, of course, and games can be seen as a subset of play. Serious play is set in the brief as play and games innate in computing, learning through play, play as an educational tool which encourages novel solutions and allows 'serious' problems to be seen through a new lens. For our purposes, serious play was a good way to apply play in a way to tackle a serious solution without responding in a typical, run-of-the-mill way.
+Following Zimmerman (2004), we ascribe 'play' three categories. The first category refers to 'play' as 'game play', where play is a verb, involving action. In these cases play arises through the interaction with structures and rules. This is what one might typically think of when talking about play. The second category is ludic activity. This refers to instances of play where activities are not only games, but rather unstructured play. It's a simulation of play, and there are no strongly defined objectives. The third category involves play as a mindset. Here, play is more of an adjective where the spirit of play is imbibed into non-typical play activities.
 
 There is a theory of play, developed by Richard Ryan, using the PENS model, the Player Experience of Needs Satisfaction. We have three key needs to satisfy through play. First there is competence, feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. Instill these feelings of pride and self-efficacy, you help push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency, feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations (see R.A.M.P).
 
 A Theory of Fun for Game Design was very useful for practical study of fun in game design.
 
-Rules versus open-endedness. These are several important questions to ask to inform the process of altering our design to keep play at the centre of our features. Does your system have rules? How does the user learn or discover the rules? How does the users interaction with the rules make it playful? Does the user get to define the rules? And is it possible to break the rules? How fo the rules help the user achieve the objectives? How do the rules relate to the serious problem that our project addresses?
+
+### Rules versus open-endedness
+
+When it came to rules, we felt that it was important to have several important questions to ask ourselves to inform the process of altering our design while keeping play at the centre of our features:
+
+    * Does your system have rules?
+    * How does the user learn or discover the rules?
+    * How does the users interaction with the rules make it playful?
+    * Does the user get to define the rules? And is it possible to break the rules?
+    * How do the rules help the user achieve the objectives?
+    * How do the rules relate to the serious problem that our project addresses?
+
+Rules were, we felt, an important part of our gameplay experience. Opting for an open-ended approach would have undermined one of the main aspects of our platform, namely to compete against others and challenge yourself. Without rules, it would have been difficult to engender competition between different players. The role of competition to challenge yourself cognitively is something we discuss later in this section.
+
+For our purposes, we are thinking about play as an activity. specifically, where play can be found within games, and games can be seen as a subset of play. Serious play is set in the project brief as play and games found within in computing. This can involve learning through play (i.e., as an educational tool), which serves to encourage novel solutions and allows 'serious' problems to be arrived at from a fresh angle. When it came to serious play, for our team, it was a good way to apply play in a way to tackle a serious issue without responding in a needlessly uninspired way.
 
 
 ### Can digital games help tackle the health concerns associated with loneliness and isolation?
