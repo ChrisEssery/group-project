@@ -57,6 +57,29 @@ Overall, the impact of mental health problems is nontrivial. The increased likel
 The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network, people can experience a decline in their mental acuity, choosing to avoid activities that challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain during older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
 
 
+### Can digital games help tackle the health concerns associated with loneliness and isolation?
+
+Before reviewing existing solutions and identifying the gap in the market concerning digital games for the elderly, we will look at what science tells about the role digital games can play in tackling loneliness and isolation.
+
+According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduces depression, as well as having social benefits and improved cognitive performance concerning working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
+
+</div>
+
+Although the widely held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have shown that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks, and shopping [[**6**]](#references). Research has also shown that brain training daily can have long-lasting effects on a person's cognitive abilities.
+
+For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function, and processing speed. Furthermore, most research shows that playing games improve life satisfaction and quality of life.
+
+In addition to this, there is research that suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
+
+The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing at an intermediate and advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
+
+Now, let's look at serious play and the motivations behind playing games.
+
+
 ### What is 'serious play' and how can it be used to address loneliness and isolation?
 
 Following Zimmerman (2004), we assign 'play' three categories. The first category refers to 'play' as 'game play', where play is a verb, involving action. In these cases play arises through the interaction with structures and rules. This is what one might typically think of when talking about play. The second category is ludic activity. This refers to instances of play where activities are not only games, but rather unstructured play. It's a simulation of play, and there are no strongly defined objectives. The third category involves play as a mindset. Here, play is more of an adjective where the spirit of play is imbibed into non-typical play activities.
@@ -90,26 +113,6 @@ Does our app have a clear goal? Is this apparent up front to the user? or uncove
 The users have extrinsic motivations in the form of leaderboards, winning and social contact and then that turns into intrinsic motivation of enjoyment, purpose, growth and curiosity. Intrinsic and extrinsic.
 
 Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
-
-### Can digital games help tackle the health concerns associated with loneliness and isolation?
-
-Before reviewing existing solutions and identifying the gap in the market concerning digital games for the elderly, we will look at what science tells about the role digital games can play in tackling loneliness and isolation.
-
-According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduces depression, as well as having social benefits and improved cognitive performance concerning working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
-
-<div align="center">
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
-
-</div>
-
-Although the widely held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have shown that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks, and shopping [[**6**]](#references). Research has also shown that brain training daily can have long-lasting effects on a person's cognitive abilities.
-
-For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function, and processing speed. Furthermore, most research shows that playing games improve life satisfaction and quality of life.
-
-In addition to this, there is research that suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
-
-The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing at an intermediate and advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
 ## State of the art survey: what is out there already?
 
