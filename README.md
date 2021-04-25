@@ -48,7 +48,7 @@ Given the huge societal impact of the COVID-19 crisis with restrictions on peopl
 Our project objectives are as follows:
 
   * Build and deploy a responsive SPA using the [MEAN stack](#https://www.mongodb.com/mean-stack), as per the project brief.
-  * Implement a login, leaderboard, and two board games with multiplayer functionality and video chat.
+  * Design and implement a login, leaderboard, and two board games with multiplayer functionality and video chat.
   * Conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user and applies playfulness - and serious play - to the system.
   * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
   * Deliver a SPA that can be used as a tool that is fun, engaging, and easy to use.
