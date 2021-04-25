@@ -83,6 +83,13 @@ Now, let's turn to the questions above, and provide our answers to those questio
 
 For our purposes, using Zimmerman's categories, we decided to use play as an activity mediated through structure and rules. So, we use the first category of play. For us, then, play can be found within games, and games can be seen as a subset of play. Serious play is set in the project brief as play and games found within computing. This can involve learning through play (i.e., as an educational tool), which serves to encourage novel solutions and allows 'serious' problems to be arrived at from a fresh angle. When it came to serious play, for our team, it was a good way to apply play in a way to tackle a serious issue without responding in a needlessly uninspired way.
 
+### The psychology behind playing games
+
+Does our app have a clear goal? Is this apparent up front to the user? or uncovered through use? or never discovered? Raising awareness? Provoking behaviour change and facilitating learning and promoting wellbeing through socialising. Motivations with respect to the gameplay.
+
+The users have extrinsic motivations in the form of leaderboards, winning and social contact and then that turns into intrinsic motivation of enjoyment, purpose, growth and curiosity. Intrinsic and extrinsic.
+
+Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
 
 ### Can digital games help tackle the health concerns associated with loneliness and isolation?
 
@@ -217,7 +224,6 @@ Pete: Provide examples of the "current solutions out there/trends/relations betw
 
 According to Pete, we need to outline how our app differs from these apps. We also need to mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach.
 
-We can discuss the benefits of adding increased level of difficulty, and how we will (possibly?) try and incorporate this into the web app.
 
 <div align="center">
 
