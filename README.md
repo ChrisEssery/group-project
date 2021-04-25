@@ -123,6 +123,7 @@ This section is comprised of the following subsections:
 
 ## Technologies Used
 Project is created with:
+
 * MEAN stack with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
 * Docker
 
