@@ -25,7 +25,7 @@
 
 NotSoBored games is a single page app (SPA) designed to tackle social isolation and loneliness in the elderly population through an easy-to-use, multiplayer online board game experience. With different board games to choose from, you'll be spoilt for choice as you play with friends and family to earn points and compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this engaging multiplayer experience is just for you.
 
-Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be able to see each other as you go head-to-head, competing at different levels of difficulty for a real challenge. **This isn't just play, this is serious play**. 
+Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be able to see each other as you go head-to-head, competing at different levels of difficulty for a real challenge. **This isn't just play, this is serious play**.
 
 
 ## Our Team
@@ -41,7 +41,7 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 ## Aims and Objectives
 
-The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create a playful, easy-to-use online multiplayer gaming platform with video chat delivered through a single page app (SPA).
+The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create a playful, easy-to-use online multiplayer gaming platform delivered through a single page app (SPA).
 
 Given the huge societal impact of the COVID-19 crisis with restrictions on people's lives and enforced "social distancing" measures, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly among older adults [[**1**]](#references).  NotSoBored games is designed to help combat these public health concerns. Our proposed method differs from and contributes to existing methods by combing a simple, visually appealing user interface with video communication functionality. This delivers an engaging experience, unlike existing online games which lack video communication functionality and ease of use.
 
