@@ -11,37 +11,28 @@ export class DataService {
 
   constructor(private httpClient: HttpClient) { }
 
-  register(formData: any)
-  {
-    return this.httpClient.post(this.REST_API_SERVER_USER, formData)
-  }
-
-  login(formData: any)
-  {
-    return this.httpClient.post(this.REST_API_SERVER_USER+'/session', formData)
-  }
-
-  signout(username: String){
-    return this.httpClient.delete(this.REST_API_SERVER_USER+'/session')
-  }
-
   getFriends(username: String){
+    username= username.replace(/['"]+/g, '');
     return this.httpClient.get(this.REST_API_SERVER_USER+ '/friends/' + username)
   }
 
   getGameHistory(username: String, limit:number){
+    username= username.replace(/['"]+/g, '');
     return this.httpClient.get(this.REST_API_SERVER_USER+'/games/'+username+'/'+limit)
   }
 
   getUserInfo(username: String){
+    username= username.replace(/['"]+/g, '');
     return this.httpClient.get(this.REST_API_SERVER_USER+'/info/'+username)
   }
 
   addAFriend(friendname: String, username:String){
+    username= username.replace(/['"]+/g, '');
     return this.httpClient.post(this.REST_API_SERVER_USER+'/friends/'+username, friendname)
   }
 
   addGameInstance(gameName: String, gameInfo:any){
+    gameName= gameName.replace(/['"]+/g, '');
     return this.httpClient.post(this.REST_API_SERVER_GAME+'/'+gameName, gameInfo)
   }
 
@@ -49,7 +40,8 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER_USER+'/leaderboard/'+limit)
   }
 
-  getGameScoreLeaderboard(gameName:String, limit:number, ascend:boolean){
+  getGameScoreLeaderboard(gameName:String, limit:number, ascend:number){
+    gameName= gameName.replace(/['"]+/g, '');
     return this.httpClient.get(this.REST_API_SERVER_GAME+'scores/'+gameName+'/'+limit+'/'+ascend)
   }
 
