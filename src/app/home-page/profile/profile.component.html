@@ -7,30 +7,30 @@
   <div class="profile-nav col-md-3">
       <div class="panel">
           <div class="user-heading round">
-              <h1>CamilaSmith</h1>
-              <p>deydey@theEmail.com</p>
+              <h1>{{currentUser}}</h1>
+              <p>{{info.email}}</p>
           </div>
           <br>
           <br>
           <div class="panel-body bio-graph-info">
             <h1 class="section_name">Personal Information</h1>
                 <div class="col-md-12">
-                    <p><span>First Name: </span>Camila</p>
+                    <p><span>First Name: </span>{{info.name}}</p>
                 </div>
                 <div class="col-md-12">
-                    <p><span>Last Name: </span> Smith</p>
+                    <p><span>Last Name: </span> {{info.surname}}</p>
                 </div>
                 <div class="col-md-12">
-                    <p><span>Age: </span> 70</p>
+                    <p><span>Age: </span> {{info.age}}</p>
                 </div>
                 <div class="col-md-12">
-                    <p><span>Gender:</span> Female</p>
+                    <p><span>Gender:</span> {{info.gender}}</p>
                 </div>
                 <div class="col-md-12">
-                    <p><span>Location: </span> Bristol</p>
+                    <p><span>Location: </span> {{info.location}}</p>
                 </div>
                 <div class="col-md-12">
-                  <p><span>Email: </span></p>
+                  <p><span>Email: </span>{{info.email}}</p>
               </div>
         </div>
         <br>

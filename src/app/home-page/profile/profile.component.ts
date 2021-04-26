@@ -1,4 +1,7 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
+import { DataService } from '../../_services/data.service';
+import { TokenStorageService } from '../../_services/token-storage.service';
 
 
 @Component({
@@ -7,41 +10,46 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
-  friends=[
-    "aaa",
-    "bbb",
-    "ccc",
-    "ddd",
-    "eee",
-    "fff"
-]
-games:any=[
-  {
-      "playedWith": [
-          "bbb"
-      ],
-      "_id": "6080bfd26216e5aaeee2049d",
-      "gamename": "Memory Game",
-      "result": "win",
-      "date": "2021-04-22T00:14:10.968Z"
-  },
-  {
-      "playedWith": [
-          "bbb"
-      ],
-      "_id": "6080bfff6216e5aaeee204a2",
-      "gamename": "Connect 4",
-      "result": "win",
-      "date": "2021-04-22T00:14:55.965Z"
-  }
-]
+  currentUser =''
+  friends=[]
+  games:any=[]
+  info:any={}
 
   constructor(
+    private dataService: DataService,
+    private router: Router,
+    private tokenStorageService: TokenStorageService
   ) {}
 
   ngOnInit(): void {
-    this.games.forEach((element:any) => {
-      element.date = element.date.substring(5, 10)
-    });
+    this.currentUser= this.tokenStorageService.getUser()
+    this.dataService.getUserInfo(this.currentUser).subscribe(
+      (data:any) => {
+        this.info=data
+      },
+      error=>{
+        console.log("fail to load the personal info")
+      }
+    )
+    this.dataService.getFriends(this.currentUser).subscribe(
+      (data:any)=>{
+        this.friends=data.friends
+      },
+      error=>{
+        console.log("fail to load the friendlist")
+        console.log(error)
+      }
+    )
+    this.dataService.getGameHistory(this.currentUser, 10).subscribe(
+      (data:any)=>{
+        this.games=data.gamesPlayed.reverse()
+        this.games.forEach((element:any) => {
+          element.date = element.date.substring(5, 10)
+        });
+      },
+      error=>{
+        console.log("fail to load the game history")
+      }
+    )
   }
 }
