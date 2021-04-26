@@ -8,7 +8,7 @@ ___
 
 # Background and Motivation
 
-In this section, we discuss the background literature, state-of-the-art survey and motivation and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We then go on to present our state of the art survey of current applications used to address these issues, before explaining the problem definition and motivation behind our product.
+In this section, we discuss the background literature, state-of-the-art survey and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We also focus on the idea of serious play, and how we can apply this concept to our product. We then go on to present our state of the art survey of current applications used to address these issues, before explaining the problem definition and motivation behind our product and how we intend to use serious play to address our target problem.
 
 ## Table of contents
 
@@ -48,14 +48,14 @@ Our target group is adults above the age of 70. However, we acknowledge that ind
 
 ### Public health concerns
 
-Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
 There are several public health concerns linked to loneliness and isolation. Let's begin by looking at the health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains, and headaches.
 
-The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the abovementioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
+The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the above-mentioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
 Overall, the impact of mental health problems is nontrivial. The increased likelihood of depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
 
 The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network, people can experience a decline in their mental acuity, choosing to avoid activities that challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain during older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
+
 
 ### Can digital games help tackle the health concerns associated with loneliness and isolation?
 
@@ -76,6 +76,43 @@ For instance, Hall et al's (2012) review found that a large majority of studies 
 In addition to this, there is research that suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
 
 The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing at an intermediate and advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
+
+Now, let's look at serious play and the motivations behind playing games.
+
+
+### What is 'serious play' and how can it be used to address loneliness and isolation?
+
+Following Zimmerman (2004), we assign 'play' three categories. The first category refers to 'play' as 'game play', where play is a verb, involving action. In these cases play arises through the interaction with structures and rules. This is what one might typically think of when talking about play. The second category is ludic activity. This refers to instances of play where activities are not only games, but rather unstructured play. It's a simulation of play, and there are no strongly defined objectives. The third category involves play as a mindset. Here, play is more of an adjective where the spirit of play is imbibed into non-typical play activities.
+
+There is a theory of play, developed by Richard Ryan, using the PENS model, the Player Experience of Needs Satisfaction. We have three key needs to satisfy through play. First there is competence, feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. Instill these feelings of pride and self-efficacy, you help push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency, feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations (see R.A.M.P).
+
+A Theory of Fun for Game Design was very useful for practical study of fun in game design.
+
+
+### Rules versus open-endedness
+
+When it came to rules, we felt that it was important to have several important questions to ask ourselves to inform the process of altering our design while keeping play at the centre of our features:
+
+    * Does your system have rules?
+    * How does the user learn or discover the rules?
+    * How does the user's interaction with the rules make it playful?
+    * Does the user get to define the rules? And is it possible to break the rules?
+    * How do the rules help the user achieve the objectives?
+    * How do the rules relate to the serious problem that our project addresses?
+
+Rules were, we decided an important part of our gameplay experience. Opting for an open-ended approach would have undermined one of the main aspects of our platform, namely to compete against others and challenge yourself. As such, without rules, it would have been difficult to engender competition between players. Along with reducing loneliness, using competition to challenge players cognitively was one of the main aims of our application. The cognitive benefits of playing games are well-understood, as we discuss later in this section.
+
+Now, let's turn to the questions above, and provide our answers to those questions. It was clear that our application should have rules, that those rules should be straightforward and explained at the beginning of any gameplay. The user's interaction with the rules can be made playful by introducing a point system and leaderboard, and this information could be displayed in a playful way. The user won't be able to define the rules, since that would complicate matters and perhaps confuse the end-users. And breaking the rules will be prohibited since to do so would undermine the spirit of the interaction and the underlying competition to win points and reach the top of the leaderboard. The rules help the users to achieve the objectives by forcing the users to challenge themselves and beat their opponents. This creates a fun interaction.  The rules relate to the serious problem of loneliness and isolation by engaging the users to compete and interact in a way that is fun and playful and, ultimately, serves to mitigate the negative effects of loneliness and isolation.
+
+For our purposes, using Zimmerman's categories, we decided to use play as an activity mediated through structure and rules. So, we use the first category of play. For us, then, play can be found within games, and games can be seen as a subset of play. Serious play is set in the project brief as play and games found within computing. This can involve learning through play (i.e., as an educational tool), which serves to encourage novel solutions and allows 'serious' problems to be arrived at from a fresh angle. When it came to serious play, for our team, it was a good way to apply play in a way to tackle a serious issue without responding in a needlessly uninspired way.
+
+### The psychology behind playing games
+
+Does our app have a clear goal? Is this apparent up front to the user? or uncovered through use? or never discovered? Raising awareness? Provoking behaviour change and facilitating learning and promoting wellbeing through socialising. Motivations with respect to the gameplay.
+
+The users have extrinsic motivations in the form of leaderboards, winning and social contact and then that turns into intrinsic motivation of enjoyment, purpose, growth and curiosity. Intrinsic and extrinsic.
+
+Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
 
 ## State of the art survey: what is out there already?
 
@@ -190,7 +227,6 @@ Pete: Provide examples of the "current solutions out there/trends/relations betw
 
 According to Pete, we need to outline how our app differs from these apps. We also need to mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach.
 
-We can discuss the benefits of adding increased level of difficulty, and how we will (possibly?) try and incorporate this into the web app.
 
 <div align="center">
 

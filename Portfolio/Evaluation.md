@@ -28,13 +28,43 @@ In this section, we evaluate our app. We start by evaluating the design of the a
 
 When it came to the design of the project we felt... with this in mind, we will now evaluate the strengths, weaknesses and potential extensions of the design before reflecting on the lessons we've learned about this aspect of the project.
 
+Our process for analysing the data was tailored to the circumstances. Compare the insights from our questionnaire. We verbally state what we believe to be the key insights.
+
+This process was discursive.
+
+Our data is qualitative. Qualitative methods generate data that are represented by observe or report words and or behaviorus. It is best suited when you want to understand and represent the opinions and perspectives of your users.
+
+We would have liked to employ a mixed methods approach to generate both quantitative and qualitative data, often using one to inform the other (that is, 'triangulation')
+
+Analysing qualitative data may include interviews, observation notes, open-ended survey responses, user-diaries. There are several qays in which such data may be analysed with differeing levels of rigour.
+
+Thematic analysis is a popilar and flexible means of applying strucutre and a prescriber process for your analysis. In short, this approach involves gathering together your data from all available sources, creating category labels ("codes") that describe emerging and or expected patterns trend, apportion evidence (e.g. quotes from users, research observations excerpts beneath each category label, restructuring codes into a hierarchy tree and grouping related items together to generate themes).
+
+Thematic analysis. Affinity diagrams -> visual way of grouping different parts of our data together. It is important to analyse the data effectively.
+
+Cognitive walkthroughs - emulating a user's problem-solving process at each step in the the human-computer-dialogue and check to see how users progress from step to step in these interactions
+
+Models of behaviour are also useful - empirical research models of human behaviour using similar technologies / designs, can be used to predict or estimate evaluative outcomes. Fitts' law (1954) is a good example of research which cites Fitts' law.
+
+Why use these modelas and heuristics? Well, because they can help in predicting user behaviour and when compared to primary datam can uncoveer important resesarch questions and hypotheses.
+
+ONe of the downsides of heuristics commonly make assumptions about products and people. Heuristics may not be suited to novel technologies - there is a risk of new technology outpacing heuristics. However, despite these considerations, heuristics are a great tool for making the design do's and don'ts intuitive. For our purposes, heurisitcs were perfect because we didn't have access to many users given the covid crisis. Challenges to end-users, particularly given that our end-users are an at-risk group.
+
+Qualitative methods generate data that are represented by observed or reported words and/or behaviours. It is best suited when you want to understand and represent the rich opinions and persepctive of your users.
+
 ### Strengths
 
-With regard to the strengths of the design,
+With regard to the strengths of the design, we kept the project brief of serious play in our minds throughout the project. This concept, we realised, was essential for informing our decisions about the UX and UI design, and it also helped fix our minds on the task at hand. For instance, during the sprints we used our user stories
 
 ### Weaknesses
 
-Given the time constraints of this unit...
+Given the time constraints of this unit, we were unable to use as many evaluation techniques as we would have ilked. Focus groups, interviews and observations all would have been invaluable methods for garnering data about our target group, their needs and interactions with out product. Questionnaires proved to be a very uesful method for answering specific questions about our paper prototype and wireframe, and it opened up the possiblity for quantitative data. It had the advantage of being able to reach many people with low resource requirements and the disadvantage that the design and phrasing of the questions needed to be well constructure to provide suitatele, reliable data and avoid the negative effects of human judgment bias.
+
+Another limitation of our approach with the questionnaires concerning the size of the study. In the study, participants were recruited through ‘snowball sampling' (i.e. word of mouth) with 11 out of 13 participants known to the author. Two problems arise. First, the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population (Keeble, 2013). Whilst the author acknowledges this shortcoming, she fails to discuss who the target audience are and how she would recruit them. Second, given that the participants were known to the author, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity (Keeble, 2013, p. 1). To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment would have generated a larger, more diverse pool of participants not known to the author and mitigated against the lack of generalisability and participation bias (Keller, 2016, p. 83).
+
+One may object, however, that the exploratory nature of the study limits its precision and scope. Instead, it would have benefited from descriptive research (Alan, 1999). But this misses the point. The project is designed to explore research questions. Its main limitation, however, is that it fails to use other exploratory methodologies such as interviews and focus groups to inform the results of the small-scale study (Reiter, 2017).
+
+
 
 ### Possible Extensions
 
@@ -66,6 +96,15 @@ We now turn to the user acceptance testing.
 
 We conducted an evaluation of our design with users
 
+### References
+
+[1] Alan, R. (1999). The Importance of Hypothesis Testing. Behaviour Change, 16(2).
+
+[2] Keeble, C., Barber, S., Law, GR., Baxter, PD. (2013). Participation bias assessment in three high impact journals. Sage Open, 3(4), 1-5.
+
+[3] Keller, J., Ainsworth BE. (2016). Recruiting participants into pilot trials: techniques for researchers with shoestring budgets. Californian journal of health promotion, 14(2):81–89.
+
+[4] Reiter, B. (2017). Theory and Methodology of Exploratory Social Science Research. Government and International Affairs Faculty Publications. 132.
 
 ___
 

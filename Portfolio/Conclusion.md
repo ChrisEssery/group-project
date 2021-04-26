@@ -59,9 +59,13 @@ There have been many successes throughout the duration of this unit.
 
 ### Were objectives met?
 
-To reflect on whether our project objectives were met, let's turn to the objectives we set ourselves. These are as follows:
+To reflect on whether our project objectives were met, let's turn to the objectives we set ourselves and assess whether each of these was met. Consider the first of these:
 
   * Build and deploy a responsive SPA using the MEAN stack, as per the project brief.
+
+With this objective, it is fair to say that we were successful.
+
+
   * Implement a login, leaderboard and two board games with multiplayer functionality and video chat.
   * Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.
   * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
@@ -110,6 +114,8 @@ It could also demotivate people from doing outdoor activities, and as such might
 
 Whilst these considerations are important to bear in mind, it is not clear whether there would be a clear causal link between playing our game and increased levels of negative emotions. The most we could reasonably speculate is that there could be a correlation. Notwithstanding this point, these social implications would be concerning enough to merit consideration and draw up a protocol for dealing with. Since our product is still in its early stages there is no need to explore these options, however it is worth bearing them in mind and ways to address any possible issues which might arise.
 
+It is also worth mentioning that the from a behaviourist perspective, the behavioural effect playing more games on the platform could be viewed as operant conditioning, where behaviours are encouraged and discouraged with associated rewards and punishments (Staddon, 2003, p. 116).
+
 
 
 ### Data protection
@@ -134,9 +140,12 @@ Another extension concerns
 
 A further extension concerns
 
+One added feature that would have benefited the project would have been to clearly outline hypotheses which are investigated in a small-scale study. As Alan (1999) points out, hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. This could have been done to assess the affects of online games on subjective feelings of loneliness. This is an area of research which our product could have been put to good use.
+
 
 ### Impact of our work
 
+The ubiquity of smartphones and the self-centric orientation of their technologies capable of tracking and recording human behaviour indicates that PI systems will continue to play an important role in future research methods. Our project attempts to overcome the shortcomings of previous gaming platforms by utilising self-monitoring to unobtrusively gather data on user behaviours and associated stress levels in a variety of contexts which in turn simplifies the collection and management of data, reducing the burden of self-monitoring (Rapp, 2016). Building upon contemporary research, this project pushes the field forward and provides a promising point of departure for future methods.
 
 ### Design, development, and evaluation
 
