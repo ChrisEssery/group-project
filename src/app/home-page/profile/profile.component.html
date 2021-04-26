@@ -1,31 +1,89 @@
-<div class="col-md-5">
-    <div class="profileinfoleft">
-        <h3 class="username">
-        username
-        </h3>
-        <small class="textmuted">
-        email
-        </small>
-    </div>
-</div>
+<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 
-<div class="col-md-7">
-    <ul class="personalinfo">
-      <li>
-        <span class="title">Name</span>
-        <span class="text">Lizhao</span>
-      </li>
-      <li>
-        <span class="title">Surname</span>
-        <span class="text">Liu</span>
-      </li>
-      <li>
-        <span class="title">Age</span>
-        <span class="text">24</span>
-      </li>
-      <li>
-        <span class="title">Location</span>
-        <span class="text">Bristol</span>
-      </li>
-    </ul>
+<br>
+<br>
+<div class="container bootstrap snippets bootdey">
+<div class="row">
+  <div class="profile-nav col-md-3">
+      <div class="panel">
+          <div class="user-heading round">
+              <h1>CamilaSmith</h1>
+              <p>deydey@theEmail.com</p>
+          </div>
+          <br>
+          <br>
+          <div class="panel-body bio-graph-info">
+            <h1 class="section_name">Personal Information</h1>
+                <div class="col-md-12">
+                    <p><span>First Name: </span>Camila</p>
+                </div>
+                <div class="col-md-12">
+                    <p><span>Last Name: </span> Smith</p>
+                </div>
+                <div class="col-md-12">
+                    <p><span>Age: </span> 70</p>
+                </div>
+                <div class="col-md-12">
+                    <p><span>Gender:</span> Female</p>
+                </div>
+                <div class="col-md-12">
+                    <p><span>Location: </span> Bristol</p>
+                </div>
+                <div class="col-md-12">
+                  <p><span>Email: </span></p>
+              </div>
+        </div>
+        <br>
+          <ul class="nav nav-pills nav-stacked col-md-8">
+              <!-- <li class="active"><a href="#"> <i class="fa fa-user"></i> Profile</a></li> -->
+              <!-- <li><a href="#"> <i class="fa fa-calendar"></i> Recent Activity</a></li> -->
+              <li><a href="./editprofile"> <i class="fa fa-edit"></i> Edit profile</a></li>
+          </ul>
+      </div>
   </div>
+  <div class="profile-info col-md-4">
+      <div class="panel friendlist">
+        <table>
+          <thead>
+            <tr>
+              <th class="section_name">Friends</th>
+            </tr>
+          </thead>
+      
+          <tbody>
+            <tr
+              *ngFor="let friend of friends"
+            >
+              <td class="friends">
+                {{friend}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      </div>
+      <div class="profile-info panel activites col-md-5">
+        <h1 class="section_name"> Recent Matches</h1>
+        <table>
+          <thead>
+            <tr>
+              <th class="table_name">Game</th>
+              <th class="table_name">Played With</th>
+              <th class="table_name">Result</th>
+              <th class="table_name">Date</th>
+            </tr>
+          </thead>
+      
+          <tbody>
+            <tr
+              *ngFor="let game of games"
+            >
+              <td class="ele gamename">{{game.gamename}}</td>
+              <td class="ele playedwith">{{game.playedWith}}</td>
+              <td class="ele result">{{game.result}}</td>
+              <td class="ele date">{{game.date}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+  </div>
+</div>
