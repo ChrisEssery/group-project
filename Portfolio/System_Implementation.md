@@ -27,7 +27,7 @@ In this section, we discuss the the system implementation of the app. We start w
 * [**Front end**](#front-end)
    * [Angular](#angular)
    * [Details of Implementation](#details-of-implementation)
-* [**Authentication**](#authentication)
+* [**Additional elements and components**](#additional-elements-and-components)
    * [Details of Implementation](#details-of-implementation)
 * [**Deployment and integration**](#deployment-and-integration)
    * [Details of Implementation](#details-of-implementation)
@@ -162,7 +162,7 @@ Angular is great for getting creating a professional UI in very little time. The
 ### Details of Implementation
 
 
-## Authentication (Shouldn't this be changed to 'Additional elements and components'?, here extra elements could be explained such as Chris' Jitsy video feed etc.)
+## Additional elements and components
 
 We will now cover our approach to authentication.
 
