@@ -34,7 +34,7 @@ We also realised that this design process would change and develop over time. To
 ### Design Process and ideation
 
 
-First, let's discuss our design process and ideation. This phase of the project was not only fun and exciting but it gave rise to a collaborative ideation which lay the foundations for our product. This process occured over a relatively short timeframe, and involved changes, alterations and refinements along the way.
+First, let's discuss our design process and ideation. This phase of the project was not only fun and exciting but it gave rise to a collaborative ideation which lay the foundations for our product. This process occurred over a relatively short timeframe, and involved changes, alterations and refinements along the way.
 
 Below is a mind map created for our project ideation phase. This mind map shows the different types of games we were considering when trying to determine what board game to build. The types of games were decided by our team during a group meeting on Microsoft Teams. Each team member contributed their own ideas, and we compiled a list of games that we knew of and were interested in.
 
@@ -44,7 +44,9 @@ Below is a mind map created for our project ideation phase. This mind map shows 
 
 </div>
 
-Below is another mind map which contains different real world issues and problems. As with the above mind map, as a team we came up with a list of real world problems. The idea here was to use a particular type of game to tackle one of these real world problems.
+As you can see, the list of games we came up with encompassed a wide range of possible games, each of which has a large possibility of specific games within each type of game. We felt that this range encompassed enough variation for us to be creative and come up with interesting suggestions during the ideation phase.
+
+Below is another mind map which contains different world issues and problems. As with the above mind map, as a team we came up with a list of real world problems during one of our first meetings concerning the game ideation. The idea here was to use a particular type of game to tackle one of these real world problems. So, for instance, green/environmental issues could be addressed through an educational card game or a board game.
 
 <div align="center">
 
@@ -60,7 +62,7 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
-After some deliberation our team decided that we would develop a product designed to help older adults socialise through the medium of online games. This, we felt, was a very relevant issue in society - one which we all had experience of with grandparents - and it was an issue which could be addressed through serious play. As mentioned the [Background](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of the report, this concept was essential for shaping our understanding of the product, what it would look like and how it would work. 
+After some deliberation our team decided that we would develop a product designed to help older adults socialise through the medium of online games. This, we felt, was a very relevant issue in society - one which we all had experience of with grandparents - and it was an issue which could be addressed through serious play. As mentioned the [Background](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of the report, this concept was essential for shaping our understanding of the product, what it would look like and how it would work.
 
 We realised that the serious problem of the rules needed to be fun and integrated right from the beginning of the application. So, it became clear, after consultation with our end-users that we ought to include a simple, clear outline of the rules in the start page.
 
@@ -121,6 +123,9 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <br/>
   <b align="center">UI Wireframe</b>
   <br/><br/>
+
+The UI wireframe above provides a low-fidelity skeleton of the UI. Without getting bogged down in the visual design of the app, his serves to show the main features, layout, content, and functionality of the UI. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software. This then can be presented in the form of a UI demo, as shown below:
+
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
   <br/>
   <b align="center">UI Demo</b>
