@@ -26,6 +26,10 @@ In this section, we evaluate our app. We start by evaluating the design of the a
 
 ## Evaluation of design
 
+TO DO: Evaluation of design. Need to decide on methods and write this up.
+
+Some ideas for the evaluation of design:
+
 When it came to the design of the project we felt... with this in mind, we will now evaluate the strengths, weaknesses and potential extensions of the design before reflecting on the lessons we've learned about this aspect of the project.
 
 Our process for analysing the data was tailored to the circumstances. Compare the insights from our questionnaire. We verbally state what we believe to be the key insights.
