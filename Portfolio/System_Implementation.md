@@ -169,7 +169,7 @@ For our front-end, we had a number of separate pages. Each of these pages consis
 
 ### Start page
 
-The first page is the start page. This is shown below.
+The first page of our application is the start page. This is shown below.
 
 <div align="center">
 
