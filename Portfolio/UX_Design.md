@@ -152,7 +152,7 @@ The end-users are two members of our target group, both with interests in online
 
 These proto-personas are based on assumptions about the relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework.
 
-There was plenty of scope to include more stakeholders to this list of four, however due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint. This approach adopts an autoethnography approach. An autoethnography is a form of qualitative research which uses self-reflection and writing to explore anecdotal and personal experience and connect this autobiographical story to wider cultural, political, and social meanings and understandings.
+There was plenty of scope to include more stakeholders to this list of four, however due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint. This approach adopts an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research which uses self-reflection and writing to explore anecdotal and personal experience and connect this autobiographical story to wider cultural, political, and social meanings and understandings.
 
 ## Stakeholders
 
