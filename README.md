@@ -99,7 +99,7 @@ This section is comprised of the following subsections:
 * Group working methods
 * Team roles and contributions
 * Documentation of sprints
-* Team use of Git
+* Team use of Github
 
 
 ## [5. Evaluation](Portfolio/Evaluation.md)

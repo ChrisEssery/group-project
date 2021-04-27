@@ -806,6 +806,7 @@ We created a number of branches. First, there was our main branch. This was were
 3. Create database branch
 4. Create multiplayer branch
 
+We then continued to create different branches for various different purposes, such as 
 
 ___
 
