@@ -108,11 +108,26 @@ For our purposes, using Zimmerman's categories, we decided to use play as an act
 
 ### The psychology behind playing games
 
-Does our app have a clear goal? Is this apparent up front to the user? or uncovered through use? or never discovered? Raising awareness? Provoking behaviour change and facilitating learning and promoting wellbeing through socialising. Motivations with respect to the gameplay.
+To better understand how our end-users will use our game, we need to consider the psychological factors underlying a person's desire to play games.
 
-The users have extrinsic motivations in the form of leaderboards, winning and social contact and then that turns into intrinsic motivation of enjoyment, purpose, growth and curiosity. Intrinsic and extrinsic.
+There are a number of important questions to ask. For examples,
 
-Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
+ * Does our app have a clear goal?
+ * Is this goal apparent up front to the user? or uncovered through use? or never discovered?
+ * Does our app raise awareness of a particular issue?
+ * Does our app facilitate learning?
+
+Provoking behaviour change, facilitating learning, and promoting wellbeing through socialising are all potential avenues our app could go down.
+
+There are a number of motivations with respect to playing games which we ought to bear in mind when answering the above questions. The two main motivations which we shall consider here are extrinsic and intrinsic motivations. Let's consider these.
+
+#### Extrinsic vs intrinsic motivations
+
+In the context of playing a game, a person is said to have have extrinsic motivations in the form of leaderboards, winning and social contact - external factors which a person interacts with. Intrinsic motivations, by contrast, come from within. That is, intrinsic motivation includes enjoyment, purpose, growth and curiosity. These psychological phenomena arise in the mind and body and have emotional, psychological and cognitive dimensions. How do these two motivations interact and exercise influence over the other?
+
+To see this in action, let's consider gamification. Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. It also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboards, for instance, are extrinsic motivators which visualise game display progress over time. But if these visualisations represent growth and development for a person, and gives them a sense of purpose and true enjoyment then we find that the extrinsic motivation transforms into intrinsic motivation.
+
+So, does there need to be a score for our purposes? Scores support extrinsic factors which can be highly motivating, however they can also be negative for those who aren't doing particularly well. To address this, we could include a collaborative aspect to the memory game with respect to gameplay where players cooperate to complete the game and acquire points to compete against others. This is certainly something we could consider when developing our games, since cooperation can give rise to a strong sense of purpose and enjoyment without the negative consequences of solely competing against another player. A further extension combining cooperation with competition could cultivate a good balance between both styles of game, and ensure that serious play should is present in our product, but with a slight twist. 
 
 ## State of the art survey: what is out there already?
 
