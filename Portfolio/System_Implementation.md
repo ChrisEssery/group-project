@@ -161,6 +161,43 @@ Angular is great for getting creating a professional UI in very little time. The
 
 ### Details of Implementation
 
+For our front-end, we had a number of separate pages. These pages each consisted of a number of components linked together via Angular router, allowing the user to navigate from one page to another. Let's consider these pages, identify notable features with links to the code. 
+
+#### Start page
+
+The first page is the start page. This is shown below. The html code associated with this page can be found [start page](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/start-page.component.html). This consisted of three separate components, including background, title, and btngrp1. The css code for the background can be found [here](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css).
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/login.png)
+
+</div>
+
+
+#### Login
+
+The next page is the login. This is shown in the image below:
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/login-page.png)
+
+</div>
+
+#### Games
+
+
+#### Leaderboard
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/leaderboard.png)
+
+</div>
+
+#### Profile
+
+
 
 ## Additional elements and components
 
