@@ -183,7 +183,7 @@ Let's take a closer look at the main features of this page. This consisted of th
  * [Background.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css).
  * [Title.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/title.component.css).
 
-#### Login
+### Login
 
 The next page is the login. This is shown in the image below:
 
@@ -195,15 +195,15 @@ The next page is the login. This is shown in the image below:
 
 The main features of the login were
 
- * [Login.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.ts).
- * [Login.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.html).
- * [Login.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.css).
+ * [Login.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.ts). Add information
+ * [Login.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.html). Add information
+ * [Login.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.css). Add information
 
-#### Games
+### Games
 
 We chose to build just two games. Here are the main features of these games:
 
-#### Leaderboard
+### Leaderboard
 
 One important part of our product was to have a leaderboard. Here is the leaderboard:
 
@@ -218,7 +218,7 @@ The main features of the leaderboard are in the following component:
  * [Leaderboard.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.ts)
  * [Leaderboard.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.html)
 
-#### Profile
+### Profile
 
 Add information on this page.
 
