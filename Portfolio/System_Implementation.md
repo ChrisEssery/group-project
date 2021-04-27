@@ -223,6 +223,25 @@ The next page is the login. This is shown in the image below:
 The main features of the login were
 
  * [Login.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.ts). Add information
+
+ ```
+ login(){
+    const formData = this.checkLoginForm
+    this.authService.login(formData).subscribe(
+      (data:any)=>{
+        this.errMsg = ''
+        this.tokenStorageService.saveToken(data.token)
+        this.tokenStorageService.saveUser(data.user)
+        this.router.navigate(['/home'])
+      },
+      error=>{
+        if(error.status === 401) {
+          this.errMsg ="invalid username/password"
+        }
+      }
+    )
+
+  ```  
  * [Login.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.html). Add information
  * [Login.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.css). Add information
 
@@ -243,6 +262,31 @@ One important part of our product was to have a leaderboard. Here is the leaderb
 The main features of the leaderboard are in the following component:
 
  * [Leaderboard.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.ts) Add information
+
+ This calls dataService.getWinsLeaderboard which is found under services
+ ```
+ ngOnInit(): void {
+    this.dataService.getWinsLeaderboard(10).subscribe(
+      (data:any)=>{
+        this.players=data
+        console.log(data)
+      },
+      error=>{
+        console.log("fail to load the data")
+      }
+    )
+  }
+
+  ```
+  The getWinsLeaderboard in data.service.ts:
+
+  ```
+
+  getWinsLeaderboard(limit: number){
+    return this.httpClient.get(this.REST_API_SERVER_USER+'/leaderboard/'+limit)
+  }
+
+  ```
  * [Leaderboard.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.html) Add information
 
 ### Profile
