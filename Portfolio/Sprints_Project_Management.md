@@ -23,12 +23,12 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Documentation of sprints**](#documentation-of-sprints)
    * [Sprint 1 : Ideation and Setup (01.03.21-08.03.21)](#sprint-1--ideation-and-setup-010321-080321)
    * [Sprint 2 : Build game frontend and design backend (08.03.21-15.03.21)](#sprint-2--start-frontend-and-design-backend-080321-150321)
-   * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--deploy-the-product-150321-220321)
-   * [Sprints paused : other work commitments/no new tasks (22.03.21-05.04.21)](#sprints-paused--other-commitments-no-new-tasks-220321-050421)
-   * [Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)](#sprint-4--user-testing-050421-120421)
+   * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--obtain-user-feedback-and-continue-building-front-end-150321-220321)
+   * [Sprints paused : other work commitments (22.03.21-05.04.21)](#sprints-paused--other-commitments-220321-050421)
+   * [Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)](#sprint-4--user-testing-and-adding-multiplayer-functionality-050421-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
-   * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--improving-added-features-190421-260421)
-   * [Sprint 7 : Pages made responsive, authentication implemented, and adding additional features (26.04.21-03.05.21)](#sprint-7--testing-and-obtaining-feedback-before-release-260421-030521)
+   * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
+   * [Sprint 7 : Pages made responsive, authentication implemented, and adding additional features (26.04.21-03.05.21)](#sprint-7--pages-made responsive-authentication-implemented-and-adding-additional-features-260421-030521)
 * [**Team use of GitHub**](#team-use-of-github)
 
 
