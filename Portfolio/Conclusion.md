@@ -149,7 +149,7 @@ The ubiquity of computers and smartphones and the self-centric orientation of th
 
 Our product could arguably be used to garner data on the affect playing computer games has on individuals who are lonely and isolated.
 
-Our project attempts to overcome the shortcomings of previous gaming platforms by utilising video chat and a simple user interface. There is also scope for using self-monitoring technologies to unobtrusively gather data on user behaviours and associated feelings of loneliness in a variety of contexts which could in turn simplify the collection and management of data, reducing the burden of self-monitoring (Rapp, 2016).
+Our project attempts to overcome the shortcomings of previous gaming platforms by utilising video chat and a simple user interface. There is also scope for using
 
 Building upon contemporary research, this project pushes the field forward and provides a promising point of departure for future methods.
 
