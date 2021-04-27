@@ -167,7 +167,7 @@ Angular is great for getting creating a professional UI in very little time. The
 
 For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
 
-#### Start page
+### Start page
 
 The first page is the start page. This is shown below.
 
