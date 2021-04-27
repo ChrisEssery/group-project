@@ -161,11 +161,11 @@ Angular is great for getting creating a professional UI in very little time. The
 
 ### Details of Implementation
 
-For our front-end, we had a number of separate pages. These pages each consisted of a number of components linked together via Angular router, allowing the user to navigate from one page to another. Let's consider these pages, identify notable features with links to the code.
+For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
 
 #### Start page
 
-The first page is the start page. This is shown below. The html code associated with this page can be found [start page](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/start-page.component.html). This consisted of three separate components, including background, title, and btngrp1. The css code for the background can be found [here](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css).
+The first page is the start page. This is shown below.
 
 <div align="center">
 
@@ -173,6 +173,11 @@ The first page is the start page. This is shown below. The html code associated 
 
 </div>
 
+Let's take a closer look at the main features of this page. This consisted of three separate components, including a background, title, and btngrp1 component.
+
+ * [Start-page.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/start-page.component.html).
+ * [Background.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css).
+ * [Title.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/title.component.css).
 
 #### Login
 
@@ -184,10 +189,19 @@ The next page is the login. This is shown in the image below:
 
 </div>
 
+The main features of the login were
+
+ * [Login.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.ts).
+ * [Login.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.html).
+ * [Login.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.css).
+
 #### Games
 
+We chose to build just two games. Here are the main features of these games:
 
 #### Leaderboard
+
+One important part of our product was to have a leaderboard. Here is the leaderboard:
 
 <div align="center">
 
@@ -195,13 +209,18 @@ The next page is the login. This is shown in the image below:
 
 </div>
 
+The main features of the leaderboard are in the following component:
+
+ * [Leaderboard.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.ts)
+ * [Leaderboard.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.html)
+
 #### Profile
 
-
+Add information on this page.
 
 ## Additional elements and components
 
-We will now cover our approach to authentication.
+We will now cover the additional elements and components we added to our application.
 
 ### Details of Implementation
 
