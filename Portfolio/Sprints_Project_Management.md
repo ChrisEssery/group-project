@@ -22,12 +22,12 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Communication**](#communication)
 * [**Documentation of sprints**](#documentation-of-sprints)
    * [Sprint 1 : Ideation and Setup (01.03.21-08.03.21)](#sprint-1--ideation-and-setup-010321-080321)
-   * [Sprint 2 : Build game frontend and design backend (08.03.21-15.03.21)](#sprint-2--start-frontend-and-design-backend-080321-150321)
+   * [Sprint 2 : Start game frontend and design backend (08.03.21-15.03.21)](#sprint-2--start-frontend-and-design-backend-080321-150321)
    * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--obtain-user-feedback-and-continue-building-front-end-150321-220321)
    * [Sprints paused : other work commitments (22.03.21-05.04.21)](#sprints-paused--other-commitments-220321-050421)
    * [Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)](#sprint-4--user-testing-and-adding-multiplayer-functionality-050421-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
-   * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
+   * [Sprint 6 : Frontend and backend integration (19.04.21-26.04.21)](#sprint-6--frontend-and-backend-integration-190421-260421)
    * [Sprint 7 : Pages made responsive, authentication implemented, and adding additional features (26.04.21-03.05.21)](#sprint-7--pages-made responsive-authentication-implemented-and-adding-additional-features-260421-030521)
 * [**Team use of GitHub**](#team-use-of-github)
 
@@ -228,7 +228,7 @@ Another area we could have improved on was the approach taken to the Agile metho
 After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't much we could ask our user's since we were in a very early stage.
 
 
-## Sprint 2 : Build game frontend and design backend (08.03.21-15.03.21)
+## Sprint 2 : Start game frontend and design backend (08.03.21-15.03.21)
 ___
 
 The aim of this sprint was to get something built and pushed onto GitHub. We decided to build four games and assigned two of those games to different team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find establish any problems or issues they might have we the product and closely follow the agile methodology.
