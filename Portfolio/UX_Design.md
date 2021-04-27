@@ -123,9 +123,11 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <br/>
   <b align="center">UI Wireframe</b>
   <br/><br/>
-
+</p>
 The UI wireframe above provides a low-fidelity skeleton of the UI. Without getting bogged down in the visual design of the app, his serves to show the main features, layout, content, and functionality of the UI. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software. This then can be presented in the form of a UI demo, as shown below:
 
+<br/><br/>
+<p align="center">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
   <br/>
   <b align="center">UI Demo</b>
