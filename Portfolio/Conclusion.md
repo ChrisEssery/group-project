@@ -135,7 +135,7 @@ There is, we feel, a lot of scope for future work in this area. In particular...
 One possible extension concerns adding more games to the platform. Originally, we had planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning minimum viable product with two games at an early stage in the agile cycle than to deploy one with more games at the very end of the the lifecycle.
 
 
-Another extension concerns
+Another extension concerns adding an 'invite friends to play' feature.
 
 
 A further extension concerns

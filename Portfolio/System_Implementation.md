@@ -194,7 +194,7 @@ Let's take a closer look at the main features of this page. This consisted of th
 
  * [Background.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css). Add information
 
- The following code was used to make the screen responsive to different variations in screen size.
+ The following code was used to make the screen responsive to different variations in screen size, including mobile responsiveness. This was important as we were aware that some users would want to access and view their profile and the leaderboard using their smartphones and/or tablets.
 
  ```
  @media screen and (max-width:1024px) {
