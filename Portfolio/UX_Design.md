@@ -124,7 +124,8 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <b align="center">UI Wireframe</b>
   <br/><br/>
 </p>
-The UI wireframe above provides a low-fidelity skeleton of the UI. Without getting bogged down in the visual design of the app, his serves to show the main features, layout, content, and functionality of the UI. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software. This then can be presented in the form of a UI demo, as shown below:
+
+The UI wireframe above provides a low-fidelity skeleton of the UI. Without getting bogged down in the visual design of the app, his serves to show the main features, layout, content, and functionality of the UI. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software, and it helps those working on the front-end of the product to better understand how they should design and build the main features and functions of the UI. This then can be presented in the form of a UI demo, as shown below:
 
 <br/><br/>
 <p align="center">
@@ -134,7 +135,7 @@ The UI wireframe above provides a low-fidelity skeleton of the UI. Without getti
   <br/><br/>
 </p>
 
-As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, intuitive, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
+This demo shows the way the user will navigate through our application, and how they will play the games with other players. As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, intuitive, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
 
 
 ## Identification of users and stakeholders
