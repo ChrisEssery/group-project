@@ -24,11 +24,11 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 1 : Ideation and Setup (01.03.21-08.03.21)](#sprint-1--ideation-and-setup-010321-080321)
    * [Sprint 2 : Start games front-end and design back-end (08.03.21-15.03.21)](#sprint-2--start-games-front-end-and-design-back-end-080321-150321)
    * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--obtain-user-feedback-and-continue-building-front-end-150321-220321)
-   * [Sprints paused : other work commitments (22.03.21-05.04.21)](#sprints-paused--other-commitments-220321-050421)
+   * [Sprints paused : Complete backlog items and other work commitments (22.03.21-05.04.21)](#sprints-paused--complete-backlog-items-and-other-work-commitments-220321-050421)
    * [Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)](#sprint-4--user-testing-and-adding-multiplayer-functionality-050421-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
-   * [Sprint 7 : Pages made responsive, authentication implemented, and adding additional features (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-authentication-implemented-and-adding-additional-features-260421-030521)
+   * [Sprint 7 : Pages made responsive and authentication implemented (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-authentication-implemented-260421-030521)
 * [**Team use of GitHub**](#team-use-of-github)
 
 
@@ -410,7 +410,7 @@ The aim of this sprint was to have something to show our stakeholders which we c
 
 We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we were able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle.
 
-## Sprints paused : other work commitments (22.03.21-05.03.21)
+## Sprints paused : complete backlog items and other work commitments (22.03.21-05.03.21)
 ___
 
 By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items.
@@ -653,7 +653,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-## Sprint 7 : Pages made responsive, authentication implemented, and completing documentation (26.04.21-03.05.21)
+## Sprint 7 :  Pages made responsive and authentication implemented (26.04.21-03.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
