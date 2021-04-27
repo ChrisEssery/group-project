@@ -340,7 +340,7 @@ These criteria will be used to conduct a heuristic evaluation of our product's d
 
 For a better insight into the usability requirements for our target users, we must now look at design requirements. A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
 
-In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Ijsselsteijn et al () conducted research on the design of digital games for the elderly from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
+In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
 Some of the suggestions include:
 
 - Using a game for social and educational purposes

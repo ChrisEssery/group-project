@@ -23,12 +23,12 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Documentation of sprints**](#documentation-of-sprints)
    * [Sprint 1 : Ideation and Setup (01.03.21-08.03.21)](#sprint-1--ideation-and-setup-010321-080321)
    * [Sprint 2 : Build game frontend and design backend (08.03.21-15.03.21)](#sprint-2--start-frontend-and-design-backend-080321-150321)
-   * [Sprint 3 : Deploy the product (15.03.21-22.03.21)](#sprint-3--deploy-the-product-150321-220321)
+   * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--deploy-the-product-150321-220321)
    * [Sprints paused : other work commitments/no new tasks (22.03.21-05.04.21)](#sprints-paused--other-commitments-no-new-tasks-220321-050421)
-   * [Sprint 4 : User testing (05.04.21-12.04.21)](#sprint-4--user-testing-050421-120421)
+   * [Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)](#sprint-4--user-testing-050421-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
-   * [Sprint 6 : Improving added features (19.04.21-26.04.21)](#sprint-6--improving-added-features-190421-260421)
-   * [Sprint 7 : Testing and obtaining feedback before release (26.04.21-03.05.21)](#sprint-7--testing-and-obtaining-feedback-before-release-260421-030521)
+   * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--improving-added-features-190421-260421)
+   * [Sprint 7 : Pages made responsive, authentication implemented, and adding additional features (26.04.21-03.05.21)](#sprint-7--testing-and-obtaining-feedback-before-release-260421-030521)
 * [**Team use of GitHub**](#team-use-of-github)
 
 
@@ -192,6 +192,8 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
+ Each of the items in the backlog is tagged with 'finished' and 'unfinished' -> add something about this.
+
 ## Sprint 1 : Ideation and Setup (01.03.21-08.03.21)
 ___
 
@@ -244,7 +246,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 
    * GitHub protocol established
    * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
+   * Lizhao presented the paper prototype.
    * Chris updated on progress of the Java produced Connect 4 game.
    * Browsed previously completed group projects together.
 
@@ -310,34 +312,36 @@ During this sprint, our focus was to get started on the frontend. This was becau
 
 
 
-## Sprint 3 : Deploy the product (15.03.21-22.03.21)
+## Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)
 ___
 
-The aim of this sprint was to have something to show our stakeholders and obtain feedback.
+The aim of this sprint was to have something to show our stakeholders which we could obtain feedback on. By this point, the backlog items of building a start page and adding audio to the start page were implemented which allowed us to show our stakeholders the structure and layout of the first page. This helped inform our understanding of the UI and UX, and started a useful dialogue with our end-users.
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
-   * Set up GitHub repository and familiarised ourselves with the platform.
+   * Obtain feedback from users regarding the start page.
+   * Create UI wireframe and obtain user feedback.
+   * Create and circulate questionnaire regarding UI wireframe
+   * Start building back-end
+   * Continue with documentation with a focus on Sprints and project management
 
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
-   * Chris updated on progress of the Java produced Connect 4 game.
-   * Browsed previously completed group projects together.
+   * Build start page.
+   * Add audio to start page.
+   * Memory game and connect four build underway.
+   * Backend designed.
+   * Documentation underway with a focus on background research and UX design.
 
 
 ### Backlog items
 
 ```
-  → Backlog item: research video chat APIs
-  → Backlog item: create start page
-  → Backlog item: create login
-  → Backlog item: add audio to start page
+  → Backlog item: Continue researching video chat APIs
+  → Backlog item: Obtain user feedback on UI wireframe
+  → Backlog item: Create login
+  → Backlog item: Build basic version of games and obtain feedback
 
 ```
 
@@ -385,6 +389,22 @@ The aim of this sprint was to have something to show our stakeholders and obtain
 </tr>
 </table>
 
+#### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
+</tr>
+</table>
+
 
 ### Evaluation of Sprint
 
@@ -393,11 +413,12 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 ## Sprints paused : other work commitments/no new tasks (22.03.21-05.03.21)
 ___
 
-By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These two reasons were, we felt, sufficient to warrant pausing the sprints before moving on to the next sprint.
+By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items.
 
-This was a decision we took based on the situation we found ourselves in - one which demonstrates the flexible nature of the methodology.
+Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
 
-## Sprint 4 : User testing (05.03.21-12.04.21)
+
+## Sprint 4 : User testing and adding multiplayer functionality (05.03.21-12.04.21)
 ___
 
 
@@ -553,7 +574,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 ### Evaluation of Sprint
 
 
-## Sprint 6 : Improving added features (19.04.21-26.04.21)
+## Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)
 
 ___
 
@@ -632,7 +653,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-## Sprint 7 : Testing and obtaining feedback before release (26.04.21-03.05.21)
+## Sprint 7 : Pages made responsive, authentication implemented, and completing documentation (26.04.21-03.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
