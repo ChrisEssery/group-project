@@ -494,6 +494,22 @@ The aim of this sprint was to make sure our application, including the video cha
 </tr>
 </table>
 
+#### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
+</tr>
+</table>
+
 ### Evaluation of Sprint
 
 ## Sprint 5 : Adding new features (12.04.21-19.04.21)
@@ -568,6 +584,22 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>Paper prototype and research target population</td>
  <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
 </tr>
+</tr>
+</table>
+
+#### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
 </tr>
 </table>
 
@@ -649,6 +681,22 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
+#### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
+</tr>
+</table>
+
 ### Evaluation of Sprint
 
 
@@ -724,6 +772,22 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>Paper prototype and research target population</td>
  <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
 </tr>
+</tr>
+</table>
+
+#### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
 </tr>
 </table>
 
