@@ -180,7 +180,34 @@ The first page is the start page. This is shown below.
 Let's take a closer look at the main features of this page. This consisted of three separate components, including a background, title, and btngrp1 component.
 
  * [Start-page.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/start-page.component.html). Add information
+
+ ```
+ <app-background></app-background>
+ <app-title></app-title>
+ <br>
+ <br>
+ <br>
+ <br>
+ <app-btngrp1></app-btngrp1>
+
+ ```
+
  * [Background.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css). Add information
+
+ The following code was used to make the screen responsive to different variations in screen size.
+
+ ```
+ @media screen and (max-width:1024px) {
+   /* Specific to this particular image */
+   .bgPulse {
+     left:50%;
+     margin-left: -512px;
+     /* 50% */
+   }
+ }
+
+ ```
+
  * [Title.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/title.component.css). Add information
 
 ### Login
