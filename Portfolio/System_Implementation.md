@@ -161,7 +161,7 @@ Angular is great for getting creating a professional UI in very little time. The
 
 ### Details of Implementation
 
-For our front-end, we had a number of separate pages. These pages each consisted of a number of components linked together via Angular router, allowing the user to navigate from one page to another. Let's consider these pages, identify notable features with links to the code. 
+For our front-end, we had a number of separate pages. These pages each consisted of a number of components linked together via Angular router, allowing the user to navigate from one page to another. Let's consider these pages, identify notable features with links to the code.
 
 #### Start page
 
@@ -169,7 +169,7 @@ The first page is the start page. This is shown below. The html code associated 
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/login.png)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/start-page.png)
 
 </div>
 
