@@ -797,7 +797,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ## Team use of GitHub
 
-One of the most important tools we used during this project was GitHub, the open-source code hosting service for building software and sharing code. This was indispensable throughout the development. And it was very important we used the platform in a structured and rational way. So, with this in mind we decided to draw up some guidelines on how to use GitHub. This was essential since it meant that we were able to push progress onto the repository where everyone could access it and commit further changes.
+One of the most important tools we used during this project was GitHub, the open-source code hosting service for building software and sharing code. This was indispensable throughout the development. But it was important that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
 
 We created a number of branches. First, there was our main branch. This was were our finalised documentation and code would sit. We periodically merged this branch with our development, or 'dev' branch.  
 
