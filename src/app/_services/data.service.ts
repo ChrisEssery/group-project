@@ -26,6 +26,11 @@ export class DataService {
     return this.httpClient.get(this.REST_API_SERVER_USER+'/info/'+username)
   }
 
+  updateUserInfo(username: String, info:any){
+    username= username.replace(/['"]+/g, '');
+    return this.httpClient.put(this.REST_API_SERVER_USER+'/info/'+username, info)
+  }
+
   addAFriend(friendname: String, username:String){
     username= username.replace(/['"]+/g, '');
     return this.httpClient.post(this.REST_API_SERVER_USER+'/friends/'+username, friendname)

@@ -102,3 +102,17 @@
 .result{
     color: greenyellow;
 }
+.choice{
+    cursor: pointer;
+}
+.presenting{
+    display: none;
+}
+::placeholder {
+    color: whitesmoke;
+    opacity: 0.3; /* Firefox */
+}
+.form-control{
+    background:transparent;
+    color:yellowgreen;
+}
