@@ -812,7 +812,11 @@ After setting up GitHub, we realised it was important to utilise the branch-base
 
 The dev branch ('dev' for develop) was the main branch for new pull requests and code commits, and as such it was where the majority of our code and documentation was stored. We would push code to the dev branch from branches we were working on, and periodically merge the dev branch with the main branch once we had reached major milestones such as creating the start-page, games, and completing documentation. The main branch (formerly known as the 'master' branch) was where our finalised code and documentation would sit.
 
-With regards to the other branches, our GitHub protocol was as follows. Create a new branch for every new feature and pull from dev branch regularly. Once that feature is complete, then create a pull request, and someone else from the team either approves the request or asks for changes. At this point, merge the branch with dev.
+With regards to the other branches, our GitHub protocol was as follows.
+ 1. Create a new branch for every new feature and pull from dev branch regularly.
+ 2. Once that feature is complete, then create a pull request, and someone from the team either approves or asks for request changes.
+ 3. Next, merge the branch with the dev branch.
+ 4. If merge successful, delete branch.
 
 
 ___
