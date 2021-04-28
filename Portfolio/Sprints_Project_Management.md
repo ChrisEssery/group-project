@@ -315,9 +315,9 @@ During this sprint, our focus was to get started on the front-end of the MEAN st
 ## Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)
 ___
 
-The aim of this sprint was to show the stakeholders our start page and obtain their feedback. By this point, the backlog items of building a start page and adding audio to the start page had been implemented by the end of the previous sprint. This gave us a great opportunity to show our stakeholders the style, structure and layout of the first page, which would in turn inform our understanding of the UI and UX. Having this knowledge would then give us an understanding of how to approach the remaining pages of the SPA. Further to this, we started this sprint with new insights we'd acquired from our state of the art survey, which gave us a better understanding of similar online gaming platforms and any gaps in the market. We discovered that, to the best of our knowledge, there were no online games for the elderly which had video chat and a very simple, intuitive layout. This encouraged us to pursue with adding video chat to our games, and cemented our belief that the UI should be as straightforward as possible.
+The aim of this sprint was to show the stakeholders our start page and obtain their feedback. By this point, the backlog items of building a start page and adding audio to the start page had been implemented by the end of the previous sprint. This gave us a great opportunity to show our stakeholders the style, structure and layout of the first page, which would in turn inform our understanding of the UI and UX. Having this knowledge would then give us an understanding of how to approach the remaining pages of the SPA. Further to this, we started this sprint with new insights we'd acquired from our state of the art survey, which gave us a better understanding of similar online gaming platforms and any gaps in the market. We discovered that, to the best of our knowledge, there were no online games for the elderly which had video chat and a very simple, intuitive layout. This encouraged us to pursue adding a video chat feature to our games, and cemented our belief that the UI should be as straightforward as possible.
 
-For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. 
+For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. We also agreed it was important to get working versions of the games in front of the users as soon as possible, and to continue with documentation but with a focus on sprints and project management.
 
 ### Key points
 
@@ -403,7 +403,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
   <td>Front-End</td>
   <td>Stakeholders are able to see the start page.</td>
-  <td>Insert here</td>
+  <td>INSERT HERE -> Audio file wasn't working properly or something like that??</td>
   <td>Insert solution here and future implementations.</td>
 </tr>
 </table>
@@ -411,7 +411,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 
 ### Evaluation of Sprint
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we were able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle.
+We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints. 
 
 ## Sprints paused : complete backlog items and other work commitments (22.03.21-05.03.21)
 ___
