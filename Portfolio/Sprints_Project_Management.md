@@ -22,13 +22,13 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Communication**](#communication)
 * [**Documentation of sprints**](#documentation-of-sprints)
    * [Sprint 1 : Ideation and Setup (01.03.21-08.03.21)](#sprint-1--ideation-and-setup-010321-080321)
-   * [Sprint 2 : Build game frontend and design backend (08.03.21-15.03.21)](#sprint-2--start-frontend-and-design-backend-080321-150321)
-   * [Sprint 3 : Deploy the product (15.03.21-22.03.21)](#sprint-3--deploy-the-product-150321-220321)
-   * [Sprints paused : other work commitments/no new tasks (22.03.21-05.04.21)](#sprints-paused--other-commitments-no-new-tasks-220321-050421)
-   * [Sprint 4 : User testing (05.04.21-12.04.21)](#sprint-4--user-testing-050421-120421)
+   * [Sprint 2 : Start building front-end and design back-end (08.03.21-15.03.21)](#sprint-2--start-building-front-end-and-design-back-end-080321-150321)
+   * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--obtain-user-feedback-and-continue-building-front-end-150321-220321)
+   * [Sprints paused : Complete backlog items and other work commitments (22.03.21-05.04.21)](#sprints-paused--complete-backlog-items-and-other-work-commitments-220321-050421)
+   * [Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)](#sprint-4--user-testing-and-adding-multiplayer-functionality-050421-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
-   * [Sprint 6 : Improving added features (19.04.21-26.04.21)](#sprint-6--improving-added-features-190421-260421)
-   * [Sprint 7 : Testing and obtaining feedback before release (26.04.21-03.05.21)](#sprint-7--testing-and-obtaining-feedback-before-release-260421-030521)
+   * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
+   * [Sprint 7 : Pages made responsive and authentication implemented (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-authentication-implemented-260421-030521)
 * [**Team use of GitHub**](#team-use-of-github)
 
 
@@ -192,6 +192,8 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
+ Each of the items in the backlog is tagged with 'finished' and 'unfinished' -> add something about this.
+
 ## Sprint 1 : Ideation and Setup (01.03.21-08.03.21)
 ___
 
@@ -223,29 +225,28 @@ This was our first sprint. The main goal of this sprint was to establish a commu
 
 Another area we could have improved on was the approach taken to the Agile methodology. Specifically, we should have taken time to learn the methodology and be able to draw out a rough timeline for our development lifecycle. This would have given us structure and reassurance that we were tackling the tasks at hand in the correct way. That said, we still defined our weekly goals and had established several lines of communication which all served to keep every team member up-to-date on group progress.
 
-After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't much we could ask our user's since we were in a very early stage.
+After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't anything we could ask our users because we had nothing to show them before the end of this first sprint.
 
 
-## Sprint 2 : Build game frontend and design backend (08.03.21-15.03.21)
+## Sprint 2 : Start building front-end and design back-end (08.03.21-15.03.21)
 ___
 
-The aim of this sprint was to get something built and pushed onto GitHub. We decided to build four games and assigned two of those games to different team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find establish any problems or issues they might have we the product and closely follow the agile methodology.
+The aim of this sprint was to get something built and pushed onto GitHub. We decided to build four games and assigned two of those games to different team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find any problems or issues they might encounter when using the product and thereby follow the agile methodology.
 
 ### Key points
 
   * Games allocated to team members
-  * Chris updated on progress of Connect 4 game.
   * Browsed previously completed group projects together and took notes.
   * Discussed stakeholder stories and their feedback.
-  * Start documentation early, creating sections and subsections according to report instructions.
+  * Work on documentation with a focus on background research and state-of-the-art survey.
 
 
 ### Key implementations from previous sprint
 
    * GitHub protocol established
    * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
-   * Chris updated on progress of the Java produced Connect 4 game.
+   * Paper prototype and paper prototype video shown to users.
+   * Update given on progress of games.
    * Browsed previously completed group projects together.
 
 ### New backlog items
@@ -255,6 +256,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
    → Backlog item: add audio to start page
    → Backlog item: start building games
    → Backlog item: design backend
+   → Backlog item: conduct background research and state-of-the-art survey
 
  ```
 
@@ -274,16 +276,16 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
  <td>N/A</td>
- <td>Paper prototype.</td>
- <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
+ <td>Paper prototype video.</td>
+ <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype, but I think I would need some instructions on how to use it. For instance, what is the difference between login and guest? I don't entirely understand what this means. Could you perhaps add some instructions? </td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>N/A.</td>
- <td>Paper prototype</td>
- <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+ <td>Paper prototype video</td>
+ <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me see my friends and family members. The paper prototype video is clear and easy to follow, and I think having different levels of difficulty would be really good as I'd quite like to challenge myself, but I was hoping there would be a leaderboard so I know how well I'm doing.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -291,7 +293,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
 <td>N/A</td>
 <td>Create stakeholder stories</td>
-<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimum viable product as soon as you can.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -299,45 +301,50 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>N/A</td>
  <td>Paper prototype and research target population</td>
- <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+ <td>I like the look of this video paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
 </tr>
 </tr>
 </table>
 
 ### Evaluation of Sprint
 
-During this sprint, our focus was to get started on the frontend. This was because we wanted to have something to show our users as earlier as possible to obtain feedback and make changes and modifications based on their responses. The backlog of items implemented from the previous sprint, such as creating stakeholder stories and creating a paper prototype were crucial to make sure that we were adopting the agile framework, putting the end-user first and changing and refining the product according to their feedback.
+During this sprint, our focus was to get started on the front-end of the MEAN stack. This was because we wanted to have something to show our users as earlier as possible to obtain feedback which we could then use to influence changes and refinements of the product design. The backlog of items implemented from the previous sprint, such as creating stakeholder stories and a paper prototype were crucial to make sure that we were adopting the agile framework, putting the end-user first and adapting the product according to their feedback. We felt that this should always be at the forefront of all sprints, and we recognised that our product manager and sponsor proto-personas would as help inform our design and development process.
 
 
 
-## Sprint 3 : Deploy the product (15.03.21-22.03.21)
+## Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)
 ___
 
-The aim of this sprint was to have something to show our stakeholders and obtain feedback.
+The aim of this sprint was to show the stakeholders our start page and obtain their feedback. By this point, the backlog items of building a start page and adding audio to the start page had been implemented by the end of the previous sprint. This gave us a great opportunity to show our stakeholders the style, structure and layout of the first page, which would in turn inform our understanding of the UI and UX. Having this knowledge would then give us an understanding of how to approach the remaining pages of the SPA. Further to this, we started this sprint with new insights we'd acquired from our state of the art survey, which gave us a better understanding of similar online gaming platforms and any gaps in the market. We discovered that, to the best of our knowledge, there were no online games for the elderly which had video chat and a very simple, intuitive layout. This encouraged us to pursue adding a video chat feature to our games, and cemented our belief that the UI should be as straightforward as possible.
+
+For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. We also agreed it was important to get working versions of the games in front of the users as soon as possible, and to continue with documentation but with a focus on sprints and project management.
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
-   * Set up GitHub repository and familiarised ourselves with the platform.
+   * Obtain feedback from users regarding the start page.
+   * Create UI wireframe and obtain user feedback.
+   * Create and circulate questionnaire regarding UI wireframe.
+   * Start building back-end.
+   * Build basic versions of games and obtain user feedback.
+   * Continue with documentation with a focus on Sprints and project management.
 
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
-   * Chris updated on progress of the Java produced Connect 4 game.
-   * Browsed previously completed group projects together.
+   * Build start page.
+   * Add audio to start page.
+   * Memory game and connect four build underway.
+   * Backend design started.
+   * Documentation underway with a focus on background research and UX design.
 
 
-### Backlog items
+### New backlog items
 
 ```
-  → Backlog item: research video chat APIs
-  → Backlog item: create start page
-  → Backlog item: create login
-  → Backlog item: add audio to start page
+  → Backlog item: Continue researching video chat APIs
+  → Backlog item: Obtain user feedback on UI wireframe through a questionnaire
+  → Backlog item: Create login
+  → Backlog item: Build basic version of games and obtain feedback
 
 ```
 
@@ -385,19 +392,36 @@ The aim of this sprint was to have something to show our stakeholders and obtain
 </tr>
 </table>
 
+### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>INSERT HERE -> Audio file wasn't working properly or something like that??</td>
+  <td>Insert solution here and future implementations.</td>
+</tr>
+</table>
+
 
 ### Evaluation of Sprint
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we were able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle.
+We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
-## Sprints paused : other work commitments/no new tasks (22.03.21-05.03.21)
+## Sprints paused : complete backlog items and other work commitments (22.03.21-05.03.21)
 ___
 
-By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These two reasons were, we felt, sufficient to warrant pausing the sprints before moving on to the next sprint.
+By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items.
 
-This was a decision we took based on the situation we found ourselves in - one which demonstrates the flexible nature of the methodology.
+Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
 
-## Sprint 4 : User testing (05.03.21-12.04.21)
+
+## Sprint 4 : User testing and adding multiplayer functionality (05.03.21-12.04.21)
 ___
 
 
@@ -470,6 +494,22 @@ The aim of this sprint was to make sure our application, including the video cha
  <td>Paper prototype and research target population</td>
  <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
 </tr>
+</tr>
+</table>
+
+### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
 </tr>
 </table>
 
@@ -550,10 +590,26 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
+### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
+</tr>
+</table>
+
 ### Evaluation of Sprint
 
 
-## Sprint 6 : Improving added features (19.04.21-26.04.21)
+## Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)
 
 ___
 
@@ -628,11 +684,27 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
+### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
+</tr>
+</table>
+
 ### Evaluation of Sprint
 
 
 
-## Sprint 7 : Testing and obtaining feedback before release (26.04.21-03.05.21)
+## Sprint 7 :  Pages made responsive and authentication implemented (26.04.21-03.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
@@ -703,6 +775,22 @@ The aim of this sprint was to decide on our architecture and how we intended to 
  <td>Paper prototype and research target population</td>
  <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
 </tr>
+</tr>
+</table>
+
+### Technical problems and solutions:
+<table>
+<tr>
+  <th>Component of MEAN stack</th>
+  <th>Action</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Stakeholders are able to see the start page.</td>
+  <td>Insert here</td>
+  <td>Insert solution here and future implementations.</td>
 </tr>
 </table>
 
@@ -712,14 +800,23 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ## Team use of GitHub
 
-At the centre of this whole project was GitHub. It was an indispensable platform which we used to great effect. Given the importance of this platform, we knew that it was very important that we used the platform in a structured and rational way. As such, we decided to draw up some guidelines on how to use GitHub. Going forward, this was essential since it meant that we were able to push progress onto the repository where everyone could access it and commit further changes.
+One of the most important tools we used during this project was GitHub. Github is an open-source code hosting service for building software and sharing code. It proved indispensable throughout the development. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
 
-We created a number of branches. First, there was our main branch. This was were our finalised documentation and code would sit. We periodically merged this branch with our development, or 'dev' branch.  
+After setting up GitHub, we realised it was important to utilise the branch-based workflow of the platform. As such, we created a number of different branches, 12 in total. Each branch was given a unique name and contained a unique set of code and documentation changes. This was to make sure that every team member had a specific feature to work on, and diverge from the main line of development.
 
-1. Create dev branch
-2. Create game branches
-3. Create database branch
-4. Create multiplayer branch
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/branches.png)
+
+</div>
+
+The dev branch ('dev' for develop) was the main branch for new pull requests and code commits, and as such it was where the majority of our code and documentation was stored. We would push code to the dev branch from branches we were working on, and periodically merge the dev branch with the main branch once we had reached major milestones such as creating the start-page, games, and completing documentation. The main branch (formerly known as the 'master' branch) was where our finalised code and documentation would sit.
+
+With regards to the other branches, our GitHub protocol was as follows.
+ 1. Create a new branch for every new feature and pull from dev branch regularly.
+ 2. Once that feature is complete, then create a pull request, and someone from the team either approves or asks for request changes.
+ 3. Next, merge the branch with the dev branch.
+ 4. If merge successful, delete branch.
 
 
 ___

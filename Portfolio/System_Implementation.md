@@ -27,7 +27,7 @@ In this section, we discuss the the system implementation of the app. We start w
 * [**Front end**](#front-end)
    * [Angular](#angular)
    * [Details of Implementation](#details-of-implementation)
-* [**Authentication**](#authentication)
+* [**Additional elements and components**](#additional-elements-and-components)
    * [Details of Implementation](#details-of-implementation)
 * [**Deployment and integration**](#deployment-and-integration)
    * [Details of Implementation](#details-of-implementation)
@@ -102,7 +102,11 @@ Another advantage of mongoDB is that it is highly scalable. Were we to continue 
 
 So, why didn't we use a SQL database instead? We decided not to do this because we wanted to use the MEAN stack, which is a recognised stack that enables quick builds, and we also recognised that, for our purposes, we don't require a database to hold data with lots of connections. Instead, the data we will be storing requires very few. Give this fact, we felt it wasn't necessary to use SQL.
 
+<div align="center">
+
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Mongooseicon.png)
+
+</div>
 
 With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilizes an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for easy front-end use.
 
@@ -161,10 +165,137 @@ Angular is great for getting creating a professional UI in very little time. The
 
 ### Details of Implementation
 
+For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
 
-## Authentication (Shouldn't this be changed to 'Additional elements and components'?, here extra elements could be explained such as Chris' Jitsy video feed etc.)
+### Start page
 
-We will now cover our approach to authentication.
+The first page of our application is the start page. This is shown below.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/start-page.png)
+
+</div>
+
+Let's take a closer look at the main features of this page. This consisted of three separate components, including a background, title, and btngrp1 component.
+
+ * [Start-page.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/start-page.component.html). Add information
+
+ ```
+ <app-background></app-background>
+ <app-title></app-title>
+ <br>
+ <br>
+ <br>
+ <br>
+ <app-btngrp1></app-btngrp1>
+
+ ```
+
+ * [Background.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css). Add information
+
+ The following code was used to make the screen responsive to different variations in screen size, including mobile responsiveness. This was important as we were aware that some users would want to access and view their profile and the leaderboard using their smartphones and/or tablets.
+
+ ```
+ @media screen and (max-width:1024px) {
+   /* Specific to this particular image */
+   .bgPulse {
+     left:50%;
+     margin-left: -512px;
+     /* 50% */
+   }
+ }
+
+ ```
+
+ * [Title.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/title.component.css). Add information
+
+### Login
+
+The next page is the login. This is shown in the image below:
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/login-page.png)
+
+</div>
+
+The main features of the login were
+
+ * [Login.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.ts). Add information
+
+ ```
+ login(){
+    const formData = this.checkLoginForm
+    this.authService.login(formData).subscribe(
+      (data:any)=>{
+        this.errMsg = ''
+        this.tokenStorageService.saveToken(data.token)
+        this.tokenStorageService.saveUser(data.user)
+        this.router.navigate(['/home'])
+      },
+      error=>{
+        if(error.status === 401) {
+          this.errMsg ="invalid username/password"
+        }
+      }
+    )
+
+  ```  
+ * [Login.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.html). Add information
+ * [Login.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.css). Add information
+
+### Games
+
+We chose to build just two games. Here are the main features of these games:
+
+### Leaderboard
+
+One important part of our product was to have a leaderboard. Here is the leaderboard:
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/leaderboard.png)
+
+</div>
+
+The main features of the leaderboard are in the following component:
+
+ * [Leaderboard.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.ts) Add information
+
+ This calls dataService.getWinsLeaderboard which is found under services
+ ```
+ ngOnInit(): void {
+    this.dataService.getWinsLeaderboard(10).subscribe(
+      (data:any)=>{
+        this.players=data
+        console.log(data)
+      },
+      error=>{
+        console.log("fail to load the data")
+      }
+    )
+  }
+
+  ```
+  The getWinsLeaderboard in data.service.ts:
+
+  ```
+
+  getWinsLeaderboard(limit: number){
+    return this.httpClient.get(this.REST_API_SERVER_USER+'/leaderboard/'+limit)
+  }
+
+  ```
+ * [Leaderboard.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/home-page/leaderboard/leaderboard.component.html) Add information
+
+### Profile
+
+Add information on this page.
+
+## Additional elements and components
+
+We will now cover the additional elements and components we added to our application.
 
 ### Details of Implementation
 

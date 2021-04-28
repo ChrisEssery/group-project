@@ -135,17 +135,24 @@ There is, we feel, a lot of scope for future work in this area. In particular...
 One possible extension concerns adding more games to the platform. Originally, we had planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning minimum viable product with two games at an early stage in the agile cycle than to deploy one with more games at the very end of the the lifecycle.
 
 
-Another extension concerns
+Another extension concerns adding an 'invite friends to play' feature.
 
 
 A further extension concerns
 
-One added feature that would have benefited the project would have been to clearly outline hypotheses which are investigated in a small-scale study. As Alan (1999) points out, hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. This could have been done to assess the affects of online games on subjective feelings of loneliness. This is an area of research which our product could have been put to good use.
 
 
 ### Impact of our work
 
-The ubiquity of smartphones and the self-centric orientation of their technologies capable of tracking and recording human behaviour indicates that PI systems will continue to play an important role in future research methods. Our project attempts to overcome the shortcomings of previous gaming platforms by utilising self-monitoring to unobtrusively gather data on user behaviours and associated stress levels in a variety of contexts which in turn simplifies the collection and management of data, reducing the burden of self-monitoring (Rapp, 2016). Building upon contemporary research, this project pushes the field forward and provides a promising point of departure for future methods.
+Our product could arguably be used to garner data on the affect playing computer games has on individuals who are lonely and isolated.
+
+Our project attempts to overcome the shortcomings of previous gaming platforms by utilising video chat and a simple user interface. There is also scope for using
+
+
+Although we lacked the time and resources to conduct research, one potential future area of work which our product could be applied to is research on loneliness and isolation in the elderly. In particular, researchers could conduct a small-scale study in which users' self-reported levels of loneliness and isolation are measured over a set period of time. As Alan (1999) points out, this type of hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. One future use of our application, therefore, could involve assessing the affects of our product on subjective feelings of loneliness in older adults. This is an area of research which our product could have been put to good use. The ubiquity of computers and smartphones and the self-centric orientation of their technologies capable of connecting individuals from across the globe indicates that multiplayer games with video functionality could play an important role in future research on loneliness in older adults.
+
+
+Building upon contemporary work, this project pushes the field forward and provides a promising point of departure for future methods.
 
 ### Design, development, and evaluation
 

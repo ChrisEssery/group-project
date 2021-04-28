@@ -26,6 +26,10 @@ In this section, we evaluate our app. We start by evaluating the design of the a
 
 ## Evaluation of design
 
+TO DO: Evaluation of design. Need to decide on methods and write this up.
+
+Some ideas for the evaluation of design:
+
 When it came to the design of the project we felt... with this in mind, we will now evaluate the strengths, weaknesses and potential extensions of the design before reflecting on the lessons we've learned about this aspect of the project.
 
 Our process for analysing the data was tailored to the circumstances. Compare the insights from our questionnaire. We verbally state what we believe to be the key insights.
@@ -58,11 +62,11 @@ With regard to the strengths of the design, we kept the project brief of serious
 
 ### Weaknesses
 
-Given the time constraints of this unit, we were unable to use as many evaluation techniques as we would have ilked. Focus groups, interviews and observations all would have been invaluable methods for garnering data about our target group, their needs and interactions with out product. Questionnaires proved to be a very uesful method for answering specific questions about our paper prototype and wireframe, and it opened up the possiblity for quantitative data. It had the advantage of being able to reach many people with low resource requirements and the disadvantage that the design and phrasing of the questions needed to be well constructure to provide suitatele, reliable data and avoid the negative effects of human judgment bias.
+Given the time constraints of this unit, we were unable to use as many evaluation techniques as we would have liked. Focus groups, interviews and observations all would have been invaluable methods for garnering data about our target group, their needs and interactions with out product. Questionnaires proved to be a very useful method for answering specific questions about our paper prototype and wireframe, and it opened up the possibility for quantitative data. It had the advantage of being able to reach many people with low resource requirements and the disadvantage that the design and phrasing of the questions needed to be well constructed to provide strong, reliable data and avoid the negative effects of human judgment bias.
 
-Another limitation of our approach with the questionnaires concerning the size of the study. In the study, participants were recruited through ‘snowball sampling' (i.e. word of mouth) with 11 out of 13 participants known to the author. Two problems arise. First, the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population (Keeble, 2013). Whilst the author acknowledges this shortcoming, she fails to discuss who the target audience are and how she would recruit them. Second, given that the participants were known to the author, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity (Keeble, 2013, p. 1). To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment would have generated a larger, more diverse pool of participants not known to the author and mitigated against the lack of generalisability and participation bias (Keller, 2016, p. 83).
+Another limitation of our approach with the questionnaires concerning the size of the questionnaires we conducted. In the questionnaire, participants were recruited through ‘snowball sampling' (i.e. word of mouth) with all participants known to our team. Two problems arise. First, the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population (Keeble, 2013). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. Second, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity (Keeble, 2013, p. 1). To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias (Keller, 2016, p. 83).
 
-One may object, however, that the exploratory nature of the study limits its precision and scope. Instead, it would have benefited from descriptive research (Alan, 1999). But this misses the point. The project is designed to explore research questions. Its main limitation, however, is that it fails to use other exploratory methodologies such as interviews and focus groups to inform the results of the small-scale study (Reiter, 2017).
+One may object, however, that the exploratory nature of our approach limits its precision and scope. Instead, it would have benefited from descriptive research (Alan, 1999). But this misses the point. Our project was designed to explore research questions. Its main limitation, however, is that it fails to use other exploratory methodologies such as interviews and focus groups to inform the results of our user feedback (Reiter, 2017).
 
 
 
@@ -79,7 +83,11 @@ We have learned many lessons...
 
 Unit testing is obviously very important when it comes to building a prototype web application. One important point concerns the practicality of unit testing. A testing harness offers a standardised framework for automatically testing code. It serves to ensure that the code does not regress to a weaker state (which can be overcome through regression testing) and makes the code clear and maintainable.
 
+Include links to the unit testing code as well as code snippets.
+
 ### Testing harness
+
+
 
 ### Rationale
 
