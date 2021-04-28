@@ -802,7 +802,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 One of the most important tools we used during this project was GitHub. Github is an open-source code hosting service for building software and sharing code. It proved indispensable throughout the development. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
 
-We created a number of branches, 12 in total. This was to make sure that every team member had a specific feature to work on.
+After setting up GitHub, we realised it was important to utilise the branch-based workflow of the platform. As such, we created a number of different branches, 12 in total. Each branch was given a unique name and contained a unique set of code and documentation changes. This was to make sure that every team member had a specific feature to work on, and diverge from the main line of development.
 
 <div align="center">
 
@@ -810,10 +810,9 @@ We created a number of branches, 12 in total. This was to make sure that every t
 
 </div>
 
-The 'dev' branch (dev for develop) was did a lot of our coding and documentation. We would push code to the dev branch from branches we were working on, and periodically merge the dev branch with the main branch once we had reached major milestones such as creating the start-page, games, and completing documentation.
-The main branch (formerly known as the 'master' branch) was where our finalised code and documentation would sit.
+The dev branch ('dev' for develop) was the main branch for new pull requests and code commits, and as such it was where the majority of our code and documentation was stored. We would push code to the dev branch from branches we were working on, and periodically merge the dev branch with the main branch once we had reached major milestones such as creating the start-page, games, and completing documentation. The main branch (formerly known as the 'master' branch) was where our finalised code and documentation would sit.
 
-With regards to the other branches, our GitHub protocol was as follows. Create a new branch for every new feature and make sure to pull from dev branch regularly. Once that feature is complete, then create a pull request, and someone else from the team either approves the request or asks for changes. At this point, merge the branch with dev.
+With regards to the other branches, our GitHub protocol was as follows. Create a new branch for every new feature and pull from dev branch regularly. Once that feature is complete, then create a pull request, and someone else from the team either approves the request or asks for changes. At this point, merge the branch with dev.
 
 
 ___
