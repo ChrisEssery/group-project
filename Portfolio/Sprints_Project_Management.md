@@ -225,7 +225,7 @@ This was our first sprint. The main goal of this sprint was to establish a commu
 
 Another area we could have improved on was the approach taken to the Agile methodology. Specifically, we should have taken time to learn the methodology and be able to draw out a rough timeline for our development lifecycle. This would have given us structure and reassurance that we were tackling the tasks at hand in the correct way. That said, we still defined our weekly goals and had established several lines of communication which all served to keep every team member up-to-date on group progress.
 
-After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't much we could ask our user's since we were in a very early stage.
+After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't anything we could ask our users because we had nothing to show them before the end of this first sprint.
 
 
 ## Sprint 2 : Start games front-end and design back-end (08.03.21-15.03.21)
@@ -308,7 +308,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 
 ### Evaluation of Sprint
 
-During this sprint, our focus was to get started on the frontend. This was because we wanted to have something to show our users as earlier as possible to obtain feedback and make changes and modifications based on their responses. The backlog of items implemented from the previous sprint, such as creating stakeholder stories and creating a paper prototype were crucial to make sure that we were adopting the agile framework, putting the end-user first and changing and refining the product according to their feedback.
+During this sprint, our focus was to get started on the front-end of the MEAN stack. This was because we wanted to have something to show our users as earlier as possible to obtain feedback which we could then use to influence changes and refinements of the product design. The backlog of items implemented from the previous sprint, such as creating stakeholder stories and a paper prototype were crucial to make sure that we were adopting the agile framework, putting the end-user first and adapting the product according to their feedback. We felt that this should always be at the forefront of all sprints, and we recognised that our product manager and sponsor proto-personas would as help inform our design and development process. 
 
 
 
@@ -806,7 +806,7 @@ We created a number of branches. First, there was our main branch. This was were
 3. Create database branch
 4. Create multiplayer branch
 
-We then continued to create different branches for various different purposes, such as 
+We then continued to create different branches for various different purposes, such as
 
 ___
 
