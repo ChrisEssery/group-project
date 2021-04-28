@@ -497,7 +497,7 @@ The aim of this sprint was to make sure our application, including the video cha
 </tr>
 </table>
 
-#### Technical problems and solutions:
+### Technical problems and solutions:
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -590,7 +590,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
-#### Technical problems and solutions:
+### Technical problems and solutions:
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -684,7 +684,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
-#### Technical problems and solutions:
+### Technical problems and solutions:
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -778,7 +778,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
-#### Technical problems and solutions:
+### Technical problems and solutions:
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -800,16 +800,21 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ## Team use of GitHub
 
-One of the most important tools we used during this project was GitHub. Github is an open-source code hosting service for building software and sharing code. It proved indispensable throughout the development. But it was important that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
+One of the most important tools we used during this project was GitHub. Github is an open-source code hosting service for building software and sharing code. It proved indispensable throughout the development. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
 
-We created a number of branches. First, there was our main branch. This was were our finalised documentation and code would sit. We periodically merged this branch with our development, or 'dev' branch.  
+We created a number of branches, 12 in total. This was to make sure that every team member had a specific feature to work on.
 
-1. Create dev branch
-2. Create game branches
-3. Create database branch
-4. Create multiplayer branch
+<div align="center">
 
-We then continued to create different branches for various different purposes, such as
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/branches.png)
+
+</div>
+
+The 'dev' branch (dev for develop) was did a lot of our coding and documentation. We would push code to the dev branch from branches we were working on, and periodically merge the dev branch with the main branch once we had reached major milestones such as creating the start-page, games, and completing documentation.
+The main branch (formerly known as the 'master' branch) was where our finalised code and documentation would sit.
+
+With regards to the other branches, our GitHub protocol was as follows. Create a new branch for every new feature and make sure to pull from dev branch regularly. Once that feature is complete, then create a pull request, and someone else from the team either approves the request or asks for changes. At this point, merge the branch with dev.
+
 
 ___
 
