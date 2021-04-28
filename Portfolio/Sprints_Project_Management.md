@@ -392,7 +392,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 </tr>
 </table>
 
-#### Technical problems and solutions:
+### Technical problems and solutions:
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -411,7 +411,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 
 ### Evaluation of Sprint
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints. 
+We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a minimum viable product, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
 ## Sprints paused : complete backlog items and other work commitments (22.03.21-05.03.21)
 ___
