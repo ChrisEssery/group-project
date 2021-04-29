@@ -124,11 +124,14 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
   <b align="center">UI Wireframe</b>
   <br/><br/>
 </p>
+
 The UI wireframe above provides a low-fidelity skeleton of the UI. This serves to show the main features, layout, content, and functionality of the UI, without getting bogged down in the visual design of the app. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software, and it helps those working on the front-end of the product to better understand how they should design and build the main features and functions of the UI.
+
 
 With the insights we gained from the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, when creating the UI wireframe we were very mindful of how important it was to make our application as simple and straightforward as possible. Given this, the start page, login and both games are all designed to have a limited number of features, the style of which is clear, brightly coloured, and easy to navigate. This approach to UI was very important because our end-user is in the age cohort with the lowest levels of digital literacy. Making the application simple to use, therefore, makes it accessible.
 
 The UI wireframe can be presented in the form of a UI demo, as shown below:
+
 <br/><br/>
 <p align="center">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
