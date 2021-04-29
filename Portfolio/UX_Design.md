@@ -135,6 +135,26 @@ The UI wireframe above provides a low-fidelity skeleton of the UI. This serves t
 
 This demo shows the way the user will navigate through our application, and how they will play the games with other players. As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, intuitive, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
 
+## Game design for older people
+
+For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy in section on Background](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy), a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
+
+In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
+Some of the suggestions include:
+
+- Using a game for social and educational purposes
+- For relaxation and entertainment
+- Motivation for sharpening the mind
+- Encouraging physical activity
+
+Similarly, Wang () suggests a very similar set of design requirements.
+
+From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We also decided to create our platform as a game with rules and structure, delivered through a simple, visually appealing front-end.
+
+## Understanding user group
+
+As we showed in the above section on [Evolution of UI Design](#evolution-of-ui-design), one of the methods we used to better understand our user group was questionnaires. In particular, we distributed a digital UI prototype to potential users with an online questionnaire. This was a very effective way of obtaining clear, unambiguous information from our users regarding the UI of our product. Another method we used to improve our understanding of our users was through user stories. In what follows, we identify our users and stakeholders before detailing the user and stakeholder stories we used to develop our understanding the group who would eventually be using our product.
+
 
 ## Identification of users and stakeholders
 
@@ -157,6 +177,10 @@ There was plenty of scope to include more stakeholders to this list of four, how
 ## Stakeholders
 
 In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [Documentation of sprints](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md#documentation-of-sprints).
+
+
+## User stories
+___
 
 ## End-user
 
@@ -236,6 +260,9 @@ Sally's special requirements are:
    * Sally's hearing isn't particularly good so if there is audio she wants it to be loud.
 
 Tailoring the design of the product to meet these needs would, therefore, be beneficial to sally's experience.
+
+## Stakeholder stories
+___
 
 ## Product manager
 
@@ -336,23 +363,6 @@ These criteria will be used to conduct a heuristic evaluation of our product's d
 </table>
 
 
-## Game design for older people
-
-For a better insight into the usability requirements for our target users, we must now look at design requirements. A digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
-
-In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
-Some of the suggestions include:
-
-- Using a game for social and educational purposes
-- For relaxation and entertainment
-- Motivation for sharpening the mind
-- Encouraging physical activity
-
-Similarly, Wang () suggests a very similar set of design requirements.
-
-
-
-## Understanding user group
 
 ## Wireframes and interaction flow diagrams
 
@@ -366,6 +376,8 @@ Similarly, Wang () suggests a very similar set of design requirements.
 [5] Inspiration for our proto-personas came from the following source https://www.uxpin.com/studio/blog/ux-designers-5-minute-guide-lean-personas/
 
 [6] Rolf Molich and Jakob Nielsen. 1990. Improving a human-computer dialogue. Commun. ACM 33, 3 (March 1990), 338–348. DOI:https://doi.org/10.1145/77481.77486
+
+[7] Tsai, Hsin-Yi Sandy et al. “Social Support and "Playing Around": An Examination of How Older Adults Acquire Digital Literacy With Tablet Computers.” Journal of applied gerontology : the official journal of the Southern Gerontological Society vol. 36,1 (2017): 29-55. doi:10.1177/0733464815609440
 ___
 
 ## Navigate
