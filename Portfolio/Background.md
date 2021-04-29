@@ -134,7 +134,7 @@ So, does there need to be a score for our purposes? Scores support extrinsic fac
 
 ## Digital literacy
 
-Digital literacy is an important consideration during the development process, particularly when approaching the UI and UX design. The reasons are as follows. Learning to use technologies can help older adults become included in our modern digital society. Without being included they are, by definition, excluded. However, learning these technologies can be very hard, especially for older adults. So, it is important to make efforts to ensure that these digital technologies are inclusive, where inclusive means easy to access and understand.
+Digital literacy is an important consideration when creating an application, particularly when approaching the UI and UX design. The reasons are as follows. Learning to use technologies can help older adults become included in our modern digital society. Without being included they are, by definition, excluded. However, learning these technologies can be very hard, especially for older adults. So, it is important to make efforts to ensure that these digital technologies are inclusive, where inclusive means easy to access and understand.
 
 But what exactly is digital literacy? According to Gilster (1997)[**8**] digital literacy is the ability to use and understand information from various digital devices. This definition may, of course, be contested. But for our purposes it clearly defines the term, and it serves to inform our design choices with respect to the UI and UX of our platform. Our aim, therefore, is to make using our digital platform simple and accessible so that older adults can learn and improve their level of digital literacy.
 
