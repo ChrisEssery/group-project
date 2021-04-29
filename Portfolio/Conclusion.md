@@ -108,13 +108,13 @@ Further to this, took the decision to follow the W3C TAG Ethical Web Principles.
 
 ### Social implications
 
-### Negative implications
+#### Negative implications
 
 Given that our product is an online game, we recognise that it has the capacity to be addictive for some people. What's more, we are aware that excessive use of an online game could be linked to mental health issues such as anxiety and depression. A further concern is that the competitive feature of a leaderboard might serve to elevate stress levels in the players. The behavioural effect of playing more games on the platform could be viewed as operant conditioning, where behaviours are encouraged and discouraged with associated rewards and punishments (Staddon, 2003, p. 116), in this case winning and losing. It could also demotivate people from doing outdoor activities, and as such might decentivise healthy behaviours. Too much screen time can also be cause eye strain.
 
 Whilst these considerations are important to bear in mind, it is not clear whether there would be a clear causal link between playing our game and increased levels of negative emotions. The most we could reasonably speculate is that there could be a correlation. Notwithstanding this point, these social implications would be concerning enough to merit consideration and draw up a protocol for dealing with. Since our product is still in its early stages there is no need to explore these options, however it is worth bearing them in mind and ways to address any possible issues which might arise.
 
-### Positive implications
+#### Positive implications
 
 Despite the potential for negative outcomes when playing online games, there are numerous positive outcomes which might be realised when playing our online game. Our platform is designed to fun, engaging and social. These factors can all improve a person's wellbeing. As we discussed in the section on [digital literacy in section on Background](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?) online games can be very beneficial for older adults. Specifically, playing online games can leave people feeling connected with others and satisfied that they have achieved something, both of which lead to an improved sense of wellbeing.
 
