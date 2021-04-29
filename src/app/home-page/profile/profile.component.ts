@@ -14,6 +14,7 @@ export class ProfileComponent implements OnInit {
   friends=[]
   games:any=[]
   info:any={}
+  editing:boolean = false
 
   constructor(
     private dataService: DataService,
@@ -49,6 +50,22 @@ export class ProfileComponent implements OnInit {
       },
       error=>{
         console.log("fail to load the game history")
+      }
+    )
+  }
+  edit(e: { preventDefault: () => void; }){
+    e.preventDefault()
+    this.editing=true
+  }
+  save(e: { preventDefault: () => void; }){
+    e.preventDefault()
+    this.editing=false
+    this.dataService.updateUserInfo(this.currentUser, this.info).subscribe(
+      (data:any) => {
+        console.log(data.result)
+      },
+      error=>{
+        console.log("error.error")
       }
     )
   }

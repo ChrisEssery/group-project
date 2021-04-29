@@ -23,7 +23,6 @@ export class NavbarComponent implements OnInit {
   ngOnInit(): void {
   }
   signout (e: { preventDefault: () => void; }) {
-    console.log(this.user)
     e.preventDefault()
     this.authService.signout(this.user).subscribe(
       data => {
