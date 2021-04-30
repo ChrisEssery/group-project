@@ -16,6 +16,7 @@ In this section, we discuss the background literature, state-of-the-art survey a
    * [Background literature](#background-literature)
    * [Defining key terms](#defining-key-terms)
    * [Public health concerns](#public-health-concerns)
+   * [Digital literacy](#digital-literacy)
 * [**State of the art survey**](#state-of-the-art-survey)
    * [State of the art survey](#state-of-the-art-survey)
    * [Evaluation of survey](#evaluation-of-survey)
@@ -44,7 +45,7 @@ Following Valtora and Hanratty, we define loneliness as both a social and emotio
 
 Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
-Our target group is adults above the age of 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game. And for our user testing we asked a wide range of users to test our prototype and provide their feedback in our user test survey (see [here](#user-testing) for the results of that survey).
+Our target group is adults above the age of 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game. And for our user testing we asked a wide range of users to test our prototype and provide their feedback in our user test survey (see [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#user-testing) for a discussion about the results of that survey).
 
 ### Public health concerns
 
@@ -84,9 +85,11 @@ Now, let's look at serious play and the motivations behind playing games.
 
 Following Zimmerman (2004), we assign 'play' three categories. The first category refers to 'play' as 'game play', where play is a verb, involving action. In these cases play arises through the interaction with structures and rules. This is what one might typically think of when talking about play. The second category is ludic activity. This refers to instances of play where activities are not only games, but rather unstructured play. It's a simulation of play, and there are no strongly defined objectives. The third category involves play as a mindset. Here, play is more of an adjective where the spirit of play is imbibed into non-typical play activities.
 
-There is a theory of play, developed by Richard Ryan, using the PENS model, the Player Experience of Needs Satisfaction. We have three key needs to satisfy through play. First there is competence, feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. Instill these feelings of pride and self-efficacy, you help push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency, feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations (see R.A.M.P).
+There is a theory of play, developed by Richard Ryan, using the PENS model, the Player Experience of Needs Satisfaction. We have three key needs to satisfy through play. First there is competence, feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. Instil these feelings of pride and self-efficacy, you help push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency, feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations (see R.A.M.P).
 
 A Theory of Fun for Game Design was very useful for practical study of fun in game design.
+
+From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We also decided to create our platform as a game with rules and a simple, visually appealing front-end.
 
 
 ### Rules versus open-endedness
@@ -108,7 +111,7 @@ For our purposes, using Zimmerman's categories, we decided to use play as an act
 
 ### The psychology behind playing games
 
-To better understand how our end-users will use our game, we need to consider the psychological factors underlying a person's desire to play games.
+To better understand how our end-users will use our game, we now consider the psychological factors underlying a person's desire to play games.
 
 There are a number of important questions to ask. For examples,
 
@@ -128,6 +131,17 @@ In the context of playing a game, a person is said to have have extrinsic motiva
 To see this in action, let's consider gamification. Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. It also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboards, for instance, are extrinsic motivators which visualise game display progress over time. But if these visualisations represent growth and development for a person, and gives them a sense of purpose and true enjoyment then we find that the extrinsic motivation transforms into intrinsic motivation.
 
 So, does there need to be a score for our purposes? Scores support extrinsic factors which can be highly motivating, however they can also be negative for those who aren't doing particularly well. To address this, we could include a collaborative aspect to the memory game with respect to gameplay where players cooperate to complete the game and acquire points to compete against others. This is certainly something we could consider when developing our games, since cooperation can give rise to a strong sense of purpose and enjoyment without the negative consequences of solely competing against another player. A further extension combining cooperation with competition could cultivate a good balance between both styles of game, and ensure that serious play should is present in our product, but with a slight twist.
+
+## Digital literacy
+
+Digital literacy is an important consideration when creating an online application for the elderly, particularly when dealing with the UI and UX design. The reasons for this are simple. Learning to use technologies can help older adults become more included in modern digital society. If they aren't included, they are, by definition, excluded. But learning these technologies can be very hard, especially for older adults. So, it is important to make efforts to ensure that these digital technologies are inclusive, where inclusive means easy to access and understand.
+
+But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#references) digital literacy is the ability to use and understand information from various digital devices. This definition may, of course, be contested. But for our purposes it clearly defines the term, and it serves to inform our design choices with respect to the UI and UX of our platform. Our aim, therefore, is to make using our digital platform simple and accessible so that older adults can learn and improve their level of digital literacy.
+
+Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials (Haederle, 2011)[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
+
+In light of these considerations, our approach to the UI and UX design will centre around ease of use. For a discussion of our approach to UX design, see the section on [UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
+
 
 ## State of the art survey: what is out there already?
 
@@ -250,7 +264,6 @@ According to Pete, we need to outline how our app differs from these apps. We al
 </div>
 
 
-
 ## Problem definition
 
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
@@ -291,6 +304,11 @@ The overarching aim is to create a game that can engage the elderly through a fu
 
 [6] Corbett A, Owen A, Hampshire A, Grahn J, Stenton R, Dajani S, Burns A, Howard R, Williams N, Williams G, Ballard C. The Effect of an Online Cognitive Training Package in Healthy Older Adults: An Online Randomized Controlled Trial. J Am Med Dir Assoc. 2015 Nov 1;16(11):990-7. doi: 10.1016/j.jamda.2015.06.014. PMID: 26543007.
 
+[7] Tsai, Hsin-Yi Sandy et al. “Social Support and "Playing Around": An Examination of How Older Adults Acquire Digital Literacy With Tablet Computers.” Journal of applied gerontology : the official journal of the Southern Gerontological Society vol. 36,1 (2017): 29-55. doi:10.1177/0733464815609440
+
+[8] Gilster P. Digital literacy. New York: John Wiley; 1997. [Google Scholar]
+
+[9] Haederle M. Technology fear stops older adults from logging on: But scientists are breaking the computer block. AARP Bulletin. 2011 Retrieved from http://www.aarp.org/technology/innovations/info-08-2011/elderly-fear-of-technology.3.html.
 ___
 
 

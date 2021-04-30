@@ -29,7 +29,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
    * [Sprint 7 : Pages made responsive and authentication implemented (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-authentication-implemented-260421-030521)
-* [**Team use of GitHub**](#team-use-of-github)
+* [**Team use of Git**](#team-use-of-git)
 
 
 
@@ -798,7 +798,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 
 
-## Team use of GitHub
+## Team use of Git
 
 One of the most important tools we used during this project was GitHub. Github is an open-source code hosting service for building software and sharing code. It proved indispensable throughout the development. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
 
