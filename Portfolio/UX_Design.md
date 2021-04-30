@@ -70,7 +70,57 @@ Does our app have a clear goal? Is this apparent up front to the user? or uncove
 
 Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
 
-Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UI design. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. It is to this we now turn.
+Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UX. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. But before we did this, we had to decide on our UX approach with regards to a design for older people. It is to this we now turn.
+
+## UX approach - design methods
+
+When considering the UX approach, we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
+
+### Design heuristics
+
+Before explaining our design method, we should define what a heuristic is. A heuristic is a quick, effective way to solve a problem or decide on a particular course of action. It's a practical shortcut which is known to work. In the context of UX design, professionals can assess a design or products' usability by means of heuristics. These heuristics are contained within a criteria or list of questions to ask so as to identify limitations and faults with the design. This helps to catch any issues which may have been overlooked by the team responsible for UX and UI design.
+
+```
+   1. Keep users informed about its status appropriately and promptly.
+   2. Show information in ways users understand from how the real world operates, and in the users’ language.
+   3. Offer users control and let them undo errors easily.
+   4. Be consistent so users aren’t confused over what different words, icons, etc. mean.
+   5. Prevent errors – a system should either avoid conditions where errors arise or warn users before they take risky actions (e.g., “Are you sure you want to do this?” messages).
+   6. Have visible information, instructions, etc. to let users recognise options, actions, etc. instead of forcing them to rely on memory.
+   7. Be flexible so experienced users find faster ways to attain goals.
+   8. Have no clutter, containing only relevant information for current tasks.
+   9. Provide plain-language help regarding errors and solutions.
+   10. List concise steps in lean, searchable documentation for overcoming problems.
+```
+
+These criteria will be used to conduct a heuristic evaluation of our product's design. Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
+
+<table>
+<tr>
+  <th>The Pros</th>
+  <th>The Cons</th>
+</tr>
+<tr>
+  <td>- Evaluators can focus directly on specific issues, flag them and find optimal solutions <br /> - Evaluators can identify faults with individual elements and determine their impact on the overall UX  <br /> - Compared to testing on users, you can obtain feedback without ethical issues and costs. </td>
+  <td>- Evaluators' insights are subjective; findings can lack proof and be biased <br /> - Finding several evaluators may be hard and expensive  <br />- Evaluators can identify issues that aren't usability problems </td>
+</tr>
+</table>
+
+## Game design for older people
+
+For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
+
+In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
+Some of the suggestions include:
+
+- Using a game for social and educational purposes
+- For relaxation and entertainment
+- Motivation for sharpening the mind
+- Encouraging physical activity
+
+Similarly, Wang () suggests a very similar set of design requirements.
+
+From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We also decided to create our platform as a game with rules and structure, delivered through a simple, visually appealing front-end. With these insights, we can now go on to explain the evolution of the app's UI design. This evolution, naturally, changed over time with a total of four separate versions.
 
 
 ### Evolution of UI Design
@@ -140,21 +190,6 @@ Turning back to the UI wireframe, it can be presented in the form of a UI demo, 
 
 This demo shows the way the user will navigate through our application, and how they will play the games with other players. As you can see, in each of these stages the UI design of our product evolved and developed. This development took us from a very crude paper prototype to a clear, intuitive, well thought out UI wireframe, the functionality of which is demonstrated in the above demo. It also gave us a visual template for the front end of our product.
 
-## Game design for older people
-
-For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
-
-In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
-Some of the suggestions include:
-
-- Using a game for social and educational purposes
-- For relaxation and entertainment
-- Motivation for sharpening the mind
-- Encouraging physical activity
-
-Similarly, Wang () suggests a very similar set of design requirements.
-
-From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We also decided to create our platform as a game with rules and structure, delivered through a simple, visually appealing front-end.
 
 ## Understanding user group
 
@@ -332,41 +367,6 @@ Simon's expectations are as follows:
    * He expects multiplayer mode and video chat.
 
 As with the other stakeholders, tailoring the design of the product to meet these expectations would be beneficial to our stakeholders' interaction with and experience of the product.
-
-## UX approach - design methods
-
-When considering the UX approach, we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
-
-### Design heuristics
-
-Before explaining our design method, we should define what a heuristic is. A heuristic is a quick, effective way to solve a problem or decide on a particular course of action. It's a practical shortcut which is known to work. In the context of UX design, professionals can assess a design or products' usability by means of heuristics. These heuristics are contained within a criteria or list of questions to ask so as to identify limitations and faults with the design. This helps to catch any issues which may have been overlooked by the team responsible for UX and UI design.
-
-```
-   1. Keep users informed about its status appropriately and promptly.
-   2. Show information in ways users understand from how the real world operates, and in the users’ language.
-   3. Offer users control and let them undo errors easily.
-   4. Be consistent so users aren’t confused over what different words, icons, etc. mean.
-   5. Prevent errors – a system should either avoid conditions where errors arise or warn users before they take risky actions (e.g., “Are you sure you want to do this?” messages).
-   6. Have visible information, instructions, etc. to let users recognise options, actions, etc. instead of forcing them to rely on memory.
-   7. Be flexible so experienced users find faster ways to attain goals.
-   8. Have no clutter, containing only relevant information for current tasks.
-   9. Provide plain-language help regarding errors and solutions.
-   10. List concise steps in lean, searchable documentation for overcoming problems.
-```
-
-These criteria will be used to conduct a heuristic evaluation of our product's design. Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
-
-<table>
-<tr>
-  <th>The Pros</th>
-  <th>The Cons</th>
-</tr>
-<tr>
-  <td>- Evaluators can focus directly on specific issues, flag them and find optimal solutions <br /> - Evaluators can identify faults with individual elements and determine their impact on the overall UX  <br /> - Compared to testing on users, you can obtain feedback without ethical issues and costs. </td>
-  <td>- Evaluators' insights are subjective; findings can lack proof and be biased <br /> - Finding several evaluators may be hard and expensive  <br />- Evaluators can identify issues that aren't usability problems </td>
-</tr>
-</table>
-
 
 
 ## Wireframes and interaction flow diagrams
