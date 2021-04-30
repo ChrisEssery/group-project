@@ -31,12 +31,6 @@ In this final section, we reflect on our application and how far we've come. We 
   * [Possible extensions](#possible-extensions)
 
 
-
-## Evaluation of design
-
-When it came to the design of the project we felt... with this in mind, we will now evaluate the strengths, weaknesses and potential extensions of the design before reflecting on the lessons we've learned about this aspect of the project.
-
-
 ## Reflection on working practices
 
 We now turn to our working practices...
