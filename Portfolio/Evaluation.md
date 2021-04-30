@@ -74,9 +74,9 @@ One may object, however, that the exploratory nature of our approach limits its 
 
 There are many possible extensions to mention here...
 
-Firstly, expanding on the multiplayer of our app would be paramount upon releasing of the app to the public. The app currently does not include any form of matchmaking and is limited to just two players within one gaming session. Obviously, the implementation of the matchmaking is too substantial to be fully implemented due to the time constraints. This is a good step to take the app forward should it be released to the public.
-
-Another aspect of the app which could be further extended is the selection of games. Originally we were expecting around four games to try to incorporate into our app. However, alongside working in the video and other functionality this was not feasible. The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on. 
+* Firstly, expanding on the multiplayer of our app would be paramount upon releasing of the app to the public. The app currently does not include any form of matchmaking and is limited to just two players within one gaming session. Obviously, the implementation of the matchmaking is too substantial to be fully implemented due to the time constraints. This is a good step to take the app forward should it be released to the public.
+* Another aspect of the app which could be further extended is the selection of games. Originally we were expecting around four games to try to incorporate into our app. However, alongside working in the video and other functionality this was not feasible. The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on. 
+* Our app could also be improved via the expansion of our front-end functional testing. Currently you can see the outline of our testing for the front-end below. Whilst this covers a good range of the components on our app we have not been able to test the individual game components thoroughly. It would be nice to expand on this for further robustness prior to release. 
 
 ### Lessons learned
 
