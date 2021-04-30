@@ -159,7 +159,7 @@ There was plenty of scope to include more stakeholders to this list of four. For
 
 However, due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint. This approach adopts an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research based on self-reflection and the process of writing to explore and understand personal experiences and connect this autobiographical story to wider societal issues. For our purposes, this relates to self-reflection on the position of our stakeholders via proto-personas. This was an excellent method for adding stakeholders into our agile development, and meant that despite being able to meet older adults in person show them our product, we were able to reflect on what their responses might be. This, together with the questionnaire data we gathered meant we could adjust our UI and UX design to best serve our end-users.
 
-Now, before turning to our stakeholder stories, we consider the UX approach and design methods we took to shape the style and design of our product.
+Now, before turning to our stakeholder stories, we consider the UX approach and design methods we took to shape the style and design of our product to meet the usability requirements of end-users.
 
 ## UX approach - design methods
 
