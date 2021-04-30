@@ -93,6 +93,8 @@
     color: #FBFBEA;
     font-family: 'Luckiest Guy', cursive;
     overflow-y: scroll;
+    cursor: pointer;
+    text-decoration: none;
 }
 .ele{
     padding:12px;
@@ -116,3 +118,6 @@
     background:transparent;
     color:yellowgreen;
 }
+ul li{
+    list-style-type:none;
+}  
