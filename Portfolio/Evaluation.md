@@ -89,11 +89,11 @@ We have learned many lessons...
 Functional testing is paramount to the successful launching of our MEAN stack SPA. Thankfully the MEAN stack includes some prerequisite software which helps implement easy front-end functional testing on the differing components. 
 The software includes Karma which is a test-runner for JavaScript which runs on Node.js. Karma is great for testing code in browsers as well as different devices. The software allows us to clearly see which tests are failing within the specific components. This helps speed up the debugging process.
 
---Karma picture--
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Karma.png)
 
 For Karma to work well we need to implement a test framework for our project. The are a wide variety of frameworks to choose from with some of the most popular being Mocha and Jasmine. Both of these frameworks allow us to write tests on our individual components. Mocha is a popular choice and actually also has an inbuilt driver which can also run tests in the browser just like Karma. Karma is however the better option to run these tests on thanks to its flexibility in its browser testing. Also, Mocha is lacking in assertion testing and requires a plug-in called Chai to be able to write such tests. Jasmine on the other hand already has these assertion tests built in. Weighing this all up we decided to choose Jasmine for our implementation. 
 
---Mocha/Jasmine Pictures--
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Jasmine_Mocha.png)
 
 Now that the framework was chosen, we could specifically test our JavaScript code using the Jasmine syntax which will capture any problematic component issues. See below for how these software’s were utilized on our project.
 To begin the front-end testing, we had to produce a test plan as below:
