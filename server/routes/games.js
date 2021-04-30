@@ -18,6 +18,9 @@ router.post('/:gamename', async (req, res) => {
     res.status(400).json({error: "invalid parameter of gamename"})
   }
   body = req.body
+  if(!body.players){
+    return res.status(400).json({error: "cannot find the player data for the game instance"})
+  }
   gameInstance = new Game ({
     gameName: gamename,
     players: body.players
