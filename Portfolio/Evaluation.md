@@ -17,8 +17,8 @@ In this section, we evaluate our app. We start by evaluating the design of the a
    * [Weaknesses](#weaknesses)
    * [Lessons learned](#lessons-learned)
 * [**Unit testing**](#unit-testing)
-   * [Testing harness](#testing-harness)
-   * [Rationale](#rationale)
+   * [Front-End](#frontend)
+   * [Back-End](#backend)
 * [**User acceptance testing**](#user-acceptance-testing)
    * [User acceptance testing](#user-acceptance-testing)
    * [Findings and implications](#findings-and-implications)
@@ -74,6 +74,10 @@ One may object, however, that the exploratory nature of our approach limits its 
 
 There are many possible extensions to mention here...
 
+* Firstly, expanding on the multiplayer of our app would be paramount upon releasing of the app to the public. The app currently does not include any form of matchmaking and is limited to just two players within one gaming session. Obviously, the implementation of the matchmaking is too substantial to be fully implemented due to the time constraints. This is a good step to take the app forward should it be released to the public.
+* Another aspect of the app which could be further extended is the selection of games. Originally we were expecting around four games to try to incorporate into our app. However, alongside working in the video and other functionality this was not feasible. The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on. 
+* Our app could also be improved via the expansion of our front-end functional testing. Currently you can see the outline of our testing for the front-end below. Whilst this covers a good range of the components on our app we have not been able to test the individual game components thoroughly. It would be nice to expand on this for further robustness prior to release. 
+
 ### Lessons learned
 
 We have learned many lessons...
@@ -81,16 +85,35 @@ We have learned many lessons...
 
 ## Unit testing
 
-Unit testing is obviously very important when it comes to building a prototype web application. One important point concerns the practicality of unit testing. A testing harness offers a standardised framework for automatically testing code. It serves to ensure that the code does not regress to a weaker state (which can be overcome through regression testing) and makes the code clear and maintainable.
+### Front-End
+Functional testing is paramount to the successful launching of our MEAN stack SPA. Thankfully the MEAN stack includes some prerequisite software which helps implement easy front-end functional testing on the differing components. 
+The software includes Karma which is a test-runner for JavaScript which runs on Node.js. Karma is great for testing code in browsers as well as different devices. The software allows us to clearly see which tests are failing within the specific components. This helps speed up the debugging process.
 
-Include links to the unit testing code as well as code snippets.
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Karma.png)
 
-### Testing harness
+For Karma to work well we need to implement a test framework for our project. The are a wide variety of frameworks to choose from with some of the most popular being Mocha and Jasmine. Both of these frameworks allow us to write tests on our individual components. Mocha is a popular choice and actually also has an inbuilt driver which can also run tests in the browser just like Karma. Karma is however the better option to run these tests on thanks to its flexibility in its browser testing. Also, Mocha is lacking in assertion testing and requires a plug-in called Chai to be able to write such tests. Jasmine on the other hand already has these assertion tests built in. Weighing this all up we decided to choose Jasmine for our implementation. 
 
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Jasmine_Mocha.png)
 
+Now that the framework was chosen, we could specifically test our JavaScript code using the Jasmine syntax which will capture any problematic component issues. See below for how these software’s were utilized on our project.
+To begin the front-end testing, we had to produce a test plan as below:
 
-### Rationale
+--Screenshot of testing_plan.txt--
 
+This test plan outlines the specifics of our front-end testing. As you can see our focus was purely on the navigation of our users as well as logging and out effectively.
+In order to implement this, we had to edit the components spec files which our tests focused upon. As below:
+
+--Example component testing code--
+
+Then through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these. Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct.
+
+--Example Karma screenshot--
+
+### Back-End
+
+The backend API was tested vigorously using software known as Postman. This software allows us to test calls to the API. Postman tests that data is entering the database correctly and information is returned in regard to this….
+
+--Lizhao to add more--
 
 ## User acceptance testing
 

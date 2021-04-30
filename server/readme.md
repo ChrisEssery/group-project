@@ -309,7 +309,7 @@ returned data:
 
 **Request:**
 - HTTP Method: `POST`
-- Path: `/api/games/memorygame` OR `/api/games/connect4`
+- Path: `/games/memorygame` OR `/games/connect4`
 - Sent data:
 ```
 {
@@ -344,7 +344,7 @@ returned data:
 **Request:**
 
 - HTTP Method: `GET`
-- Path:  `/api/users/leaderboard/:limit`
+- Path:  `/users/leaderboard/:limit`
 
 | parameters | isRequired | explanation                        |
 | ---------- | ---------- | ---------------------------------- |
@@ -375,7 +375,7 @@ returned data:
 **Request:**
 
 - HTTP Method: `GET`
-- Path:  `/api/games/scores/:gamename/:limit/:order`
+- Path:  `/games/scores/:gamename/:limit/:order`
 
 | parameters | isRequired | explanation                        |
 | ---------- | ---------- | ---------------------------------- |
