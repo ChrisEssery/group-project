@@ -39,9 +39,13 @@ We now turn to our working practices...
 ### Our working practices
 
 Throughout the project the team was well organised and attended meetings often. This allowed for good discussion on weekly progress and helped keep the team motivated with a clear direction. Furthermore, this allowed us to allocate people to specific tasks and avoid any crossovers. We also thoroughly documented our [discussions](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md) so that everyone could see the expectations and tasks.
+
 With the use of Microsoft Teams and Discord we were able to communicate effectively between each other. Our use of the group chat was effective for not only troubleshooting but highlighting progress. This helped the team easily see the lifecycle of the project and kept us all motivated.
+
 The Agile approach suited our project really well and helped everyone manage their workload effectively alongside other university work. With clear and defined tasks allocated to each of us we were able to easily follow the model. Our sprints were effective and well documented and clearly showed the progress made as our app came to life.
+
 The sprints……
+
 --Drafted, needs more--
 
 ### Evaluation of working practices
