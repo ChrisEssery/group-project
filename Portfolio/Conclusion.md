@@ -38,7 +38,7 @@ We now turn to our working practices...
 
 ### Our working practices
 
-Throughout the project the team was well organised and attended meetings often. This allowed for some good discussions on weekly progress and helped keep the team motivated with a clear direction. Furthermor, this allowed us to allocate people to specific tasks and avoid any crossovers. We also thoroughly documented our discussions(/Team_Meetings.md) so that everyone could see the expectations and tasks.
+Throughout the project the team was well organised and attended meetings often. This allowed for some good discussions on weekly progress and helped keep the team motivated with a clear direction. Furthermor, this allowed us to allocate people to specific tasks and avoid any crossovers. We also thoroughly documented our [discussions](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md) so that everyone could see the expectations and tasks.
 
 ### Evaluation of working practices
 
