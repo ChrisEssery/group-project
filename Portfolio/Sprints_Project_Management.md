@@ -25,7 +25,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 2 : Start building front-end and design back-end (08.03.21-15.03.21)](#sprint-2--start-building-front-end-and-design-back-end-080321-150321)
    * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--obtain-user-feedback-and-continue-building-front-end-150321-220321)
    * [Sprints paused : Complete backlog items and other work commitments (22.03.21-05.04.21)](#sprints-paused--complete-backlog-items-and-other-work-commitments-220321-050421)
-   * [Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)](#sprint-4--user-testing-and-adding-multiplayer-functionality-050421-120421)
+   * [Sprint 4 : Add multiplayer functionality, video chat and build backend (05.04.21-12.04.21)](#sprint-4--add-multiplayer-functionality-video-chat-and-build-backend-050421-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
    * [Sprint 7 : Pages made responsive and authentication implemented (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-authentication-implemented-260421-030521)
@@ -430,29 +430,26 @@ By this stage, we felt it was appropriate to pause the sprints. The rationale fo
 Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
 
 
-## Sprint 4 : User testing and adding multiplayer functionality (05.04.21-12.04.21)
+## Sprint 4 : Add multiplayer functionality, video chat and build backend (05.04.21-12.04.21)
 ___
 
 
-This was the first sprint after pausing our sprints for two weeks. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to make sure our application, including the video chat and friend invite functionality, was working properly and fit for pre-release. In order to ensure it was we had to conduct rigorous testing.
+This was the first sprint after pausing our sprints for two weeks. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to make sure our application. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people.
 
 ### Key points
 
-   *
-   *
-   *
-   *
-   *
-   *
+   * Implement multiplayer functionality.
+   * Research and add video chat to the games.
+   * Build backend including database and API
 
 ### Key implementations from previous sprint
 
-   * Obtain feedback from users regarding the start page.
-   * Create UI wireframe and obtain user feedback.
-   * Create and circulate questionnaire regarding UI wireframe.
-   * Start building back-end.
-   * Build basic versions of games and obtain user feedback.
-   * Create a user login.
+   * Obtained feedback from users regarding the start page.
+   * Created UI wireframe and obtain user feedback.
+   * Created and circulate questionnaire regarding UI wireframe.
+   * Started building back-end.
+   * Built basic versions of games and obtained user feedback.
+   * Created a user login.
    * Continue with documentation with a focus on Sprints and project management.
 
 
