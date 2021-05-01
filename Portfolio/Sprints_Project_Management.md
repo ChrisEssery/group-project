@@ -369,7 +369,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page - one that grabs my attention and is easy to understand.</td>
  <td>Start page</td>
- <td>Start page.</td>
+ <td>Start page</td>
  <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I really like the background - it is really nice to look at. I really like the the music as well, but I think I would want the music to stop once I've logged in.</td>
 </tr>
 <tr>
