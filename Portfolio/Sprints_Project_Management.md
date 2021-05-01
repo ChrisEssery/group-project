@@ -125,6 +125,10 @@ With respect to the meetings and sprints and how they worked, we met every Monda
 
 At the heart of this process was the users. So, during every sprint we had the users in mind, making sure to address their goals and demands.
 
+### Scrums
+EDIT:
+We used the Scrum framework to apply Agile working practice. This entailed one team member acted as the 'Scrum master',. The scrum master was responsible for dictating the timelines on Github and ensuring that they were outlined on Slack as well. This ensured that we had a clear agreement amongst our team as to when our deliverables were expected by, and which user stories we were currently focused on implementing.
+
 ### Jira
 
 We used Jira to implement these actions, and created Gantt charts to visualise the progress of tasks. Jira helped structure the timetable so it was clear what was being done by who and where in the lifecycle it sat.
@@ -183,6 +187,8 @@ Because we were familiar with both of these applications, we were able to seamle
 ## Documentation of sprints
 
 The sprints are in chronological order, starting with the first sprint in late February all the way up to the final sprint in May.
+
+ADD GANTT CHART
 
 We will be referring to the meeting notes, the product backlog (that is, the list of key features to be implemented), and the user feedback.
 
@@ -314,7 +320,7 @@ During this sprint, our focus was to get started on the front-end of the MEAN st
 
 ## Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)
 ___
-
+ADD TO THIS
 The aim of this sprint was to show the stakeholders our start page and obtain their feedback. By this point, the backlog items of building a start page and adding audio to the start page had been implemented by the end of the previous sprint. This gave us a great opportunity to show our stakeholders the style, structure and layout of the first page, which would in turn inform our understanding of the UI and UX. Having this knowledge would then give us an understanding of how to approach the remaining pages of the SPA. Further to this, we started this sprint with new insights we'd acquired from our state of the art survey, which gave us a better understanding of similar online gaming platforms and any gaps in the market. We discovered that, to the best of our knowledge, there were no online games for the elderly which had video chat and a very simple, intuitive layout. This encouraged us to pursue adding a video chat feature to our games, and cemented our belief that the UI should be as straightforward as possible.
 
 For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. We also agreed it was important to get working versions of the games in front of the users as soon as possible, and to continue with documentation but with a focus on sprints and project management.
@@ -326,6 +332,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Create and circulate questionnaire regarding UI wireframe.
    * Start building back-end.
    * Build basic versions of games and obtain user feedback.
+   * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
 
 
@@ -425,22 +432,26 @@ Another important aspect of this 'pause' was that it enabled us to get stuck int
 ___
 
 
-The aim of this sprint was to make sure our application, including the video chat and friend invite functionality, was working properly and fit for pre-release. In order to ensure it was we had to conduct rigorous testing.
+This was the first sprint after pausing our sprints for two weeks. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to make sure our application, including the video chat and friend invite functionality, was working properly and fit for pre-release. In order to ensure it was we had to conduct rigorous testing.
 
 ### Key points
 
-   * Test video chat
-   * Conduct rigorous Testing
-   * Debugging
-   * Add component to add friends
+   *
+   *
+   *
+   *
+   *
+   *
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
-   * Chris updated on progress of the Java produced Connect 4 game.
-   * Browsed previously completed group projects together.
+   * Obtain feedback from users regarding the start page.
+   * Create UI wireframe and obtain user feedback.
+   * Create and circulate questionnaire regarding UI wireframe.
+   * Start building back-end.
+   * Build basic versions of games and obtain user feedback.
+   * Create a user login.
+   * Continue with documentation with a focus on Sprints and project management.
 
 
 ### Backlog items
@@ -507,9 +518,9 @@ The aim of this sprint was to make sure our application, including the video cha
 </tr>
 <tr>
   <td>Front-End</td>
-  <td>Stakeholders are able to see the start page.</td>
-  <td>Insert here</td>
-  <td>Insert solution here and future implementations.</td>
+  <td>Stakeholders are able to see the memory game.</td>
+  <td>The prototype memory game was written using Javascript, html and css. This was difficult to integrate into angular which uses typescript</td>
+  <td>Despite the fact typescript is a superset of JavaScript, and that it is possible to convert JavaScript to type script by adding a tsconfig.json file to project, integrate with a build tool a change all .js files to .ts files, this approach did not work and took up too much time. Given this, we built the memory game from scratch using typescript.</td>
 </tr>
 </table>
 
