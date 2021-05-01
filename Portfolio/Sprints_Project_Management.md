@@ -438,9 +438,9 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 
 ### Key points
 
-   * Implement multiplayer functionality.
+   * Implement multiplayer functionality for connect four.
    * Research and add video chat to the games.
-   * Build database
+   * Build database and add relevant documentation
    * Build API
 
 ### Key implementations from previous sprint
@@ -457,9 +457,9 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 ### Backlog items
 
 ```
-  → Backlog item: implement multiplayer functionality
-  → Backlog item: research and add video chat to games
-  → Backlog item: build database
+  → Backlog item: implement multiplayer functionality for connect four
+  → Backlog item: add video chat to connect four
+  → Backlog item: build database and add relevant documentation
   → Backlog item: build API
 
 ```
@@ -509,6 +509,7 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 </table>
 
 ### Technical problems and solutions:
+
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -531,34 +532,31 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
+
 ## Sprint 5 : Adding new features (12.04.21-19.04.21)
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
-   * Set up GitHub repository and familiarised ourselves with the platform.
+   *
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
-   * Chris updated on progress of the Java produced Connect 4 game.
-   * Browsed previously completed group projects together.
+   * Implement multiplayer functionality for connect four
+   * Database built
+
 
 
 ### Backlog items
 
 ```
-  → Backlog item: research video chat APIs
-  → Backlog item: create start page
-  → Backlog item: create login
-  → Backlog item: add audio to start page
+  → Backlog item: implement multiplayer functionality for memory game
+  → Backlog item: add video chat to connect four
+  → Backlog item: add relevant documentation for database
+  → Backlog item: build API
 
 ```
 
@@ -607,6 +605,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </table>
 
 ### Technical problems and solutions:
+
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -635,10 +634,12 @@ ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
 
+to add video chat and multiplayer functionality to the memory game
+
 ### Key points
 
    * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
+   * Complete documentation on system implementation
    * Set up GitHub repository and familiarised ourselves with the platform.
 
 ### Key implementations from previous sprint
@@ -653,8 +654,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 ### Backlog items
 
 ```
-  → Backlog item: research video chat APIs
-  → Backlog item: create start page
+  → Backlog item: add video chat to memory game
+  → Backlog item: complete documentation on system implementation
   → Backlog item: create login
   → Backlog item: add audio to start page
 
@@ -705,6 +706,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </table>
 
 ### Technical problems and solutions:
+
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -734,9 +736,11 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
-   * Set up GitHub repository and familiarised ourselves with the platform.
+   * Add video chat to memory game
+   * Add multiplayer functionality to memory game
+   * Make pages of application responsive, including mobile responsive
+   * Complete evaluation of design to report
+   * Conduct unit testing
 
 ### Key implementations from previous sprint
 
@@ -750,10 +754,13 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 ### Backlog items
 
 ```
-  → Backlog item: research video chat APIs
-  → Backlog item: create start page
-  → Backlog item: create login
-  → Backlog item: add audio to start page
+  → Backlog item: add video chat to memory game
+  → Backlog item: add multiplayer functionality to memory game
+  → Backlog item: add evaluation of design to report
+  → Backlog item: make pages of application responsive, including mobile responsive
+  → Backlog item: complete evaluation of design to report
+  → Backlog item: conduct unit testing
+
 
 ```
 
@@ -802,6 +809,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </table>
 
 ### Technical problems and solutions:
+
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -822,6 +830,37 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
+
+
+## Sprint 8 :  Finish report (03.05.21-07.05.21)
+___
+
+The aim of this sprint was to finish the write up for our project report. 
+
+### Key points
+
+   * We made the group decision to use the MEAN stack.
+   * Decided to create a multiplayer game with video feed.
+   * Set up GitHub repository and familiarised ourselves with the platform.
+
+### Key implementations from previous sprint
+
+   * Add video chat to memory game
+   * Add multiplayer functionality to memory game
+   * Make pages of application responsive, including mobile responsive
+   * Complete evaluation of design to report
+   * Conduct unit testing
+
+
+### Backlog items
+
+```
+  → Backlog item: research video chat APIs
+  → Backlog item: create start page
+  → Backlog item: create login
+  → Backlog item: add audio to start page
+
+```
 
 ## Team use of Git
 
