@@ -356,47 +356,6 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 ```
 
 ### User feedback
-<table>
-<tr>
- <th>Users</th>
- <th>Feature</th>
- <th>Backlog item</th>
- <th>Feedback from Users</th>
-</tr>
-<tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to see an engaging start page - one that grabs my attention and is easy to understand.</td>
- <td>Start page</td>
- <td>Start page.</td>
- <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I really like the background - it is really nice to look at. I really like the the music as well, but I think I would want the music to stop once I've logged in.</td>
-</tr>
-<tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>Start page</td>
- <td>Start page</td>
- <td>The start page is very nice, but I think I would find the moving title a little bit nauseating if it were to continue during the login and gameplay.</td>
-</tr>
-<tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
-<td>Start page</td>
-<td>Start page and backend design</td>
-<td>This start page is really good, well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather their feedback to find out what they think. One thing you might want to consider is adding simple instructions for the login and entering the games. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use.</td>
-</tr>
-<tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want to see consistency in the interface and I want to see weekly progress.</td>
- <td>Start page</td>
- <td>Start page</td>
- <td>I like the start page, and I think you should keep the style consistent throughout. There are still no games though. Can you try and show us something as soon as possible? It would be good to see what they look like, how challenging they are, and easy to navigate and understand.</td>
-</tr>
-</tr>
-</table>
 
 <table>
 <tr>
@@ -406,7 +365,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
+ <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page - one that grabs my attention and is easy to understand.</td>
  <td>Start page</td>
@@ -414,7 +373,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
  <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I really like the background - it is really nice to look at. I really like the the music as well, but I think I would want the music to stop once I've logged in.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
+ <td><img src="/Logo/user_sally.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
  <td>Start page</td>
@@ -422,7 +381,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
  <td>The start page is very nice, but I think I would find the moving title a little bit nauseating if it were to continue during the login and gameplay.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
+<td><img src="/Logo/manager_jack.jpg" width=40%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
 <td>Start page</td>
@@ -430,7 +389,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <td>This start page is really good, well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather their feedback to find out what they think. One thing you might want to consider is adding simple instructions for the login and entering the games. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
+ <td><img src="/Logo/user_simon.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to see consistency in the interface and I want to see weekly progress.</td>
  <td>Start page</td>
