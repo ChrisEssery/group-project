@@ -29,6 +29,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
    * [Sprint 7 : Pages made responsive and authentication implemented (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-authentication-implemented-260421-030521)
+   * [Sprint 8 : Finish report (03.05.21-07.05.21)](#sprint-8--finish-report-030521-070521)
 * [**Team use of Git**](#team-use-of-git)
 
 
@@ -835,7 +836,7 @@ It was clear, however, that our workload in the other units of term was getting 
 ## Sprint 8 :  Finish report (03.05.21-07.05.21)
 ___
 
-The aim of this sprint was to finish the write up for our project report. 
+The aim of this sprint was to finish the write up for our project report.
 
 ### Key points
 
