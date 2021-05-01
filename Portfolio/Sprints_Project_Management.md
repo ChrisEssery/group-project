@@ -440,7 +440,8 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 
    * Implement multiplayer functionality.
    * Research and add video chat to the games.
-   * Build backend including database and API
+   * Build database
+   * Build API
 
 ### Key implementations from previous sprint
 
@@ -456,10 +457,10 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 ### Backlog items
 
 ```
-  → Backlog item: research video chat APIs
-  → Backlog item: create start page
-  → Backlog item: create login
-  → Backlog item: add audio to start page
+  → Backlog item: implement multiplayer functionality
+  → Backlog item: research and add video chat to games
+  → Backlog item: build database
+  → Backlog item: build API
 
 ```
 
