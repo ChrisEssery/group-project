@@ -841,7 +841,7 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
 
-## Sprint 8 :  Finish report (03.05.21-07.05.21)
+## Sprint 8 : Finish report (03.05.21-07.05.21)
 ___
 
 The aim of this sprint was to finish the write up for our project report.
