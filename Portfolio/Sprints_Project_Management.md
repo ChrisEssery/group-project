@@ -400,7 +400,9 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 </tr>
 </table>
 
-### Technical problems and solutions:
+
+### Technical problems and solutions
+
 <table>
 <tr>
   <th>Component of MEAN stack</th>
@@ -422,6 +424,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
+
 
 ## Sprints paused : complete backlog items and other work commitments (22.03.21-05.04.21)
 ___
@@ -509,7 +512,8 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 </tr>
 </table>
 
-### Technical problems and solutions:
+
+### Technical problems and solutions
 
 <table>
 <tr>
@@ -525,6 +529,7 @@ This was the first sprint after pausing our sprints for two weeks. By this point
   <td>Despite the fact TypeScript is a superset of JavaScript, and that it is possible to convert JavaScript to TypeScript - by adding a tsconfig.json file to project, integrate with a build tool, change all .js files to .ts files, and check for any errors - this approach did not work, and became a time sink. Given this, it was decided that we would build the memory game from scratch using typescript, and make use of the Angular application development.</td>
 </tr>
 </table>
+
 
 ### Evaluation of Sprint
 
@@ -605,7 +610,8 @@ The aim of this sprint was
 </tr>
 </table>
 
-### Technical problems and solutions:
+
+### Technical problems and solutions
 
 <table>
 <tr>
@@ -706,7 +712,8 @@ to add video chat and multiplayer functionality to the memory game
 </tr>
 </table>
 
-### Technical problems and solutions:
+
+### Technical problems and solutions
 
 <table>
 <tr>
@@ -809,7 +816,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 </tr>
 </table>
 
-### Technical problems and solutions:
+
+### Technical problems and solutions
 
 <table>
 <tr>
