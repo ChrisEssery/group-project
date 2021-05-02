@@ -873,7 +873,7 @@ The aim of this sprint was to finish the write up for our project report.
 
 ## Team use of Git
 
-One of the most important tools we used during this project was GitHub. Github is an open-source code hosting service for building software and sharing code. It proved indispensable throughout the development. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
+One of the most important tools we used during this project was GitHub. Github is an open-source code hosting service for building software and sharing code - a version control system for managing source code. It proved indispensable throughout the development since it stored a complete history of our project. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
 
 After setting up GitHub, we realised it was important to utilise the branch-based workflow of the platform. As such, we created a number of different branches, 12 in total. Each branch was given a unique name and contained a unique set of code and documentation changes. This was to make sure that every team member had a specific feature to work on, and diverge from the main line of development.
 
@@ -892,7 +892,7 @@ With regards to the other branches, our GitHub protocol was as follows:
  3. Next, merge the branch with the dev branch.
  4. If merge successful, delete branch.
 
-By following this protocol, we had a formalised protocol to follow.
+By following this protocol, we had a formalised set of rules to follow when using GitHub.
 ___
 
 ## Navigate
