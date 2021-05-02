@@ -10,6 +10,7 @@ export class ConnectButtonComponent implements OnInit {
   connectToGameButton: any;
   playerNumber = 0;
   currentPlayerType: any;
+  socket: any;
 
   constructor() { }
 
@@ -24,11 +25,11 @@ export class ConnectButtonComponent implements OnInit {
   connectToGame() {
     // Creates socket to use for the game
 
-    const socket = io("http://localhost:3050");
+    this.socket = io("http://localhost:3050");
     this.currentPlayerType = "user";
 
     // Gets your player number
-    socket.on('player-number', num => {
+    this.socket.on('player-number', num => {
       if (num === -1) {
         //infoDisplay.innerHTML = "Sorry, the server is full.";
       } else {
@@ -38,15 +39,19 @@ export class ConnectButtonComponent implements OnInit {
         }
         console.log(this.currentPlayerType);
         // Get other player status
-        socket.emit('check-players');
+        this.socket.emit('check-players');
       }
     })
 
     // Another player has connected or disconnected
-    socket.on('player-connection', num => {
+    this.socket.on('player-connection', num => {
       console.log(`Player number ${num} has connected or disconnected`);
       //playerConnectedOrDisconnected(num);
     })
+  }
+
+  get SocketValue(){
+    return this.socket;
   }
 /** 
   playerConnectedOrDisconnected(num){
