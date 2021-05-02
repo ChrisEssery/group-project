@@ -7,9 +7,9 @@ import io from 'socket.io-client';
   styleUrls: ['./connect-button.component.scss']
 })
 export class ConnectButtonComponent implements OnInit {
-  connectToGameButton: any
+  connectToGameButton: any;
   playerNumber = 0;
-  currentPlayerType = "user";
+  currentPlayerType: any;
 
   constructor() { }
 
@@ -17,8 +17,7 @@ export class ConnectButtonComponent implements OnInit {
   }
   ngAfterViewInit() {
     this.connectToGameButton = document.querySelector('#connectButton');
-    this.connectToGameButton.addEventListener('click', this.connectToGame)
-
+    this.connectToGameButton.addEventListener('click', this.connectToGame);
   }
 
   // Start game
@@ -26,6 +25,7 @@ export class ConnectButtonComponent implements OnInit {
     // Creates socket to use for the game
 
     const socket = io("http://localhost:3050");
+    this.currentPlayerType = "user";
 
     // Gets your player number
     socket.on('player-number', num => {
@@ -35,8 +35,8 @@ export class ConnectButtonComponent implements OnInit {
         this.playerNumber = parseInt(num);
         if (this.playerNumber === 1) {
           this.currentPlayerType = "enemy";
-          console.log(this.currentPlayerType);
         }
+        console.log(this.currentPlayerType);
         // Get other player status
         socket.emit('check-players');
       }

@@ -15,7 +15,10 @@
 
    <p>Player: {{ gameService.playerName }}</p>
  </div>
+ 
+ <!--Buttons to connect and emit ready signal-->
  <app-connect-button></app-connect-button>
+ <app-ready-button></app-ready-button>
 
  <!--Window for end of gameplay-->
  <app-game-window [visible]="gameService.isGameOver">
