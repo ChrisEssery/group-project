@@ -13,6 +13,8 @@ import { MemoryGameComponent } from './memory-components/memory-game/memory-game
 import { GameWindowComponent } from './memory-components/game-window/game-window.component';
 import { ButtonComponent } from './memory-components/button/button.component';
 import { HeadingComponent } from './memory-components/heading/heading.component';
+import { ConnectButtonComponent } from './memory-components/start-game-components/connect-button/connect-button.component';
+import { ReadyButtonComponent } from './memory-components/start-game-components/ready-button/ready-button.component';
 
 
 
@@ -27,7 +29,9 @@ import { HeadingComponent } from './memory-components/heading/heading.component'
     MemoryGameComponent,
     GameWindowComponent,
     ButtonComponent,
-    HeadingComponent
+    HeadingComponent,
+    ConnectButtonComponent,
+    ReadyButtonComponent
   ],
 
   imports: [
