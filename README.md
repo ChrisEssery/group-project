@@ -46,7 +46,7 @@ According to recent figures, around 50% of people over the age of 60 will face s
 
 The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create a playful, easy-to-use online multiplayer gaming platform delivered through a SPA.
 
-Given the huge societal impact of the COVID-19 crisis with restrictions on people's lives and enforced "social distancing" measures, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly among older adults [[**1**]](#references).  NotSoBored games is designed to help combat these public health concerns. Our proposed method differs from and contributes to existing methods by combing a simple, visually appealing user interface with video communication functionality. This delivers an engaging experience, unlike existing online games which lack video communication functionality and ease of use.
+Given the huge societal impact of the COVID-19 crisis with restrictions on people's lives and enforced "social distancing" measures, there has been a significant rise in levels of loneliness and social isolation in the general population, particularly among older adults [[**2**]](#references).  NotSoBored games is designed to help combat these public health concerns. Our proposed method differs from and contributes to existing methods by combing a simple, visually appealing user interface with video communication functionality. This delivers an engaging experience, unlike existing online games which lack video communication functionality and ease of use.
 
 Our project objectives are as follows:
 
@@ -142,6 +142,8 @@ ___
 
 ## References
 
-[1] Hwang, Tzung-Jeng et al. “Loneliness and social isolation during the COVID-19 pandemic.” International psychogeriatrics vol. 32,10 (2020): 1217-1220. doi:10.1017/S1041610220000988
+[1] Fakoya, O.A., McCorry, N.K. & Donnelly, M. Loneliness and social isolation interventions for older adults: a scoping review of reviews. BMC Public Health 20, 129 (2020). https://doi.org/10.1186/s12889-020-8251-6
+
+[2] Hwang, Tzung-Jeng et al. “Loneliness and social isolation during the COVID-19 pandemic.” International psychogeriatrics vol. 32,10 (2020): 1217-1220. doi:10.1017/S1041610220000988
 
 ___
