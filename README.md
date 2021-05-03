@@ -32,11 +32,11 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Chris - Coder/Front-end :technologist:
 
-* Lizhao - Coder/Full-stack :woman_technologist:
-
 * Harri - Organiser/Back-end :prince:
 
   <td><img src="/Logo/profile-pic-harri.png" width=16%>
+
+* Lizhao - Coder/Full-stack :woman_technologist:
 
 * Max - Writer/Coder/Front-end :artist:
 
