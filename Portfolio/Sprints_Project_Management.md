@@ -666,6 +666,7 @@ to add video chat and multiplayer functionality to the memory game
   → Backlog item: complete documentation on system implementation
   → Backlog item: create login
   → Backlog item: add audio to start page
+  → Backlog item: implement multiplayer functionality for memory game
 
 ```
 
@@ -750,6 +751,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Make pages of application responsive, including mobile responsive
    * Complete evaluation of design to report
    * Conduct unit testing
+   * Complete introduction demo video
 
 ### Key implementations from previous sprint
 
@@ -763,9 +765,10 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 ### Backlog items
 
 ```
-  → Backlog item: complete introduction video
+  → Backlog item: complete introduction demo video
   → Backlog item: complete remaining subsections of the report
   → Backlog item: conduct unit testing
+  → Backlog item: implement multiplayer functionality for memory game
 
 
 ```
@@ -842,7 +845,9 @@ It was clear, however, that our workload in the other units of term was getting 
 ## Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)
 ___
 
-The aim of this sprint was to finish the write up for our project report. Although our report, by this stage, was fairly thorough and well-documented, we still had a lot to write up, particularly on the system implementation, evaluation of design and conclusion. We agreed to allocate subsections to different team members so that the workload was distributed evenly. We also had to complete unit testing our code, which was something we were yet to complete.
+The aim of this sprint was to finish the write up for our project report. Although our report, by this stage, was fairly thorough and well-documented, we still had a lot to write up, particularly on the system implementation, evaluation of design and conclusion. We agreed to allocate subsections to different team members so that the workload was distributed evenly.
+
+We also had to complete unit testing on our code, finalise the introduction demo video, implement multiplayer functionality for the memory game.
 
 ### Key points
 
@@ -859,7 +864,8 @@ The aim of this sprint was to finish the write up for our project report. Althou
 ```
   → Backlog item: complete report documentation
   → Backlog item: conduct unit testing
-  → Backlog item: complete introduction video
+  → Backlog item: complete introduction demo video
+  → Backlog item: implement multiplayer functionality for memory game
 
 
 ```
