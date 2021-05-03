@@ -500,7 +500,7 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 <br>Simon </a> <br /> As a product manger, I think we should be obtaining user feedback about new features as soon as we can.</td>
 <td>N/A</td>
 <td>UI wireframe and obtain user feedback/Create and circulate questionnaire regarding UI wireframe</td>
-<td>You've done well to circulate a questionnaire on your UI wireframe, and to use that information to inform your user stories. This will help you improve the design of your product and give you a good insight into the needs of your users. One thing that is very clear is that you need some instructions on how to use yor games. You may also need some instructions on how to login. I think you might find that some of your end-users will need some assistance with logging in before they feel to do this by themselves.</td>
+<td>You've done well to circulate a questionnaire on your UI wireframe, and to use that information to inform your user stories. This will help you improve the design of your product and give you a good insight into the needs of your users. One thing that is very clear is that you need some instructions on how to use the games. You may also need some instructions on how to login. Perhaps you could provide some written instructions on how to use your product, since it won't be abundantly clear how to use it without explicitly laying out the steps to take. You could even provide an instructional video which guides the user through the process of using the application. The main point here is that I think you may find that some of your end-users will need some assistance with logging in before they feel to do this by themselves.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
