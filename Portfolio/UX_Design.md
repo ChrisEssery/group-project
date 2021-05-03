@@ -195,7 +195,7 @@ These criteria will be used to conduct a heuristic evaluation of our product's d
 </tr>
 </table>
 
-## User-centred design
+### User-centred design
 
 The goal of the design process is to make the product as usable as possible. This is why we adopt a user-centred design. Coined by Rob Kling in 1977, this approach
 
@@ -215,7 +215,7 @@ The principles:
   5. Design addresses the whole user experience.
   6. Design team includes multidisciplinary skills and perspectives.
 
-  
+
 ## Game design for older people
 
 For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
