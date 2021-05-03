@@ -28,7 +28,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 4 : Add multiplayer functionality, video chat and build backend (05.04.21-12.04.21)](#sprint-4--add-multiplayer-functionality-video-chat-and-build-backend-050421-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
-   * [Sprint 7 : Pages made responsive and authentication implemented (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-authentication-implemented-260421-030521)
+   * [Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-api-finalised-260421-030521)
    * [Sprint 8 : Finish report (03.05.21-07.05.21)](#sprint-8--finish-report-030521-070521)
 * [**Team use of Git**](#team-use-of-git)
 
@@ -737,7 +737,7 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
-## Sprint 7 :  Pages made responsive and authentication implemented (26.04.21-03.05.21)
+## Sprint 7 :  Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
 The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
