@@ -36,6 +36,8 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Harri - Organiser/Back-end :prince:
 
+<td><img src="/Logo/profile-pic-harri.png" width=18%>
+
 * Max - Writer/Coder/Front-end :artist:
 
 <td><img src="/Logo/profile-pic.jpg" width=18%>
