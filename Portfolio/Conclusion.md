@@ -81,7 +81,7 @@ With this objective, we.
 
 We were unable to complete this objective due to the time constraints placed on use. This would be a good extension though.
 
-  * *Deliver a SPA that is easy to use and doesn't exclude the end-users because of their lower levels of digital literacy.*
+  * *Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy.*
 
 With this objective, it is fair to say that we were successful.
 

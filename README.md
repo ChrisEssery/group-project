@@ -58,7 +58,7 @@ Our project objectives are as follows:
   * Design and implement a login, leaderboard, and two board games with multiplayer functionality and video chat.
   * Conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user, and applies playfulness - and serious play - throughout the application.
   * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
-  * Deliver a SPA that is easy to use and doesn't exclude the end-users because of their lower levels of digital literacy.
+  * Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy
 
 We investigate whether these objectives are met and, based on our results, claim that our application successfully uses 'serious play' to help tackle the growing issue of loneliness and isolation in this group.
 
