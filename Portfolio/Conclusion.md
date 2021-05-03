@@ -135,34 +135,39 @@ For example, a brute-force attack to guess a user password and a simple account 
 
 ## Future work
 
-There is, we feel, a lot of scope for future work in this area. In particular...
+There is, we feel, a lot of scope for adding to and extending the features of our product. In particular, there
 
-One possible extension concerns adding more games to the platform. Originally, we had planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning minimum viable product with two games at an early stage in the agile cycle than to deploy one with more games at the very end of the the lifecycle.
+- *ADD MORE IDEAS/FLESH OUT THE IDEAS BELOW* -
 
+### Adding more games
+
+One possible extension concerns adding more games to the platform. When we began this project we planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning MVP with two games at an early stage in the agile cycle than to deploy one with four games at the very end of the the lifecycle. There is also scope to go beyond four games, and add a number of different games with different gaming categories such as cognitively challenging games, memory games, fun games, social games, cooperative games.
+
+However, this extension would have to be moderated since the core idea behind our application is to connect older adults together and make sure that that the platform is easy enough to use so that their lower levels of digital literacy don't exclude them from using our product.
+
+
+### Invite friends to play
 
 Another extension concerns adding an 'invite friends to play' feature.
 
 
+### Adding better instructions
+
 A further extension concerns
 
+- *ADD MORE IDEAS* -
 
 
-### Impact of our work
+## Impact of our work
 
-Our product could arguably be used to garner data on the affect playing computer games has on individuals who are lonely and isolated.
+There are several ways our work will have an impact...
 
-Our project attempts to overcome the shortcomings of previous gaming platforms by utilising video chat and a simple user interface. There is also scope for using
-
-
-Although we lacked the time and resources to conduct research, one potential future area of work which our product could be applied to is research on loneliness and isolation in the elderly. In particular, researchers could conduct a small-scale study in which users' self-reported levels of loneliness and isolation are measured over a set period of time. As Alan (1999) points out, this type of hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. One future use of our application, therefore, could involve assessing the affects of our product on subjective feelings of loneliness in older adults. This is an area of research which our product could have been put to good use. The ubiquity of computers and smartphones and the self-centric orientation of their technologies capable of connecting individuals from across the globe indicates that multiplayer games with video functionality could play an important role in future research on loneliness in older adults.
+One potential impact of our work concerns its application in research on loneliness and isolation in the elderly population. In particular, our product could be used to garner data on the affect playing our application could have on individuals who self-report as lonely and isolated. Although we lacked the time and resources to conduct research, one potential future area of work which our product could be applied to is research on loneliness and isolation in the elderly. Specifically researchers could conduct a small-scale study in which users' self-reported levels of loneliness and isolation are measured over a set period of time. As Alan (1999) points out, this type of hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. One future use of our application, therefore, could involve assessing the affects of our product on subjective feelings of loneliness in older adults. This is an area of research which our product could have been put to good use. The ubiquity of computers and smartphones and the self-centric orientation of their technologies capable of connecting individuals from across the globe indicates that multiplayer games with video functionality could play an important role in future research on loneliness in older adults.
 
 
-Building upon contemporary work, this project pushes the field forward and provides a promising point of departure for future methods.
-
-### Design, development, and evaluation
+Building upon contemporary gaming platforms, this project pushes the field forward and provides a promising point of departure for future methods.
 
 
-### Possible extensions
 
 
 
