@@ -38,6 +38,9 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Max - Writer/Coder/Front-end :artist:
 
+## Abstract. (Motivation for the project, framing of the problem and a high-level overview of the system)
+
+According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). This is a pressing issue in modern times - one that needs to be addressed. Whilst there are systemic factors at play, there is nonetheless scope to address these public health issues through the medium of serious play. To this end, we propose NotSoBored games, an SPA which prioritises gameplay and ease of use to ensure that it is accessible for older adults with lower levels of digital literacy. Our platform consists of a start page, login, two different multiplayer games with video feed, a scoring system, leaderboard, and profile page. Players will be able to see their results and compare with other players. The product serves to reconnect older adults in a fun, engaging way, with a user-centred design (UCD) emphasising usability of the end-users, with the aim of reducing levels of loneliness and isolation in older adults.
 
 ## Aims and Objectives
 
@@ -51,7 +54,7 @@ Our project objectives are as follows:
   * Design and implement a login, leaderboard, and two board games with multiplayer functionality and video chat.
   * Conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user, and applies playfulness - and serious play - throughout the application.
   * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
-  * Deliver a SPA that can be used as a tool that is fun, engaging, and easy to use.
+  * Deliver a SPA that is easy to use and doesn't exclude the end-users because of their lower levels of digital literacy.
 
 We investigate whether these objectives are met and, based on our results, claim that our application successfully uses 'serious play' to help tackle the growing issue of loneliness and isolation in this group.
 

@@ -64,17 +64,26 @@ There have been many successes throughout the duration of this unit.
 
 To reflect on whether our project objectives were met, let's turn to the objectives we set ourselves and assess whether each of these was met. Consider the first of these:
 
-  * Build and deploy a responsive SPA using the MEAN stack, as per the project brief.
+  * *Build and deploy a responsive SPA using the MEAN stack, as per the project brief.*
 
 With this objective, it is fair to say that we were successful.
 
 
-  * Implement a login, leaderboard and two board games with multiplayer functionality and video chat.
-  * Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.
-  * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
-  * Deliver an SPA that can be used as a tool that is fun, engaging and easy to use.
+  * *Implement a login, leaderboard and two board games with multiplayer functionality and video chat.*
 
-Let's begin with the first of these objectives.
+With this objective, we.
+
+  * *Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.*
+
+With this objective, we.
+
+  * *Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.*
+
+We were unable to complete this objective due to the time constraints placed on use. This would be a good extension though.
+
+  * *Deliver a SPA that is easy to use and doesn't exclude the end-users because of their lower levels of digital literacy.*
+
+With this objective, it is fair to say that we were successful.
 
 
 ## Impact of Covid-19
