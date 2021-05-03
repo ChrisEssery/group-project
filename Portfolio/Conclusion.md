@@ -141,7 +141,7 @@ There is, we feel, a lot of scope for adding to and extending the features of ou
 
 ### Adding more games
 
-One possible extension concerns adding more games to the platform. When we began this project we planned to have four games on the platform. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning MVP with two games at an early stage in the agile cycle than to deploy one with four games at the very end of the the lifecycle. There is also scope to go beyond four games, and add a number of different games with different gaming categories such as cognitively challenging games, memory games, fun games, social games, cooperative games.
+One possible extension concerns adding more games to the platform. When we began this project we planned to have four games to choose from. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning MVP with two games at an early stage in the agile cycle than to deploy one with four games at the very end of the the lifecycle. There is also scope to go beyond four games, and add a number of different games with different gaming categories such as cognitively challenging games, memory games, fun games, social games, cooperative games.
 
 However, this extension would have to be moderated since the core idea behind our application is to connect older adults together and make sure that that the platform is easy enough to use so that their lower levels of digital literacy don't exclude them from using our product.
 
