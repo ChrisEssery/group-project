@@ -38,6 +38,8 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Max - Writer/Coder/Front-end :artist:
 
+<td><img src="/Logo/profile-pic.jpg" width=25%>
+
 ## Abstract
 
 According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population — one that is likely to continue within ageing societies across the globe. We seek to address these public health issues through the medium of serious play. In particular, we propose NotSoBored games, an SPA which prioritises gameplay and ease of use to ensure that it is accessible for older adults with lower levels of digital literacy. Our platform consists of a start page, login, two different multiplayer games with video feed, a scoring system, leaderboard, and profile page. Players will be able to see their results and compare with other players. The product serves to reconnect older adults in a fun, engaging way, with a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design) and a clear aim to reduce levels of loneliness and isolation in older adults.
