@@ -90,7 +90,7 @@ There are several different frameworks used to implement the Agile method: Featu
 - Client-focused approach
 - Flexibility allows changes to occur at any stage
 - Working software delivered quickly
-- Allows for improvement of features designed earlier in the lifecyle
+- Allows for improvement of features designed earlier in the lifecycle
 
 ### The Cons
 - Easy to lose focus if the client is unclear on their requirements
@@ -112,27 +112,27 @@ In light of the strengths and weaknesses of both methodologies, we decided to us
 
 The format of our software development was as follows. Our build was broken down into sprints. Each sprint centres around a particular set of features, tests to test the robustness those features, and making sure that our users' expectations and demands are met through the creation of those added features.
 
-Following standard practice, we broke the sprints into two week cycles. During each cycle we created a backlog of tasks and user feedback. We used the feedback from previous sprints to help inform the project development. We then reviewed our progress during our weekly meetings. During these reviews we conducted integration testing and assurance testing. Following this, we then aimed to  merge all changes to the master branch of Github.
+Following standard practice - as well as advice from the teaching staff - we broke the sprints into weekly cycles. During each cycle we created a backlog of tasks/features and user stories. We used the user stories in each sprint from previous sprints to help inform the project development. We then reviewed our progress during our weekly meetings. During these reviews we conducted integration testing and assurance testing. Following this, we then aimed to  merge all changes to the main branch of Github. This did not always happen, however, as some new features took longer than others to build and implement.
 
-Our sprints really got under way in March. These continued until early May. The sprints centred around a feature implementation required for that week as well as any tasks in the backlog from previous weeks.
-
-The goals for the week were decided and we kept to those goals until the end of the week. We reviewed our work at the end of each sprint. This meant that our approach towards the development of the product was consistent with the agile methodology.
-
-The requirements acted to inform our tests. This meant that our systems were able to integrate properly at the end of each sprint.
+Our sprints really got under way in the beginning of March. These continued until early May. The sprints centred around feature implementations required for that week as well as any tasks in the backlog from previous sprints. The goals for the week were decided and we kept to those goals until the end of the week. We reviewed our work at the end of each sprint. This meant that our approach towards the development of the product was consistent with the agile methodology.
 
 Given the fact that we had very little time to build the product, we felt that it was important to deploy a working application as soon as we possibly could.
 
-With respect to the meetings and sprints and how they worked, we met every Monday at 11am. And then on Wednesdays and Fridays. In every successive meeting we discussed the work we had done, and when items were assigned tasks as "complete". We compiled a list of Backlog and items that were complete.
-
-At the heart of this process was the users. So, during every sprint we had the users in mind, making sure to address their goals and demands.
+With respect to the meetings and sprints and how they worked, we met every Monday at 11am. And then on Wednesdays and Fridays. In every successive meeting we discussed the work we had done, and when items were assigned tasks as "complete". We compiled a list of Backlog and items that were complete. Overall, though, at the heart of this process was the users. During every sprint we had the users in mind, ensuring that we addressed their goals and demands.
 
 ### Scrums
-EDIT:
-We used the Scrum framework to apply Agile working practice. This entailed one team member acted as the 'Scrum master',. The scrum master was responsible for dictating the timelines on Github and ensuring that they were outlined on Slack as well. This ensured that we had a clear agreement amongst our team as to when our deliverables were expected by, and which user stories we were currently focused on implementing.
+
+We used the Scrum framework to apply Agile working practice. This entailed one team member acted as the 'Scrum master'. The scrum master was responsible for dictating the timelines on Github and making sure that everything was on track. This meant that we had a clear agreement amongst our team as to when our main deliverables for the week were expected by, as well as offering guidance on which user stories were being used for that week.
 
 ### Jira
 
 We used Jira to implement these actions, and created Gantt charts to visualise the progress of tasks. Jira helped structure the timetable so it was clear what was being done by who and where in the lifecycle it sat.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/jira.png)
+
+</div>
 
 ### Product backlog
 
@@ -282,7 +282,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
  <td>N/A</td>
  <td>Paper prototype video.</td>
- <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype, but I think I would need some instructions on how to use it. For instance, what is the difference between login and guest? I don't entirely understand what this means. Could you perhaps add some instructions? </td>
+ <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, what is the difference between login and guest? I don't entirely understand what this means. Could you perhaps add some instructions? </td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
@@ -451,7 +451,7 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 
    * Obtained feedback from users regarding the start page.
    * Created UI wireframe and obtain user feedback.
-   * Created and circulate questionnaire regarding UI wireframe.
+   * Created and circulated questionnaire regarding UI wireframe.
    * Started building back-end.
    * Built basic versions of games and obtained user feedback.
    * Created a user login.
@@ -480,34 +480,35 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
+ <br>Bob</a> <br /> As a user, I want to know information about how I am performing at the games.</td>
  <td>N/A</td>
- <td>Paper prototype.</td>
- <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
+ <td>UI wireframe and obtain user feedback</td>
+ <td>This shows me how the website will work, which looks good. I would quite like to update the profile page and add more information about my gaming experience such as the number of matches recently played, the win rate, the people recently played. Would you be able to add this information?.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <br>Sally </a> <br /> As a user, I want instructions on how to use the various parts of the site.</td>
  <td>N/A.</td>
- <td>Paper prototype</td>
- <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+ <td>Create a user login/UI wireframe and obtain user feedback</td>
+ <td>This login has a nice style and seems relatively easy to navigate. I might need help logging in though. With the UI wireframe, this is really good and easy enough to follow, but could you add a "how to play" button under the title of each games so that I can click on the button to learn the rules and operations before starting the game? This would be very helpful for me.
+</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<br>Simon </a> <br /> As a product manger, I think we should be obtaining user feedback about new features as soon as we can.</td>
 <td>N/A</td>
-<td>Create stakeholder stories</td>
-<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
+<td>UI wireframe and obtain user feedback/Create and circulate questionnaire regarding UI wireframe</td>
+<td>You've done well to circulate a questionnaire on your UI wireframe, and to use that information to inform your user stories. This will help you improve the design of your product and give you a good insight into the needs of your users. One thing that is very clear is that you need some instructions on how to use yor games. You may also need some instructions on how to login. I think you might find that some of your end-users will need some assistance with logging in before they feel to do this by themselves.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <br>Simon </a> <br /> As a sponsor, I want the UI and UX design to meet the needs of the users.</td>
  <td>N/A</td>
- <td>Paper prototype and research target population</td>
- <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+ <td>UI wireframe and obtain user feedback</td>
+ <td>I think this wireframe is clean and straightforward. I do think, however, that the feature of playing against friends might be a little complicated for our end-users without any guidance on what this means and how it works. You may need to create a video which explains how the application works, or even some written instructions which detail how to login, play the games and play against friends.</td>
 </tr>
 </tr>
 </table>
@@ -534,20 +535,20 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 ### Evaluation of Sprint
 
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
+Following our two week break from Agile sprints, we felt better placed to tackle our fourth sprint. At this stage, we had covered a lot of ground with regards to the UI and UX design, and the start page and login were suitable for our end-users. We had also built two working games. But these games still lacked multiplayer functionality and didn't have a functioning video feed, so it was clear that a lot of work was still required to not only get these two games up and running, but also to integrate the games with the start page and login.
 
-It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
+There were still many new features to add to our product and we had four new fairly challenging backlog items to complete, including building the database and API, adding multiplayer functionality and video chat and continuing with documentation. On reflection, these tasks may have been too large to complete over the course of one week - two weeks would have been more appropriate.
 
 
 ## Sprint 5 : Adding new features (12.04.21-19.04.21)
 ___
 
 
-The aim of this sprint was
+The aim of this sprint was to add new features to our product including a leaderboard. We also had to complete the backlog items from the previous week.
 
 ### Key points
 
-   *
+   * Build a leaderboard
 
 ### Key implementations from previous sprint
 
@@ -762,11 +763,8 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 ### Backlog items
 
 ```
-  → Backlog item: add video chat to memory game
-  → Backlog item: add multiplayer functionality to memory game
-  → Backlog item: add evaluation of design to report
-  → Backlog item: make pages of application responsive, including mobile responsive
-  → Backlog item: complete evaluation of design to report
+  → Backlog item: complete introduction video
+  → Backlog item: complete remaining subsections of the report
   → Backlog item: conduct unit testing
 
 
@@ -841,35 +839,34 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
 
-## Sprint 8 : Finish report (03.05.21-07.05.21)
+## Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)
 ___
 
-The aim of this sprint was to finish the write up for our project report.
+The aim of this sprint was to finish the write up for our project report. Although our report, by this stage, was fairly thorough and well-documented, we still had a lot to write up, particularly on the system implementation, evaluation of design and conclusion. We agreed to allocate subsections to different team members so that the workload was distributed evenly. We also had to complete unit testing our code, which was something we were yet to complete.
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Decided to create a multiplayer game with video feed.
-   * Set up GitHub repository and familiarised ourselves with the platform.
+   * Every team member was tasked to complete subsections of the report.
+   * Finish unit testing
+   * Complete introduction video
 
 ### Key implementations from previous sprint
 
-   * Add video chat to memory game
-   * Add multiplayer functionality to memory game
-   * Make pages of application responsive, including mobile responsive
-   * Complete evaluation of design to report
-   * Conduct unit testing
-
+   *
 
 ### Backlog items
 
 ```
-  → Backlog item: research video chat APIs
-  → Backlog item: create start page
-  → Backlog item: create login
-  → Backlog item: add audio to start page
+  → Backlog item: complete report documentation
+  → Backlog item: conduct unit testing
+  → Backlog item: complete introduction video
+
 
 ```
+### Evaluation of Sprint
+
+This was our final sprint. The main thrust of the work to complete was documentation. This was relatively straightforward since we had been very consistent with documenting our report from very early on in the development lifecycle. The other backlog items were completing unit testing and finalising our introduction video. Whilst these tasks weren't particularly challenging, they did take up quite a bit of time, and on reflection, we would have been better off doing unit testing earlier on in the project since it was an important task which took time.
+
 
 ## Team use of Git
 
