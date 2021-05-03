@@ -38,7 +38,7 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Max - Writer/Coder/Front-end :artist:
 
-<td><img src="/Logo/profile-pic.jpg" width=25%>
+<td><img src="/Logo/profile-pic.jpg" width=20%>
 
 ## Abstract
 
