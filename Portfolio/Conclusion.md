@@ -79,7 +79,7 @@ With this objective, we.
 
   * *Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.*
 
-We were unable to complete this objective due to the time constraints placed on use. This would be a good extension though.
+We were unable to complete this objective due to the time constraints placed on us. Despite the face we were unable to meet this objective, we believe this could be a really fruitful extension of our product since it could help garner useful data on the impact our platform has with respect to subjective feelings of wellbeing and self-reported levels of loneliness and isolation. Whilst these questions lie outside the realm of this project, they nonetheless could be addressed in a small-scale study investigating those phenomena. 
 
   * *Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy.*
 
@@ -87,7 +87,7 @@ With this objective, it is fair to say that we were successful.
 
 ### How did we 'serious play' in our application?
 
-As discussed in the background and UX design sections of this report, 
+As discussed in the background and UX design sections of this report,
 
 ## Impact of Covid-19
 
