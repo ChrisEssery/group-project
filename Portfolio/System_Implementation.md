@@ -154,18 +154,16 @@ RESTful API makes it easy to decouple the backend code from the front end so tha
 
 - The data is transferred in a uniform format using JSON
 
-- Web APIs are designed according to the [Representational State Transfer (REST) architectural style](https://en.wikipedia.org/wiki/Representational_state_transfer)
-
 - Interface authentication: Uniform use of Token authentication (based on JSON Web Token)
 
-- Interfaces that require authorization must provide the request header field X-Access-Token information(checked in [middleware.js]())
+- Interfaces that require authorization must provide the request header field X-Access-Token information(see [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js))
 
 - User password is encrypted using [blueimp-md5](https://www.npmjs.com/package/blueimp-md5)
 
 - [Express session](https://www.npmjs.com/package/express-session) is used to store user data between HTTP request
 
 **API Flowchart**
-![image]()
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png)
 
 
 ### Returned Status Code Specification
