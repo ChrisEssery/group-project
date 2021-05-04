@@ -49,7 +49,7 @@ Our target group is adults above the age of 70. However, we acknowledge that ind
 
 ### Public health concerns
 
-There are several public health concerns linked to loneliness and isolation. Let's begin by looking at the health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains, and headaches.
+There are several public health concerns linked to loneliness and isolation. Let's begin by looking at the health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains, and insomnia.
 
 The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the above-mentioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
@@ -70,13 +70,17 @@ According to research by Kaufman et al, digital games offer opportunities for ol
 
 </div>
 
-Although the widely held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives. Researchers at King's College London have shown that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks, and shopping [[**6**]](#references). Research has also shown that brain training daily can have long-lasting effects on a person's cognitive abilities.
+Although the widely held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives.
+
+Researchers at King's College London have shown that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks, and shopping [[**6**]](#references). Research has also shown that brain training daily can have long-lasting effects on a person's cognitive abilities.
 
 For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function, and processing speed. Furthermore, most research shows that playing games improve life satisfaction and quality of life.
 
 In addition to this, there is research that suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
 
 The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing at an intermediate and advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
+
+With this in mind, we should encourage our older loved ones to get online. Get them playing games they enjoy — scrabble, chess, sudoku - and show them how fun it can playing online games. The science tells us that not only is it social but it promotes healthy behaviours and keeps your brain active and focused.
 
 Now, let's look at serious play and the motivations behind playing games.
 
