@@ -145,7 +145,7 @@ Then through running ‘ng test’ we could easily see any issues within our fro
 
 ### Back-End (AUTOMATED API TESTING)
 
-The backend API was tested vigorously using software known as [Postman]((https://www.postman.com/)l, which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API. 
+The backend API was tested vigorously using software known as [Postman](https://www.postman.com/), which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API. 
 
 Based on our [API design](), there are mainly 4 methods involved in our [API Testing](https://www.guru99.com/api-testing.html):
 
@@ -194,8 +194,8 @@ remove all the changes to the database
 3. validate the message and the status code returned by a request  (UPDATE, PUT, DELETE)
 4. make sure that data is transferred/updated to the database correctly
 
-API testing collection:
-
+API testing collection design:
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/collection.png)
 - **Methods:**
 
 To carry out testst, we used the `pm.response` object in Postman. You defined tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating whether the test passed or failed. Then, we used [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in the assertions to test the response detail. Here are some selected parts of the testing codes:  
@@ -264,15 +264,13 @@ pm.test("has friend bbb", function () {
 
 **Please see our [published api document](https://documenter.getpostman.com/view/15388829/TzRLkVzq) for test scripts of each request**
 
-
-
-- **Running Tests:**
-
-
-
-
-
 - **Test Results:**
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/1.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/2.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/3.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/4.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/5.png)
 
 ## User acceptance testing
 
