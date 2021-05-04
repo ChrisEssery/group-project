@@ -301,7 +301,7 @@ Clearly, the problem of social isolation and loneliness in the elderly is a huge
 
 ## Motivation
 
-The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game. Our motivation for creating this application is simple. We can see that we live in an ageing society with inadequate social care infrastructure, and we know from personal experience that older adults are particularly vulnerable to loneliness and isolation. Digital games are abundant, but there is a shortage of digital games designed for the elderly. Our motivation is to address this gap in the market, and try to leverage a digital game platform to try and mitigate loneliness and isolation. This is important as ageing societies continue to grow and the social infrastructure in place are unable to adequately support older adults.
+The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game. Our motivation for creating this application is simple. We can see that we live in an ageing society with inadequate social care infrastructure, and we know from personal experience with elderly relatives that older adults are particularly vulnerable to loneliness and isolation. Digital games are abundant, but there is a shortage of digital games designed for the elderly. Our motivation is to address this gap in the market, and try to leverage a digital game platform to mitigate loneliness and isolation. This is important because ageing societies continue to grow and social care infrastructure in place is unable to adequately meet 
 
 
 
