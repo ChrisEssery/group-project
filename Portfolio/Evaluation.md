@@ -149,54 +149,54 @@ The backend API was tested vigorously using software known as [Postman](https://
 
 Based on our [API design](), there are mainly 4 methods involved in our [API Testing](https://www.guru99.com/api-testing.html):
 
-- **GET**- The GET method is used to extract information from the given server using a given URI. While using GET request, it should only extract data and should have no other effect on the data.
+- GET- The GET method is used to extract information from the given server using a given URI. While using GET request, it should only extract data and should have no other effect on the data.
 
-- **POST**- A POST request is used to create a new entity. It can also be used to send data to the server, for example, customer information, file upload, etc. using HTML forms.
+- POST- A POST request is used to create a new entity. It can also be used to send data to the server, for example, customer information, file upload, etc. using HTML forms.
 
-- **PUT**- Create a new entity or update an existing one.
+- PUT- Create a new entity or update an existing one.
 
-- **DELETE**- Removes all current representations of the target resource given by a URI.
+- DELETE- Removes all current representations of the target resource given by a URI.
 
 To fully test these methods, we focused on two aspects: 
 
-- **Test functionality**
+- Test functionality
 
   Make sure your API does exactly what it’s supposed to do.
 
-- **Test exceptions**
+- Test exceptions
 
   Make sure your API handles unexpected input and behavior.
 
   
 
-#### Testing Implementation
+#### **Testing Implementation**
 
-- **Prerequiste**
+**Prerequiste**
 
 [Postman](https://www.postman.com/): Testing tool to drive the API
 
 [mongodb atlas](https://www.mongodb.com/cloud/atlas): cloud mongodb for checking data persistence
 
-- **Set up**
+**Set up**
 
 ensure you have a connected mongodb cloud database which you can check the data collection online
 
 ensure you have a working api interface which is exposed on localhost port 3000
 
-- **Tear down**
+**Tear down**
 
 remove all the changes to the database
 
-- **Tests:**
+**Tests:**
 
 1. validate the API's error handling and the returned status code 
 2. validate the data and the status code returned by a request (GET)
 3. validate the message and the status code returned by a request  (UPDATE, PUT, DELETE)
 4. make sure that data is transferred/updated to the database correctly
 
-API testing collection design:
+API testing collection:
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/collection.png)
-- **Methods:**
+**Methods:**
 
 To carry out testst, we used the `pm.response` object in Postman. You defined tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating whether the test passed or failed. Then, we used [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in the assertions to test the response detail. Here are some selected parts of the testing codes:  
 
@@ -262,9 +262,9 @@ pm.test("has friend bbb", function () {
 });
 ```
 
-**Please see our [published api document](https://documenter.getpostman.com/view/15388829/TzRLkVzq) for test scripts of each request**
+Please see our [published api document](https://documenter.getpostman.com/view/15388829/TzRLkVzq) for test scripts of each request
 
-- **Test Results:**
+**Test Results:**
 
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/1.png)
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/2.png)
