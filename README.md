@@ -50,7 +50,7 @@ According to recent figures, around 50% of people over the age of 60 will face s
 
 <div align="center">
 
-![Demo](https://user-images.githubusercontent.com/60075283/117048437-e482fd00-ad0a-11eb-8bc6-6154e8acdac0.mp4)
+https://user-images.githubusercontent.com/60075283/117048437-e482fd00-ad0a-11eb-8bc6-6154e8acdac0.mp4
 
 </div>
 
