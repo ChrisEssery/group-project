@@ -858,17 +858,20 @@ We also had to complete unit testing on our code, finalise the introduction demo
 
    * Every team member was tasked to complete subsections of the report.
    * Finish unit testing
-   * Complete introductional demo video
+   * Complete introduction demo video
 
 ### Key implementations from previous sprint
 
-   *
+   * Add video chat to memory game
+   * Add multiplayer functionality to memory game
+   * Make pages of application responsive, including mobile responsive
 
 ### Backlog items
 
 ```
   → Backlog item: complete report documentation
   → Backlog item: conduct unit testing
+  → Backlog item: complete evaluation of design to report
   → Backlog item: complete introduction demo video
   → Backlog item: implement multiplayer functionality for memory game
 
