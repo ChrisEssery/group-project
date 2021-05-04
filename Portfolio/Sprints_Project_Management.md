@@ -709,7 +709,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product and understand how it works.</td>
 <td>Leaderboard/Demo video</td>
 <td>Leaderboard/Start creating the introduction demo video</td>
-<td>The leaderboard looks good, but I think you need make sure the users know what the scores stand for, and create a profile page for the users so that they can recall what their profile name is and what games they have been playing. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided.</td>
+<td>The leaderboard looks good, but I think you need make sure the users know what the scores stand for, and create a profile page for the users so that they can recall what their profile name is and what games they have been playing. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided. Make sure the video is fun and engaging, though, as you want to grab your users' attention.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
