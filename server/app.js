@@ -8,6 +8,7 @@ Http.listen(3050, () => {
 
 // Handle connection request
 const connections = [null, null]
+const cardDeck = [];
 
 Socketio.on('connection', socket => {
     console.log('New connection');
@@ -55,11 +56,22 @@ Socketio.on('connection', socket => {
     })
 
     // On slot received
-    socket.on('takeSlot', id => {
-        console.log(`Turn taken by ${playerIndex}`, id);
+    socket.on('card-flipped', card => {
+        console.log(`Turn taken by ${playerIndex}`, card);
 
         // Emit move to the other player
-        socket.broadcast.emit('takeSlot', id);
+        socket.broadcast.emit('card-flipped', card);
+    })
+
+    socket.on('send-card', card => {
+        cardDeck.push(card);
+    })
+
+    socket.on('card-request', () => {
+        for(let i = 0; i < cardDeck.length; i++){
+            console.log("Requesting");
+        socket.emit('card-sent', cardDeck[i]);
+        }
     })
 
     // On slot reply
@@ -72,5 +84,11 @@ Socketio.on('connection', socket => {
 
     socket.on('game-over', () => {
         socket.broadcast.emit('game-over', true);
+    })
+
+    // When game ready to start
+    socket.on('game-start', () => {
+        console.log("going");
+        socket.emit('ready-to-go', true);
     })
 });

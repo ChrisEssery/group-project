@@ -4,7 +4,7 @@
     align-content: center;
   }
 
-  #connectButton{
+  #connectButton, #readyButton{
      background-color: transparent;
      display:inline-block;
      padding:0.6em 2em;
@@ -22,13 +22,13 @@
      transition: all 0.2s;
  }
  
- #connectButton:hover{
+ #connectButton:hover, #readyButton:hover{
     color:grey;
     background-color:#FFFFFF;
  }
  
  @media all and (max-width:30em){
-    #connectButton{
+    #connectButton, #readyButton{
         display:block;
         margin:0.4em auto;
      }
