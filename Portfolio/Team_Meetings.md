@@ -153,3 +153,13 @@ ___
 - Lizhao demo'ed her progress on the navigation of the app and leaderboard.
 - Discussed merging of the game components with the API work on Git. Settled for more manual comparison as oppose to git merging which may cause issues.
 - Harri mentioned the 'Future work' section may be best to brainstorm together.  
+
+## May 4th
+
+- Chris gave an update on the multiplayer noting that Connect 4 multiplayer is complete. The memory game multiplayer is proving tough and needs further workarounds.
+- Team agreed of a time limit on the multiplayer of the memory game if too problematic and we can include in write-up.
+- Lizhao mentioned bringing the app together so she can tweak any front end that's needed.
+- Lizhao also mentioned about some further work in checking the API works at getting the history of a finished game.
+- Max is continuing to chip away at the documentation. The sprints section is almost complete. Added some more background sections. Added to Conclusion/Evaluation sections.
+- Harri gave an update on progress of the testing. It still needs more work and may require some TA support. Harri will follow up with a TA and continue. 
+
