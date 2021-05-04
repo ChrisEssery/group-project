@@ -607,7 +607,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want my users to have face to face communication with others during the gameplay.</td>
+ <br>Simon </a> <br /> As a sponsor, I want my users to have face-to-face communication with others during the gameplay.</td>
  <td>Video chat</td>
  <td>Add video chat to connect four<</td>
  <td>The video chat looks really good - well done. I think this feature is really important as it will really help address the feeling of loneliness a lot of our residents are experiencing at the moment since the beginning of lockdown. It's a really difficult time for them at the moment, so being able to see their friends and loved ones will really help them.</td>
