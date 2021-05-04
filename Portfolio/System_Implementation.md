@@ -210,7 +210,7 @@ returned data:
 - [x] [Add a new game instance](#Add-a-new-game-instance)
 - [x] [Get top users according to winning times](#Get-top-users-according-to-winning-times)
 - [x] [Get top users of a specific game according to the game score](#Get-top-users-of-a-specific-game-according-to-the-game-score)
-<br>
+
 #### User Register
 
 **Request:**
