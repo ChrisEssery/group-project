@@ -544,24 +544,25 @@ There were still many new features to add to our product and we had four new fai
 ___
 
 
-The aim of this sprint was to add new features to our product including a leaderboard. We also had to complete the backlog items from the previous week.
+The aim of this sprint was to add new features to our product such as a leaderboard, and we also had to gather feedback from our users regarding the newly added multiplayer and video chat features for Connect 4. We also had to complete the backlog items from the previous week such as building the API, adding relevant documentation on our database, and build working versions of the games which could be given to our end-users.
 
 ### Key points
 
    * Build a leaderboard
+   * Complete backlog items from previous week
+   * Obtain user feedback on the connect four with multiplayer and video chat functionality
 
 ### Key implementations from previous sprint
 
    * Implement multiplayer functionality for connect four
+   * Add video chat to connect four
    * Database built
-
 
 
 ### Backlog items
 
 ```
   → Backlog item: implement multiplayer functionality for memory game
-  → Backlog item: add video chat to connect four
   → Backlog item: add relevant documentation for database
   → Backlog item: build API
 
@@ -579,34 +580,34 @@ The aim of this sprint was to add new features to our product including a leader
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
- <td>N/A</td>
- <td>Paper prototype.</td>
- <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
+ <br>Bob</a> <br /> As a user, I want to play games with friends.</td>
+ <td>Video chat</td>
+ <td>Add video chat to connect four</td>
+ <td>I can now see my opponent through video chat - fantastic. Is there anything I need to do to make sure this works? Do I have to turn on my camera and do I need to talk into the the microphone? Some instructions on how to do this would be really helpful. But aside from that, I think the video chat is really good.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>N/A.</td>
- <td>Paper prototype</td>
- <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+ <br>Sally </a> <br /> As a user, I want to compete and earn points.</td>
+ <td>Multiplayer functionality</td>
+ <td>Implement multiplayer functionality for connect four</td>
+ <td>I think a multiplayer game is a great idea. I really want to be able to compete against my friends and family members as this will really keep me engaged. .</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<br>Simon </a> <br /> As a product manger, I want my team to build a MVP as soon as reasonably possible</td>
+<td>Create MVP</td>
 <td>N/A</td>
-<td>Create stakeholder stories</td>
-<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
+<td>A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimize the time and resources you might otherwise commit to building a product that won’t succeed.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>N/A</td>
- <td>Paper prototype and research target population</td>
- <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+ <br>Simon </a> <br /> As a sponsor, I want my users to have face to face communication with others during the gameplay.</td>
+ <td>Video chat</td>
+ <td>Add video chat to connect four<</td>
+ <td>The video chat looks really good - well done. I think this feature is really important as it will really help address the feeling of loneliness a lot of our residents are experiencing at the moment since the beginning of lockdown. It's a really difficult time for them at the moment, so being able to see their friends and loved ones will really help them.</td>
 </tr>
 </tr>
 </table>
@@ -632,9 +633,9 @@ The aim of this sprint was to add new features to our product including a leader
 ### Evaluation of Sprint
 
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
+The major aim of this sprint was to obtain user feedback on the newly added features of multiplayer and video chat. This gave us a really good insight into what our users felt about the features. One thing that we didn't do at this point which we would have benefited from was to add instructions on how the multiplayer and video chat worked. These instructions could have been contained within a pop up or in our demo video.
 
-It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
+At this stage, once again, we would have benefited from agreeing on a deadline to get a MVP out to our stakeholders. This is because we really would have benefited from receiving feedback on our application when it was fully integrated, so we could make design and implementation changes to our product which helped our stakeholders. 
 
 ## Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)
 
