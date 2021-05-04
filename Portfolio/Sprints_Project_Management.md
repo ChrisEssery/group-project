@@ -549,7 +549,9 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 ### Key points
 
    * Build a leaderboard
-   * Complete backlog items from previous week
+   * Build API
+   * Add relevant documentation for database
+   * Implement multiplayer functionality for memory game
    * Obtain user feedback on the connect four with multiplayer and video chat functionality
 
 ### Key implementations from previous sprint
@@ -565,6 +567,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
   → Backlog item: implement multiplayer functionality for memory game
   → Backlog item: add relevant documentation for database
   → Backlog item: build API
+  → Backlog item: build a leaderboard
 
 ```
 
@@ -635,39 +638,41 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
 The major aim of this sprint was to obtain user feedback on the newly added features of multiplayer and video chat. This gave us a really good insight into what our users felt about the features. One thing that we didn't do at this point which we would have benefited from was to add instructions on how the multiplayer and video chat worked. These instructions could have been contained within a pop up or in our demo video.
 
-At this stage, once again, we would have benefited from agreeing on a deadline to get a MVP out to our stakeholders. This is because we really would have benefited from receiving feedback on our application when it was fully integrated, so we could make design and implementation changes to our product which helped our stakeholders. 
+We also wanted to get a basic version of a leaderboard working so that we could incorporate that into our scoring system. This was important because a large part of our game design was based around rules-based gameplay which challenged the end-users and motivated them to participate and compete.
+
+At this stage, once again, we would have benefited from agreeing on a deadline to get a MVP out to our stakeholders. This is because we really would have benefited from receiving feedback on our application when it was fully integrated, so we could make design and implementation changes to our product which helped our stakeholders.
 
 ## Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)
 
 ___
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The main aim of this sprint was to integrate the front and back-end of the stack. This was essential since we wanted to deploy a MVP as soon as we could before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. We also realised that it was important to get started on our introduction demo video, so we started the video.
 
-to add video chat and multiplayer functionality to the memory game
+We now had to make sure that there was a fruitful integration of the front and back-end. This was a priortiy.
 
 ### Key points
 
-   * We made the group decision to use the MEAN stack.
-   * Complete documentation on system implementation
-   * Set up GitHub repository and familiarised ourselves with the platform.
+   * Integrate front and back-end
+   * Build API
+   * Build a leaderboard
+   * Start creating the introduction demo video
+   * Implement multiplayer functionality for memory game
+
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
-   * Chris updated on progress of the Java produced Connect 4 game.
-   * Browsed previously completed group projects together.
+   * Add relevant documentation for database
+   * Obtain user feedback on the connect four multiplayer and video chat functionality
 
 
 ### Backlog items
 
 ```
-  → Backlog item: add video chat to memory game
-  → Backlog item: complete documentation on system implementation
-  → Backlog item: create login
-  → Backlog item: add audio to start page
   → Backlog item: implement multiplayer functionality for memory game
+  → Backlog item: build a leaderboard
+  → Backlog item: implement video chat for memory game
+  → Backlog item: build API
+  → Backlog item: start introduction demo video
 
 ```
 
@@ -683,34 +688,34 @@ to add video chat and multiplayer functionality to the memory game
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
- <td>N/A</td>
- <td>Paper prototype.</td>
- <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
+ <br>Bob</a> <br /> As a user, I want to compete against friends.</td>
+ <td>Leaderboard</td>
+ <td>Build a leaderboard</td>
+ <td>I can now see a leaderboard. This looks straightforward, but it would be good to know what the points represent.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>N/A.</td>
- <td>Paper prototype</td>
- <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+ <br>Sally </a> <br /> As a user, I want to challenge myself.</td>
+ <td>Leaderboard</td>
+ <td>Build a leaderboard</td>
+ <td>I like the look of this leaderboard. It would be good to have a profile page as well so I know what my most recent scores are.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
-<td>N/A</td>
-<td>Create stakeholder stories</td>
-<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
+<br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product.</td>
+<td>Leaderboard</td>
+<td>Build a leaderboard</td>
+<td>The leaderboard looks good, but I think you need make sure the users know what the scores stand for, and create a profile page for the users so that they can recall what their profile name is and what games they have been playing.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>N/A</td>
- <td>Paper prototype and research target population</td>
- <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+ <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
+ <td>Leaderboard</td>
+ <td>Build a leaderboard</td>
+ <td>This leaderboard works well. I think that it is clear and easy to understand, however, as with every aspect of this product, I think you'll need to explain how it works.</td>
 </tr>
 </tr>
 </table>
@@ -740,10 +745,10 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
-## Sprint 7 :  Pages made responsive and API finalised (26.04.21-03.05.21)
+## Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
-The aim of this sprint was to decide on our architecture and how we intended to progress. Practically speaking, we got setup on Github, and set about understanding the basics of GitHub with push and pull requests. We agreed upon how we would communicate with one another. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+This was our penultimate sprint. By this point we had to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. And the team member who built the memory game was not the team member whose task it was to implement the multiplayer and video chat functionality. We also agreed to make the pages of application responsive, including mobile responsive, complete evaluation of design to report, conduct unit testing, and complete an introduction demo video. These remaining tasks were very important
 
 ### Key points
 
@@ -756,11 +761,9 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
-   * Lizhao presented the paper prototype video she has been creating.
-   * Chris updated on progress of the Java produced Connect 4 game.
-   * Browsed previously completed group projects together.
+   * Built a leaderboard
+   * Built API
+   * Added relevant documentation for database
 
 
 ### Backlog items
@@ -770,7 +773,6 @@ The aim of this sprint was to decide on our architecture and how we intended to 
   → Backlog item: complete remaining subsections of the report
   → Backlog item: conduct unit testing
   → Backlog item: implement multiplayer functionality for memory game
-
 
 ```
 
@@ -854,7 +856,7 @@ We also had to complete unit testing on our code, finalise the introduction demo
 
    * Every team member was tasked to complete subsections of the report.
    * Finish unit testing
-   * Complete introduction video
+   * Complete introductional demo video
 
 ### Key implementations from previous sprint
 
@@ -868,11 +870,13 @@ We also had to complete unit testing on our code, finalise the introduction demo
   → Backlog item: complete introduction demo video
   → Backlog item: implement multiplayer functionality for memory game
 
-
 ```
+
 ### Evaluation of Sprint
 
-This was our final sprint. The main thrust of the work to complete was documentation. This was relatively straightforward since we had been very consistent with documenting our report from very early on in the development lifecycle. The other backlog items were completing unit testing and finalising our introduction video. Whilst these tasks weren't particularly challenging, they did take up quite a bit of time, and on reflection, we would have been better off doing unit testing earlier on in the project since it was an important task which took time.
+This was our final sprint. The main thrust of the work to complete was documentation. This was relatively straightforward since we had been very consistent with documenting our report from very early on in the development lifecycle. The other backlog items were completing unit testing and finalising our introduction video. Whilst these tasks weren't particularly challenging, they did take up quite a bit of time, and on reflection, we would have been better off doing unit testing earlier on in the project since it was an important task which took quite a lot of time to complete.
+
+By this point, we had a high workload. This meant it was difficult to dedicate enough time to our backlog of items and report writing. Better time management on our parts may have helped us avoid a bit of rushed final week. However, given the workload and time constraints we faced it's fair to say that we were in a solid position to finish our project on the deadline.
 
 
 ## Team use of Git
@@ -896,7 +900,7 @@ With regards to the other branches, our GitHub protocol was as follows:
  3. Next, merge the branch with the dev branch.
  4. If merge successful, delete branch.
 
-By following this protocol, we had a formalised set of rules to follow when using GitHub.
+By following this protocol, we had a formalised set of rules to follow when using GitHub. It gave us a clear structure to follow and meant that we were all on the same page with regards to the process of creating, updating, merging and deleting new branches.
 ___
 
 ## Navigate
