@@ -1,6 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { HttpClientModule } from '@angular/common/http';
 import { LeaderboardComponent } from './leaderboard.component';
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('LeaderboardComponent', () => {
   let component: LeaderboardComponent;
@@ -8,7 +9,8 @@ describe('LeaderboardComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ LeaderboardComponent ]
+      declarations: [ LeaderboardComponent ],
+      imports: [ HttpClientModule, RouterTestingModule ]
     })
     .compileComponents();
   });
