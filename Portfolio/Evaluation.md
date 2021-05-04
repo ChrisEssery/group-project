@@ -27,15 +27,50 @@ In this section, we evaluate our app. We start by evaluating the design of the a
 ## Evaluation of design
 
 
-When it came to the design of the project we felt... with this in mind, we will now evaluate the strengths, weaknesses and potential extensions of the design before reflecting on the lessons we've learned about this aspect of the project.
+When it came to the design of the project we knew it was important to have a number of methods to perform an evaluation of the design. What's more, it was important to do this regularly so as to ensure the design developed and evolved consistently over time.
 
 ### Methods used
+
+We turn to the methods used and evaluate the effectiveness of each of these. The first of these methods was the paper prototyping.
+
+
+### Paper prototyping
+
+Add information
+
+At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with consideration of the content and functionality of each page. We integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flow goes well.
+<br/><br/>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="">
+  <br/>
+  <b >Paper Prototype Demo</b>
+  <br/><br/>
+</p>
+
+This evaluation of the design was very effective.
+
+**Limitations**
+
+
+
+### Wireframing
+
+At this stage, we converted the paper prototype of our website to a wireframe to simulate all the features (including the structure of menu, button control, requests and responses) we have planned with the use of [Figma](https://www.figma.com/) (a digital design and prototyping tool). See our initial wireframe version [here](https://www.figma.com/proto/0CgBZ0XKPHl8fCcgvPSsWr/NotSoBoredGames-Copy?node-id=6%3A137&scaling=scale-down&page-id=6%3A121).
+
+Wireframing proved to be a very effective way of evaluating our design. The UI wireframe above provides a low-fidelity skeleton of the UI. This serves to show the main features, layout, content, and functionality of the UI, without getting bogged down in the visual design of the app. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software, and it helps those working on the front-end of the product to better understand how they should design and build the main features and functions of the UI.
+
+We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes.
+
+**Limitations**
 
 
 ### Questionnaires
 
 Questionnaires are
 
+See our full test report [here](https://my.helio.app/report/01F1WDKPM82XVYYJVE0HS5Q93T).
+
+Based on the report, we focused on making several updates.
 
 Our data is qualitative. Qualitative methods generate data that are represented by observe or report words and or behaviorus. It is best suited when you want to understand and represent the opinions and perspectives of your users.
 
