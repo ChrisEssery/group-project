@@ -10,11 +10,13 @@ import { TokenStorageService } from '../../_services/token-storage.service';
   styleUrls: ['./profile.component.css']
 })
 export class ProfileComponent implements OnInit {
+  username=''
   currentUser =''
   friends=[]
   games:any=[]
   info:any={}
   editing:boolean = false
+  isVisitor:boolean = false
 
   constructor(
     private dataService: DataService,
@@ -23,8 +25,14 @@ export class ProfileComponent implements OnInit {
   ) {}
 
   ngOnInit(): void {
-    this.currentUser= this.tokenStorageService.getUser()
-    this.dataService.getUserInfo(this.currentUser).subscribe(
+    this.isVisitor = false
+    this.username= this.tokenStorageService.getUser()
+    this.loadData(this.username)
+  }
+
+  loadData(user:any){
+    this.currentUser = user
+    this.dataService.getUserInfo(user).subscribe(
       (data:any) => {
         this.info=data
       },
@@ -32,7 +40,7 @@ export class ProfileComponent implements OnInit {
         console.log("fail to load the personal info")
       }
     )
-    this.dataService.getFriends(this.currentUser).subscribe(
+    this.dataService.getFriends(user).subscribe(
       (data:any)=>{
         this.friends=data.friends
       },
@@ -41,7 +49,7 @@ export class ProfileComponent implements OnInit {
         console.log(error)
       }
     )
-    this.dataService.getGameHistory(this.currentUser, 10).subscribe(
+    this.dataService.getGameHistory(user, 10).subscribe(
       (data:any)=>{
         this.games=data.gamesPlayed.reverse()
         this.games.forEach((element:any) => {
@@ -52,6 +60,14 @@ export class ProfileComponent implements OnInit {
         console.log("fail to load the game history")
       }
     )
+  }
+  viewFriend(friend: any){
+    this.isVisitor = true
+    this.loadData(friend)
+  }
+  backToProfile(){
+    this.isVisitor = false
+    this.loadData(this.username)
   }
   edit(e: { preventDefault: () => void; }){
     e.preventDefault()

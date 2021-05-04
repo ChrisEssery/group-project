@@ -69,30 +69,25 @@
               </div>
         </div>
         <br>
-          <ul class="nav nav-pills nav-stacked col-md-8">
+          <ul class="nav nav-pills nav-stacked col-md-8 editProfile" *ngIf="isVisitor; else elseBlock2">
+            <li><a (click)="backToProfile()" class="choice"> <i class="fas fa-backward"></i> Back</a></li>
+          </ul>
+          <ng-template #elseBlock2>
+            <ul class="nav nav-pills nav-stacked col-md-8 editProfile" >
               <li><a (click)="edit($event)" class="choice"> <i class="fa fa-edit"></i> Edit profile</a></li>
           </ul>
+          </ng-template>
         </ng-template>
     </div>
   </div>
   <div class="profile-info col-md-4">
       <div class="panel friendlist">
-        <table>
-          <thead>
-            <tr>
-              <th class="section_name">Friends</th>
-            </tr>
-          </thead>
-      
-          <tbody>
-            <tr
-              *ngFor="let friend of friends"
-            >
-              <td class="friends">
-                {{friend}}</td>
-            </tr>
-          </tbody>
-        </table>
+        <h1 class="section_name">FRIENDS</h1>
+        <ul>
+          <li *ngFor="let friend of friends">
+            <a class="friends" (click)="viewFriend(friend)"> {{friend}}</a>
+          </li>
+        </ul>
       </div>
       </div>
       <div class="profile-info panel activites col-md-5">
