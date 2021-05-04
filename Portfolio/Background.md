@@ -276,8 +276,8 @@ Our problem definition was:
 
 **Ideal**
 ```
-  → There exists a real possibility that digital games can be leveraged to address the societal issues
-    of loneliness and isolation in older adults.
+  → There exists a real possibility that digital games can be leveraged to address the societal issues of
+    loneliness and isolation in older adults.
 ```
 **Reality**
 ```
