@@ -275,21 +275,21 @@ When considering the problem definition, we felt it was important to combat an i
 Our problem definition was:
 
 **Ideal**
-
-   -> "There exists a real possibility that digital games can be leveraged to address the societal issues of loneliness and isolation in older adults."
-
+```
+  → There exists a real possibility that digital games can be leveraged to address the societal issues of loneliness and isolation in older adults.
+```
 **Reality**
-
-  -> "Currently, existing gaming platforms for the elderly are not easy to use and lack video chat functionality."
-
+```
+  → Currently, existing gaming platforms for the elderly are not easy to use and lack video chat functionality.
+```
 **Consequences**
-
-  -> "There is an insufficient range of digital games for the elderly, which presents an untapped resource for tackling loneliness and isolation."
-
+```
+  → There is an insufficient range of digital games for the elderly, which presents an untapped resource for tackling loneliness and isolation.
+```
 **Proposal**
-
-  -> "To address this gap in the market, we propose NotSoBored Games, a simple online board game experience, with a user-oriented design and fun video chat functionality to reconnect friends and loved ones suffering from the effects of loneliness and isolation."
-
+```
+  → To address this gap in the market, we propose NotSoBored Games, a simple online board game experience, with a user-oriented design and fun video chat functionality to reconnect friends and loved ones suffering from the effects of loneliness and isolation.
+```
 
 Social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
