@@ -262,9 +262,7 @@ ___
 
 Bob enjoys playing board games, but he has no experience with digital games. His motivations are as follows:
 
-   * He wants a challenge, but he wants to do this with friends or family.
-   * He also doesn't want to get lost in the complexity of a 'busy' interface.
-   * He wants to play games to stimulate his brain and learn more.
+    *"I want a challenge, but he wants to do this with friends or family. I don't want to get lost in the complexity of a 'busy' interface. I want to play games to stimulate my brain and learn more."*
 
 He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
 
@@ -272,10 +270,7 @@ He thinks that online games aren't just for teenagers, they're for people of all
 
 Bob's expectations are as follows:
 
-   * He expects the application will be easy to use.
-   * He wants the interface to bright, bold and easy to see.
-   * He wants to be challenged by the games.
-   * He wants to compete against other players.
+   *"I expect the application will be easy to use. I want the interface to bright, bold and easy to see. I also want to be challenged by the games and compete against other players."*
 
 ### Special Requirements
 
@@ -302,9 +297,7 @@ ___
 
 Sally knows nothing about digital games. She used to play board games when she was younger, but she doesn't play anyone since she doesn't socialise very much. After her husband passed away a few years ago, she began to withdraw from social life. Her family visit her when they can, but they would like to see her more often. Her motivations are:
 
-   * She wants a to socialise with family and loved ones.
-   * She wants to engage in something that is fun.
-   * She wants to make sure is doing things to stimulate her brain.
+   *"I want to socialise with family and loved ones, and I want to engage in something that is fun. I want to make sure doing things will stimulate my brain."*
 
 Sally thinks that an online game platform might a good way for her to connect with his family more regularly and overcome the loneliness and isolation she's been feeling since her husband's death.
 
@@ -312,9 +305,7 @@ Sally thinks that an online game platform might a good way for her to connect wi
 
 Sally's expectations are as follows:
 
-   * She doesn't want the games to be too difficult for her.
-   * She wants to be able to see her opponent while she plays the games.
-   * The layout of the website will be easy to navigate.
+   *"I don't want the games to be too difficult for her, and I want to be able to see her opponent while I play the games. It's also really important that the layout of the website will be easy to navigate."*
 
 ### Special Requirements
 
@@ -344,8 +335,7 @@ ___
 
 Jack, 36, is a product manager. In his role as a product manager, he is responsible for setting the strategy and vision of a product. He also advises on the development methodology, evaluating ideas and feedback from end-users and other stakeholders, and making sure those views are integrated into the development process. His aim is to do this as seamlessly as possible. His motivations are as follows:
 
-   * He wants to deliver a good product to the end-users.
-   * He wants to create added value and improve the quality of life of the end-users.
+   *"I want this team to deliver a good product to the end-users. I want us to create added value and improve the quality of life of the end-users - I'm a firm believer that the Agile methodology will assist us in this process."*
 
 He also advises teams on prioritising features and setting weekly goals and targets. For our purposes, he will be advising us throughout the development process.
 
@@ -353,9 +343,7 @@ He also advises teams on prioritising features and setting weekly goals and targ
 
 Jack's expectations are as follows:
 
-   * That the group will use the Agile methodology as best they can, that they will communicate regularly.
-   * That the group aim to produce a minimum viable product as soon as they can.
-   * He expects the group to make sure that the needs of the end-user are put above all else.
+   *"I expect the group will use the Agile methodology as best they can, that they will communicate regularly. I want the team to aim to produce a minimum viable product (MVP) as soon as they can. I expect the group to make sure that the needs of the end-user are put above all else."*
 
 Meeting these expectations is important for our project since the advise of the product manager is valuable since he is experienced and well-informed on the processes surrounding the development lifecycle and best practice.
 
@@ -376,8 +364,7 @@ ___
 
 Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. His main motivations are as follows:
 
-   * He wants to use our product to help improve the lives of the residents in the care home he manages.
-   * He would like to use the platform himself to further cultivate close relationships with the care home residents.
+   *"I want to use our product to help improve the lives of the residents in the care home I manage. I would like to use the platform himself to further cultivate close relationships with the care home residents."*
 
 His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective.
 
@@ -385,10 +372,7 @@ His feedback during the sprint cycles is invaluable, since he not only understan
 
 Simon's expectations are as follows:
 
-   * The group will embrace the project using the Agile methodology.
-   * That the group listen to the stakeholders throughout the build.
-   * The games are presented in a clear way and are challenging enough.
-   * He expects multiplayer mode and video chat.
+   *"I expect the group to embrace the project using the Agile methodology, and that the group listen to the stakeholders throughout the build. I also expect the games to be presented in a clear way and are challenging enough to push the residents. It would also be very useful to have multiplayer and video chat functionality."*
 
 As with the other stakeholders, tailoring the design of the product to meet these expectations would be beneficial to our stakeholders' interaction with and experience of the product.
 
