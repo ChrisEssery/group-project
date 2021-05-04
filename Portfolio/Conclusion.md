@@ -56,6 +56,8 @@ The sprints……
 
 There have been many successes throughout the duration of this unit.
 
+One of the first hurdles we faced as a team was that we started the project one team member down. That is, instead of having five team members, as was intended, we had four. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. This also meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. ADD MORE 
+
 
 ### How well did our project fulfil the brief?
 

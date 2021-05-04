@@ -38,6 +38,8 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Lizhao - Coder/Full-stack :woman_technologist:
 
+  <td><img src="/Logo/profile-pic-lizhao.png" width=16%>
+
 * Max - Writer/Coder/Front-end :artist:
 
   <td><img src="/Logo/profile-pic.jpg" width=16%>
