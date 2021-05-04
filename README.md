@@ -25,7 +25,7 @@
 
 NotSoBored games is a single page app (SPA) designed to tackle social isolation and loneliness in the elderly population through an engaging, multiplayer board game experience. With different board games to choose from, you'll be spoilt for choice as you play with friends and family to earn points and compete for the top spot on the leaderboard. So, if you're tired of lockdown and want to connect with loved ones then this online multiplayer experience is just for you.
 
-Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be able to see each other as you go head-to-head, competing at different levels of difficulty for a real challenge. But remember: **this isn't just play, this is *serious* play**.
+Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be able to see each other as you go head-to-head, competing at different levels of difficulty for a real challenge. But remember: **this isn't just play, this is '*serious* play'**.
 
 
 ## Our Team
@@ -56,7 +56,7 @@ Our project objectives are as follows:
 
   * Build and deploy a responsive SPA using the [MEAN stack](https://www.mongodb.com/mean-stack), as per the project brief.
   * Design and implement a login, leaderboard, and two board games with multiplayer functionality and video chat.
-  * Conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user, and applies playfulness - and serious play - throughout the application.
+  * Conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user, and applies playfulness - and 'serious play' - throughout the application.
   * Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.
   * Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy.
 

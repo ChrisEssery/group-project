@@ -85,6 +85,9 @@ We were unable to complete this objective due to the time constraints placed on 
 
 With this objective, it is fair to say that we were successful.
 
+### How did we 'serious play' in our application?
+
+As discussed in the background and UX design sections of this report, 
 
 ## Impact of Covid-19
 
