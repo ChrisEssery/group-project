@@ -148,9 +148,27 @@ RESTful API makes it easy to decouple the backend code from the front end so tha
 
 ### Details of Implementation
 
-### API Design
+- API address:  http://localhost:3000/api 
 
-- **Returned Status Code Specification**
+- Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
+
+- The data is transferred in a uniform format using JSON
+
+- Web APIs are designed according to the [Representational State Transfer (REST) architectural style](https://en.wikipedia.org/wiki/Representational_state_transfer)
+
+- Interface authentication: Uniform use of Token authentication (based on JSON Web Token)
+
+- Interfaces that require authorization must provide the request header field X-Access-Token information(checked in [middleware.js]())
+
+- User password is encrypted using [blueimp-md5](https://www.npmjs.com/package/blueimp-md5)
+
+- [Express session](https://www.npmjs.com/package/express-session) is used to store user data between HTTP request
+
+**API Flowchart**
+![image]()
+
+
+### Returned Status Code Specification
 
 | status code | Meaning                              | Notes                                                        |
 | ----------- | ------------------------------------ | ------------------------------------------------------------ |
@@ -166,7 +184,7 @@ RESTful API makes it easy to decouple the backend code from the front end so tha
 | 500         | INTERNAL SERVER ERROR                |                                                              |
 
 <br>
-- **Error Handling**
+### Error Handling
 When an error occurs, the returned HTTP Status Code is 4xx error, such as `400,403,404`. And an error message will be returned to indicate the problem.
 **Example response**
 
@@ -181,7 +199,7 @@ returned data:
   error: 'invalid password'
 }
 ```
-- **API Request & Response**
+### API Request & Response**
 **Overview**
 
 - [x] [User Register](#User-Register)
