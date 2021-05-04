@@ -162,7 +162,6 @@ RESTful API makes it easy to decouple the backend code from the front end so tha
 
 - [Express session](https://www.npmjs.com/package/express-session) is used to store user data between HTTP request
 
-**API Flowchart**
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png)
 
 
@@ -181,7 +180,7 @@ RESTful API makes it easy to decouple the backend code from the front end so tha
 | 422         | Unprocesable entity [POST/PUT/PATCH] | A validation error occurred while creating an object         |
 | 500         | INTERNAL SERVER ERROR                |                                                              |
 
-<br>
+
 ### Error Handling
 When an error occurs, the returned HTTP Status Code is 4xx error, such as `400,403,404`. And an error message will be returned to indicate the problem.
 **Example response**
@@ -197,7 +196,7 @@ returned data:
   error: 'invalid password'
 }
 ```
-### API Request & Response**
+### API Request & Response
 **Overview**
 
 - [x] [User Register](#User-Register)
