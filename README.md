@@ -44,15 +44,11 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
   <td><img src="/Logo/profile-pic.jpg" width=16%>
 
+
 ## Abstract
 
 According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population — one that is likely to continue within ageing societies across the globe. We seek to address these public health issues through the medium of serious play. In particular, we propose NotSoBored games, an SPA which prioritises gameplay and ease of use to ensure that it is accessible for older adults with lower levels of digital literacy. Our platform, built using the [MEAN stack](https://www.mongodb.com/mean-stack), consists of a start page, login, two different multiplayer games with video feed, a scoring system, leaderboard, and profile page. We conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user, and apply 'serious play' throughout the application. As a consequence, our product serves to reconnect older adults in a fun, engaging way, with a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design) and a clear aim to reduce levels of loneliness and isolation in older adults.
 
-<div align="center">
-
-https://user-images.githubusercontent.com/60075283/117048437-e482fd00-ad0a-11eb-8bc6-6154e8acdac0.mp4
-
-</div>
 
 ## Aims and Objectives
 
@@ -70,7 +66,13 @@ Our project objectives are as follows:
 
 We investigate whether these objectives are met and, based on our results, claim that our application successfully uses 'serious play' to help tackle the growing issue of loneliness and isolation in this group.
 
-In our project report, we explain and analyse our SPA, from ideation to implementation. In particular, we give an overview of background literature, conduct a state-of-the-art survey, provide a detailed account of our system design and implementation, and project management before evaluating our progress and identifying promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
+In our project report, we explain and analyse our SPA, from ideation to implementation. In particular, we give an overview of background literature, conduct a state-of-the-art survey, provide a detailed account of our system design and implementation, and project management before evaluating our progress and identifying promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report. Before reading the report though, check out our demo video below:
+
+<div align="center">
+
+https://user-images.githubusercontent.com/60075283/117048437-e482fd00-ad0a-11eb-8bc6-6154e8acdac0.mp4
+
+</div>
 
 ___
 
