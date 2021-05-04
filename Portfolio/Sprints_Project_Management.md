@@ -654,6 +654,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 
    * Integrate front and back-end
    * Build API
+   * Build user profile page
    * Build a leaderboard
    * Start creating the introduction demo video
    * Implement multiplayer functionality for memory game
@@ -673,6 +674,7 @@ We now had to make sure that there was a fruitful integration of the front and b
   → Backlog item: implement video chat for memory game
   → Backlog item: build API
   → Backlog item: start introduction demo video
+  → Backlog item: build user profile page
 
 ```
 
