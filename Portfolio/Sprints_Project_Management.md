@@ -693,7 +693,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <br>Bob</a> <br /> As a user, I want to compete against friends.</td>
  <td>Leaderboard</td>
  <td>Build a leaderboard</td>
- <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent. Is there any way you could explain this? Either on the screen or through a step by step series of instructions. This would really help.</td>
+ <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
