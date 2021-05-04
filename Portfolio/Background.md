@@ -272,15 +272,32 @@ According to Pete, we need to outline how our app differs from these apps. We al
 
 When considering the problem definition, we felt it was important to combat an issue that was both relevant and of real importance. As such, we decided social isolation and loneliness in the elderly would be a good target problem since these are pressing issues in modern times for which there are few available online tools designed to address these issues.
 
-Our problem definition was social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
+Our problem definition was:
+
+**Ideal**
+
+  "There exists a real possiblity that digital games can be leveraged to address the societal issues of loneliness and isolation in older adults."
+
+**Reality**
+
+  "Currently, existing gaming platforms for the elderly are not easy to use and lack video chat functionality."
+
+**Consequences**
+
+  "There is an insufficient range of digital games for the elderly, which presents an untapped resource for tackling loneliness and isolation."
+
+**Proposal**
+
+  "To address this gap in the market, we propose NotSoBored Games, a simple online board game experience, with a user-oriented design and fun video chat functionality to reconnect friends and loved ones suffering from the effects of loneliness and isolation."
+
+
+Social isolation and loneliness in the elderly and insufficient online tools to help address these issues. Our proposed solution to this problem was to connect the elderly through an online multiplayer game designed to reduce feelings of loneliness and improve health and wellbeing.
 
 Clearly, the problem of social isolation and loneliness in the elderly is a huge issue facing humanity. A growing elderly population with increased needs in later life present a serious health care crisis. The scope and challenge of this problem, clearly, go beyond the scope of our project. In light of this, our scope is narrowed to make a real, meaningful impact on the lives of our target population.
 
 ## Motivation
 
-The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game.
-
-The overarching aim is to create a game that can engage the elderly through a fun, engaging platform. To realise this aim, we created a SPA that helps the elderly to connect with friends and loved ones, and enjoy some classic board games.
+The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game. Our motivation for creating this application is simple. We can see that we live in an ageing society with inadequate social care infrastructure, and we know from personal experience that older adults are particularly vulnerable to loneliness and isolation. Digital games are abundant, but there is a shortage of digital games designed for the elderly. Our motivation is to address this gap in the market, and try to leverage a digital game platform to try and mitigate loneliness and isolation. This is important as ageing societies continue to grow and the social infrastructure in place are unable to adequately support older adults.
 
 
 <table>
