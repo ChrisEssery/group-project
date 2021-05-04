@@ -693,7 +693,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <br>Bob</a> <br /> As a user, I want to compete against friends.</td>
  <td>Leaderboard</td>
  <td>Build a leaderboard</td>
- <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent.</td>
+ <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent. Is there any way you could explain this? Either on the screen or through a step by step series of instructions. This would really help.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
@@ -701,7 +701,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <br>Sally </a> <br /> As a user, I want to challenge myself.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
- <td>This profile page feature is just what I was hoping for. I like that I can see my most recent games as well as my scores in those games. It is easy to navigate.</td>
+ <td>This profile page feature is just what I was hoping for. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate. Is there some way you could explain the scoring system though, as it is not clear what the scores are for, the memory game or connect four, and also it is not clear how those scores have been calculated.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -715,9 +715,9 @@ We now had to make sure that there was a fruitful integration of the front and b
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
- <td>Leaderboard</td>
- <td>Build a leaderboard</td>
- <td>This leaderboard works well. I think that it is clear and easy to understand, however, as with every aspect of this product, I think you'll need to explain how it works.</td>
+ <td>Leaderboard/Profile page</td>
+ <td>Build a leaderboard/Build user profile page</td>
+ <td>This leaderboard works well. I think that it is clear and easy to understand, however, as with every aspect of this product, I think you'll need to explain how it works. The profile page is an excellent feature, I think this looks very professional. It is nice that the users can see their results, and how they have done in their most recent games.</td>
 </tr>
 </tr>
 </table>
