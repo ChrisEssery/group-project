@@ -48,6 +48,12 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population — one that is likely to continue within ageing societies across the globe. We seek to address these public health issues through the medium of serious play. In particular, we propose NotSoBored games, an SPA which prioritises gameplay and ease of use to ensure that it is accessible for older adults with lower levels of digital literacy. Our platform, built using the [MEAN stack](https://www.mongodb.com/mean-stack), consists of a start page, login, two different multiplayer games with video feed, a scoring system, leaderboard, and profile page. We conduct extensive user testing through the development lifecycle to ensure the product meets the needs of the end-user, and apply 'serious play' throughout the application. As a consequence, our product serves to reconnect older adults in a fun, engaging way, with a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design) and a clear aim to reduce levels of loneliness and isolation in older adults.
 
+<div align="center">
+
+![Demo](https://user-images.githubusercontent.com/60075283/117048437-e482fd00-ad0a-11eb-8bc6-6154e8acdac0.mp4)
+
+</div>
+
 ## Aims and Objectives
 
 The overarching aim of this project is to use an online board game experience to reduce loneliness and social isolation among older people. To realise this aim, we create a playful, easy-to-use online multiplayer gaming platform delivered through a SPA.
