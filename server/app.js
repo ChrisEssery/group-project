@@ -8,7 +8,7 @@ Http.listen(3050, () => {
 
 // Handle connection request
 const connections = [null, null]
-const cardDeck = [];
+let cardDeck = [];
 
 Socketio.on('connection', socket => {
     console.log('New connection');
@@ -68,10 +68,30 @@ Socketio.on('connection', socket => {
     })
 
     socket.on('card-request', () => {
+        console.log("Lengthyyyy: " + cardDeck.length);
         for(let i = 0; i < cardDeck.length; i++){
-            console.log("Requesting");
+            console.log("Sending...")
         socket.emit('card-sent', cardDeck[i]);
         }
+    })
+
+    socket.on('card-request-again', () => {
+        console.log(cardDeck.length);
+        for(let i = 0; i < cardDeck.length; i++){
+            console.log("Sending...")
+        socket.emit('card-sent-again', cardDeck[i]);
+        }
+    })
+
+    // Clears deck when starting another game
+    socket.on('clear-deck', () => {
+        cardDeck = [];
+    })
+
+    let playAgain = true;
+
+    socket.on('play-again', () => {
+        socket.broadcast.emit('play-again', playAgain);
     })
 
     // On slot reply

@@ -24,60 +24,69 @@ export class GameService {
   ready: boolean = false;
   playersReady: boolean = false;
   start: boolean = false;
+  gameFinished: boolean = false;
+  opponentPlayAgain: boolean = false;
 
   constructor(
     private cardService: CardService,
     private leaderboardService: RankingService,
     private router: Router
   ) {
-    
+
   }
 
   //determines when game has finished
   get isGameOver(): boolean {
-    return false;
-    //return this.cards.every(cards => cards.visible === true);
+    return this.gameFinished;
+  }
+
+  get isGameFinished(): boolean {
+    return this.cards.every(cards => cards.visible === true);
   }
 
   //when card clicked, flips 180
   //revealing the other side
   showCard(card: Card): void {
-    if(!this.playersReady){
+    if (!this.playersReady) {
       return;
     }
+    if (!(this.currentPlayerType === "user")) return;
+
     if (!this.isMoveValid()) return;
 
     if (this.isCardValid(card)) {
       this.emitMove(card);
       this.activeCards.push(card);
       card.show();
+      this.currentPlayerType = "enemy";
     }
 
     if (this.activeCards.length === 2) {
       this.runRound();
     }
 
-    if (this.isGameOver) {
+    if (this.isGameFinished) {
+      this.gameFinished = true;
       this.addPlayerInRanking();
     }
   }
 
-  showOpponentsCard(id){
-    if(!this.playersReady){
+  showOpponentsCard(id) {
+    if (!this.playersReady) {
       return;
     }
-    //if (!this.isMoveValid()) return;
-
     if (this.isCardValid(this.cards[id])) {
       this.activeCards.push(this.cards[id]);
       this.cards[id].show();
+      this.currentPlayerType = "user";
     }
 
     if (this.activeCards.length === 2) {
       this.runRound();
     }
 
-    if (this.isGameOver) {
+    if (this.isGameFinished) {
+      this.gameFinished = true;
       this.addPlayerInRanking();
     }
   }
@@ -85,8 +94,21 @@ export class GameService {
   // once gameplay complete,
   // start again
   playAgain(): void {
+    this.gameFinished = false;
     this.router.navigate(["gameplay"]);
-    this.cards = this.cardService.getCards();
+    if (!this.opponentPlayAgain) {
+      this.gameSocket.emit('play-again');
+      this.gameSocket.emit('clear-deck');
+      this.cards = this.cardService.getCards();
+      this.playAgainDeckSend();
+ 
+    }
+    else {
+      this.cards = [];
+      this.gameSocket.emit('card-request-again');
+      this.gameSocket.emit('clear-deck');
+    }
+    this.opponentPlayAgain = false;
     this.activeCards = [];
     this.rounds = 0;
     this.isBoardLocked = false;
@@ -99,7 +121,7 @@ export class GameService {
   // check whether move is valid
   // i.e. unlocked and not gameover
   private isMoveValid(): boolean {
-    return !this.isGameOver && !this.isBoardLocked;
+    return !this.isGameFinished && !this.isBoardLocked;
   }
 
   private runRound() {
@@ -136,6 +158,8 @@ export class GameService {
 
   // determines whether cards match
   private isMatch(): boolean {
+    console.log("0: " + this.activeCards[0].id);
+    console.log("2: " + this.activeCards[1].id);
     return this.activeCards[0].id === this.activeCards[1].id;
   }
 
@@ -151,6 +175,7 @@ export class GameService {
       rounds: this.rounds
     });
   }
+
   // Multiplayer functionality
   public connectToGame(): void {
     if (this.isConnected) return;
@@ -164,8 +189,9 @@ export class GameService {
         //infoDisplay.innerHTML = "Sorry, the server is full.";
       } else {
         this.playerNumber = parseInt(num);
-        if(this.playerNumber === 0){
+        if (this.playerNumber === 0) {
           this.cards = this.cardService.getCards();
+          console.log("Getting");
         }
         if (this.playerNumber === 1) {
           this.currentPlayerType = "enemy";
@@ -184,12 +210,10 @@ export class GameService {
     // On enemy ready
     this.gameSocket.on('opponent-ready', num => {
       this.opponentReady = true;
-      console.log("Opponent ready");
       //playerReady(num);
       if (this.ready) {
         this.playersReady = true;
         this.readyToPlay();
-        console.log("Both ready");
       }
     })
 
@@ -208,59 +232,85 @@ export class GameService {
       })
     })
 
-     // On turn received
-     this.gameSocket.on('card-flipped', card => {
+    // On turn received
+    this.gameSocket.on('card-flipped', card => {
       this.showOpponentsCard(card);
-      console.log("Showing opponent's card")
       //playGame(socket); 
     })
   }
 
   public readyToPlay(): void {
-    if(!this.isConnected){
-      console.log("not connected yet");
+    if (!this.isConnected) {
       return;
     }
-    if(!this.ready){
+    if(this.ready) return;
+    if (!this.ready) {
       this.gameSocket.emit('player-ready');
       this.ready = true;
       //playerReady(playerNumber);
     }
-    if(this.playerNumber === 0){
-      this.gameSocket.emit('hello');
-     this.start = true;
-      for(let i = 0; i < this.cards.length; i++){
+    if (this.playerNumber === 0) {
+      this.start = true;
+      console.log("ZERO")
+      for (let i = 0; i < this.cards.length; i++) {
         console.log(JSON.stringify(this.cards[i]))
         this.gameSocket.emit('send-card', JSON.stringify(this.cards[i]));
       }
-     
     }
-    if(this.playerNumber === 1){
-      console.log("GOING")
-     
-        console.log("TESTTTTT")
-        this.gameSocket.emit('card-request');
-        this.gameSocket.on('card-sent', value => {
-          console.log(JSON.parse(value));
-          let cardToPush = JSON.parse(value);
-          let card = new Card(cardToPush.id, cardToPush.image);
-          this.cards.push(card);
-        })
+    if (this.playerNumber === 1) {
+      console.log("ONE")
+      this.gameSocket.emit('card-request');
+      this.gameSocket.on('card-sent', value => {
+        console.log(JSON.parse(value));
+        let cardToPush = JSON.parse(value);
+        let card = new Card(cardToPush.id, cardToPush.image);
+        card.shuffledId = cardToPush.shuffledId;
+        this.cards.push(card);
+      })
       this.start = true;
     }
-    if(this.opponentReady){
+    if (this.opponentReady) {
       this.playersReady = true;
-      if(this.currentPlayerType === 'user'){
-          //displayCurrentPlayer.innerHTML = 'Your turn!';
+      if (this.currentPlayerType === 'user') {
+        //displayCurrentPlayer.innerHTML = 'Your turn!';
       }
-      if(this.currentPlayerType === 'enemy'){
+      if (this.currentPlayerType === 'enemy') {
         //displayCurrentPlayer.innerHTML = 'Opponent\'s turn';
       }
     }
+    this.gameSocket.on('play-again', value => {
+      this.opponentPlayAgain = value;
+      console.log("Wants to play again...")
+      console.log(value);
+    })
+
+    this.gameSocket.on('card-sent-again', value => {
+      console.log("Pushing...")
+      let cardToPush = JSON.parse(value);
+      let card = new Card(cardToPush.id, cardToPush.image);
+      card.shuffledId = cardToPush.shuffledId;
+      this.cards.push(card);
+      console.log("LENGTH: " + this.cards.length);
+    })
   }
 
-private emitMove(cardVal): void {
+  private emitMove(cardVal): void {
+    console.log("Card val id: " + cardVal.shuffledId);
     this.gameSocket.emit('card-flipped', cardVal.shuffledId);
     console.log("Flipped")
+  }
+
+  private playAgainDeckSend(): void {
+    for (let i = 0; i < this.cards.length; i++) {
+      console.log(JSON.stringify(this.cards[i]))
+      this.gameSocket.emit('send-card', JSON.stringify(this.cards[i]));
+    }
+  }
+
+  private playAgainDeckReceive(): void {
+    console.log("INIT: " + this.cards.length);
+    this.cards = [];
+    console.log("AFTER: " + this.cards.length);
+    
   }
 }

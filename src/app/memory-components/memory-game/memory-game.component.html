@@ -6,6 +6,9 @@
 <div class="memory-game">
 
 <!--Cards-->
+<ng-container *ngIf="gameService.start === false">
+ <div class="space"></div>
+ </ng-container>
 <ng-container *ngIf="gameService.start === true">
  <div class="memory-game__cards">
    <app-card *ngFor="let card of gameService.cards" [card]="card"></app-card>
