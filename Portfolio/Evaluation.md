@@ -36,9 +36,14 @@ We turn to the methods used and evaluate the effectiveness of each of these. The
 
 ### Paper prototyping
 
-Add information
+The first way in which we evaluated our design was through paper prototyping. At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with consideration of the content and functionality of each page. There are a few advantages with this approach. First, it’s fun. Paper prototyping ought to be fast and leads to rapid iteration. It takes minutes to create a few different versions of a design. It is also low cost. Paper prototyping is very inexpensive. Basic toolset includes pen and paper. Low commitment. No one wants to throw out a digital prototype that took hours to create. It’s much easier to throw out a sketch that takes only 5-minute to create. Early feedback from real users. Real users can be involved in product design before actual design and coding begins. Eliciting honest feedback. An important advantage of paper prototypes is their sketchy look. The prototypes don’t look like you’ve spent a lot of time on them. As a result, people feel more comfortable criticising sketches rather than polished designs. Team building. Since paper prototyping doesn’t require any special skills, anyone can participate in this process. You can easily do paper prototyping as a group activity. People from all kinds of backgrounds can participate in creating paper prototypes.
 
-At this stage, we used the shared powerpoint in Teams to brainstorm and design each web page separately with consideration of the content and functionality of each page. We integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flow goes well.
+**Limitations**
+
+Now, for the disadvantages. Hard to interpret design. Paper prototypes require a great deal of imagination from test participants—they have to imagine how the future state of a product will look like just by looking at the paper. Testing only in person. It’s hard to test a paper prototype when participants are widely dispersed geographically. Need to transfer papers to the digital format. The downside of a paper prototype is that you’ll need to convert it in a digital prototype anyway.
+
+With these disadvantages in mind, we created a short video demo of the paper prototype. This addressed the issue of partcipants being unable to imagine how the product would look, and it meant that the prototype could be sent to people across the country and globe. This meant that we were able to obtain feedback from a wide range of users, all dispersed geographically. We integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flowed properly. This video is below:
+
 <br/><br/>
 <p align="center">
   <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="">
@@ -47,11 +52,9 @@ At this stage, we used the shared powerpoint in Teams to brainstorm and design e
   <br/><br/>
 </p>
 
-This evaluation of the design was very effective.
+This approach to evaluating the design was very effective since it had all the benefits of a paper prototype without the drawbacks mentioned above. It was largely inexpensive to produce and it was simple to share among users.
 
-**Limitations**
-
-
+One way in which this process could have been improved was through user testing through a facillitator and human-computer roles. If you plan to conduct testing sessions with a paper prototype, you’ll need two roles for each testing session: Facilitator (presenter). A person that instructs test participants and interacts with them.‘Human computer.’ This person remains silent during the session and is in charge of changing screens or screen states, whenever the test participant interacts with a prototype. This role is extremely important — the effectiveness of testing often depends on how good the person playing the computer is at responding to a participant’s actions. Avoid combining the roles of facilitator and ‘human computer.’ It’s a quite common problem when presenter who acts as a ‘human computer’ miss some vital information from test participants.
 
 ### Wireframing
 
@@ -61,7 +64,43 @@ Wireframing proved to be a very effective way of evaluating our design. The UI w
 
 We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes.
 
+EDIT:
+The advantages:
+
+It can get clients on board with the design process.  
+Getting clients involved at the get-go can help in a big way. When they sign it off, your designer isn’t left in the dark about their desired functionality and features. This also means your client isn’t left in the dark about why you’ve suggested this wireframe for them. Everything that comes after will fall into place, which helps you avoid explaining the functional choices you’ve made later down the line.   
+
+Make changes more efficiently
+Nailing the skeleton of the website is pivotal in efficient design. If you jump straight into design without thinking about the information hierarchy and user experience, you can end up making loads of changes later down the line. Wireframes help you see if you’re making the right decisions from a UX and information-hierarchical point of view, so you can build around it.  
+
+Saves time and money
+Doing a quick wireframe is an extra step in the process, but it can save you loads of time and money later down the line. It provides greater knowledge of the project which will be fine-tuned to basic requirements, minimizing the risk of redesigns. Nailing the functional part of the website means your designer will know how things will work before jumping in. It’ll allow them to design around these necessary interactive features so things aren’t changing when you realize something won’t work well from a UX point of view.  
+
+Allows you to plan for website responsiveness
+Wireframing helps you prioritize site elements while putting you in a good mindset for thinking about what content is most relevant to the visitors and how that content will work on different screens. It’ll help you see how things will flow across different devices.
+
+Great for a client who only focuses on how pretty things are as it’s based around functionality only
+If your client is getting bogged down with design elements ahead of the curve, you can help them take a step back and think about the user-centric UX consequences of any ambitious design desires they have. They’ll be able to see and consider how the site will behave for their visitors over how it’ll look.  
+
 **Limitations**
+
+EDIT:
+The disadvantages:
+
+Clients get bogged down with the minute details  
+It’s sometimes hard to explain why wireframes are needed to clients, especially those who are concerned more with how a website looks than how it behaves. Some clients are more comfortable looking at images and branding than a gray, basic map of the website, but this step shouldn’t include those bits yet.
+
+Can be too designed
+If your wireframes are too designed, it means that too much time is being taken up by them. Remember, they’re only there to help you map out the very basic flow of your website, so it shouldn’t be a huge step in the process.  
+
+It’s another step in the process
+Yes, this is an extra step in the process, so many people believe skipping it will get things moving into the design stage faster.   
+
+Tricky to change a drawing
+Editing a drawing over and over takes a chunk of unnecessary time. It’s much easier to make vital changes if you’re using programs like Balsamiq instead.
+
+Does provide design limitations  
+When a wireframe has been signed off, there’s little room for creative change for your designer. They must adhere to the functionality of your agreed website skeleton, which pens-in the option for other creative possibilities that may require a different flow.
 
 
 ### Questionnaires
