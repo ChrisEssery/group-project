@@ -127,10 +127,15 @@ Proto-personas based on assumptions about the relevant stakeholders, and are des
 
 This approach relies on an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research based on self-reflection and the process of writing to explore and understand personal experiences and connect this autobiographical story to wider societal issues. For our purposes, this relates to self-reflection on the position of our stakeholders via proto-personas. This was an excellent method for adding stakeholders into our agile development, and meant that despite being able to meet older adults in person show them our product, we were able to reflect on what their responses might be. This, together with the questionnaire data we gathered meant we could adjust our UI and UX design to best serve our end-users. This was extremely useful for evaluating our design.
 
+**Limitations**
+
+
 
 ### Heuristics
 
 Why use these modelas and heuristics? Well, because they can help in predicting user behaviour and when compared to primary datam can uncoveer important resesarch questions and hypotheses.
+
+**Limitations**
 
 ONe of the downsides of heuristics commonly make assumptions about products and people. Heuristics may not be suited to novel technologies - there is a risk of new technology outpacing heuristics. However, despite these considerations, heuristics are a great tool for making the design do's and don'ts intuitive. For our purposes, heurisitcs were perfect because we didn't have access to many users given the covid crisis. Challenges to end-users, particularly given that our end-users are an at-risk group.
 
@@ -153,7 +158,7 @@ Thematic analysis. Affinity diagrams -> visual way of grouping different parts o
 
 ### Timeline of evaluation of design
 
-ADD timeline
+**ADD timeline**
 
 
 
