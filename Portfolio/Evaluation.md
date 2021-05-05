@@ -184,7 +184,7 @@ Then through running ‘ng test’ we could easily see any issues within our fro
 
 ### Back-End (AUTOMATED API TESTING)
 
-The backend API was tested vigorously using software known as [Postman](https://www.postman.com/), which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API. 
+The backend API was tested vigorously using software known as [Postman](https://www.postman.com/), which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API.
 
 Based on our [API design](), there are mainly 4 methods involved in our [API Testing](https://www.guru99.com/api-testing.html):
 
@@ -196,7 +196,7 @@ Based on our [API design](), there are mainly 4 methods involved in our [API Tes
 
 - DELETE- Removes all current representations of the target resource given by a URI.
 
-To fully test these methods, we focused on two aspects: 
+To fully test these methods, we focused on two aspects:
 
 - Test functionality
 
@@ -206,7 +206,7 @@ To fully test these methods, we focused on two aspects:
 
   Make sure your API handles unexpected input and behavior.
 
-  
+
 
 #### **Testing Implementation**
 
@@ -228,7 +228,7 @@ remove all the changes to the database
 
 **Tests:**
 
-1. validate the API's error handling and the returned status code 
+1. validate the API's error handling and the returned status code
 2. validate the data and the status code returned by a request (GET)
 3. validate the message and the status code returned by a request  (UPDATE, PUT, DELETE)
 4. make sure that data is transferred/updated to the database correctly
@@ -313,7 +313,9 @@ Please see our [published api document](https://documenter.getpostman.com/view/1
 
 ## User acceptance testing
 
-We now turn to the user acceptance testing.
+We now turn to the user acceptance testing. According to Wikipedia, user acceptance testing "consists of a process of verifying that a solution works for the user."
+
+The most important consideration here is that UAT centres around the user. Are the users able to use the application? Does the application behave in expected ways? Does the application solve the users’ problem?
 
 User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.
 
