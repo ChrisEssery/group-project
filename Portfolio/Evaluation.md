@@ -205,7 +205,7 @@ Then through running ‘ng test’ we could easily see any issues within our fro
 
 The backend API was tested vigorously using software known as [Postman](https://www.postman.com/), which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API.
 
-Based on our [API design](), there are mainly 4 methods involved in our [API Testing](https://www.guru99.com/api-testing.html):
+Based on our [API design](https://github.com/ChrisEssery/group-project/tree/dev/server), there are mainly 4 methods involved in our [API Testing](https://www.guru99.com/api-testing.html):
 
 - GET- The GET method is used to extract information from the given server using a given URI. While using GET request, it should only extract data and should have no other effect on the data.
 
