@@ -26,13 +26,15 @@ export class GameService {
   start: boolean = false;
   gameFinished: boolean = false;
   opponentPlayAgain: boolean = false;
+  dummy: boolean = true;
+  infoDisplay: any;
 
   constructor(
     private cardService: CardService,
     private leaderboardService: RankingService,
     private router: Router
   ) {
-
+    this.cards = this.cardService.getCards();
   }
 
   //determines when game has finished
@@ -59,6 +61,8 @@ export class GameService {
       this.activeCards.push(card);
       card.show();
       this.currentPlayerType = "enemy";
+      this.infoDisplay.style.marginLeft = "850px";
+      this.infoDisplay.innerHTML = "Opponent\'s turn";
     }
 
     if (this.activeCards.length === 2) {
@@ -79,6 +83,8 @@ export class GameService {
       this.activeCards.push(this.cards[id]);
       this.cards[id].show();
       this.currentPlayerType = "user";
+      this.infoDisplay.style.marginLeft = "925px";
+      this.infoDisplay.innerHTML = "Your turn!";
     }
 
     if (this.activeCards.length === 2) {
@@ -178,15 +184,19 @@ export class GameService {
 
   // Multiplayer functionality
   public connectToGame(): void {
+    const title = document.querySelector("#title") as HTMLElement;
+    title.style.display = 'none';
+    this.infoDisplay = document.querySelector("#info") as HTMLElement;
     if (this.isConnected) return;
 
     this.gameSocket = io("http://localhost:3050");
     this.isConnected = true;
+    this.infoDisplay.style.display = 'inline';
 
     // Gets your player number
     this.gameSocket.on('player-number', num => {
       if (num === -1) {
-        //infoDisplay.innerHTML = "Sorry, the server is full.";
+        this.infoDisplay.innerHTML = "Sorry, the server is full.";
       } else {
         this.playerNumber = parseInt(num);
         if (this.playerNumber === 0) {
@@ -212,7 +222,16 @@ export class GameService {
       this.opponentReady = true;
       //playerReady(num);
       if (this.ready) {
+        if(this.currentPlayerType === "user"){
+          this.infoDisplay.style.marginLeft = "925px";
+          this.infoDisplay.innerHTML = "Your turn!"
+        }
+        else{
+          this.infoDisplay.style.marginLeft = "850px";
+          this.infoDisplay.innerHTML = "Opponent\'s turn!";
+        }
         this.playersReady = true;
+        this.dummy = false;
         this.readyToPlay();
       }
     })
@@ -258,6 +277,10 @@ export class GameService {
       }
     }
     if (this.playerNumber === 1) {
+      if(this.opponentReady){
+        this.cards =[];
+        this.dummy = false;
+      }
       console.log("ONE")
       this.gameSocket.emit('card-request');
       this.gameSocket.on('card-sent', value => {
@@ -268,14 +291,18 @@ export class GameService {
         this.cards.push(card);
       })
       this.start = true;
+      this.dummy = false;
     }
     if (this.opponentReady) {
       this.playersReady = true;
+      this.dummy = false;
       if (this.currentPlayerType === 'user') {
-        //displayCurrentPlayer.innerHTML = 'Your turn!';
+        this.infoDisplay.style.marginLeft = "925px";
+        this.infoDisplay.innerHTML = 'Your turn!';
       }
       if (this.currentPlayerType === 'enemy') {
-        //displayCurrentPlayer.innerHTML = 'Opponent\'s turn';
+        this.infoDisplay.style.marginLeft = "850px";
+        this.infoDisplay.innerHTML = 'Opponent\'s turn';
       }
     }
     this.gameSocket.on('play-again', value => {

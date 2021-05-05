@@ -49,7 +49,7 @@
   position: absolute;
   width: 100%;
   height: 100%;
-	 margin: 100px;
+	margin: 100px;
   top: 20px;
   font-size: 60px;
   color: gold;
@@ -59,4 +59,8 @@
 
 .space {
   height: 775px;
+}
+
+.card_container {
+  padding-top: 50px;
 }

@@ -16,6 +16,7 @@ export class StartComponent {
   startGame() {
     if (this.gameService.playerName && this.gameService.playerName.trim()) {
       this.router.navigate(["gameplay"]);
+      document.getElementById("title").className = "infoDisplay";
     }
   }
 }
