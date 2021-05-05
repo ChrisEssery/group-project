@@ -18,6 +18,7 @@ export class GameService {
   isBoardLocked: boolean = false;
   rounds: number = 0;
   playerName: string;
+  isCheatActivated: boolean = false;
 
   constructor(
     private cardService: CardService,
@@ -58,6 +59,10 @@ export class GameService {
     this.activeCards = [];
     this.rounds = 0;
     this.isBoardLocked = false;
+  }
+
+  toggleCheat(): void {
+    this.isCheatActivated = !this.isCheatActivated;
   }
 
   // Check whether move is valid
