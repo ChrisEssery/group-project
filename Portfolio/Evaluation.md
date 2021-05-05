@@ -8,7 +8,7 @@ ___
 
 # Evaluation
 
-In this section, we evaluate our app. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We then move on to unit testing, with a focus on how our selected harness helped us throughout the project build. Finally, after unit testing, we go on to look at user acceptance testing and we reflect on our working practices and successes. 
+In this section, we evaluate our app. We start by evaluating the design of the app, looking at the strengths, weaknesses and lessons learned. We then move on to unit testing, with a focus on how our selected harness helped us throughout the project build. Finally, after unit testing, we go on to look at user acceptance testing and we reflect on our working practices and successes.
 
 ## Table of contents
 
@@ -128,7 +128,19 @@ Proto-personas based on assumptions about the relevant stakeholders, and are des
 This approach relies on an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research based on self-reflection and the process of writing to explore and understand personal experiences and connect this autobiographical story to wider societal issues. For our purposes, this relates to self-reflection on the position of our stakeholders via proto-personas. This was an excellent method for adding stakeholders into our agile development, and meant that despite being able to meet older adults in person show them our product, we were able to reflect on what their responses might be. This, together with the questionnaire data we gathered meant we could adjust our UI and UX design to best serve our end-users. This was extremely useful for evaluating our design.
 
 **Limitations**
+EDIT
 
+One of the main limitations of autoethnography is its emphasis on the self. Specifically, it is regarded as too individualised. On this point, Sparkes (2000) claims, "The emergence of autoethnography and narratives of self…has not been trouble-free, and their status as proper research remains problematic" (p. 22).  Autoethnographies have been criticised for being self-indulgent and individualised (Atkinson, 1997; Coffey, 1999).
+
+Another criticism concerns the accuracy of the research method. In particular, is it a reliable guide to the truth in the sense that the personal narratives or autoethnographies represent the ground truth. On this point, Walford (2004) states, "If people wish to write fiction, they have every right to do so, but not every right to call it research" (p. 411).
+
+Ellis and Bochner (2000), claim autoethnography as a narrative that, "…is always a story about the past and not the past itself" (p. 745) .
+
+Walford (2004), who claims that "…the aim of research is surely to reduce the distortion as much as possible" (p. 411). Walford's concerns are focused on how much of the accounts presented as autoethnographies represent real conversations or events as they happened, and how much they are just inventions of the authors.
+
+Denzin and Lincoln (2000) state, "Objective reality can never be captured. We can know a thing only through its representations" (p. 5).
+
+Overall, then, the benefit of autoethnography is the ideas that emerge from the interaction between reflection on the users with consideration of the cultural and social context in which the user exists. It is through this process of reflection that useful insights are generated, which have primae facie value as a research tool.
 
 
 ### Heuristics
