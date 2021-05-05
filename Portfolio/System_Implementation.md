@@ -718,6 +718,15 @@ In preperation for the back-end a wait-script was added which allowed the MongoD
 
 Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
 
+### Multiplayer Functionality
+Placeholder
+
+### Real-time Video Chat
+Placeholder
+
+### Deploying to Microsoft Azure
+Placeholder
+
 ___
 
 ## Navigate
