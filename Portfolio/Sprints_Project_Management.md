@@ -331,7 +331,7 @@ ___
 
 The aim of this sprint was to show the stakeholders our start page and obtain their feedback. By this point, the backlog items of building a start page and adding audio to the start page had been implemented by the end of the previous sprint. This gave us a great opportunity to show our stakeholders the style, structure and layout of the first page, which would in turn inform our understanding of the UI and UX. Having this knowledge would then give us an understanding of how to approach the remaining pages of the SPA. Further to this, we started this sprint with new insights we'd acquired from our state of the art survey, which gave us a better understanding of similar online gaming platforms and any gaps in the market. We discovered that, to the best of our knowledge, there were no online games for the elderly which had video chat and a very simple, intuitive layout. This encouraged us to pursue adding a video chat feature to our games, and cemented our belief that the UI should be as straightforward as possible.
 
-For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. We also agreed it was important to get working versions of the games in front of the users as soon as possible, and to continue with documentation but with a focus on sprints and project management. Relational diagram -> UML diagram, because the relational model didn't work for MongoDB. So, we develped the data model to suit mongodb style - object oriented), API design (routes/data)
+For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. We also agreed it was important to get working versions of the games in front of the users as soon as possible, and to continue with documentation but with a focus on sprints and project management. Relational diagram -> UML diagram, because the relational model didn't work for MongoDB. So, we developed the data model to suit mongoDB style - object oriented), API design (routes/data)
 
 ### Key points
 
@@ -396,9 +396,9 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <td><img src="/Logo/manager_jack.jpg" width=35%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
-<td>Start page</td>
-<td>Start page and backend design</td>
-<td>This start page is really good, well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. </td>
+<td>N/A</td>
+<td>Create and circulate questionnaire regarding UI wireframe/Relational diagram -> UML diagram.</td>
+<td>This start page is really good, well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data).</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=35%>
@@ -422,10 +422,10 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
   <th>Solution</th>
 </tr>
 <tr>
-  <td>Front-End</td>
-  <td>Stakeholders are able to see the start page.</td>
-  <td>Audio file wasn't working properly</td>
-  <td>Insert solution here and future implementations.</td>
+  <td>Back-End</td>
+  <td>Relational model to show the stakeholders.</td>
+  <td>Relational model didn't work for MongoDB</td>
+  <td>Relational diagram. We chose a UML diagram, because the relational model didn't work for MongoDB. So, we developed the data model to suit mongoDB style - namely, something object oriented.</td>
 </tr>
 </table>
 
