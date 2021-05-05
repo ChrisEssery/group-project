@@ -182,11 +182,134 @@ Then through running ‘ng test’ we could easily see any issues within our fro
 
 --Example Karma screenshot--
 
-### Back-End
+### Back-End (AUTOMATED API TESTING)
 
-The backend API was tested vigorously using software known as Postman. This software allows us to test calls to the API. Postman tests that data is entering the database correctly and information is returned in regard to this….
+The backend API was tested vigorously using software known as [Postman](https://www.postman.com/), which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API. 
 
---Lizhao to add more--
+Based on our [API design](), there are mainly 4 methods involved in our [API Testing](https://www.guru99.com/api-testing.html):
+
+- GET- The GET method is used to extract information from the given server using a given URI. While using GET request, it should only extract data and should have no other effect on the data.
+
+- POST- A POST request is used to create a new entity. It can also be used to send data to the server, for example, customer information, file upload, etc. using HTML forms.
+
+- PUT- Create a new entity or update an existing one.
+
+- DELETE- Removes all current representations of the target resource given by a URI.
+
+To fully test these methods, we focused on two aspects: 
+
+- Test functionality
+
+  Make sure your API does exactly what it’s supposed to do.
+
+- Test exceptions
+
+  Make sure your API handles unexpected input and behavior.
+
+  
+
+#### **Testing Implementation**
+
+**Prerequiste**
+
+[Postman](https://www.postman.com/): Testing tool to drive the API
+
+[mongodb atlas](https://www.mongodb.com/cloud/atlas): cloud mongodb for checking data persistence
+
+**Set up**
+
+ensure you have a connected mongodb cloud database which you can check the data collection online
+
+ensure you have a working api interface which is exposed on localhost port 3000
+
+**Tear down**
+
+remove all the changes to the database
+
+**Tests:**
+
+1. validate the API's error handling and the returned status code 
+2. validate the data and the status code returned by a request (GET)
+3. validate the message and the status code returned by a request  (UPDATE, PUT, DELETE)
+4. make sure that data is transferred/updated to the database correctly
+
+API testing collection:
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/collection.png)
+**Methods:**
+
+To carry out testst, we used the `pm.response` object in Postman. You defined tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating whether the test passed or failed. Then, we used [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in the assertions to test the response detail. Here are some selected parts of the testing codes:  
+
+1. Test the status code
+
+```javascript
+//case: Any successful get request
+//test: the status code should be 200
+pm.test("status code is 200", function () {
+    pm.response.to.have.status(200);
+});
+
+//case: Get request without valid token being provided
+//test: the status code should be 401 (unauthorized access)
+pm.test("status code is 401", function () {
+    pm.response.to.have.status(401);
+});
+```
+
+2. Test the response body : JSON value check
+
+```javascript
+//case: user sign up
+//test: the returned data should contain the username as "Test"
+pm.test("the user is apiTestor", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.user).to.eql("Test");
+});
+
+//case: user log in with wrong password
+//test: the returned error message should be "invalid password"
+pm.test("error message is correct", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.error).to.eql("invalid password");
+});
+```
+
+3. Test the response body: Contains a property
+
+```javascript
+//case: user log in
+//test: the returned data should contain a token
+pm.test("has token", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData).to.have.property("token");
+});
+
+//case: retrieve a user's recent game activities
+//test: the returned data should contain a date of each game instance
+pm.test("has the date of a game instance", function () {
+    var jsonData = pm.response.json();
+    pm.expect(jsonData.gamesPlayed[0]).to.have.property("date");
+});
+```
+
+4. Test the response body: Contains a string
+
+```javascript
+//case: get the user's friendlist
+//test: the returned friendlist should contain username "bbb"
+pm.test("has friend bbb", function () {
+    pm.expect(pm.response.text()).to.include("bbb");
+});
+```
+
+Please see our [published api document](https://documenter.getpostman.com/view/15388829/TzRLkVzq) for test scripts of each request
+
+**Test Results:**
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/1.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/2.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/3.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/4.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/5.png)
 
 ## User acceptance testing
 
