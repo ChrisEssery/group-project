@@ -34,15 +34,15 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Harri - Organiser/Back-end :prince:
 
-  <td><img src="/Logo/profile-pic-harri.png" width=16%>
+  <td><img src="/Logo/profile-pic-harri.png" width=14%>
 
 * Lizhao - Coder/Full-stack :woman_technologist:
 
-  <td><img src="/Logo/profile-pic-lizhao.png" width=16%>
+  <td><img src="/Logo/profile-pic-lizhao.png" width=14%>
 
 * Max - Writer/Coder/Front-end :artist:
 
-  <td><img src="/Logo/profile-pic.jpg" width=16%>
+  <td><img src="/Logo/profile-pic.jpg" width=14%>
 
 
 ## Abstract
