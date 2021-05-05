@@ -305,7 +305,7 @@ Sally thinks that an online game platform might a good way for her to connect wi
 
 Sally's expectations are as follows:
 
-  *"I don't want the games to be too difficult for her, and I want to be able to see her opponent while I play the games. It's also really important that the layout of the website will be easy to navigate."*
+  *"I don't want the games to be too difficult for her, and I want to be able to see my opponent while I play the games. It's also really important that the layout of the website will be easy to navigate."*
 
 ### Special Requirements
 

@@ -368,7 +368,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to see an engaging start page - one that grabs my attention and is easy to understand.</td>
+ <br>Bob</a> <br /> As a user, I want to see an engaging start page - one that grabs my attention.</td>
  <td>Start page</td>
  <td>Start page</td>
  <td>I really like this start page. The bright colours are very engaging and the title is bold and in a clear font. I really like the background as well - it is eye-catching without being distracting. I really like the the music as well, but I think I would want the music to stop once I've logged in.</td>
@@ -376,7 +376,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <br>Sally </a> <br /> As a user, I want a start page that is easy to understand.</td>
  <td>Start page</td>
  <td>Start page</td>
  <td>The start page is very nice, but I think I would find the moving title a little bit nauseating if it were to continue during the login and gameplay.</td>
@@ -413,7 +413,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
   <td>Front-End</td>
   <td>Stakeholders are able to see the start page.</td>
-  <td>INSERT HERE -> Audio file wasn't working properly or something like that??</td>
+  <td>Audio file wasn't working properly</td>
   <td>Insert solution here and future implementations.</td>
 </tr>
 </table>
@@ -429,7 +429,7 @@ It was clear, however, that our workload in the other units of term was getting 
 ## Sprints paused : complete backlog items and other work commitments (22.03.21-05.04.21)
 ___
 
-By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which took up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items.
+By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which was taking up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items.
 
 Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
 
@@ -480,7 +480,7 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to know information about how I am performing at the games.</td>
+ <br>Bob</a> <br /> As a user, I want the webpage to be easy to navigate.</td>
  <td>N/A</td>
  <td>UI wireframe and obtain user feedback</td>
  <td>This shows me how the website will work, which looks good. I would quite like to update the profile page and add more information about my gaming experience such as the number of matches recently played, the win rate, the people recently played. Would you be able to add this information?.</td>
@@ -488,10 +488,10 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want instructions on how to use the various parts of the site.</td>
- <td>N/A.</td>
- <td>Create a user login/UI wireframe and obtain user feedback</td>
- <td>This login has a nice style and seems relatively easy to navigate. I might need help logging in though. With the UI wireframe, this is really good and easy enough to follow, but could you add a "how to play" button under the title of each games so that I can click on the button to learn the rules and operations before starting the game? This would be very helpful for me.
+ <br>Sally </a> <br /> As a user, I want a simple login page.</td>
+ <td>Login</td>
+ <td>Create a user login</td>
+ <td>This login has a nice style and seems relatively easy to navigate. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. In fact, could you add a "how to play" button under the title of each games so that I can click on the button to learn the rules and operations before starting the game? This would be very helpful for me.
 </td>
 </tr>
 <tr>
@@ -499,16 +499,16 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I think we should be obtaining user feedback about new features as soon as we can.</td>
 <td>N/A</td>
-<td>UI wireframe and obtain user feedback/Create and circulate questionnaire regarding UI wireframe</td>
-<td>You've done well to circulate a questionnaire on your UI wireframe, and to use that information to inform your user stories. This will help you improve the design of your product and give you a good insight into the needs of your users. One thing that is very clear is that you need some instructions on how to use the games. You may also need some instructions on how to login. Perhaps you could provide some written instructions on how to use your product, since it won't be abundantly clear how to use it without explicitly laying out the steps to take. You could even provide an instructional video which guides the user through the process of using the application. The main point here is that I think you may find that some of your end-users will need some assistance with logging in before they feel to do this by themselves.</td>
+<td>Create and circulate questionnaire regarding UI wireframe/Build basic versions of games and obtain user feedback</td>
+<td>You've done well to circulate a questionnaire on your UI wireframe, and to use that information to inform your user stories. This will help you improve the design of your product and give you a good insight into the needs of your users. One thing that is very clear is that you need some instructions on how to use the games. You may also need some instructions on how to login. Perhaps you could provide some written instructions on how to use your product, since it won't be abundantly clear how to use it without explicitly laying out the steps to take. You could even provide an instructional video which guides the user through the process of using the application. The main point here is that I think you may find that some of your end-users will need some assistance with logging in before they feel to do this by themselves. As for the games, they look great. You've styled them nicely. But they're written in JavaScript. You'll have to convert the JavaScript codebase to TypeScript. This may be a little tedious, but you should be able to do it.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want the UI and UX design to meet the needs of the users.</td>
- <td>N/A</td>
- <td>UI wireframe and obtain user feedback</td>
- <td>I think this wireframe is clean and straightforward. I do think, however, that the feature of playing against friends might be a little complicated for our end-users without any guidance on what this means and how it works. You may need to create a video which explains how the application works, or even some written instructions which detail how to login, play the games and play against friends.</td>
+ <br>Simon </a> <br /> As a sponsor, I want the games to be fun and interactive.</td>
+ <td>Games</td>
+ <td>Build basic versions of games and obtain user feedback.</td>
+ <td>I think the games you have built are styled nicely. They are engaging and aren't overcomplicated. I do think, however, that the feature of playing against friends might be a little complicated for our end-users without any guidance on what this means and how it works. You may need to create a video which explains how the application works in general, or even some written instructions which detail how to login, play the games and play against friends. This is worth pursuing and building into the application as soon as possible.</td>
 </tr>
 </tr>
 </table>
@@ -583,7 +583,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to play games with friends.</td>
+ <br>Bob</a> <br /> As a user, I want to see my friends as I play against them.</td>
  <td>Video chat</td>
  <td>Add video chat to connect four</td>
  <td>I can now see my opponent through video chat - fantastic. Is there anything I need to do to make sure this works? Do I have to turn on my camera and do I need to talk into the the microphone? Some instructions on how to do this would be really helpful. But aside from that, I think the video chat is really good.</td>
@@ -602,7 +602,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <br>Simon </a> <br /> As a product manger, I want my team to build a MVP as soon as reasonably possible</td>
 <td>Create MVP</td>
 <td>N/A</td>
-<td>A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimize the time and resources you might otherwise commit to building a product that won’t succeed.</td>
+<td>My advice is to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -690,7 +690,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to compete against friends.</td>
+ <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
  <td>Leaderboard</td>
  <td>Build a leaderboard</td>
  <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent. Is there any way you could explain this? Either on the screen or through a step by step series of instructions. This would really help.</td>
@@ -698,7 +698,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to challenge myself.</td>
+ <br>Sally </a> <br /> As a user, I want a page to see my game history so I can chart my progress.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
  <td>This profile page feature is just what I was hoping for. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate. Is there some way you could explain the scoring system though, as it is not clear what the scores are for, the memory game or connect four, and also it is not clear how those scores have been calculated.</td>
@@ -790,34 +790,34 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
- <td>N/A</td>
- <td>Paper prototype.</td>
- <td>This is exactly the kind of start page I was thinking of. The bright colours are very engaging and the title is bold and in a clear font. I am happy with this paper prototype, I just hope it doesn't have too many more features because then things would get a bit confusing.</td>
+ <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
+ <td>Leaderboard</td>
+ <td>Build a leaderboard</td>
+ <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent. Is there any way you could explain this? Either on the screen or through a step by step series of instructions. This would really help.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>N/A.</td>
- <td>Paper prototype</td>
- <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me reconnect with family members I haven't see for quite some time. I think this idea is great. I look forward to seeing the paper prototype.</td>
+ <br>Sally </a> <br /> As a user, I want a page to see my game history so I can chart my progress.</td>
+ <td>Profile page</td>
+ <td>Build user profile page</td>
+ <td>This profile page feature is just what I was hoping for. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate. Is there some way you could explain the scoring system though, as it is not clear what the scores are for, the memory game or connect four, and also it is not clear how those scores have been calculated.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
-<td>N/A</td>
-<td>Create stakeholder stories</td>
-<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimal viable product as soon as you can.</td>
+<br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product and understand how it works.</td>
+<td>Leaderboard/Demo video</td>
+<td>Leaderboard/Start creating the introduction demo video</td>
+<td>The leaderboard looks good, it has a clean design and isn't too cluttered. I think your end-users will like the layout. That said, I think you need make sure the users know what the scores stand for. For instance, how do you score players? Is it based on individual wins or the number of turns taken to achieve those wins? And are the scoring systems the same for the memory game and connect four or are they different? This should really be spelled out in a bit more detail. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided. As for the appearance of the video, I would advise you to make sure the video is fun, engaging, and appropriate for your end-users. This is a difficult balance to strike, but you want to grab the attention of your end-users without overwhelming them. It would be worthwhile, therefore, to show an early version of the demo and obtain feedback on that version. That way you can make changes to the video, including modifying the instructions, so as to make it as informative and useful as possible. </td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
- <td>N/A</td>
- <td>Paper prototype and research target population</td>
- <td>I like the look of this paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach to designing the interface of the product.</td>
+ <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
+ <td>Leaderboard/Profile page</td>
+ <td>Build a leaderboard/Build user profile page</td>
+ <td>This leaderboard works well. I think that it is clear and easy to understand, however, as with every aspect of this product, I think you'll need to explain how it works. The profile page is an excellent feature, I think this looks very professional. It is nice that the users can see their results, and how they have done in their most recent games.</td>
 </tr>
 </tr>
 </table>
