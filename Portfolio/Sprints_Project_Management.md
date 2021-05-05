@@ -201,6 +201,8 @@ This will be broken down into four parts:
 
  Each of the items in the backlog is tagged with 'finished' and 'unfinished' -> add something about this.
 
+
+
 ## Sprint 1 : Ideation and Setup (01.03.21-08.03.21)
 ___
 
@@ -233,6 +235,8 @@ This was our first sprint. The main goal of this sprint was to establish a commu
 After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't anything we could ask our users because we had nothing to show them before the end of this first sprint.
 
 
+
+
 ## Sprint 2 : Start building front-end and design back-end (08.03.21-15.03.21)
 ___
 
@@ -244,6 +248,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
   * Browsed previously completed group projects together and took notes.
   * Discussed stakeholder stories and their feedback.
   * Work on documentation with a focus on background research and state-of-the-art survey.
+  * Make data model (we build a relational entity diagram of data model)
 
 
 ### Key implementations from previous sprint
@@ -319,12 +324,14 @@ At this stage we would have benefited from focusing on producing a minimum viabl
 
 
 
+
+
 ## Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)
 ___
 
 The aim of this sprint was to show the stakeholders our start page and obtain their feedback. By this point, the backlog items of building a start page and adding audio to the start page had been implemented by the end of the previous sprint. This gave us a great opportunity to show our stakeholders the style, structure and layout of the first page, which would in turn inform our understanding of the UI and UX. Having this knowledge would then give us an understanding of how to approach the remaining pages of the SPA. Further to this, we started this sprint with new insights we'd acquired from our state of the art survey, which gave us a better understanding of similar online gaming platforms and any gaps in the market. We discovered that, to the best of our knowledge, there were no online games for the elderly which had video chat and a very simple, intuitive layout. This encouraged us to pursue adding a video chat feature to our games, and cemented our belief that the UI should be as straightforward as possible.
 
-For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. We also agreed it was important to get working versions of the games in front of the users as soon as possible, and to continue with documentation but with a focus on sprints and project management.
+For this sprint, we prioritised the creation of a UI wireframe and obtaining feedback from our stakeholders and other potential users including older family members. To do this, we decided to create a questionnaire. We also agreed it was important to get working versions of the games in front of the users as soon as possible, and to continue with documentation but with a focus on sprints and project management. Relational diagram -> UML diagram, because the relational model didn't work for MongoDB. So, we develped the data model to suit mongodb style - object oriented), API design (routes/data)
 
 ### Key points
 
@@ -335,6 +342,8 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Build basic versions of games and obtain user feedback.
    * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
+   * Relational diagram -> UML diagram
+   * API design (routes/data)
 
 
 ### Key implementations from previous sprint
@@ -353,6 +362,8 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
   → Backlog item: Obtain user feedback on UI wireframe through a questionnaire
   → Backlog item: Create login
   → Backlog item: Build basic version of games and obtain feedback
+  → Backlog item: Relational diagram -> UML diagram
+  → Backlog item: API design (routes/data)
 
 ```
 
@@ -434,18 +445,23 @@ By this stage, we felt it was appropriate to pause the sprints. The rationale fo
 Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
 
 
+
+
 ## Sprint 4 : Add multiplayer functionality, video chat and build backend (05.04.21-12.04.21)
 ___
 
 
 This was the first sprint after pausing our sprints for two weeks. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to make sure our application. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people.
 
+Another major aim for this sprint was to implement basic features such user login, signup, logout, get user information, get friendlist, and add friend. And to test on it.
+
 ### Key points
 
    * Implement multiplayer functionality for connect four.
    * Research and add video chat to the games.
-   * Build database and add relevant documentation
-   * Build API
+   * Build backend (build mongodb models with mongoose).
+   * Build API using express framework and nodejs.
+   * Implement basic features such as login, signup, logout, etc.
 
 ### Key implementations from previous sprint
 
@@ -463,8 +479,9 @@ This was the first sprint after pausing our sprints for two weeks. By this point
 ```
   → Backlog item: implement multiplayer functionality for connect four
   → Backlog item: add video chat to connect four
-  → Backlog item: build database and add relevant documentation
-  → Backlog item: build API
+  → Backlog item: build backend (build mongodb models with mongoose)
+  → Backlog item: build API using express framework and nodejs
+  → Backlog item: implement basic features such as login, signup, logout, etc.
 
 ```
 
@@ -540,6 +557,9 @@ Following our two week break from Agile sprints, we felt better placed to tackle
 There were still many new features to add to our product and we had four new fairly challenging backlog items to complete, including building the database and API, adding multiplayer functionality and video chat and continuing with documentation. On reflection, these tasks may have been too large to complete over the course of one week - two weeks would have been more appropriate.
 
 
+
+
+
 ## Sprint 5 : Adding new features (12.04.21-19.04.21)
 ___
 
@@ -548,8 +568,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
 ### Key points
 
-   * Build a leaderboard
-   * Build API
+   * Add features such as leaderboard and recent games and test on those features
    * Add relevant documentation for database
    * Implement multiplayer functionality for memory game
    * Obtain user feedback on the connect four with multiplayer and video chat functionality
@@ -566,8 +585,8 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 ```
   → Backlog item: implement multiplayer functionality for memory game
   → Backlog item: add relevant documentation for database
-  → Backlog item: build API
-  → Backlog item: build a leaderboard
+  → Backlog item: build API using express framework and nodejs
+  → Backlog item: add features such as leaderboard and recent games and test on those features
 
 ```
 
@@ -642,6 +661,10 @@ We also wanted to get a basic version of a leaderboard working so that we could 
 
 At this stage, once again, we would have benefited from agreeing on a deadline to get a MVP out to our stakeholders. This is because we really would have benefited from receiving feedback on our application when it was fully integrated, so we could make design and implementation changes to our product which helped our stakeholders.
 
+
+
+
+
 ## Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)
 
 ___
@@ -652,8 +675,9 @@ We now had to make sure that there was a fruitful integration of the front and b
 
 ### Key points
 
-   * Integrate front and back-end
-   * Build API
+   * Integrate front-end and back-end
+   * Create angular services for making calls to api
+   * Implement user authentication in the front end
    * Build user profile page
    * Build a leaderboard
    * Start creating the introduction demo video
@@ -670,9 +694,12 @@ We now had to make sure that there was a fruitful integration of the front and b
 
 ```
   → Backlog item: implement multiplayer functionality for memory game
+  → Backlog item: create angular services for making calls to api
+  → Backlog item: implement user authentication in the front end
+  → Backlog item: integrate front-end and back-end
   → Backlog item: build a leaderboard
   → Backlog item: implement video chat for memory game
-  → Backlog item: build API
+  → Backlog item: build API using express framework and node.js
   → Backlog item: start introduction demo video
   → Backlog item: build user profile page
 
@@ -747,6 +774,9 @@ We felt we were able to do a lot of work during this sprint. Having a start-page
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
+
+
+
 ## Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
@@ -755,6 +785,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 ### Key points
 
    * Add video chat to memory game
+   * Create test accounts and test both backend and frontend work correctly
    * Add multiplayer functionality to memory game
    * Make pages of application responsive, including mobile responsive
    * Complete evaluation of design to report
@@ -763,8 +794,8 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 
 ### Key implementations from previous sprint
 
-   * Built a leaderboard
-   * Built API
+   * Built leaderboard
+   * Build API using express framework and node.js
    * Added relevant documentation for database
 
 
@@ -772,6 +803,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 
 ```
   → Backlog item: complete introduction demo video
+  → Backlog item: create test accounts and test both backend and frontend work correctly
   → Backlog item: complete remaining subsections of the report
   → Backlog item: conduct unit testing
   → Backlog item: implement multiplayer functionality for memory game
@@ -790,34 +822,34 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
- <td>Leaderboard</td>
- <td>Build a leaderboard</td>
- <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent. Is there any way you could explain this? Either on the screen or through a step by step series of instructions. This would really help.</td>
+ <br>Bob</a> <br /> As a user, I want clear instructions on how to use the product.</td>
+ <td>Demo video</td>
+ <td>Complete introduction demo video</td>
+ <td>This demo video is good, but I think that it is a little bit light on instructions. Maybe you should add more instructions?</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want a page to see my game history so I can chart my progress.</td>
- <td>Profile page</td>
- <td>Build user profile page</td>
- <td>This profile page feature is just what I was hoping for. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate. Is there some way you could explain the scoring system though, as it is not clear what the scores are for, the memory game or connect four, and also it is not clear how those scores have been calculated.</td>
+ <br>Sally </a> <br /> As a user, I want to see my profile on my mobile phone.</td>
+ <td>Page responsivity</td>
+ <td>Make pages of application responsive, including mobile responsive</td>
+ <td>Now I can see my profile page on my mobile phone. Fantastic! This is very convenient for me because I am more familiar with my smartphone.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product and understand how it works.</td>
-<td>Leaderboard/Demo video</td>
-<td>Leaderboard/Start creating the introduction demo video</td>
-<td>The leaderboard looks good, it has a clean design and isn't too cluttered. I think your end-users will like the layout. That said, I think you need make sure the users know what the scores stand for. For instance, how do you score players? Is it based on individual wins or the number of turns taken to achieve those wins? And are the scoring systems the same for the memory game and connect four or are they different? This should really be spelled out in a bit more detail. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided. As for the appearance of the video, I would advise you to make sure the video is fun, engaging, and appropriate for your end-users. This is a difficult balance to strike, but you want to grab the attention of your end-users without overwhelming them. It would be worthwhile, therefore, to show an early version of the demo and obtain feedback on that version. That way you can make changes to the video, including modifying the instructions, so as to make it as informative and useful as possible. </td>
+<td>Testing</td>
+<td>Create test accounts and test both backend and frontend work correctly</td>
+<td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
  <td>Leaderboard/Profile page</td>
- <td>Build a leaderboard/Build user profile page</td>
- <td>This leaderboard works well. I think that it is clear and easy to understand, however, as with every aspect of this product, I think you'll need to explain how it works. The profile page is an excellent feature, I think this looks very professional. It is nice that the users can see their results, and how they have done in their most recent games.</td>
+ <td>Build API using express framework and node.js</td>
+ <td>I'm glad that you have built the API. Without the API, we won't have a working product.</td>
 </tr>
 </tr>
 </table>
