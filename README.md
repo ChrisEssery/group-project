@@ -11,7 +11,7 @@
 
 # NotSoBored Games
 ### *Don't Get Bored, Get NotSoBored Games*.
-[Our Team](#our-team) · [Aims & Objectives](#aims-and-objectives) · [Table of Contents](#table-of-contents) · [Technologies](#technologies-used)
+[Our Team](#our-team) · [Abstract](#abstract) · [Aims & Objectives](#aims-and-objectives) · [Demo Video](#demo-video) · [Table of Contents](#table-of-contents) · [Technologies](#technologies-used)
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Hnet.com-image.gif)
 
@@ -69,6 +69,8 @@ We investigate whether these objectives are met and, based on our results, claim
 In our project report, we explain and analyse our SPA, from ideation to implementation. In particular, we give an overview of background literature, conduct a state-of-the-art survey, provide a detailed account of our system design and implementation, and project management before evaluating our progress and identifying promising avenues for future work. You can find the table of contents below which links you to each of the subsections of our report.
 
 **TO DO :- Update demo vid**
+
+## Demo Video
 Before reading the report though, check out our **DRAFT** demo video below (testing to see whether hosting the video on GitHub using 'Issues' works - It does!):
 
 <div align="center">
