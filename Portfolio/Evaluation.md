@@ -323,13 +323,15 @@ pm.test("has friend bbb", function () {
 Please see our [published api document](https://documenter.getpostman.com/view/15388829/TzRLkVzq) for test scripts of each request
 
 **Test Results:**
-
+1. API tests
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/1.png)
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/2.png)
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/3.png)
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/4.png)
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/5.png)
-
+2. Database status
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/testuserscollection.png)
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/testgamescollection.png)
 ## User acceptance testing
 
 We now turn to the user acceptance testing. According to Wikipedia, user acceptance testing "consists of a process of verifying that a solution works for the user."
