@@ -29,14 +29,12 @@ describe('LoginComponent', () => {
 
   it('invalid username is hidden', () => {
     const element = html.query(By.css('#invalidUsername'));
-    console.log('element:', element);
     expect(element.nativeElement.hasAttribute('hidden')).toBeTruthy();
   });
 
 
   it('invalid password is hidden', () => {
     const element = html.query(By.css('#invalidPassword'));
-    console.log('element:', element);
     expect(element.nativeElement.hasAttribute('hidden')).toBeTruthy();
   });
 });
