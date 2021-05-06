@@ -749,7 +749,7 @@ A typical implementation of Socket.io can be seen below:
 # Server-side
 * Create a HTTP server/listener and a Socket.io object
 
-![alt_text](https://imgur.com/a/t831aJ9)
+!(image)(https://imgur.com/a/t831aJ9)
 
 ### Real-time Video Chat
 Placeholder
