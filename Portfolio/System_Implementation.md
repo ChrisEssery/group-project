@@ -742,7 +742,14 @@ One of the key objectives of this project was to enable real-time multiplayer fu
 
 ![alt_text](https://miro.medium.com/max/1624/0*xAADmPJN52Yy6XJV.jpg)
 
-Socket.io is a JavaScript library that enables real-time communication for web applications that is predominantly built on the WebSocket protocol. However, it has additional functionality such as implementing HTTP long-polling if a WebSocket connection cannot be initiated and automatic reconnection. 
+Socket.io is a JavaScript library that enables real-time communication for web applications that is predominantly built on the WebSocket protocol. However, it has additional functionality such as implementing HTTP long-polling if a WebSocket connection cannot be initiated and automatic reconnection.
+
+A typical implementation of Socket.io can be seen below:
+
+# Server-side
+* Create a HTTP server/listener and a Socket.io object
+
+![alt_text](https://imgur.com/a/t831aJ9)
 
 ### Real-time Video Chat
 Placeholder
