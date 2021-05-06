@@ -727,11 +727,11 @@ HTTP is stateless, which means that the server does not know where the request i
 
 The process of WebSocket communcation is as follows: 
 
-*The client sends a HTTP handshake request to the server for a WebSocket connection
-*If the server is able to fulfill this request, it sends a successful handshake response, with the HTTP code 101
-*The connection is then upgraded from HTTP to a WebSocket connection
-*TCP is still the underlying protocol and it is full-duplex, allowing bi-directional communication between the client and server
-*When it is time for the connection to terminate, both the client and server can initiate the closing of the connection
+* The client sends a HTTP handshake request to the server for a WebSocket connection
+* If the server is able to fulfill this request, it sends a successful handshake response, with the HTTP code 101
+* The connection is then upgraded from HTTP to a WebSocket connection
+* TCP is still the underlying protocol and it is full-duplex, allowing bi-directional communication between the client and server
+* When it is time for the connection to terminate, both the client and server can initiate the closing of the connection
 
 ![alt text](https://images.techhive.com/images/article/2016/06/websockets-100668229-primary.idge.jpg)
 
