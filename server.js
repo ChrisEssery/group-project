@@ -135,13 +135,13 @@ Socketio.on('connection', socket => {
 });
 
 // MEMORY GAME 
-const express_mg = require('express');
-const http_mg = require('http');
-const app_mg = express_mg();
-const server_mg = http_mg.createServer(app_mg);
-const port_mg = '3050';
-const Socketio_mg = require ("socket.io")(http_mg);
-server_mg.listen(port_mg, () => console.log("Listening at :3050..."));
+const Express_mg = require("express")();
+const Http_mg = require("http").Server(Express_mg);
+const Socketio_mg = require ("socket.io")(Http_mg);
+
+Http_mg.listen(3050, () => {
+    console.log("Listening at :3050...");
+});
 
 // Handle connection request
 const connections_mg = [null, null]
@@ -158,28 +158,28 @@ Socketio_mg.on('connection', socket => {
         }
     }
 
-    socket.emit('player-number', playerIndex);
-    console.log(`Player ${playerIndex} has connected`);
-    if(playerIndex === -1){
+    socket.emit('player-number', playerIndex_mg);
+    console.log(`Player ${playerIndex_mg} has connected`);
+    if(playerIndex_mg === -1){
         return;
     }
 
-    connections_mg[playerIndex] = false;
+    connections_mg[playerIndex_mg] = false;
 
     // Tell everyone what player number just connected
-    socket.broadcast.emit('player-connection', playerIndex);
+    socket.broadcast.emit('player-connection', playerIndex_mg);
 
     socket.on('disconnect', () => {
-        console.log(`Player ${playerIndex} disconnected`);
-        connections_mg[playerIndex] = null;
+        console.log(`Player ${playerIndex_mg} disconnected`);
+        connections_mg[playerIndex_mg] = null;
         //Tell what player disconnected
-        socket.broadcast.emit('player-connection', playerIndex);
+        socket.broadcast.emit('player-connection', playerIndex_mg);
     });
 
     // On ready
     socket.on('player-ready', () => {
-        socket.broadcast.emit('opponent-ready', playerIndex);
-        connections_mg[playerIndex] = true;
+        socket.broadcast.emit('opponent-ready', playerIndex_mg);
+        connections_mg[playerIndex_mg] = true;
     })
 
     // Check player connections
@@ -194,7 +194,7 @@ Socketio_mg.on('connection', socket => {
 
     // On slot received
     socket.on('card-flipped', card => {
-        console.log(`Turn taken by ${playerIndex}`, card);
+        console.log(`Turn taken by ${playerIndex_mg}`, card);
 
         // Emit move to the other player
         socket.broadcast.emit('card-flipped', card);
