@@ -126,7 +126,7 @@ Provoking behaviour change, facilitating learning, and promoting wellbeing throu
 
 Delving even deeper into human psychology, there are a number of motivations with respect to playing games which we ought to bear in mind when answering the above questions. The two main motivations which we shall consider here are extrinsic and intrinsic motivations. Let's go over these.
 
-#### Extrinsic vs intrinsic motivations
+### Extrinsic vs intrinsic motivations
 
 In the context of playing a game, a person is said to have have extrinsic motivations in the form of leaderboards, winning and social contact - external factors which a person interacts with. Intrinsic motivations, by contrast, come from within. That is, intrinsic motivation includes enjoyment, purpose, growth and curiosity. These psychological phenomena arise in the mind and body and have emotional, psychological and cognitive dimensions. How do these two motivations interact and exercise influence over the other?
 
