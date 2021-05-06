@@ -23,6 +23,8 @@ import { LeaderboardComponent } from './home-page/leaderboard/leaderboard.compon
 import { HomePageComponent } from './home-page/home-page.component';
 import { NavbarComponent } from './home-page/navbar/navbar.component';
 import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
+import { ConnectFourComponent } from './connect-four/connect-four.component';
+import { JitsiComponent } from './jitsi/jitsi.component';
 
 
 @NgModule({
@@ -40,7 +42,9 @@ import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
     LeaderboardComponent,
     HomePageComponent,
     NavbarComponent,
-    GameMenuComponent
+    GameMenuComponent,
+    ConnectFourComponent,
+    JitsiComponent
   ],
   imports: [
     BrowserModule,
