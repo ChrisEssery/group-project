@@ -13,8 +13,8 @@ export class LoginComponent implements OnInit {
   checkLoginForm  = {
     username: '',
     password: ''
-  }
-  errMsg = ''
+  };
+  errMsg = '';
   constructor(
     private router: Router,
     private authService: AuthService,
@@ -25,17 +25,17 @@ export class LoginComponent implements OnInit {
   }
 
   login(){
-    const formData = this.checkLoginForm 
+    const formData = this.checkLoginForm;
     this.authService.login(formData).subscribe(
-      (data:any)=>{
-        this.errMsg = ''
-        this.tokenStorageService.saveToken(data.token)
-        this.tokenStorageService.saveUser(data.user)
-        this.router.navigate(['/home'])
+      (data: any) => {
+        this.errMsg = '';
+        this.tokenStorageService.saveToken(data.token);
+        this.tokenStorageService.saveUser(data.user);
+        this.router.navigate(['/home']);
       },
-      error=>{
-        if(error.status === 401) {
-          this.errMsg ="invalid username/password"
+      (error) => {
+        if (error.status === 401) {
+          this.errMsg ="invalid username/password";
         }
       }
     )

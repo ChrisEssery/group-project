@@ -15,14 +15,12 @@ describe('LoginComponent', () => {
     await TestBed.configureTestingModule({
       declarations: [ LoginComponent ],
       imports: [ HttpClientModule, RouterTestingModule, FormsModule ]
-    })
-    .compileComponents();
-  });
-
-  beforeEach(() => {
-    fixture = TestBed.createComponent(LoginComponent);
-    component = fixture.componentInstance;
-    fixture.detectChanges();
+    }).compileComponents().then(() => {
+      fixture = TestBed.createComponent(LoginComponent);
+      component = fixture.componentInstance;
+      html = fixture.debugElement;
+      fixture.detectChanges();
+    });
   });
 
   it('should create', () => {
@@ -30,11 +28,13 @@ describe('LoginComponent', () => {
   });
 
   it('invalid username is hidden', () => {
-    expect(html.query(By.css('#invalidUsername')).nativeElement.attributes('hidden')).toBeTruthy();
+    const element = html.query(By.css('#invalidUsername'));
+    expect(element.nativeElement.hasAttribute('hidden')).toBeTruthy();
   });
 
 
   it('invalid password is hidden', () => {
-    expect(html.query(By.css('#invalidPassword')).nativeElement.hasAttribute('hidden')).toBeTruthy();
+    const element = html.query(By.css('#invalidPassword'));
+    expect(element.nativeElement.hasAttribute('hidden')).toBeTruthy();
   });
 });
