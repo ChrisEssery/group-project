@@ -190,12 +190,10 @@ For Karma to work well we need to implement a test framework for our project. Th
 Now that the framework was chosen, we could specifically test our JavaScript code using the Jasmine syntax which will capture any problematic component issues. See below for how these software’s were utilized on our project.
 To begin the front-end testing, we had to produce a test plan as below:
 
---Screenshot of testing_plan.txt--
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Test_plan.txt)
+![alt text](https://github.com/ChrisEssery/group-project/dev/Portfolio/Test_plan.txt)
 
 This test plan outlines the specifics of our front-end testing. As you can see our focus was purely on the navigation of our users as well as logging out effectively. We also fixed all the default angular tests such that all components are created. In order to implement this, we had to edit the components spec files which our tests focused upon. As below:
 
---Example component testing code--
 # Test A.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/InvalidPassandUser.png)
 
@@ -205,9 +203,8 @@ This test plan outlines the specifics of our front-end testing. As you can see o
 # Test C.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/SignoutWorks.png)
 
-Then through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these. Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct.
+Then through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these.
 
---Example Karma screenshot--
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/TotalPasses.png)
 
 # Test A.
@@ -215,6 +212,8 @@ Then through running ‘ng test’ we could easily see any issues within our fro
 
 # Test B & C.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NavbarTestWorks.png)
+
+Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct.
 
 ### Back-End (AUTOMATED API TESTING)
 
