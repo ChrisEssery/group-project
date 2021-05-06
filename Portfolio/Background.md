@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](https://github.com/ChrisEssery/group-project/blob/Testing/Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
