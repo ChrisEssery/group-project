@@ -723,7 +723,17 @@ Reliable real-time data communication is essential on the modern Internet. To me
 
 The WebSocket protocol works by providing full-duplex (bi-directional, or both ways) communication between the client and a server over a single TCP connection. A HTTP system (which is implemented in your typical webpage) consists of a server that is responsible for responding to HTTP messages from the client; the client sends a request, the server sends a response. With the use of WebSockets, both can send and receive requests simultaneously.
 
-HTTP is stateless, which means that the server does not know where the request is coming from and it treats each request as independent. This functionality is sufficient for the serving of basic webpages, but when data is of increasing complexity and time-sensitive, such as real-time chat, it falls short. WebSockets are stateful, meaning the server will "remember" the client.
+HTTP is stateless, which means that the server does not know where the request is coming from and it treats each request as independent. This functionality is sufficient for the serving of basic webpages, but when data is of increasing complexity and time-sensitivity, such as real-time chat, it falls short. WebSockets are stateful, meaning the server will "remember" the client and can in turn handle the management of communication between multiple clients, or separate groups of clients. 
+
+The process of WebSocket communcation is as follows: 
+
+*The client sends a HTTP handshake request to the server for a WebSocket connection
+*If the server is able to fulfill this request, it sends a successful handshake response, with the HTTP code 101
+*The connection is then upgraded from HTTP to a WebSocket connection
+*TCP is still the underlying protocol and it is full-duplex, allowing bi-directional communication between the client and server
+*When it is time for the connection to terminate, both the client and server can initiate the closing of the connection
+
+![alt text](https://images.techhive.com/images/article/2016/06/websockets-100668229-primary.idge.jpg)
 
 ### Real-time Video Chat
 Placeholder
