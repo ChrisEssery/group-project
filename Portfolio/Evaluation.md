@@ -190,7 +190,7 @@ For Karma to work well we need to implement a test framework for our project. Th
 Now that the framework was chosen, we could specifically test our JavaScript code using the Jasmine syntax which will capture any problematic component issues. See below for how these software’s were utilized on our project.
 To begin the front-end testing, we had to produce a test plan as below:
 
-![alt text](https://github.com/ChrisEssery/group-project/dev/Portfolio/Test_plan.txt)
+![alt text](https://github.com/ChrisEssery/group-project/dev/Portfolio/TestPlan.png)
 
 This test plan outlines the specifics of our front-end testing. As you can see our focus was purely on the navigation of our users as well as logging out effectively. We also fixed all the default angular tests such that all components are created. In order to implement this, we had to edit the components spec files which our tests focused upon. As below:
 
