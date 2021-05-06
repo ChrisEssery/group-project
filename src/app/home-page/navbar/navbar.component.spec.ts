@@ -1,4 +1,4 @@
-import { ComponentFixture, TestBed } from '@angular/core/testing';
+import {ComponentFixture, fakeAsync, TestBed} from '@angular/core/testing';
 import { HttpClientModule } from '@angular/common/http';
 import { NavbarComponent } from './navbar.component';
 import { RouterTestingModule } from '@angular/router/testing';
@@ -9,6 +9,7 @@ import { tick } from '@angular/core/testing';
 describe('NavbarComponent', () => {
   let component: NavbarComponent;
   let fixture: ComponentFixture<NavbarComponent>;
+  let html: DebugElement;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
@@ -21,6 +22,7 @@ describe('NavbarComponent', () => {
   beforeEach(() => {
     fixture = TestBed.createComponent(NavbarComponent);
     component = fixture.componentInstance;
+    html = fixture.debugElement;
     fixture.detectChanges();
   });
 
@@ -28,16 +30,16 @@ describe('NavbarComponent', () => {
     expect(component).toBeTruthy();
   });
 
-  //it('should navigate', () => {
-  //  expect(DebugElement.query(By.css('#home')).nativeElement.attribute('routerLink')).toEqual('/home');
-  //});
+  it('should link to /home', () => {
+    const element = html.query(By.css('#home'));
+    expect(element.attributes.routerLink).toEqual('/home');
+  });
 
-  it('should signout when signout is clicked', fakeAsync ((); void => {
+  it('should signout when signout is clicked', fakeAsync(() => {
     spyOn(component, 'signout');
-    const signoutLink = fixture.debugElement.query(By.css('#signout-link'));
+    const signoutLink = html.query(By.css('#signout-link'));
     signoutLink.triggerEventHandler('click', null);
     tick();
-    fixture.detectChanges();
     expect(component.signout).toHaveBeenCalled();
   }));
 });
