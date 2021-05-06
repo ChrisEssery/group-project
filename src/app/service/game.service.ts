@@ -61,7 +61,7 @@ export class GameService {
       this.activeCards.push(card);
       card.show();
       this.currentPlayerType = "enemy";
-      this.infoDisplay.style.marginLeft = "850px";
+      this.infoDisplay.style.marginLeft = "650px";
       this.infoDisplay.innerHTML = "Opponent\'s turn";
     }
 
@@ -83,7 +83,7 @@ export class GameService {
       this.activeCards.push(this.cards[id]);
       this.cards[id].show();
       this.currentPlayerType = "user";
-      this.infoDisplay.style.marginLeft = "925px";
+      this.infoDisplay.style.marginLeft = "725px";
       this.infoDisplay.innerHTML = "Your turn!";
     }
 
@@ -229,11 +229,11 @@ export class GameService {
       //playerReady(num);
       if (this.ready) {
         if(this.currentPlayerType === "user"){
-          this.infoDisplay.style.marginLeft = "925px";
+          this.infoDisplay.style.marginLeft = "725px";
           this.infoDisplay.innerHTML = "Your turn!"
         }
         else{
-          this.infoDisplay.style.marginLeft = "850px";
+          this.infoDisplay.style.marginLeft = "650px";
           this.infoDisplay.innerHTML = "Opponent\'s turn!";
         }
         this.playersReady = true;
@@ -298,11 +298,11 @@ export class GameService {
       this.playersReady = true;
       this.dummy = false;
       if (this.currentPlayerType === 'user') {
-        this.infoDisplay.style.marginLeft = "925px";
+        this.infoDisplay.style.marginLeft = "725px";
         this.infoDisplay.innerHTML = 'Your turn!';
       }
       if (this.currentPlayerType === 'enemy') {
-        this.infoDisplay.style.marginLeft = "850px";
+        this.infoDisplay.style.marginLeft = "650px";
         this.infoDisplay.innerHTML = 'Opponent\'s turn';
       }
     }
