@@ -215,7 +215,7 @@ The aim of this sprint was to decide on our architecture and how we intended to 
    * Agreed to setup a protocol with regard to GitHub.
    * Create a simple paper prototype of the UI design.
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Backlog items
 
@@ -252,7 +252,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
   * Work on documentation with a focus on background research and state-of-the-art survey.
   * Make data model (we build a relational entity diagram of data model)
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
@@ -348,7 +348,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Relational diagram -> UML diagram
    * API design (routes/data)
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
@@ -467,7 +467,7 @@ Another major aim for this sprint was to implement basic features such user logi
    * Build API using express framework and nodejs.
    * Implement basic features such as login, signup, logout, etc.
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
@@ -579,7 +579,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
    * Implement multiplayer functionality for memory game
    * Obtain user feedback on the connect four with multiplayer and video chat functionality
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
@@ -691,7 +691,7 @@ We now had to make sure that there was a fruitful integration of the front and b
    * Start creating the introduction demo video
    * Implement multiplayer functionality for memory game
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
@@ -801,7 +801,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
    * Conduct unit testing
    * Complete introduction demo video
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
@@ -903,7 +903,7 @@ We also had to complete unit testing on our code, finalise the introduction demo
    * Finish unit testing
    * Complete introduction demo video
 
-Attendees: everyone in attendance.
+**Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
