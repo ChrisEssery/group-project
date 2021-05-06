@@ -191,15 +191,30 @@ Now that the framework was chosen, we could specifically test our JavaScript cod
 To begin the front-end testing, we had to produce a test plan as below:
 
 --Screenshot of testing_plan.txt--
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Test_plan.txt)
 
-This test plan outlines the specifics of our front-end testing. As you can see our focus was purely on the navigation of our users as well as logging and out effectively.
-In order to implement this, we had to edit the components spec files which our tests focused upon. As below:
+This test plan outlines the specifics of our front-end testing. As you can see our focus was purely on the navigation of our users as well as logging out effectively. We also fixed all the default angular tests such that all components are created. In order to implement this, we had to edit the components spec files which our tests focused upon. As below:
 
 --Example component testing code--
+# Test A.
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/InvalidPassandUser.png)
+
+# Test B.
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Navigation.png)
+
+# Test C.
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/SignoutWorks.png)
 
 Then through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these. Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct.
 
 --Example Karma screenshot--
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/TotalPasses.png)
+
+# Test A.
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/LoginTestWorks.png)
+
+# Test B & C.
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NavbarTestWorks.png)
 
 ### Back-End (AUTOMATED API TESTING)
 
