@@ -18,9 +18,11 @@
  </div>
 </ng-container>
 </div>
+<ng-container  *ngIf="gameService.serverNotFull">
 <div class="jitsi">
   <app-jitsi></app-jitsi>
 </div>
+</ng-container>
 </div>
  <div class="memory-game__info">
    <p>Rounds: {{ gameService.rounds }}</p>
