@@ -81,7 +81,7 @@ With this objective, we.
 
   * ***Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.***
 
-We were unable to complete this objective due to the time constraints placed on us. Despite the face we were unable to meet this objective, we believe this could be a really fruitful extension of our product since it could help garner useful data on the impact our platform has with respect to subjective feelings of wellbeing and self-reported levels of loneliness and isolation. Whilst these questions lie outside the realm of this project, they nonetheless could be addressed in a small-scale study investigating those phenomena.
+We were unable to complete this objective due to the time constraints placed on us. Despite the face we were unable to meet this objective, we believe this could be a really fruitful extension of our product since it could help garner useful data on the impact our platform has with respect to subjective feelings of wellbeing and self-reported levels of loneliness and isolation. Whilst these questions lie outside the realm of this project, they nonetheless could be addressed in a small-scale study investigating those phenomena. The PENS model, discussed in [the Background section of this report](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md), could be used to inform the questions asked of the participants of that study.
 
   * ***Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy.***
 

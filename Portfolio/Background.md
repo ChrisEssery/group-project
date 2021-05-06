@@ -14,9 +14,14 @@ In this section, we discuss the background literature, state-of-the-art survey a
 
 * [**Background literature**](#background-literature)
    * [Background literature](#background-literature)
-   * [Defining key terms](#defining-key-terms)
-   * [Public health concerns](#public-health-concerns)
-   * [Digital literacy](#digital-literacy)
+     * [Defining key terms](#defining-key-terms)
+     * [Public health concerns](#public-health-concerns)
+     * [Can digital games help tackle the health concerns associated with loneliness and isolation?](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation)
+     * [What is 'serious play' and how can it be used to address loneliness and isolation?](#what-is-serious-play-and-how-can-it-be-used-to-address-loneliness-and-isolation)
+     * [Rules versus open-endedness](#rules-versus-open-endedness)
+     * [The psychology behind playing games](#the-psychology-behind-playing-games)
+     * [Extrinsic vs intrinsic motivations](#extrinsic-vs-intrinsic-motivations)
+     * [Digital literacy](#digital-literacy)
 * [**State of the art survey**](#state-of-the-art-survey)
    * [State of the art survey](#state-of-the-art-survey)
    * [Evaluation of survey](#evaluation-of-survey)
@@ -51,9 +56,9 @@ Our target group is adults above the age of 70. However, we acknowledge that ind
 
 There are several public health concerns linked to loneliness and isolation. Let's begin by looking at the health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains, and insomnia.
 
-The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience increased levels of negative emotions such as anxiety and depression. This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the above-mentioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
+The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, [they will experience increased levels of negative emotions such as anxiety and depression](https://www.cdc.gov/aging/publications/features/lonely-older-adults.html#:~:text=Loneliness%20was%20associated%20with%20higher,risk%20of%20emergency%20department%20visits.). This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the above-mentioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
-Overall, the impact of mental health problems is nontrivial. The increased likelihood of depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure.
+Overall, the impact of mental health problems is nontrivial. The increased likelihood of depression can lead to suicidal ideation, [a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure](https://www.cdc.gov/aging/publications/features/lonely-older-adults.html).
 
 The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network, people can experience a decline in their mental acuity, choosing to avoid activities that challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain during older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
 
@@ -74,9 +79,7 @@ Although the widely held view of ageing is that physical and cognitive decline a
 
 Researchers at King's College London have shown that brain training games are very beneficial for older adults, both in terms of cognitive functions such as memory and decision making but also in terms of dealing with everyday tasks such as managing finances, administrative tasks, and shopping [[**6**]](#references). Research has also shown that brain training daily can have long-lasting effects on a person's cognitive abilities.
 
-For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function, and processing speed. Furthermore, most research shows that playing games improve life satisfaction and quality of life.
-
-In addition to this, there is research that suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
+For instance, Hall et al's (2012) review found that a large majority of studies on the effects of digital gameplay on the elderly demonstrated positive outcomes. Zhang and Kaufman's 2015 review concluded that digital gameplay had positive outcomes in balance, executive function, and processing speed. Furthermore, most research shows that playing games improve life satisfaction and quality of life. In addition to this, there is research that suggests that maintaining daily mental activity can help delay the onset of Alzheimer's disease.
 
 The level of difficulty of our chosen games is something to bear in mind since research shows that playing more challenging games yields greater benefits than setting the game at a level that is too easy. For instance, Kaufman et al have shown that "playing at an intermediate and advanced level can provide greater benefits than playing at a beginner level since the cognitive demands are greater" [[**4**]](#references). Whilst this indicates that the game difficulty ideally should be challenging, it's worth bearing in mind that the game also has to be enjoyable and fun. So, with that in mind, we would need to carefully decide on a baseline difficulty that would have benefits without the drawbacks associated with a game that is too difficult to even enjoy.
 
@@ -89,11 +92,9 @@ Now, let's look at serious play and the motivations behind playing games.
 
 Following Zimmerman (2004), we assign 'play' three categories. The first category refers to 'play' as 'game play', where play is a verb, involving action. In these cases play arises through the interaction with structures and rules. This is what one might typically think of when talking about play. The second category is ludic activity. This refers to instances of play where activities are not only games, but rather unstructured play. It's a simulation of play, and there are no strongly defined objectives. The third category involves play as a mindset. Here, play is more of an adjective where the spirit of play is imbibed into non-typical play activities.
 
-There is a theory of play, developed by Richard Ryan, using the PENS model, the Player Experience of Needs Satisfaction. We have three key needs to satisfy through play. First there is competence, feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. Instil these feelings of pride and self-efficacy, you help push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency, feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations (see R.A.M.P).
+There is a theory of play, developed by Richard Ryan, using the PENS model, that is, 'Player Experience of Needs Satisfaction'. We have three key needs to satisfy through play. First there is competence, feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. Instil these feelings of pride and self-efficacy, you help push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency, feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations. It is these three needs that we aim to satisfy through play.
 
-A Theory of Fun for Game Design was very useful for practical study of fun in game design.
-
-From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We also decided to create our platform as a game with rules and a simple, visually appealing front-end.
+From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. This can be categorised as the first of Zimmerman's categories, namely 'game play'. We also decided to create our platform to meet the needs of our players, and in particular to satisfy Ryan's three needs stated above. But what about our approach to rules? When it came to our approach to game rules we had to ask ourselves a series of questions. It is to these questions we now turn.
 
 
 ### Rules versus open-endedness
@@ -115,18 +116,16 @@ For our purposes, using Zimmerman's categories, we decided to use play as an act
 
 ### The psychology behind playing games
 
-To better understand how our end-users will use our game, we now consider the psychological factors underlying a person's desire to play games.
-
-There are a number of important questions to ask. For examples,
+To better understand how our end-users will use our game, we now consider the psychological factors underlying a person's desire to play games. To service the needs of our users, there are a number of important questions to ask ourselves. These questions include:
 
  * Does our app have a clear goal?
  * Is this goal apparent up front to the user? or uncovered through use? or never discovered?
  * Does our app raise awareness of a particular issue?
  * Does our app facilitate learning?
 
-Provoking behaviour change, facilitating learning, and promoting wellbeing through socialising are all potential avenues our app could go down.
+Provoking behaviour change, facilitating learning, and promoting wellbeing through socialising are all potential avenues our app could go down. But it is crucial that we have a clear idea of what our application is designed for. For our purposes, the goal is to satisfy the PENS model, by creating a platform where older adults can develop competence, exercise autonomy and feel connected with others. These psychological factors are crucial for success.
 
-There are a number of motivations with respect to playing games which we ought to bear in mind when answering the above questions. The two main motivations which we shall consider here are extrinsic and intrinsic motivations. Let's consider these.
+Delving even deeper into human psychology, there are a number of motivations with respect to playing games which we ought to bear in mind when answering the above questions. The two main motivations which we shall consider here are extrinsic and intrinsic motivations. Let's consider these.
 
 #### Extrinsic vs intrinsic motivations
 
@@ -136,7 +135,9 @@ To see this in action, let's consider gamification. Gamification commonly occurs
 
 So, does there need to be a score for our purposes? Scores support extrinsic factors which can be highly motivating, however they can also be negative for those who aren't doing particularly well. To address this, we could include a collaborative aspect to the memory game with respect to gameplay where players cooperate to complete the game and acquire points to compete against others. This is certainly something we could consider when developing our games, since cooperation can give rise to a strong sense of purpose and enjoyment without the negative consequences of solely competing against another player. A further extension combining cooperation with competition could cultivate a good balance between both styles of game, and ensure that serious play should is present in our product, but with a slight twist.
 
-## Digital literacy
+But none of these considerations are relevant if the application is too difficult to use. As such, we need to be mindful of the usability of our product. This leads us to the concept of digital literacy.
+
+### Digital literacy
 
 Digital literacy is an important consideration when creating an online application for the elderly, particularly when dealing with the UI and UX design. The reasons for this are simple. Learning to use technologies can help older adults become more included in modern digital society. If they aren't included, they are, by definition, excluded. But learning these technologies can be very hard, especially for older adults. So, it is important to make efforts to ensure that these digital technologies are inclusive, where inclusive means easy to access and understand.
 
@@ -254,11 +255,9 @@ There are a few outliers which host digital games for the elderly.
 
 ### A gap in the market
 
-After conducting our state-of-the-art survey, we managed to garner useful data about games for older adults. One of the main insights we arrived at is that there exists a gap in the market. In particular, there is a gap in the market for a site like Gametable which is easy-to-use and with few games to choose from, but with added features of multiplayer mode and video communication functionality. These two features, it is clear, are lacking in current products - there doesn't appear to be anything in the market which offers both of these services.
+After conducting our state-of-the-art survey, we realised that the trend among existing gaming platforms for the elderly was that the applications themselves were either overly complicated, difficult to navigate, and lacked video chat functionality. WE managed to garner useful data about games for older adults which left us with the insight that there exists a gap in the market. In particular, there is a gap in the market for a site like Gametable which is not only easy-to-use and and offers a small number of games to choose from, but importantly, has the added features of multiplayer mode and video communication functionality.
 
-Pete: Provide examples of the "current solutions out there/trends/relations between what already exists, and what's the gap in the market/research that you're addressing."
-
-According to Pete, we need to outline how our app differs from these apps. We also need to mention a handful of outliers or novel approaches too that may be under the radar, explain how they're important, then perhaps discuss any relevant academic papers (say if there were an interesting machine learning approach.
+These two features, it is clear, are lacking in current products. That is, there doesn't appear to be anything in the market which offers both of these features. Not only did we realise this, but we also realised that these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent who is either a friend or family member is a very easy way to make you feel like you've socialised with those individuals. It was these features, therefore, which in our minds were crucial for addressing the problems of loneliness and social isolation.
 
 
 <div align="center">
@@ -276,16 +275,16 @@ Our problem definition was:
 
 **Ideal**
 ```
-  → There exists a real possibility that digital games can be leveraged to address the societal issues of
-    loneliness and isolation in older adults.
+  → Digital games can be leveraged to address the societal issues of loneliness and isolation in the elderly
+    population by connecting them with friends and loved ones through a fun, engaging platform.
 ```
 **Reality**
 ```
-  → Currently, existing gaming platforms for the elderly are not easy to use and lack video chat functionality.
+  → Currently, existing gaming platforms for the elderly lack ease of use and video chat functionality.
 ```
 **Consequences**
 ```
-  → There is an insufficient range of digital games for the elderly, which presents an untapped resource
+  → There is an insufficient number of digital games for the elderly, which presents an untapped resource
     for tackling loneliness and isolation.
 ```
 **Proposal**
@@ -301,7 +300,7 @@ Clearly, the problem of social isolation and loneliness in the elderly is a huge
 
 ## Motivation
 
-The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game. Our motivation for creating this application is simple. We can see that we live in an ageing society with inadequate social care infrastructure, and we know from personal experience with elderly relatives that older adults are particularly vulnerable to loneliness and isolation. Digital games are abundant, but there is a shortage of digital games designed for the elderly. Our motivation is to address this gap in the market, and try to leverage a digital game platform to mitigate loneliness and isolation. This is important because ageing societies continue to grow and social care infrastructure in place is unable to adequately meet 
+The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game. Our motivation for creating this application is simple. We can see that we live in an ageing society with inadequate social care infrastructure, and we know from personal experience with elderly relatives that older adults are particularly vulnerable to loneliness and isolation. Digital games are abundant, but there is a shortage of digital games designed for the elderly. Our motivation is to address this gap in the market, and try to leverage a digital game platform to mitigate loneliness and isolation. This is important because ageing societies continue to grow and social care infrastructure in place is unable to adequately meet
 
 
 
