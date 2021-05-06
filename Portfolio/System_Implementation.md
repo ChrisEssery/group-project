@@ -749,7 +749,8 @@ A typical implementation of Socket.io can be seen below:
 # Server-side
 * Create a HTTP server/listener and a Socket.io object
 
-![](https://i.imgur.com/a/t831aJ9)
+<img width="336" alt="Screenshot 2021-05-07 at 00 16 16" src="https://user-images.githubusercontent.com/29493918/117377857-2018f500-aecc-11eb-9e50-a8a59c928164.png">
+
 
 ### Real-time Video Chat
 Placeholder
