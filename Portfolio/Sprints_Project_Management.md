@@ -621,7 +621,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <br>Sally </a> <br /> As a user, I want to compete and earn points.</td>
  <td>Multiplayer functionality</td>
  <td>Implement multiplayer functionality for connect four</td>
- <td>I think a multiplayer game is a great idea. I really want to be able to compete against my friends and family members as this will really keep me engaged. .</td>
+ <td>I think a multiplayer game is a great idea. I really like that I will be able to compete against my friends and family members as this will really keep me engaged. .</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -729,7 +729,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
  <td>Leaderboard</td>
  <td>Build a leaderboard</td>
- <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent. Is there any way you could explain this? Either on the screen or through a step by step series of instructions. This would really help.</td>
+ <td>I can now see a leaderboard! Excellent. This all looks straightforward with a clean layout.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
@@ -789,7 +789,7 @@ It was clear, however, that our workload in the other units of term was getting 
 ## Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
-This was our penultimate sprint. By this point we had to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. And the team member who built the memory game was not the team member whose task it was to implement the multiplayer and video chat functionality. We also agreed to make the pages of application responsive, including mobile responsive, complete evaluation of design to report, conduct unit testing, and complete an introduction demo video. These remaining tasks were very important
+This was our penultimate sprint. By this point we had to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. And the team member who built the memory game was not the team member whose task it was to implement the multiplayer and video chat functionality. We also agreed to make the pages of application responsive, including mobile responsive, complete evaluation of design to report, conduct unit testing, and complete an introduction demo video. These remaining tasks were very important.
 
 ### Key points
 
