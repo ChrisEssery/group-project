@@ -115,7 +115,7 @@ For our purposes, using Zimmerman's categories, we decided to use play as an act
 
 ### The psychology behind playing games
 
-To better understand how our end-users will use our game, we now consider the psychological factors underlying a person's desire to play games. To service the needs of our users, there are a number of important questions to ask ourselves. These questions include:
+To better understand how our end-users will use our platform, we now consider the psychological factors underlying the human desire to play games. To service the needs of our users, there are a number of important questions to ask ourselves. These questions include:
 
  * Does our app have a clear goal?
  * Is this goal apparent up front to the user? or uncovered through use? or never discovered?
