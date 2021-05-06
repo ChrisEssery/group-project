@@ -746,11 +746,22 @@ Socket.io is a JavaScript library that enables real-time communication for web a
 
 A typical implementation of Socket.io can be seen below:
 
-# Server-side
+#### Server-side
 * Create a HTTP server/listener and a Socket.io object
 
 <img width="336" alt="Screenshot 2021-05-07 at 00 16 16" src="https://user-images.githubusercontent.com/29493918/117377857-2018f500-aecc-11eb-9e50-a8a59c928164.png">
 
+* The Socket.io object will then listen on the specified port for a connection and then execute specified code (in this case giving the player a number and emitting the number back to the client)
+
+<img width="398" alt="Screenshot 2021-05-07 at 00 38 10" src="https://user-images.githubusercontent.com/29493918/117378033-856ce600-aecc-11eb-8841-3a66d5b06a57.png">
+
+#### Client-side
+* Create a Socket.io connection to a specified port
+* Wait for specific messages from the server, or emit specific messages to the server
+
+<img width="419" alt="Screenshot 2021-05-07 at 00 41 44" src="https://user-images.githubusercontent.com/29493918/117378383-36738080-aecd-11eb-99c9-b2df7d191409.png">
+
+Overall, Socket.io provided all of the functionality required to delivery the multiplayer aspects of the game in a clean, intuitive fashion.
 
 ### Real-time Video Chat
 Placeholder
