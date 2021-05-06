@@ -25,6 +25,17 @@ import { NavbarComponent } from './home-page/navbar/navbar.component';
 import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
 import { ConnectFourComponent } from './connect-four/connect-four.component';
 import { JitsiComponent } from './jitsi/jitsi.component';
+import { CardComponent } from './memory-components/card/card.component';
+import { StartComponent } from "./route/start/start.component";
+import { RankingComponent } from './route/ranking/ranking.component';
+import { GameplayComponent } from './route/gameplay/gameplay.component';
+import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
+import { GameWindowComponent } from './memory-components/game-window/game-window.component';
+import { ButtonComponent } from './memory-components/button/button.component';
+import { HeadingComponent } from './memory-components/heading/heading.component';
+import { ConnectButtonComponent } from './memory-components/start-game-components/connect-button/connect-button.component';
+import { ReadyButtonComponent } from './memory-components/start-game-components/ready-button/ready-button.component';
+
 
 
 @NgModule({
@@ -44,7 +55,17 @@ import { JitsiComponent } from './jitsi/jitsi.component';
     NavbarComponent,
     GameMenuComponent,
     ConnectFourComponent,
-    JitsiComponent
+    JitsiComponent,
+    CardComponent,
+    StartComponent,
+    RankingComponent,
+    GameplayComponent,
+    MemoryGameComponent,
+    GameWindowComponent,
+    ButtonComponent,
+    HeadingComponent,
+    ConnectButtonComponent,
+    ReadyButtonComponent
   ],
   imports: [
     BrowserModule,

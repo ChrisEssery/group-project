@@ -18,6 +18,7 @@ services:
     ports:
       - "3000:3000"
       - "3080:3080"
+      - "3050:3050"
     networks:
       - app-network
     command: ./wait-for.sh db:27017 -- /home/node/app/node_modules/.bin/nodemon server.js

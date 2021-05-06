@@ -10,10 +10,13 @@ import { LeaderboardComponent } from './home-page/leaderboard/leaderboard.compon
 import { HomePageComponent } from './home-page/home-page.component';
 import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
 import { ConnectFourComponent } from './connect-four/connect-four.component';
-
+import { StartComponent } from "./route/start/start.component";
+import { GameplayComponent } from "./route/gameplay/gameplay.component";
+import { RankingComponent } from "./route/ranking/ranking.component";
+import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
 
 const routes: Routes = [
- {
+  {
     path: '',
     component: StartPageComponent
   },
@@ -28,7 +31,7 @@ const routes: Routes = [
   {
     path: 'home',
     component: HomePageComponent,
-    canActivate:[AuthGuard], //Prevent unauthorized access
+    canActivate: [AuthGuard], //Prevent unauthorized access
     children: [
       {
         path: '',
@@ -47,30 +50,17 @@ const routes: Routes = [
   {
     path: 'connect4',
     component: ConnectFourComponent
-  }
-  // {
-  //   path: 'memorygame',
-  //   children: [
-  //     {
-  //       path: '',
-  //       component: ...Component 
-  //     },
-  //     {
-  //       path: '', 
-  //       component: ...Component
-  //     },
-  //     {
-  //       path: '',
-  //       component: ...Component
-  //     }
-  //   ]
-  // },
+  },
+
+  { path: "memorygame", redirectTo: "/start", pathMatch: "full" },
+  { path: "start", component: StartComponent },
+  { path: 'gameplay', component: GameplayComponent },
+  { path: 'ranking', component: RankingComponent }
 
 ];
-
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
   exports: [RouterModule],
-  providers:[AuthGuard]
+  providers: [AuthGuard]
 })
 export class AppRoutingModule { }
