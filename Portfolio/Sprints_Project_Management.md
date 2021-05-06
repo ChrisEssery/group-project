@@ -164,7 +164,7 @@ Max, who likes design, dedicated most of his time to the FrontEnd. He got involv
 
 ## Communication
 
-In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md). 
+In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md).
 
 <div align="center">
 
@@ -436,7 +436,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 
 ### Evaluation of Sprint
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
+We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. Using the proto-personas proved really useful during the design and build of the start page. For instance, using assumptions about the end-users we were able to identify that the moving title and the background audio might be a little distracting for them, so we decided to make sure that those effects were only present in the start page and did not extend into subsequent pages. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 

@@ -172,7 +172,7 @@ ___
 
 This site contains a very large number of different board games ranging from sudoku and checkers to chess and scrabble.
 
-It has a membership fee of $12 per year
+It has a membership fee of $12 per year.
 
 It is fairly straightforward to navigate, however the webpage is quite cluttered.
 
@@ -200,7 +200,7 @@ ___
 
 This site contains a fewer games that AARP.
 
-It's free
+It's free.
 
 It is a clean, straightforward homepage and is very easy to use.
 
