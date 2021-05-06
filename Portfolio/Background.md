@@ -124,7 +124,7 @@ To better understand how our end-users will use our platform, we now consider th
 
 Provoking behaviour change, facilitating learning, and promoting wellbeing through socialising are all potential avenues our app could go down. But it is crucial that we have a clear idea of what our application is designed for. For our purposes, the goal is to satisfy the PENS model, by creating a platform where older adults can develop competence, exercise autonomy and feel connected with others. These psychological factors are crucial for success.
 
-Delving even deeper into human psychology, there are a number of motivations with respect to playing games which we ought to bear in mind when answering the above questions. The two main motivations which we shall consider here are extrinsic and intrinsic motivations. Let's consider these.
+Delving even deeper into human psychology, there are a number of motivations with respect to playing games which we ought to bear in mind when answering the above questions. The two main motivations which we shall consider here are extrinsic and intrinsic motivations. Let's go over these.
 
 #### Extrinsic vs intrinsic motivations
 
@@ -132,9 +132,9 @@ In the context of playing a game, a person is said to have have extrinsic motiva
 
 To see this in action, let's consider gamification. Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. It also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboards, for instance, are extrinsic motivators which visualise game display progress over time. But if these visualisations represent growth and development for a person, and gives them a sense of purpose and true enjoyment then we find that the extrinsic motivation transforms into intrinsic motivation.
 
-So, does there need to be a score for our purposes? Scores support extrinsic factors which can be highly motivating, however they can also be negative for those who aren't doing particularly well. To address this, we could include a collaborative aspect to the memory game with respect to gameplay where players cooperate to complete the game and acquire points to compete against others. This is certainly something we could consider when developing our games, since cooperation can give rise to a strong sense of purpose and enjoyment without the negative consequences of solely competing against another player. A further extension combining cooperation with competition could cultivate a good balance between both styles of game, and ensure that serious play should is present in our product, but with a slight twist.
+So, does there need to be a score for our purposes? Scores support extrinsic factors which can be highly motivating, however they can also be negative for those who aren't doing particularly well. To address this, we could include a collaborative aspect to the memory game with respect to gameplay where players cooperate to complete the game and acquire points to compete against others. This is certainly something we could consider when developing our games, since cooperation can give rise to a strong sense of purpose and enjoyment without the negative consequences of solely competing against another player. A further extension combining cooperation with competition could cultivate a good balance between both styles of game, and ensure that serious play is present in our product with a slight twist.
 
-But none of these considerations are relevant if the application is too difficult to use. As such, we need to be mindful of the usability of our product. This leads us to the concept of digital literacy.
+But none of these considerations are relevant if the application is too difficult to use. We need to be mindful of the usability of our product, and inparticular the usability requirements for our end-users. This leads us to the concept of digital literacy.
 
 ### Digital literacy
 
