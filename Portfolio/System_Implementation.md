@@ -721,7 +721,9 @@ Once the back-end work had begun we could then create the docker-compose configu
 ### Multiplayer Functionality
 Reliable real-time data communication is essential on the modern Internet. To meet these demands, in 2011 the WebSocket protocol was developed. This protocol allows web applications to send and receive data instantly. It can be used for purposes such as chat applications, location information-based applications or multiplayer games.
 
-The WebSocket protocol works by providing full-duplex (bi-directional, or both ways) communication between the client and a server over a single TCP connection.  
+The WebSocket protocol works by providing full-duplex (bi-directional, or both ways) communication between the client and a server over a single TCP connection. A HTTP system (which is implemented in your typical webpage) consists of a server that is responsible for responding to HTTP messages from the client; the client sends a request, the server sends a response. With the use of WebSockets, both can send and receive requests simultaneously.
+
+HTTP is stateless, which means that the server does not know where the request is coming from and it treats each request as independent. This functionality is sufficient for the serving of basic webpages, but when data is of increasing complexity and time-sensitive, such as real-time chat, it falls short. WebSockets are stateful, meaning the server will "remember" the client.
 
 ### Real-time Video Chat
 Placeholder
