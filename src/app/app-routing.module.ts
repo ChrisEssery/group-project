@@ -9,6 +9,7 @@ import { ProfileComponent } from './home-page/profile/profile.component';
 import { LeaderboardComponent } from './home-page/leaderboard/leaderboard.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { GameMenuComponent } from './home-page/game-menu/game-menu.component';
+import { ConnectFourComponent } from './connect-four/connect-four.component';
 
 
 const routes: Routes = [
@@ -42,6 +43,10 @@ const routes: Routes = [
         component: LeaderboardComponent
       }
     ]
+  },
+  {
+    path: 'connect4',
+    component: ConnectFourComponent
   }
   // {
   //   path: 'memorygame',
