@@ -16,6 +16,7 @@ const app = express();
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: false}));
 
+
 // Session setup
 app.use(session({
   secret: 'secret',  
@@ -134,13 +135,13 @@ Socketio.on('connection', socket => {
 });
 
 // MEMORY GAME 
-const Express_mg = require("express")();
-const Http_mg = require("http").Server(Express_mg);
-const Socketio_mg = require ("socket.io")(Http_mg);
-
-Http.listen(3050, () => {
-    console.log("Listening at :3050...");
-});
+const express_mg = require('express');
+const http_mg = require('http');
+const app_mg = express_mg();
+const server_mg = http_mg.createServer(app_mg);
+const port_mg = '3050';
+const Socketio_mg = require ("socket.io")(http_mg);
+server_mg.listen(port_mg, () => console.log("Listening at :3050..."));
 
 // Handle connection request
 const connections_mg = [null, null]
