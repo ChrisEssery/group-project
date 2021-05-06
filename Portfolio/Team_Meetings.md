@@ -163,3 +163,10 @@ ___
 - Max is continuing to chip away at the documentation. The sprints section is almost complete. Added some more background sections. Added to Conclusion/Evaluation sections.
 - Harri gave an update on progress of the testing. It still needs more work and may require some TA support. Harri will follow up with a TA and continue. 
 
+## May 6th
+
+- Chris has completed the multiplayer of the memory game. He will move onto integrating all the games onto the dev branch.
+- Lizhao is finishing up her sections of the documentation. Once done she will help with app integration.
+- Max is still chipping away at the documentation. He will turn his focus to finalizing the final video. He may tweak the memory game styling issues.
+- Harri is still stuck on Testing and awaiting TA support. In the meantime he will help with documentation.
+
