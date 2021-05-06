@@ -737,8 +737,12 @@ The process of WebSocket communcation is as follows:
 
 ![alt text](https://images.techhive.com/images/article/2016/06/websockets-100668229-primary.idge.jpg)
 
-## Socket.io
+## Socket.io
+One of the key objectives of this project was to enable real-time multiplayer functionality for the games that have been developed for the application. Initially APIs such as PubNub and Phaser.io were explored as potential solutions for this. However, on evaluation, a less fully-featured solution such as WebSockets was deemed more appropriate and Socket.io was chosen to implement it. 
+
 ![alt_text](https://miro.medium.com/max/1624/0*xAADmPJN52Yy6XJV.jpg)
+
+Socket.io is a JavaScript library that enables real-time communication for web applications that is predominantly built on the WebSocket protocol. However, it has additional functionality such as implementing HTTP long-polling if a WebSocket connection cannot be initiated and automatic reconnection. 
 
 ### Real-time Video Chat
 Placeholder
