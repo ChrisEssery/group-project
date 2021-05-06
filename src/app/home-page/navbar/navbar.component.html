@@ -10,19 +10,19 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav me-auto">
           <li class="nav-item" >
-            <a class="nav-link" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">play</a>
+            <a id="home" class="nav-link" routerLink="/home" routerLinkActive="active" [routerLinkActiveOptions]="{exact:true}">play</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" routerLink="/home/leaderboard" routerLinkActive="active">leaderboard</a>
+            <a id="leaderboard" class="nav-link" routerLink="/home/leaderboard" routerLinkActive="active">leaderboard</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " routerLink="/home/profile" routerLinkActive="active">profile</a>
+            <a id="profile" class="nav-link " routerLink="/home/profile" routerLinkActive="active">profile</a>
           </li>
         </ul>
         <ul class="navbar-nav nav-item">
           <li><a class="nav-link text-white" routerLink="/home/profile">Hello! {{ user }}  </a></li>
           <li>
-            <a (click)="signout($event)" class="nav-link btn btn-outline-light signout" type="button" >Sign out</a>
+            <a (click)="signout($event)" id="signout-link" class="nav-link btn btn-outline-light signout" type="button" >Sign out</a>
           </li>
   
         </ul>
