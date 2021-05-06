@@ -37,7 +37,7 @@ export class ConnectFourComponent implements OnInit {
   function connectToGame(){
     // Creates socket to use for the game
 
-    const socket = io("http://localhost:3000");
+    const socket = io("http://localhost:3080");
 
     // Gets your player number
     socket.on('player-number', num => {
