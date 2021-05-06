@@ -719,6 +719,8 @@ In preperation for the back-end a wait-script was added which allowed the MongoD
 Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
 
 ### Multiplayer Functionality
+
+## WebSockets
 Reliable real-time data communication is essential on the modern Internet. To meet these demands, in 2011 the WebSocket protocol was developed. This protocol allows web applications to send and receive data instantly. It can be used for purposes such as chat applications, location information-based applications or multiplayer games.
 
 The WebSocket protocol works by providing full-duplex (bi-directional, or both ways) communication between the client and a server over a single TCP connection. A HTTP system (which is implemented in your typical webpage) consists of a server that is responsible for responding to HTTP messages from the client; the client sends a request, the server sends a response. With the use of WebSockets, both can send and receive requests simultaneously.
@@ -734,6 +736,9 @@ The process of WebSocket communcation is as follows:
 * When it is time for the connection to terminate, both the client and server can initiate the closing of the connection
 
 ![alt text](https://images.techhive.com/images/article/2016/06/websockets-100668229-primary.idge.jpg)
+
+## Socket.io
+![alt_text](https://miro.medium.com/max/1624/0*xAADmPJN52Yy6XJV.jpg)
 
 ### Real-time Video Chat
 Placeholder
