@@ -35,8 +35,11 @@
   </div>
 
   <!--Buttons to connect and emit ready signal-->
-  <app-connect-button (click)="gameService.connectToGame()"></app-connect-button>
-  <app-ready-button (click)="gameService.readyToPlay()"></app-ready-button>
+  <div class="btns"> 
+    <app-connect-button (click)="gameService.connectToGame()"></app-connect-button>
+    <app-ready-button (click)="gameService.readyToPlay()"></app-ready-button>
+  </div>
+
 
   <!--Window for end of gameplay-->
   <app-game-window [visible]="gameService.isGameOver">
