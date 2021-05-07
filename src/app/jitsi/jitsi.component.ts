@@ -26,7 +26,7 @@ export class JitsiComponent implements OnInit, AfterViewInit {
   ngOnInit(): void {
       this.room = 'NotSoBoredGames'; // Set your room name
       this.user = {
-          name: 'Chris Essery' // Set your username
+          name: 'Placeholder' // Set your username
       }
   }
 
