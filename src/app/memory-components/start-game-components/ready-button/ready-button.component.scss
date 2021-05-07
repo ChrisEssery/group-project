@@ -2,34 +2,34 @@
     margin-left: 425px;
     margin-top: 0px;
     align-content: center;
-  }
+}
 
-#readyButton{
+#readyButton {
     background-color: transparent;
-    display:inline-block;
-    padding:0.6em 2em;
-    border:0.05em solid #FFFFFF;
-    position:absolute;
+    display: inline-block;
+    padding: 0.6em 2em;
+    border: 0.05em solid #ffffff;
+    position: absolute;
     cursor: pointer;
-    border-radius:0.8em;
+    border-radius: 0.8em;
     box-sizing: border-box;
-    text-decoration:none;
-    font-family: 'Luckiest Guy', cursive;
-    font-weight:200;
+    text-decoration: none;
+    font-family: "Luckiest Guy", cursive;
+    font-weight: 200;
     font-size: 33px;
-    color:#FFFFFF;
-    text-align:center;
+    color: #ffffff;
+    text-align: center;
     transition: all 0.2s;
 }
 
-#readyButton:hover{
-   color:grey;
-   background-color:#FFFFFF;
+#readyButton:hover {
+    color: grey;
+    background-color: #ffffff;
 }
 
-@media all and (max-width:30em){
-   #readyButton{
-       display:block;
-       margin:0.4em auto;
+@media all and (max-width: 30em) {
+    #readyButton {
+        display: block;
+        margin: 0.4em auto;
     }
-} 
+}

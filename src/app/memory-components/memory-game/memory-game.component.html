@@ -4,44 +4,47 @@
 <app-heading></app-heading>
 
 <div class="memory-game">
-<!--Cards-->
-<div class="cards_jitsi">
-<div class="card_container">
-<ng-container *ngIf="gameService.start === false">
-  <div class="memory-game__cards">
-    <app-card *ngFor="let card of gameService.cards" [card]="card"></app-card>
+  <!--Container for both the cards and Jitsi-->
+  <!--Contains two card divs - one is a dummy set for both players 
+  before readying up and creating the shared deck-->
+  <div class="cards_jitsi">
+    <div class="card_container">
+      <ng-container *ngIf="gameService.start === false">
+        <div class="memory-game__cards">
+          <app-card *ngFor="let card of gameService.cards" [card]="card"></app-card>
+        </div>
+      </ng-container>
+      <ng-container *ngIf="gameService.start === true">
+        <div class="memory-game__cards">
+          <app-card *ngFor="let card of gameService.cards" [card]="card"></app-card>
+        </div>
+      </ng-container>
+    </div>
+    <div class="jitsi">
+      <app-jitsi></app-jitsi>
+    </div>
   </div>
- </ng-container>
-<ng-container *ngIf="gameService.start === true">
- <div class="memory-game__cards">
-   <app-card *ngFor="let card of gameService.cards" [card]="card"></app-card>
- </div>
-</ng-container>
-</div>
-<div class="jitsi">
-  <app-jitsi></app-jitsi>
-</div>
-</div>
- <div class="memory-game__info">
-   <p>Rounds: {{ gameService.rounds }}</p>
 
-   <p>Player: {{ gameService.playerName }}</p>
- </div>
+  <div class="memory-game__info">
+    <p>Rounds: {{ gameService.rounds }}</p>
 
- <!--Buttons to connect and emit ready signal-->
- <app-connect-button (click)="gameService.connectToGame()"></app-connect-button>
- <app-ready-button (click)="gameService.readyToPlay()"></app-ready-button>
+    <p>Player: {{ gameService.playerName }}</p>
+  </div>
 
- <!--Window for end of gameplay-->
- <app-game-window [visible]="gameService.isGameOver">
-   <div class="game-window-content">
+  <!--Buttons to connect and emit ready signal-->
+  <app-connect-button (click)="gameService.connectToGame()"></app-connect-button>
+  <app-ready-button (click)="gameService.readyToPlay()"></app-ready-button>
 
-     <!--Button to play again-->
-     <app-button (click)="gameService.playAgain()" type="button">
-       Play again
-     </app-button>
+  <!--Window for end of gameplay-->
+  <app-game-window [visible]="gameService.isGameOver">
+    <div class="game-window-content">
 
-     <a class="game-window-content__link" routerLink="/ranking">Leaderboard </a>
-   </div>
- </app-game-window >
+      <!--Button to play again-->
+      <app-button (click)="gameService.playAgain()" type="button">
+        Play again
+      </app-button>
+
+      <a class="game-window-content__link" routerLink="/ranking">Leaderboard </a>
+    </div>
+  </app-game-window>
 </div>
