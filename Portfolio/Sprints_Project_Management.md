@@ -154,13 +154,13 @@ Every team member participated in discussions concerning system design and imple
 
 We assigned team member roles through an open conversation on Microsoft Teams. In what follows, we give a quick breakdown of the individual roles of each team member and the reasons for those role assignments.
 
-Given Lizhao's strengths in coding, she naturally wanted to be involved in both the front and backend of the build. Her clear, logical approach to all aspects of the build meant that she was an invaluable team member who could always be relied on.
+Given Lizhao's strengths in coding, she naturally wanted to be involved in both the front and back-end of the build. Her clear, logical approach to all aspects of the build meant that she was an invaluable team member who could always be relied on.
 
-Harri took on the leadership role as the project manager whilst also getting involved in the coding and the design side of things. His strong leadership and steady hand meant that he was more than capable of steering us through every stage of the project, from ideation to implementation.
+Harri took on the leadership role as the project manager whilst also working on the back-end, and contributing to design side of things. His strong leadership and steady hand meant that he was more than capable of steering us through every stage of the project, from ideation to implementation.
 
-Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the BackEnd. Given his skills in this department, he was happy to devote the majority of his time to the build and maintenance of the database and servers. He also offered great insights on every aspect of the build. As with the other team members, he was invaluable throughout.
+Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the front-end. Given his skills in this department, he was happy to devote the majority of his time to the build and maintenance of the database and servers. He also offered great insights on every aspect of the build. As with the other team members, he was invaluable throughout.
 
-Max, who likes design, dedicated most of his time to the FrontEnd. He got involved with the BackEnd too, but was mostly keen to develop his FrontEnd skills.
+Max, who likes design, dedicated most of his time to the Front-end. He also took on the role of writing a lot of the documentation, and getting involved with the UI and UX design.
 
 ## Communication
 
@@ -191,7 +191,7 @@ The sprints are in chronological order, starting with the first sprint in late F
 
 ADD GANTT CHART
 
-We will be referring to the meeting notes, the product backlog (that is, the list of key features to be implemented), and the user feedback.
+We will be referring to the meeting notes, the product backlog, list of key features to be implemented from previous sprints, and the user feedback.
 
 This will be broken down into four parts:
  1. Main goals/aims of the sprint
@@ -199,7 +199,7 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
- Each of the items in the backlog is tagged with 'finished' and 'unfinished' -> add something about this.
+ Each of the items in the backlog was tagged with 'finished' and 'unfinished' to indicate which items on the list had been completed and implemented.
 
 
 
@@ -207,13 +207,14 @@ This will be broken down into four parts:
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github, and tried to develop our understanding the basic operations of GitHub, the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull request (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). We agreed upon the channels of communication we would use, namely Microsoft Teams and Discord. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github. We tried to develop our understanding of the basic operations of GitHub, including the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). In addition, we began by adding to the readme in our repository. We agreed on the main channels of communication we'd use, namely Microsoft Teams and Discord, and decided to create stakeholder stories, including user stories, to help guide our development. We also finalised our decision to build a online multiplayer game plaform for the elderly with video chat, and from previous weeks we had decided to call the product 'NotSoBored Games'.
 
    * We made the group decision to use the MEAN stack.
    * Create a group Discord server
    * Set up GitHub repository and familiarised ourselves with the platform.
    * Agreed to setup a protocol with regard to GitHub.
    * Create a simple paper prototype of the UI design.
+   * Create stakeholder stories.
 
 **Attendees:** everyone in attendance.
 
@@ -232,9 +233,7 @@ The following are a list of tasks and features that the team were tasked to deli
 
 ### Evaluation of Sprint
 
-This was our first sprint. The main goal of this sprint was to establish a communication and GitHub protocol. This was important, we felt, because once our channels of communication were setup we could then work efficiently and effectively. It was particularly important to make sure every team member had a good working understanding of how to use GitHub. On reflection, we should have dedicated more time to doing this. In particular, we would have benefited from one team member becoming the GitHub expert who could then go on to teach other team members how to use the platform. We should have also made sure that the GitHub protocol was discussed in more depth so we all understood how to properly utilise the branch-based workflow.
-
-After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't anything we could ask our users because we had nothing to show them before the end of this first sprint.
+This was our first sprint. It followed several weeks of meetings regarding the design and ideation of our product. The main goal of this sprint was to establish main lines of communication, write up a GitHub protocol, and . This was important, we felt, because once our channels of communication were setup we could then work efficiently and effectively. It was particularly important to make sure every team member had a good working understanding of how to use GitHub. On reflection, we should have dedicated more time to doing this. In particular, we would have benefited from one team member becoming the GitHub expert who could then go on to teach other team members how to use the platform. We should have also made sure that the GitHub protocol was discussed in more depth so we all understood how to properly utilise the branch-based workflow.
 
 
 
