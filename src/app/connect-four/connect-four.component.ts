@@ -1,18 +1,24 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Injectable, OnInit } from '@angular/core';
 import io from "socket.io-client";
+import { Inject} from '@angular/core';
 
 @Component({
   selector: 'app-connect-four',
   templateUrl: './connect-four.component.html',
   styleUrls: ['./connect-four.component.css']
 })
+
+@Injectable({
+  providedIn: "root"
+})
 export class ConnectFourComponent implements OnInit {
+
+  playerName: string;
 
   constructor() {
   }
 
   ngOnInit(): void {
-
   }
 
   ngAfterViewInit() {
@@ -22,12 +28,15 @@ export class ConnectFourComponent implements OnInit {
     const infoDisplay = document.querySelector('#space');
     const connectToGameButton = document.querySelector('#connectButton');
     const readyForGameButton = document.querySelector('#readyButton')
+    const playerName = document.querySelector('#test') as HTMLElement;
+    
     let currentPlayerType = "user";
     let playerNumber = 0;
     let ready = false;
     let opponentReady = false;
     let isGameOver = false;
     let slotTaken = -1;
+
     connectToGameButton.addEventListener('click', connectToGame);
 
     // Start game
@@ -95,6 +104,16 @@ export class ConnectFourComponent implements OnInit {
         if (parseInt(num) === playerNumber) {
           let myElement = <HTMLElement><any>document.querySelector(player);
           myElement.style.fontWeight = 'bold';
+          var textToChange = myElement.childNodes[0];
+          textToChange.nodeValue = playerName.innerText + "   ";
+        }
+        if(playerNumber === 0){
+          let p2 = <HTMLElement><any>document.querySelector(`.p2`);
+          p2.style.display = 'none';
+        }
+        if(playerNumber === 1){
+          let p1 = <HTMLElement><any>document.querySelector(`.p1`);
+          p1.style.display = 'none';
         }
       }
 
@@ -138,7 +157,8 @@ export class ConnectFourComponent implements OnInit {
             isGameOver = true;
             socket.emit('game-over');
             displayCurrentPlayer.innerHTML = '';
-            result.innerHTML = 'Player One Wins!'
+            var text = playerName.innerHTML + ' Wins!';
+            result.innerHTML = text;
           }
           //check those squares to see if they all have the class of player-two
           if (
@@ -150,7 +170,8 @@ export class ConnectFourComponent implements OnInit {
             isGameOver = true;
             socket.emit('game-over');
             displayCurrentPlayer.innerHTML = '';
-            result.innerHTML = 'Player Two Wins!';
+            var text = playerName.innerHTML + ' Wins!';
+            result.innerHTML = text;
           }
         }
       }
@@ -195,7 +216,6 @@ export class ConnectFourComponent implements OnInit {
         else {
           playerNumber = 0;
         }
-        console.log("Taking a turn...");
         if (squares[id + 7].classList.contains('taken') && !squares[id].classList.contains('taken') || squares[id + 7].classList.contains('bottom') && !squares[id].classList.contains('taken')) {
           if (playerNumber == 0) {
             squares[id].classList.add('taken')

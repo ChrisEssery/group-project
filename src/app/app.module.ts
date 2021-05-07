@@ -35,6 +35,9 @@ import { ButtonComponent } from './memory-components/button/button.component';
 import { HeadingComponent } from './memory-components/heading/heading.component';
 import { ConnectButtonComponent } from './memory-components/start-game-components/connect-button/connect-button.component';
 import { ReadyButtonComponent } from './memory-components/start-game-components/ready-button/ready-button.component';
+import { StartConnectFourComponent } from './route/start-connect-four/start-connect-four.component';
+import { GameplayConnectFourComponent } from './route/gameplay-connect-four/gameplay-connect-four.component';
+import { ConnectFourContainerComponent } from './connect-four-container/connect-four-container.component';
 
 
 
@@ -65,7 +68,11 @@ import { ReadyButtonComponent } from './memory-components/start-game-components/
     ButtonComponent,
     HeadingComponent,
     ConnectButtonComponent,
-    ReadyButtonComponent
+    ReadyButtonComponent,
+    StartConnectFourComponent,
+    ButtonComponent,
+    GameplayConnectFourComponent,
+    ConnectFourContainerComponent
   ],
   imports: [
     BrowserModule,

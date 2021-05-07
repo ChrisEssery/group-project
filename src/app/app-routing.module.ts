@@ -14,6 +14,10 @@ import { StartComponent } from "./route/start/start.component";
 import { GameplayComponent } from "./route/gameplay/gameplay.component";
 import { RankingComponent } from "./route/ranking/ranking.component";
 import { MemoryGameComponent } from './memory-components/memory-game/memory-game.component';
+import { StartConnectFourComponent } from './route/start-connect-four/start-connect-four.component';
+import { GameplayConnectFourComponent } from './route/gameplay-connect-four/gameplay-connect-four.component';
+import { ConnectFourContainerComponent } from './connect-four-container/connect-four-container.component';
+
 
 const routes: Routes = [
   {
@@ -49,14 +53,16 @@ const routes: Routes = [
   },
   {
     path: 'connect4',
-    component: ConnectFourComponent
+    redirectTo: '/connect4start',
+    pathMatch: 'full'
   },
+  { path: "connect4start", component: StartConnectFourComponent},
+  { path: 'connect4_gameplay', component: ConnectFourContainerComponent},
 
   { path: "memorygame", redirectTo: "/start", pathMatch: "full" },
   { path: "start", component: StartComponent },
   { path: 'gameplay', component: GameplayComponent },
   { path: 'ranking', component: RankingComponent }
-
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
