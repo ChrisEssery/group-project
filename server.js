@@ -14,17 +14,17 @@ const app = express();
 
 // Parsers for POST data
 app.use(bodyParser.json());
-app.use(bodyParser.urlencoded({extended: false}));
+app.use(bodyParser.urlencoded({ extended: false }));
 
 
 // Session setup
 app.use(session({
-  secret: 'secret',  
-  resave: false,
-  saveUninitialized: true,
-  cookie: {
-      maxAge: 10 * 1000  // valid period
-  }
+    secret: 'secret',
+    resave: false,
+    saveUninitialized: true,
+    cookie: {
+        maxAge: 10 * 1000  // valid period
+    }
 }));
 
 // Point static path to dist (folder where build files are located)
@@ -35,7 +35,7 @@ app.use('/api', api);
 
 // Catch all other routes and return the index file
 app.get('*', (req, res) => {
-  res.sendFile(path.join(__dirname, 'dist/index.html'));
+    res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
 /**
@@ -59,7 +59,7 @@ server.listen(port, () => console.log(`API running on localhost:${port}`));
 
 const Express = require("express")();
 const Http = require("http").Server(Express);
-const Socketio = require ("socket.io")(Http);
+const Socketio = require("socket.io")(Http);
 
 Http.listen(3080, () => {
     console.log("Listening at :3080...");
@@ -72,8 +72,8 @@ Socketio.on('connection', socket => {
     console.log('New connection');
     // Find available player numbers
     let playerIndex = -1;
-    for(const i in connections) {
-        if(connections[i] === null){
+    for (const i in connections) {
+        if (connections[i] === null) {
             playerIndex = i;
             break;
         }
@@ -81,7 +81,7 @@ Socketio.on('connection', socket => {
 
     socket.emit('player-number', playerIndex);
     console.log(`Player ${playerIndex} has connected`);
-    if(playerIndex === -1){
+    if (playerIndex === -1) {
         return;
     }
 
@@ -106,9 +106,9 @@ Socketio.on('connection', socket => {
     // Check player connections
     socket.on('check-players', () => {
         const players = []
-        for(const i in connections) {
-            connections[i] === null ? players.push({connected: false, ready: false}) : 
-            players.push({connected: true, ready: connections[i]});
+        for (const i in connections) {
+            connections[i] === null ? players.push({ connected: false, ready: false }) :
+                players.push({ connected: true, ready: connections[i] });
             socket.emit('check-players', players);
         }
     })
@@ -129,7 +129,7 @@ Socketio.on('connection', socket => {
 // MEMORY GAME 
 const Express_mg = require("express")();
 const Http_mg = require("http").Server(Express_mg);
-const Socketio_mg = require ("socket.io")(Http_mg);
+const Socketio_mg = require("socket.io")(Http_mg);
 
 Http_mg.listen(3050, () => {
     console.log("Listening at :3050...");
@@ -143,8 +143,8 @@ Socketio_mg.on('connection', socket => {
     console.log('New connection');
     // Find available player numbers
     let playerIndex_mg = -1;
-    for(const i in connections_mg) {
-        if(connections_mg[i] === null){
+    for (const i in connections_mg) {
+        if (connections_mg[i] === null) {
             playerIndex_mg = i;
             break;
         }
@@ -152,7 +152,7 @@ Socketio_mg.on('connection', socket => {
 
     socket.emit('player-number', playerIndex_mg);
     console.log(`Player ${playerIndex_mg} has connected`);
-    if(playerIndex_mg === -1){
+    if (playerIndex_mg === -1) {
         return;
     }
 
@@ -177,9 +177,9 @@ Socketio_mg.on('connection', socket => {
     // Check player connections
     socket.on('check-players', () => {
         const players = []
-        for(const i in connections_mg) {
-            connections_mg[i] === null ? players.push({connected: false, ready: false}) : 
-            players.push({connected: true, ready: connections_mg[i]});
+        for (const i in connections_mg) {
+            connections_mg[i] === null ? players.push({ connected: false, ready: false }) :
+                players.push({ connected: true, ready: connections_mg[i] });
             socket.emit('check-players', players);
         }
     })
@@ -197,18 +197,14 @@ Socketio_mg.on('connection', socket => {
     })
 
     socket.on('card-request', () => {
-        console.log("Lengthyyyy: " + cardDeck.length);
-        for(let i = 0; i < cardDeck.length; i++){
-            console.log("Sending...")
-        socket.emit('card-sent', cardDeck[i]);
+        for (let i = 0; i < cardDeck.length; i++) {
+            socket.emit('card-sent', cardDeck[i]);
         }
     })
 
     socket.on('card-request-again', () => {
-        console.log(cardDeck.length);
-        for(let i = 0; i < cardDeck.length; i++){
-            console.log("Sending...")
-        socket.emit('card-sent-again', cardDeck[i]);
+        for (let i = 0; i < cardDeck.length; i++) {
+            socket.emit('card-sent-again', cardDeck[i]);
         }
     })
 
@@ -225,8 +221,6 @@ Socketio_mg.on('connection', socket => {
 
     // On slot reply
     socket.on('slot-reply', id => {
-        console.log(id);
-
         // Forward to the other player
         socket.broadcast.emit('slot-reply', id);
     })
@@ -237,7 +231,6 @@ Socketio_mg.on('connection', socket => {
 
     // When game ready to start
     socket.on('game-start', () => {
-        console.log("going");
         socket.emit('ready-to-go', true);
     })
 });
