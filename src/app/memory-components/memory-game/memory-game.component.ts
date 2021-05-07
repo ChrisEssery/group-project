@@ -12,8 +12,16 @@ import { GameService } from "src/app/service/game.service";
 })
 export class MemoryGameComponent implements OnInit {
 
+  isFriend: boolean = false;
+
   constructor(public gameService: GameService) {}
 
   ngOnInit() {}
+
+  addFriend(e: { preventDefault: () => void; }){
+    e.preventDefault()
+    this.isFriend = true;
+    window.alert('Friend added')
+  }
 
 }

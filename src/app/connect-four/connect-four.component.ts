@@ -12,6 +12,7 @@ import { Inject} from '@angular/core';
   providedIn: "root"
 })
 export class ConnectFourComponent implements OnInit {
+  isFriend:boolean = false
 
   playerName: string;
 
@@ -19,6 +20,11 @@ export class ConnectFourComponent implements OnInit {
   }
 
   ngOnInit(): void {
+  }
+  addFriend(e: { preventDefault: () => void; }){
+    e.preventDefault()
+    this.isFriend = true;
+    window.alert('Friend added')
   }
 
   ngAfterViewInit() {

@@ -1,4 +1,6 @@
 /* Game wrappers for page parameters */
+@import '~bootstrap-icons/font/bootstrap-icons';
+
 
 .memory-game {
 	 width: 800px;
@@ -8,23 +10,27 @@
 }
 
  .memory-game__cards {
-	 display: flex;
-  padding: 100px;
-	 flex-flow: row wrap;
-   border-color: black;
-   border: 10px;
+   position: relative;
+  width: 150%;
+  display: flex;
+ padding: 100px;
+ padding-top: 1%;
+ padding-bottom: 0%;
+ padding-right: 0%;
+  flex-flow: row wrap;
+  border-color: black;
+  border: 10px;
 }
 
  /* rounds and player */
  .memory-game__info {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  height: 5%;
   font-family: 'Luckiest Guy', cursive;
   color: gold;
   font-size: 40px;
   color: gold;
-  margin: -9%;
+  margin: -15%;
   text-align: left;
 }
 
@@ -61,17 +67,41 @@
 
 .card_container {
   padding-top: 10px;
-  width: 55%;
+  width: 50%;
 }
 
 .jitsi {
-  padding-top: 180px;
-  width: 40%;
+  position: absolute;
+  padding-top: 8%;
+  right: 1%;
+  width: auto;
+  overflow: hidden;
+  display: none;
 }
+@media (min-width: 768px) { .jitsi{
+  display: block;
+}
+}
+
 
 .cards_jitsi {
   display: flex;
   flex-flow: nowrap;
   align-content: space-between;
-  width: 1500px;
+  width: 100%;
+}
+
+.button{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  color: whitesmoke;
+  font-family: 'Luckiest Guy', cursive;
+  text-decoration:none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.btns {
+  position:relative;
+  margin-top: 2%;
 }

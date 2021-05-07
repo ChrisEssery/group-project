@@ -59,6 +59,7 @@
         </div>
         <div class="jitsi">
             <app-jitsi></app-jitsi>
+            <a (click)="addFriend($event)" class="button" *ngIf="!isFriend"> <i class="bi bi-person-plus-fill"></i> Add Friend</a>
         </div>
     </div>
     <div class="setup">

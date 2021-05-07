@@ -43,7 +43,7 @@ We also realised the importance of delegation. So, to ensure that the team was o
 
 ## Software development lifecycle
 
-In order to produce working software, it is important to follow a recognised methodology. The methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now take a look at these approaches.
+In order to produce working software, it is important to follow a recognised methodology. This is because the methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now take a look at these approaches.
 
 ### The waterfall method
 
@@ -72,7 +72,7 @@ The main focus of this approach is structure. Milestones are set, breaking the p
 
 ### The Agile methods
 
-Now, let's take a look at the Agile methodology. The lifecyle of this approach is depicted below:
+Now, let's take a look at the Agile methodology. The lifecycle of this approach is depicted below:
 
 <div align="center">
 
@@ -82,7 +82,7 @@ Now, let's take a look at the Agile methodology. The lifecyle of this approach i
 
 The main feature of this model is that software development is broken down into incremental cycles.
 
-This method is flexible throughout the build. It is flexible with respect to the stakeholders, which means that the product is more tailored to their needs. There are no rigid rules with the Agile system development lifecycle. it can be changed and altered as required by your project or organisation. Given the flexibility of this method, one of the most important aspects of the method is communication, since the wants and desires of the stakeholders may change during the initial planning and the iterations of the lifecyle.
+This method is flexible throughout the build. It is flexible with respect to the stakeholders, which means that the product is more tailored to their needs. There are no rigid rules with the Agile system development lifecycle. it can be changed and altered as required by your project or organisation. Given the flexibility of this method, one of the most important aspects of the method is communication, since the wants and desires of the stakeholders may change during the initial planning and the iterations of the lifecycle.
 
 There are several different frameworks used to implement the Agile method: Feature Driven Development (FDD), Dynamic Software Development (DSDM) and Crystal Methodologies.
 
@@ -102,7 +102,7 @@ There are several different frameworks used to implement the Agile method: Featu
 
 ### Agile - Our chosen methodology
 
-In light of the strengths and weaknesses of both methodologies, we decided to use the Agile approach for our project development.
+In light of the strengths and weaknesses of both methodologies, we decided to use the Agile approach for our project development. The reason for this was fourfold. First, we really liked the client-focused approach of Agile. This was, we felt, appropriate for our purposes since our application was designed with important usability requirements. Without regular feedback from our end-users then, we wouldn't necessarily be able to meet those usability requirements, and produce a product which they would actually be able to use. Second, we liked the idea of building software quickly. This was really relevant for our project since we only had 12 weeks to build our product whilst balancing the competing demands of two other units. Third, and related to the two previous reasons, being able to improve the features iteratively early in the lifecycle seemed more sensible as it would allow us to change the design of the product whenever required. Had we chosen to follow the waterfall approach, this type of flexibility would have been out of the question. Fourth, and finally, we felt that the inflexibility of the waterfall method, particular with regards to changing requirements, would really hamper the development and prevent us from producing a usable product. As such, it seemed like an untenable method for our particular purposes.
 
 <div align="center">
 
@@ -154,13 +154,13 @@ Every team member participated in discussions concerning system design and imple
 
 We assigned team member roles through an open conversation on Microsoft Teams. In what follows, we give a quick breakdown of the individual roles of each team member and the reasons for those role assignments.
 
-Given Lizhao's strengths in coding, she naturally wanted to be involved in both the front and backend of the build. Her clear, logical approach to all aspects of the build meant that she was an invaluable team member who could always be relied on.
+Given Lizhao's strengths in coding, she naturally wanted to be involved in both the front and back-end of the build. Her clear, logical approach to all aspects of the build meant that she was an invaluable team member who could always be relied on.
 
-Harri took on the leadership role as the project manager whilst also getting involved in the coding and the design side of things. His strong leadership and steady hand meant that he was more than capable of steering us through every stage of the project, from ideation to implementation.
+Harri took on the leadership role as the project manager whilst also working on the back-end, and contributing to design side of things. His strong leadership and steady hand meant that he was more than capable of steering us through every stage of the project, from ideation to implementation.
 
-Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the BackEnd. Given his skills in this department, he was happy to devote the majority of his time to the build and maintenance of the database and servers. He also offered great insights on every aspect of the build. As with the other team members, he was invaluable throughout.
+Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the front-end. Given his skills in this department, he was happy to devote the majority of his time to the build and maintenance of the database and servers. He also offered great insights on every aspect of the build. As with the other team members, he was invaluable throughout.
 
-Max, who likes design, dedicated most of his time to the FrontEnd. He got involved with the BackEnd too, but was mostly keen to develop his FrontEnd skills.
+Max, who likes design, dedicated most of his time to the Front-end. He also took on the role of writing a lot of the documentation, and getting involved with the UI and UX design.
 
 ## Communication
 
@@ -191,7 +191,7 @@ The sprints are in chronological order, starting with the first sprint in late F
 
 ADD GANTT CHART
 
-We will be referring to the meeting notes, the product backlog (that is, the list of key features to be implemented), and the user feedback.
+We will be referring to the meeting notes, the product backlog, list of key features to be implemented from previous sprints, and the user feedback.
 
 This will be broken down into four parts:
  1. Main goals/aims of the sprint
@@ -199,7 +199,7 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
- Each of the items in the backlog is tagged with 'finished' and 'unfinished' -> add something about this.
+ Each of the items in the backlog was tagged with 'finished' and 'unfinished' to indicate which items on the list had been completed and implemented.
 
 
 
@@ -207,13 +207,14 @@ This will be broken down into four parts:
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github, and tried to develop our understanding the basic operations of GitHub, the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull request (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). We agreed upon the channels of communication we would use, namely Microsoft Teams and Discord. We decided on multiplayer board games for the elderly with a video feed. We also decided to call the product 'NotSoBored Games'. And, in addition, we began by adding to the readme in our repository.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github. We tried to develop our understanding of the basic operations of GitHub, including the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). In addition, we began by adding to the readme in our repository. We agreed on the main channels of communication we'd use, namely Microsoft Teams and Discord, and decided to create stakeholder stories, including user stories, to help guide our development. We also finalised our decision to build a online multiplayer game plaform for the elderly with video chat, and from previous weeks we had decided to call the product 'NotSoBored Games'.
 
    * We made the group decision to use the MEAN stack.
    * Create a group Discord server
    * Set up GitHub repository and familiarised ourselves with the platform.
    * Agreed to setup a protocol with regard to GitHub.
    * Create a simple paper prototype of the UI design.
+   * Create stakeholder stories.
 
 **Attendees:** everyone in attendance.
 
@@ -232,9 +233,7 @@ The following are a list of tasks and features that the team were tasked to deli
 
 ### Evaluation of Sprint
 
-This was our first sprint. The main goal of this sprint was to establish a communication and GitHub protocol. This was important, we felt, because once our channels of communication were setup we could then work efficiently and effectively. It was particularly important to make sure every team member had a good working understanding of how to use GitHub. On reflection, we should have dedicated more time to doing this. In particular, we would have benefited from one team member becoming the GitHub expert who could then go on to teach other team members how to use the platform. We should have also made sure that the GitHub protocol was discussed in more depth so we all understood how to properly utilise the branch-based workflow.
-
-After deciding we would use the MEAN stack, we thought it would be sensible to get user feedback. However, we discovered that there wasn't anything we could ask our users because we had nothing to show them before the end of this first sprint.
+This was our first sprint. It followed several weeks of meetings regarding the design and ideation of our product. The main goal of this sprint was to establish main lines of communication, write up a GitHub protocol, and . This was important, we felt, because once our channels of communication were setup we could then work efficiently and effectively. It was particularly important to make sure every team member had a good working understanding of how to use GitHub. On reflection, we should have dedicated more time to doing this. In particular, we would have benefited from one team member becoming the GitHub expert who could then go on to teach other team members how to use the platform. We should have also made sure that the GitHub protocol was discussed in more depth so we all understood how to properly utilise the branch-based workflow.
 
 
 
@@ -420,8 +419,9 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -430,6 +430,13 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
   <td>Relational model to show the stakeholders.</td>
   <td>Relational model didn't work for MongoDB</td>
   <td>Relational diagram. We chose a UML diagram, because the relational model didn't work for MongoDB. So, we developed the data model to suit mongoDB style - namely, something object oriented.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Check api path .</td>
+  <td>Developers are able to report the correct error message when there is a request on underfined path</td>
+  <td>Request on invalid url path.</td>
+  <td>Catch all routes at the end of the file for each routes (`/api/games/xxx` or /api/users/xxx`) and return the status code `404</td>
 </tr>
 </table>
 
@@ -463,9 +470,12 @@ Another major aim for this sprint was to implement basic features such user logi
 
    * Implement multiplayer functionality for connect four.
    * Research and add video chat to the games.
-   * Build backend (build mongodb models with mongoose).
-   * Build API using express framework and nodejs.
+   * Build backend (build MongoDB models with mongoose).
+   * Build API using express framework and node.js.
    * Implement basic features such as login, signup, logout, etc.
+   * Add a game instance - store game records persistently.
+   * GET user game history.
+   * Authenticate user.
 
 **Attendees:** everyone in attendance.
 
@@ -483,11 +493,14 @@ Another major aim for this sprint was to implement basic features such user logi
 ### Backlog items
 
 ```
-  → Backlog item: implement multiplayer functionality for connect four
-  → Backlog item: add video chat to connect four
-  → Backlog item: build backend (build mongodb models with mongoose)
-  → Backlog item: build API using express framework and nodejs
+  → Backlog item: implement multiplayer functionality for connect four.
+  → Backlog item: add video chat to connect four.
+  → Backlog item: build backend (build MongoDB models with mongoose).
+  → Backlog item: build API using express framework and node.js.
   → Backlog item: implement basic features such as login, signup, logout, etc.
+  → Backlog item: add a game instance - store game records persistently.
+  → Backlog item: GET user game history.
+  → Backlog item: Authenticate user.
 
 ```
 
@@ -511,10 +524,10 @@ Another major aim for this sprint was to implement basic features such user logi
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want a simple login page.</td>
+ <br>Sally </a> <br /> As a user, I want to be able to log in with my credentials.</td>
  <td>Login</td>
- <td>Create a user login</td>
- <td>This login has a nice style and seems relatively easy to navigate. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. In fact, could you add a "how to play" button under the title of each games so that I can click on the button to learn the rules and operations before starting the game? This would be very helpful for me.
+ <td>Authenticate user</td>
+ <td>This login has a nice style and seems relatively easy to navigate, and I am now able to login with my credentials. Brilliant. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. This would be very helpful for me.
 </td>
 </tr>
 <tr>
@@ -541,18 +554,43 @@ Another major aim for this sprint was to implement basic features such user logi
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
 <tr>
   <td>Front-End</td>
-  <td>Stakeholders are able to see a prototype of the memory game.</td>
+  <td>Build basic versions of games and obtain user feedback.</td>
+  <td>As a sponsor, I want the games to be fun and interactive.</td>
   <td>The prototype memory game was written using Javascript, html and css since there were many useful online tutorials to model the game on. The problem with this was that we were using Angular with TypeScript because TypeScript speeds up the development experience by catching errors and providing fixes. However,  migrating from JavaScript to TypeScript, the primary language for the Angular application development, took quite a lot of time to complete.</td>
   <td>Despite the fact TypeScript is a superset of JavaScript, and that it is possible to convert JavaScript to TypeScript - by adding a tsconfig.json file to project, integrate with a build tool, change all .js files to .ts files, and check for any errors - this approach did not work, and became a time sink. Given this, it was decided that we would build the memory game from scratch using typescript, and make use of the Angular application development.</td>
 </tr>
+<tr>
+  <td>Back-End</td>
+  <td>Check user authentication.</td>
+  <td>Developers are able to prevent unauthorised access from the frontend (request with no valid token) .</td>
+  <td>Duplicate codes exist on checking if token valid for every query .</td>
+  <td>Create a `middleware.js` as a middleware which can be executed to check the token before each function.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Register new user.</td>
+  <td>Users are able to create an account.</td>
+  <td>User password is stored to the database, which is not a wise choice as the user's credential should not be exposed.</td>
+  <td>Import the package `blueimp-md5` to encrypt the password before saving to the database and delete the original password record.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Authenticate user.</td>
+  <td>Users are able to log in with their credentials.</td>
+  <td>When trying to query a collection with `collection.findOne()` method but always get `undefined`.</td>
+  <td>`.findOne()` returns the response in asynchronus way. We should change the function to async function and add `await` before any operation to the database.</td>
+</tr>
 </table>
+
+
 
 
 ### Evaluation of Sprint
@@ -586,6 +624,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
    * Implement multiplayer functionality for connect four
    * Add video chat to connect four
    * Database built
+   * Add a game instance - store game records persistently.
 
 
 ### Backlog items
@@ -593,7 +632,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 ```
   → Backlog item: implement multiplayer functionality for memory game
   → Backlog item: add relevant documentation for database
-  → Backlog item: build API using express framework and nodejs
+  → Backlog item: build API using express framework and node.js
   → Backlog item: add features such as leaderboard and recent games and test on those features
 
 ```
@@ -618,10 +657,10 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to compete and earn points.</td>
- <td>Multiplayer functionality</td>
- <td>Implement multiplayer functionality for connect four</td>
- <td>I think a multiplayer game is a great idea. I really like that I will be able to compete against my friends and family members as this will really keep me engaged. .</td>
+ <br>Sally </a> <br /> As a user, I want to earn points and see the results from my past games.</td>
+ <td>Game history</td>
+ <td>GET user game history.</td>
+ <td>I can now view my game history - excellent. I really like that I will be able to see my past efforts.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -647,16 +686,32 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
 <tr>
-  <td>Front-End</td>
-  <td>Stakeholders are able to see the start page.</td>
-  <td>Insert here</td>
-  <td>Insert solution here and future implementations.</td>
+  <td>Back-End</td>
+  <td>GET user game history.</td>
+  <td>Users are able to view their own game history.</td>
+  <td>Retrieving all records of the game history is redundant and meaningless.</td>
+  <td>Add a `limit` parameter to the URL path, so that the frontend developer can choose the number of records needed to be present on the web page; To check the data type of `limit`, use `if(!limit || isNaN(limit))` to ensure the data type is number.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>UPDATE User Friendlist.</td>
+  <td>Users are able to add friends to their friendlist.</td>
+  <td>N/A.</td>
+  <td>N/A.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Get game's leaderboard.</td>
+  <td>Users are able to view the specific game leaderboard based on the scores.</td>
+  <td>The way game scores are sorted may vary with different games..</td>
+  <td>Add a parameter `order` to the url path when making the request. Set the value 1 for getting the top scores in ascending order, and 0 for getting the lowest scores.</td>
 </tr>
 </table>
 
@@ -710,7 +765,6 @@ We now had to make sure that there was a fruitful integration of the front and b
   → Backlog item: implement video chat for memory game
   → Backlog item: build API using express framework and node.js
   → Backlog item: start introduction demo video
-  → Backlog item: build user profile page
 
 ```
 
@@ -737,7 +791,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <br>Sally </a> <br /> As a user, I want a page to see my game history so I can chart my progress.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
- <td>This profile page feature is just what I was hoping for. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate. Is there some way you could explain the scoring system though, as it is not clear what the scores are for, the memory game or connect four, and also it is not clear how those scores have been calculated.</td>
+ <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -763,8 +817,9 @@ We now had to make sure that there was a fruitful integration of the front and b
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -870,8 +925,9 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>

@@ -137,26 +137,3 @@
         opacity: 0;
     }
 }
-@keyframes bgColor
-{
-    0%
-    {
-        background: #F44336;
-    }
-    25%
-    {
-        background: #03a9f4;
-    }
-    50%
-    {
-        background: #9c27b0;
-    }
-    75%
-    {
-        background: uniquewhite;
-    }
-    100%
-    {
-        background: #f44336;
-    }
-}

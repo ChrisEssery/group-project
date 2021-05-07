@@ -56,13 +56,13 @@ const routes: Routes = [
     redirectTo: '/connect4start',
     pathMatch: 'full'
   },
-  { path: "connect4start", component: StartConnectFourComponent},
-  { path: 'connect4_gameplay', component: ConnectFourContainerComponent},
-
+  
+  { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},
+  { path: 'connect4_gameplay', component: ConnectFourContainerComponent, canActivate: [AuthGuard]},
   { path: "memorygame", redirectTo: "/start", pathMatch: "full" },
-  { path: "start", component: StartComponent },
-  { path: 'gameplay', component: GameplayComponent },
-  { path: 'ranking', component: RankingComponent }
+  { path: "start", component: StartComponent,canActivate: [AuthGuard]},
+  { path: 'gameplay', component: GameplayComponent ,canActivate: [AuthGuard]},
+  { path: 'ranking', component: RankingComponent,canActivate: [AuthGuard]}
 ];
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
