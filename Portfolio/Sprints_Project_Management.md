@@ -527,7 +527,7 @@ Another major aim for this sprint was to implement basic features such user logi
  <br>Sally </a> <br /> As a user, I want to be able to log in with my credentials.</td>
  <td>Login</td>
  <td>Authenticate user</td>
- <td>This login has a nice style and seems relatively easy to navigate, and I am now able to login with my credentials. Brilliant. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. In fact, could you add a "how to play" button under the title of each games so that I can click on the button to learn the rules and operations before starting the game? This would be very helpful for me.
+ <td>This login has a nice style and seems relatively easy to navigate, and I am now able to login with my credentials. Brilliant. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. This would be very helpful for me.
 </td>
 </tr>
 <tr>
