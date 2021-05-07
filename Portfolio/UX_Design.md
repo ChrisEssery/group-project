@@ -70,7 +70,7 @@ Does our app have a clear goal? Is this apparent up front to the user? or uncove
 
 Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
 
-Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UX. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe.
+Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UX. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. With these insights, we can now go on to explain the evolution of the app's UI design. This evolution, naturally, changed over time with a total of four separate versions.
 
 ### Evolution of UI Design
 
@@ -167,7 +167,7 @@ When considering the UX approach, we felt it was important to choose something t
 
 ### Design heuristics
 
-Before explaining our design method, we should define what a heuristic is. A heuristic is a quick, effective way to solve a problem or decide on a particular course of action. It's a practical shortcut which is known to work. In the context of UX design, professionals can assess a design or products' usability by means of heuristics. These heuristics are contained within a criteria or list of questions to ask so as to identify limitations and faults with the design. This helps to catch any issues which may have been overlooked by the team responsible for UX and UI design.
+Before explaining our design heuristic method, we should define what a heuristic is. A heuristic is a quick, effective way to solve a problem or decide on a particular course of action. It's a practical shortcut which is known to work. In the context of UX design, professionals can assess a design or products' usability by means of heuristics. These heuristics are contained within a criteria or list of questions to ask so as to identify limitations and faults with the design. This helps to catch any issues which may have been overlooked by the team responsible for UX and UI design. Here are a list of 10 design heuristics we used to inform our design decision making process:
 
 ```
    1. Keep users informed about its status appropriately and promptly.
@@ -182,55 +182,40 @@ Before explaining our design method, we should define what a heuristic is. A heu
    10. List concise steps in lean, searchable documentation for overcoming problems.
 ```
 
-These criteria will be used to conduct a heuristic evaluation of our product's design. Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
-
-<table>
-<tr>
-  <th>The Pros</th>
-  <th>The Cons</th>
-</tr>
-<tr>
-  <td>- Evaluators can focus directly on specific issues, flag them and find optimal solutions <br /> - Evaluators can identify faults with individual elements and determine their impact on the overall UX  <br /> - Compared to testing on users, you can obtain feedback without ethical issues and costs. </td>
-  <td>- Evaluators' insights are subjective; findings can lack proof and be biased <br /> - Finding several evaluators may be hard and expensive  <br />- Evaluators can identify issues that aren't usability problems </td>
-</tr>
-</table>
+We used these criteria to conduct a heuristic evaluation of our product's design. These heuristics nicely dovetailed with our user-centred design (UCD).
 
 ### User-centred design
 
-The goal of the design process is to make the product as usable as possible. This is why we adopt a user-centred design. Coined by Rob Kling in 1977, this approach
+The goal of the design process is to make the product as usable as possible. This is why we adopted a UCD. Coined by Rob Kling in 1977, this approach has the following steps:
 
-The main highlights of these are:
+  1. Simplifying the structure of the tasks such that the possible actions at any moment are intuitive.
+  2. Make things visible, including the conceptual model of the system, actions, results of actions and feedback.
+  3. Getting the mappings right between intended results and required actions.
+  4. Embracing and exploiting the constraints of systems
 
- 1. Simplifying the structure of the tasks such that the possible actions at any moment are intuitive.
- 2. Make things visible, including the conceptual model of the system, actions, results of actions and feedback.
- 3. Getting the mappings right between intended results and required actions.
- 4. Embracing and exploiting the constraints of systems
-
-The principles:
+The principles behind these steps are:
 
   1. Design is based upon an explicit understanding of users, tasks and environments.
   2. Users are involved throughout design and development.
-  3. Design is driven and refined by user-centered evaluation.
+  3. Design is driven and refined by user-centred evaluation.
   4. Process is iterative.
   5. Design addresses the whole user experience.
   6. Design team includes multidisciplinary skills and perspectives.
 
+Using this UCD was really beneficial since it helped focus our attention on the users and their needs, wants and requirements.
 
 ## Game design for older people
 
 For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
 
-In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group.
-Some of the suggestions include:
+In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group. Some of the suggestions include:
 
-- Using a game for social and educational purposes
-- For relaxation and entertainment
-- Motivation for sharpening the mind
-- Encouraging physical activity
+ - Using a game for social and educational purposes
+ - For relaxation and entertainment
+ - Motivation for sharpening the mind
+ - Encouraging physical activity
 
-Similarly, Wang () suggests a very similar set of design requirements.
-
-From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We also decided to create our platform as a game with rules and structure, delivered through a simple, visually appealing front-end. With these insights, we can now go on to explain the evolution of the app's UI design. This evolution, naturally, changed over time with a total of four separate versions.
+The first three of these suggestions are applicable to our application. It is these types of game design that we wanted our product to be based upon. From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We wanted our platform to be viewed as a form of entertainment that could be used social and cognitive purposes. We also decided to create our platform as a game with rules and structure because we felt that this type of game would encourage competition and entertainment and lend itself to sharpening the mind in a social interaction - all delivered through a simple, visually appealing front-end.
 
 ## Understanding user group
 
