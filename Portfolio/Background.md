@@ -8,32 +8,32 @@ ___
 
 # Background and Motivation
 
-In this section, we discuss the background literature, state-of-the-art survey and problem definition of the app. We start with the background literature on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We also focus on the idea of serious play, and how we can apply this concept to our product. We then go on to present our state of the art survey of current applications used to address these issues, before explaining the problem definition and motivation behind our product and how we intend to use serious play to address our target problem.
+In this section, we discuss background literature, complete a state-of-the-art survey, and outline our problem definition. We start with the background literature focusing on the topic of isolation and loneliness in our ageing society, and look at how games can be used to combat these issues. We also look at the idea of serious play, and how we can apply this concept to our product. We then go on to conduct a state of the art survey looking at the existing digital games for the elderly, before explaining the problem definition and motivation behind our product and how we intend to use serious play to address our chosen problem.
 
 ## Table of contents
 
 * [**Background literature**](#background-literature)
-   * [Defining key terms](#defining-key-terms)
-   * [Public health concerns](#public-health-concerns)
-   * [Can digital games help tackle the health concerns associated with loneliness and isolation?](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation)
-   * [What is 'serious play' and how can it be used to address loneliness and isolation?](#what-is-serious-play-and-how-can-it-be-used-to-address-loneliness-and-isolation)
-   * [Rules versus open-endedness](#rules-versus-open-endedness)
-   * [The psychology behind playing games](#the-psychology-behind-playing-games)
-   * [Extrinsic vs intrinsic motivations](#extrinsic-vs-intrinsic-motivations)
-   * [Digital literacy](#digital-literacy)
+  * [Defining key terms](#defining-key-terms)
+  * [Public health concerns](#public-health-concerns)
+  * [Can digital games help tackle the health concerns associated with loneliness and isolation?](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation)
+  * [What is 'serious play' and how can it be used to address loneliness and isolation?](#what-is-serious-play-and-how-can-it-be-used-to-address-loneliness-and-isolation)
+  * [Rules versus open-endedness](#rules-versus-open-endedness)
+  * [The psychology behind playing games](#the-psychology-behind-playing-games)
+  * [Extrinsic vs intrinsic motivations](#extrinsic-vs-intrinsic-motivations)
+  * [Digital literacy](#digital-literacy)
 * [**State of the art survey**](#state-of-the-art-survey)
-   * [State of the art survey](#state-of-the-art-survey)
-   * [Evaluation of survey](#evaluation-of-survey)
+  * [State of the art survey](#state-of-the-art-survey)
+  * [Evaluation of survey](#evaluation-of-survey)
 * [**Problem definition**](#problem-definition)
-   * [Motivation](#motivation)
-   * [Problem definition](#problem-definition)
+  * [Motivation](#motivation)
+  * [Problem definition](#problem-definition)
 
 
 ## Background literature
 
 In this section, we provide an overview of the background literature relating to social isolation and loneliness among older people. We define key terms and identify public health concerns and current interventions.
 
-According to recent figures, around 50% of people over the age of 60 will face social isolation and around 33% will experience some level of loneliness during the remaining period of their lives [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
+It is fair to say that the Covid-19 pandemic and enforced social distancing measures have affected the mental health and wellbeing of older adults. With an increase in levels of loneliness and a rise in social isolation, the consequences of isolating older adults are clear [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
 
 <div align="center">
 
@@ -53,11 +53,13 @@ Our target group is adults above the age of 70. However, we acknowledge that ind
 
 ### Public health concerns
 
+Due to advancements in public health and medical technologies, in addition to improved sanitation, the average life expectancy of the population aged 60 years or over has increased globally, resulting in a projected 56% growth in this population from 901 million to 1.4 billion by 2030[[**2**]](#references).
+
 There are several public health concerns linked to loneliness and isolation. Let's begin by looking at the health issues. The health issues associated with loneliness and isolation range from high blood pressure and suppressed immune function to heart disease, body aches and pains, and insomnia.
 
-The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, [they will experience increased levels of negative emotions such as anxiety and depression](https://www.cdc.gov/aging/publications/features/lonely-older-adults.html#:~:text=Loneliness%20was%20associated%20with%20higher,risk%20of%20emergency%20department%20visits.). This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the above-mentioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
+The second health concern is mental health issues. These issues often arise when a person is lonely and isolated. Typically, they will experience [increased levels of negative emotions such as anxiety and depression](https://www.cdc.gov/aging/publications/features/lonely-older-adults.html#:~:text=Loneliness%20was%20associated%20with%20higher,risk%20of%20emergency%20department%20visits.). This is a very serious and significant effect and is closely interconnected with health issues since the adverse effects of poor mental health often impact a person's physical health. This is because poor mental health can lead to a lack of motivation to prioritise self-care and a reduced desire to go outside. The former is linked to the above-mentioned health issues and the latter can lead to melatonin suppression which is linked to insomnia.
 
-Overall, the impact of mental health problems is nontrivial. The increased likelihood of depression can lead to suicidal ideation, [a weakened immune system due to a bad diet and lack of exercise, as well as health problems such as heart disease and high blood pressure](https://www.cdc.gov/aging/publications/features/lonely-older-adults.html).
+Overall, the impact of mental health problems is nontrivial. The increased likelihood of depression can lead to suicidal ideation, a weakened immune system due to a bad diet and lack of exercise, as well as [health problems such as heart disease and high blood pressure](https://www.cdc.gov/aging/publications/features/lonely-older-adults.html).
 
 The third public health concern is cognitive decline. As with the previous two health concerns, cognitive decline is intimately tied to poor mental and physical health. Without a social network, people can experience a decline in their mental acuity, choosing to avoid activities that challenge their minds and promote cognitive development in late adulthood. Research shows that some cognitive functions such as remembering vocabulary remain during older age, while others such as conceptual reasoning and memory decline. It is very important, therefore, that older adults exercise their minds to avoid cognitive decline [[**3**]](#references).
 
@@ -299,18 +301,23 @@ Clearly, the problem of social isolation and loneliness in the elderly is a huge
 
 ## Motivation
 
-The motivation behind our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation through a multiplayer online board game. Our motivation for creating this application is simple. We can see that we live in an ageing society with inadequate social care infrastructure, and we know from personal experience with elderly relatives that older adults are particularly vulnerable to loneliness and isolation. Digital games are abundant, but there is a shortage of digital games designed for the elderly. Our motivation is to address this gap in the market, and try to leverage a digital game platform to mitigate loneliness and isolation. This is important because ageing societies continue to grow and social care infrastructure in place is unable to adequately meet
+The aim of our webpage is to create a SPA capable of combating the real-world problem of loneliness and isolation. The motivation behind this aim is simple. We can see that we live in an ageing society with inadequate social care infrastructure, and we know from personal experience with elderly relatives that older adults are particularly vulnerable to loneliness and isolation. There is an abundance of digital games out there, but a noticeable shortage of games designed for the elderly. Our motivation is to address this gap in the market, and try to leverage a digital game platform to mitigate loneliness and isolation. This is important because as average life expectancies rise and ageing societies continue to grow the social care infrastructure currently in place is unlikely to meet this growing demand.
+
+Why is this important? It's important because improving the wellbeing of older adults is a moral issue that must be addressed. Doing anything to mitigate loneliness and isolation among these individuals is, therefore, of ethical importance. What's more, we believe these issues can be addressed to some extent through the medium of digital games. Whilst we acknowledge the limits of our project, we still recognise that improving one person's wellbeing is a worthy cause. And if it's possible to have a positive impact on more people's lives then that's even better.
 
 
 
 
 ## References
 
-[1] Fakoya, O.A., McCorry, N.K. & Donnelly, M. Loneliness and social isolation interventions for older adults: a scoping review of reviews. BMC Public Health 20, 129 (2020). https://doi.org/10.1186/s12889-020-8251-6
 
-[2] Valtorta N, Hanratty B. Loneliness, isolation and the health of older adults: do we need a new research agenda? J R Soc Med Suppl. 2012;105(12):518–22.
+[1] Armitage R, Nellums LB. COVID-19 and the consequences of isolating the elderly. Lancet Public Health. 2020;5(5):e256.
 
-[3]  Williams, K. N., & Kemper, S. (2010). Interventions to reduce cognitive decline in aging. Journal of psychosocial nursing and mental health services, 48(5), 42–51. https://doi.org/10.3928/02793695-20100331-03 Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
+[2] Fakoya, O.A., McCorry, N.K. & Donnelly, M. Loneliness and social isolation interventions for older adults: a scoping review of reviews. BMC Public Health 20, 129 (2020). https://doi.org/10.1186/s12889-020-8251-6
+
+[3] Valtorta N, Hanratty B. Loneliness, isolation and the health of older adults: do we need a new research agenda? J R Soc Med Suppl. 2012;105(12):518–22.
+
+[4]  Williams, K. N., & Kemper, S. (2010). Interventions to reduce cognitive decline in aging. Journal of psychosocial nursing and mental health services, 48(5), 42–51. https://doi.org/10.3928/02793695-20100331-03 Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 
 [4, 5] Kaufman,  D,  Sauvé  L,  Renaud  L,  Sixsmith  A, Mortenson  B. Digital  gameplay  by  older  adults: patterns,  benefits,  and  challenges.  Simulation  & Gaming, 2016; 47(4):475-489
 
