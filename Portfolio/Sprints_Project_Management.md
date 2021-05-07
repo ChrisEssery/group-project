@@ -43,7 +43,7 @@ We also realised the importance of delegation. So, to ensure that the team was o
 
 ## Software development lifecycle
 
-In order to produce working software, it is important to follow a recognised methodology. The methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now take a look at these approaches.
+In order to produce working software, it is important to follow a recognised methodology. This is because the methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now take a look at these approaches.
 
 ### The waterfall method
 
@@ -72,7 +72,7 @@ The main focus of this approach is structure. Milestones are set, breaking the p
 
 ### The Agile methods
 
-Now, let's take a look at the Agile methodology. The lifecyle of this approach is depicted below:
+Now, let's take a look at the Agile methodology. The lifecycle of this approach is depicted below:
 
 <div align="center">
 
@@ -82,7 +82,7 @@ Now, let's take a look at the Agile methodology. The lifecyle of this approach i
 
 The main feature of this model is that software development is broken down into incremental cycles.
 
-This method is flexible throughout the build. It is flexible with respect to the stakeholders, which means that the product is more tailored to their needs. There are no rigid rules with the Agile system development lifecycle. it can be changed and altered as required by your project or organisation. Given the flexibility of this method, one of the most important aspects of the method is communication, since the wants and desires of the stakeholders may change during the initial planning and the iterations of the lifecyle.
+This method is flexible throughout the build. It is flexible with respect to the stakeholders, which means that the product is more tailored to their needs. There are no rigid rules with the Agile system development lifecycle. it can be changed and altered as required by your project or organisation. Given the flexibility of this method, one of the most important aspects of the method is communication, since the wants and desires of the stakeholders may change during the initial planning and the iterations of the lifecycle.
 
 There are several different frameworks used to implement the Agile method: Feature Driven Development (FDD), Dynamic Software Development (DSDM) and Crystal Methodologies.
 
@@ -102,7 +102,7 @@ There are several different frameworks used to implement the Agile method: Featu
 
 ### Agile - Our chosen methodology
 
-In light of the strengths and weaknesses of both methodologies, we decided to use the Agile approach for our project development.
+In light of the strengths and weaknesses of both methodologies, we decided to use the Agile approach for our project development. The reason for this was fourfold. First, we really liked the client-focused approach of Agile. This was, we felt, appropriate for our purposes since our application was designed with important usability requirements. Without regular feedback from our end-users then, we wouldn't necessarily be able to meet those usability requirements, and produce a product which they would actually be able to use. Second, we liked the idea of building software quickly. This was really relevant for our project since we only had 12 weeks to build our product whilst balancing the competing demands of two other units. Third, and related to the two previous reasons, being able to improve the features iteratively early in the lifecycle seemed more sensible as it would allow us to change the design of the product whenever required. Had we chosen to follow the waterfall approach, this type of flexibility would have been out of the question. Fourth, and finally, we felt that the inflexibility of the waterfall method, particular with regards to changing requirements, would really hamper the development and prevent us from producing a usable product. As such, it seemed like an untenable method for our particular purposes.
 
 <div align="center">
 
