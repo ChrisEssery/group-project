@@ -666,6 +666,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -782,6 +783,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -889,6 +891,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
