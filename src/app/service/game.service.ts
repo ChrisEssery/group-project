@@ -26,7 +26,6 @@ export class GameService {
   start: boolean = false;
   gameFinished: boolean = false;
   opponentPlayAgain: boolean = false;
-  dummy: boolean = true;
   infoDisplay: any;
 
   constructor(
@@ -49,17 +48,17 @@ export class GameService {
   //when card clicked, flips 180
   //revealing the other side
   showCard(card: Card): void {
-    if (!this.playersReady) {
-      return;
-    }
+    if (!this.playersReady) return;
+
     if (!(this.currentPlayerType === "user")) return;
 
     if (!this.isMoveValid()) return;
-
+    // If the move is valid, emit to the server
     if (this.isCardValid(card)) {
       this.emitMove(card);
       this.activeCards.push(card);
       card.show();
+      // Adjusts current player information
       this.currentPlayerType = "enemy";
       this.infoDisplay.style.marginLeft = "650px";
       this.infoDisplay.innerHTML = "Opponent\'s turn";
@@ -75,6 +74,7 @@ export class GameService {
     }
   }
 
+  // On receiving opponent's turn from the server, flip the specified card
   showOpponentsCard(id) {
     if (!this.playersReady) {
       return;
@@ -82,6 +82,7 @@ export class GameService {
     if (this.isCardValid(this.cards[id])) {
       this.activeCards.push(this.cards[id]);
       this.cards[id].show();
+      // Adjusts current player information
       this.currentPlayerType = "user";
       this.infoDisplay.style.marginLeft = "725px";
       this.infoDisplay.innerHTML = "Your turn!";
@@ -99,6 +100,7 @@ export class GameService {
 
   // once gameplay complete,
   // start again
+  // Clears the deck and shares between players again
   playAgain(): void {
     this.gameFinished = false;
     this.router.navigate(["gameplay"]);
@@ -107,7 +109,6 @@ export class GameService {
       this.gameSocket.emit('clear-deck');
       this.cards = this.cardService.getCards();
       this.playAgainDeckSend();
- 
     }
     else {
       this.cards = [];
@@ -164,8 +165,6 @@ export class GameService {
 
   // determines whether cards match
   private isMatch(): boolean {
-    console.log("0: " + this.activeCards[0].id);
-    console.log("2: " + this.activeCards[1].id);
     return this.activeCards[0].id === this.activeCards[1].id;
   }
 
@@ -187,8 +186,10 @@ export class GameService {
     const title = document.querySelector("#title") as HTMLElement;
     title.style.display = 'none';
     this.infoDisplay = document.querySelector("#info") as HTMLElement;
+
     if (this.isConnected) return;
 
+    // Opens socket connection
     this.gameSocket = io("http://localhost:3050");
     this.isConnected = true;
     this.infoDisplay.style.display = 'inline';
@@ -202,9 +203,8 @@ export class GameService {
         if (this.playerNumber === 0) {
           if (this.playerNumber === 0) {
             this.start = true;
-            console.log("ZERO")
+            // If this is the first player to connect, send cards to be stored on the server
             for (let i = 0; i < this.cards.length; i++) {
-              console.log(JSON.stringify(this.cards[i]))
               this.gameSocket.emit('send-card', JSON.stringify(this.cards[i]));
             }
           }
@@ -220,36 +220,28 @@ export class GameService {
     // Another player has connected or disconnected
     this.gameSocket.on('player-connection', num => {
       console.log(`Player number ${num} has connected or disconnected`);
-      //playerConnectedOrDisconnected(num);
     })
 
     // On enemy ready
     this.gameSocket.on('opponent-ready', num => {
       this.opponentReady = true;
-      //playerReady(num);
       if (this.ready) {
-        if(this.currentPlayerType === "user"){
+        if (this.currentPlayerType === "user") {
           this.infoDisplay.style.marginLeft = "725px";
           this.infoDisplay.innerHTML = "Your turn!"
         }
-        else{
+        else {
           this.infoDisplay.style.marginLeft = "650px";
           this.infoDisplay.innerHTML = "Opponent\'s turn!";
         }
         this.playersReady = true;
-        this.dummy = false;
-        //this.readyToPlay();
       }
     })
 
     // Check player status
     this.gameSocket.on('check-players', players => {
       players.forEach((p, i) => {
-        if (p.connected) {
-          //playerConnectedOrDisconnected(i);
-        }
         if (p.ready) {
-          //playerReady(i);
           if (i !== this.playerNumber) {
             this.opponentReady = true;
           }
@@ -260,43 +252,36 @@ export class GameService {
     // On turn received
     this.gameSocket.on('card-flipped', card => {
       this.showOpponentsCard(card);
-      //playGame(socket); 
     })
   }
 
+  // Ready button functionality
   public readyToPlay(): void {
-    if (!this.isConnected) {
-      return;
-    }
-    if(this.ready) return;
+    if (!this.isConnected) return;
+    if (this.ready) return;
     if (!this.ready) {
       this.gameSocket.emit('player-ready');
       this.ready = true;
-      //playerReady(playerNumber);
     }
-   
+
     if (this.playerNumber === 1) {
-      if(this.opponentReady){
-        this.cards =[];
-        this.dummy = false;
+      if (this.opponentReady) {
+        this.cards = [];
       }
       this.cards = [];
       this.start = true;
-        console.log("ONE")
-        this.gameSocket.emit('card-request');
-        this.gameSocket.on('card-sent', value => {
-          console.log(JSON.parse(value));
-          let cardToPush = JSON.parse(value);
-          let card = new Card(cardToPush.id, cardToPush.image);
-          card.shuffledId = cardToPush.shuffledId;
-          this.cards.push(card);
-        })
-        
-        this.dummy = false;
+      // If second player to join, request the cards from the server
+      this.gameSocket.emit('card-request');
+      this.gameSocket.on('card-sent', value => {
+        let cardToPush = JSON.parse(value);
+        let card = new Card(cardToPush.id, cardToPush.image);
+        card.shuffledId = cardToPush.shuffledId;
+        this.cards.push(card);
+      })
     }
+
     if (this.opponentReady) {
       this.playersReady = true;
-      this.dummy = false;
       if (this.currentPlayerType === 'user') {
         this.infoDisplay.style.marginLeft = "725px";
         this.infoDisplay.innerHTML = 'Your turn!';
@@ -308,37 +293,24 @@ export class GameService {
     }
     this.gameSocket.on('play-again', value => {
       this.opponentPlayAgain = value;
-      console.log("Wants to play again...")
-      console.log(value);
     })
 
+    // Handles receiving cards for a rematch
     this.gameSocket.on('card-sent-again', value => {
-      console.log("Pushing...")
       let cardToPush = JSON.parse(value);
       let card = new Card(cardToPush.id, cardToPush.image);
       card.shuffledId = cardToPush.shuffledId;
       this.cards.push(card);
-      console.log("LENGTH: " + this.cards.length);
     })
   }
 
   private emitMove(cardVal): void {
-    console.log("Card val id: " + cardVal.shuffledId);
     this.gameSocket.emit('card-flipped', cardVal.shuffledId);
-    console.log("Flipped")
   }
 
   private playAgainDeckSend(): void {
     for (let i = 0; i < this.cards.length; i++) {
-      console.log(JSON.stringify(this.cards[i]))
       this.gameSocket.emit('send-card', JSON.stringify(this.cards[i]));
     }
-  }
-
-  private playAgainDeckReceive(): void {
-    console.log("INIT: " + this.cards.length);
-    this.cards = [];
-    console.log("AFTER: " + this.cards.length);
-    
   }
 }
