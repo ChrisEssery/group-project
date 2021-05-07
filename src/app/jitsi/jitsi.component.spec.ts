@@ -1,5 +1,5 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-
+import { RouterTestingModule } from '@angular/router/testing';
 import { JitsiComponent } from './jitsi.component';
 
 describe('JitsiComponent', () => {
@@ -8,7 +8,8 @@ describe('JitsiComponent', () => {
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      declarations: [ JitsiComponent ]
+      declarations: [ JitsiComponent ],
+      imports: [ RouterTestingModule ]
     })
     .compileComponents();
   });
