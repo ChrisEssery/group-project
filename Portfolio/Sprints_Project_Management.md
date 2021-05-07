@@ -556,7 +556,9 @@ Another major aim for this sprint was to implement basic features such user logi
 </tr>
 <tr>
   <td>Front-End</td>
-  <td>Stakeholders are able to see a prototype of the memory game.</td>
+  <td>Build basic versions of games and obtain user feedback.</td>
+  <td>As a sponsor, I want the games to be fun and interactive.</td>
+  <td>As a sponsor, I want the games to be fun and interactive.</td>
   <td>The prototype memory game was written using Javascript, html and css since there were many useful online tutorials to model the game on. The problem with this was that we were using Angular with TypeScript because TypeScript speeds up the development experience by catching errors and providing fixes. However,  migrating from JavaScript to TypeScript, the primary language for the Angular application development, took quite a lot of time to complete.</td>
   <td>Despite the fact TypeScript is a superset of JavaScript, and that it is possible to convert JavaScript to TypeScript - by adding a tsconfig.json file to project, integrate with a build tool, change all .js files to .ts files, and check for any errors - this approach did not work, and became a time sink. Given this, it was decided that we would build the memory game from scratch using typescript, and make use of the Angular application development.</td>
 </tr>
