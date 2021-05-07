@@ -87,13 +87,13 @@ Socketio.on('connection', socket => {
 
     connections[playerIndex] = false;
 
-    // Tell everyone what player number just connected
+    // Tell everyone which player number just connected
     socket.broadcast.emit('player-connection', playerIndex);
 
     socket.on('disconnect', () => {
         console.log(`Player ${playerIndex} disconnected`);
         connections[playerIndex] = null;
-        //Tell what player disconnected
+        //Tell which player disconnected
         socket.broadcast.emit('player-connection', playerIndex);
     });
 
@@ -158,13 +158,13 @@ Socketio_mg.on('connection', socket => {
 
     connections_mg[playerIndex_mg] = false;
 
-    // Tell everyone what player number just connected
+    // Tell everyone which player number just connected
     socket.broadcast.emit('player-connection', playerIndex_mg);
 
     socket.on('disconnect', () => {
         console.log(`Player ${playerIndex_mg} disconnected`);
         connections_mg[playerIndex_mg] = null;
-        //Tell what player disconnected
+        //Tell which player disconnected
         socket.broadcast.emit('player-connection', playerIndex_mg);
     });
 
@@ -184,24 +184,27 @@ Socketio_mg.on('connection', socket => {
         }
     })
 
-    // On slot received
+    // On turn received
     socket.on('card-flipped', card => {
         console.log(`Turn taken by ${playerIndex_mg}`, card);
 
-        // Emit move to the other player
+        // Emit card to the other player
         socket.broadcast.emit('card-flipped', card);
     })
 
+    // When a card is received from the client, push it to card array
     socket.on('send-card', card => {
         cardDeck.push(card);
     })
 
+    // When the deck is requested, send all cards back to the client
     socket.on('card-request', () => {
         for (let i = 0; i < cardDeck.length; i++) {
             socket.emit('card-sent', cardDeck[i]);
         }
     })
 
+    // When the deck is requested for a rematch, send all cards back to the client
     socket.on('card-request-again', () => {
         for (let i = 0; i < cardDeck.length; i++) {
             socket.emit('card-sent-again', cardDeck[i]);
@@ -215,16 +218,12 @@ Socketio_mg.on('connection', socket => {
 
     let playAgain = true;
 
+    // Lets opponent know you want to play again
     socket.on('play-again', () => {
         socket.broadcast.emit('play-again', playAgain);
     })
 
-    // On slot reply
-    socket.on('slot-reply', id => {
-        // Forward to the other player
-        socket.broadcast.emit('slot-reply', id);
-    })
-
+    // Lets opponent know if you've won/finished the game
     socket.on('game-over', () => {
         socket.broadcast.emit('game-over', true);
     })
