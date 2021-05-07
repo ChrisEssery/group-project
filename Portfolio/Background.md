@@ -41,7 +41,7 @@ It is fair to say that the Covid-19 pandemic and enforced social distancing meas
 
 </div>
 
-Before going any further, we have to define key terms, specifically loneliness and isolation.
+This is the backdrop against which our analysis should proceed. But before going any further, as a preliminary it is necessary to define key terms, specifically loneliness and isolation.
 
 ### Defining key terms
 
