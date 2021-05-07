@@ -32,6 +32,8 @@ Reconnect, play fun games, and enjoy yourself. With live video chat, you'll be a
 
 * Chris - Coder/Front-end :technologist:
 
+  <td><img src="/Logo/profile-pic-chris.png" width=14%>
+
 * Harri - Organiser/Back-end :prince:
 
   <td><img src="/Logo/profile-pic-harri.png" width=14%>

@@ -164,7 +164,7 @@ Max, who likes design, dedicated most of his time to the FrontEnd. He got involv
 
 ## Communication
 
-In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md). 
+In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md).
 
 <div align="center">
 
@@ -436,7 +436,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 
 ### Evaluation of Sprint
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
+We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. Using the proto-personas proved really useful during the design and build of the start page. For instance, using assumptions about the end-users we were able to identify that the moving title and the background audio might be a little distracting for them, so we decided to make sure that those effects were only present in the start page and did not extend into subsequent pages. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
 
 It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
@@ -621,7 +621,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <br>Sally </a> <br /> As a user, I want to compete and earn points.</td>
  <td>Multiplayer functionality</td>
  <td>Implement multiplayer functionality for connect four</td>
- <td>I think a multiplayer game is a great idea. I really want to be able to compete against my friends and family members as this will really keep me engaged. .</td>
+ <td>I think a multiplayer game is a great idea. I really like that I will be able to compete against my friends and family members as this will really keep me engaged. .</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -729,7 +729,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
  <td>Leaderboard</td>
  <td>Build a leaderboard</td>
- <td>I can now see a leaderboard! Excellent. This all looks straightforward, but it would be good to know what the points represent. Is there any way you could explain this? Either on the screen or through a step by step series of instructions. This would really help.</td>
+ <td>I can now see a leaderboard! Excellent. This all looks straightforward with a clean layout.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
@@ -789,7 +789,7 @@ It was clear, however, that our workload in the other units of term was getting 
 ## Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
-This was our penultimate sprint. By this point we had to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. And the team member who built the memory game was not the team member whose task it was to implement the multiplayer and video chat functionality. We also agreed to make the pages of application responsive, including mobile responsive, complete evaluation of design to report, conduct unit testing, and complete an introduction demo video. These remaining tasks were very important
+This was our penultimate sprint. By this point we had to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. And the team member who built the memory game was not the team member whose task it was to implement the multiplayer and video chat functionality. We also agreed to make the pages of application responsive, including mobile responsive, complete evaluation of design to report, conduct unit testing, and complete an introduction demo video. These remaining tasks were very important.
 
 ### Key points
 

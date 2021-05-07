@@ -719,7 +719,49 @@ In preperation for the back-end a wait-script was added which allowed the MongoD
 Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
 
 ### Multiplayer Functionality
-Placeholder
+
+## WebSockets
+Reliable real-time data communication is essential on the modern Internet. To meet these demands, in 2011 the WebSocket protocol was developed. This protocol allows web applications to send and receive data instantly. It can be used for purposes such as chat applications, location information-based applications or multiplayer games.
+
+The WebSocket protocol works by providing full-duplex (bi-directional, or both ways) communication between the client and a server over a single TCP connection. A HTTP system (which is implemented in your typical webpage) consists of a server that is responsible for responding to HTTP messages from the client; the client sends a request, the server sends a response. With the use of WebSockets, both can send and receive requests simultaneously.
+
+HTTP is stateless, which means that the server does not know where the request is coming from and it treats each request as independent. This functionality is sufficient for the serving of basic webpages, but when data is of increasing complexity and time-sensitivity, such as real-time chat, it falls short. WebSockets are stateful, meaning the server will "remember" the client and can in turn handle the management of communication between multiple clients, or separate groups of clients. 
+
+The process of WebSocket communcation is as follows: 
+
+* The client sends a HTTP handshake request to the server for a WebSocket connection
+* If the server is able to fulfill this request, it sends a successful handshake response, with the HTTP code 101
+* The connection is then upgraded from HTTP to a WebSocket connection
+* TCP is still the underlying protocol and it is full-duplex, allowing bi-directional communication between the client and server
+* When it is time for the connection to terminate, both the client and server can initiate the closing of the connection
+
+![alt text](https://images.techhive.com/images/article/2016/06/websockets-100668229-primary.idge.jpg)
+
+## Socket.io
+One of the key objectives of this project was to enable real-time multiplayer functionality for the games that have been developed for the application. Initially APIs such as PubNub and Phaser.io were explored as potential solutions for this. However, on evaluation, a less fully-featured solution such as WebSockets was deemed more appropriate and Socket.io was chosen to implement it. 
+
+![alt_text](https://miro.medium.com/max/1624/0*xAADmPJN52Yy6XJV.jpg)
+
+Socket.io is a JavaScript library that enables real-time communication for web applications that is predominantly built on the WebSocket protocol. However, it has additional functionality such as implementing HTTP long-polling if a WebSocket connection cannot be initiated and automatic reconnection.
+
+A typical implementation of Socket.io can be seen below:
+
+#### Server-side
+* Create a HTTP server/listener and a Socket.io object
+
+<img width="336" alt="Screenshot 2021-05-07 at 00 16 16" src="https://user-images.githubusercontent.com/29493918/117377857-2018f500-aecc-11eb-9e50-a8a59c928164.png">
+
+* The Socket.io object will then listen on the specified port for a connection and then execute specified code (in this case giving the player a number and emitting the number back to the client)
+
+<img width="398" alt="Screenshot 2021-05-07 at 00 38 10" src="https://user-images.githubusercontent.com/29493918/117378033-856ce600-aecc-11eb-8841-3a66d5b06a57.png">
+
+#### Client-side
+* Create a Socket.io connection to a specified port
+* Wait for specific messages from the server, or emit specific messages to the server
+
+<img width="419" alt="Screenshot 2021-05-07 at 00 41 44" src="https://user-images.githubusercontent.com/29493918/117378383-36738080-aecd-11eb-99c9-b2df7d191409.png">
+
+Overall, Socket.io provided all of the functionality required to delivery the multiplayer aspects of the game in a clean, intuitive fashion.
 
 ### Real-time Video Chat
 Placeholder

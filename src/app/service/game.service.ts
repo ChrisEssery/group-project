@@ -27,6 +27,7 @@ export class GameService {
   gameFinished: boolean = false;
   opponentPlayAgain: boolean = false;
   infoDisplay: any;
+  serverNotFull: boolean = true;
 
   constructor(
     private cardService: CardService,
@@ -60,7 +61,7 @@ export class GameService {
       card.show();
       // Adjusts current player information
       this.currentPlayerType = "enemy";
-      this.infoDisplay.style.marginLeft = "650px";
+      this.infoDisplay.style.marginLeft = "600px";
       this.infoDisplay.innerHTML = "Opponent\'s turn";
     }
 
@@ -84,7 +85,7 @@ export class GameService {
       this.cards[id].show();
       // Adjusts current player information
       this.currentPlayerType = "user";
-      this.infoDisplay.style.marginLeft = "725px";
+      this.infoDisplay.style.marginLeft = "575px";
       this.infoDisplay.innerHTML = "Your turn!";
     }
 
@@ -186,7 +187,7 @@ export class GameService {
     const title = document.querySelector("#title") as HTMLElement;
     title.style.display = 'none';
     this.infoDisplay = document.querySelector("#info") as HTMLElement;
-
+    
     if (this.isConnected) return;
 
     // Opens socket connection
@@ -197,7 +198,9 @@ export class GameService {
     // Gets your player number
     this.gameSocket.on('player-number', num => {
       if (num === -1) {
+        this.infoDisplay.style.marginLeft = "450px";
         this.infoDisplay.innerHTML = "Sorry, the server is full.";
+        this.serverNotFull = false;
       } else {
         this.playerNumber = parseInt(num);
         if (this.playerNumber === 0) {
@@ -226,12 +229,12 @@ export class GameService {
     this.gameSocket.on('opponent-ready', num => {
       this.opponentReady = true;
       if (this.ready) {
-        if (this.currentPlayerType === "user") {
-          this.infoDisplay.style.marginLeft = "725px";
+        if(this.currentPlayerType === "user"){
+          this.infoDisplay.style.marginLeft = "575px";
           this.infoDisplay.innerHTML = "Your turn!"
         }
-        else {
-          this.infoDisplay.style.marginLeft = "650px";
+        else{
+          this.infoDisplay.style.marginLeft = "600px";
           this.infoDisplay.innerHTML = "Opponent\'s turn!";
         }
         this.playersReady = true;
@@ -283,11 +286,11 @@ export class GameService {
     if (this.opponentReady) {
       this.playersReady = true;
       if (this.currentPlayerType === 'user') {
-        this.infoDisplay.style.marginLeft = "725px";
+        this.infoDisplay.style.marginLeft = "575px";
         this.infoDisplay.innerHTML = 'Your turn!';
       }
       if (this.currentPlayerType === 'enemy') {
-        this.infoDisplay.style.marginLeft = "650px";
+        this.infoDisplay.style.marginLeft = "600px";
         this.infoDisplay.innerHTML = 'Opponent\'s turn';
       }
     }
