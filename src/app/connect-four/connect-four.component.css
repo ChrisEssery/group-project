@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+@import '~bootstrap-icons/font/bootstrap-icons';
 
 body {
   background-color: #9c27b0;
@@ -150,6 +151,16 @@ h3 {
   padding-right: 50px;
   padding-left:  60px;
   flex: 0 0 15%;
+}
+
+.button{
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  color: whitesmoke;
+  font-family: 'Luckiest Guy', cursive;
+  text-decoration:none;
+  font-size: 15px;
+  cursor: pointer;
 }
 
 

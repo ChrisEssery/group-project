@@ -49,13 +49,14 @@ const routes: Routes = [
   },
   {
     path: 'connect4',
-    component: ConnectFourComponent
+    component: ConnectFourComponent,
+    canActivate: [AuthGuard] //Prevent unauthorized access
   },
 
   { path: "memorygame", redirectTo: "/start", pathMatch: "full" },
-  { path: "start", component: StartComponent },
-  { path: 'gameplay', component: GameplayComponent },
-  { path: 'ranking', component: RankingComponent }
+  { path: "start", component: StartComponent,canActivate: [AuthGuard]},
+  { path: 'gameplay', component: GameplayComponent ,canActivate: [AuthGuard]},
+  { path: 'ranking', component: RankingComponent,canActivate: [AuthGuard]}
 
 ];
 @NgModule({

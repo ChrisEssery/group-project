@@ -7,12 +7,18 @@ import io from "socket.io-client";
   styleUrls: ['./connect-four.component.css']
 })
 export class ConnectFourComponent implements OnInit {
+  isFriend:boolean = false
 
   constructor() {
   }
 
   ngOnInit(): void {
 
+  }
+  addFriend(e: { preventDefault: () => void; }){
+    e.preventDefault()
+    this.isFriend = true;
+    window.alert('Friend added')
   }
 
   ngAfterViewInit() {
