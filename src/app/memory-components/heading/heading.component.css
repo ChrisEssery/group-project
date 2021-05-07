@@ -21,3 +21,29 @@
   display: none;
   letter-spacing: 4px;
 }
+
+#your_turn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: 'Luckiest Guy', cursive;
+  color: gold;
+  top: 20px;
+  font-size: 60px;
+  margin-left: 575px;
+  display: none;
+  letter-spacing: 4px;
+}
+
+#opponent_turn {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  font-family: 'Luckiest Guy', cursive;
+  color: gold;
+  top: 20px;
+  font-size: 60px;
+  margin-left: 600px;
+  display: none;
+  letter-spacing: 4px;
+}
