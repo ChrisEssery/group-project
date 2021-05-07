@@ -35,7 +35,7 @@ In this final section, we reflect on our application and how far we've come. We 
 
 We now turn to our working practices...
 
-# Microsoft Teams & Discord
+### Microsoft Teams & Discord
 
 Throughout the project we had strong communication between team members through the use of Microsoft Teams. Initially we tried also using the Discord platform and it was useful to share ideas however Microsoft Teams became the main area of team communication.
 
@@ -47,7 +47,7 @@ For the most part Teams was very suitable to our project. However, there were oc
 
 Overall, Microsoft Teams was a very good platform for our collaboration throughout the project given the COVID circumstances. This alongside the effectiveness of our Team members made communication seamless. It may be worth exploring other platforms but for the most part Teams is good choice when it comes to group work.
 
-# Agile and Jira
+### Agile and Jira
 
 The Agile approach suited our project really well and helped everyone manage their workload effectively alongside other university work. With clear and defined tasks allocated to each of us we were able to easily approach weekly sprints. Furthermore, we could analyse what was completed and how it would affect our stakeholders before we moved onto future sprints.
 
@@ -55,7 +55,7 @@ We also utilized the Jira software effectively for our sprints. We started by la
 
 Utilizing the Agile method alongside Jira really helped the team progress, the flexibility meant that we could chip away at tasks while balancing other workloads. Coupling this with Jira meant that our sprints were incredibly effective, well documented and the team could clearly see the progress as our app came to life. 
 
-# Sprints
+### Sprints
 
 With the help of Jira and Microsoft Teams the sprints were made very easy. At the start of each sprint we would allocate people to different tasks depending on their direction. Noting team member tasks in the meeting minutes we could then move them over to Jira to begin the sprint. 
 
@@ -63,7 +63,7 @@ We would then regroup the following week with the current progress. The team mem
 
 Overall, the sprints were managed very effectively. The team did an amazing job to chip away at the work week by week. This meant we weren’t scrambling at the end of the project to get everything done. It allowed us more time for further documentation and to add any extra simple features.
 
-# Github
+### Github
 
 Throughout our project we utilized the version control system known as Github. Github was really important throughout the project. Not only did it hold copies of everything we’d ever done but it complemented our sprints allowing the team to work independently of each other.
 
@@ -73,7 +73,7 @@ Once team members were assigned some of the bigger tasks, they could create thei
 
 Overall, Github was incredibly useful and was easily the most important software used on the project. It gave team members a comfortable place to work in their own branches where others didn’t interfere. The version control was managed very well by the team and we never had any major issues merging across our changes. We would be happy and confident to utilize Github again.
 
-# Teamwork, Communication & Organisation
+### Teamwork, Communication & Organisation
 
 The team itself was a great mix of abilities and interests. All team members were very engaging and positive which really helped us establish early ideas of our app. This made decisions very easy and we could clearly see a direction to head in early on. 
 
