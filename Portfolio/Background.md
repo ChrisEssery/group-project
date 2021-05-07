@@ -33,7 +33,7 @@ In this section, we discuss background literature, complete a state-of-the-art s
 
 In this section, we provide an overview of the background literature relating to social isolation and loneliness among older people. We define key terms and identify public health concerns and current interventions.
 
-It is fair to say that the Covid-19 pandemic and enforced social distancing measures have affected the mental health and wellbeing of older adults. With an increase in levels of loneliness and a rise in social isolation, the consequences of isolating older adults are clear [[**1**]](#references). These figures point to a growing public health issue affecting older members of the population - one that is likely to continue with the growing size of our ageing society, both in the UK and internationally.
+It is fair to say that the Covid-19 pandemic and enforced social distancing measures have affected the mental health and wellbeing of older adults. With a rise in levels of loneliness and increase in social isolation, the consequences of enforced isolation are clear [[**1**]](#references). But there are many factors which underly the emergence of these public health issues. Covid-19 has played its part, and no doubt acted as an accelerant, driving levels above the normal average, but loneliness and isolation among the elderly existed prior to the pandemic. With advances in modern medicine and a rise in the global average life expectancy, we find ourselves in ageing societies without the necessary social care infrastructure to support the elderly. This points to a growing public health issue affecting societies worldwide - one that is likely to continue with the growing size of our ageing populations.
 
 <div align="center">
 
