@@ -116,9 +116,9 @@ With Lizhao and Harri working on the backend they had to maintain good communica
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/ERD1.png)
 
-Upon implementation of this proposed schema we noted a few issues in the design. Firstly, the 'GameManager' part of the collection was largely obsolete and thus was removed. We also decided against the 'avatar' extra for the moment given the large workload we still had. Once all concerns had been discussed between the back-end team, Harri produced the intial database. From there on Lizhao took over in writing her API to write and use the stored data as needed.
+Upon implementation of this proposed schema we noted a few issues in the design. Firstly, the 'GameManager' part of the collection was largely obsolete and thus was removed. We also decided against the 'avatar' extra for the moment given the large workload we still had. Once all concerns had been discussed between the back-end team, Harri produced the intial database. From there on Lizhao took over in writing her API to write and use the stored data as needed. Lizhao needed to make some final tweaks to the database to work alongside the API. A final Database Class Diagram was produced to represent our database below:
 
---Show a final database design schema--
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/DatabaseClassDiagram.png)
 
 ## Middle tier
 
