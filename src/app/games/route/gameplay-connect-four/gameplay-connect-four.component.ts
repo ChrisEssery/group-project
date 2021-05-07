@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router } from "@angular/router";
-import { ConnectFourComponent } from 'src/app/connect-four/connect-four.component';
+import { ConnectFourComponent } from 'src/app/games/connect-4/connect-four/connect-four.component';
 
 @Component({
   selector: 'app-gameplay-connect-four',

@@ -1,6 +1,6 @@
 import { Component, OnInit } from "@angular/core";
-import { RankingService } from "src/app/service/ranking.service";
-import { GameService } from "src/app/service/game.service";
+import { RankingService } from "src/app/games/memory-game/service/ranking.service";
+import { GameService } from "src/app/games/memory-game/service/game.service";
 
 @Component({
   selector: "app-ranking",

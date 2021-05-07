@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import { ConnectFourComponent } from '../../connect-four/connect-four.component'
+import { ConnectFourComponent } from '../../connect-4/connect-four/connect-four.component'
 import { Router } from "@angular/router";
 import { GameplayConnectFourComponent } from '../gameplay-connect-four/gameplay-connect-four.component';
 
