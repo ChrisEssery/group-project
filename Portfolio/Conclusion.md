@@ -35,38 +35,52 @@ In this final section, we reflect on our application and how far we've come. We 
 
 We now turn to our working practices...
 
-#Microsoft Teams & Discord
+# Microsoft Teams & Discord
 
-Throughout the project we had strong communication between team members through the use of Microsoft Teams. Initially we tried also using the Discord platform and it was useful to share ideas however Microsoft Teams became the main area of team communication. 
+Throughout the project we had strong communication between team members through the use of Microsoft Teams. Initially we tried also using the Discord platform and it was useful to share ideas however Microsoft Teams became the main area of team communication.
+
 Microsoft Teams was an excellent platform and we used the group chat effectively for troubleshooting, highlighting progress and further organisation. The individual chats were helpful for team members working closely together on the app or communicating changes being done on the Git repo.
+
 We also had all our meetings on Teams with most of them running smoothly. We would always encourage the use of the camera’s which rarely caused any trouble on the platform. The share feature was also very smooth and allowed team members to show off their progress with ease.
+
 For the most part Teams was very suitable to our project. However, there were occasional issues with the connection to Teams for different members. Also, it noticeably reduced the performance of your laptop which did make it tough for Team members to use while they have a lot of processes running.
+
 Overall, Microsoft Teams was a very good platform for our collaboration throughout the project given the COVID circumstances. This alongside the effectiveness of our Team members made communication seamless. It may be worth exploring other platforms but for the most part Teams is good choice when it comes to group work.
 
-#Agile and Jira
+# Agile and Jira
 
 The Agile approach suited our project really well and helped everyone manage their workload effectively alongside other university work. With clear and defined tasks allocated to each of us we were able to easily approach weekly sprints. Furthermore, we could analyse what was completed and how it would affect our stakeholders before we moved onto future sprints.
+
 We also utilized the Jira software effectively for our sprints. We started by laying out the tasks needed in the ‘To Do’ section. This was a rough draft and some tasks were broken up into multiples later. We then allocated team members in our meetings and moved to the ‘In Progress’ section once they had started. Finally, we could tick of and move tasks to the ‘Done’ pane once team members had progressed. Whilst Jira was helpful, some issues were noted in the way that tasks could still remain even when the sprint had ended. This was minor however and the task would just be added to future sprints. Overall, the platform was very helpful in getting the team organised and added motivation from seeing the tasks being ticked off one by one.
+
 Utilizing the Agile method alongside Jira really helped the team progress, the flexibility meant that we could chip away at tasks while balancing other workloads. Coupling this with Jira meant that our sprints were incredibly effective, well documented and the team could clearly see the progress as our app came to life. 
 
-#Sprints
+# Sprints
 
 With the help of Jira and Microsoft Teams the sprints were made very easy. At the start of each sprint we would allocate people to different tasks depending on their direction. Noting team member tasks in the meeting minutes we could then move them over to Jira to begin the sprint. 
+
 We would then regroup the following week with the current progress. The team members could share what they’ve done whilst the others give encouragement and discuss improvements. We could also discuss the user and stake holder feedback that we would expect should a player of our game use the app at that moment in time.
+
 Overall, the sprints were managed very effectively. The team did an amazing job to chip away at the work week by week. This meant we weren’t scrambling at the end of the project to get everything done. It allowed us more time for further documentation and to add any extra simple features.
 
-#Github
+# Github
 
 Throughout our project we utilized the version control system known as Github. Github was really important throughout the project. Not only did it hold copies of everything we’d ever done but it complemented our sprints allowing the team to work independently of each other.
+
 The team was really effective in it’s use of Github. There were frequent commits on all branches allowing for good version control habits. The team could push forward knowing that their work was always backed-up. This gave us confidence to keep moving forward knowing that any major mistakes could just result in a simple git revert.
+
 Once team members were assigned some of the bigger tasks, they could create their own branches to work in. Team members wouldn’t then clash if issues arose. Many branches were created specifically for the individual games, MongoDB, API building and testing. We could then bring all our branches together under the dev branch and see our app take shape. Whilst effective, this methodology was not greatly organised and we did feel by the end of the project that we had too many branches. It did also impact the merging to our ‘dev’ branch and we needed good communication to avoid any clashes. This is an aspect we could look to improve moving forward in our work practices.
+
 Overall, Github was incredibly useful and was easily the most important software used on the project. It gave team members a comfortable place to work in their own branches where others didn’t interfere. The version control was managed very well by the team and we never had any major issues merging across our changes. We would be happy and confident to utilize Github again.
 
-#Teamwork, Communication & Organisation
+# Teamwork, Communication & Organisation
 
 The team itself was a great mix of abilities and interests. All team members were very engaging and positive which really helped us establish early ideas of our app. This made decisions very easy and we could clearly see a direction to head in early on. 
+
 We discussed the team roles early on to get a good idea of what each of us wanted to be working on. This allowed us to assign members to work on the tutorials which aligned with their interests. These did diverge slightly throughout the life of the project but had no repercussions. Everyone was content with the aspects of the project they chose to do. This really helped the team members push beyond their expectations.
+
 Throughout the project the team were well organised and attended meetings often. The communication was also excellent with all members being very responsive. This made the collaboration easy which reflected well on our projects progress. We effectively documented all our team meetings in detail which you can find [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md).
+
 The team was also excellent on a human level. No-one ever felt outcast and everyone was always supportive and respectful of each other. With this positivity we could easily crack on with the work with little pressure.
 
 ## Reflection of success of project
