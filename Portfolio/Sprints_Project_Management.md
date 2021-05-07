@@ -470,9 +470,12 @@ Another major aim for this sprint was to implement basic features such user logi
 
    * Implement multiplayer functionality for connect four.
    * Research and add video chat to the games.
-   * Build backend (build mongodb models with mongoose).
-   * Build API using express framework and nodejs.
+   * Build backend (build MongoDB models with mongoose).
+   * Build API using express framework and node.js.
    * Implement basic features such as login, signup, logout, etc.
+   * Add a game instance - store game records persistently.
+   * GET user game history.
+   * Authenticate user.
 
 **Attendees:** everyone in attendance.
 
@@ -490,11 +493,14 @@ Another major aim for this sprint was to implement basic features such user logi
 ### Backlog items
 
 ```
-  → Backlog item: implement multiplayer functionality for connect four
-  → Backlog item: add video chat to connect four
-  → Backlog item: build backend (build mongodb models with mongoose)
-  → Backlog item: build API using express framework and nodejs
+  → Backlog item: implement multiplayer functionality for connect four.
+  → Backlog item: add video chat to connect four.
+  → Backlog item: build backend (build MongoDB models with mongoose).
+  → Backlog item: build API using express framework and node.js.
   → Backlog item: implement basic features such as login, signup, logout, etc.
+  → Backlog item: add a game instance - store game records persistently.
+  → Backlog item: GET user game history.
+  → Backlog item: Authenticate user.
 
 ```
 
@@ -518,10 +524,10 @@ Another major aim for this sprint was to implement basic features such user logi
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want a simple login page.</td>
+ <br>Sally </a> <br /> As a user, I want to be able to log in with my credentials.</td>
  <td>Login</td>
- <td>Create a user login</td>
- <td>This login has a nice style and seems relatively easy to navigate. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. In fact, could you add a "how to play" button under the title of each games so that I can click on the button to learn the rules and operations before starting the game? This would be very helpful for me.
+ <td>Authenticate user</td>
+ <td>This login has a nice style and seems relatively easy to navigate, and I am now able to login with my credentials. Brilliant. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. In fact, could you add a "how to play" button under the title of each games so that I can click on the button to learn the rules and operations before starting the game? This would be very helpful for me.
 </td>
 </tr>
 <tr>
@@ -563,10 +569,24 @@ Another major aim for this sprint was to implement basic features such user logi
 </tr>
 <tr>
   <td>Back-End</td>
-  <td>check user authentication.</td>
-  <td>developers are able to prevent unauthorised access from the frontend (request with no valid token) .</td>
+  <td>Check user authentication.</td>
+  <td>Developers are able to prevent unauthorised access from the frontend (request with no valid token) .</td>
   <td>Duplicate codes exist on checking if token valid for every query .</td>
   <td>Create a `middleware.js` as a middleware which can be executed to check the token before each function.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Register new user.</td>
+  <td>Users are able to create an account.</td>
+  <td>User password is stored to the database, which is not a wise choice as the user's credential should not be exposed.</td>
+  <td>Import the package `blueimp-md5` to encrypt the password before saving to the database and delete the original password record.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Authenticate user.</td>
+  <td>Users are able to log in with their credentials.</td>
+  <td>When trying to query a collection with `collection.findOne()` method but always get `undefined`.</td>
+  <td>`.findOne()` returns the response in asynchronus way. We should change the function to async function and add `await` before any operation to the database.</td>
 </tr>
 </table>
 
@@ -604,6 +624,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
    * Implement multiplayer functionality for connect four
    * Add video chat to connect four
    * Database built
+   * Add a game instance - store game records persistently.
 
 
 ### Backlog items
@@ -611,7 +632,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 ```
   → Backlog item: implement multiplayer functionality for memory game
   → Backlog item: add relevant documentation for database
-  → Backlog item: build API using express framework and nodejs
+  → Backlog item: build API using express framework and node.js
   → Backlog item: add features such as leaderboard and recent games and test on those features
 
 ```
@@ -636,10 +657,10 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to compete and earn points.</td>
- <td>Multiplayer functionality</td>
- <td>Implement multiplayer functionality for connect four</td>
- <td>I think a multiplayer game is a great idea. I really like that I will be able to compete against my friends and family members as this will really keep me engaged. .</td>
+ <br>Sally </a> <br /> As a user, I want to earn points and see the results from my past games.</td>
+ <td>Game history</td>
+ <td>GET user game history.</td>
+ <td>I can now view my game history - excellent. I really like that I will be able to see my past efforts.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -672,10 +693,25 @@ The aim of this sprint was to add new features to our product such as a leaderbo
   <th>Solution</th>
 </tr>
 <tr>
-  <td>Front-End</td>
-  <td>Stakeholders are able to see the start page.</td>
-  <td>Insert here</td>
-  <td>Insert solution here and future implementations.</td>
+  <td>Back-End</td>
+  <td>GET user game history.</td>
+  <td>Users are able to view their own game history.</td>
+  <td>Retrieving all records of the game history is redundant and meaningless.</td>
+  <td>Add a `limit` parameter to the URL path, so that the frontend developer can choose the number of records needed to be present on the web page; To check the data type of `limit`, use `if(!limit || isNaN(limit))` to ensure the data type is number.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>UPDATE User Friendlist.</td>
+  <td>Users are able to add friends to their friendlist.</td>
+  <td>N/A.</td>
+  <td>N/A.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Get game's leaderboard.</td>
+  <td>Users are able to view the specific game leaderboard based on the scores.</td>
+  <td>The way game scores are sorted may vary with different games..</td>
+  <td>Add a parameter `order` to the url path when making the request. Set the value 1 for getting the top scores in ascending order, and 0 for getting the lowest scores.</td>
 </tr>
 </table>
 
@@ -729,7 +765,6 @@ We now had to make sure that there was a fruitful integration of the front and b
   → Backlog item: implement video chat for memory game
   → Backlog item: build API using express framework and node.js
   → Backlog item: start introduction demo video
-  → Backlog item: build user profile page
 
 ```
 
@@ -756,7 +791,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <br>Sally </a> <br /> As a user, I want a page to see my game history so I can chart my progress.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
- <td>This profile page feature is just what I was hoping for. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate. Is there some way you could explain the scoring system though, as it is not clear what the scores are for, the memory game or connect four, and also it is not clear how those scores have been calculated.</td>
+ <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
