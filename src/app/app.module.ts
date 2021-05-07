@@ -38,6 +38,7 @@ import { ReadyButtonComponent } from './games/memory-game/memory-components/star
 import { StartConnectFourComponent } from './games/route/start-connect-four/start-connect-four.component';
 import { GameplayConnectFourComponent } from './games/route/gameplay-connect-four/gameplay-connect-four.component';
 import { ConnectFourContainerComponent } from './games/connect-4/connect-four-container/connect-four-container.component';
+import { GameWindowC4Component } from './games/connect-4/game-window-c4/game-window-c4.component';
 
 
 
@@ -72,7 +73,8 @@ import { ConnectFourContainerComponent } from './games/connect-4/connect-four-co
     StartConnectFourComponent,
     ButtonComponent,
     GameplayConnectFourComponent,
-    ConnectFourContainerComponent
+    ConnectFourContainerComponent,
+    GameWindowC4Component
   ],
   imports: [
     BrowserModule,

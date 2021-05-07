@@ -121,6 +121,13 @@ Socketio.on('connection', socket => {
         socket.broadcast.emit('takeSlot', id);
     })
 
+    let playAgain = true;
+
+    // Lets opponent know you want to play again
+    socket.on('play-again', () => {
+        socket.broadcast.emit('play-again', playAgain);
+    })
+
     socket.on('game-over', () => {
         socket.broadcast.emit('game-over', true);
     })
@@ -166,6 +173,13 @@ Socketio_mg.on('connection', socket => {
         connections_mg[playerIndex_mg] = null;
         //Tell which player disconnected
         socket.broadcast.emit('player-connection', playerIndex_mg);
+        // Clears the card deck if both players leave
+        for (const i in connections_mg) {
+            if (connections_mg[i] !== null) {
+                return;
+            }
+        }
+        cardDeck = [];
     });
 
     // On ready

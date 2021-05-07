@@ -108,7 +108,6 @@ export class GameService {
   // Clears the deck and shares between players again
   playAgain(): void {
     this.gameFinished = false;
-    this.router.navigate(["gameplay"]);
     if (!this.opponentPlayAgain) {
       this.gameSocket.emit('play-again');
       this.gameSocket.emit('clear-deck');
