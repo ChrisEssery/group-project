@@ -1,7 +1,5 @@
 import { Component, Injectable, OnInit } from '@angular/core';
 import io from "socket.io-client";
-import { Inject} from '@angular/core';
-
 @Component({
   selector: 'app-connect-four',
   templateUrl: './connect-four.component.html',
@@ -13,6 +11,7 @@ import { Inject} from '@angular/core';
 })
 export class ConnectFourComponent implements OnInit {
   isFriend:boolean = false
+  isGameOver: boolean = false;
 
   playerName: string;
 
@@ -21,6 +20,7 @@ export class ConnectFourComponent implements OnInit {
 
   ngOnInit(): void {
   }
+
   addFriend(e: { preventDefault: () => void; }){
     e.preventDefault()
     this.isFriend = true;
@@ -35,6 +35,7 @@ export class ConnectFourComponent implements OnInit {
     const connectToGameButton = document.querySelector('#connectButton');
     const readyForGameButton = document.querySelector('#readyButton')
     const playerName = document.querySelector('#test') as HTMLElement;
+    const playAgainWindow = document.querySelector('#finish') as HTMLElement;
     
     let currentPlayerType = "user";
     let playerNumber = 0;
@@ -43,12 +44,16 @@ export class ConnectFourComponent implements OnInit {
     let isGameOver = false;
     let slotTaken = -1;
 
+    const gameOver = () =>{
+      this.isGameOver = true;
+    }
+
     connectToGameButton.addEventListener('click', connectToGame);
 
     // Start game
-    function connectToGame() {
+    function connectToGame(this: ConnectFourComponent) {
       // Creates socket to use for the game
-
+      
       const socket = io("http://localhost:3080");
 
       // Gets your player number
@@ -165,6 +170,9 @@ export class ConnectFourComponent implements OnInit {
             displayCurrentPlayer.innerHTML = '';
             var text = playerName.innerHTML + ' Wins!';
             result.innerHTML = text;
+            playAgainWindow.style.visibility = 'visible';
+            playAgainWindow.style.opacity = '1';
+            gameOver();
           }
           //check those squares to see if they all have the class of player-two
           if (
@@ -178,6 +186,7 @@ export class ConnectFourComponent implements OnInit {
             displayCurrentPlayer.innerHTML = '';
             var text = playerName.innerHTML + ' Wins!';
             result.innerHTML = text;
+            gameOver();
           }
         }
       }
@@ -310,5 +319,13 @@ export class ConnectFourComponent implements OnInit {
       [12, 19, 26, 33],
       [13, 20, 27, 34],
     ]
+  }
+
+  get isGameWon(): boolean {
+    return this.isGameOver;
+  }
+  
+  playAgain(){
+
   }
 }

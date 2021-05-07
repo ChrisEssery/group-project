@@ -1,3 +1,11 @@
-
 <app-connect-four></app-connect-four>
 <p id="test">{{connectFour.playerName }}</p>
+ <!--Window for end of gameplay-->
+ <app-game-window id="finish">
+    <div class="game-window-content">
+      <!--Button to play again-->
+      <app-button (click)="connectFour.playAgain()" type="button">
+        Play again
+      </app-button>
+    </div>
+  </app-game-window>

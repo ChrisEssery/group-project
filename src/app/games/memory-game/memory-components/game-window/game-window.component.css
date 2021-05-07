@@ -5,8 +5,8 @@
 	 background: rgba(0, 0, 0, 0.5);
 	 right: 0;
 	 bottom: 0;
-	 opacity: 0;
-	 visibility: hidden;
+	 opacity: inherit;
+	 visibility: inherit;
 	 transition: opacity 0.5s;
 }
  .game-window__content {
