@@ -64,6 +64,7 @@ export class GameService {
       // Adjusts current player information
       this.currentPlayerType = "enemy";
       this.infoDisplay.style.display = 'none';
+      this.yourTurn.style.display = 'none';
       this.opponentTurn.style.display = 'inline';
     }
 
@@ -88,6 +89,7 @@ export class GameService {
       // Adjusts current player information
       this.currentPlayerType = "user";
       this.infoDisplay.style.display = 'none';
+      this.opponentTurn.style.display = 'none';
       this.yourTurn.style.display = 'inline';
     }
 
@@ -190,7 +192,7 @@ export class GameService {
     title.style.display = 'none';
     this.infoDisplay = document.querySelector("#info") as HTMLElement;
     this.yourTurn = document.querySelector('#your_turn') as HTMLElement;
-    this.yourTurn = document.querySelector('#opponent_turn') as HTMLElement;
+    this.opponentTurn = document.querySelector('#opponent_turn') as HTMLElement;
 
     if (this.isConnected) return;
 
@@ -235,10 +237,12 @@ export class GameService {
       if (this.ready) {
         if (this.currentPlayerType === "user") {
           this.infoDisplay.style.display = 'none';
+          this.opponentTurn.style.display = 'none'
           this.yourTurn.style.display = 'inline';
         }
         else {
           this.infoDisplay.style.display = 'none';
+          this.yourTurn.style.display = 'none';
           this.opponentTurn.style.display = 'inline';
         }
         this.playersReady = true;
@@ -291,10 +295,12 @@ export class GameService {
       this.playersReady = true;
       if (this.currentPlayerType === 'user') {
         this.infoDisplay.style.display = 'none';
+        this.opponentTurn.style.display = 'none';
         this.yourTurn.style.display = 'inline';
       }
       if (this.currentPlayerType === 'enemy') {
         this.infoDisplay.style.display = 'none';
+        this.yourTurn.style.display = 'none';
         this.opponentTurn.style.display = 'inline';
       }
     }
