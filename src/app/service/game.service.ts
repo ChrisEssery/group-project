@@ -89,6 +89,7 @@ export class GameService {
       // Adjusts current player information
       this.currentPlayerType = "user";
       this.infoDisplay.style.display = 'none';
+      this.opponentTurn.style.display = 'none';
       this.yourTurn.style.display = 'inline';
     }
 
