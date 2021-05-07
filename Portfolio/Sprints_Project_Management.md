@@ -419,8 +419,9 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -429,6 +430,13 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
   <td>Relational model to show the stakeholders.</td>
   <td>Relational model didn't work for MongoDB</td>
   <td>Relational diagram. We chose a UML diagram, because the relational model didn't work for MongoDB. So, we developed the data model to suit mongoDB style - namely, something object oriented.</td>
+</tr>
+<tr>
+  <td>Back-End</td>
+  <td>Check api path .</td>
+  <td>Developers are able to report the correct error message when there is a request on underfined path</td>
+  <td>Request on invalid url path.</td>
+  <td>Catch all routes at the end of the file for each routes (`/api/games/xxx` or /api/users/xxx`) and return the status code `404</td>
 </tr>
 </table>
 
@@ -540,8 +548,9 @@ Another major aim for this sprint was to implement basic features such user logi
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>User story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -551,7 +560,16 @@ Another major aim for this sprint was to implement basic features such user logi
   <td>The prototype memory game was written using Javascript, html and css since there were many useful online tutorials to model the game on. The problem with this was that we were using Angular with TypeScript because TypeScript speeds up the development experience by catching errors and providing fixes. However,  migrating from JavaScript to TypeScript, the primary language for the Angular application development, took quite a lot of time to complete.</td>
   <td>Despite the fact TypeScript is a superset of JavaScript, and that it is possible to convert JavaScript to TypeScript - by adding a tsconfig.json file to project, integrate with a build tool, change all .js files to .ts files, and check for any errors - this approach did not work, and became a time sink. Given this, it was decided that we would build the memory game from scratch using typescript, and make use of the Angular application development.</td>
 </tr>
+<tr>
+  <td>Back-End</td>
+  <td>check user authentication.</td>
+  <td>developers are able to prevent unauthorised access from the frontend (request with no valid token) .</td>
+  <td>Duplicate codes exist on checking if token valid for every query .</td>
+  <td>Create a `middleware.js` as a middleware which can be executed to check the token before each function.</td>
+</tr>
 </table>
+
+
 
 
 ### Evaluation of Sprint
@@ -646,8 +664,8 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -762,8 +780,8 @@ We now had to make sure that there was a fruitful integration of the front and b
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -869,8 +887,8 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 
 <table>
 <tr>
-  <th>Component of MEAN stack</th>
-  <th>Action</th>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
