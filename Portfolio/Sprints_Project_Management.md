@@ -179,9 +179,9 @@ Because we were familiar with both of these applications, we were able to seamle
 
 ## Documentation of sprints
 
-The sprints are in chronological order, starting with the first sprint in late February all the way up to the final sprint in May.
+The sprints are in chronological order, starting with the first sprint in early March all the way up to the final sprint in the beginning of May.
 
-ADD GANTT CHART
+**ADD GANTT CHART**
 
 We will be referring to the meeting notes, the product backlog, list of key features to be implemented from previous sprints, and the user feedback. Items in the backlog were tagged as 'Done' once it had been completed and implemented.
 
@@ -234,7 +234,7 @@ This was our first sprint. It followed several weeks of meetings regarding the d
 ## Sprint 2 : Start building front-end and design back-end (08.03.21-15.03.21)
 ___
 
-The aim of this sprint was to get something built and pushed onto GitHub. We decided to build four games and assigned two of those games to different team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find any problems or issues they might encounter when using the product and thereby follow the agile methodology.
+The aim of this sprint was to get something built and pushed onto GitHub. From previous weeks, we had decided to build four games. We assigned two of those games to team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find any problems or issues they might encounter when using the product and thereby follow the agile methodology.
 
 ### Key points
 
@@ -242,7 +242,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
   * Browsed previously completed group projects together and took notes.
   * Discussed stakeholder stories and their feedback.
   * Work on documentation with a focus on background research and state-of-the-art survey.
-  * Make data model (we build a relational entity diagram of data model).
+  * Make data model (build a relational entity diagram of data model).
 
 **Attendees:** everyone in attendance.
 
@@ -261,6 +261,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
    → Backlog item: add audio to start page.
    → Backlog item: start building games.
    → Backlog item: design backend.
+   → Backlog item: make data model.
    → Backlog item: conduct background research and state-of-the-art survey.
 
  ```
@@ -420,6 +421,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 </tr>
 <tr>
   <td>Back-End</td>
+  <td>Relational diagram -> UML diagram.</td>
   <td>Relational model to show the stakeholders.</td>
   <td>Relational model didn't work for MongoDB</td>
   <td>Relational diagram. We chose a UML diagram, because the relational model didn't work for MongoDB. So, we developed the data model to suit mongoDB style - namely, something object oriented.</td>
