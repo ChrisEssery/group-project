@@ -236,18 +236,18 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 
 ### Key points
 
-  * Games allocated to team members
+  * Games allocated to team members.
   * Browsed previously completed group projects together and took notes.
   * Discussed stakeholder stories and their feedback.
   * Work on documentation with a focus on background research and state-of-the-art survey.
-  * Make data model (we build a relational entity diagram of data model)
+  * Make data model (we build a relational entity diagram of data model).
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
+   * GitHub protocol established.
+   * User stories created.
    * Paper prototype and paper prototype video shown to users.
    * Update given on progress of games.
    * Browsed previously completed group projects together.
@@ -255,11 +255,11 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 ### New backlog items
 
  ```
-   → Backlog item: design and build start page
-   → Backlog item: add audio to start page
-   → Backlog item: start building games
-   → Backlog item: design backend
-   → Backlog item: conduct background research and state-of-the-art survey
+   → Backlog item: design and build start page.
+   → Backlog item: add audio to start page.
+   → Backlog item: start building games.
+   → Backlog item: design backend.
+   → Backlog item: conduct background research and state-of-the-art survey.
 
  ```
 
@@ -279,7 +279,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
- <td>Paper prototype video.</td>
+ <td>Paper prototype video</td>
  <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, how do we login? </td>
 </tr>
 <tr>
@@ -335,8 +335,8 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Build basic versions of games and obtain user feedback.
    * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
-   * Relational diagram -> UML diagram
-   * API design (routes/data)
+   * Relational diagram -> UML diagram.
+   * Design API.
 
 **Attendees:** everyone in attendance.
 
@@ -345,19 +345,19 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Build start page.
    * Add audio to start page.
    * Memory game and connect four build underway.
-   * Backend design started.
+   * Back-end design started.
    * Documentation underway with a focus on background research and UX design.
 
 
 ### New backlog items
 
 ```
-  → Backlog item: Continue researching video chat APIs
-  → Backlog item: Obtain user feedback on UI wireframe through a questionnaire
-  → Backlog item: Create login
-  → Backlog item: Build basic version of games and obtain feedback
-  → Backlog item: Relational diagram -> UML diagram
-  → Backlog item: API design (routes/data)
+  → Backlog item: continue researching video chat APIs.
+  → Backlog item: obtain user feedback on UI wireframe through a questionnaire.
+  → Backlog item: create login.
+  → Backlog item: build basic version of games and obtain feedback.
+  → Backlog item: relational diagram -> UML diagram.
+  → Backlog item: design API.
 
 ```
 
@@ -472,12 +472,12 @@ Another major aim for this sprint was to implement basic features such user logi
 
 ### Key implementations from previous sprint
 
-   * Obtained feedback from users regarding the start page.
-   * Created UI wireframe and obtain user feedback.
-   * Created and circulated questionnaire regarding UI wireframe.
-   * Started building back-end.
-   * Built basic versions of games and obtained user feedback.
-   * Created a user login.
+   * Obtain feedback from users regarding the start page.
+   * Create UI wireframe and obtain user feedback.
+   * Create and circulated questionnaire regarding UI wireframe.
+   * Start building back-end.
+   * Build basic versions of games and obtained user feedback.
+   * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
 
 
@@ -603,28 +603,28 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
 ### Key points
 
-   * Add features such as leaderboard and recent games and test on those features
-   * Add relevant documentation for database
-   * Implement multiplayer functionality for memory game
-   * Obtain user feedback on the connect four with multiplayer and video chat functionality
+   * Add features such as leaderboard and recent games and test on those features.
+   * Add relevant documentation for database.
+   * Implement multiplayer functionality for memory game.
+   * Obtain user feedback on the connect four with multiplayer and video chat functionality.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Implement multiplayer functionality for connect four
-   * Add video chat to connect four
-   * Database built
+   * Implement multiplayer functionality for connect four.
+   * Add video chat to connect four.
+   * Build database.
    * Add a game instance - store game records persistently.
 
 
 ### Backlog items
 
 ```
-  → Backlog item: implement multiplayer functionality for memory game
-  → Backlog item: add relevant documentation for database
-  → Backlog item: build API using express framework and node.js
-  → Backlog item: add features such as leaderboard and recent games and test on those features
+  → Backlog item: implement multiplayer functionality for memory game.
+  → Backlog item: add relevant documentation for database.
+  → Backlog item: build API using express framework and node.js.
+  → Backlog item: add features such as leaderboard and recent games and test on those features.
 
 ```
 
@@ -650,7 +650,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to earn points and see my game history.</td>
  <td>Game history</td>
- <td>GET user game history.</td>
+ <td>GET user game history</td>
  <td>I can now view my game history - excellent. I really like that I will be able to see my past efforts.</td>
 </tr>
 <tr>
@@ -717,45 +717,41 @@ At this stage, once again, we would have benefited from agreeing on a deadline t
 
 
 
-
-
 ## Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)
 
 ___
 
-The main aim of this sprint was to integrate the front and back-end of the stack. This was essential since we wanted to deploy a MVP as soon as we could before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. We also realised that it was important to get started on our introduction demo video, so we started the video.
-
-We now had to make sure that there was a fruitful integration of the front and back-end. This was a priortiy.
+The main aim of this sprint was to integrate the front and back-end of the stack. This was essential since we wanted to deploy a MVP as soon as we could before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. We also realised that it was important to get started on our introduction demo video, so we started the video. We now had to ensure to successfully integrate the front and back-end.
 
 ### Key points
 
-   * Integrate front-end and back-end
-   * Create angular services for making calls to api
-   * Implement user authentication in the front end
-   * Build user profile page
-   * Build a leaderboard
-   * Start creating the introduction demo video
-   * Implement multiplayer functionality for memory game
+   * Integrate front-end and back-end.
+   * Create angular services for making calls to api.
+   * Implement user authentication in the front end.
+   * Build user profile page.
+   * Build a leaderboard.
+   * Start creating the introduction demo video.
+   * Implement multiplayer functionality for memory game.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Add relevant documentation for database
-   * Obtain user feedback on the connect four multiplayer and video chat functionality
+   * Add relevant documentation for database.
+   * Obtain user feedback on the connect four multiplayer and video chat functionality.
 
 
 ### Backlog items
 
 ```
-  → Backlog item: implement multiplayer functionality for memory game
-  → Backlog item: create angular services for making calls to api
-  → Backlog item: implement user authentication in the front end
-  → Backlog item: integrate front-end and back-end
-  → Backlog item: build a leaderboard
-  → Backlog item: implement video chat for memory game
-  → Backlog item: build API using express framework and node.js
-  → Backlog item: start introduction demo video
+  → Backlog item: implement multiplayer functionality for memory game.
+  → Backlog item: create angular services for making calls to api.
+  → Backlog item: implement user authentication in the front end.
+  → Backlog item: integrate front-end and back-end.
+  → Backlog item: build a leaderboard.
+  → Backlog item: implement video chat for memory game.
+  → Backlog item: build API using express framework and node.js.
+  → Backlog item: start introduction demo video.
 
 ```
 
@@ -839,31 +835,31 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 
 ### Key points
 
-   * Add video chat to memory game
-   * Create test accounts and test both backend and frontend work correctly
-   * Add multiplayer functionality to memory game
-   * Make pages of application responsive, including mobile responsive
-   * Complete evaluation of design to report
-   * Conduct unit testing
-   * Complete introduction demo video
+   * Add video chat to memory game.
+   * Create test accounts and test both backend and frontend work correctly.
+   * Add multiplayer functionality to memory game.
+   * Make pages of application responsive, including mobile responsive.
+   * Complete evaluation of design to report.
+   * Conduct unit testing.
+   * Complete introduction demo video.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Built leaderboard
-   * Build API using express framework and node.js
-   * Added relevant documentation for database
+   * Build leaderboard.
+   * Build API using express framework and node.js.
+   * Add relevant documentation for database.
 
 
 ### Backlog items
 
 ```
-  → Backlog item: complete introduction demo video
-  → Backlog item: create test accounts and test both backend and frontend work correctly
-  → Backlog item: complete remaining subsections of the report
-  → Backlog item: conduct unit testing
-  → Backlog item: implement multiplayer functionality for memory game
+  → Backlog item: complete introduction demo video.
+  → Backlog item: create test accounts and test both backend and frontend work correctly.
+  → Backlog item: complete remaining subsections of the report.
+  → Backlog item: conduct unit testing.
+  → Backlog item: implement multiplayer functionality for memory game.
 
 ```
 
@@ -874,7 +870,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
  <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
- <th>&nbsp; &nbsp; &nbsp; Feedback from Users &nbsp; &nbsp; &nbsp;</th>
+ <th>Feedback from Users</th>
 </tr>
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
@@ -898,7 +894,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <br>Simon </a> <br /> As a product manger, I believe thorough testing is essential</td>
 <td>Testing</td>
 <td>Create test accounts and test both backend and frontend work correctly</td>
-<td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. Backend testing, by contrast, is serves to check for data corruption and data loss. By conducting testing you will be able to identify faults and errors in your code and make corrections and remove bugs where necessary.</td>
+<td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. Backend testing, by contrast, is serves to check for data corruption and data loss. By conducting testing you will be able to identify faults and errors in your code and make corrections - and remove bugs - where necessary. This really is an absolutely essential part of building a product, so make sure that everything is tested thoroughly.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -947,25 +943,25 @@ We also had to complete unit testing on our code, finalise the introduction demo
 ### Key points
 
    * Every team member was tasked to complete subsections of the report.
-   * Finish unit testing
-   * Complete introduction demo video
+   * Finish unit testing.
+   * Complete introduction demo video.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Add video chat to memory game
-   * Add multiplayer functionality to memory game
-   * Make pages of application responsive, including mobile responsive
+   * Add video chat to memory game.
+   * Add multiplayer functionality to memory game.
+   * Make pages of application responsive, including mobile responsive.
 
 ### Backlog items
 
 ```
-  → Backlog item: complete report documentation
-  → Backlog item: conduct unit testing
-  → Backlog item: complete evaluation of design to report
-  → Backlog item: complete introduction demo video
-  → Backlog item: implement multiplayer functionality for memory game
+  → Backlog item: complete report documentation.
+  → Backlog item: conduct unit testing.
+  → Backlog item: complete evaluation of design to report.
+  → Backlog item: complete introduction demo video.
+  → Backlog item: implement multiplayer functionality for memory game.
 
 ```
 
