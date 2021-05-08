@@ -782,6 +782,8 @@ For the purpose of this project, the solution architected was not overly complex
 
 There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
+<img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">
+
 ___
 
 ## Navigate
