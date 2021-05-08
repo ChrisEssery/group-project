@@ -1,6 +1,7 @@
 import { Component, Injectable, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import io from "socket.io-client";
+import { TokenStorageService } from 'src/app/_services/token-storage.service';
 @Component({
   selector: 'app-connect-four',
   templateUrl: './connect-four.component.html',
@@ -12,12 +13,18 @@ import io from "socket.io-client";
 })
 export class ConnectFourComponent implements OnInit {
   isFriend: boolean = false
+  playerData = [];
+  player = {username: "", result: ""};
+  opponent = {username: "", result: ""};
+  username: string;
+  result: string;
 
   isGameOver: boolean = false;
   playerName: string;
   socket: any;
 
-  constructor(private router: Router) {
+  constructor(private router: Router, private tokenStorageService: TokenStorageService) {
+
   }
 
   ngOnInit(): void {
@@ -38,13 +45,14 @@ export class ConnectFourComponent implements OnInit {
     const readyForGameButton = document.querySelector('#readyButton')
     const playerName = document.querySelector('#test') as HTMLElement;
     const playAgainWindow = document.querySelector('#finish') as HTMLElement;
-
     let currentPlayerType = "user";
     let playerNumber = 0;
     let ready = false;
     let opponentReady = false;
     let slotTaken = -1;
     let connected = false;
+    this.username = this.tokenStorageService.getUser();
+    this.player.username = this.username;
 
     connectToGameButton.addEventListener('click', connectToGame);
 
@@ -53,6 +61,9 @@ export class ConnectFourComponent implements OnInit {
       // Creates socket to use for the game
       if (connected) return;
       this.socket = io("http://localhost:3080");
+      // Emits user to other player
+      this.socket.emit('player-name', this.username);
+      console.log(this.username);
       connected = true;
       // Gets your player number
       this.socket.on('player-number', num => {
@@ -147,6 +158,12 @@ export class ConnectFourComponent implements OnInit {
           }
         }
       }
+
+      // Gets opponent information
+      this.socket.on('opponent-information', username => {
+        this.opponent.username = username;
+        console.log(this.opponent.username);
+      })
 
       // Checks if any of the winning combinations are on the board
       const checkBoard = () => {
