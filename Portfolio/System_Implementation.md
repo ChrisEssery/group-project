@@ -768,7 +768,17 @@ Along with multiplayer functionality, providing a real-time video chat solution 
 
 We began researching which services would meet our needs. We explored Twilio, PubNub, Sinch and Jitsi. We ultimately ended up choosing Jitsi, as it provided all the functionality we needed, without additional bloat. Providing we kept the Jitsi logo on the video feed, you are also able to leverage their API for free.
 
-<img src="https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png" width="400" height="500">
+<img src="https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png" width="500" height="400">
+
+Firstly, we needed to call the Jitsi Meet script in the index.html file of the project.
+
+<img width="436" alt="Screenshot 2021-05-08 at 23 09 44" src="https://user-images.githubusercontent.com/29493918/117554929-a8290700-b052-11eb-8d95-2d6ad8ad60d2.png">
+
+We then generated a component to house all of the Jitsi component logic.
+
+<img width="330" alt="Screenshot 2021-05-08 at 23 10 49" src="https://user-images.githubusercontent.com/29493918/117554952-e0c8e080-b052-11eb-9995-41076576a7d0.png">
+
+At this point, we were then easily able to use the component in any of the other components that required the real-time video chat.
 
 ### Deploying to Microsoft Azure
 ![alt_text](https://miro.medium.com/max/3840/1*_HYOZExV1wV2f0OrfZ9YcA.png)
