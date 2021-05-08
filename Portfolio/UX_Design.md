@@ -360,7 +360,7 @@ As with the other stakeholders, tailoring the design of the product to meet thes
 
 ## Wireframes and interaction flow diagrams
 
-Some of the main user stories are represented in the use case diagram below. As you can see, there are also two product manager stories which are closely linked to the user stories.
+Some of the main user stories are represented in the use case diagram below. As you can see, there are also two product manager stories both of which are linked to the user stories.
 
 
 <div align="center">
