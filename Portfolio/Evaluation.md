@@ -13,15 +13,20 @@ In this section, we evaluate our app. We start by evaluating the design of the a
 ## Table of contents
 
 * [**Evaluation of design**](#evaluation-of-design)
-   * [Strengths](#strengths)
-   * [Weaknesses](#weaknesses)
-   * [Lessons learned](#lessons-learned)
+  * [Methods used](#methods-used)
+    * [Paper prototyping](#paper-prototyping)
+    * [Wireframing](#wireframing)
+    * [Questionnaires](#questionnaires)
+    * [User stories](#user-stories)
+    * [Heuristics](#heuristics)
+    * [Other possible methods](#other-possible-methods)
+    * [Timeline of evaluation of design](#timeline-of-evaluation-of-design)
 * [**Unit testing**](#unit-testing)
-   * [Front-End](#frontend)
-   * [Back-End](#backend)
+  * [Front-End](#frontend)
+  * [Back-End (AUTOMATE API TESTING)](#back-end-automate-api-testing)
+  * [Testing implementation](#testing-implementation)
 * [**User acceptance testing**](#user-acceptance-testing)
-   * [User acceptance testing](#user-acceptance-testing)
-   * [Findings and implications](#findings-and-implications)
+  * [Findings and implications](#findings-and-implications)
 
 
 ## Evaluation of design
