@@ -767,7 +767,8 @@ Overall, Socket.io provided all of the functionality required to delivery the mu
 Placeholder
 
 ### Deploying to Microsoft Azure
-Placeholder
+![alt_text](https://miro.medium.com/max/3840/1*_HYOZExV1wV2f0OrfZ9YcA.png)
+The platform chosen to deploy a live version of the application was Microsoft's cloud platform, Azure as one of our team members, Chris, holds Microsoft-accredited certifcations for the platform. 
 
 ___
 
