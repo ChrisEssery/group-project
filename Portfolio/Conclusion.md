@@ -28,7 +28,7 @@ In this final section, we reflect on our application and how far we've come. We 
   * [How well did our project fulfil the brief?](#how-well-did-our-project-fulfil-the-brief?)
   * [Were objectives met?](#were-objectives-met?)
   * [How did we use 'serious play' in our application?](#how-did-we-use-serious-play-in-our-application)
-* [**Impact of Covid-19s**](#social-and-ethical-implications)
+* [**Impact of Covid-19**](#social-and-ethical-implications)
   * [How Covid-19 affected our project](#how-covid-19-affected-our-project)
 * [**Social and ethical implications**](#social-and-ethical-implications)
   * [Our ethical responsibilities](#our-ethical-responsibilities)
@@ -44,7 +44,7 @@ In this final section, we reflect on our application and how far we've come. We 
 
 ## Reflection on working practices
 
-We now turn to our working practices. In particular, we discuss our main lines of communication, application of the Agile methodology and management of sprints, as well as how we used GitHub, and how we worked as a team.
+We now turn to our working practices. In particular, we discuss our main lines of communication, application of the Agile methodology, and management of sprints, as well as assess how we used GitHub and worked as a team.
 
 
 ### Our working practices
@@ -171,7 +171,7 @@ We now turn to a discussion of the impact of Covid-19. In this section we will g
 
 The outbreak of COVID-19 in March, and the subsequent lockdowns running up to the end of April affected each us in many ways. It is to this topic we now turn our attention. In particular, we will cover the main ways in which the pandemic affected our project.
 
-The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. This meant that we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding side of things. The second issue we faced was the stress component of the pandemic. Not only did we feel increased levels of stress due to the existential threat of the virus, we also found that the masters conversion was especially challenging given that we had so few face-to-face interactions with tutors, TAs and other students. This certainly had an impact on the experience of the masters.
+The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. As a result, we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding and documentation side of things. The other issue we faced during this time was the stress component of the pandemic. Not only did we feel increased levels of stress due to the existential threat of the virus, but we also found that the MSc conversion was especially challenging given we had no face-to-face interactions with tutors, TAs or fellow students in the second term.
 
 In relation to our group project,
 
@@ -186,7 +186,7 @@ First, we will turn to our ethical responsibilities as moral individuals, using 
 
 ### Normative ethics and ethical frameworks
 
-To determine whether our approach was morally permissible, we can apply the theories of normative ethics. According to deontological and virtue ethics perspectives, our project should have complied with some ethical codes of conduct. This is because compliance with codes of conduct ensures conformity to universal rules, norms and core values, which is in accordance with deontological and virtue ethics since both theories require adherence to rules and values. Failing to adhere to these rules and values, therefore, amounts to unethical behaviour. In light of this, we decided to follow the BSC code of conduct, a value-based code of ethics for IT professionals. We decided this would be appropriate to use as an ethical framework to guide our actions and decisions during the project, and which aligns with the goals of normative ethics.
+To determine whether our approach was morally permissible, we can apply the theories of normative ethics. According to deontological and virtue ethics perspectives, our project should have complied with some ethical codes of conduct. This is because compliance with codes of conduct ensures conformity to universal rules, norms and core values, which is in accordance with deontological and virtue ethics since both theories require adherence to rules and values. Failing to adhere to these rules and values, therefore, amounts to unethical behaviour. In light of this, we decided to follow the [BSC code of conduct, a value-based code of ethics for IT professionals](https://www.bcs.org/membership/become-a-member/bcs-code-of-conduct/). We decided this would be appropriate to use as an ethical framework to guide our actions and decisions during the project, and which aligns with the goals of normative ethics.
 
 By explicitly citing this as our code of conduct, we felt that we would be more likely to avoid behaving unethically, and that if we were challenged on ethical grounds despite having followed this code of conduct, we would be able to justify our actions by referring to it. This, we felt, would be particularly important in relation to working practices concerned with the way we handled and stored people's data. In addition to this, from a consequentialist perspective, conformance to the BSC arguably produces a morally good outcome, which focuses on mitigating risk and maximising human welfare.
 
@@ -224,13 +224,14 @@ There is, we feel, a lot of scope for adding to and extending the features of ou
 - *ADD MORE IDEAS/FLESH OUT THE IDEAS BELOW* -
 
 ### Adding more games
-
+EDIT
 One possible extension concerns adding more games to the platform. When we began this project we planned to have four games to choose from. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning MVP with two games at an early stage in the agile cycle than to deploy one with four games at the very end of the the lifecycle. There is also scope to go beyond four games, and add a number of different games with different gaming categories such as cognitively challenging games, memory games, fun games, social games, cooperative games.
 
 However, this extension would have to be moderated since the core idea behind our application is to connect older adults together and make sure that that the platform is easy enough to use so that their lower levels of digital literacy don't exclude them from using our product.
 
+Firstly, expanding on the multiplayer of our app would be paramount upon releasing of the app to the public. The app currently does not include any form of matchmaking and is limited to just two players within one gaming session. Obviously, the implementation of the matchmaking is too substantial to be fully implemented due to the time constraints. This is a good step to take the app forward should it be released to the public.
 
-
+Another aspect of the app which could be further extended is the selection of games. Originally we were expecting around four games to try to incorporate into our app. However, alongside working in the video and other functionality this was not feasible. The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on.
 
 ### Difficulty level
 
@@ -241,17 +242,19 @@ It’s important for the end=users to find games that are challenging but not so
 Another extension concerns adding an 'invite friends to play' feature.
 
 
+### Add competition feature and rewards
+
+Another possible extension concerns adding a competition feature whereby players can create contests among friends and/or simply compete against friends to win rewards. there are monthly contests and competitions...or something along those lines.
+
 ### Adding better instructions
 
 A further extension concerns
 
 - *ADD MORE IDEAS* -
 
-* Firstly, expanding on the multiplayer of our app would be paramount upon releasing of the app to the public. The app currently does not include any form of matchmaking and is limited to just two players within one gaming session. Obviously, the implementation of the matchmaking is too substantial to be fully implemented due to the time constraints. This is a good step to take the app forward should it be released to the public.
+### Expansion of front-end and back-end testing
 
-* Another aspect of the app which could be further extended is the selection of games. Originally we were expecting around four games to try to incorporate into our app. However, alongside working in the video and other functionality this was not feasible. The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on.
-
-* Our app could also be improved via the expansion of our front-end functional testing. Currently you can see the outline of our testing for the front-end below. Whilst this covers a good range of the components on our app we have not been able to test the individual game components thoroughly. It would be nice to expand on this for further robustness prior to release.
+Our app could also be improved via the expansion of our front-end functional testing. Currently you can see the outline of our testing for the front-end below. Whilst this covers a good range of the components on our app we have not been able to test the individual game components thoroughly. It would be nice to expand on this for further robustness prior to release.
 
 
 ## Impact of our work
