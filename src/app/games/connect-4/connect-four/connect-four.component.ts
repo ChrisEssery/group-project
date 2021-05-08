@@ -2,6 +2,7 @@ import { Component, Injectable, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import io from "socket.io-client";
 import { TokenStorageService } from 'src/app/_services/token-storage.service';
+import { DataService } from 'src/app/_services/data.service';
 @Component({
   selector: 'app-connect-four',
   templateUrl: './connect-four.component.html',
@@ -11,20 +12,33 @@ import { TokenStorageService } from 'src/app/_services/token-storage.service';
 @Injectable({
   providedIn: "root"
 })
+
 export class ConnectFourComponent implements OnInit {
   isFriend: boolean = false
-  playerData: any;
-  player = {username: "", result: ""};
-  opponent = {username: "", result: ""};
-  username: string;
-  opponentName: string;
-  result: string;
 
   isGameOver: boolean = false;
-  playerName: string;
-  gameSocket: any;
+  socket: any;
+  squares: any;
+  result: any;
+  displayCurrentPlayer: any;
+  infoDisplay: any;
+  connectToGameButton: any;
+  readyForGameButton: any;
+  playerName: any;
+  playAgainWindow: any;
+  currentPlayerType: string = 'user';
+  playerNumber: number = 0;
+  ready: boolean = false;
+  opponentReady: boolean = false;
+  slotTaken: number = -1;
+  connected: boolean = false;
+  username: string;
+  player = {username: "", result: ""};
+  opponent = {username: "", result: ""};
+  playerData = [] as any;
+  winningArrays = [] as any;
 
-  constructor(private router: Router, private tokenStorageService: TokenStorageService) {
+  constructor(private router: Router, private tokenStorageService: TokenStorageService, private dataService: DataService) {
     this.username = tokenStorageService.getUser();
     this.player.username = this.username;
   }
@@ -39,253 +53,19 @@ export class ConnectFourComponent implements OnInit {
   }
 
   ngAfterViewInit() {
-    const squares = document.querySelectorAll('.grid div')
-    const result = document.querySelector('#result')
-    const displayCurrentPlayer = document.querySelector('#current-player')
-    const infoDisplay = document.querySelector('#space');
-    const connectToGameButton = document.querySelector('#connectButton');
-    const readyForGameButton = document.querySelector('#readyButton')
-    const playerName = document.querySelector('#test') as HTMLElement;
-    const playAgainWindow = document.querySelector('#finish') as HTMLElement;
-    let currentPlayerType = "user";
-    let playerNumber = 0;
-    let ready = false;
-    let opponentReady = false;
-    let slotTaken = -1;
-    let connected = false;
-    const username = this.username;
-    let player = {username: "", result: ""};
-    let opponent = {username: "", result: ""};
-    const opponentName = this.opponentName;
-    let playerData = [];
-    
+    this.squares = document.querySelectorAll('.grid div')
+    this.result = document.querySelector('#result')
+    this.displayCurrentPlayer = document.querySelector('#current-player')
+    this.infoDisplay = document.querySelector('#space');
+    this.connectToGameButton = document.querySelector('#connectButton');
+    this.readyForGameButton = document.querySelector('#readyButton')
+    this.playerName = document.querySelector('#test') as HTMLElement;
+    this.playAgainWindow = document.querySelector('#finish') as HTMLElement;
 
-    connectToGameButton.addEventListener('click', connectToGame);
-
-    // Start game
-    function connectToGame(this: ConnectFourComponent) {
-      // Creates socket to use for the game
-      if (connected) return;
-      const socket = io("http://localhost:3080");
-      // Emits user to other player
-      socket.emit('player-name', username);
-      connected = true;
-      // Gets your player number
-      socket.on('player-number', num => {
-        if (num === -1) {
-          infoDisplay.innerHTML = "Sorry, the server is full.";
-        } else {
-          playerNumber = parseInt(num);
-          if (playerNumber === 1) {
-            currentPlayerType = "enemy";
-          }
-          // Get other player status
-          socket.emit('check-players');
-        }
-      })
-
-      // Another player has connected or disconnected
-     socket.on('player-connection', num => {
-        console.log(`Player number ${num} has connected or disconnected`);
-        playerConnectedOrDisconnected(num);
-      })
-
-      // On enemy ready
-      socket.on('opponent-ready', num => {
-        opponentReady = true;
-        if (ready) {
-          playGame(socket);
-        }
-      })
-
-      // Check player status
-      socket.on('check-players', players => {
-        players.forEach((p, i) => {
-          if (p.connected) {
-            playerConnectedOrDisconnected(i);
-          }
-          if (p.ready) {
-            if (i !== playerNumber) {
-              opponentReady = true;
-            }
-          }
-        })
-      })
-
-      // Ready button click
-      readyForGameButton.addEventListener('click', () => {
-        playGame(socket);
-      })
-
-      // On turn received
-      socket.on('takeSlot', id => {
-        opponentTurn(id);
-        playGame(socket);
-      })
-
-      // Makes player name bold on connection
-      function playerConnectedOrDisconnected(num) {
-        let player = `.p${parseInt(num) + 1}`;
-        if (parseInt(num) === playerNumber) {
-          let myElement = <HTMLElement><any>document.querySelector(player);
-          myElement.style.fontWeight = 'bold';
-          var textToChange = myElement.childNodes[0];
-          textToChange.nodeValue = playerName.innerText + "   ";
-        }
-        if (playerNumber === 0) {
-          let p2 = <HTMLElement><any>document.querySelector(`.p2`);
-          p2.style.display = 'none';
-        }
-        if (playerNumber === 1) {
-          let p1 = <HTMLElement><any>document.querySelector(`.p1`);
-          p1.style.display = 'none';
-        }
-      }
-
-      // Emits ready signal and checks if game is over
-      const playGame = (socket) => {
-        socket.on('game-over', over => {
-          this.isGameOver = over;
-          if(currentPlayerType === 'user'){
-            player.result = "LOSS";
-            opponent.result = "WIN";
-          }
-          else{
-            opponent.result = "LOSS";
-            player.result = "WIN";
-          }
-          player.username = username; 
-          playerData.push(player);
-          playerData.push(opponent);
-          this.playerData  = [];
-          this.playerData[0] = playerData[0];
-          this.playerData[1] = playerData[1];
-          console.log(this.playerData)
-          if(playerNumber === 0){
-            this.gameResult;
-          }
-        })
-        if (this.isGameOver) {
-          console.log(this.playerData);
-          return;
-        }
-        if (!ready) {
-          socket.emit('player-ready');
-          ready = true;
-        }
-        if (opponentReady) {
-          if (currentPlayerType === 'user') {
-            displayCurrentPlayer.innerHTML = 'Your turn!';
-          }
-          if (currentPlayerType === 'enemy') {
-            displayCurrentPlayer.innerHTML = 'Opponent\'s turn';
-          }
-        }
-      }
-
-      // Gets opponent information
-      socket.on('opponent-information', username => {
-        opponent.username = username;
-      })
-
-      // Checks if any of the winning combinations are on the board
-      const checkBoard = () => {
-        for (let y = 0; y < winningArrays.length; y++) {
-          const square1 = squares[winningArrays[y][0]]
-          const square2 = squares[winningArrays[y][1]]
-          const square3 = squares[winningArrays[y][2]]
-          const square4 = squares[winningArrays[y][3]]
-
-          //check those squares to see if they all have the class of player-one
-          if (
-            square1.classList.contains('player-one') &&
-            square2.classList.contains('player-one') &&
-            square3.classList.contains('player-one') &&
-            square4.classList.contains('player-one')
-          ) {
-            this.isGameOver = true;
-            socket.emit('game-over');
-            displayCurrentPlayer.innerHTML = '';
-            var text = playerName.innerHTML + ' Wins!';
-            result.innerHTML = text;
-            playAgainWindow.style.visibility = 'visible';
-            playAgainWindow.style.opacity = '1';
-          }
-          //check those squares to see if they all have the class of player-two
-          if (
-            square1.classList.contains('player-two') &&
-            square2.classList.contains('player-two') &&
-            square3.classList.contains('player-two') &&
-            square4.classList.contains('player-two')
-          ) {
-            this.isGameOver = true;
-            socket.emit('game-over');
-            displayCurrentPlayer.innerHTML = '';
-            var text = playerName.innerHTML + ' Wins!';
-            result.innerHTML = text;
-            playAgainWindow.style.visibility = 'visible';
-            playAgainWindow.style.opacity = '1';
-          }
-        }
-      }
-
-      // Adds game functionality to each slot on the board - emits to second player and swaps whose turn it is
-      for (let i = 0; i < squares.length; i++) {
-        (squares[i] as HTMLElement).dataset.id = String(i);
-        squares[i].addEventListener("click", () => {
-          //if the square below your current square is taken, you can go ontop of it
-          if (currentPlayerType === 'user' && ready && opponentReady && !this.isGameOver) {
-            if (squares[i + 7].classList.contains('taken') && !squares[i].classList.contains('taken') || squares[i + 7].classList.contains('bottom') && !squares[i].classList.contains('taken')) {
-              if (playerNumber == 0) {
-                squares[i].classList.add('taken')
-                squares[i].classList.add('player-one')
-                let sq = (squares[i] as HTMLElement).dataset.id;
-                slotTaken = parseInt(sq)
-                socket.emit('takeSlot', slotTaken);
-                checkBoard()
-                currentPlayerType = 'enemy'
-                playGame(socket);
-              } else if (playerNumber == 1) {
-                squares[i].classList.add('taken')
-                squares[i].classList.add('player-two')
-                let sq = (squares[i] as HTMLElement).dataset.id;
-                slotTaken = parseInt(sq)
-                socket.emit('takeSlot', slotTaken);
-                checkBoard()
-                currentPlayerType = 'enemy'
-                playGame(socket);
-              }
-            } else alert('You can\'t go here!')
-          }
-        })
-      }
-
-      // Takes the opponent's based on the slot received 
-      function opponentTurn(id) {
-        if (playerNumber == 0) {
-          playerNumber = 1;
-        }
-        else {
-          playerNumber = 0;
-        }
-        if (squares[id + 7].classList.contains('taken') && !squares[id].classList.contains('taken') || squares[id + 7].classList.contains('bottom') && !squares[id].classList.contains('taken')) {
-          if (playerNumber == 0) {
-            squares[id].classList.add('taken')
-            squares[id].classList.add('player-one')
-            playerNumber = 1;
-          } else if (playerNumber == 1) {
-            squares[id].classList.add('taken')
-            squares[id].classList.add('player-two')
-            playerNumber = 0;
-          }
-        } else alert('You can\'t go here!')
-        currentPlayerType = 'user';
-        checkBoard()
-      }
-    }
+    this.connectToGameButton.addEventListener('click', this.connectToGame());
 
     // All possible winning combinations
-    const winningArrays = [
+     this.winningArrays = [
       [0, 1, 2, 3],
       [41, 40, 39, 38],
       [7, 8, 9, 10],
@@ -358,13 +138,247 @@ export class ConnectFourComponent implements OnInit {
     ]
   }
 
+  // Start game
+  connectToGame() {
+    // Creates socket to use for the game
+    if (this.connected) return;
+    this.socket = io("http://localhost:3080");
+    // Emits user to other player
+    this.socket.emit('player-name', this.username);
+    this.connected = true;
+    // Gets your player number
+    this.socket.on('player-number', num => {
+      if (num === -1) {
+        this.infoDisplay.innerHTML = "Sorry, the server is full.";
+      } else {
+        this.playerNumber = parseInt(num);
+        if (this.playerNumber === 1) {
+          this.currentPlayerType = "enemy";
+        }
+        // Get other player status
+        this.socket.emit('check-players');
+      }
+    })
+
+    // Another player has connected or disconnected
+    this.socket.on('player-connection', num => {
+      console.log(`Player number ${num} has connected or disconnected`);
+      this.playerConnectedOrDisconnected(num);
+    })
+
+    // On enemy ready
+    this.socket.on('opponent-ready', num => {
+      this.opponentReady = true;
+      if (this.ready) {
+        this.playGame(this.socket);
+      }
+    })
+
+    // Check player status
+    this.socket.on('check-players', players => {
+      players.forEach((p, i) => {
+        if (p.connected) {
+          this.playerConnectedOrDisconnected(i);
+        }
+        if (p.ready) {
+          if (i !== this.playerNumber) {
+            this.opponentReady = true;
+          }
+        }
+      })
+    })
+
+    // Ready button click
+    this.readyForGameButton.addEventListener('click', () => {
+      this.playGame(this.socket);
+    })
+
+    // On turn received
+    this.socket.on('takeSlot', id => {
+      this.opponentTurn(id);
+      this.playGame(this.socket);
+    })
+
+    // Gets opponent information
+    this.socket.on('opponent-information', username => {
+      this.opponent.username = username;
+    })
+
+
+    // Adds game functionality to each slot on the board - emits to second player and swaps whose turn it is
+    for (let i = 0; i < this.squares.length; i++) {
+      (this.squares[i] as HTMLElement).dataset.id = String(i);
+      this.squares[i].addEventListener("click", () => {
+        //if the square below your current square is taken, you can go ontop of it
+        if (this.currentPlayerType === 'user' && this.ready && this.opponentReady && !this.isGameOver) {
+          if (this.squares[i + 7].classList.contains('taken') && !this.squares[i].classList.contains('taken') || this.squares[i + 7].classList.contains('bottom') && !this.squares[i].classList.contains('taken')) {
+            if (this.playerNumber == 0) {
+              this.squares[i].classList.add('taken')
+              this.squares[i].classList.add('player-one')
+              let sq = (this.squares[i] as HTMLElement).dataset.id;
+              this.slotTaken = parseInt(sq)
+              this.socket.emit('takeSlot', this.slotTaken);
+              this.checkBoard()
+              this.currentPlayerType = 'enemy'
+              this.playGame(this.socket);
+            } else if (this.playerNumber == 1) {
+              this.squares[i].classList.add('taken')
+              this.squares[i].classList.add('player-two')
+              let sq = (this.squares[i] as HTMLElement).dataset.id;
+              this.slotTaken = parseInt(sq)
+              this.socket.emit('takeSlot', this.slotTaken);
+              this.checkBoard()
+              this.currentPlayerType = 'enemy'
+              this.playGame(this.socket);
+            }
+          } else alert('You can\'t go here!')
+        }
+      })
+    }
+  }
+
+   // Makes player name bold on connection
+   playerConnectedOrDisconnected(num) {
+    let player = `.p${parseInt(num) + 1}`;
+    if (parseInt(num) === this.playerNumber) {
+      let myElement = <HTMLElement><any>document.querySelector(player);
+      myElement.style.fontWeight = 'bold';
+      var textToChange = myElement.childNodes[0];
+      textToChange.nodeValue = this.playerName.innerText + "   ";
+    }
+    if (this.playerNumber === 0) {
+      let p2 = <HTMLElement><any>document.querySelector(`.p2`);
+      p2.style.display = 'none';
+    }
+    if (this.playerNumber === 1) {
+      let p1 = <HTMLElement><any>document.querySelector(`.p1`);
+      p1.style.display = 'none';
+    }
+  }
+
+  // Takes the opponent's based on the slot received 
+  opponentTurn(id) {
+    if (this.playerNumber == 0) {
+      this.playerNumber = 1;
+    }
+    else {
+      this.playerNumber = 0;
+    }
+    if (this.squares[id + 7].classList.contains('taken') && !this.squares[id].classList.contains('taken') || this.squares[id + 7].classList.contains('bottom') && !this.squares[id].classList.contains('taken')) {
+      if (this.playerNumber == 0) {
+        this.squares[id].classList.add('taken')
+        this.squares[id].classList.add('player-one')
+        this.playerNumber = 1;
+      } else if (this.playerNumber == 1) {
+        this.squares[id].classList.add('taken')
+        this.squares[id].classList.add('player-two')
+        this.playerNumber = 0;
+      }
+    } else alert('You can\'t go here!')
+    this.currentPlayerType = 'user';
+    this.checkBoard()
+  }
+
+  // Checks if any of the winning combinations are on the board
+ checkBoard(){
+    for (let y = 0; y < this.winningArrays.length; y++) {
+      const square1 = this.squares[this.winningArrays[y][0]]
+      const square2 = this.squares[this.winningArrays[y][1]]
+      const square3 = this.squares[this.winningArrays[y][2]]
+      const square4 = this.squares[this.winningArrays[y][3]]
+
+      //check those squares to see if they all have the class of player-one
+      if (
+        square1.classList.contains('player-one') &&
+        square2.classList.contains('player-one') &&
+        square3.classList.contains('player-one') &&
+        square4.classList.contains('player-one')
+      ) {
+        this.isGameOver = true;
+        this.socket.emit('game-over');
+        this.displayCurrentPlayer.innerHTML = '';
+        var text = this.playerName.innerHTML + ' Wins!';
+        this.result.innerHTML = text;
+        this.playAgainWindow.style.visibility = 'visible';
+        this.playAgainWindow.style.opacity = '1';
+      }
+      //check those squares to see if they all have the class of player-two
+      if (
+        square1.classList.contains('player-two') &&
+        square2.classList.contains('player-two') &&
+        square3.classList.contains('player-two') &&
+        square4.classList.contains('player-two')
+      ) {
+        this.isGameOver = true;
+        this.socket.emit('game-over');
+        this.displayCurrentPlayer.innerHTML = '';
+        var text = this.playerName.innerHTML + ' Wins!';
+        this.result.innerHTML = text;
+        this.playAgainWindow.style.visibility = 'visible';
+        this.playAgainWindow.style.opacity = '1';
+      }
+    }
+  }
+
+  // Emits ready signal and checks if game is over
+  playGame(socket){
+    socket.on('game-over', over => {
+      this.isGameOver = over;
+    })
+    if (this.isGameOver) {
+      if(this.playerNumber === 0){
+        this.setGameResult();
+      }
+      return;
+    }
+    if (!this.ready) {
+      socket.emit('player-ready');
+      this.ready = true;
+    }
+    if (this.opponentReady) {
+      if (this.currentPlayerType === 'user') {
+        this.displayCurrentPlayer.innerHTML = 'Your turn!';
+      }
+      if (this.currentPlayerType === 'enemy') {
+        this.displayCurrentPlayer.innerHTML = 'Opponent\'s turn';
+      }
+    }
+  }
+
   playAgain() {
   this.router.navigate(['connect4start']).then(() => {
     window.location.reload();
   });
   }
 
+  setGameResult(){
+    if(this.currentPlayerType === 'user'){
+      this.player.result = "LOSS";
+      this.opponent.result = "WIN";
+    }
+    else{
+      this.opponent.result = "LOSS";
+      this.player.result = "WIN";
+    }
+    this.playerData.push(this.player);
+    this.playerData.push(this.opponent);
+    console.log(this.playerData)
+  }
+
   get gameResult(){
     return this.playerData;
+  }
+
+  //make the call to api to store the gameinstance data
+  addGameInstance(playerData:any){
+    let gameInfo = {"players": playerData}
+    this.dataService.addGameInstance("connect4", gameInfo).subscribe(
+      (data:any)=>{
+        console.log(data.result)
+      },
+      error=>{
+        console.log(error.error);
+      }
+    )
   }
 }

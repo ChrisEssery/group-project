@@ -179,9 +179,9 @@ Because we were familiar with both of these applications, we were able to seamle
 
 ## Documentation of sprints
 
-The sprints are in chronological order, starting with the first sprint in late February all the way up to the final sprint in May.
+The sprints are in chronological order, starting with the first sprint in early March all the way up to the final sprint in the beginning of May.
 
-ADD GANTT CHART
+**ADD GANTT CHART**
 
 We will be referring to the meeting notes, the product backlog, list of key features to be implemented from previous sprints, and the user feedback. Items in the backlog were tagged as 'Done' once it had been completed and implemented.
 
@@ -198,10 +198,11 @@ Now, let's turn to the weekly sprints.
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github. We tried to develop our understanding of the basic operations of GitHub, including the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). In addition, we began by adding to the readme in our repository. We agreed on the main channels of communication we'd use, namely Microsoft Teams and Discord, and decided to create stakeholder stories, including user stories, to help guide our development. We also finalised our decision to build a online multiplayer game plaform for the elderly with video chat, and from previous weeks we had decided to call the product 'NotSoBored Games'.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github. We tried to develop our understanding of the basic operations of GitHub, including the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). In addition, we began by adding to the readme in our repository, and starting on documentation. We agreed on the main channels of communication we'd use, namely Microsoft Teams and Discord, and decided to create stakeholder stories, including user stories, to help guide use during the development. We agreed to build a start page for our application, and we finalised our decision to build a online multiplayer game plaform for the elderly with video chat. Also, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
 
    * We made the group decision to use the MEAN stack.
-   * Create a group Discord server
+   * Create a group Discord server.
+   * Design and build start page.
    * Set up GitHub repository and familiarised ourselves with the platform.
    * Agreed to setup a protocol with regard to GitHub.
    * Create a simple paper prototype of the UI design.
@@ -214,11 +215,12 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 The following are a list of tasks and features that the team were tasked to deliver by the end of the sprint.
 
     ```
-      → Backlog item: setup GitHub repository
-      → Backlog item: create a GitHub protocol and familiarise ourselves with it
-      → Backlog item: create a simple UI design paper prototype
-      → Backlog item: create a group Discord server
-      → Backlog item: create stakeholder stories
+      → Backlog item: setup GitHub repository.
+      → Backlog item: design and build start page.
+      → Backlog item: create a GitHub protocol and familiarise ourselves with it.
+      → Backlog item: create a simple UI design paper prototype.
+      → Backlog item: create a group Discord server.
+      → Backlog item: create stakeholder stories.
 
     ```
 
@@ -232,22 +234,23 @@ This was our first sprint. It followed several weeks of meetings regarding the d
 ## Sprint 2 : Start building front-end and design back-end (08.03.21-15.03.21)
 ___
 
-The aim of this sprint was to get something built and pushed onto GitHub. We decided to build four games and assigned two of those games to different team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find any problems or issues they might encounter when using the product and thereby follow the agile methodology.
+The aim of this sprint was to get something built and pushed onto GitHub. From previous weeks, we had decided to build four games. We assigned two of those games to team members. We also discussed how our stakeholder stories and agreed that their feedback would inform the development lifecycle. We had created four stakeholders all of whom would, when appropriate, give feedback on newly implemented features. This was, we felt, a sensible approach since it meant that we'd be putting the needs of the stakeholders first, which would ensure that the product would be something the end-users and other stakeholders would like and enjoy using. During this sprint, we agreed that we should build something for the end-users as a number one priority. As such, by the end of this sprint we want to have something to show our end-users, to find any problems or issues they might encounter when using the product and thereby follow the agile methodology.
 
 ### Key points
 
-  * Games allocated to team members
+  * Games allocated to team members.
   * Browsed previously completed group projects together and took notes.
   * Discussed stakeholder stories and their feedback.
   * Work on documentation with a focus on background research and state-of-the-art survey.
-  * Make data model (we build a relational entity diagram of data model)
+  * Make data model (build a relational entity diagram of data model).
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * GitHub protocol established
-   * User stories created
+   * GitHub protocol established.
+   * Design and build start page.
+   * User stories created.
    * Paper prototype and paper prototype video shown to users.
    * Update given on progress of games.
    * Browsed previously completed group projects together.
@@ -255,11 +258,11 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 ### New backlog items
 
  ```
-   → Backlog item: design and build start page
-   → Backlog item: add audio to start page
-   → Backlog item: start building games
-   → Backlog item: design backend
-   → Backlog item: conduct background research and state-of-the-art survey
+   → Backlog item: add audio to start page.
+   → Backlog item: start building games.
+   → Backlog item: design backend.
+   → Backlog item: make data model.
+   → Backlog item: conduct background research and state-of-the-art survey.
 
  ```
 
@@ -279,8 +282,8 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
- <td>Paper prototype video.</td>
- <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, what is the difference between login and guest? I don't entirely understand what this means. Could you perhaps add some instructions? </td>
+ <td>Paper prototype video</td>
+ <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, how do we login? </td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
@@ -335,8 +338,8 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Build basic versions of games and obtain user feedback.
    * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
-   * Relational diagram -> UML diagram
-   * API design (routes/data)
+   * Relational diagram -> UML diagram.
+   * Design API.
 
 **Attendees:** everyone in attendance.
 
@@ -345,19 +348,19 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Build start page.
    * Add audio to start page.
    * Memory game and connect four build underway.
-   * Backend design started.
+   * Back-end design started.
    * Documentation underway with a focus on background research and UX design.
 
 
 ### New backlog items
 
 ```
-  → Backlog item: Continue researching video chat APIs
-  → Backlog item: Obtain user feedback on UI wireframe through a questionnaire
-  → Backlog item: Create login
-  → Backlog item: Build basic version of games and obtain feedback
-  → Backlog item: Relational diagram -> UML diagram
-  → Backlog item: API design (routes/data)
+  → Backlog item: continue researching video chat APIs.
+  → Backlog item: obtain user feedback on UI wireframe through a questionnaire.
+  → Backlog item: create login.
+  → Backlog item: build basic version of games and obtain feedback.
+  → Backlog item: relational diagram -> UML diagram.
+  → Backlog item: design API.
 
 ```
 
@@ -371,7 +374,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=35%>
+ <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page.</td>
  <td>Start page</td>
@@ -379,7 +382,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
  <td>I really like this start page. The bright colours are very engaging and the title is bold and in a clear font. I really like the background as well - it is eye-catching without being distracting. I really like the the music as well, but I think I would want the music to stop once I've logged in.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=35%>
+ <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want a start page that is easy to understand.</td>
  <td>Start page</td>
@@ -387,7 +390,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
  <td>The start page is very nice, but I think I would find the moving title a little bit nauseating if it were to continue during the login and gameplay.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=35%>
+<td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
 <td>N/A</td>
@@ -395,7 +398,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <td>This start page is really good, well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data).</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=35%>
+ <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to see consistency in the UI and UX.</td>
  <td>Start page</td>
@@ -412,12 +415,13 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
 <tr>
   <td>Back-End</td>
+  <td>Relational diagram -> UML diagram.</td>
   <td>Relational model to show the stakeholders.</td>
   <td>Relational model didn't work for MongoDB</td>
   <td>Relational diagram. We chose a UML diagram, because the relational model didn't work for MongoDB. So, we developed the data model to suit mongoDB style - namely, something object oriented.</td>
@@ -472,12 +476,12 @@ Another major aim for this sprint was to implement basic features such user logi
 
 ### Key implementations from previous sprint
 
-   * Obtained feedback from users regarding the start page.
-   * Created UI wireframe and obtain user feedback.
-   * Created and circulated questionnaire regarding UI wireframe.
-   * Started building back-end.
-   * Built basic versions of games and obtained user feedback.
-   * Created a user login.
+   * Obtain feedback from users regarding the start page.
+   * Create UI wireframe and obtain user feedback.
+   * Create and circulated questionnaire regarding UI wireframe.
+   * Start building back-end.
+   * Build basic versions of games and obtained user feedback.
+   * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
 
 
@@ -527,7 +531,7 @@ Another major aim for this sprint was to implement basic features such user logi
 <br>Simon </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
 <td>User authentication</td>
 <td>Authenticate user</td>
-<td>I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
+<td style="width=70%;"> I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -547,7 +551,7 @@ Another major aim for this sprint was to implement basic features such user logi
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -603,28 +607,28 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
 ### Key points
 
-   * Add features such as leaderboard and recent games and test on those features
-   * Add relevant documentation for database
-   * Implement multiplayer functionality for memory game
-   * Obtain user feedback on the connect four with multiplayer and video chat functionality
+   * Add features such as leaderboard and recent games and test on those features.
+   * Add relevant documentation for database.
+   * Implement multiplayer functionality for memory game.
+   * Obtain user feedback on the connect four with multiplayer and video chat functionality.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Implement multiplayer functionality for connect four
-   * Add video chat to connect four
-   * Database built
+   * Implement multiplayer functionality for connect four.
+   * Add video chat to connect four.
+   * Build database.
    * Add a game instance - store game records persistently.
 
 
 ### Backlog items
 
 ```
-  → Backlog item: implement multiplayer functionality for memory game
-  → Backlog item: add relevant documentation for database
-  → Backlog item: build API using express framework and node.js
-  → Backlog item: add features such as leaderboard and recent games and test on those features
+  → Backlog item: implement multiplayer functionality for memory game.
+  → Backlog item: add relevant documentation for database.
+  → Backlog item: build API using express framework and node.js.
+  → Backlog item: add features such as leaderboard and recent games and test on those features.
 
 ```
 
@@ -640,7 +644,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to see my friends as I play against them.</td>
+ <br>Bob</a> <br /> As a user, I want to see my friends on video chat.</td>
  <td>Video chat</td>
  <td>Add video chat to connect four</td>
  <td>I can now see my opponent through video chat - fantastic. Is there anything I need to do to make sure this works? Do I have to turn on my camera and do I need to talk into the the microphone? Some instructions on how to do this would be really helpful. But aside from that, I think the video chat is really good.</td>
@@ -650,7 +654,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to earn points and see my game history.</td>
  <td>Game history</td>
- <td>GET user game history.</td>
+ <td>GET user game history</td>
  <td>I can now view my game history - excellent. I really like that I will be able to see my past efforts.</td>
 </tr>
 <tr>
@@ -659,7 +663,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <br>Simon </a> <br /> As a product manger, I want my team to build a MVP as soon as reasonably possible</td>
 <td>Create MVP</td>
 <td>N/A</td>
-<td>My advice is to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
+<td> My advice is to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -679,7 +683,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -717,45 +721,41 @@ At this stage, once again, we would have benefited from agreeing on a deadline t
 
 
 
-
-
 ## Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)
 
 ___
 
-The main aim of this sprint was to integrate the front and back-end of the stack. This was essential since we wanted to deploy a MVP as soon as we could before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. We also realised that it was important to get started on our introduction demo video, so we started the video.
-
-We now had to make sure that there was a fruitful integration of the front and back-end. This was a priortiy.
+The main aim of this sprint was to integrate the front and back-end of the stack. This was essential since we wanted to deploy a MVP as soon as we could before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. We also realised that it was important to get started on our introduction demo video, so we started the video. We now had to ensure to successfully integrate the front and back-end.
 
 ### Key points
 
-   * Integrate front-end and back-end
-   * Create angular services for making calls to api
-   * Implement user authentication in the front end
-   * Build user profile page
-   * Build a leaderboard
-   * Start creating the introduction demo video
-   * Implement multiplayer functionality for memory game
+   * Integrate front-end and back-end.
+   * Create angular services for making calls to api.
+   * Implement user authentication in the front end.
+   * Build user profile page.
+   * Build a leaderboard.
+   * Start creating the introduction demo video.
+   * Implement multiplayer functionality for memory game.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Add relevant documentation for database
-   * Obtain user feedback on the connect four multiplayer and video chat functionality
+   * Add relevant documentation for database.
+   * Obtain user feedback on the connect four multiplayer and video chat functionality.
 
 
 ### Backlog items
 
 ```
-  → Backlog item: implement multiplayer functionality for memory game
-  → Backlog item: create angular services for making calls to api
-  → Backlog item: implement user authentication in the front end
-  → Backlog item: integrate front-end and back-end
-  → Backlog item: build a leaderboard
-  → Backlog item: implement video chat for memory game
-  → Backlog item: build API using express framework and node.js
-  → Backlog item: start introduction demo video
+  → Backlog item: implement multiplayer functionality for memory game.
+  → Backlog item: create angular services for making calls to api.
+  → Backlog item: implement user authentication in the front end.
+  → Backlog item: integrate front-end and back-end.
+  → Backlog item: build a leaderboard.
+  → Backlog item: implement video chat for memory game.
+  → Backlog item: build API using express framework and node.js.
+  → Backlog item: start introduction demo video.
 
 ```
 
@@ -779,7 +779,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want view my profile page.</td>
+ <br>Sally </a> <br /> As a user, I want view my profile.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
  <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
@@ -810,7 +810,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -839,31 +839,31 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 
 ### Key points
 
-   * Add video chat to memory game
-   * Create test accounts and test both backend and frontend work correctly
-   * Add multiplayer functionality to memory game
-   * Make pages of application responsive, including mobile responsive
-   * Complete evaluation of design to report
-   * Conduct unit testing
-   * Complete introduction demo video
+   * Add video chat to memory game.
+   * Create test accounts and test both backend and frontend work correctly.
+   * Add multiplayer functionality to memory game.
+   * Make pages of application responsive, including mobile responsive.
+   * Complete evaluation of design to report.
+   * Conduct unit testing.
+   * Complete introduction demo video.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Built leaderboard
-   * Build API using express framework and node.js
-   * Added relevant documentation for database
+   * Build leaderboard.
+   * Build API using express framework and node.js.
+   * Add relevant documentation for database.
 
 
 ### Backlog items
 
 ```
-  → Backlog item: complete introduction demo video
-  → Backlog item: create test accounts and test both backend and frontend work correctly
-  → Backlog item: complete remaining subsections of the report
-  → Backlog item: conduct unit testing
-  → Backlog item: implement multiplayer functionality for memory game
+  → Backlog item: complete introduction demo video.
+  → Backlog item: create test accounts and test both backend and frontend work correctly.
+  → Backlog item: complete remaining subsections of the report.
+  → Backlog item: conduct unit testing.
+  → Backlog item: implement multiplayer functionality for memory game.
 
 ```
 
@@ -895,10 +895,10 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product and understand how it works.</td>
+<br>Simon </a> <br /> As a product manger, I believe thorough testing is essential</td>
 <td>Testing</td>
 <td>Create test accounts and test both backend and frontend work correctly</td>
-<td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly.</td>
+<td>Testing the back-end and front-end is really important, I'm glad you've now turned your attention to it. It's important because it will help you to determine whether both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. It is essential that you are very thorough with this testing, as you don't want to miss any bugs which your end-users might then run into. And back-end testing is important because it, among other things, serves to check for data corruption and data loss. By conducting testing on both parts of the stack you will be able to identify faults and errors in your code and make corrections - and remove bugs - where necessary. This really is an absolutely essential aspect of building a product, so make sure that you do it properly and that everything is tested thoroughly.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -918,7 +918,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -947,25 +947,25 @@ We also had to complete unit testing on our code, finalise the introduction demo
 ### Key points
 
    * Every team member was tasked to complete subsections of the report.
-   * Finish unit testing
-   * Complete introduction demo video
+   * Finish unit testing.
+   * Complete introduction demo video.
 
 **Attendees:** everyone in attendance.
 
 ### Key implementations from previous sprint
 
-   * Add video chat to memory game
-   * Add multiplayer functionality to memory game
-   * Make pages of application responsive, including mobile responsive
+   * Add video chat to memory game.
+   * Add multiplayer functionality to memory game.
+   * Make pages of application responsive, including mobile responsive.
 
 ### Backlog items
 
 ```
-  → Backlog item: complete report documentation
-  → Backlog item: conduct unit testing
-  → Backlog item: complete evaluation of design to report
-  → Backlog item: complete introduction demo video
-  → Backlog item: implement multiplayer functionality for memory game
+  → Backlog item: complete report documentation.
+  → Backlog item: conduct unit testing.
+  → Backlog item: complete evaluation of design to report.
+  → Backlog item: complete introduction demo video.
+  → Backlog item: implement multiplayer functionality for memory game.
 
 ```
 

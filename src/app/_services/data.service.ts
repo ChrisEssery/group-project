@@ -38,6 +38,9 @@ export class DataService {
 
   addGameInstance(gameName: String, gameInfo:any){
     gameName= gameName.replace(/['"]+/g, '');
+    gameInfo.players.forEach( (element:any) => {
+      element.username = element.username.replace(/['"]+/g, '');
+    });
     return this.httpClient.post(this.REST_API_SERVER_GAME+'/'+gameName, gameInfo)
   }
 
