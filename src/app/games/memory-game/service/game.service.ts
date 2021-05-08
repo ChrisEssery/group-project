@@ -5,6 +5,7 @@ import { RankingService } from "./ranking.service";
 import { Router } from "@angular/router";
 import io from "socket.io-client";
 import { TokenStorageService } from "src/app/_services/token-storage.service";
+import { DataService } from 'src/app/_services/data.service';
 
 // request dependencies from external source
 @Injectable({
@@ -40,7 +41,8 @@ export class GameService {
     private cardService: CardService,
     private leaderboardService: RankingService,
     private router: Router,
-    private tokenStorageService: TokenStorageService
+    private tokenStorageService: TokenStorageService,
+    private dataService: DataService
   ) {
     this.cards = this.cardService.getCards();
     this.username = this.tokenStorageService.getUser();
@@ -368,7 +370,15 @@ export class GameService {
     this.playerData.push(this.opponent);
     console.log(this.playerData);
     if(this.playerNumber === 0){
-      this.gameResult;
+      let gameInfo = {"players": this.playerData}
+      this.dataService.addGameInstance("memorygame", gameInfo).subscribe(
+        (data:any)=>{
+          console.log(data.result)
+        },
+        error=>{
+          console.log(error.error);
+        }
+      )
     }
   }
   get gameResult(){
