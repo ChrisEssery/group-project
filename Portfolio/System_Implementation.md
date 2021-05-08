@@ -768,7 +768,7 @@ Along with multiplayer functionality, providing a real-time video chat solution 
 
 We began researching which services would meet our needs. We explored Twilio, PubNub, Sinch and Jitsi. We ultimately ended up choosing Jitsi, as it provided all the functionality we needed, without additional bloat. Providing we kept the Jitsi logo on the video feed, you are also able to leverage their API for free.
 
-<img src="https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png" width="400" height="790">
+<img src="https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png" width="400" height="500">
 
 ### Deploying to Microsoft Azure
 ![alt_text](https://miro.medium.com/max/3840/1*_HYOZExV1wV2f0OrfZ9YcA.png)
