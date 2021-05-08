@@ -22,7 +22,7 @@ export class ConnectFourComponent implements OnInit {
 
   isGameOver: boolean = false;
   playerName: string;
-  socket: any;
+  gameSocket: any;
 
   constructor(private router: Router, private tokenStorageService: TokenStorageService) {
     this.username = tokenStorageService.getUser();
@@ -58,6 +58,7 @@ export class ConnectFourComponent implements OnInit {
     let opponent = {username: "", result: ""};
     const opponentName = this.opponentName;
     let playerData = [];
+    
 
     connectToGameButton.addEventListener('click', connectToGame);
 
@@ -65,12 +66,12 @@ export class ConnectFourComponent implements OnInit {
     function connectToGame(this: ConnectFourComponent) {
       // Creates socket to use for the game
       if (connected) return;
-      this.socket = io("http://localhost:3080");
+      const socket = io("http://localhost:3080");
       // Emits user to other player
-      this.socket.emit('player-name', username);
+      socket.emit('player-name', username);
       connected = true;
       // Gets your player number
-      this.socket.on('player-number', num => {
+      socket.on('player-number', num => {
         if (num === -1) {
           infoDisplay.innerHTML = "Sorry, the server is full.";
         } else {
@@ -79,26 +80,26 @@ export class ConnectFourComponent implements OnInit {
             currentPlayerType = "enemy";
           }
           // Get other player status
-          this.socket.emit('check-players');
+          socket.emit('check-players');
         }
       })
 
       // Another player has connected or disconnected
-      this.socket.on('player-connection', num => {
+     socket.on('player-connection', num => {
         console.log(`Player number ${num} has connected or disconnected`);
         playerConnectedOrDisconnected(num);
       })
 
       // On enemy ready
-      this.socket.on('opponent-ready', num => {
+      socket.on('opponent-ready', num => {
         opponentReady = true;
         if (ready) {
-          playGame(this.socket);
+          playGame(socket);
         }
       })
 
       // Check player status
-      this.socket.on('check-players', players => {
+      socket.on('check-players', players => {
         players.forEach((p, i) => {
           if (p.connected) {
             playerConnectedOrDisconnected(i);
@@ -113,13 +114,13 @@ export class ConnectFourComponent implements OnInit {
 
       // Ready button click
       readyForGameButton.addEventListener('click', () => {
-        playGame(this.socket);
+        playGame(socket);
       })
 
       // On turn received
-      this.socket.on('takeSlot', id => {
+      socket.on('takeSlot', id => {
         opponentTurn(id);
-        playGame(this.socket);
+        playGame(socket);
       })
 
       // Makes player name bold on connection
@@ -156,15 +157,17 @@ export class ConnectFourComponent implements OnInit {
           player.username = username; 
           playerData.push(player);
           playerData.push(opponent);
-          console.log(playerData);
           this.playerData  = [];
           this.playerData[0] = playerData[0];
           this.playerData[1] = playerData[1];
+          console.log(this.playerData)
           if(playerNumber === 0){
             this.gameResult;
+            this.gameSocket = socket;
           }
         })
         if (this.isGameOver) {
+          console.log(this.playerData);
           return;
         }
         if (!ready) {
@@ -182,7 +185,7 @@ export class ConnectFourComponent implements OnInit {
       }
 
       // Gets opponent information
-      this.socket.on('opponent-information', username => {
+      socket.on('opponent-information', username => {
         opponent.username = username;
       })
 
@@ -202,13 +205,12 @@ export class ConnectFourComponent implements OnInit {
             square4.classList.contains('player-one')
           ) {
             this.isGameOver = true;
-            this.socket.emit('game-over');
+            socket.emit('game-over');
             displayCurrentPlayer.innerHTML = '';
             var text = playerName.innerHTML + ' Wins!';
             result.innerHTML = text;
             playAgainWindow.style.visibility = 'visible';
             playAgainWindow.style.opacity = '1';
-            this.socket.close();
           }
           //check those squares to see if they all have the class of player-two
           if (
@@ -218,13 +220,12 @@ export class ConnectFourComponent implements OnInit {
             square4.classList.contains('player-two')
           ) {
             this.isGameOver = true;
-            this.socket.emit('game-over');
+            socket.emit('game-over');
             displayCurrentPlayer.innerHTML = '';
             var text = playerName.innerHTML + ' Wins!';
             result.innerHTML = text;
             playAgainWindow.style.visibility = 'visible';
             playAgainWindow.style.opacity = '1';
-            this.socket.close();
           }
         }
       }
@@ -241,19 +242,19 @@ export class ConnectFourComponent implements OnInit {
                 squares[i].classList.add('player-one')
                 let sq = (squares[i] as HTMLElement).dataset.id;
                 slotTaken = parseInt(sq)
-                this.socket.emit('takeSlot', slotTaken);
+                socket.emit('takeSlot', slotTaken);
                 checkBoard()
                 currentPlayerType = 'enemy'
-                playGame(this.socket);
+                playGame(socket);
               } else if (playerNumber == 1) {
                 squares[i].classList.add('taken')
                 squares[i].classList.add('player-two')
                 let sq = (squares[i] as HTMLElement).dataset.id;
                 slotTaken = parseInt(sq)
-                this.socket.emit('takeSlot', slotTaken);
+                socket.emit('takeSlot', slotTaken);
                 checkBoard()
                 currentPlayerType = 'enemy'
-                playGame(this.socket);
+                playGame(socket);
               }
             } else alert('You can\'t go here!')
           }
@@ -359,6 +360,7 @@ export class ConnectFourComponent implements OnInit {
   }
 
   playAgain() {
+    this.gameSocket.close();
     this.router.navigate(["connect4start"]);
   }
 
