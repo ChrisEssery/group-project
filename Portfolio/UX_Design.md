@@ -369,9 +369,42 @@ Some of the main user stories are represented in the use case diagram below. As 
 
 </div>
 
-And the way in which our stakeholders interact with the different parts of our system are outlined below:
+There are many ways in which our stakeholders will interact with the different parts of our system. These are outlined below:
+
+### The end-users
+
+The end-users login and play games against friends and family members. The profile page contains information on a user's friends as well as their game history.
+
+The end-user can use the the platform to compete for the top spot on the leaderboard.
+
+The end-user can communicate with friends and family through live video chat.
+
+### The product manager
+
+The product manager can access information regarding the end-users, the sponsor, and game results to determine how stakeholders are using the product.
+
+The product manager can check for user engagement and assess user satisfaction.
+
+The product manager can track web traffic to the website over time, and consider the viability of monetisation of the product.
+
+### The sponsor
+
+The sponsor uses the website to create profiles for end-users.
+
+The sponsor shows end-users how to use the product.
+
+The product manager can check for user engagement and assess user satisfaction.
+
+The sponsor is able to use the platform as a way to improve the quality of life of their care home residents.
+
+These main interactions with the various parts of our system can be depicted in the following interaction flow diagram:
 
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/interaction-flow-diagram.png)
+
+</div>
 
 ## References
 
