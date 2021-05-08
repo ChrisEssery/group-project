@@ -767,7 +767,8 @@ Overall, Socket.io provided all of the functionality required to delivery the mu
 Placeholder
 
 ### Deploying to Microsoft Azure
-Placeholder
+![alt_text](https://www.erpsoftwareblog.com/wp-content/uploads/Microsoft-Azure-Image.jpg)
+The platform chosen to deploy a live version of the application was Microsoft's cloud platform, Azure as one of our team members, Chris, holds Microsoft-accredited certifcations for the platform. 
 
 ___
 
