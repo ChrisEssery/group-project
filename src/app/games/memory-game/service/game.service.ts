@@ -74,6 +74,10 @@ export class GameService {
 
     if (this.isGameFinished) {
       this.gameFinished = true;
+      this.infoDisplay.innerHTML = "You won!";
+      this.infoDisplay.style.display = 'inline';
+      this.yourTurn.style.display = 'none';
+      this.opponentTurn.style.display = 'none';
       this.addPlayerInRanking();
     }
   }
@@ -99,6 +103,10 @@ export class GameService {
 
     if (this.isGameFinished) {
       this.gameFinished = true;
+      this.infoDisplay.innerHTML = "You won!";
+      this.infoDisplay.style.display = 'inline';
+      this.yourTurn.style.display = 'none';
+      this.opponentTurn.style.display = 'none';
       this.addPlayerInRanking();
     }
   }
@@ -123,6 +131,14 @@ export class GameService {
     this.activeCards = [];
     this.rounds = 0;
     this.isBoardLocked = false;
+    if (this.currentPlayerType === 'user') {
+      this.infoDisplay.style.display = 'none';
+      this.yourTurn.style.display = 'inline';
+    }
+    else {
+      this.infoDisplay.style.display = 'none';
+      this.opponentTurn.style.display = 'inline';
+    }
   }
 
   toggleCheat(): void {
