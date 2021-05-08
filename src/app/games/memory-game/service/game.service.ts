@@ -31,10 +31,10 @@ export class GameService {
   yourTurn: any;
   opponentTurn: any;
   serverNotFull: boolean = true;
-  playerData = [];
+  playerData = [] as any;
   username: string;
-  player = {username: "", result: "", rounds: Number};
-  opponent = {username: "", result: "", rounds: Number};
+  player = {username: "", result: "", rounds: this.rounds};
+  opponent = {username: "", result: "", rounds: this.rounds};
 
   constructor(
     private cardService: CardService,
@@ -85,6 +85,7 @@ export class GameService {
       this.infoDisplay.style.display = 'inline';
       this.yourTurn.style.display = 'none';
       this.opponentTurn.style.display = 'none';
+      this.setGameResult();
       this.addPlayerInRanking();
     }
   }
@@ -114,6 +115,7 @@ export class GameService {
       this.infoDisplay.style.display = 'inline';
       this.yourTurn.style.display = 'none';
       this.opponentTurn.style.display = 'none';
+      this.setGameResult();
       this.addPlayerInRanking();
     }
   }
@@ -355,4 +357,23 @@ export class GameService {
       this.gameSocket.emit('send-card', JSON.stringify(this.cards[i]));
     }
   }
+  
+  private setGameResult(){
+    this.player.result = "WIN";
+    this.opponent.result = "WIN";
+    this.player.rounds = this.rounds;
+    this.opponent.rounds = this.rounds;
+    this.player.username = this.username; 
+    this.playerData.push(this.player);
+    this.playerData.push(this.opponent);
+    console.log(this.playerData);
+    if(this.playerNumber === 0){
+      this.gameResult;
+    }
+  }
+  get gameResult(){
+    return this.playerData
+  }
 }
+
+

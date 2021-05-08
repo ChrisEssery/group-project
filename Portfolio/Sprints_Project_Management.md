@@ -126,7 +126,7 @@ We used the Scrum framework to apply Agile working practice. This entailed one t
 
 ### Jira
 
-We used Jira to implement these actions, and created Gantt charts to visualise the progress of tasks. Jira helped structure the timetable so it was clear what was being done by who and where in the lifecycle it sat.
+We used Jira to implement these actions, and created Gantt charts to visualise the progress of tasks. Jira helped structure the timetable so it was clear what was being done by who and where in the lifecycle it sat. We started by laying out the tasks needed in the ‘To Do’ section. This was a rough draft and some tasks were broken up into multiples later. We then allocated team members in our meetings and moved to the ‘In Progress’ section once they had started. Finally, we could tick of and move tasks to the ‘Done’ pane once team members had progressed. Whilst Jira was helpful, some issues were noted in the way that tasks could still remain even when the sprint had ended. This was minor however and the task would just be added to future sprints. Overall, the platform was very helpful in getting the team organised and added motivation from seeing the tasks being ticked off one by one.
 
 <div align="center">
 
@@ -191,7 +191,7 @@ The sprints are in chronological order, starting with the first sprint in late F
 
 ADD GANTT CHART
 
-We will be referring to the meeting notes, the product backlog, list of key features to be implemented from previous sprints, and the user feedback.
+We will be referring to the meeting notes, the product backlog, list of key features to be implemented from previous sprints, and the user feedback. Items in the backlog were tagged as 'Done' once it had been completed and implemented.
 
 This will be broken down into four parts:
  1. Main goals/aims of the sprint
@@ -199,8 +199,7 @@ This will be broken down into four parts:
  3. Backlog items
  4. Feedback from users
 
- Each of the items in the backlog was tagged with 'finished' and 'unfinished' to indicate which items on the list had been completed and implemented.
-
+Now, let's turn to the weekly sprints.
 
 
 ## Sprint 1 : Ideation and Setup (01.03.21-08.03.21)
