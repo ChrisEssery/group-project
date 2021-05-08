@@ -163,7 +163,6 @@ export class ConnectFourComponent implements OnInit {
           console.log(this.playerData)
           if(playerNumber === 0){
             this.gameResult;
-            this.gameSocket = socket;
           }
         })
         if (this.isGameOver) {
@@ -360,7 +359,9 @@ export class ConnectFourComponent implements OnInit {
   }
 
   playAgain() {
-    this.router.navigate(["connect4start"]);
+  this.router.navigate(['connect4start']).then(() => {
+    window.location.reload();
+  });
   }
 
   get gameResult(){
