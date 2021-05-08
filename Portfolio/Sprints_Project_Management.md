@@ -272,7 +272,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
- <th>Feedback from Users</th>
+ <th>Feedback from Users width=40%</th>
 </tr>
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
@@ -296,7 +296,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it.</td>
 <td>N/A</td>
 <td>Create stakeholder stories</td>
-<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimum viable product as soon as you can.</td>
+<td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimum viable product as soon as you can. width=40%</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
