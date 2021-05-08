@@ -373,6 +373,13 @@ export class ConnectFourComponent implements OnInit {
   //make the call to api to store the gameinstance data
   addGameInstance(playerData:any){
     let gameInfo = {"players": playerData}
-    this.dataService.addGameInstance("connect4", gameInfo)
+    this.dataService.addGameInstance("connect4", gameInfo).subscribe(
+      (data:any)=>{
+        console.log(data.result)
+      },
+      error=>{
+        console.log(error.error);
+      }
+    )
   }
 }
