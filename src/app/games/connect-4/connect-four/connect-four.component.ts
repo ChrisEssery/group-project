@@ -165,7 +165,7 @@ export class ConnectFourComponent implements OnInit {
           if(playerNumber === 0){
             console.log("calling gameResult(): ")
             console.log(this.gameResult)
-            this.gameSocket = socket;
+            this.gameResult;
           }
         })
         if (this.isGameOver) {
@@ -361,14 +361,15 @@ export class ConnectFourComponent implements OnInit {
   }
 
   playAgain() {
-    this.gameSocket.close();
-    this.router.navigate(["connect4start"]);
+  this.router.navigate(['connect4start']).then(() => {
+    window.location.reload();
+  });
   }
 
   get gameResult(){
     return this.playerData;
   }
-  
+
   //make the call to api to store the gameinstance data
   addGameInstance(playerData:any){
     let gameInfo = {"players": playerData}

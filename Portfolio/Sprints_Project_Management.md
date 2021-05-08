@@ -110,13 +110,9 @@ In light of the strengths and weaknesses of both methodologies, we decided to us
 
 </div>
 
-The format of our software development was as follows. Our build was broken down into sprints. Each sprint centres around a particular set of features, tests to test the robustness those features, and making sure that our users' expectations and demands are met through the creation of those added features.
+The format of our software development was as follows. Our build was broken down into sprints. Each sprint centres around a particular set of features, tests to test the robustness those features, and making sure that our users' expectations and demands are met through the creation of those added features. Following standard practice - as well as advice from the teaching staff - we broke the sprints into weekly cycles. During each cycle we created a backlog of tasks/features and user stories. We used the user stories in each sprint from previous sprints to help inform the project development. We then reviewed our progress during our weekly meetings. During these reviews we conducted integration testing and assurance testing. Following this, we then aimed to  merge all changes to the main branch of Github. This did not always happen, however, as some new features took longer than others to build and implement.
 
-Following standard practice - as well as advice from the teaching staff - we broke the sprints into weekly cycles. During each cycle we created a backlog of tasks/features and user stories. We used the user stories in each sprint from previous sprints to help inform the project development. We then reviewed our progress during our weekly meetings. During these reviews we conducted integration testing and assurance testing. Following this, we then aimed to  merge all changes to the main branch of Github. This did not always happen, however, as some new features took longer than others to build and implement.
-
-Our sprints really got under way in the beginning of March. These continued until early May. The sprints centred around feature implementations required for that week as well as any tasks in the backlog from previous sprints. The goals for the week were decided and we kept to those goals until the end of the week. We reviewed our work at the end of each sprint. This meant that our approach towards the development of the product was consistent with the agile methodology.
-
-Given the fact that we had very little time to build the product, we felt that it was important to deploy a working application as soon as we possibly could.
+Our sprints got under way in the beginning of March. These continued until early May. Each sprint centred around feature implementations required for that week, as well as including any tasks in the backlog from previous sprints. The goals for the week were decided and we kept to those goals until the end of the week. We reviewed our work at the end of each sprint. This meant that our approach towards the development of the product was consistent with the agile methodology. Given the fact that we had very little time to build the product, we felt that it was important to deploy a working application as soon as we possibly could.
 
 With respect to the meetings and sprints and how they worked, we met every Monday at 11am. And then on Wednesdays and Fridays. In every successive meeting we discussed the work we had done, and when items were assigned tasks as "complete". We compiled a list of Backlog and items that were complete. Overall, though, at the heart of this process was the users. During every sprint we had the users in mind, ensuring that we addressed their goals and demands.
 
@@ -154,13 +150,9 @@ Every team member participated in discussions concerning system design and imple
 
 We assigned team member roles through an open conversation on Microsoft Teams. In what follows, we give a quick breakdown of the individual roles of each team member and the reasons for those role assignments.
 
-Given Lizhao's strengths in coding, she naturally wanted to be involved in both the front and back-end of the build. Her clear, logical approach to all aspects of the build meant that she was an invaluable team member who could always be relied on.
+Given Lizhao's strengths in coding, she naturally wanted to be involved in both the front and back-end of the build. Her clear, logical approach to all aspects of the build meant that she was an invaluable team member who could always be relied on. Harri took on the leadership role as the project manager whilst also working on the back-end, and contributing to design side of things. His strong leadership and steady hand meant that he was more than capable of steering us through every stage of the project, from ideation to implementation.
 
-Harri took on the leadership role as the project manager whilst also working on the back-end, and contributing to design side of things. His strong leadership and steady hand meant that he was more than capable of steering us through every stage of the project, from ideation to implementation.
-
-Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the front-end. Given his skills in this department, he was happy to devote the majority of his time to the build and maintenance of the database and servers. He also offered great insights on every aspect of the build. As with the other team members, he was invaluable throughout.
-
-Max, who likes design, dedicated most of his time to the Front-end. He also took on the role of writing a lot of the documentation, and getting involved with the UI and UX design.
+Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the front-end. Given his skills in this department, he was happy to devote the majority of his time to the build and maintenance of the database and servers. He also offered great insights on every aspect of the build. As with the other team members, he was invaluable throughout. Max, who likes design, dedicated most of his time to the Front-end. He also took on the role of writing a lot of the documentation, and getting involved with the UI and UX design.
 
 ## Communication
 
@@ -285,7 +277,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate. It should be bright, bold and simple to use.</td>
+ <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
  <td>Paper prototype video.</td>
  <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, what is the difference between login and guest? I don't entirely understand what this means. Could you perhaps add some instructions? </td>
@@ -293,7 +285,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A.</td>
  <td>Paper prototype video</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me see my friends and family members. The paper prototype video is clear and easy to follow, and I think having different levels of difficulty would be really good as I'd quite like to challenge myself, but I was hoping there would be a leaderboard so I know how well I'm doing.</td>
@@ -301,7 +293,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it. We should create a backlog of items and assign tasks to individual team members.</td>
+<br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it.</td>
 <td>N/A</td>
 <td>Create stakeholder stories</td>
 <td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimum viable product as soon as you can.</td>
@@ -309,7 +301,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want to have face to face communication with others during the gameplay, so that I can socialise with others.</td>
+ <br>Simon </a> <br /> As a sponsor, I want a product with a UCD.</td>
  <td>N/A</td>
  <td>Paper prototype and research target population</td>
  <td>I like the look of this video paper prototype, and I think you are sensible to research the target group as a priority. In particular, you should bear in mind that the end-users may have visual, auditory and cognitive impairments. This should really guide your approach when designing the interface of the product.</td>
@@ -381,7 +373,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want to see an engaging start page - one that grabs my attention.</td>
+ <br>Bob</a> <br /> As a user, I want to see an engaging start page.</td>
  <td>Start page</td>
  <td>Start page</td>
  <td>I really like this start page. The bright colours are very engaging and the title is bold and in a clear font. I really like the background as well - it is eye-catching without being distracting. I really like the the music as well, but I think I would want the music to stop once I've logged in.</td>
@@ -405,7 +397,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Simon </a> <br /> As a sponsor, I want to see consistency in the interface and I want to see weekly progress.</td>
+ <br>Simon </a> <br /> As a sponsor, I want to see consistency in the UI and UX.</td>
  <td>Start page</td>
  <td>Start page</td>
  <td>I like the start page, and I think you should keep the style consistent throughout. There are still no games though. Can you try and show us something as soon as possible? It would be good to see what they look like, how challenging they are, and easy to navigate and understand.</td>
@@ -515,15 +507,15 @@ Another major aim for this sprint was to implement basic features such user logi
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Bob</a> <br /> As a user, I want the webpage to be easy to navigate.</td>
- <td>N/A</td>
- <td>UI wireframe and obtain user feedback</td>
+ <br>Bob</a> <br /> As a user, I want to create an account.</td>
+ <td>Create account</td>
+ <td>Users are able to create an account/UI wireframe</td>
  <td>This shows me how the website will work, which looks good. I would quite like to update the profile page and add more information about my gaming experience such as the number of matches recently played, the win rate, the people recently played. Would you be able to add this information?.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to be able to log in with my credentials.</td>
+ <br>Sally </a> <br /> As a user, I want to log in to view my game history.</td>
  <td>Login</td>
  <td>Authenticate user</td>
  <td>This login has a nice style and seems relatively easy to navigate, and I am now able to login with my credentials. Brilliant. I like the feature of being able to see my opponent, I think that will be really fun. I might need help logging in though. This would be very helpful for me.
@@ -532,10 +524,10 @@ Another major aim for this sprint was to implement basic features such user logi
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I think we should be obtaining user feedback about new features as soon as we can.</td>
-<td>N/A</td>
-<td>Create and circulate questionnaire regarding UI wireframe/Build basic versions of games and obtain user feedback</td>
-<td>You've done well to circulate a questionnaire on your UI wireframe, and to use that information to inform your user stories. This will help you improve the design of your product and give you a good insight into the needs of your users. One thing that is very clear is that you need some instructions on how to use the games. You may also need some instructions on how to login. Perhaps you could provide some written instructions on how to use your product, since it won't be abundantly clear how to use it without explicitly laying out the steps to take. You could even provide an instructional video which guides the user through the process of using the application. The main point here is that I think you may find that some of your end-users will need some assistance with logging in before they feel to do this by themselves. As for the games, they look great. You've styled them nicely. But they're written in JavaScript. You'll have to convert the JavaScript codebase to TypeScript. This may be a little tedious, but you should be able to do it.</td>
+<br>Simon </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
+<td>User authentication</td>
+<td>Authenticate user</td>
+<td>I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -570,7 +562,7 @@ Another major aim for this sprint was to implement basic features such user logi
   <td>Back-End</td>
   <td>Check user authentication.</td>
   <td>Developers are able to prevent unauthorised access from the frontend (request with no valid token) .</td>
-  <td>Duplicate codes exist on checking if token valid for every query .</td>
+  <td>Duplicate codes exist on checking if token valid for every query.</td>
   <td>Create a `middleware.js` as a middleware which can be executed to check the token before each function.</td>
 </tr>
 <tr>
@@ -656,7 +648,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to earn points and see the results from my past games.</td>
+ <br>Sally </a> <br /> As a user, I want to earn points and see my game history.</td>
  <td>Game history</td>
  <td>GET user game history.</td>
  <td>I can now view my game history - excellent. I really like that I will be able to see my past efforts.</td>
@@ -787,7 +779,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want a page to see my game history so I can chart my progress.</td>
+ <br>Sally </a> <br /> As a user, I want view my profile page.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
  <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
@@ -795,7 +787,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product and understand how it works.</td>
+<br>Simon </a> <br /> As a product manger, I believe the end-users should view their results.</td>
 <td>Leaderboard/Demo video</td>
 <td>Leaderboard/Start creating the introduction demo video</td>
 <td>The leaderboard looks good, it has a clean design and isn't too cluttered. I think your end-users will like the layout. That said, I think you need make sure the users know what the scores stand for. For instance, how do you score players? Is it based on individual wins or the number of turns taken to achieve those wins? And are the scoring systems the same for the memory game and connect four or are they different? This should really be spelled out in a bit more detail. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided. As for the appearance of the video, I would advise you to make sure the video is fun, engaging, and appropriate for your end-users. This is a difficult balance to strike, but you want to grab the attention of your end-users without overwhelming them. It would be worthwhile, therefore, to show an early version of the demo and obtain feedback on that version. That way you can make changes to the video, including modifying the instructions, so as to make it as informative and useful as possible. </td>
@@ -895,10 +887,10 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
- <br>Sally </a> <br /> As a user, I want to see my profile on my mobile phone.</td>
+ <br>Sally </a> <br /> As a user, I want to see my profile on different sized screens.</td>
  <td>Page responsivity</td>
  <td>Make pages of application responsive, including mobile responsive</td>
- <td>Now I can see my profile page on my mobile phone. Fantastic! This is very convenient for me because I am more familiar with my smartphone.</td>
+ <td>Now I can see my profile page on my tablet. Fantastic! This is very convenient for me because I am more familiar with my tablet.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
