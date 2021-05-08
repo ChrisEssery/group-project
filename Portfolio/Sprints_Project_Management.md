@@ -275,7 +275,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
+ <td><img src="/Logo/user_bob.jpg" width=30%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
@@ -283,7 +283,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, what is the difference between login and guest? I don't entirely understand what this means. Could you perhaps add some instructions? </td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
+ <td><img src="/Logo/user_sally.jpg" width=25%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A.</td>
@@ -291,7 +291,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me see my friends and family members. The paper prototype video is clear and easy to follow, and I think having different levels of difficulty would be really good as I'd quite like to challenge myself, but I was hoping there would be a leaderboard so I know how well I'm doing.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
+<td><img src="/Logo/manager_jack.jpg" width=25%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it.</td>
 <td>N/A</td>
@@ -299,7 +299,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimum viable product as soon as you can.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
+ <td><img src="/Logo/user_simon.jpg" width=25%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want a product with a UCD.</td>
  <td>N/A</td>
