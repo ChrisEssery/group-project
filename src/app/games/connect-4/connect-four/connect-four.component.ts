@@ -161,9 +161,6 @@ export class ConnectFourComponent implements OnInit {
           this.playerData[0] = playerData[0];
           this.playerData[1] = playerData[1];
           console.log(this.playerData);
-          if(playerNumber === 0){
-            this.gameResult;
-          }
         })
         if (this.isGameOver) {
           return;
@@ -210,6 +207,9 @@ export class ConnectFourComponent implements OnInit {
             playAgainWindow.style.visibility = 'visible';
             playAgainWindow.style.opacity = '1';
             this.socket.close();
+            if(playerNumber === 0){
+              this.gameResult;
+            }
           }
           //check those squares to see if they all have the class of player-two
           if (
@@ -226,6 +226,9 @@ export class ConnectFourComponent implements OnInit {
             playAgainWindow.style.visibility = 'visible';
             playAgainWindow.style.opacity = '1';
             this.socket.close();
+            if(playerNumber === 0){
+              this.gameResult;
+            }
           }
         }
       }
