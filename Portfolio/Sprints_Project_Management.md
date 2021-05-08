@@ -275,7 +275,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=30%>
+ <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
@@ -283,7 +283,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, what is the difference between login and guest? I don't entirely understand what this means. Could you perhaps add some instructions? </td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=25%>
+ <td><img src="/Logo/user_sally.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A.</td>
@@ -291,7 +291,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me see my friends and family members. The paper prototype video is clear and easy to follow, and I think having different levels of difficulty would be really good as I'd quite like to challenge myself, but I was hoping there would be a leaderboard so I know how well I'm doing.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=25%>
+<td><img src="/Logo/manager_jack.jpg" width=35%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I believe we should decide on a methodology and stick to it.</td>
 <td>N/A</td>
@@ -299,7 +299,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you haven't built anything yet. This is something you need to prioritise, since the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and it will ensure that the product is on the right track with respect to the wants and needs of the end user. It is also good that you have started on the frontend, since you want to build a minimum viable product as soon as you can.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=25%>
+ <td><img src="/Logo/user_simon.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want a product with a UCD.</td>
  <td>N/A</td>
@@ -505,7 +505,7 @@ Another major aim for this sprint was to implement basic features such user logi
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
+ <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to create an account.</td>
  <td>Create account</td>
@@ -513,7 +513,7 @@ Another major aim for this sprint was to implement basic features such user logi
  <td>This shows me how the website will work, which looks good. I would quite like to update the profile page and add more information about my gaming experience such as the number of matches recently played, the win rate, the people recently played. Would you be able to add this information?.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
+ <td><img src="/Logo/user_sally.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to log in to view my game history.</td>
  <td>Login</td>
@@ -522,7 +522,7 @@ Another major aim for this sprint was to implement basic features such user logi
 </td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
+<td><img src="/Logo/manager_jack.jpg" width=35%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
 <td>User authentication</td>
@@ -530,7 +530,7 @@ Another major aim for this sprint was to implement basic features such user logi
 <td>I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
+ <td><img src="/Logo/user_simon.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want the games to be fun and interactive.</td>
  <td>Games</td>
@@ -638,7 +638,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
+ <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see my friends as I play against them.</td>
  <td>Video chat</td>
@@ -646,7 +646,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <td>I can now see my opponent through video chat - fantastic. Is there anything I need to do to make sure this works? Do I have to turn on my camera and do I need to talk into the the microphone? Some instructions on how to do this would be really helpful. But aside from that, I think the video chat is really good.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
+ <td><img src="/Logo/user_sally.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to earn points and see my game history.</td>
  <td>Game history</td>
@@ -654,7 +654,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <td>I can now view my game history - excellent. I really like that I will be able to see my past efforts.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
+<td><img src="/Logo/manager_jack.jpg" width=35%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I want my team to build a MVP as soon as reasonably possible</td>
 <td>Create MVP</td>
@@ -662,7 +662,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <td>My advice is to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
+ <td><img src="/Logo/user_simon.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want my users to have face-to-face communication with others during the gameplay.</td>
  <td>Video chat</td>
@@ -769,7 +769,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
+ <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
  <td>Leaderboard</td>
@@ -777,7 +777,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <td>I can now see a leaderboard! Excellent. This all looks straightforward with a clean layout.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
+ <td><img src="/Logo/user_sally.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want view my profile page.</td>
  <td>Profile page</td>
@@ -785,7 +785,7 @@ We now had to make sure that there was a fruitful integration of the front and b
  <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
+<td><img src="/Logo/manager_jack.jpg" width=35%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I believe the end-users should view their results.</td>
 <td>Leaderboard/Demo video</td>
@@ -793,7 +793,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <td>The leaderboard looks good, it has a clean design and isn't too cluttered. I think your end-users will like the layout. That said, I think you need make sure the users know what the scores stand for. For instance, how do you score players? Is it based on individual wins or the number of turns taken to achieve those wins? And are the scoring systems the same for the memory game and connect four or are they different? This should really be spelled out in a bit more detail. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided. As for the appearance of the video, I would advise you to make sure the video is fun, engaging, and appropriate for your end-users. This is a difficult balance to strike, but you want to grab the attention of your end-users without overwhelming them. It would be worthwhile, therefore, to show an early version of the demo and obtain feedback on that version. That way you can make changes to the video, including modifying the instructions, so as to make it as informative and useful as possible. </td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
+ <td><img src="/Logo/user_simon.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
  <td>Leaderboard/Profile page</td>
@@ -877,7 +877,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
+ <td><img src="/Logo/user_bob.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want clear instructions on how to use the product.</td>
  <td>Demo video</td>
@@ -885,7 +885,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
  <td>This demo video is good, but I think that it is a little bit light on instructions. Maybe you should add more instructions?</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
+ <td><img src="/Logo/user_sally.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to see my profile on different sized screens.</td>
  <td>Page responsivity</td>
@@ -893,7 +893,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
  <td>Now I can see my profile page on my tablet. Fantastic! This is very convenient for me because I am more familiar with my tablet.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
+<td><img src="/Logo/manager_jack.jpg" width=35%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product and understand how it works.</td>
 <td>Testing</td>
@@ -901,7 +901,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
+ <td><img src="/Logo/user_simon.jpg" width=35%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
  <td>Leaderboard/Profile page</td>
