@@ -764,7 +764,11 @@ A typical implementation of Socket.io can be seen below:
 Overall, Socket.io provided all of the functionality required to delivery the multiplayer aspects of the game in a clean, intuitive fashion.
 
 ### Real-time Video Chat
-Placeholder
+Along with multiplayer functionality, providing a real-time video chat solution was another key objective. Initially, we had discussed developing a video chat application from the ground up using ASP.NET and Angular, however we decided that focusing our development time on our own application was a more effective use of our time. 
+
+We began researching which services would meet our needs. We explored Twilio, PubNub, Sinch and Jitsi. We ultimately ended up choosing Jitsi, as it provided all the functionality we needed, without additional bloat. Providing we kept the Jitsi logo on the video feed, you are also able to leverage their API for free.
+
+![alt_text](https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png)
 
 ### Deploying to Microsoft Azure
 ![alt_text](https://miro.medium.com/max/3840/1*_HYOZExV1wV2f0OrfZ9YcA.png)
