@@ -874,7 +874,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
  <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
- <th>Feedback from Users</th>
+ <th>&nbsp; &nbsp; &nbsp; Feedback from Users &nbsp; &nbsp; &nbsp;</th>
 </tr>
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
@@ -898,7 +898,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <br>Simon </a> <br /> As a product manger, I believe thorough testing is essential</td>
 <td>Testing</td>
 <td>Create test accounts and test both backend and frontend work correctly</td>
-<td>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. Backend testing, by contrast, is serves to check for data corruption and data loss. By conducting testing you will be able to identify faults and errors in your code and make corrections and remove bugs where necessary.</td>
+<td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. Backend testing, by contrast, is serves to check for data corruption and data loss. By conducting testing you will be able to identify faults and errors in your code and make corrections and remove bugs where necessary.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
