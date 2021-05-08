@@ -502,7 +502,7 @@ Another major aim for this sprint was to implement basic features such user logi
  <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
- <th style="width=70%;">Feedback from Users</th>
+ <th>Feedback from Users</th>
 </tr>
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
@@ -527,7 +527,7 @@ Another major aim for this sprint was to implement basic features such user logi
 <br>Simon </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
 <td>User authentication</td>
 <td>Authenticate user</td>
-<td>I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
+<td style="width=70%;"> I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
