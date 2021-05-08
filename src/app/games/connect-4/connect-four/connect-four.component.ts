@@ -15,7 +15,6 @@ import { DataService } from 'src/app/_services/data.service';
 
 export class ConnectFourComponent implements OnInit {
   isFriend: boolean = false
-
   isGameOver: boolean = false;
   socket: any;
   squares: any;
@@ -33,8 +32,8 @@ export class ConnectFourComponent implements OnInit {
   slotTaken: number = -1;
   connected: boolean = false;
   username: string;
-  player = {username: "", result: ""};
-  opponent = {username: "", result: ""};
+  player = { username: "", result: "" };
+  opponent = { username: "", result: "" };
   playerData = [] as any;
   winningArrays = [] as any;
 
@@ -65,7 +64,7 @@ export class ConnectFourComponent implements OnInit {
     this.connectToGameButton.addEventListener('click', this.connectToGame());
 
     // All possible winning combinations
-     this.winningArrays = [
+    this.winningArrays = [
       [0, 1, 2, 3],
       [41, 40, 39, 38],
       [7, 8, 9, 10],
@@ -203,8 +202,10 @@ export class ConnectFourComponent implements OnInit {
     this.socket.on('opponent-information', username => {
       this.opponent.username = username;
     })
+    this.setupGameSlots();
+  }
 
-
+  setupGameSlots(){
     // Adds game functionality to each slot on the board - emits to second player and swaps whose turn it is
     for (let i = 0; i < this.squares.length; i++) {
       (this.squares[i] as HTMLElement).dataset.id = String(i);
@@ -237,8 +238,8 @@ export class ConnectFourComponent implements OnInit {
     }
   }
 
-   // Makes player name bold on connection
-   playerConnectedOrDisconnected(num) {
+  // Makes player name bold on connection
+  playerConnectedOrDisconnected(num) {
     let player = `.p${parseInt(num) + 1}`;
     if (parseInt(num) === this.playerNumber) {
       let myElement = <HTMLElement><any>document.querySelector(player);
@@ -275,12 +276,12 @@ export class ConnectFourComponent implements OnInit {
         this.playerNumber = 0;
       }
     } else alert('You can\'t go here!')
-    this.currentPlayerType = 'user';
     this.checkBoard()
+    this.currentPlayerType = 'user';
   }
 
   // Checks if any of the winning combinations are on the board
- checkBoard(){
+  checkBoard() {
     for (let y = 0; y < this.winningArrays.length; y++) {
       const square1 = this.squares[this.winningArrays[y][0]]
       const square2 = this.squares[this.winningArrays[y][1]]
@@ -297,8 +298,12 @@ export class ConnectFourComponent implements OnInit {
         this.isGameOver = true;
         this.socket.emit('game-over');
         this.displayCurrentPlayer.innerHTML = '';
-        var text = this.playerName.innerHTML + ' Wins!';
-        this.result.innerHTML = text;
+        if(this.currentPlayerType === 'user'){
+          this.result.innerHTML = 'You win!';
+        }
+        else{
+          this.result.innerHTML = 'Opponent wins!';
+        }
         this.playAgainWindow.style.visibility = 'visible';
         this.playAgainWindow.style.opacity = '1';
       }
@@ -312,8 +317,12 @@ export class ConnectFourComponent implements OnInit {
         this.isGameOver = true;
         this.socket.emit('game-over');
         this.displayCurrentPlayer.innerHTML = '';
-        var text = this.playerName.innerHTML + ' Wins!';
-        this.result.innerHTML = text;
+        if(this.currentPlayerType === 'user'){
+          this.result.innerHTML = 'You win!';
+        }
+        else{
+          this.result.innerHTML = 'Opponent wins!';
+        }
         this.playAgainWindow.style.visibility = 'visible';
         this.playAgainWindow.style.opacity = '1';
       }
@@ -321,12 +330,12 @@ export class ConnectFourComponent implements OnInit {
   }
 
   // Emits ready signal and checks if game is over
-  playGame(socket){
+  playGame(socket) {
     socket.on('game-over', over => {
       this.isGameOver = over;
     })
     if (this.isGameOver) {
-      if(this.playerNumber === 0){
+      if (this.playerNumber === 0) {
         this.setGameResult();
       }
       return;
@@ -344,19 +353,19 @@ export class ConnectFourComponent implements OnInit {
       }
     }
   }
-
+  
   playAgain() {
-  this.router.navigate(['connect4start']).then(() => {
-    window.location.reload();
-  });
+    this.router.navigate(['connect4start']).then(() => {
+      window.location.reload();
+    });
   }
 
-  setGameResult(){
-    if(this.currentPlayerType === 'user'){
+  setGameResult() {
+    if (this.currentPlayerType === 'user') {
       this.player.result = "LOSS";
       this.opponent.result = "WIN";
     }
-    else{
+    else {
       this.opponent.result = "LOSS";
       this.player.result = "WIN";
     }
@@ -365,18 +374,18 @@ export class ConnectFourComponent implements OnInit {
     console.log(this.playerData)
   }
 
-  get gameResult(){
+  get gameResult() {
     return this.playerData;
   }
 
   //make the call to api to store the gameinstance data
-  addGameInstance(playerData:any){
-    let gameInfo = {"players": playerData}
+  addGameInstance(playerData: any) {
+    let gameInfo = { "players": playerData }
     this.dataService.addGameInstance("connect4", gameInfo).subscribe(
-      (data:any)=>{
+      (data: any) => {
         console.log(data.result)
       },
-      error=>{
+      error => {
         console.log(error.error);
       }
     )
