@@ -360,7 +360,6 @@ export class ConnectFourComponent implements OnInit {
   }
 
   playAgain() {
-    this.gameSocket.close();
     this.router.navigate(["connect4start"]);
   }
 
