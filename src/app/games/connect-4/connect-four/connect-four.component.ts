@@ -13,10 +13,11 @@ import { TokenStorageService } from 'src/app/_services/token-storage.service';
 })
 export class ConnectFourComponent implements OnInit {
   isFriend: boolean = false
-  playerData = [];
+  playerData: any;
   player = {username: "", result: ""};
   opponent = {username: "", result: ""};
   username: string;
+  opponentName: string;
   result: string;
 
   isGameOver: boolean = false;
@@ -24,7 +25,8 @@ export class ConnectFourComponent implements OnInit {
   socket: any;
 
   constructor(private router: Router, private tokenStorageService: TokenStorageService) {
-
+    this.username = tokenStorageService.getUser();
+    this.player.username = this.username;
   }
 
   ngOnInit(): void {
@@ -51,8 +53,11 @@ export class ConnectFourComponent implements OnInit {
     let opponentReady = false;
     let slotTaken = -1;
     let connected = false;
-    this.username = this.tokenStorageService.getUser();
-    this.player.username = this.username;
+    const username = this.username;
+    let player = {username: "", result: ""};
+    let opponent = {username: "", result: ""};
+    const opponentName = this.opponentName;
+    let playerData = [];
 
     connectToGameButton.addEventListener('click', connectToGame);
 
@@ -62,8 +67,7 @@ export class ConnectFourComponent implements OnInit {
       if (connected) return;
       this.socket = io("http://localhost:3080");
       // Emits user to other player
-      this.socket.emit('player-name', this.username);
-      console.log(this.username);
+      this.socket.emit('player-name', username);
       connected = true;
       // Gets your player number
       this.socket.on('player-number', num => {
@@ -141,6 +145,22 @@ export class ConnectFourComponent implements OnInit {
       const playGame = (socket) => {
         socket.on('game-over', over => {
           this.isGameOver = over;
+          if(currentPlayerType === 'user'){
+            player.result = "LOSS";
+            opponent.result = "WIN";
+          }
+          else{
+            opponent.result = "LOSS";
+            player.result = "WIN";
+          }
+          player.username = username; 
+          playerData.push(player);
+          playerData.push(opponent);
+          console.log(playerData);
+          this.playerData  = [];
+          this.playerData[0] = playerData[0];
+          this.playerData[1] = playerData[1];
+          console.log(this.playerData);
         })
         if (this.isGameOver) {
           return;
@@ -161,8 +181,7 @@ export class ConnectFourComponent implements OnInit {
 
       // Gets opponent information
       this.socket.on('opponent-information', username => {
-        this.opponent.username = username;
-        console.log(this.opponent.username);
+        opponent.username = username;
       })
 
       // Checks if any of the winning combinations are on the board
@@ -187,7 +206,7 @@ export class ConnectFourComponent implements OnInit {
             result.innerHTML = text;
             playAgainWindow.style.visibility = 'visible';
             playAgainWindow.style.opacity = '1';
-            this.socket.close();
+            //this.socket.close();
           }
           //check those squares to see if they all have the class of player-two
           if (
@@ -203,7 +222,7 @@ export class ConnectFourComponent implements OnInit {
             result.innerHTML = text;
             playAgainWindow.style.visibility = 'visible';
             playAgainWindow.style.opacity = '1';
-            this.socket.close();
+            //this.socket.close();
           }
         }
       }
@@ -339,5 +358,9 @@ export class ConnectFourComponent implements OnInit {
 
   playAgain() {
     this.router.navigate(["connect4start"]);
+  }
+
+  get gameResult(){
+    return this.playerData;
   }
 }

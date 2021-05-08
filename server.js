@@ -131,6 +131,11 @@ Socketio.on('connection', socket => {
     socket.on('game-over', () => {
         socket.broadcast.emit('game-over', true);
     })
+    
+     // Handles sharing user data
+     socket.on('player-name', username => {
+        socket.broadcast.emit('opponent-information', username);
+    })
 });
 
 // MEMORY GAME 
