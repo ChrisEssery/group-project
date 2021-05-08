@@ -412,7 +412,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -547,7 +547,7 @@ Another major aim for this sprint was to implement basic features such user logi
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -679,7 +679,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -810,7 +810,7 @@ We now had to make sure that there was a fruitful integration of the front and b
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
@@ -895,10 +895,10 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe the end-users should enjoy using the product and understand how it works.</td>
+<br>Simon </a> <br /> As a product manger, I believe thorough testing is essential</td>
 <td>Testing</td>
 <td>Create test accounts and test both backend and frontend work correctly</td>
-<td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly.</td>
+<td>Testing the back-end and front-end is really important to determine that both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. Backend testing, by contrast, is serves to check for data corruption and data loss. By conducting testing you will be able to identify faults and errors in your code and make corrections and remove bugs where necessary.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -918,7 +918,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 <tr>
   <th>Part of MEAN stack</th>
   <th>Backlog item</th>
-  <th>User story</th>
+  <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
 </tr>
