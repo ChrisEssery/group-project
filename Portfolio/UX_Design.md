@@ -62,13 +62,9 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
-After some deliberation our team decided that we would develop a product designed to help older adults socialise through the medium of online games. This, we felt, was a very relevant issue in society - one which we all had experience of with grandparents - and it was an issue which could be addressed through serious play. As mentioned the [Background](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of the report, this concept was essential for shaping our understanding of the product, what it would look like and how it would work.
+After some deliberation our team decided that we would develop a product designed to help older adults socialise through the medium of online games. This, we felt, was a very relevant issue in society - one each of us had personal experience of with grandparents - and it was an issue which could be addressed through serious play. As mentioned the [Background](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of the report, this concept was essential for shaping our understanding of the product - what it would look like and how it would work. So, we kept in mind the concept of serious play, and in particular, Zimmerman's category of 'game play' to help inform our decisions around the product design. As we discussed in the subsection on [psychology of playing games](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#the-psychology-of-playing-games), there were several questions we had to ask during this ideation phase. For instance, we had to ask ourselves: does our app have a clear goal? Is this goal apparent up front to the user, or is it something they have discover through using our platform? Will our application raise awareness of an issue? And if it does, will this be explicit or implicit in the product? These were all important questions when considering how to design our application.
 
-We realised that the serious problem of the rules needed to be fun and integrated right from the beginning of the application. So, it became clear, after consultation with our end-users that we ought to include a simple, clear outline of the rules in the start page.
-
-Does our app have a clear goal? Is this apparent up front to the user? or uncovered through use? or never discovered? Raising awareness? Provoking behaviour change and facilitating learning and promoting wellbeing through socialising. Motivations with respect to the gameplay. The users have extrinsic motivations in the form of leaderboards, winning and social contact and then that turns into intrinsic motivation of enjoyment, purpose, growth and curiosity. Intrinsic and extrinsic.
-
-Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. Also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboard, does your game display progress over time? Does there need to be a score? It supports extrinsic factors and they can be highly motivating and terrible for those who are doing worse. We decided to include a collaborative enterprise in the memory game so as to include a cooperation component to the gameplay. The concept of serious play should be included in introduction, background, evaluation
+We decided that our product would aim to promote behaviour change with respect to socialising online. This, we felt, would serve to address the issues of loneliness and isolation. We also wanted to design the product to facilitate brain training through challenging games. In addition, having researched the [extrinsic and intrinsic motivations](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#extrinsic-vs-intrinsic-motivations) that drive game play, we knew that the users would have extrinsic motivations in the form of leaderboards, winning and social contact which would then, over time, turn into intrinsic motivation in the form of enjoyment, purpose, growth and curiosity. It was, therefore, important for us to bear these motivations in mind when designing the UI. To find an alignment between intrinsic and extrinsic motivations, and integrate features capable of eliciting both of these motivations.
 
 Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UX. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. With these insights, we can now go on to explain the evolution of the app's UI design. This evolution, naturally, changed over time with a total of four separate versions.
 
@@ -182,7 +178,7 @@ Before explaining our design heuristic method, we should define what a heuristic
    10. List concise steps in lean, searchable documentation for overcoming problems.
 ```
 
-We used these criteria to conduct a heuristic evaluation of our product's design. These heuristics nicely dovetailed with our user-centred design (UCD).
+We used these criteria to conduct a heuristic evaluation of our product's design. Whilst they might appear slightly obvious, they were nonetheless an extremely helpful point of reference when making design decisions. What's more, they nicely dovetailed with our user-centred design (UCD), to which we now turn.
 
 ### User-centred design
 
@@ -364,6 +360,7 @@ As with the other stakeholders, tailoring the design of the product to meet thes
 
 ## Wireframes and interaction flow diagrams
 
+NEED TO ADD TO THIS
 
 ## References
 
