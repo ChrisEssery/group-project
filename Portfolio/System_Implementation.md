@@ -764,10 +764,39 @@ A typical implementation of Socket.io can be seen below:
 Overall, Socket.io provided all of the functionality required to delivery the multiplayer aspects of the game in a clean, intuitive fashion.
 
 ### Real-time Video Chat
-Placeholder
+Along with multiplayer functionality, providing a real-time video chat solution was another key objective. Initially, we had discussed developing a video chat application from the ground up using ASP.NET and Angular, however we decided that focusing our development time on our own application was a more effective use of our time. 
+
+We began researching which services would meet our needs. We explored Twilio, PubNub, Sinch and Jitsi. We ultimately ended up choosing Jitsi, as it provided all the functionality we needed, without additional bloat. Providing we kept the Jitsi logo on the video feed, you are also able to leverage their API for free.
+
+<img src="https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png" width="500" height="400">
+
+Firstly, we needed to call the Jitsi Meet script in the index.html file of the project.
+
+<img width="436" alt="Screenshot 2021-05-08 at 23 09 44" src="https://user-images.githubusercontent.com/29493918/117554929-a8290700-b052-11eb-8d95-2d6ad8ad60d2.png">
+
+We then generated a component to house all of the Jitsi component logic.
+
+<img width="330" alt="Screenshot 2021-05-08 at 23 10 49" src="https://user-images.githubusercontent.com/29493918/117554952-e0c8e080-b052-11eb-9995-41076576a7d0.png">
+
+At this point, we were then easily able to use the component in any of the other components that required the real-time video chat.
 
 ### Deploying to Microsoft Azure
-Placeholder
+![alt_text](https://miro.medium.com/max/3840/1*_HYOZExV1wV2f0OrfZ9YcA.png)
+The platform chosen to deploy a live version of the application was Microsoft's cloud platform Azure as one of our team members, Chris, holds Microsoft-accredited certifcations for the platform. Azure provides Docker support in the form of Azure Container Instances (ACI), which allows the deployment of containers without managing the underlying servers and Azure Container Registry (ACR) for the storage of private Docker container images, which allows easy, scalable deployment.
+
+There are many benefits of using a cloud platform as opposed to your own web server for deploying your applications:
+
+* Scalability - as your business grows or your application becomes more popular, if your application is deployed on only one server, it may struggle to keep up with demand. By using cloud servers, you can either scale up (increase the compute power of your instance) or scale out (increase the number of instances on which your application is deployed). You can also use burstable instances, which only scale up or out for a short period whilst your application is experiencin heavy traffic - meaning you only pay for what you need.
+
+* Integration - Azure has support for many services that may be of use for your application. For example, it provides integration for MongoDB, Docker, Big Data analytics, cheap scalable storage and IoT solutions.
+
+* Automation - Azure provides services such as Logic Apps and Functions, which allow you to automate processes for your systems and minimise the time administrating.
+
+For the purpose of this project, the solution architected was not overly complex. The solution used was Azure App Service. App Service allows you to deploy a container, or code, using the language or framework of your choice. It is a fully managed platform, meaning you don't have to handle any of the management of the underlying servers, such as patching or scaling. In a production environment, you can also use the built-in CI/CD integration do minimise downtime. 
+
+There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
+
+<img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">
 
 ___
 

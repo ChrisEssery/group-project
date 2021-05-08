@@ -658,17 +658,17 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I want my team to build a MVP as soon as reasonably possible</td>
-<td>Create MVP</td>
-<td>N/A</td>
-<td> My advice is to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
+<br>Simon </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores</td>
+<td>Leaderboard</td>
+<td>Get game's leaderboard</td>
+<td>One thing to bear in mind is that the way game scores are sorted may vary with different games. Add a parameter `order` to the url path when making the request. My other piece of advice would be to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want my users to have face-to-face communication with others during the gameplay.</td>
  <td>Video chat</td>
- <td>Add video chat to connect four<</td>
+ <td>Add video chat to connect four</td>
  <td>The video chat looks really good - well done. I think this feature is really important as it will really help address the feeling of loneliness a lot of our residents are experiencing at the moment since the beginning of lockdown. It's a really difficult time for them at the moment, so being able to see their friends and loved ones will really help them.</td>
 </tr>
 </tr>
@@ -703,7 +703,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
   <td>Back-End</td>
   <td>Get game's leaderboard.</td>
   <td>Users are able to view the specific game leaderboard based on the scores.</td>
-  <td>The way game scores are sorted may vary with different games..</td>
+  <td>The way game scores are sorted may vary with different games.</td>
   <td>Add a parameter `order` to the url path when making the request. Set the value 1 for getting the top scores in ascending order, and 0 for getting the lowest scores.</td>
 </tr>
 </table>
