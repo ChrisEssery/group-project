@@ -13,15 +13,23 @@ In this section, we discuss the User Experience (UX) design of our app. We start
 ## Table of contents
 
 * [**UX Design**](#ux-design)
-   * [Design Process and Ideation](#design-process-and-ideation)
-   * [Evolution of UI Design](#evolution-of-ui-design)
+  * [Design Process and Ideation](#design-process-and-ideation)
+  * [Evolution of UI Design](#evolution-of-ui-design)
 * [**Identification of users and stakeholders**](#identification-of-users-and-stakeholders)
-   * [Stakeholders](#stakeholders)
-   * [End-user](#end-user)
-   * [Product manager](#project-manager)
-   * [Sponsor](#sponsor)
 * [**UX approach - design methods**](#ux-approach--design-methods)
+  * [Design heuristics](#design-heuristics)
+  * [User-centred design](#user-centred-design)
+* [**Understanding user group**](#understanding-user-group)
+  * [Stakeholders](#stakeholders)
+  * [End-users](#end-user)
+  * [Stakeholder stories](#stakeholder-stories)
+  * [Product manager](#project-manager)
+  * [Sponsor](#sponsor)
+* [**Wireframes and interaction flow diagrams**](#wireframes-and-interaction-flow-diagrams)
   * [Understanding user group](#understanding-user-group)
+  * [The end-users](#the-end-users)
+  * [The product manager](#the-project-manager)
+  * [The sponsor](#the-sponsor)
 
 
 
@@ -200,7 +208,7 @@ The principles behind these steps are:
 
 Using this UCD was really beneficial since it helped focus our attention on the users and their needs, wants and requirements.
 
-## Game design for older people
+### Game design for older people
 
 For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
 
