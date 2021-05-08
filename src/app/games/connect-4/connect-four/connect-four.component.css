@@ -109,10 +109,14 @@ h3 {
 }
 
 .p1, .p2 {
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-size: 30px ;
+  font-family: 'Luckiest Guy', cursive;
+  font-size: 40px ;
   margin-left: 100px;
   margin-top: 30px;
+  color:  gold;
+  letter-spacing: 4px;
+  text-shadow: 0 1px 0 #ccc, 0 2px 0 #ccc, 0 3px 0 #ccc, 0 4px 0 #ccc, 0 5px 0 #ccc, 
+  0 6px 0 transparent, 0 7px 0 transparent, 0 8px 0 transparent, 0 9px 0 transparent, 0 10px 10px rgba(0, 0, 0, 0.4);;
 }
 
 .p1 span {
@@ -122,7 +126,8 @@ h3 {
   background: red;
   border-radius: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-style:solid
+  border-style:solid;
+  border-color: black;
 }
 
 .p2 span {
@@ -132,7 +137,8 @@ h3 {
   background: blue;
   border-radius: 40px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
-  border-style:solid
+  border-style:solid;
+  border-color: black;
 }
 
 .wrapper{
