@@ -13,7 +13,7 @@
 ### *Don't Get Bored, Get NotSoBored Games*.
 [Our Team](#our-team) · [Abstract](#abstract) · [Aims & Objectives](#aims-and-objectives) · [Demo Video](#demo-video) · [Table of Contents](#table-of-contents) · [Technologies](#technologies-used)
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/ezgif.com-gif-maker.gif)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/ezgif.com-gif-maker-loop.gif)
 
 
 </div>
