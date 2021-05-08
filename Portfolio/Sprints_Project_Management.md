@@ -198,10 +198,11 @@ Now, let's turn to the weekly sprints.
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github. We tried to develop our understanding of the basic operations of GitHub, including the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). In addition, we began by adding to the readme in our repository. We agreed on the main channels of communication we'd use, namely Microsoft Teams and Discord, and decided to create stakeholder stories, including user stories, to help guide our development. We also finalised our decision to build a online multiplayer game plaform for the elderly with video chat, and from previous weeks we had decided to call the product 'NotSoBored Games'.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did was get setup on Github. We tried to develop our understanding of the basic operations of GitHub, including the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). In addition, we began by adding to the readme in our repository, and starting on documentation. We agreed on the main channels of communication we'd use, namely Microsoft Teams and Discord, and decided to create stakeholder stories, including user stories, to help guide use during the development. We agreed to build a start page for our application, and we finalised our decision to build a online multiplayer game plaform for the elderly with video chat. Also, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
 
    * We made the group decision to use the MEAN stack.
-   * Create a group Discord server
+   * Create a group Discord server.
+   * Design and build start page.
    * Set up GitHub repository and familiarised ourselves with the platform.
    * Agreed to setup a protocol with regard to GitHub.
    * Create a simple paper prototype of the UI design.
@@ -214,11 +215,12 @@ The aim of this sprint was to decide on our architecture and how we intended to 
 The following are a list of tasks and features that the team were tasked to deliver by the end of the sprint.
 
     ```
-      → Backlog item: setup GitHub repository
-      → Backlog item: create a GitHub protocol and familiarise ourselves with it
-      → Backlog item: create a simple UI design paper prototype
-      → Backlog item: create a group Discord server
-      → Backlog item: create stakeholder stories
+      → Backlog item: setup GitHub repository.
+      → Backlog item: design and build start page.
+      → Backlog item: create a GitHub protocol and familiarise ourselves with it.
+      → Backlog item: create a simple UI design paper prototype.
+      → Backlog item: create a group Discord server.
+      → Backlog item: create stakeholder stories.
 
     ```
 
@@ -247,6 +249,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 ### Key implementations from previous sprint
 
    * GitHub protocol established.
+   * Design and build start page.
    * User stories created.
    * Paper prototype and paper prototype video shown to users.
    * Update given on progress of games.
@@ -255,7 +258,6 @@ The aim of this sprint was to get something built and pushed onto GitHub. We dec
 ### New backlog items
 
  ```
-   → Backlog item: design and build start page.
    → Backlog item: add audio to start page.
    → Backlog item: start building games.
    → Backlog item: design backend.
