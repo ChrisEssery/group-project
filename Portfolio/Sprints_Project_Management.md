@@ -874,7 +874,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
  <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
- <th>&nbsp-s Feedback from Users</th>
+ <th>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Feedback from Users</th>
 </tr>
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
