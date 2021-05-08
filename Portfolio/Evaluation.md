@@ -31,7 +31,7 @@ When it came to the design of the project we knew it was important to have a num
 
 ### Methods used
 
-We turn to the methods used and evaluate the effectiveness of each of these. The first of these methods was the paper prototyping.
+We turn to the methods used and evaluate the effectiveness of each of these. It is worth noting that given the time constraints of this unit, we were unable to use as many evaluation techniques as we would have liked. Focus groups, interviews and observations all would have been invaluable methods for garnering useful data to inform our design decisions. We discuss this in the below subsection [Other possible methods](#other-possible-methods). But first, let's consider the first method we used to evaluate our product design, namely, paper prototyping.
 
 
 ### Paper prototyping
@@ -40,9 +40,7 @@ The first way in which we evaluated our design was through paper prototyping. At
 
 **Limitations**
 
-Now, for the disadvantages. Hard to interpret design. Paper prototypes require a great deal of imagination from test participants—they have to imagine how the future state of a product will look like just by looking at the paper. Testing only in person. It’s hard to test a paper prototype when participants are widely dispersed geographically. Need to transfer papers to the digital format. The downside of a paper prototype is that you’ll need to convert it in a digital prototype anyway.
-
-With these disadvantages in mind, we created a short video demo of the paper prototype. This addressed the issue of partcipants being unable to imagine how the product would look, and it meant that the prototype could be sent to people across the country and globe. This meant that we were able to obtain feedback from a wide range of users, all dispersed geographically. We integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flowed properly. This video is below:
+Now, for the disadvantages. Hard to interpret design. Paper prototypes require a great deal of imagination from test participants—they have to imagine how the future state of a product will look like just by looking at the paper. Testing only in person. It’s hard to test a paper prototype when participants are widely dispersed geographically. Need to transfer papers to the digital format. The downside of a paper prototype is that you’ll need to convert it in a digital prototype anyway. With these disadvantages in mind, we created a short video demo of the paper prototype. This addressed the issue of partcipants being unable to imagine how the product would look, and it meant that the prototype could be sent to people across the country and globe. This meant that we were able to obtain feedback from a wide range of users, all dispersed geographically. We integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flowed properly. This video is below:
 
 <br/><br/>
 <p align="center">
@@ -52,68 +50,29 @@ With these disadvantages in mind, we created a short video demo of the paper pro
   <br/><br/>
 </p>
 
-This approach to evaluating the design was very effective since it had all the benefits of a paper prototype without the drawbacks mentioned above. It was largely inexpensive to produce and it was simple to share among users.
-
-One way in which this process could have been improved was through user testing through a facillitator and human-computer roles. If you plan to conduct testing sessions with a paper prototype, you’ll need two roles for each testing session: Facilitator (presenter). A person that instructs test participants and interacts with them.‘Human computer.’ This person remains silent during the session and is in charge of changing screens or screen states, whenever the test participant interacts with a prototype. This role is extremely important — the effectiveness of testing often depends on how good the person playing the computer is at responding to a participant’s actions. Avoid combining the roles of facilitator and ‘human computer.’ It’s a quite common problem when presenter who acts as a ‘human computer’ miss some vital information from test participants.
+This approach to evaluating the design was very effective since it had all the benefits of a paper prototype without the drawbacks mentioned above. It was largely inexpensive to produce and it was simple to share among users. One way in which this process could have been improved is by conducting user testing through facilitator and human-computer roles. Testing sessions which utilise this technique to test a paper prototype, rely on three main roles: a facilitator (presenter), a 'human computer', and participants. The facilitator is responsible for instructing test participants. The 'human computer' remains silent during the session and is responsible for changing the screens of the platform in response to the test participant interactions with the product.
 
 ### Wireframing
 
 At this stage, we converted the paper prototype of our website to a wireframe to simulate all the features (including the structure of menu, button control, requests and responses) we have planned with the use of [Figma](https://www.figma.com/) (a digital design and prototyping tool). See our initial wireframe version [here](https://www.figma.com/proto/0CgBZ0XKPHl8fCcgvPSsWr/NotSoBoredGames-Copy?node-id=6%3A137&scaling=scale-down&page-id=6%3A121).
 
-Wireframing proved to be a very effective way of evaluating our design. The UI wireframe above provides a low-fidelity skeleton of the UI. This serves to show the main features, layout, content, and functionality of the UI, without getting bogged down in the visual design of the app. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software, and it helps those working on the front-end of the product to better understand how they should design and build the main features and functions of the UI.
+Wireframing proved to be a very effective way of evaluating our design. The UI wireframe above provides a low-fidelity skeleton of the UI. This serves to show the main features, layout, content, and functionality of the UI, without getting bogged down in the visual design of the app. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software, and it helps those working on the front-end of the product to better understand how they should design and build the main features and functions of the UI. We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes.
 
-We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes.
-
-EDIT:
-The advantages:
-
-It can get clients on board with the design process.  
-Getting clients involved at the get-go can help in a big way. When they sign it off, your designer isn’t left in the dark about their desired functionality and features. This also means your client isn’t left in the dark about why you’ve suggested this wireframe for them. Everything that comes after will fall into place, which helps you avoid explaining the functional choices you’ve made later down the line.   
-
-Make changes more efficiently
-Nailing the skeleton of the website is pivotal in efficient design. If you jump straight into design without thinking about the information hierarchy and user experience, you can end up making loads of changes later down the line. Wireframes help you see if you’re making the right decisions from a UX and information-hierarchical point of view, so you can build around it.  
-
-Saves time and money
-Doing a quick wireframe is an extra step in the process, but it can save you loads of time and money later down the line. It provides greater knowledge of the project which will be fine-tuned to basic requirements, minimizing the risk of redesigns. Nailing the functional part of the website means your designer will know how things will work before jumping in. It’ll allow them to design around these necessary interactive features so things aren’t changing when you realize something won’t work well from a UX point of view.  
-
-Allows you to plan for website responsiveness
-Wireframing helps you prioritize site elements while putting you in a good mindset for thinking about what content is most relevant to the visitors and how that content will work on different screens. It’ll help you see how things will flow across different devices.
-
-Great for a client who only focuses on how pretty things are as it’s based around functionality only
-If your client is getting bogged down with design elements ahead of the curve, you can help them take a step back and think about the user-centric UX consequences of any ambitious design desires they have. They’ll be able to see and consider how the site will behave for their visitors over how it’ll look.  
+The main advantages of wireframing are as follows. Firstly, it is a simple way to encourage end-users and clients in the design process. Involving these stakeholders involved in the early stages of product development is really helpful because once you have their feedback those who are in charge of the UX and UI are left with a good idea of the desired features, functionality, and style of the product. This also means that the stakeholders are involved in the design process very early on, and they made aware of the direction the product is going in. Furthermore, this has the added benefit of providing a rationale for the key decisions concerning the design on the product. Another benefit of wireframing is that it provides a clear skeleton of the application. This can serve as a blueprint for the design which can be used to inform good UX decisions from a information-hierarchical point of view.  Finally, creating a a quick wireframe can  save a team a lot of time and money. This is because it can be used to establish a better understanding of the project requirements, which will then be fine-tuned to basic user requirements. This, in turn, reduces the likelihood of costly redesigns down the line.
 
 **Limitations**
 
-EDIT:
-The disadvantages:
+Despite the benefits of wireframing, there exist several limitations with this evaluative method. The first issue concerns how stakeholders can get overly concerned with the minutiae of the product design. This can hold up the design process, particularly if the stakeholders become preoccupied the specific details of the design. In terms of timeliness, this design step is *another* step to be taken, so one might argue that it's worth skipping and moving on to a more substantive design stage.   
 
-Clients get bogged down with the minute details  
-It’s sometimes hard to explain why wireframes are needed to clients, especially those who are concerned more with how a website looks than how it behaves. Some clients are more comfortable looking at images and branding than a gray, basic map of the website, but this step shouldn’t include those bits yet.
-
-Can be too designed
-If your wireframes are too designed, it means that too much time is being taken up by them. Remember, they’re only there to help you map out the very basic flow of your website, so it shouldn’t be a huge step in the process.  
-
-It’s another step in the process
-Yes, this is an extra step in the process, so many people believe skipping it will get things moving into the design stage faster.   
-
-Tricky to change a drawing
-Editing a drawing over and over takes a chunk of unnecessary time. It’s much easier to make vital changes if you’re using programs like Balsamiq instead.
-
-Does provide design limitations  
-When a wireframe has been signed off, there’s little room for creative change for your designer. They must adhere to the functionality of your agreed website skeleton, which pens-in the option for other creative possibilities that may require a different flow.
+If your wireframes are too designed, it means that too much time is being taken up by them. Remember, they’re only there to help you map out the very basic flow of your website, so it shouldn’t be a huge step in the process. Editing a drawing over and over takes a chunk of unnecessary time. It’s much easier to make vital changes if you’re using programs like Balsamiq instead. When a wireframe has been signed off, there’s little room for creative change for your designer. They must adhere to the functionality of your agreed website skeleton, which pens-in the option for other creative possibilities that may require a different flow.
 
 
 ### Questionnaires
 
-Questionnaires are
+Questionnaires proved to be a very useful method for answering specific questions about our paper prototype and wireframe, and it opened up the possibility for quantitative data. It had the advantage of being able to reach many people with low resource requirements and the disadvantage that the design and phrasing of the questions needed to be well constructed to provide strong, reliable data and avoid the negative effects of human judgment bias.
 
 See our full test report [here](https://my.helio.app/report/01F1WDKPM82XVYYJVE0HS5Q93T).
 
-Based on the report, we focused on making several updates.
-
-Our data is qualitative. Qualitative methods generate data that are represented by observe or report words and or behaviours. It is best suited when you want to understand and represent the opinions and perspectives of your users.
-
-Given the time constraints of this unit, we were unable to use as many evaluation techniques as we would have liked. Focus groups, interviews and observations all would have been invaluable methods for garnering data about our target group, their needs and interactions with out product. Questionnaires proved to be a very useful method for answering specific questions about our paper prototype and wireframe, and it opened up the possibility for quantitative data. It had the advantage of being able to reach many people with low resource requirements and the disadvantage that the design and phrasing of the questions needed to be well constructed to provide strong, reliable data and avoid the negative effects of human judgment bias.
 
 **Limitations**
 
@@ -125,31 +84,24 @@ One may object, however, that the exploratory nature of our approach limits its 
 
 Proto-personas based on assumptions about the relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework.
 
-This approach relies on an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research based on self-reflection and the process of writing to explore and understand personal experiences and connect this autobiographical story to wider societal issues. For our purposes, this relates to self-reflection on the position of our stakeholders via proto-personas. This was an excellent method for adding stakeholders into our agile development, and meant that despite being able to meet older adults in person show them our product, we were able to reflect on what their responses might be. This, together with the questionnaire data we gathered meant we could adjust our UI and UX design to best serve our end-users. This was extremely useful for evaluating our design.
+This approach relies on an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research based on self-reflection and the process of writing to explore and understand personal experiences and connect this autobiographical story to wider societal issues. For our purposes, this relates to self-reflection on the position of our stakeholders via proto-personas. This was an excellent method for adding stakeholders into our agile development, and meant that despite being able to meet older adults in person show them our product, we were able to reflect on what their responses might be. This, together with the questionnaire data we gathered meant we could adjust our UI and UX design to best serve our end-users. This was extremely useful for evaluating our design, since it was a quick, easy way to obtain feedback about our product.
 
 **Limitations**
-EDIT
 
 One of the main limitations of autoethnography is its emphasis on the self. Specifically, it is regarded as too individualised. On this point, Sparkes (2000) claims, "The emergence of autoethnography and narratives of self…has not been trouble-free, and their status as proper research remains problematic" (p. 22).  Autoethnographies have been criticised for being self-indulgent and individualised (Atkinson, 1997; Coffey, 1999).
 
-Another criticism concerns the accuracy of the research method. In particular, is it a reliable guide to the truth in the sense that the personal narratives or autoethnographies represent the ground truth. On this point, Walford (2004) states, "If people wish to write fiction, they have every right to do so, but not every right to call it research" (p. 411).
+Another criticism concerns the accuracy of the research method. In particular, is it a reliable guide to the truth in the sense that the personal narratives or autoethnographies represent the ground truth. On this point, Walford (2004) states, "If people wish to write fiction, they have every right to do so, but not every right to call it research" (p. 411). Ellis and Bochner (2000), claim autoethnography as a narrative that, "…is always a story about the past and not the past itself" (p. 745) .
 
-Ellis and Bochner (2000), claim autoethnography as a narrative that, "…is always a story about the past and not the past itself" (p. 745) .
-
-Walford (2004), who claims that "…the aim of research is surely to reduce the distortion as much as possible" (p. 411). Walford's concerns are focused on how much of the accounts presented as autoethnographies represent real conversations or events as they happened, and how much they are just inventions of the authors.
-
-Denzin and Lincoln (2000) state, "Objective reality can never be captured. We can know a thing only through its representations" (p. 5).
-
-Overall, then, the benefit of autoethnography is the ideas that emerge from the interaction between reflection on the users with consideration of the cultural and social context in which the user exists. It is through this process of reflection that useful insights are generated, which have primae facie value as a research tool.
+Walford (2004), who claims that "…the aim of research is surely to reduce the distortion as much as possible" (p. 411). Walford's concerns are focused on how much of the accounts presented as autoethnographies represent real conversations or events as they happened, and how much they are just inventions of the authors. Denzin and Lincoln (2000) state, "Objective reality can never be captured. We can know a thing only through its representations" (p. 5). Overall, then, the benefit of autoethnography is the ideas that emerge from the interaction between reflection on the users with consideration of the cultural and social context in which the user exists. It is through this process of reflection that useful insights are generated, which have primae facie value as a research tool.
 
 
 ### Heuristics
 
-Why use these modelas and heuristics? Well, because they can help in predicting user behaviour and when compared to primary datam can uncoveer important resesarch questions and hypotheses.
+Heuristics are a useful method because they can help in predicting user behaviour and when compared to primary datam can uncover important research questions and hypotheses.
 
 **Limitations**
 
-ONe of the downsides of heuristics commonly make assumptions about products and people. Heuristics may not be suited to novel technologies - there is a risk of new technology outpacing heuristics. However, despite these considerations, heuristics are a great tool for making the design do's and don'ts intuitive. For our purposes, heurisitcs were perfect because we didn't have access to many users given the covid crisis. Challenges to end-users, particularly given that our end-users are an at-risk group.
+One of the downsides of heuristics commonly make assumptions about products and people. Heuristics may not be suited to novel technologies - there is a risk of new technology outpacing heuristics. However, despite these considerations, heuristics are a great tool for making the design do's and don'ts intuitive. For our purposes, heuristcs were perfect because we didn't have access to many users given the covid crisis. Challenges to end-users, particularly given that our end-users are an at-risk group.
 
 Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
 
@@ -166,26 +118,20 @@ Before moving on to our evaluation of the design, let's consider some of the str
 
 ### Other possible methods
 
-We would have liked to employ a mixed methods approach to generate both quantitative and qualitative data, often using one to inform the other (that is, 'triangulation').
+By this point it is probably clear that most of the data we obtained was qualitative. Qualitative methods generate data that are represented by observations or reports of people's opinions and behaviours. This method is best suited when the goal is to understand and represent the opinions and perspectives of the target users. Given this, qualitative methods seemed the natural choice when trying to evaluated our design. Analysing this type of data may include interviews, observation notes, open-ended survey responses, and user-diaries. There are several ways in which such data may be analysed with differing levels of rigour.
 
-Qualitative methods generate data that are represented by observed or reported words and/or behaviours. It is best suited when you want to understand and represent the rich opinions and persepctive of your users.
+On reflection, we would have liked to employ a mixed methods approach to generate both quantitative and qualitative data, using one to inform the other (that is, 'triangulation'). However, this lay outside the scope of our project due to the time constraints impose on use and the nature of the product we were developing. Despite this, there exist different methods we could have used that would have served to help evaluate our product design.
 
-Analysing qualitative data may include interviews, observation notes, open-ended survey responses, user-diaries. There are several qays in which such data may be analysed with differeing levels of rigour.
+The first method is models of behaviour. These empirical research models of human behaviour can be used to predict or estimate evaluative outcomes. Fitts' law (1954) is a good example of research which cites Fitts' law. ADD MORE.
 
-Models of behaviour are also useful - empirical research models of human behaviour using similar technologies / designs, can be used to predict or estimate evaluative outcomes. Fitts' law (1954) is a good example of research which cites Fitts' law.
+**Cognitive walkthroughs** - This second method involves emulating a user's problem-solving process at each step in the the human-computer-dialogue and check to see how users progress from step to step in these interactions
 
-**Cognitive walkthroughs** - emulating a user's problem-solving process at each step in the the human-computer-dialogue and check to see how users progress from step to step in these interactions
-
-**Thematic analysis** is a popular and flexible means of applying strucutre and a prescriber process for your analysis. In short, this approach involves gathering together your data from all available sources, creating category labels ("codes") that describe emerging and or expected patterns trend, apportion evidence (e.g. quotes from users, research observations excerpts beneath each category label, restructuring codes into a hierarchy tree and grouping related items together to generate themes).
-
-Thematic analysis. Affinity diagrams -> visual way of grouping different parts of our data together. It is important to analyse the data effectively.
+**Thematic analysis** is the final method we will consider here. This is a popular and flexible means of applying structure and a prescriber process for your analysis. In short, this approach involves gathering together your data from all available sources, creating category labels ("codes") that describe emerging and or expected patterns trend, apportion evidence (e.g. quotes from users, research observations excerpts beneath each category label, restructuring codes into a hierarchy tree and grouping related items together to generate themes).
 
 
 ### Timeline of evaluation of design
 
 **ADD timeline**
-
-
 
 
 ## Unit testing
