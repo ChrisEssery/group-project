@@ -373,7 +373,8 @@ There are many ways in which our stakeholders will interact with the different p
 
 ### The end-users
 ```
-  The end-users login and play games against friends and family members. The profile page contains information on a user's friends as well as their game history.
+  The end-users login and play games against friends and family members. The profile page contains information on
+  a user's friends as well as their game history.
 
   The end-user can use the the platform to compete for the top spot on the leaderboard.
 
@@ -382,11 +383,13 @@ There are many ways in which our stakeholders will interact with the different p
 
 ### The product manager
 ```
-  The product manager can access information regarding the end-users, the sponsor, and game results to determine how stakeholders are using the product.
+  The product manager can access information regarding the end-users, the sponsor, and game results to determine
+  how stakeholders are using the product.
 
   The product manager can check for user engagement and assess user satisfaction.
 
-  The product manager can track web traffic to the website over time, and consider the viability of monetisation of the product.
+  The product manager can track web traffic to the website over time, and consider the viability of monetisation
+  of the product.
 ```
 ### The sponsor
 ```
