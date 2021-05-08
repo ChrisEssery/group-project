@@ -768,7 +768,19 @@ Placeholder
 
 ### Deploying to Microsoft Azure
 ![alt_text](https://miro.medium.com/max/3840/1*_HYOZExV1wV2f0OrfZ9YcA.png)
-The platform chosen to deploy a live version of the application was Microsoft's cloud platform, Azure as one of our team members, Chris, holds Microsoft-accredited certifcations for the platform. 
+The platform chosen to deploy a live version of the application was Microsoft's cloud platform Azure as one of our team members, Chris, holds Microsoft-accredited certifcations for the platform. Azure provides Docker support in the form of Azure Container Instances (ACI), which allows the deployment of containers without managing the underlying servers and Azure Container Registry (ACR) for the storage of private Docker container images, which allows easy, scalable deployment.
+
+There are many benefits of using a cloud platform as opposed to your own web server for deploying your applications:
+
+* Scalability - as your business grows or your application becomes more popular, if your application is deployed on only one server, it may struggle to keep up with demand. By using cloud servers, you can either scale up (increase the compute power of your instance) or scale out (increase the number of instances on which your application is deployed). You can also use burstable instances, which only scale up or out for a short period whilst your application is experiencin heavy traffic - meaning you only pay for what you need.
+
+* Integration - Azure has support for many services that may be of use for your application. For example, it provides integration for MongoDB, Docker, Big Data analytics, cheap scalable storage and IoT solutions.
+
+* Automation - Azure provides services such as Logic Apps and Functions, which allow you to automate processes for your systems and minimise the time administrating.
+
+For the purpose of this project, the solution architected was not overly complex. The solution used was Azure App Service. App Service allows you to deploy a container, or code, using the language or framework of your choice. It is a fully managed platform, meaning you don't have to handle any of the management of the underlying servers, such as patching or scaling. In a production environment, you can also use the built-in CI/CD integration do minimise downtime. 
+
+There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
 ___
 
