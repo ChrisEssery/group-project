@@ -256,7 +256,7 @@ There are a few outliers which host digital games which can be used by the elder
 
 ### CogniFit Brain Fitness
 
-[CogniFit Brain Fitness](#https://www.cognifit.com/)
+[CogniFit Brain Fitness](https://www.cognifit.com/)
 
 CogniFit is a healthcare company with their very own app designed to strengthen cognitive health. Their app is accompanied by web games, all backed by science. They perform a battery of tests to see where your baseline is and provide you with games and tasks to strengthen your skills.
 
@@ -272,7 +272,7 @@ This application differs from the abovementioned platforms because it emphasises
 
 ### Personal Zen
 
-[Personal Zen](#https://personalzen.com/)
+[Personal Zen](https://personalzen.com/)
 
 This app is a bit different from the rest. It’s a brain game that’s focused on improving your mental health by reducing your anxiety and stress. The game uses principles based on 20 years of clinical and neuroscience research and has been found to be effective in clinical studies. Regular use is said to help improve your mental health in the long term, although a single session can help you reduce stress and feelings of anxiety. This addresses the very important issue of mental health problems in our target population.
 
@@ -286,7 +286,7 @@ This app is a bit different from the rest. It’s a brain game that’s focused 
 
 ### Happify
 
-[Happify](#https://www.happify.com/)
+[Happify](https://www.happify.com/)
 
 
 The final outlier is an application designed to change one's mindset. Using principles from positive psychology and mindfulness, Happify is another kind of app that can actually improve your mental health and make you happier. The process is slow and steady, but it promises to change one's mindset. It’s free to start, so you can give it a try and see if it’s for you before subscribing.
