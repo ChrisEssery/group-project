@@ -45,9 +45,7 @@ This is the backdrop against which our analysis should proceed. But before going
 
 ### Defining key terms
 
-Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references).
-
-Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
+Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references). Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
 Our target group is adults above the age of 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game. And for our user testing we asked a wide range of users to test our prototype and provide their feedback in our user test survey (see [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#user-testing) for a discussion about the results of that survey).
 
