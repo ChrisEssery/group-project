@@ -2,6 +2,7 @@ import { Component, Injectable, OnInit } from '@angular/core';
 import { Router } from '@angular/router';
 import io from "socket.io-client";
 import { TokenStorageService } from 'src/app/_services/token-storage.service';
+import { DataService } from 'src/app/_services/data.service';
 @Component({
   selector: 'app-connect-four',
   templateUrl: './connect-four.component.html',
@@ -24,7 +25,7 @@ export class ConnectFourComponent implements OnInit {
   playerName: string;
   gameSocket: any;
 
-  constructor(private router: Router, private tokenStorageService: TokenStorageService) {
+  constructor(private router: Router, private tokenStorageService: TokenStorageService, private dataService: DataService) {
     this.username = tokenStorageService.getUser();
     this.player.username = this.username;
   }
@@ -145,7 +146,6 @@ export class ConnectFourComponent implements OnInit {
       // Emits ready signal and checks if game is over
       const playGame = (socket) => {
         socket.on('game-over', over => {
-          this.isGameOver = over;
           if(currentPlayerType === 'user'){
             player.result = "LOSS";
             opponent.result = "WIN";
@@ -161,12 +161,14 @@ export class ConnectFourComponent implements OnInit {
           this.playerData[0] = playerData[0];
           this.playerData[1] = playerData[1];
           console.log(this.playerData)
+          this.isGameOver = over;
           if(playerNumber === 0){
+            console.log("calling gameResult(): ")
+            console.log(this.gameResult)
             this.gameResult;
           }
         })
         if (this.isGameOver) {
-          console.log(this.playerData);
           return;
         }
         if (!ready) {
@@ -366,5 +368,11 @@ export class ConnectFourComponent implements OnInit {
 
   get gameResult(){
     return this.playerData;
+  }
+
+  //make the call to api to store the gameinstance data
+  addGameInstance(playerData:any){
+    let gameInfo = {"players": playerData}
+    this.dataService.addGameInstance("connect4", gameInfo)
   }
 }
