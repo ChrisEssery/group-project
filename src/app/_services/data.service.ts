@@ -33,7 +33,11 @@ export class DataService {
 
   addAFriend(friendname: String, username:String){
     username= username.replace(/['"]+/g, '');
-    return this.httpClient.post(this.REST_API_SERVER_USER+'/friends/'+username, friendname)
+    friendname = friendname.replace(/['"]+/g, '');
+    console.log("in service username "+ username)
+    let friend = {"friendName": friendname}
+    console.log(friend)
+    return this.httpClient.post(this.REST_API_SERVER_USER+'/friends/'+username, friend)
   }
 
   addGameInstance(gameName: String, gameInfo:any){

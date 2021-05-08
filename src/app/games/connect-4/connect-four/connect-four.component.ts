@@ -47,8 +47,17 @@ export class ConnectFourComponent implements OnInit {
 
   addFriend(e: { preventDefault: () => void; }) {
     e.preventDefault()
-    this.isFriend = true;
-    window.alert('Friend added')
+    console.log("player opponent " + this.opponent.username)
+    this.dataService.addAFriend(this.opponent.username, this.username).subscribe(
+      (data: any) => {
+        console.log(data.result)
+        this.isFriend = true;
+        window.alert('Friend added')
+      },
+      error => {
+        console.log(error.error);
+      }
+    )
   }
 
   ngAfterViewInit() {
@@ -371,7 +380,7 @@ export class ConnectFourComponent implements OnInit {
     }
     this.playerData.push(this.player);
     this.playerData.push(this.opponent);
-    console.log(this.playerData)
+    this.addGameInstance(this.playerData)
   }
 
   get gameResult() {
