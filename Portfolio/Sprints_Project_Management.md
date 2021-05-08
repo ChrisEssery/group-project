@@ -502,7 +502,7 @@ Another major aim for this sprint was to implement basic features such user logi
  <th>Users</th>
  <th>Feature</th>
  <th>Backlog item</th>
- <th style="width=50%;">Feedback from Users</th>
+ <th style="width=70%;">Feedback from Users</th>
 </tr>
 <tr>
  <td><img src="/Logo/user_bob.jpg" width=40%>
