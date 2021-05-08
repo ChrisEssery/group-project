@@ -4,6 +4,7 @@ import { CardService } from "./card.service";
 import { RankingService } from "./ranking.service";
 import { Router } from "@angular/router";
 import io from "socket.io-client";
+import { TokenStorageService } from "src/app/_services/token-storage.service";
 
 // request dependencies from external source
 @Injectable({
@@ -30,13 +31,19 @@ export class GameService {
   yourTurn: any;
   opponentTurn: any;
   serverNotFull: boolean = true;
+  playerData = [];
+  username: string;
+  player = {username: "", result: "", rounds: Number};
+  opponent = {username: "", result: "", rounds: Number};
 
   constructor(
     private cardService: CardService,
     private leaderboardService: RankingService,
-    private router: Router
+    private router: Router,
+    private tokenStorageService: TokenStorageService
   ) {
     this.cards = this.cardService.getCards();
+    this.username = this.tokenStorageService.getUser();
   }
 
   //determines when game has finished
@@ -213,6 +220,7 @@ export class GameService {
 
     // Opens socket connection
     this.gameSocket = io("http://localhost:3050");
+    this.gameSocket.emit('player-name', this.username);
     this.isConnected = true;
     this.infoDisplay.style.display = 'inline';
 
@@ -279,6 +287,12 @@ export class GameService {
     this.gameSocket.on('card-flipped', card => {
       this.showOpponentsCard(card);
     })
+
+    // Gets opponent information
+    this.gameSocket.on('opponent-information', username => {
+      this.opponent.username = username;
+    })
+
   }
 
   // Ready button functionality

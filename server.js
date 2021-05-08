@@ -251,4 +251,9 @@ Socketio_mg.on('connection', socket => {
     socket.on('game-start', () => {
         socket.emit('ready-to-go', true);
     })
+
+    // Handles sharing user data
+    socket.on('player-name', username => {
+        socket.broadcast.emit('opponent-information', username);
+    })
 });
