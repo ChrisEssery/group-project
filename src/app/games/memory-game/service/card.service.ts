@@ -16,7 +16,7 @@ export class CardService {
   getCards(): Card[] {
     const cards = [];
 
-    for (let i = 0; i < 1; i++) {
+    for (let i = 0; i < CARDS_IMAGES_PATHS.length; i++) {
       cards.push(new Card(i, CARDS_IMAGES_PATHS[i]));
       cards.push(new Card(i, CARDS_IMAGES_PATHS[i]));
     }
