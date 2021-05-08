@@ -161,7 +161,7 @@ We now turn to our state-of-the-art survey. After reviewing the state-of-the-art
 
 We now turn to the state-of-the-art survey. There is a wide range of digital games designed for the elderly and games that can be easily used by the elderly. Mobile games are a good option as you have thousands of fun, free games that allow you to play against friends, family, and anyone in the world.
 
-Puzzle games such as candy crush is a popular mobile game. There are also console games, but for our purposes, we will be focusing on games that you can access through a webpage. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games host a huge range of card, puzzle, and arcade games. Gametable's free online games are an example that is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's, and ... after we have done this we will look at two outliers that merit consideration.
+Puzzle games such as candy crush is a popular mobile game. There are also console games, but for our purposes, we will be focusing on games that you can access through a webpage or on your smartphone. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games host a huge range of card, puzzle, and arcade games. Gametable's free online games are an example that is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's free online games, and Lexulous. After we have done this, we will look at three outliers that merit consideration.
 
 ### AARP's free online games
 ___
@@ -247,18 +247,61 @@ For example, Lexulous and Words with friends are scrabble-style games easily dow
 - Is it better than competitors, for e.g., wordswithfriends?
 - Requires download which might confuse users
 
-
+Having considered these
 
 ### Outliers
 
-There are a few outliers which host digital games for the elderly.
+There are a few outliers which host digital games which can be used by the elderly. The following are three such outliers which are worth considering with regard to loneliness and isolation in older adults.
+
+
+###[CogniFit Brain Fitness](#https://www.cognifit.com/)
+
+
+
+CogniFit is a healthcare company with their very own app designed to strengthen cognitive health. Their app is accompanied by web games, all backed by science. They perform a battery of tests to see where your baseline is and provide you with games and tasks to strengthen your skills.
+
+### Key Features:
+
+- Assesses over 20 cognitive skills
+- Developed by neuroscience experts
+- Available on iOS and Android
+- Price: Free with in-app purchases; premium subscriptions $19.99/month or $119.99/year
+
+This application differs from the abovementioned platforms because it emphasises using science-based information to provide games for its users.
+
+
+### [Personal Zen](#https://personalzen.com/)
+
+This app is a bit different from the rest. It’s a brain game that’s focused on improving your mental health by reducing your anxiety and stress. The game uses principles based on 20 years of clinical and neuroscience research and has been found to be effective in clinical studies. Regular use is said to help improve your mental health in the long term, although a single session can help you reduce stress and feelings of anxiety. This addresses the very important issue of mental health problems in our target population.
+
+### Key Features:
+
+- Relieves anxiety and stress
+- A simple game to play
+- Apps available for iOS and Android
+- Price: Free
+
+
+### [Happify](#https://www.happify.com/)
+
+
+The final outlier is an application designed to change one's mindset. Using principles from positive psychology and mindfulness, Happify is another kind of app that can actually improve your mental health and make you happier. The process is slow and steady, but it promises to change one's mindset. It’s free to start, so you can give it a try and see if it’s for you before subscribing.
+
+### Key Features:
+
+- Exercises to improve emotional health
+- Techniques have proven to work by scientists
+- Engaging activities and games can be used anywhere
+- Price: Free to start; subscription plans start at $11.67/month
 
 
 ### A gap in the market
 
-After conducting our state-of-the-art survey, we realised that the trend among existing gaming platforms for the elderly was that the applications themselves were either overly complicated, difficult to navigate, and lacked video chat functionality. WE managed to garner useful data about games for older adults which left us with the insight that there exists a gap in the market. In particular, there is a gap in the market for a site like Gametable which is not only easy-to-use and and offers a small number of games to choose from, but importantly, has the added features of multiplayer mode and video communication functionality.
+After conducting our state-of-the-art survey, we realised that the trend among existing gaming platforms for the elderly was that the applications had a lot of games to choose from and were not easy to navigate. There is also a trend among some outliers to apply the principles of positive psychology to change the mindset of the user - to use the techniques of mindfulness to alter the end-users' perception of things around them.
 
-These two features, it is clear, are lacking in current products. That is, there doesn't appear to be anything in the market which offers both of these features. Not only did we realise this, but we also realised that these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent who is either a friend or family member is a very easy way to make you feel like you've socialised with those individuals. It was these features, therefore, which in our minds were crucial for addressing the problems of loneliness and social isolation.
+One thing was very clear, though: we noticed that a large majority of these platforms were overly complicated, difficult to navigate, and lacked video chat functionality. Having gathered this information about games for older adults, we were left with the insight that there exists a gap in the market. In particular, there is a gap for a site like Gametable, namely a site which is easy to use, offers a small number of games to choose from, and has the added features of multiplayer mode and video communication functionality.
+
+These added features, we felt, were essential to address the issues of loneliness and isolation. Simply playing an online game by yourself is very different from playing with a friend or family member. Not only did we realise this, but we also realised that these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent who is either a friend or family member is a very easy way to make you feel like you've socialised with those individuals. It was these features, therefore, which in our minds were crucial for addressing the problems of loneliness and social isolation.
 
 
 <div align="center">
