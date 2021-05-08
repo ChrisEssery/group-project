@@ -98,9 +98,22 @@ The team was also excellent on a human level. No-one ever felt outcast and every
 
 ## Reflection of success of project
 
-There have been many successes throughout the duration of this unit.
+There have been many successes throughout the duration of this unit. One of the first hurdles we faced as a team was that we started the project one team member down. That is, instead of having five team members, as was intended, we had four. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. Secondly, this meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. The way we dealt with being one team member down was arguably a success, since we did not dwell on the fact but simply moved forward with a positive mindset, aware of how much we could achieve if we remained focused and goal-oriented.
 
-One of the first hurdles we faced as a team was that we started the project one team member down. That is, instead of having five team members, as was intended, we had four. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. This also meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. ADD MORE
+With this in mind, we feel proud of how far we have come. In particular, we feel proud of how we have worked as a team to produce a working prototype based on an idea which arose during the ideation phase. As a team, we have managed to work well together, making sure to keep in contact every day, and to follow a structured approach to the completion of sprints.
+
+We also feel that we successfully designated roles to each team member, which we maintained throughout the project.
+
+### Back-End
+
+
+
+### Front-End
+
+
+
+### Design
+
 
 
 ### How well did our project fulfil the brief?
@@ -150,9 +163,7 @@ In relation to our group project,
 
 ## Social and ethical implications
 
-TO DO: edit this + add more implications
-
-Ethical issues concerning data privacy and security of our prototype were addressed by our team, particularly during the later stages of the project.
+Ethical issues concerning data privacy and security of our prototype were addressed by our team throughout the project. Let's consider these.
 
 ### Our ethical responsibilities
 
