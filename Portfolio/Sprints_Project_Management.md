@@ -134,9 +134,7 @@ We used Jira to implement these actions, and created Gantt charts to visualise t
 
 Within Jira there is a Backlog. This is a product backlog which contains list of the main deliverables we intended to implement during each sprint. These deliverables, or items, are prioritised to ensure that the most important features are completed before less important ones. These items were carried forward to subsequent sprints were we unable to complete them within the intended sprint. This served as an essential part of our product development, since it helped our decision making with regard to task assignment and prioritisation.
 
-The presence of an item in the backlog guarantees that the item is being worked on. However, it does not ensure that the item will be completed before the end of the sprint, or at all. In some circumstances, backlog items will not be completed due to practical issues.
-
-In the following, we give a detailed account of each sprint, the actions which arose from it and how our two users "Bob" and "Simon" felt about the new features.
+The presence of an item in the backlog guarantees that the item is being worked on. However, it does not ensure that the item will be completed before the end of the sprint, or at all. In some circumstances, backlog items will not be completed due to practical issues. In the following, we give a detailed account of each sprint, the actions which arose from it and how our two users "Bob" and "Simon" felt about the new features.
 
 
 ## Team Organisation
@@ -847,7 +845,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
    * Conduct unit testing.
    * Complete introduction demo video.
 
-**Attendees:** everyone in attendance.
+**Attendees:** Chris known absence.
 
 ### Key implementations from previous sprint
 

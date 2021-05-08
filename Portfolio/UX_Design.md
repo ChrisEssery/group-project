@@ -26,7 +26,6 @@ In this section, we discuss the User Experience (UX) design of our app. We start
   * [Product manager](#project-manager)
   * [Sponsor](#sponsor)
 * [**Wireframes and interaction flow diagrams**](#wireframes-and-interaction-flow-diagrams)
-  * [Understanding user group](#understanding-user-group)
   * [The end-users](#the-end-users)
   * [The product manager](#the-project-manager)
   * [The sponsor](#the-sponsor)
