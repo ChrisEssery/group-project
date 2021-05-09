@@ -134,7 +134,7 @@ To see this in action, let's consider gamification. Gamification commonly occurs
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-Motivations.jpg
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-motivations.jpg
 
 </div>
 
@@ -150,7 +150,7 @@ But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#refe
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literac.jpg
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literacy.jpg
 
 </div>
 
