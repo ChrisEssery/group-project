@@ -1,9 +1,9 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
-import { GameWindowComponent } from './game-window-c4.component';
+import { GameWindowC4Component } from './game-window-c4.component';
 
 describe('GameWindowC4Component', () => {
   let component: GameWindowC4Component;
-  let fixture: ComponentFixture<GameWindowComponent>;
+  let fixture: ComponentFixture<GameWindowC4Component>;
 
   beforeEach(async() => {
     await TestBed.configureTestingModule({

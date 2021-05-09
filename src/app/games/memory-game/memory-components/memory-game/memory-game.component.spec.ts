@@ -1,5 +1,7 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 import { MemoryGameComponent } from './memory-game.component';
+import { HttpClientModule } from '@angular/common/http';
+import { RouterTestingModule } from '@angular/router/testing';
 
 describe('MemoryGameComponent', () => {
   let component: MemoryGameComponent;
@@ -7,7 +9,8 @@ describe('MemoryGameComponent', () => {
 
   beforeEach(async() => {
     await TestBed.configureTestingModule({
-      declarations: [ MemoryGameComponent ]
+      declarations: [ MemoryGameComponent ],
+      imports: [ RouterTestingModule, HttpClientModule ]
     })
     .compileComponents();
   });
