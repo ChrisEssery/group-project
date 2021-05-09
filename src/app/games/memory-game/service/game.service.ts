@@ -361,6 +361,7 @@ export class GameService {
   }
   
   private setGameResult(){
+    this.gameSocket.emit('player-name', this.username);
     this.player.result = "WIN";
     this.opponent.result = "WIN";
     this.player.rounds = this.rounds;

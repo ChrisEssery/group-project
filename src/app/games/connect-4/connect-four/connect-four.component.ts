@@ -344,9 +344,7 @@ export class ConnectFourComponent implements OnInit {
       this.isGameOver = over;
     })
     if (this.isGameOver) {
-      if (this.playerNumber === 0) {
-        this.setGameResult();
-      }
+      this.setGameResult();
       console.log(this.playerData);
       return;
     }
@@ -382,7 +380,9 @@ export class ConnectFourComponent implements OnInit {
     }
     this.playerData.push(this.player);
     this.playerData.push(this.opponent);
-    this.addGameInstance(this.playerData)
+    if(this.playerNumber === 0){
+      this.addGameInstance(this.playerData)
+    }
   }
 
   get gameResult() {
