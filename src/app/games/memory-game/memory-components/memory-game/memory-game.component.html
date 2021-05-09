@@ -23,7 +23,13 @@
     <ng-container *ngIf="gameService.serverNotFull">
       <div class="jitsi">
         <app-jitsi></app-jitsi>
-        <a  (click)="addFriend($event)" class="button" *ngIf="!isFriend"> <i class="bi bi-person-plus-fill"></i> Add Friend</a>
+        <p class="username"> <i class="bi bi-person-circle"></i> player: {{gameService.opponent.username}} </p>
+        <div class="addFriend" *ngIf="gameService.gameStarted">
+        <a  (click)="addFriend($event)" class="button" *ngIf="!gameService.isFriend else elseBlock"> <i class="bi bi-person-plus-fill"></i> Add {{gameService.opponent.username}} to Friendlist</a>
+        <ng-template #elseBlock>
+          <p class="text"> <i class="bi bi-person-check-fill"></i> friend added </p>
+        </ng-template>
+        </div>
       </div>
     </ng-container>
   </div>

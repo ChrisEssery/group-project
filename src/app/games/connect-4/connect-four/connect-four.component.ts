@@ -52,7 +52,6 @@ export class ConnectFourComponent implements OnInit {
       (data: any) => {
         console.log(data.result)
         this.isFriend = true;
-        window.alert('Friend added')
       },
       error => {
         console.log(error.error);

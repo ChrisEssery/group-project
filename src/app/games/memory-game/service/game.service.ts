@@ -37,6 +37,7 @@ export class GameService {
   player = {username: "", result: "", rounds: this.rounds};
   opponent = {username: "", result: "", rounds: this.rounds};
   gameStarted: boolean = false;
+  isFriend:boolean = false;
 
   constructor(
     private cardService: CardService,
@@ -396,6 +397,19 @@ export class GameService {
   }
   get gameResult(){
     return this.playerData
+  }
+
+  addFriend() {
+    console.log("player opponent " + this.opponent.username)
+    this.dataService.addAFriend(this.opponent.username, this.username).subscribe(
+      (data: any) => {
+        console.log(data.result)
+        this.isFriend = true;
+      },
+      error => {
+        console.log(error.error);
+      }
+    )
   }
 }
 

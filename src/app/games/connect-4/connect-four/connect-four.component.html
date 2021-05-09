@@ -59,8 +59,14 @@
         </div>
         <div class="jitsi">
             <app-jitsi></app-jitsi>
-            <a (click)="addFriend($event)" class="button" *ngIf="!isFriend"> <i class="bi bi-person-plus-fill"></i> Add Friend</a>
-        </div>
+            <p class="username"> <i class="bi bi-person-circle"></i> player: {{opponent.username}} </p>
+              <div class="addFriend" *ngIf="!!opponent.username.length">
+                 <a (click)="addFriend($event)" class="button" *ngIf="!isFriend; else elseBlock"> <i class="bi bi-person-plus-fill"></i> Add {{opponent.username}} to Friendlist</a>
+                 <ng-template #elseBlock>
+                   <p class="text"> <i class="bi bi-person-check-fill"></i> friend added </p>
+                 </ng-template>
+             </div>
+       </div>
     </div>
     <div class="setup">
         <button id="connectButton">Connect</button>

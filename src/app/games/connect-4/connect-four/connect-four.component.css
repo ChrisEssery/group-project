@@ -181,11 +181,27 @@ h3 {
 .button{
   border-radius: 0;
   -webkit-border-radius: 0;
-  color: whitesmoke;
+  color: greenyellow;
   font-family: 'Luckiest Guy', cursive;
   text-decoration:none;
   font-size: 15px;
   cursor: pointer;
+}
+
+.btns {
+  position:relative;
+  margin-top: 2%;
+}
+
+.text{
+  color: gray;
+  font-family: 'Luckiest Guy', cursive;
+  text-decoration:none;
+}
+.username{
+  color: gold;
+  font-family: 'Luckiest Guy', cursive;
+  text-decoration:none;
 }
 
 
