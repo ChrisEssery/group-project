@@ -347,6 +347,7 @@ export class ConnectFourComponent implements OnInit {
       if (this.playerNumber === 0) {
         this.setGameResult();
       }
+      console.log(this.playerData);
       return;
     }
     if (!this.ready) {
@@ -370,6 +371,7 @@ export class ConnectFourComponent implements OnInit {
   }
 
   setGameResult() {
+    this.socket.emit('player-name', this.username);
     if (this.currentPlayerType === 'user') {
       this.player.result = "LOSS";
       this.opponent.result = "WIN";
