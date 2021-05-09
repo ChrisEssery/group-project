@@ -419,6 +419,8 @@ These main interactions with the various parts of our system can be depicted in 
 
 </div>
 
+In the above interaction flow diagram you can see our three main stakeholders. The product manager represents our product and on either side of him you have the end-user and the sponsor. Their main interactions with the product are included, such as creating an account, playing games, viewing game history and tracking user engagement. 
+
 ## References
 
 [3] Ijsselsteijn W., Herman H. et al., “Digital game design for elderly users”, Eindhoven University of Technology, 2007. https://dl.acm.org/citation.cfm?id=1328206
