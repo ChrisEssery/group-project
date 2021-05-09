@@ -36,10 +36,10 @@ export class ConnectFourComponent implements OnInit {
   opponent = { username: "", result: "" };
   playerData = [] as any;
   winningArrays = [] as any;
+  gameStarted: boolean = false;
 
   constructor(private router: Router, private tokenStorageService: TokenStorageService, private dataService: DataService) {
     this.username = tokenStorageService.getUser();
-    this.player.username = this.username;
   }
 
   ngOnInit(): void {
@@ -152,7 +152,6 @@ export class ConnectFourComponent implements OnInit {
     if (this.connected) return;
     this.socket = io("http://localhost:3080");
     // Emits user to other player
-    this.socket.emit('player-name', this.username);
     this.connected = true;
     // Gets your player number
     this.socket.on('player-number', num => {
@@ -209,7 +208,9 @@ export class ConnectFourComponent implements OnInit {
 
     // Gets opponent information
     this.socket.on('opponent-information', username => {
-      this.opponent.username = username;
+      this.opponent.username = username.replace(/['"]+/g, '');
+      this.username = this.username.replace(/['"]+/g, '');
+      this.player.username = this.username;
     })
     this.setupGameSlots();
   }
@@ -340,10 +341,16 @@ export class ConnectFourComponent implements OnInit {
 
   // Emits ready signal and checks if game is over
   playGame(socket) {
+    if(this.ready && this.opponentReady && !this.gameStarted){
+      this.socket.emit('player-name', this.username);
+      this.gameStarted = true;
+    }
     socket.on('game-over', over => {
       this.isGameOver = over;
     })
     if (this.isGameOver) {
+      console.log(this.player.username);
+      console.log(this.opponent.username);
       this.setGameResult();
       return;
     }
@@ -368,7 +375,6 @@ export class ConnectFourComponent implements OnInit {
   }
 
   setGameResult() {
-    this.socket.emit('player-name', this.username);
     if (this.currentPlayerType === 'user') {
       this.player.result = "LOSS";
       this.opponent.result = "WIN";
@@ -379,6 +385,7 @@ export class ConnectFourComponent implements OnInit {
     }
     this.playerData.push(this.player);
     this.playerData.push(this.opponent);
+    console.log(this.playerData);
     if(this.playerNumber === 0){
       this.addGameInstance(this.playerData)
     }
