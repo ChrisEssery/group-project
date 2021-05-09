@@ -36,6 +36,7 @@ export class GameService {
   username: string;
   player = {username: "", result: "", rounds: this.rounds};
   opponent = {username: "", result: "", rounds: this.rounds};
+  gameStarted: boolean = false;
 
   constructor(
     private cardService: CardService,
@@ -82,6 +83,8 @@ export class GameService {
     }
 
     if (this.isGameFinished) {
+      console.log(this.player.username);
+      console.log(this.opponent.username);
       this.gameFinished = true;
       this.infoDisplay.innerHTML = "You won!";
       this.infoDisplay.style.display = 'inline';
@@ -113,6 +116,8 @@ export class GameService {
 
     if (this.isGameFinished) {
       this.gameFinished = true;
+      console.log(this.player.username);
+      console.log(this.opponent.username);
       this.infoDisplay.innerHTML = "You won!";
       this.infoDisplay.style.display = 'inline';
       this.yourTurn.style.display = 'none';
@@ -224,7 +229,6 @@ export class GameService {
 
     // Opens socket connection
     this.gameSocket = io("http://localhost:3050");
-    this.gameSocket.emit('player-name', this.username);
     this.isConnected = true;
     this.infoDisplay.style.display = 'inline';
 
@@ -273,6 +277,10 @@ export class GameService {
           this.opponentTurn.style.display = 'inline';
         }
         this.playersReady = true;
+        if(!this.gameStarted){
+          this.gameSocket.emit('player-name', this.username);
+          this.gameStarted = true;
+        }
       }
     })
 
@@ -294,7 +302,9 @@ export class GameService {
 
     // Gets opponent information
     this.gameSocket.on('opponent-information', username => {
-      this.opponent.username = username;
+      this.opponent.username = username.replace(/['"]+/g, '');
+      this.username = this.username.replace(/['"]+/g, '');
+      this.player.username = this.username;
     })
 
   }
@@ -326,6 +336,10 @@ export class GameService {
 
     if (this.opponentReady) {
       this.playersReady = true;
+      if(!this.gameStarted){
+        this.gameSocket.emit('player-name', this.username);
+        this.gameStarted = true;
+      }
       if (this.currentPlayerType === 'user') {
         this.infoDisplay.style.display = 'none';
         this.opponentTurn.style.display = 'none';
@@ -361,14 +375,13 @@ export class GameService {
   }
   
   private setGameResult(){
-    this.gameSocket.emit('player-name', this.username);
     this.player.result = "WIN";
     this.opponent.result = "WIN";
     this.player.rounds = this.rounds;
     this.opponent.rounds = this.rounds;
-    this.player.username = this.username; 
     this.playerData.push(this.player);
     this.playerData.push(this.opponent);
+    console.log(this.playerData);
     if(this.playerNumber === 0){
       let gameInfo = {"players": this.playerData}
       this.dataService.addGameInstance("memorygame", gameInfo).subscribe(
