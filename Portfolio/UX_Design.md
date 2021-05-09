@@ -41,7 +41,7 @@ We also realised that this design process would change and develop over time. To
 ### Design Process and ideation
 
 
-First, let's discuss our design process and ideation. This phase of the project was not only fun and exciting but it gave rise to a collaborative ideation which lay the foundations for our product. This process occurred over a relatively short timeframe, and involved changes, alterations and refinements along the way.
+First, let's discuss our design process and ideation. This phase of the development lifecycle was not only fun and exciting but it gave rise to a collaborative ideation which served to kickstart our product design. This process occurred over a relatively short timeframe, and involved changes, alterations and refinements along the way.
 
 Below is a mind map created for our project ideation phase. This mind map shows the different types of games we were considering when trying to determine what board game to build. The types of games were decided by our team during a group meeting on Microsoft Teams. Each team member contributed their own ideas, and we compiled a list of games that we knew of and were interested in.
 
@@ -61,17 +61,17 @@ Below is another mind map which contains different world issues and problems. As
 
 </div>
 
-The images below show the ideas matrix we used to generate ideas for the application. As you can see, types of games are in the rows and types of real-world issues are in the columns. This creates a matrix where the remaining cells within the matrix should be populated with a particular game to solve a particular world problem.
+The images below show the ideas matrix we used to generate ideas for the application. As you can see, different types of games are in the rows and different types of real-world issues are in the columns. This creates a matrix where the remaining cells within the matrix are left to be populated with a particular game designed to solve a particular world problem.
 
 [![ideas1.png](https://i.postimg.cc/TwvNhtdg/ideas1.png)](https://postimg.cc/WDSwH6J1)
 
-As you can see, the rows are populated with different types of games. These include 'unforgiving games' 'card games' 'guessing games' and 'educational games'. Along the columns there are different real-world issues such as 'political issues' 'mental health issues' and 'learning english'.
+As you can see, the rows are populated with different types of games. These include 'unforgiving games' 'card games' 'guessing games' and 'educational games'. And along the columns you can see that there are different real-world issues such as 'political issues' 'mental health issues' and 'learning english'.
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
-After some deliberation our team decided that we would develop a product designed to help older adults socialise through the medium of online games. This, we felt, was a very relevant issue in society - one each of us had personal experience of with grandparents - and it was an issue which could be addressed through serious play. As mentioned the [Background](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of the report, this concept was essential for shaping our understanding of the product - what it would look like and how it would work. So, we kept in mind the concept of serious play, and in particular, Zimmerman's category of 'game play' to help inform our decisions around the product design. As we discussed in the subsection on [psychology of playing games](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#the-psychology-of-playing-games), there were several questions we had to ask during this ideation phase. For instance, we had to ask ourselves: does our app have a clear goal? Is this goal apparent up front to the user, or is it something they have discover through using our platform? Will our application raise awareness of an issue? And if it does, will this be explicit or implicit in the product? These were all important questions when considering how to design our application.
+After some deliberation our team decided that we would develop a product designed to help older adults socialise through the medium of online games. This, we felt, was a relevant issue in society - one each of us had personal experience of - that could be addressed through serious play. As mentioned in the [Background](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of the report, this concept was essential for shaping our understanding of the product. That is, what the product would look like and how it would work. So, we kept in mind the concept of serious play, and in particular, Zimmerman's category of 'game play' to help inform our decisions around this stage of the product design. As we discussed in the subsection on [psychology of playing games](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#the-psychology-of-playing-games), there were several questions we had to ask during this ideation phase. For instance, we had to ask ourselves: does our app have a clear goal? Is this goal apparent up front to the user, or is it something they have discover through using our platform? Will our application raise awareness of an issue? And if it does, will this be explicit or implicit in the product? These were all important pertinent questions when considering how to design our application.
 
-We decided that our product would aim to promote behaviour change with respect to socialising online. This, we felt, would serve to address the issues of loneliness and isolation. We also wanted to design the product to facilitate brain training through challenging games. In addition, having researched the [extrinsic and intrinsic motivations](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#extrinsic-vs-intrinsic-motivations) that drive game play, we knew that the users would have extrinsic motivations in the form of leaderboards, winning and social contact which would then, over time, turn into intrinsic motivation in the form of enjoyment, purpose, growth and curiosity. It was, therefore, important for us to bear these motivations in mind when designing the UI. To find an alignment between intrinsic and extrinsic motivations, and integrate features capable of eliciting both of these motivations.
+We decided that our product would aim to promote behaviour change with respect to socialising online. This, we decided, would serve to address the issues of loneliness and isolation. We also wanted to design the product to facilitate brain training through challenging games. In addition, having researched the [extrinsic and intrinsic motivations](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#extrinsic-vs-intrinsic-motivations) that drive game play, we knew that the users would have extrinsic motivations in the form of leaderboards, winning games, and social contact, and that these motivations would, over time, turn into intrinsic motivation in the form of enjoyment, purpose, growth and curiosity. It was, therefore, important for us to bear both of these motivations in mind when designing the UI. To find an alignment between intrinsic and extrinsic motivations, and integrate features capable of eliciting them both, was of great importance.
 
 Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a limited range of games our SPA could deploy. But it required refinement. In particular, we needed to improve and enhance the UX. So, we moved on to produce a paper prototype, prototype video, UI wireframe and an updated UI wireframe. With these insights, we can now go on to explain the evolution of the app's UI design. This evolution, naturally, changed over time with a total of four separate versions.
 
@@ -107,12 +107,14 @@ Here are some sample questions from the prototype test:
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test3.png)
 See our full test report [here](https://my.helio.app/report/01F1WDKPM82XVYYJVE0HS5Q93T).
 <br/><br/>
+
 Based on the report, we focused on the following key issues to update:
+
 - We updated the profile page of the user and added more information about the user's gaming experience to enhance the user experience. This includes the number of matches recently played, the win rate of the user, the people recently played with etc.
 
 - We added a "how to play" button under the title of each games and the player can click on the button to learn the rules and operations before starting the game.
 
-- After the game menu page, we planned to add a new option for the user to choose who they want to play with. If the user chooses to play with friends, we will provide the online friends from their friendlist so that they can select and send invitation to the friend.
+- After the game menu page, we planned to add a new option for the user to choose who they want to play with. If the user chooses to play with friends, we will provide the online friends from their friend list so that they can select and send invitation to the friend.
 
 - We added a button to view the leaderboard of each game.
 
@@ -367,7 +369,7 @@ As with the other stakeholders, tailoring the design of the product to meet thes
 
 ## Wireframes and interaction flow diagrams
 
-Some of the main user stories are represented in the use case diagram below. As you can see, there are also two product manager stories both of which are linked to the user stories.
+Some of the main user stories are represented in the use case diagram below. As you can see, there are also two product manager stories both of which are linked to the user stories. These stories include creating an account, playing multiplayer games, viewing your profile, game history, leaderboard, and friend list. This set of stories helped signpost us towards our end prototype, and offered a logical oder of tasks and features to prioritise.
 
 
 <div align="center">
