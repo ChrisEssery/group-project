@@ -145,15 +145,27 @@ This section is comprised of the following subsections:
 
 
 ## Technologies Used
-Project is created with:
 
-* MEAN stack with [Angular CLI](https://github.com/angular/angular-cli) version 11.1.4.
-* Docker
+Our project was created with:
+
+* [MongoDB](https://www.mongodb.com/)
+* [Express.js](https://expressjs.com/)
+* [Angular CLI version 11.1.4.](https://github.com/angular/angular-cli)
+* [Node.js](https://nodejs.org/en/)
+* [Docker](https://www.docker.com/)
+* [Socket.io](https://socket.io/)
+* [Jitsi video API](https://jitsi.org/api/)
+* [Microsoft Azure](https://azure.microsoft.com/en-gb/)
 
 
 ## Copyright
 
-Please note that all photos used in this report were obtained from [unsplash](https://unsplash.com/), a curated selection of images licensed under the Unsplash license, a similar license to Creative Commons photos.
+Please note that aside from screenshots, all photos used in this report were obtained from either [unsplash](https://unsplash.com/), a curated selection of images licensed under the Unsplash license, a similar license to Creative Commons photos, or non-copyrighted pictures.
+
+
+## Acknowledgments
+
+Finally, we would like to thank the MSc Software Engineering team for all their help and support over the last 12 weeks.
 
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</div>

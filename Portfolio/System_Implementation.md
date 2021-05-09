@@ -96,9 +96,9 @@ This is the big picture view of the MEAN stack. Now, let's turn to class and seq
 
 </div>
 
-For our database, we used mongoDB. MongoDB is a NoSQL database which stores documents in collections instead of records in tables as with a SQL database. MongoDB stores application data (e.g., users and products) and enforces no data schema or relations. For this reason is is much less strict than a SQL database. It is also easily connected to Node.js and Express, but importantly not angular for security reasons. Because mongoDB is a powerful database that can be easily integrated into a Node/Express environment, it was an obvious choice, as we were looking to buil dour application quickly and with as little problems as possible. The 'M' in MEAN was, therefore, very important to ensure everything worked well and without issues.
+For our database, we used MongoDB. MongoDB is a NoSQL database which stores documents in collections instead of records in tables as with a SQL database. MongoDB stores application data (e.g., users and products) and enforces no data schema or relations. For this reason is is much less strict than a SQL database. It is also easily connected to Node.js and Express. However, importantly, it is not easily connected to Angular for security reasons. But why did we choose MongoDB?
 
-Another advantage of mongoDB is that it is highly scalable. Were we to continue with NotSoBored games and try make it into a business, mongoDB would allow for us to scale in size.
+There are several reasons. Firstly, MongoDB is a powerful database that can be easily integrated into a Node/Express environment. For this reason, it was an obvious choice, as we were looking to build our application quickly and with as little problems as possible. The 'M' in MEAN was, therefore, very important to ensure everything worked well and without issues. Secondly, MongoDB is highly scalable. Were we to continue with NotSoBored games and try make it into a business, mongoDB would allow for us to scale in size.
 
 So, why didn't we use a SQL database instead? We decided not to do this because we wanted to use the MEAN stack, which is a recognised stack that enables quick builds, and we also recognised that, for our purposes, we don't require a database to hold data with lots of connections. Instead, the data we will be storing requires very few. Give this fact, we felt it wasn't necessary to use SQL.
 
@@ -108,7 +108,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 </div>
 
-With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilizes an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for easy front-end use.
+With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilises an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for easy front-end use.
 
 ### Details of Implementation
 
@@ -144,11 +144,11 @@ Express is a Node.js framework which simplifies writing server-side logic. It is
 
 ### RESTful API
 
-RESTful API makes it easy to decouple the backend code from the front end so that it can be used across multiple applications/platforms. To build a RESTful API, we use Node.js as our backend language, express.js to create routes easier and middlewares, and mongodb together with mongoose to create schemas and models and store the data. 
+RESTful API makes it easy to decouple the backend code from the front end so that it can be used across multiple applications/platforms. To build a RESTful API, we use Node.js as our backend language, express.js to create routes easier and middlewares, and mongodb together with mongoose to create schemas and models and store the data.
 
 ### Details of Implementation
 
-- API address:  http://localhost:3000/api 
+- API address:  http://localhost:3000/api
 
 - Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
 
@@ -400,7 +400,7 @@ returned data:
    "gender": "male",
    "location": "bristol"
 }
-        
+
 ```
 
 **Response:**
@@ -431,7 +431,7 @@ returned data:
 {
    "friendName": "aaa"
 }
-        
+
 ```
 
 **Response:**
@@ -725,9 +725,9 @@ Reliable real-time data communication is essential on the modern Internet. To me
 
 The WebSocket protocol works by providing full-duplex (bi-directional, or both ways) communication between the client and a server over a single TCP connection. A HTTP system (which is implemented in your typical webpage) consists of a server that is responsible for responding to HTTP messages from the client; the client sends a request, the server sends a response. With the use of WebSockets, both can send and receive requests simultaneously.
 
-HTTP is stateless, which means that the server does not know where the request is coming from and it treats each request as independent. This functionality is sufficient for the serving of basic webpages, but when data is of increasing complexity and time-sensitivity, such as real-time chat, it falls short. WebSockets are stateful, meaning the server will "remember" the client and can in turn handle the management of communication between multiple clients, or separate groups of clients. 
+HTTP is stateless, which means that the server does not know where the request is coming from and it treats each request as independent. This functionality is sufficient for the serving of basic webpages, but when data is of increasing complexity and time-sensitivity, such as real-time chat, it falls short. WebSockets are stateful, meaning the server will "remember" the client and can in turn handle the management of communication between multiple clients, or separate groups of clients.
 
-The process of WebSocket communcation is as follows: 
+The process of WebSocket communcation is as follows:
 
 * The client sends a HTTP handshake request to the server for a WebSocket connection
 * If the server is able to fulfill this request, it sends a successful handshake response, with the HTTP code 101
@@ -738,7 +738,7 @@ The process of WebSocket communcation is as follows:
 ![alt text](https://images.techhive.com/images/article/2016/06/websockets-100668229-primary.idge.jpg)
 
 ## Socket.io
-One of the key objectives of this project was to enable real-time multiplayer functionality for the games that have been developed for the application. Initially APIs such as PubNub and Phaser.io were explored as potential solutions for this. However, on evaluation, a less fully-featured solution such as WebSockets was deemed more appropriate and Socket.io was chosen to implement it. 
+One of the key objectives of this project was to enable real-time multiplayer functionality for the games that have been developed for the application. Initially APIs such as PubNub and Phaser.io were explored as potential solutions for this. However, on evaluation, a less fully-featured solution such as WebSockets was deemed more appropriate and Socket.io was chosen to implement it.
 
 ![alt_text](https://miro.medium.com/max/1624/0*xAADmPJN52Yy6XJV.jpg)
 
@@ -764,7 +764,7 @@ A typical implementation of Socket.io can be seen below:
 Overall, Socket.io provided all of the functionality required to delivery the multiplayer aspects of the game in a clean, intuitive fashion.
 
 ### Real-time Video Chat
-Along with multiplayer functionality, providing a real-time video chat solution was another key objective. Initially, we had discussed developing a video chat application from the ground up using ASP.NET and Angular, however we decided that focusing our development time on our own application was a more effective use of our time. 
+Along with multiplayer functionality, providing a real-time video chat solution was another key objective. Initially, we had discussed developing a video chat application from the ground up using ASP.NET and Angular, however we decided that focusing our development time on our own application was a more effective use of our time.
 
 We began researching which services would meet our needs. We explored Twilio, PubNub, Sinch and Jitsi. We ultimately ended up choosing Jitsi, as it provided all the functionality we needed, without additional bloat. Providing we kept the Jitsi logo on the video feed, you are also able to leverage their API for free.
 
@@ -792,7 +792,7 @@ There are many benefits of using a cloud platform as opposed to your own web ser
 
 * Automation - Azure provides services such as Logic Apps and Functions, which allow you to automate processes for your systems and minimise the time administrating.
 
-For the purpose of this project, the solution architected was not overly complex. The solution used was Azure App Service. App Service allows you to deploy a container, or code, using the language or framework of your choice. It is a fully managed platform, meaning you don't have to handle any of the management of the underlying servers, such as patching or scaling. In a production environment, you can also use the built-in CI/CD integration do minimise downtime. 
+For the purpose of this project, the solution architected was not overly complex. The solution used was Azure App Service. App Service allows you to deploy a container, or code, using the language or framework of your choice. It is a fully managed platform, meaning you don't have to handle any of the management of the underlying servers, such as patching or scaling. In a production environment, you can also use the built-in CI/CD integration do minimise downtime.
 
 There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
