@@ -233,6 +233,11 @@ Firstly, expanding on the multiplayer of our app would be paramount upon releasi
 
 Another aspect of the app which could be further extended is the selection of games. Originally we were expecting around four games to try to incorporate into our app. However, alongside working in the video and other functionality this was not feasible. The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on.
 
+### Multiplayer session persistence
+The application at the point of becoming an MVP lacks session persistence for the games. Currently, a limited amount of game data is stored on the server. For Connect Four, the server is only used to broadcast the connections of clients, the moves between clients and when the game is won. For the memory game, it is similar, however the card deck is transferred via the server to ensure it matches. 
+
+With the application functioning like this, if a player leaves the page and rejoins, they won't be able to pick up where they left off. To develop the application further, more sophisticated code could be written to store the game state in between every turn so that players can have a smoother experience in the case of a disconnect or accidental refresh. This would likely be implemented at the same time as the more advanced matchmaking/lobby system. 
+
 ### Difficulty level
 
 It’s important for the end=users to find games that are challenging but not so difficult that they don't want to play. If you’re looking for brain games for a loved one who has been diagnosed with Alzheimer’s disease, for instance, you’ll want to choose brain exercises and games that aren’t impossible to complete at their current cognitive level. Start slowly with some beginner puzzles and gradually progress to harder puzzles for more challenging problem-solving tasks. With the memory game, we could have added a difficulty level feature which enables the player to choose the number of cards to play with, where a lower number of cards is easier than a higher number. As it currently stands, the default is 20 cards. On reflection, this would likely be too diffi
@@ -248,7 +253,7 @@ Another possible extension concerns adding a competition feature whereby players
 
 ### Adding better instructions
 
-A further extension concerns
+A further extension concerns 
 
 - *ADD MORE IDEAS* -
 
