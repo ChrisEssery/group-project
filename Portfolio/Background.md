@@ -105,6 +105,12 @@ Rules were, we decided an important part of our gameplay experience. Opting for 
 
 Now, let's turn to the questions above, and provide our answers to those questions. It was clear that our application should have rules, and that those rules should be straightforward and explained at the beginning of any gameplay. The user's interaction with the rules can be made playful by introducing a point system and leaderboard, and this information could be displayed in a playful way. The user won't be able to define the rules, since that would complicate matters and perhaps confuse the end-users. And breaking the rules will be prohibited since to do so would undermine the spirit of the interaction and the underlying competition to win points and reach the top of the leaderboard. The rules help the users to achieve the objectives by forcing the users to challenge themselves and beat their opponents. This creates a fun interaction.  The rules relate to the serious problem of loneliness and isolation by engaging the users to compete and interact in a way that is fun and playful and, ultimately, serves to mitigate the negative effects of loneliness and isolation.
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-rules.jpg)
+
+</div>
+
 For our purposes, using Zimmerman's categories, we decided to use play as an activity mediated through structure and rules. So, we use the first category of play. For us, then, play can be found within games, and games can be seen as a subset of play. Serious play is set in the project brief as play and games found within computing. This can involve learning through play (i.e., as an educational tool), which serves to encourage novel solutions and allows 'serious' problems to be arrived at from a fresh angle. When it came to serious play, for our team, it was a good way to apply play in a way to tackle a serious issue without responding in a needlessly uninspired way.
 
 ### The psychology behind playing games
@@ -126,6 +132,12 @@ In the context of playing a game, a person is said to have have extrinsic motiva
 
 To see this in action, let's consider gamification. Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. It also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboards, for instance, are extrinsic motivators which visualise game display progress over time. But if these visualisations represent growth and development for a person, and gives them a sense of purpose and true enjoyment then we find that the extrinsic motivation transforms into intrinsic motivation.
 
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-motivations.jpg
+
+</div>
+
 So, does there need to be a score for our purposes? Scores support extrinsic factors which can be highly motivating, however they can also be negative for those who aren't doing particularly well. To address this, we could include a collaborative aspect to the memory game with respect to gameplay where players cooperate to complete the game and acquire points to compete against others. This is certainly something we could consider when developing our games, since cooperation can give rise to a strong sense of purpose and enjoyment without the negative consequences of solely competing against another player. A further extension combining cooperation with competition could cultivate a good balance between both styles of game, and ensure that serious play is present in our product with a slight twist.
 
 But none of these considerations are relevant if the application is too difficult to use. We need to be mindful of the usability of our product, and in particular the usability requirements for our end-users. This leads us to the concept of digital literacy.
@@ -135,6 +147,12 @@ But none of these considerations are relevant if the application is too difficul
 Digital literacy is an important consideration when creating an online application for the elderly, particularly when dealing with the UI and UX design. The reasons for this are simple. Learning to use technologies can help older adults become more included in modern digital society. If they aren't included, they are, by definition, excluded. But learning these technologies can be very hard, especially for older adults. So, it is important to make efforts to ensure that these digital technologies are inclusive, where inclusive means easy to access and understand.
 
 But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#references) digital literacy is the ability to use and understand information from various digital devices. This definition may, of course, be contested. But for our purposes it clearly defines the term, and it serves to inform our design choices with respect to the UI and UX of our platform. Our aim, therefore, is to make using our digital platform simple and accessible so that older adults can learn and improve their level of digital literacy.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literacy.jpg
+
+</div>
 
 Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials (Haederle, 2011)[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
 
