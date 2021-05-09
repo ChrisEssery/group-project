@@ -76,7 +76,8 @@ Before reading the report though, check out our demo video below:
 
 <div align="center">
 
-https://user-images.githubusercontent.com/60075283/117569312-0985c000-b0bd-11eb-92c4-6513494458f8.mp4
+https://user-images.githubusercontent.com/60075283/117569446-9cbef580-b0bd-11eb-9bdb-6feb149af05b.mp4
+
 
 </div>
 
