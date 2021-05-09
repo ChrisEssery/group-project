@@ -257,9 +257,11 @@ For example, Lexulous and Words with friends are scrabble-style games easily dow
 - Is it better than competitors, for e.g., wordswithfriends?
 - Requires download which might confuse users
 
-Having considered these
+Having considered these main applications we now turn our attention to some outliers.
 
-### Outliers
+___
+
+## Outliers
 
 There are a few outliers which host digital games which can be used by the elderly. The following are three such outliers which are worth considering with regard to loneliness and isolation in older adults.
 
