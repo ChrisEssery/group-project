@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/header.png)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
@@ -197,9 +197,9 @@ Further to this, took the decision to follow the W3C TAG Ethical Web Principles.
 
 #### Negative implications
 
-Given that our product is an online game, we recognise that it has the capacity to be addictive for some people. What's more, we are aware that excessive use of online games is linked to a rise in mental health issues such as anxiety and depression (FIND SOURCES). A further concern is that the competitive feature of a leaderboard might serve to elevate stress levels in the players. The behavioural effect of playing more games on the platform could be viewed as operant conditioning, where behaviours are encouraged and discouraged with associated rewards and punishments (Staddon, 2003, p. 116), in this case winning and losing. It could also demotivate people from doing outdoor activities, and as such might decentivise healthy behaviours. Too much screen time can also be cause eye strain.
+Given that our product is an online game, we recognise that it could cause addiction and mental health issues in some individuals. Indeed, the World Health Organisation [WHO] (2018) recently [included “gaming disorders” in the list of mental health conditions](https://www.who.int/news-room/q-a-detail/addictive-behaviours-gaming-disorder). According to the WHO, gaming disorders refer to “persistent or recurrent behaviour pattern of sufficient severity to result in significant impairment in personal, family, social, educational, occupational or other important areas of functioning.”[[**1**]](#references). This, coupled with evidence that excessive use of online games is linked to mental health issues such as anxiety and depression [[**2**]](#references), indicates that we should be aware of the potential ramifications of our platform. One particular concern might be that our leaderboard is a competitive feature that might serve to elevate stress levels. With regards to the leaderboard, the behavioural effect of playing more games on the platform could be viewed as operant conditioning, where behaviours are encouraged and discouraged with associated rewards and punishments (Staddon, 2003, p. 116), in this case winning and losing. This could cause stress, anxiety, or depression in some individuals. Another potential issue concerning our product is that it could demotivate people from doing outdoor activities, and as such decentivise healthy behaviours. Further to this, too much screen time can cause eye strain. Given these considerations, it is worth being mindful of the potential downstream consequences of the platform.
 
-Whilst these considerations are important to bear in mind, it is not clear whether there would be a clear causal link between playing our game and increased levels of negative emotions. The most we could reasonably speculate is that there could be a correlation. Notwithstanding this point, these social implications would be concerning enough to merit consideration and draw up a protocol for dealing with. Since our product is still in its early stages there is no need to explore these options, however it is worth bearing them in mind and ways to address any possible issues which might arise.
+However, whilst these considerations are important to bear in mind, it is not clear whether there would be a causal link between playing games on our SPA and increased levels of negative emotions. The most we could reasonably speculate is that there may be a correlation. Notwithstanding this point, these social implications would be concerning enough to merit consideration and demand that we draw up a protocol for dealing with. For instance, having a limit on the amount of time any one player can play on the platform, encouraging users to take breaks and go outside, and making sure that cooperation between players is encouraged. Since our product is still in its early stages though, there is no need to explore these options here. But it is still worth bearing in mind and thinking of ways to address any possible issues which might arise.
 
 #### Positive implications
 
@@ -209,13 +209,13 @@ Another issue our platform serves to address is the gap in digital literacy for 
 
 ### Data protection
 
-Now, turning to data protection. As moral individuals, we were aware that as computer scientists we have a professional and moral responsibility to protect personal data. Our jobs involve the protection of privacy which is a fundamental moral human right - a right that preserves autonomy and dignity [**1**](#references) which is of paramount importance when dealing with stakeholders. That's not to say it's an absolute right like the right to life; it's a qualified right, so there are extreme circumstances in which it can be infringed upon.
+Now, turning to data protection. As moral individuals, we were aware that as computer scientists we have a professional and moral responsibility to protect personal data. Our jobs involve the protection of privacy which is a fundamental moral human right - a right that preserves autonomy and dignity [[**3**]](#references) which is of paramount importance when dealing with stakeholders. That's not to say it's an absolute right like the right to life; it's a qualified right, so there are extreme circumstances in which it can be infringed upon.
 
 Given this, from design to implementation, privacy protection was of paramount importance to use. We used the ‘The International Data Privacy Principles' (IDPPs) as an appropriate guide to managing personal data. This complies normative ethics since in enshrines values and encourages positive outcomes. A further strength of the project concerns its approach to data protection. Specifically, the we (maybe, possibly) anonymised participants' personal data, and the software has (maybe, possibly if we have time) implementations to remove personal data if the participant so desires. This is in clear accordance with General Data Protection Regulation (GDPR).
 
-Despite all of this, there are certainly limitations with our product. For instance, we weren't able to focus on protect data as robustly as we would have liked. This was due to time constraints and heavy workloads. One possible extension concerns testing. In particular, the software would benefit from some more extensive testing. A possible project extension to address this limitation would be to conduct rigorous tests to determine what a hacker could manipulate, attack those vulnerabilities and then fix them [**3**](#references).
+Despite all of this, there are certainly limitations with our product. For instance, we weren't able to focus on protect data as robustly as we would have liked. This was due to time constraints and heavy workloads. One possible extension concerns testing. In particular, the software would benefit from some more extensive testing. A possible project extension to address this limitation would be to conduct rigorous tests to determine what a hacker could manipulate, attack those vulnerabilities and then fix them [[**4**]](#references).
 
-For example, a brute-force attack to guess a user password and a simple account suspension on the third incorrect entry of the password. A secure-sockets-layer (SSL) encryption to ensure data transferred between devices is encrypted and secure would have established greater data security. These nontrivial features would bolster the security of the app and make it a better candidate for future use in data gathering, which is important given the significance of privacy and security concerns in the uptake of mobile health technologies [**2**](#references). Maybe this is a little over the top though for our purposes. But regardless, we can discuss this added security as a potential feature were we to scale up this project.
+For example, a brute-force attack to guess a user password and a simple account suspension on the third incorrect entry of the password. A secure-sockets-layer (SSL) encryption to ensure data transferred between devices is encrypted and secure would have established greater data security. These nontrivial features would bolster the security of the app and make it a better candidate for future use in data gathering, which is important given the significance of privacy and security concerns in the uptake of mobile health technologies [[**5**]](#references). Maybe this is a little over the top though for our purposes. But regardless, we can discuss this added security as a potential feature were we to scale up this project.
 
 ## Future work
 
@@ -224,7 +224,7 @@ There is, we feel, a lot of scope for adding to and extending the features of ou
 - *ADD MORE IDEAS/FLESH OUT THE IDEAS BELOW* -
 
 ### Adding more games
-EDIT
+
 One possible extension concerns adding more games to the platform. When we began this project we planned to have four games to choose from. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning MVP with two games at an early stage in the agile cycle than to deploy one with four games at the very end of the the lifecycle. There is also scope to go beyond four games, and add a number of different games with different gaming categories such as cognitively challenging games, memory games, fun games, social games, cooperative games.
 
 However, this extension would have to be moderated since the core idea behind our application is to connect older adults together and make sure that that the platform is easy enough to use so that their lower levels of digital literacy don't exclude them from using our product.
@@ -234,13 +234,14 @@ Firstly, expanding on the multiplayer of our app would be paramount upon releasi
 Another aspect of the app which could be further extended is the selection of games. Originally we were expecting around four games to try to incorporate into our app. However, alongside working in the video and other functionality this was not feasible. The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on.
 
 ### Multiplayer session persistence
-The application at the point of becoming an MVP lacks session persistence for the games. Currently, a limited amount of game data is stored on the server. For Connect Four, the server is only used to broadcast the connections of clients, the moves between clients and when the game is won. For the memory game, it is similar, however the card deck is transferred via the server to ensure it matches. 
 
-With the application functioning like this, if a player leaves the page and rejoins, they won't be able to pick up where they left off. To develop the application further, more sophisticated code could be written to store the game state in between every turn so that players can have a smoother experience in the case of a disconnect or accidental refresh. This would likely be implemented at the same time as the more advanced matchmaking/lobby system. 
+The application at the point of becoming an MVP lacks session persistence for the games. Currently, a limited amount of game data is stored on the server. For Connect Four, the server is only used to broadcast the connections of clients, the moves between clients and when the game is won. For the memory game, it is similar, however the card deck is transferred via the server to ensure it matches.
+
+With the application functioning like this, if a player leaves the page and rejoins, they won't be able to pick up where they left off. To develop the application further, more sophisticated code could be written to store the game state in between every turn so that players can have a smoother experience in the case of a disconnect or accidental refresh. This would likely be implemented at the same time as the more advanced matchmaking/lobby system.
 
 ### Difficulty level
 
-It’s important for the end=users to find games that are challenging but not so difficult that they don't want to play. If you’re looking for brain games for a loved one who has been diagnosed with Alzheimer’s disease, for instance, you’ll want to choose brain exercises and games that aren’t impossible to complete at their current cognitive level. Start slowly with some beginner puzzles and gradually progress to harder puzzles for more challenging problem-solving tasks. With the memory game, we could have added a difficulty level feature which enables the player to choose the number of cards to play with, where a lower number of cards is easier than a higher number. As it currently stands, the default is 20 cards. On reflection, this would likely be too diffi
+It’s important for the end=users to find games that are challenging but not so difficult that they don't want to play. If you’re looking for brain games for a loved one who has been diagnosed with Alzheimer’s disease, for instance, you’ll want to choose brain exercises and games that aren’t impossible to complete at their current cognitive level. Start slowly with some beginner puzzles and gradually progress to harder puzzles for more challenging problem-solving tasks. With the memory game, we could have added a difficulty level feature which enables the player to choose the number of cards to play with, where a lower number of cards is easier than a higher number. As it currently stands, the default is 20 cards. On reflection, this number is very challenging and would likely be too difficult for our end-users.
 
 ### Invite friends to play
 
@@ -253,9 +254,9 @@ Another possible extension concerns adding a competition feature whereby players
 
 ### Adding better instructions
 
-A further extension concerns adding more detailed instructions to the application on how to navigate the site and efficiently use the full feature-set (adding friends, seeing leaderboards etc.). With your typical application, there may not be as much emphasis on implementing instructions for this, but when thinking about the demographic that the application is targeting (the elderly), we must take into consideration the fact that the baseline of computer literacy may be lower. 
+A further extension concerns adding more detailed instructions to the application on how to navigate the site and efficiently use the full feature-set (adding friends, seeing leaderboards etc.). With your typical application, there may not be as much emphasis on implementing instructions for this, but when thinking about the demographic that the application is targeting (the elderly), we must take into consideration the fact that the baseline of computer literacy may be lower.
 
-Potential means of delivering these instructions include written instructions, video instructions or a more developmentally time-intensive, but more comprehensive method, the development of interactive demo instructions. For example, encouraging the individual using the application to navigate the page in real-time, further reinforcing what the instructions have told them. This would serve further purpose in allowing the user to refresh their mind on how to use the application, which may be of particular importance in users that may suffer with memory-loss issues. 
+Potential means of delivering these instructions include written instructions, video instructions or a more developmentally time-intensive, but more comprehensive method, the development of interactive demo instructions. For example, encouraging the individual using the application to navigate the page in real-time, further reinforcing what the instructions have told them. This would serve further purpose in allowing the user to refresh their mind on how to use the application, which may be of particular importance in users that may suffer with memory-loss issues.
 
 - *ADD MORE IDEAS* -
 
@@ -271,7 +272,7 @@ There are several ways our work will have an impact...
 One potential impact of our work concerns its application in research on loneliness and isolation in the elderly population. In particular, our product could be used to garner data on the affect playing our application could have on individuals who self-report as lonely and isolated. Although we lacked the time and resources to conduct research, one potential future area of work which our product could be applied to is research on loneliness and isolation in the elderly. Specifically researchers could conduct a small-scale study in which users' self-reported levels of loneliness and isolation are measured over a set period of time. As Alan (1999) points out, this type of hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. One future use of our application, therefore, could involve assessing the affects of our product on subjective feelings of loneliness in older adults. This is an area of research which our product could have been put to good use. The ubiquity of computers and smartphones and the self-centric orientation of their technologies capable of connecting individuals from across the globe indicates that multiplayer games with video functionality could play an important role in future research on loneliness in older adults.
 
 
-Building upon contemporary gaming platforms, this project pushes the field forward and provides a promising point of departure for future methods.
+Building upon contemporary gaming platforms, we believe that this project pushes the field forward and provides a promising point of departure for future applications for older adults.
 
 
 
@@ -279,11 +280,16 @@ Building upon contemporary gaming platforms, this project pushes the field forwa
 
 ## References
 
-[1] Brey, P. (2007). Ethical Aspects of Information Security and Privacy, in: Security, Privacy, and Trust in Modern Data Management, 21-36.
+[1] World Health Organization [WHO] (2018). Available at: https://www.who.int/features/qa/gaming-disorder/en/ (accessed May, 2021).
 
-[2] Hung, M., et al (2013). Uncovering patterns of technology use in consumer health informatics. Wiley interdisciplinary reviews. Computational statistics 5, 6: 432–447.
+[2] Khazaal, Y., Chatton, A., Rothen, S., Achab, S., Thorens, G., Zullino, D., et al. (2016). Psychometric properties of the 7-item game addiction scale among French and German adults. BMC Psychiatry 16:132.
 
-[3] Votipka, D., et al (2018). Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes, IEEE Symposium on Security and Privacy (SP), 374-391.
+[3] Brey, P. (2007). Ethical Aspects of Information Security and Privacy, in: Security, Privacy, and Trust in Modern Data Management, 21-36. Hung, M., et al (2013). Uncovering patterns of technology use in consumer health informatics. Wiley interdisciplinary reviews. Computational statistics 5, 6: 432–447.
+
+[4] Hung, M., et al (2013). Uncovering patterns of technology use in consumer health informatics. Wiley interdisciplinary reviews. Computational statistics 5, 6: 432–447.
+
+[5] Votipka, D., et al (2018). Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes, IEEE Symposium on Security and Privacy (SP), 374-391.
+
 ___
 
 ## Navigate
