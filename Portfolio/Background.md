@@ -35,13 +35,11 @@ In this section, we provide an overview of the background literature relating to
 
 It is fair to say that the Covid-19 pandemic and enforced social distancing measures have affected the mental health and wellbeing of older adults. With a rise in levels of loneliness and increase in social isolation, the consequences of enforced isolation are clear [[**1**]](#references). But there are many factors which underly the emergence of these public health issues. Covid-19 has played its part, and no doubt acted as an accelerant, driving these health issues above the normal average. But loneliness and isolation among the elderly pre-dates the pandemic [[**1**]](#references). With advances in modern medicine and a rise in the global average life expectancy, we find ourselves in ageing societies without the necessary social care infrastructure to support the elderly. This points to a growing public health issue affecting societies worldwide - one that is likely to continue with the growing size of our ageing populations.
 
-<br/><br/>
-<p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background1.png" alt="">
-  <br/>
-  <b align="center">Photo by Vlad Sargu on Unsplash</b>
-  <br/><br/>
-</p>
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background1.png)
+
+</div>
 
 This is the backdrop against which our analysis should proceed. But before going any further, as a preliminary it is necessary to define key terms, specifically loneliness and isolation.
 
@@ -66,13 +64,11 @@ Before reviewing existing solutions and identifying the gap in the market concer
 
 According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduces depression, as well as having social benefits and improved cognitive performance concerning working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
-<br/><br/>
-<p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png" alt="">
-  <br/>
-  <b align="center">Photo by Mark Duffel on Unsplash</b>
-  <br/><br/>
-</p>
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
+
+</div>
 
 Although the widely held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives.
 
@@ -109,13 +105,11 @@ Rules were, we decided an important part of our gameplay experience. Opting for 
 
 Now, let's turn to the questions above, and provide our answers to those questions. It was clear that our application should have rules, and that those rules should be straightforward and explained at the beginning of any gameplay. The user's interaction with the rules can be made playful by introducing a point system and leaderboard, and this information could be displayed in a playful way. The user won't be able to define the rules, since that would complicate matters and perhaps confuse the end-users. And breaking the rules will be prohibited since to do so would undermine the spirit of the interaction and the underlying competition to win points and reach the top of the leaderboard. The rules help the users to achieve the objectives by forcing the users to challenge themselves and beat their opponents. This creates a fun interaction.  The rules relate to the serious problem of loneliness and isolation by engaging the users to compete and interact in a way that is fun and playful and, ultimately, serves to mitigate the negative effects of loneliness and isolation.
 
-<br/><br/>
-<p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-rules.jpg" alt="">
-  <br/>
-  <b align="center">Photo by Mark Duffel on Unsplash</b>
-  <br/><br/>
-</p>
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-rules.jpg)
+
+</div>
 
 For our purposes, using Zimmerman's categories, we decided to use play as an activity mediated through structure and rules. So, we use the first category of play. For us, then, play can be found within games, and games can be seen as a subset of play. Serious play is set in the project brief as play and games found within computing. This can involve learning through play (i.e., as an educational tool), which serves to encourage novel solutions and allows 'serious' problems to be arrived at from a fresh angle. When it came to serious play, for our team, it was a good way to apply play in a way to tackle a serious issue without responding in a needlessly uninspired way.
 
@@ -138,14 +132,11 @@ In the context of playing a game, a person is said to have have extrinsic motiva
 
 To see this in action, let's consider gamification. Gamification commonly occurs when extrinsic motivators are applied without providing support for the development of intrinsic motivators. It also occurs when the extrinsic motivators are not valuable enough. Scores and leaderboards, for instance, are extrinsic motivators which visualise game display progress over time. But if these visualisations represent growth and development for a person, and gives them a sense of purpose and true enjoyment then we find that the extrinsic motivation transforms into intrinsic motivation.
 
-<br/><br/>
-<p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-motivations.jpg" alt="">
-  <br/>
-  <b align="center">Photo by Bret Kavanaugh on Unsplash</b>
-  <br/><br/>
-</p>
+<div align="center">
 
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-Motivations.jpg
+
+</div>
 
 So, does there need to be a score for our purposes? Scores support extrinsic factors which can be highly motivating, however they can also be negative for those who aren't doing particularly well. To address this, we could include a collaborative aspect to the memory game with respect to gameplay where players cooperate to complete the game and acquire points to compete against others. This is certainly something we could consider when developing our games, since cooperation can give rise to a strong sense of purpose and enjoyment without the negative consequences of solely competing against another player. A further extension combining cooperation with competition could cultivate a good balance between both styles of game, and ensure that serious play is present in our product with a slight twist.
 
@@ -157,13 +148,11 @@ Digital literacy is an important consideration when creating an online applicati
 
 But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#references) digital literacy is the ability to use and understand information from various digital devices. This definition may, of course, be contested. But for our purposes it clearly defines the term, and it serves to inform our design choices with respect to the UI and UX of our platform. Our aim, therefore, is to make using our digital platform simple and accessible so that older adults can learn and improve their level of digital literacy.
 
-<br/><br/>
-<p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literacy.jpg" alt="">
-  <br/>
-  <b align="center">Photo by Priscilla Du Preez Unsplash</b>
-  <br/><br/>
-</p>
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literac.jpg
+
+</div>
 
 Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials (Haederle, 2011)[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
 
@@ -174,14 +163,11 @@ In light of these considerations, our approach to the UI and UX will based on a 
 
 We now turn to our state-of-the-art survey. After reviewing the state-of-the-art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional, and cognitive benefits.
 
-<br/><br/>
-<p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background11.png" alt="">
-  <br/>
-  <b align="center">Photo by zhang kaiyv on Unsplash</b>
-  <br/><br/>
-</p>
+<div align="center">
 
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background11.png)
+
+</div>
 
 We now turn to the state-of-the-art survey. There is a wide range of digital games designed for the elderly and games that can be easily used by the elderly. Mobile games are a good option as you have thousands of fun, free games that allow you to play against friends, family, and anyone in the world.
 
