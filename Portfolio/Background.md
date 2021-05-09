@@ -35,11 +35,13 @@ In this section, we provide an overview of the background literature relating to
 
 It is fair to say that the Covid-19 pandemic and enforced social distancing measures have affected the mental health and wellbeing of older adults. With a rise in levels of loneliness and increase in social isolation, the consequences of enforced isolation are clear [[**1**]](#references). But there are many factors which underly the emergence of these public health issues. Covid-19 has played its part, and no doubt acted as an accelerant, driving these health issues above the normal average. But loneliness and isolation among the elderly pre-dates the pandemic [[**1**]](#references). With advances in modern medicine and a rise in the global average life expectancy, we find ourselves in ageing societies without the necessary social care infrastructure to support the elderly. This points to a growing public health issue affecting societies worldwide - one that is likely to continue with the growing size of our ageing populations.
 
-<div align="center">
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background1.png)
-
-</div>
+<br/><br/>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background1.png" alt="">
+  <br/>
+  <b align="center">Photo by Vlad Sargu on Unsplash</b>
+  <br/><br/>
+</p>
 
 This is the backdrop against which our analysis should proceed. But before going any further, as a preliminary it is necessary to define key terms, specifically loneliness and isolation.
 
@@ -64,11 +66,13 @@ Before reviewing existing solutions and identifying the gap in the market concer
 
 According to research by Kaufman et al, digital games offer opportunities for older adults to socialise and engage with each other. This, Kaufman claims, improves their emotional states and reduces depression, as well as having social benefits and improved cognitive performance concerning working memory and attention [[**5**]](#references). This is something they can do without much difficulty. It is also fun, entertaining and provides real value and meaning to their lives.
 
-<div align="center">
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
-
-</div>
+<br/><br/>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png" alt="">
+  <br/>
+  <b align="center">Photo by Mark Duffel on Unsplash</b>
+  <br/><br/>
+</p>
 
 Although the widely held view of ageing is that physical and cognitive decline are inevitable aspects of getting older, recent neuroscience research suggests that these trends can be slowed significantly with the right training and techniques. In particular, playing online games can have significant benefits for the elderly in their daily lives.
 
@@ -107,9 +111,9 @@ Now, let's turn to the questions above, and provide our answers to those questio
 
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="(https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-rules.jpg" alt="">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-rules.jpg" alt="">
   <br/>
-  <b align="center">Photo by Bret Kavanaugh on Unsplash</b>
+  <b align="center">Photo by Mark Duffel on Unsplash</b>
   <br/><br/>
 </p>
 
@@ -136,7 +140,7 @@ To see this in action, let's consider gamification. Gamification commonly occurs
 
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="(https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-motivations.jpg" alt="">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-motivations.jpg" alt="">
   <br/>
   <b align="center">Photo by Bret Kavanaugh on Unsplash</b>
   <br/><br/>
@@ -155,7 +159,7 @@ But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#refe
 
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="(https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literacy.jpg" alt="">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literacy.jpg" alt="">
   <br/>
   <b align="center">Photo by Priscilla Du Preez Unsplash</b>
   <br/><br/>
@@ -170,11 +174,14 @@ In light of these considerations, our approach to the UI and UX will based on a 
 
 We now turn to our state-of-the-art survey. After reviewing the state-of-the-art technologies currently in use, we discovered that digital games have proven to be a very useful tool for helping the older population with social, emotional, and cognitive benefits.
 
-<div align="center">
+<br/><br/>
+<p align="center">
+  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Logo/background11.png" alt="">
+  <br/>
+  <b align="center">Photo by zhang kaiyv on Unsplash</b>
+  <br/><br/>
+</p>
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background11.png)
-
-</div>
 
 We now turn to the state-of-the-art survey. There is a wide range of digital games designed for the elderly and games that can be easily used by the elderly. Mobile games are a good option as you have thousands of fun, free games that allow you to play against friends, family, and anyone in the world.
 
