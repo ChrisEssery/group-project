@@ -13,15 +13,15 @@
     <tbody class="ranking-table__tbody">
       <tr
         class="ranking-table__tr"
-        *ngFor="let player of rankingService.getList()"
+        *ngFor="let player of list"
       >
-        <td class="ranking-table__td">{{ player.name }}</td>
-        <td class="ranking-table__td">{{ player.rounds }}</td>
+        <td class="ranking-table__td">{{ player.username }}</td>
+        <td class="ranking-table__td">{{ player.score }}</td>
       </tr>
     </tbody>
   </table>
 </div>
 
-<app-button class="center" type="submit" (click)="gameService.playAgain()">
+<app-button class="center" type="submit" (click)="play()">
   Let's Play!
 </app-button>

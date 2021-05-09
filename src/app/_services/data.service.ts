@@ -54,7 +54,7 @@ export class DataService {
 
   getGameScoreLeaderboard(gameName:String, limit:number, ascend:number){
     gameName= gameName.replace(/['"]+/g, '');
-    return this.httpClient.get(this.REST_API_SERVER_GAME+'scores/'+gameName+'/'+limit+'/'+ascend)
+    return this.httpClient.get(this.REST_API_SERVER_GAME+'/scores/'+gameName+'/'+limit+'/'+ascend)
   }
 
 }

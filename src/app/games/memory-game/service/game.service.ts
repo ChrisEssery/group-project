@@ -92,7 +92,7 @@ export class GameService {
       this.yourTurn.style.display = 'none';
       this.opponentTurn.style.display = 'none';
       this.setGameResult();
-      this.addPlayerInRanking();
+      // this.addPlayerInRanking();
     }
   }
 
@@ -124,7 +124,7 @@ export class GameService {
       this.yourTurn.style.display = 'none';
       this.opponentTurn.style.display = 'none';
       this.setGameResult();
-      this.addPlayerInRanking();
+      // this.addPlayerInRanking();
     }
   }
 
@@ -211,12 +211,12 @@ export class GameService {
     this.activeCards = [];
   }
 
-  private addPlayerInRanking(): void {
-    this.leaderboardService.addPlayer({
-      name: this.playerName,
-      rounds: this.rounds
-    });
-  }
+  // private addPlayerInRanking(): void {
+  //   this.leaderboardService.addPlayer({
+  //     name: this.playerName,
+  //     rounds: this.rounds
+  //   });
+  // }
 
   // Multiplayer functionality
   public connectToGame(): void {
