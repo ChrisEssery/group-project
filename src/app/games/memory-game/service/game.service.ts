@@ -369,7 +369,6 @@ export class GameService {
     this.player.username = this.username; 
     this.playerData.push(this.player);
     this.playerData.push(this.opponent);
-    console.log(this.playerData);
     if(this.playerNumber === 0){
       let gameInfo = {"players": this.playerData}
       this.dataService.addGameInstance("memorygame", gameInfo).subscribe(

@@ -345,7 +345,6 @@ export class ConnectFourComponent implements OnInit {
     })
     if (this.isGameOver) {
       this.setGameResult();
-      console.log(this.playerData);
       return;
     }
     if (!this.ready) {
