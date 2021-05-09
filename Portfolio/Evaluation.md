@@ -312,36 +312,40 @@ Please see our [published api document](https://documenter.getpostman.com/view/1
 2. Database status
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/testuserscollection.png)
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/testgamescollection.png)
+
+
 ## User acceptance testing
 
-We now turn to the user acceptance testing. According to Wikipedia, user acceptance testing "consists of a process of verifying that a solution works for the user."
+We now turn to the user acceptance testing. According to Wikipedia, user acceptance testing "consists of a process of verifying that a solution works for the user." The most important consideration here is that UAT centres around the user. Are the users able to use the application? Does the application behave in expected ways? Does the application solve the users’ problem?
 
-The most important consideration here is that UAT centres around the user. Are the users able to use the application? Does the application behave in expected ways? Does the application solve the users’ problem?
+There exist three main software testing phases:
 
-User acceptance testing. Evaluation of your design with users – methods undertaken, findings, implications.
+   1. Alpha testing
+   2. Beta testing
+   3. Gamma testing
 
-### Questionnaires
+Alpha testing involves internal tests conducted by a team of testers and developers. It is designed to identify bugs through imitating the behaviour of a real user. This type of testing has the advantages of fixing issues immediately by a team of internal developers which is relatively easy to organise and can help catch any bugs that need to be addressed. The main disadvantage of this approach is that it focuses on usability tests and doesn't address the security or reliability of the product. Beta testing is the next phase of testing which involves both imitating end-users to stress-test the system and also having the product tested by end-users in real time to find bugs and ascertain the quality of the product. The advantages of this testing is that it helps identify whether the application can successfully run with live use and data. The disadvantages of this approach is that it can be difficult to find the end-users and testers. Finally, there is Gamma testing. This phase of testing, unlike the previous two phases, doesn't result in any changes to the front or back-end of the system (unless, that is, there is some nontrivial bug which needs to be fixed). It is the final stage of testing to determine the performance and functionality of the application. The advantages of this type of testing is that it ensures that the product is ready for release, and gives a certain level of assurance that the safety, functionality and responsiveness of the product is ready for release.
 
-Questionnaires are
+In both the Beta and Gamma testing, these tests focus on the UX and the participants should, in theory, be unknown to the software development team and have no prior knowledge or experience of the product so as to control for the role of various experimental biases. This is important because it increases the likelihood of gathering honest, objective insights. Because of the time constraints imposed on us, we decided to skip the Alpha and Beta testing phases and move straight to the final Field Testing prior to product launch.
 
+For our purposes we will focus on the user acceptance testing that we conducted, beginning with the Beta testing.
 
-Our data is qualitative. Qualitative methods generate data that are represented by observe or report words and or behaviorus. It is best suited when you want to understand and represent the opinions and perspectives of your users.
+### Beta testing
 
+This was the first type of user acceptance testing we conducted.
 
-### User stories
-
-DUPLICATION? EDIT
-Proto-personas based on assumptions about the relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework.
-
-This approach relies on an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research based on self-reflection and the process of writing to explore and understand personal experiences and connect this autobiographical story to wider societal issues. For our purposes, this relates to self-reflection on the position of our stakeholders via proto-personas. This was an excellent method for adding stakeholders into our agile development, and meant that despite being able to meet older adults in person show them our product, we were able to reflect on what their responses might be. This, together with the questionnaire data we gathered meant we could adjust our UI and UX design to best serve our end-users. This was extremely useful for evaluating our design.
-
-
-### Methods undertaken
+One issue we encountered when deciding to conduct Beta testing were ethical considerations concerning data privacy and protection.
 
 
-### Findings and implications
+### Gamma testing
 
-We conducted an evaluation of our design with users
+
+
+**Limitations of acceptance testing**
+
+The main limitations with this field testing type of user acceptance testing centred around the role of biases in affecting our users' feedback. In particular, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity (Keeble, 2013, p. 1). A further issue concerns the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population or indeed our end-users (Keeble, 2013). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias (Keller, 2016, p. 83).
+
+A further limitation of our user testing concerns the range of methods used. With our testing we could have used heat map testing, surveys, questionnaires and more robust Alpha testing. 
 
 ### References
 
