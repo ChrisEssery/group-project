@@ -160,26 +160,43 @@ To begin the front-end testing, we had to produce a test plan as below:
 
 This test plan outlines the specifics of our front-end testing. As you can see our focus was purely on the navigation of our users as well as logging out effectively. We also fixed all the default angular tests such that all components are created. In order to implement this, we had to edit the components spec files which our tests focused upon. As below:
 
-# Test A.
+### Implementation
+
+#### Test A.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/InvalidPassandUser.png)
 
-# Test B.
+#### Test B.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Navigation.png)
 
-# Test C.
+#### Test C.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/SignoutWorks.png)
 
-Then through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these.
+#### Test D
+We wanted to extend our testing to fix the default Angular tests so that we could see if there were any hidden issues in our components. For the most part this was simple and just required the adding of the RouterTestingModule and HttpClientModule. However, it did unearth a few unexpected issues. These resided within the card and Jitsi components.
+
+The first issue with the card component was that the card class was not produced prior to checking the component existed. This caused an undefined issue given that the elements within the class were not assigned. This was a straightforward fix and just required an import of the card class and initializing an instance of this as below:
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/FixTesting1.png)
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/FixTesting2.png)
+
+The second issue was with Jitsi. This issue still remains and can be observed as a failure after running ‘ng test’. It is unfortunately down to how our app works and it would take a lot of time to fix. The Jitsi component is initialized with no value and later on gets assigned one. This is tricky… Chris to add more.
+
+### Test Results
+Through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these.
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/TotalPasses.png)
 
-# Test A.
+#### Test A.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/LoginTestWorks.png)
 
-# Test B & C.
+#### Test B & C.
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NavbarTestWorks.png)
 
-Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct.
+#### Test D
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/JitsiFail.png)
+
+Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct. Whilst the issue with Jitsi was unresolvable if we had further time then this could be something we would look to fix.
 
 ### Back-End (AUTOMATED API TESTING)
 
