@@ -158,7 +158,7 @@ But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#refe
 
 </div>
 
-Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials (Haederle, 2011)[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
+Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
 
 In light of these considerations, our approach to the UI and UX will based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design). For a discussion of our approach to UX design, see the section on [UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
 
@@ -186,13 +186,7 @@ ___
 
 </div>
 
-This site contains a very large number of different board games ranging from sudoku and checkers to chess and scrabble.
-
-It has a membership fee of $12 per year.
-
-It is fairly straightforward to navigate, however the webpage is quite cluttered.
-
-No video communication functionality.
+This site contains a very large number of different board games ranging from sudoku and checkers to chess and scrabble. It has a membership fee of $12 per year. It is fairly straightforward to navigate, however the webpage is quite cluttered. No video communication functionality.
 
 
 ### The Pros:
@@ -214,13 +208,7 @@ ___
 
 </div>
 
-This site contains a fewer games that AARP.
-
-It's free.
-
-It is a clean, straightforward homepage and is very easy to use.
-
-No video communication functionality.
+This site contains a fewer games that AARP. It's free. It is a clean, straightforward homepage and is very easy to use. No video communication functionality.
 
 
 ### The Pros:
@@ -283,7 +271,7 @@ CogniFit is a healthcare company with their very own app designed to strengthen 
 - Available on iOS and Android
 - Price: Free with in-app purchases; premium subscriptions $19.99/month or $119.99/year
 
-This application differs from the abovementioned platforms because it emphasises using science-based information to provide games for its users.
+This application differs from the above-mentioned platforms because it emphasises using science-based information to provide games for its users.
 
 
 ### Personal Zen
@@ -321,7 +309,7 @@ After conducting our state-of-the-art survey, we realised that the trend among e
 
 One thing was very clear, though: we noticed that a large majority of these platforms were overly complicated, difficult to navigate, and lacked video chat functionality. Having gathered this information about games for older adults, we were left with the insight that there exists a gap in the market. In particular, there is a gap for a site like Gametable, namely a site which is easy to use, offers a small number of games to choose from, and has the added features of multiplayer mode and video communication functionality.
 
-These added features, we felt, were essential to address the issues of loneliness and isolation. Simply playing an online game by yourself is very different from playing with a friend or family member. Not only did we realise this, but we also realised that these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent who is either a friend or family member is a very easy way to make you feel like you've socialised with those individuals. It was these features, therefore, which in our minds were crucial for addressing the problems of loneliness and social isolation.
+These added features, we concluded, were essential to address the issues of loneliness and isolation. Simply playing an online game by yourself is very different from playing with a friend or family member. Not only did we realise this, but we also realised that these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent who is either a friend or family member is a very easy way to make you feel like you've socialised with those individuals. It was these features, therefore, which in our minds were crucial for addressing the problems of loneliness and social isolation.
 
 
 <div align="center">
