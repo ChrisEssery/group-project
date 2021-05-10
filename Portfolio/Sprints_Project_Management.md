@@ -1009,7 +1009,7 @@ The diagram below shows the basic workflow of the repositories and the working c
 
 </div>
 
-There were so-called 'fake conflicts' whereby two team members would be editing different files at the same time, let's say the readme.md and system implementation.md, and information was altered in the readme.md which was at odds with information in the system implementation.md. We can do a fast-forward, where git goes back into the repository and pretends that team member 1's edit came before the team member 2's edit, and that team member 1 had done a push in between the edits. We decided that if we were dealing with genuine fake conflict, namely where the files being edited concurrently were different and the changes to those files were unconnected, then it would be justifiable to perform a fast-forward. The fast-forward loses the information about the conflict.
+There were so-called 'fake conflicts' whereby two team members would be editing different files at the same time, let's say the readme.md and system implementation.md, and information was altered in the readme.md which was at odds with information in the system implementation.md. We knew that we could do a fast-forward, where Git basically goes back into the repository and pretends that team member 1's edit came before the team member 2's edit, and that team member 1 had performed a push in between the edits. We decided that if we were dealing with genuine fake conflict, namely where the files being edited concurrently were different and the changes to those files were unconnected, then it would be justifiable to perform a fast-forward.
 
 There were also real conflicts, as depicted below:
 
@@ -1030,9 +1030,9 @@ We dealt this by fixing all conflicts manually before making a commit. This then
 
 When working on the same branch, our approach to the GitHub workflow was as follows:
 
-  * When starting on the branch, we would perform fetch, then status.
-  * When we decide to to share changes, we would do a status. If it says you ahead, it is safe to push those changes, and if says you are behind it is safe to pull.
-  * In case of conflict: pull which results in a fast-forward, and if not a fast-forward then we would manually check the problem, merge and commit again.
+  * When starting on the branch, perform fetch, then status.
+  * When you want to share changes, do a status. If the status says you are ahead, it is safe to push those changes, and if it says you are behind it is safe to pull.
+  * In the event of a conflict: perform pull which results in a fast-forward, and if not a fast-forward then we would manually check the problem, merge and commit again.
 
 By following this workflow for the most part we managed to avoid conflicts.
 ___
