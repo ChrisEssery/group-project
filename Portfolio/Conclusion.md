@@ -251,9 +251,11 @@ It’s important for the end=users to find games that are challenging but not so
 Another extension concerns adding an 'invite friends to play' feature.
 
 
-### Add competition feature and rewards
+### Adding a challenge and achievement system
 
-Another possible extension concerns adding a competition feature whereby players can create contests among friends and/or simply compete against friends to win rewards. there are monthly contests and competitions...or something along those lines.
+To further encourage users to engage with the application, we could explore adding an additional layer of competition to the application that would be more suited to when the users have already begun engaging and building up a network of friends on the platform. The first idea could be to introduce a challenge-based system. For example, you could challenge your friend to a "best-of-five" challenge on Connect Four. This could then be recorded on the user's profile page as a medal of sorts. This could also be devloped into individual challenges, for example "win ten games of Connect Four in one week". This could encourage users to play more games outside of their virtual friend network and in turn meet more people and potential friends, helping to further tackle the issue of isolation.
+
+We could then extend this to developing an achievement-based system. This wouldn't need to just be win-based and it could include achievements such as "played 50 games of Connect Four in one month" or "won five games of Connect Four in a row". Again, this could help to provide a source of extrinsic motivation for using the application and helping our users to engage with each other more. 
 
 ### Adding better instructions
 
