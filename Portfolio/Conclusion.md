@@ -175,6 +175,8 @@ The first major impact was communication. Specifically, Covid-19 prevented us fr
 
 In relation to our group project, we feel that the pandemic hindered our progress during the design and idea generation part of the process. We believe that being in the same room and bouncing ideas off each other face-to-face could have helped us generate more ideas, at a faster rate. Despite this, we are in agreement that we are satisfied with our idea and that we likely would have chosen to move forward with this idea regardless of whether we synthesised it in person or virtually.
 
+To look at this from an alternate perspective however, it could be suggested that the compulsory use of virtual communication has had a positive impact on the project. Having the group chat for our team on Microsoft Teams meant that we always had a line of communication open between us. This enabled the instantaneous sharing of ideas or requests for feedback. If we were predominantly communicating during lab time, this bouncing of ideas and feedback may have been less consistent and time may have been spent developing the application in a direction that may not have been desired by all group members.
+
 ## Social and ethical implications
 
 Ethical issues concerning data privacy and security of our prototype were addressed by our team throughout the project. Let's consider these.
