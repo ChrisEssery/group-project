@@ -120,6 +120,53 @@ Upon implementation of this proposed schema we noted a few issues in the design.
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/DatabaseClassDiagram.png)
 
+Based on the diagram, we defined the User schema and Game schema using Mongoose as the following:
+
+[user.js](https://github.com/ChrisEssery/group-project/blob/dev/server/models/user.js)
+```javascript
+const mongoose = require('mongoose');
+const Schema = mongoose.Schema;
+
+const User = new Schema ({
+  username: {type: String, required: true, unique: true},
+  password: {type: String, required: true},
+  email: {type: String, required: true},
+  name: {type: String},
+  surname: {type:String},
+  age: {type: Number},
+  gender: {type: String},
+  location: {type: String},
+  wins: {type: Number},
+  friends: [{type: String}],
+  gamesPlayed: [{
+    gamename:{type: String},
+    date: {type: Date, default: Date.now},
+    playedWith: [{type: String}],
+    result:{type: String}}]
+});
+
+module.exports = mongoose.model('User', User);
+```
+
+[game.js](https://github.com/ChrisEssery/group-project/blob/dev/server/models/game.js)
+```javascript
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+
+var Game = new Schema({
+    gameName: {type: String, required: true},
+    date: {type: Date, default: Date.now},
+    players: [{
+        username: {type: String, required: true}, //player1's username
+        result: {type: String, required: true},
+        score: {type: Number}
+    }],
+    difficultyLevel: {type: String}, // not required
+  });
+  
+  module.exports = mongoose.model('Game', Game);
+```
+
 ## Middle tier
 
 Now, turning to the middle tier, we have Express, Node.js and RESTful API.
@@ -148,24 +195,27 @@ RESTful API makes it easy to decouple the backend code from the front end so tha
 
 ### Details of Implementation
 
-- API address:  http://localhost:3000/api
+### API Work Flow
 
-- Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
+- API route:  http://localhost:3000/api
+    - Request game data: http://localhost:3000/api/games
+    - Request user data: http://localhost:3000/api/users
 
-- The data is transferred in a uniform format using JSON
-
-- Interface authentication: Uniform use of Token authentication (based on JSON Web Token)
-
-- Interfaces that require authorization must provide the request header field X-Access-Token information(see [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js))
-
-- User password is encrypted using [blueimp-md5](https://www.npmjs.com/package/blueimp-md5)
-
-- [Express session](https://www.npmjs.com/package/express-session) is used to store user data between HTTP request
+**Here is a flowchart of how our api will handle a request**
 
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png)
 
+**[api.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/api.js)** catches all api routes and sends the requests based on the request data type (game or user) to the corresponding router file (games.js and users.js)
 
-### Returned Status Code Specification
+**[games.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/games.js)** handles with all api requests that query about game data (i.e. [Add a new game instance](#Add-a-new-game-instance), [Get top users of a specific game according to the game score](#Get-top-users-of-a-specific-game-according-to-the-game-score))
+
+**[users.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/users.js)** handles with all api requests that query about user data (i.e. [User Register](#User-Register), [User Log in](#User-Log-In), [Get a user's friendlist](#Get-a-user's-friendlist), [Get a user's game history](#Get-a-user's-game-history))
+
+**[middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js)** serves as a middleware which prevents unauthorized access without valid token and makes sure every request comes with a valid and unexpired X-Acess-Token.
+
+### Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
+
+**Returned Status Code Specification**
 
 | status code | Meaning                              | Notes                                                        |
 | ----------- | ------------------------------------ | ------------------------------------------------------------ |
@@ -179,7 +229,6 @@ RESTful API makes it easy to decouple the backend code from the front end so tha
 | 409         | CONFLICT                             | A validation error occurred while creating an object, (e.g. conflict username) |
 | 422         | Unprocesable entity [POST/PUT/PATCH] | A validation error occurred while creating an object         |
 | 500         | INTERNAL SERVER ERROR                |                                                              |
-
 
 ### Error Handling
 When an error occurs, the returned HTTP Status Code is 4xx error, such as `400,403,404`. And an error message will be returned to indicate the problem.
@@ -196,7 +245,77 @@ returned data:
   error: 'invalid password'
 }
 ```
-### API Request & Response
+### User Data Protection
+
+- User password is encrypted using [blueimp-md5](https://www.npmjs.com/package/blueimp-md5)
+
+Case User Register:
+```javascript
+   //encrypt password
+    body.password = md5(body.password)
+```
+Case User Log in:
+```javascript
+    //check password
+    if (md5(body.password) !== targetUser.password) {
+        return res.status(401).json({
+           error: 'invalid password'
+        })
+    }
+```
+- [Express session](https://www.npmjs.com/package/express-session) is used to store user data between HTTP request
+
+### User Authentication
+
+- Interface authentication: Uniform use of Token authentication (based on JSON Web Token)
+
+Tokens are generated when users login/signup and will be send back to the client
+```javascript
+    
+    const token = jwt.encode({
+    iss: body.id, 
+    exp: moment().add( 7, 'days').valueOf()}, 'secret')
+    delete body.password
+    res.status(201).json({
+    token,
+    user: body.username
+  })
+```
+
+- Interfaces that require authorization must provide the request header field X-Access-Token information(see [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js))
+
+
+```javascript
+exports.check_api_token = (req, res, next) => {
+    const token = req.get('x-access-token') 
+    //check if the request contains a X-Access-Token
+    if (!token) {
+      return res.status(401).json({
+        error: 'Authentication failure: X-Access-Token information could not be found in the request'
+      })
+    }
+   //check if the token is valid
+    try {
+      const decodedToken = jwt.decode(token, 'secret')
+      // check if the token is expired
+      if (decodedToken.exp < moment().valueOf()) {
+        return res.status(401).json({
+          error: 'Authentication failed: Token has expired'
+        })
+      }
+      req.body.userId = decodedToken.iss
+      next()
+    } catch (err) {
+      res.status(401).json({
+        error: 'Authentication failed: Invalid Token'
+      })
+    }
+  }
+```
+
+
+### API Request & Response data are set in a uniform format using JSON
+
 **Overview**
 
 - [x] [User Register](#User-Register)
