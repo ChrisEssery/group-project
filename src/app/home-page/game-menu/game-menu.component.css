@@ -2,3 +2,28 @@
 
 /* .title{display: none;}
 @media (min-width: 768px) { .title{display: block;} } */
+
+.title {
+    margin-top: 8%;
+    margin-bottom: 10%;
+    display: block;
+}
+
+.alt {
+    display: block;
+    color: whitesmoke;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 15px;
+    text-align: center;
+}
+.button-group {
+    display: none;
+}
+
+@media (min-width: 1460px) { 
+    .alt {display:none}
+    .title {display: block}
+    .button-group {
+        display:flex;
+    }
+} 

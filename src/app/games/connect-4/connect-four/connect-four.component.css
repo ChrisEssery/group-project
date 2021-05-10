@@ -57,6 +57,25 @@ h3 {
     overflow: hidden;
   }
 }
+@media (min-width: 1510px) and (max-width: 1600px){  .grid div {
+  height: 70px;
+  width: 70px;
+  background-color: white;
+  margin: 10px;
+  border-radius: 40px;
+ }
+ .grid {
+  border: 5px solid;
+  height: 540px;
+  width: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color:rgb(2, 3, 97);
+  padding: 10px;
+  flex: initial;
+  overflow: hidden;
+}
+}
 
   .player-one {
     background-color: red !important;
