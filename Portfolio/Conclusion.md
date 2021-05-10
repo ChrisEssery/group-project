@@ -173,8 +173,7 @@ The outbreak of COVID-19 in March, and the subsequent lockdowns running up to th
 
 The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. As a result, we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding and documentation side of things. The other issue we faced during this time was the stress component of the pandemic. Not only did we feel increased levels of stress due to the existential threat of the virus, but we also found that the MSc conversion was especially challenging given we had no face-to-face interactions with tutors, TAs or fellow students in the second term.
 
-In relation to our group project,
-
+In relation to our group project, we feel that the pandemic hindered our progress during the design and idea generation part of the process. We believe that being in the same room and bouncing ideas off each other face-to-face could have helped us generate more ideas, at a faster rate. Despite this, we are in agreement that we are satisfied with our idea and that we likely would have chosen to move forward with this idea regardless of whether we synthesised it in person or virtually.
 
 ## Social and ethical implications
 
