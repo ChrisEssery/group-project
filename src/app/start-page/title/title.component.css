@@ -21,14 +21,18 @@ h1 span {
     animation: bounce 0.3s infinite alternate;
 }
 .letter{
-    font-size: 80px;
+    font-size: 55px;
 }
+@media (min-width: 500px) { .letter{
+    font-size: 80px;
+} }
 @media (min-width: 768px) { .letter{
     font-size: 120px;
 } }
 @media (min-width: 992px) { .letter{
     font-size: 144px;
 } }
+
 
 @keyframes bounce {
     100% {
