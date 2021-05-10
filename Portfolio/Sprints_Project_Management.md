@@ -996,6 +996,38 @@ With regards to the other branches, our GitHub protocol was as follows:
  4. If merge successful, delete branch.
 
 By following this protocol, we had a formalised set of rules to follow when using GitHub. It gave us a clear structure to follow and meant that we were all on the same page with regards to the process of creating, updating, merging and deleting new branches.
+
+### Conflicts
+
+We were aware of the issue of conflicts when working on the repository concurrently with other team members. The 'push' and 'fetch' commands were safe ways to make updates to the files we were working on, but 'pull' requests could sometimes be problematic.
+
+The diagram below shows the basic workflow of the repositories and the working copy.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/github.png)
+
+</div>
+
+There were so-called 'fake conflicts' whereby two team members would be editing different files at the same time, let's say the readme.md and system implementation.md, and information was altered in the readme.md which was at odds with information in the system implementation.md. We could then fast-forward these changes.
+
+There were also real conflicts, as depicted below:
+
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/github-real-conflicts.png)
+
+</div>
+
+We dealt this by fixing all conflicts manually before making a commit. This then creates a merge commit with more than one parent.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/github-conflicts.png)
+
+</div>
+
 ___
 
 ## Navigate
