@@ -13,6 +13,7 @@ In this section, we discuss background literature, complete a state-of-the-art s
 ## Table of contents
 
 * [**Background literature**](#background-literature)
+  * [Setting the context](#setting-the-context)
   * [Defining key terms](#defining-key-terms)
   * [Public health concerns](#public-health-concerns)
   * [Can digital games help tackle the health concerns associated with loneliness and isolation?](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation)
@@ -31,7 +32,10 @@ In this section, we discuss background literature, complete a state-of-the-art s
 
 ## Background literature
 
-In this section, we provide an overview of the background literature relating to social isolation and loneliness among older people. We define key terms and identify public health concerns and current interventions.
+In this section, we provide an overview of the background literature relating to social isolation and loneliness among older people. We define key terms and identify public health concerns and current interventions. But first, let's take a big picture view of the issues we seek to address.
+
+
+### Setting the context
 
 It is fair to say that the Covid-19 pandemic and enforced social distancing measures have affected the mental health and wellbeing of older adults. With a rise in levels of loneliness and increase in social isolation, the consequences of enforced isolation are clear [[**1**]](#references). But there are many factors which underly the emergence of these public health issues. Covid-19 has played its part, and no doubt acted as an accelerant, driving these health issues above the normal average. But loneliness and isolation among the elderly pre-dates the pandemic [[**1**]](#references). With advances in modern medicine and a rise in the global average life expectancy, we find ourselves in ageing societies without the necessary social care infrastructure to support the elderly. This points to a growing public health issue affecting societies worldwide - one that is likely to continue with the growing size of our ageing populations.
 
