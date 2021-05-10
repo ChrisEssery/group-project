@@ -177,6 +177,8 @@ In relation to our group project, we feel that the pandemic hindered our progres
 
 To look at this from an alternate perspective however, it could be suggested that the compulsory use of virtual communication has had a positive impact on the project. Having the group chat for our team on Microsoft Teams meant that we always had a line of communication open between us. This enabled the instantaneous sharing of ideas or requests for feedback. If we were predominantly communicating during lab time, this bouncing of ideas and feedback may have been less consistent and time may have been spent developing the application in a direction that may not have been desired by all group members.
 
+At the outset of the project, it was suggested that we work in teams of five. We initially formed a group of five, however a member left to join another group. We struggled to find another member to fill up our group and we feel that if we had been on campus for the group assignment stage of this module, that we may have been able to find a fifth member more easily, or at least discuss re-arranging group numbers with other groups that did not have five members. Despite this, although we believe that the workload undertaken posed us more of a challenge in terms of time required to deliver the project, the group dynamic we fostered was perfect for delivering the application, and having a fifth member could ultimately have negatively impacted this. 
+
 ## Social and ethical implications
 
 Ethical issues concerning data privacy and security of our prototype were addressed by our team throughout the project. Let's consider these.
