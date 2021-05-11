@@ -180,8 +180,11 @@ The first issue with the card component was that the card class was not produced
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/FixTesting2.png)
 
-The second issue was with Jitsi. This issue still remains and can be observed as a failure after running ‘ng test’. It is unfortunately down to how our app works and it would take a lot of time to fix. The Jitsi component is initialized with no value and later on gets assigned one. This is tricky… Chris to add more.
+The second issue was with Jitsi. This issue still remains and can be observed as a failure after running ‘ng test’. Due to how the Jitsi library/API is written, this test failure is unavoidable. However, this does not impact the functionality or the user experience of the application, as discovered via rigorous during development and testing. The Jitsi library is written in such a way that even if imported locally and compiled with the project, the JitsiMeetAPI library has to be embedded and called via a <script> tag, meaning that it is not called until the application is loaded. This therefore meant that we had to use the 'declare' keyword to notify the TypeScript compiler that the variable exists and has a specific type, so that when the script is loaded, the object can be created and it's methods can be called. 
+  
+To avoid this test failure, we could have used a library that enabled us to do everything within a folder local to the project, however with Jitsi providing us with the functionality required to deliver real-time video chat, and the user experience being unaffected, we decided to stick with Jitsi and make note of the failing test. 
 
+  
 ### Test Results
 Through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these.
 
@@ -343,39 +346,26 @@ There exist three main software testing phases:
 
 Alpha testing involves internal tests conducted by a team of testers and developers. It is designed to identify bugs through imitating the behaviour of a real user. This type of testing has the advantages of fixing issues immediately by a team of internal developers which is relatively easy to organise and can help catch any bugs that need to be addressed. The main disadvantage of this approach is that it focuses on usability tests and doesn't address the security or reliability of the product. Beta testing is the next phase of testing which involves both imitating end-users to stress-test the system and also having the product tested by end-users in real time to find bugs and ascertain the quality of the product. The advantages of this testing is that it helps identify whether the application can successfully run with live use and data. The disadvantages of this approach is that it can be difficult to find the end-users and testers. Finally, there is Gamma testing. This phase of testing, unlike the previous two phases, doesn't result in any changes to the front or back-end of the system (unless, that is, there is some nontrivial bug which needs to be fixed). It is the final stage of testing to determine the performance and functionality of the application. The advantages of this type of testing is that it ensures that the product is ready for release, and gives a certain level of assurance that the safety, functionality and responsiveness of the product is ready for release.
 
-In both the Beta and Gamma testing, these tests focus on the UX and the participants should, in theory, be unknown to the software development team and have no prior knowledge or experience of the product so as to control for the role of various experimental biases. This is important because it increases the likelihood of gathering honest, objective insights. Because of the time constraints imposed on us, we decided to skip the Alpha testing phase and gamma testing phase and focus on Beta testing prior to product launch.
+In both the Beta and Gamma testing, these tests focus on the UX and the participants should, in theory, be unknown to the software development team and have no prior knowledge or experience of the product so as to control for the role of various experimental biases. This is important because it increases the likelihood of gathering honest, objective insights. Because of the time constraints imposed on us, we decided to skip the Alpha and Beta testing phases and move straight to the final Field Testing prior to product launch.
 
-Due to the time constraints imposed on us, we were unable to apply for ethical approval to include details of our tests due to data privacy and protection concerns.
+For our purposes we will focus on the user acceptance testing that we conducted, beginning with the Beta testing.
 
 ### Beta testing
 
-*DO TESTING TUES EVENING*
-As mentioned above, the main purpose of this testing was to verify software compatibility with different software, different network connections, and to get the users’ feedback on software usability and functionality. This testing involved a focus group of 6 older family members via video conferencing. To preserve the anonymity of the participants, we will not refer to their names or disclose any personal data regarding them.
+This was the first type of user acceptance testing we conducted.
 
-The structure of the testing was as follows. We gave the group a list of points to consider when interacting with our product. These points were:
-
-  - the functionality of the application
-  - the usability
-  - the visual appearance of application
-
-We took observation notes and asked the participants to add notes about the product. These notes were then used to develop an affinity chart.
-
-Overall the feedback was very helpful for identifying any design issues or functionality problems. During the session, we used screen sharing to demonstrate how to use the application.
-
-The feedback is summarise below:
-
-   *
-   *
-   *
-
-This helped inform our design choices and tested the functionality of the platform. Whilst this was a really useful test to perform before pre-release, if we'd had more time and resources we would have conducted Alpha and Gamma testing as well.
+One issue we encountered when deciding to conduct Beta testing were ethical considerations concerning data privacy and protection.
 
 
-**Limitations of Beta testing**
+### Gamma testing
 
-The main limitations with our field testing approach to user acceptance testing concerns the role of biases in affecting our users' feedback. In particular, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity (Keeble, 2013, p. 1). A further issue concerns the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population or indeed our end-users (Keeble, 2013). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias (Keller, 2016, p. 83).
 
-A further limitation of our user testing concerns the range of methods used. With our testing we could have used heat map testing, surveys, questionnaires and more robust testing.
+
+**Limitations of acceptance testing**
+
+The main limitations with this field testing type of user acceptance testing centred around the role of biases in affecting our users' feedback. In particular, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity (Keeble, 2013, p. 1). A further issue concerns the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population or indeed our end-users (Keeble, 2013). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias (Keller, 2016, p. 83).
+
+A further limitation of our user testing concerns the range of methods used. With our testing we could have used heat map testing, surveys, questionnaires and more robust Alpha testing. 
 
 ### References
 
