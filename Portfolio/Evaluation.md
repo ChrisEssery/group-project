@@ -182,6 +182,9 @@ The first issue with the card component was that the card class was not produced
 
 The second issue was with Jitsi. This issue still remains and can be observed as a failure after running ‘ng test’. Due to how the Jitsi library/API is written, this test failure is unavoidable. However, this does not impact the functionality or the user experience of the application, as discovered via rigorous during development and testing. The Jitsi library is written in such a way that even if imported locally and compiled with the project, the JitsiMeetAPI library has to be embedded and called via a <script> tag, meaning that it is not called until the application is loaded. This therefore meant that we had to use the 'declare' keyword to notify the TypeScript compiler that the variable exists and has a specific type, so that when the script is loaded, the object can be created and it's methods can be called. 
   
+To avoid this test failure, we could have used a library that enabled us to do everything within a folder local to the project, however with Jitsi providing us with the functionality required to deliver real-time video chat, and the user experience being unaffected, we decided to stick with Jitsi and make note of the failing test. 
+
+  
 ### Test Results
 Through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these.
 
