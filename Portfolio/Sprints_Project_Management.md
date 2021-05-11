@@ -796,25 +796,6 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 </table>
 
-
-### Technical problems and solutions
-
-<table>
-<tr>
-  <th>Part of MEAN stack</th>
-  <th>Backlog item</th>
-  <th>Stakeholder story</th>
-  <th>Problem</th>
-  <th>Solution</th>
-</tr>
-<tr>
-  <td>Front-End</td>
-  <td>Stakeholders are able to see the start page.</td>
-  <td>Insert here</td>
-  <td>Insert solution here and future implementations.</td>
-</tr>
-</table>
-
 ### Evaluation of Sprint
 
 
@@ -922,7 +903,15 @@ This was our penultimate sprint. By this point we had to focus on adding video c
   <td>It was not possible to make the Jitsi video chat mobile responsive.</td>
   <td>To prevent any issues with players using the video chat, we set the games to be only available on PC. If the user attempts to play the games on a mobile device they will not be able to since the game choice buttons will not appear for smaller screens (less than 1440px in width).</td>
 </tr>
+<tr>
+  <td>Front-End</td>
+  <td>Conduct unit testing</td>
+  <td>As a product manger, I believe thorough testing is essential</td>
+  <td>The card class within the card component was not produced prior to checking the component existed. This caused an undefined issue given that the elements within the class were not assigned.</td>
+  <td>This was a straightforward fix and just required an import of the card class and initialising an instance of this.</td>
+</tr>
 </table>
+
 
 ### Evaluation of Sprint
 

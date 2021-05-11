@@ -113,9 +113,11 @@ The team was also excellent on a human level. No-one ever felt outcast and every
 
 ## Reflection of success of project
 
-There have been many successes throughout the duration of this unit. One of the first hurdles we faced as a team was that one of our team members moved to a different team at the beginning of the project. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. Secondly, this meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. The way we dealt with being one team member down was a success, since we did not dwell on the fact but simply moved forward with a positive mindset, aware of how much we could achieve if we remained focused and goal-oriented. With this in mind, we feel proud of how far we have come. In particular, we feel proud of how we have worked as a team to produce a working prototype based on an idea which arose during the ideation phase. We managed to work well together, making sure to keep in contact every day, following a structured approach. In retrospect, losing one team member gave us the motivation to work really hard and pull together to develop our product. In this sense it may have even helped spur us on.
+There have been many successes throughout the duration of this unit. One of the first hurdles we faced as a team was that one of our team members moved to a different team at the beginning of the project. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. Secondly, this meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. The way we dealt with this was a success, since we did not dwell on the fact but simply moved forward with a positive mindset, aware of how much we could achieve if we remained focused and goal-oriented. With this in mind, we feel proud of how far we have come - of how we have worked as a team, on team member down, to produce a working prototype based on an idea which arose during the ideation phase. In retrospect, rather than holding us back, it seems that losing one team member gave us the motivation required to work hard and develop our product. In this sense it may have even given us more motivation than we would have otherwise had if our team member had not moved.
 
-We also feel that we successfully designated roles to each team member, which we maintained throughout the project.
+We also feel that we successfully designated roles to each team member. These roles were maintained throughout the project.
+
+
 
 ### Back-End
 
@@ -127,7 +129,7 @@ We also feel that we successfully designated roles to each team member, which we
 
 ### Design
 
-
+After conducting the background research and state of the art survey we were well placed to design our product. ADD ADD ADD
 
 ### How well did our project fulfil the brief?
 
