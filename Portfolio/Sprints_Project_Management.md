@@ -224,7 +224,7 @@ The following are a list of tasks and features that the team were tasked to deli
 
 ### Evaluation of Sprint
 
-This was our first sprint. It followed several weeks of meetings regarding the design and ideation of our product. The main goal of this sprint was to establish main lines of communication, write up a GitHub protocol, and . This was important, we felt, because once our channels of communication were setup we could then work efficiently and effectively. It was particularly important to make sure every team member had a good working understanding of how to use GitHub. On reflection, we should have dedicated more time to doing this. In particular, we would have benefited from one team member becoming the GitHub expert who could then go on to teach other team members how to use the platform. We should have also made sure that the GitHub protocol was discussed in more depth so we all understood how to properly utilise the branch-based workflow.
+This was our first sprint. It followed several weeks of meetings regarding the design and ideation of our product. The main goal of this sprint was to establish main lines of communication, write up a GitHub protocol, and create user stories. This was important, we felt, because once main lines of communication were setup, a GitHub protocol was established and stakeholder stories were drawn up we could then work efficiently and effectively. It was particularly important to make sure every team member had a good working understanding of how to use GitHub. On reflection, we should have dedicated more time to doing this. In particular, we would have benefited from one team member becoming the GitHub expert who could then go on to teach other team members how to use the platform. We should have also made sure that the GitHub protocol was discussed in more depth so we all understood how to properly utilise the branch-based workflow.
 
 
 
@@ -253,7 +253,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. From p
    * Update given on progress of games.
    * Browsed previously completed group projects together.
 
-### New backlog items
+### Backlog items
 
  ```
    → Backlog item: add audio to start page.
@@ -287,7 +287,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <td><img src="/Logo/user_sally.jpg" width=45%>
  <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
- <td>N/A.</td>
+ <td>N/A</td>
  <td>Paper prototype video</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me see my friends and family members. The paper prototype video is clear and easy to follow, and I think having different levels of difficulty would be really good as I'd quite like to challenge myself, but I was hoping there would be a leaderboard so I know how well I'm doing.</td>
 </tr>
@@ -315,7 +315,6 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 During this sprint, our focus was to get started on the front-end of the MEAN stack. This was because we wanted to have something to show our users as earlier as possible to obtain feedback which we could then use to influence changes and refinements of the product design. The backlog of items implemented from the previous sprint, such as creating stakeholder stories and a paper prototype were crucial to make sure that we were adopting the agile framework, putting the end-user first and adapting the product according to their feedback. We felt that this should always be at the forefront of all sprints, and we recognised that our product manager and sponsor proto-personas would as help inform our design and development process.
 
 At this stage we would have benefited from focusing on producing a minimum viable product (MVP) as soon as reasonably possible. Whilst we were aware of the importance of this, we didn't agree on a particular point in the development lifecycle to deploy our MVP. On reflection, this would have been sensible because then we could have prioritised the deployment of a MVP which could then be modified and improved upon.
-
 
 
 
@@ -350,7 +349,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
    * Documentation underway with a focus on background research and UX design.
 
 
-### New backlog items
+### Backlog items
 
 ```
   → Backlog item: continue researching video chat APIs.
@@ -393,7 +392,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 <br>Simon </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
 <td>N/A</td>
 <td>Create and circulate questionnaire regarding UI wireframe/Relational diagram -> UML diagram.</td>
-<td>This start page is really good, well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data).</td>
+<td>This start page is really good - well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data).</td>
 </tr>
 <tr>
  <td><img src="/Logo/user_simon.jpg" width=45%>
@@ -426,7 +425,7 @@ For this sprint, we prioritised the creation of a UI wireframe and obtaining fee
 </tr>
 <tr>
   <td>Back-End</td>
-  <td>Check api path .</td>
+  <td>Check api path.</td>
   <td>Developers are able to report the correct error message when there is a request on underfined path</td>
   <td>Request on invalid url path.</td>
   <td>Catch all routes at the end of the file for each routes (`/api/games/xxx` or /api/users/xxx`) and return the status code `404</td>
@@ -563,7 +562,7 @@ Another major aim for this sprint was to implement basic features such user logi
 <tr>
   <td>Back-End</td>
   <td>Check user authentication.</td>
-  <td>Developers are able to prevent unauthorised access from the frontend (request with no valid token) .</td>
+  <td>Developers are able to prevent unauthorised access from the frontend (request with no valid token).</td>
   <td>Duplicate codes exist on checking if token valid for every query.</td>
   <td>Create a `middleware.js` as a middleware which can be executed to check the token before each function.</td>
 </tr>
@@ -711,11 +710,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 ### Evaluation of Sprint
 
 
-The major aim of this sprint was to obtain user feedback on the newly added features of multiplayer and video chat. This gave us a really good insight into what our users felt about the features. One thing that we didn't do at this point which we would have benefited from was to add instructions on how the multiplayer and video chat worked. These instructions could have been contained within a pop up or in our demo video.
-
-We also wanted to get a basic version of a leaderboard working so that we could incorporate that into our scoring system. This was important because a large part of our game design was based around rules-based gameplay which challenged the end-users and motivated them to participate and compete.
-
-At this stage, once again, we would have benefited from agreeing on a deadline to get a MVP out to our stakeholders. This is because we really would have benefited from receiving feedback on our application when it was fully integrated, so we could make design and implementation changes to our product which helped our stakeholders.
+The major aim of this sprint was to obtain user feedback on the newly added features of multiplayer and video chat. This gave us a really good insight into what our users felt about the features. One thing that we didn't do at this point which we would have benefited from was to add instructions on how the multiplayer and video chat worked. These instructions could have been contained within a pop up or in our demo video. We also wanted to get a basic version of a leaderboard working so that we could incorporate that into our scoring system. This was important because a large part of our game design was based around rules-based gameplay which challenged the end-users and motivated them to participate and compete. At this stage, once again, we would have benefited from agreeing on a deadline to get a MVP out to our stakeholders. This is because we really would have benefited from receiving feedback on our application when it was fully integrated, so we could make design and implementation changes to our product which helped our stakeholders.
 
 
 
@@ -888,7 +883,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
  <br>Sally </a> <br /> As a user, I want to see my profile on different sized screens.</td>
  <td>Page responsivity</td>
  <td>Make pages of application responsive, including mobile responsive</td>
- <td>Now I can see my profile page on my tablet. Fantastic! This is very convenient for me because I am more familiar with my tablet.</td>
+ <td>Now I can see my profile page and the leaderboard on my tablet and smartphone. Fantastic! This is very convenient for me because I am more familiar with these devices.</td>
 </tr>
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
@@ -922,17 +917,17 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 </tr>
 <tr>
   <td>Front-End</td>
-  <td>Stakeholders are able to see the start page.</td>
-  <td>Insert here</td>
-  <td>Insert solution here and future implementations.</td>
+  <td>Make pages of application responsive, including mobile responsive</td>
+  <td>As a user, I want to see my profile on different sized screens</td>
+  <td>It was not possible to make the Jitsi video chat mobile responsive.</td>
+  <td>To prevent any issues with players using the video chat, we set the games to be only available on PC. If the user attempts to play the games on a mobile device they will not be able to since the game choice buttons will not appear for smaller screens (less than 1440px in width).</td>
 </tr>
 </table>
 
 ### Evaluation of Sprint
 
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
+This was our penultimate sprint. By this point we had to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. And the team member who built the memory game was not the team member whose task it was to implement the multiplayer and video chat functionality. We also agreed to make the pages of application responsive, including mobile responsive, complete evaluation of design to report, conduct unit testing, and complete an introduction demo video. These remaining tasks were very important.
 
-It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
 
 ## Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)
@@ -976,9 +971,9 @@ By this point, we had a high workload. This meant it was difficult to dedicate e
 
 ## Team use of Git
 
-One of the most important tools we used during this project was GitHub. Github is an open-source distributed version control system for building software and sharing code - a version control system for managing source code. It proved indispensable throughout the development since it stored a complete history of our project. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
+One of the most important tools we used during this project was GitHub. Github is an open-source distributed version control system for building software and sharing code. It proved indispensable throughout the development as it stored a complete history of our project, providing a version control system for managing our source code. It was important, however, that we used the platform in a structured and rational way. With this in mind, we decided to draw up guidelines on how to the team would use it. This was essential because it meant that we were able to push progress onto the repository where everyone from the team could access it and commit further changes.
 
-After setting up GitHub, we realised it was important to utilise the branch-based workflow of the platform. As such, we created a number of different branches, 12 in total. Each branch was given a unique name and contained a unique set of code and documentation changes. This was to make sure that every team member had a specific feature to work on, and diverge from the main line of development.
+After setting up GitHub, we realised it was important make small, frequent commits with meaningful names, and utilise the branch-based workflow of the platform to avoid merge conflicts. As such, we created a number of different branches, 12 in total. Each branch was given a unique name and contained a unique set of code and documentation changes. This was to make sure that every team member had a specific feature to work on, and diverge from the main line of development.
 
 <div align="center">
 
@@ -1020,7 +1015,7 @@ There were also real conflicts, as depicted below:
 
 </div>
 
-We dealt this by fixing all conflicts manually before making a commit. This then creates a merge commit which is a commit with more than one parent. We demonstrate this process in the diagram below. In the diagram there is a project with commit a and b, and then someone made change x and someone else made change y, and then someone perfromed a merge commit to resolve the conflict. And the head pointer points at the latest version of the repository, namely 'merge' which depends on x and y. So, when dealing with an actual conflict we would perform a merge commit.
+We dealt this by fixing all conflicts manually before making a commit. This then creates a merge commit which is a commit with more than one parent. We demonstrate this process in the diagram below. In the diagram there is a project with commit a and b, and then someone made change x and someone else made change y, and then someone performed a merge commit to resolve the conflict. And the head pointer points at the latest version of the repository, namely 'merge' which depends on x and y. So, when dealing with an actual conflict we would perform a merge commit.
 
 <div align="center">
 

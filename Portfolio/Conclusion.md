@@ -169,7 +169,7 @@ We now turn to a discussion of the impact of Covid-19. In this section we will g
 
 ### How Covid-19 affected our project
 
-The outbreak of COVID-19 in March, and the subsequent lockdowns running up to the end of April affected each us in many ways. It is to this topic we now turn our attention. In particular, we will cover the main ways in which the pandemic affected our project.
+The outbreak of COVID-19 in March, and the subsequent lockdowns running up to the end of April affected each us in many ways. It is to this topic we now turn our attention. In particular, we will cover how the pandemic affected our project and our working practices.
 
 The first major impact was communication. Specifically, Covid-19 prevented us from meeting in person. As a result, we were reliant on communication platforms to not only talk about the project but work collaboratively on the coding and documentation side of things. The other issue we faced during this time was the stress component of the pandemic. Not only did we feel increased levels of stress due to the existential threat of the virus, but we also found that the MSc conversion was especially challenging given we had no face-to-face interactions with tutors, TAs or fellow students in the second term.
 
@@ -177,7 +177,7 @@ In relation to our group project, we feel that the pandemic hindered our progres
 
 To look at this from an alternate perspective however, it could be suggested that the compulsory use of virtual communication has had a positive impact on the project. Having the group chat for our team on Microsoft Teams meant that we always had a line of communication open between us. This enabled the instantaneous sharing of ideas or requests for feedback. If we were predominantly communicating during lab time, this bouncing of ideas and feedback may have been less consistent and time may have been spent developing the application in a direction that may not have been desired by all group members.
 
-At the outset of the project, it was suggested that we work in teams of five. We initially formed a group of five, however a member left to join another group. We struggled to find another member to fill up our group and we feel that if we had been on campus for the group assignment stage of this module, that we may have been able to find a fifth member more easily, or at least discuss re-arranging group numbers with other groups that did not have five members. Despite this, although we believe that the workload undertaken posed us more of a challenge in terms of time required to deliver the project, the group dynamic we fostered was perfect for delivering the application, and having a fifth member could ultimately have negatively impacted this. 
+At the outset of the project, it was suggested that we work in teams of five. We initially formed a group of five, however a member left to join another group. We struggled to find another member to fill up our group and we feel that if we had been on campus for the group assignment stage of this module, that we may have been able to find a fifth member more easily, or at least discuss re-arranging group numbers with other groups that did not have five members. Despite this, although we believe that the workload undertaken posed us more of a challenge in terms of time required to deliver the project, the group dynamic we fostered was perfect for delivering the application, and having a fifth member could ultimately have negatively impacted this.
 
 ## Social and ethical implications
 
@@ -220,6 +220,8 @@ Despite all of this, there are certainly limitations with our product. For insta
 
 For example, a brute-force attack to guess a user password and a simple account suspension on the third incorrect entry of the password. A secure-sockets-layer (SSL) encryption to ensure data transferred between devices is encrypted and secure would have established greater data security. These nontrivial features would bolster the security of the app and make it a better candidate for future use in data gathering, which is important given the significance of privacy and security concerns in the uptake of mobile health technologies [[**5**]](#references). Maybe this is a little over the top though for our purposes. But regardless, we can discuss this added security as a potential feature were we to scale up this project.
 
+We are aware that if we were to develop our product beyond this point, we would need to conduct more qualitative research, including obtaining end-user testimonials, organising interviews, observations and questionnaires. These forms of qualitative research would present a number of challenges regarding data protection and would require us to apply for ethical approval.
+
 ## Future work
 
 There is, we feel, a lot of scope for adding to and extending the features of our product. In particular, there
@@ -253,9 +255,9 @@ Another extension concerns adding an 'invite friends to play' feature.
 
 ### Adding a challenge and achievement system
 
-To further encourage users to engage with the application, we could explore adding an additional layer of competition to the application that would be more suited to when the users have already begun engaging and building up a network of friends on the platform. The first idea could be to introduce a challenge-based system. For example, you could challenge your friend to a "best-of-five" challenge on Connect Four. This could then be recorded on the user's profile page as a medal of sorts. This could also be devloped into individual challenges, for example "win ten games of Connect Four in one week". This could encourage users to play more games outside of their virtual friend network and in turn meet more people and potential friends, helping to further tackle the issue of isolation.
+To further encourage users to engage with the application, we could explore adding an additional layer of competition to the application that would be more suited to when the users have already begun engaging and building up a network of friends on the platform. The first idea could be to introduce a challenge-based system. For example, you could challenge your friend to a "best-of-five" challenge on Connect Four. This could then be recorded on the user's profile page as a medal of sorts. This could also be developed into individual challenges, for example "win ten games of Connect Four in one week". This could encourage users to play more games outside of their virtual friend network and in turn meet more people and potential friends, helping to further tackle the issue of isolation.
 
-We could then extend this to developing an achievement-based system. This wouldn't need to just be win-based and it could include achievements such as "played 50 games of Connect Four in one month" or "won five games of Connect Four in a row". Again, this could help to provide a source of extrinsic motivation for using the application and helping our users to engage with each other more. 
+We could then extend this to developing an achievement-based system. This wouldn't need to just be win-based and it could include achievements such as "played 50 games of Connect Four in one month" or "won five games of Connect Four in a row". Again, this could help to provide a source of extrinsic motivation for using the application and helping our users to engage with each other more.
 
 ### Adding better instructions
 
@@ -263,24 +265,17 @@ A further extension concerns adding more detailed instructions to the applicatio
 
 Potential means of delivering these instructions include written instructions, video instructions or a more developmentally time-intensive, but more comprehensive method, the development of interactive demo instructions. For example, encouraging the individual using the application to navigate the page in real-time, further reinforcing what the instructions have told them. This would serve further purpose in allowing the user to refresh their mind on how to use the application, which may be of particular importance in users that may suffer with memory-loss issues.
 
-- *ADD MORE IDEAS* -
 
 ### Expansion of front-end and back-end testing
 
 Our app could also be improved via the expansion of our front-end functional testing. Currently you can see the outline of our testing for the front-end below. Whilst this covers a good range of the components on our app we have not been able to test the individual game components thoroughly. It would be nice to expand on this for further robustness prior to release.
 
-
 ## Impact of our work
-
 There are several ways our work will have an impact...
 
 One potential impact of our work concerns its application in research on loneliness and isolation in the elderly population. In particular, our product could be used to garner data on the affect playing our application could have on individuals who self-report as lonely and isolated. Although we lacked the time and resources to conduct research, one potential future area of work which our product could be applied to is research on loneliness and isolation in the elderly. Specifically researchers could conduct a small-scale study in which users' self-reported levels of loneliness and isolation are measured over a set period of time. As Alan (1999) points out, this type of hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. One future use of our application, therefore, could involve assessing the affects of our product on subjective feelings of loneliness in older adults. This is an area of research which our product could have been put to good use. The ubiquity of computers and smartphones and the self-centric orientation of their technologies capable of connecting individuals from across the globe indicates that multiplayer games with video functionality could play an important role in future research on loneliness in older adults.
 
-
 Building upon contemporary gaming platforms, we believe that this project pushes the field forward and provides a promising point of departure for future applications for older adults.
-
-
-
 
 
 ## References
