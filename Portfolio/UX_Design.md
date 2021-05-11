@@ -419,7 +419,11 @@ These main interactions with the various parts of our system can be depicted in 
 
 </div>
 
-In the above interaction flow diagram you can see our three main stakeholders. The product manager represents our product and on either side of him you have the end-user and the sponsor. Their main interactions with the product are included, such as creating an account, playing games, viewing game history and tracking user engagement. 
+In the above interaction flow diagram you can see our three main stakeholders. The product manager represents our product and on either side of him you have the end-user and the sponsor. Their main interactions with the product are included, such as creating an account, playing games, viewing game history and tracking user engagement. In addition to this, we have a flowchart which shows the steps our end-users will go through when using our product:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
+
+Taken together, these interaction flow diagrams and the front-end flowchart capture the main steps the user will go through when using our product. 
 
 ## References
 

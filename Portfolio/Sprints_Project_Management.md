@@ -923,7 +923,7 @@ This was our penultimate sprint. By this point we had to focus on adding video c
 ## Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)
 ___
 
-The aim of this sprint was to finish the write up for our project report. Although our report, by this stage, was fairly thorough and well-documented, we still had a lot to write up, particularly on the system implementation, evaluation of design and conclusion. We agreed to allocate subsections to different team members so that the workload was distributed evenly.
+The aim of this sprint was to finish the write up for our project report. Although our report, by this stage, was fairly thorough and well-documented, we still had a lot to write up, particularly on the system implementation, evaluation of design, and conclusion. We agreed to allocate subsections to different team members so that the workload was distributed evenly.
 
 We also had to complete unit testing on our code, finalise the introduction demo video, implement multiplayer functionality for the memory game.
 
