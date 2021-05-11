@@ -809,17 +809,18 @@ It was clear, however, that our workload in the other units of term was getting 
 ## Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
-This was our penultimate sprint. By this point we had to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. And the team member who built the memory game was not the team member whose task it was to implement the multiplayer and video chat functionality. We also agreed to make the pages of application responsive, including mobile responsive, complete evaluation of design to report, conduct unit testing, and complete an introduction demo video. These remaining tasks were very important.
+This was our penultimate sprint. By this point we had to finalise our API. We also aimed to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. We agreed to make the pages of application responsive, including mobile responsive, complete the evaluation of our design in our report, conduct unit testing, and complete an introduction demo video. These remaining tasks were all very important to ensure our product was working properly prior to release.
 
 ### Key points
 
-   * Add video chat to memory game.
+   * Build API using express framework and node.js.
    * Create test accounts and test both backend and frontend work correctly.
    * Add multiplayer functionality to memory game.
    * Make pages of application responsive, including mobile responsive.
    * Complete evaluation of design to report.
    * Conduct unit testing.
    * Complete introduction demo video.
+   * Add video chat to memory game.
 
 **Attendees:** Chris known absence.
 
