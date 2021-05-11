@@ -113,9 +113,7 @@ The team was also excellent on a human level. No-one ever felt outcast and every
 
 ## Reflection of success of project
 
-There have been many successes throughout the duration of this unit. One of the first hurdles we faced as a team was that we started the project one team member down. That is, instead of having five team members, as was intended, we had four. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. Secondly, this meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. The way we dealt with being one team member down was arguably a success, since we did not dwell on the fact but simply moved forward with a positive mindset, aware of how much we could achieve if we remained focused and goal-oriented.
-
-With this in mind, we feel proud of how far we have come. In particular, we feel proud of how we have worked as a team to produce a working prototype based on an idea which arose during the ideation phase. As a team, we have managed to work well together, making sure to keep in contact every day, and to follow a structured approach to the completion of sprints.
+There have been many successes throughout the duration of this unit. One of the first hurdles we faced as a team was that one team member left our team at the beginning of the project. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. Secondly, this meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. The way we dealt with being one team member down was a success, since we did not dwell on the fact but simply moved forward with a positive mindset, aware of how much we could achieve if we remained focused and goal-oriented. With this in mind, we feel proud of how far we have come. In particular, we feel proud of how we have worked as a team to produce a working prototype based on an idea which arose during the ideation phase. We managed to work well together, making sure to keep in contact every day, following a structured approach. In retrospect, losing one team member gave us the motivation to work really hard and pull together to develop our product. In this sense it may have even helped spur us on.
 
 We also feel that we successfully designated roles to each team member, which we maintained throughout the project.
 
@@ -224,7 +222,7 @@ We are aware that if we were to develop our product beyond this point, we would 
 
 ## Future work
 
-There is, we feel, a lot of scope for adding to and extending the features of our product. In particular, there
+There is, we feel, a lot of scope to add to and extend the features of our product. In particular, there
 
 - *ADD MORE IDEAS/FLESH OUT THE IDEAS BELOW* -
 
@@ -246,7 +244,7 @@ With the application functioning like this, if a player leaves the page and rejo
 
 ### Difficulty level
 
-It’s important for the end=users to find games that are challenging but not so difficult that they don't want to play. If you’re looking for brain games for a loved one who has been diagnosed with Alzheimer’s disease, for instance, you’ll want to choose brain exercises and games that aren’t impossible to complete at their current cognitive level. Start slowly with some beginner puzzles and gradually progress to harder puzzles for more challenging problem-solving tasks. With the memory game, we could have added a difficulty level feature which enables the player to choose the number of cards to play with, where a lower number of cards is easier than a higher number. As it currently stands, the default is 20 cards. On reflection, this number is very challenging and would likely be too difficult for our end-users.
+Another unit of functionality our application would benefit from is difficulty level feature. It’s important for the end-users to find games that are challenging but not so difficult that they don't want to play. If you’re looking for brain games for a loved one who has been diagnosed with Alzheimer’s disease, for instance, you’ll want to choose brain exercises and games that are appropriate for their cognitive level. With the memory game, we could have added a difficulty level feature which enables the player to choose the number of cards to play with, where a lower number of cards would be easy, and so on. As it currently stands, the default is 20 cards. On reflection, this is a very large number of cards, which is in fact very challenging and would likely be too difficult for our end-users. With connect four, a timer could be added to put pressure on the users to complete the game within a specified time limit, in much the same way blitz chess challenges players to think and strategise more quickly than they would otherwise do.
 
 ### Invite friends to play
 
