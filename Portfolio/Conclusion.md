@@ -144,8 +144,8 @@ With this objective, it is fair to say that we were successful. To demonstrate t
 
 * **(M) MongoDB** - MongoDB was used as persistent data storage for user account information and game record data (rankings, win/loss data etc.)
 * **(E) Express** - Express was used to provide a thin layer on top of NodeJS to enable communication between the front end and back end, i.e. routing, middleware and static file serving
-* **(A) Angular** - 
-* **(N) NodeJS** - 
+* **(A) Angular** - Angular was used to build the components that formed the front end of our application
+* **(N) NodeJS** - NodeJS was used to implement the backend of our application in the form of our API and the multiplayer functionality of the games
 
 With regards to the responsiveness of the application however...
 
