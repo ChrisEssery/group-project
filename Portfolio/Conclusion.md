@@ -140,7 +140,12 @@ To reflect on whether our project objectives were met, let's turn to the objecti
 
   * ***Build and deploy a responsive SPA using the MEAN stack, as per the project brief.***
 
-With this objective, it is fair to say that we were successful.
+With this objective, it is fair to say that we were successful. To demonstrate this, we will cover each of the services that form part of the MEAN stack:
+
+* **(M) MongoDB** - 
+* **(E) Express** - 
+* **(A) Angular** - 
+* **(N) NodeJS** - 
 
 
   * ***Implement a login, leaderboard and two board games with multiplayer functionality and video chat.***
