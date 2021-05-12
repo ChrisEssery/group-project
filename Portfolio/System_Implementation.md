@@ -692,9 +692,93 @@ Angular is great for getting creating a professional UI in very little time. The
 
 ### Details of Implementation
 
-
-Frontend class diagram:
+### Frontend class diagram:
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
+
+As shown in this class diagram, ...
+
+
+### Routing
+
+Here is the flowchart of our frontend navigation:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
+
+To handle the navigation from one view to the next, we used the Angular Router. The Router enables navigation by interpreting a browser URL as an instruction to change the view. This can be seen below:
+```javascript
+const routes: Routes = [
+  {
+    path: '',
+    component: StartPageComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'signup',
+    component: SignupComponent
+  },
+  {
+    path: 'home',
+    component: HomePageComponent,
+    canActivate: [AuthGuard], //Prevent unauthorized access
+    children: [
+      {
+        path: '',
+        component: GameMenuComponent //redirect to game menu page by default with path /home
+      },
+      {
+        path: 'profile', // subpath : /home/profile
+        component: ProfileComponent
+      },
+      {
+        path: 'leaderboard',
+        component: LeaderboardComponent
+      }
+    ]
+  },
+  { path: 'connect4',redirectTo: '/connect4start', pathMatch: 'full'},
+  { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},
+  { path: 'connect4_gameplay', component: ConnectFourContainerComponent, canActivate: [AuthGuard]},
+  { path: "memorygame", redirectTo: "/start", pathMatch: "full" },
+  { path: "start", component: StartComponent,canActivate: [AuthGuard]},
+  { path: 'gameplay', component: GameplayComponent ,canActivate: [AuthGuard]},
+  { path: 'ranking', component: RankingComponent,canActivate: [AuthGuard]}
+];
+```
+### User Authentication
+
+We followed the below structure (credit: bezkoder) to implement the authentication process in Angular:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth.png)
+
+**Features**
+- Tokens are stored in the session storage, which can be called from the localTokenStorage service
+- Tokens are generated from the login/sign up process
+- Using Angular Route Guard For securing routes
+
+We tried to block the routes from loading based on some permissions or blocking a route based if not authenticated
+```javascript
+    path: 'home',
+    component: HomePageComponent,
+    canActivate: [AuthGuard], //Prevent unauthorized access
+    children: [
+      {
+        path: '',
+        component: GameMenuComponent //redirect to game menu page by default with path /home
+      },
+      {
+        path: 'profile', // subpath : /home/profile
+        component: ProfileComponent
+      },
+      {
+        path: 'leaderboard',
+        component: LeaderboardComponent
+      }
+```
+
+
 
 Frontend flowchart:
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
