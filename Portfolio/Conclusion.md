@@ -147,7 +147,7 @@ With this objective, it is fair to say that we were successful. To demonstrate t
 * **(A) Angular** - Angular was used to build the components that formed the front end of our application
 * **(N) NodeJS** - NodeJS was used to implement the backend of our application in the form of our API and the multiplayer functionality of the games
 
-With regards to the responsiveness of the application however...
+Generally speaking, we consider our SPA to be responsive. The application scales well across a multitude of devices and screen sizes. We are aware however, that the responsiveness of the games could be improved.
 
 * ***Implement a login, leaderboard and two board games with multiplayer functionality and video chat.***
 
