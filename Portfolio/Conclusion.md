@@ -145,7 +145,7 @@ With this objective, it is fair to say that we were successful.
 
   * ***Implement a login, leaderboard and two board games with multiplayer functionality and video chat.***
 
-With this objective, we.
+With this objective, we can consider it to have been completely fulfilled. We successfully implemented all of the above functionality and compounded it to form the MVP for our application. 
 
   * ***Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.***
 
