@@ -267,6 +267,10 @@ Case User Log in:
 
 ### User Authentication
 
+- Check user credentials
+
+
+
 - Interface authentication: Uniform use of Token authentication (based on JSON Web Token)
 
 Tokens are generated when users login/signup and will be send back to the client
