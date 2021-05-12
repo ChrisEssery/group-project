@@ -143,7 +143,7 @@ To reflect on whether our project objectives were met, let's turn to the objecti
 With this objective, it is fair to say that we were successful. To demonstrate this, we will cover each of the services that form part of the MEAN stack and how we used them:
 
 * **(M) MongoDB** - MongoDB was used as persistent data storage for user account information and game record data (rankings, win/loss data etc.)
-* **(E) Express** - 
+* **(E) Express** - Express was used to provide a thin layer on top of NodeJS to enable communication between the front end and back end, i.e. routing, middleware and static file serving
 * **(A) Angular** - 
 * **(N) NodeJS** - 
 
