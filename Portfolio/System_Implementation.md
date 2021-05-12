@@ -236,6 +236,7 @@ We now give a detailed overview of the API implementation, beginning with the AP
 | 422         | Unprocesable entity [POST/PUT/PATCH] | A validation error occurred while creating an object         |
 | 500         | INTERNAL SERVER ERROR                |                                                              |
 
+
 ### Error Handling
 When an error occurs, the returned HTTP Status Code is 4xx error, such as `400,403,404`. And an error message will be returned to indicate the problem.
 
@@ -255,7 +256,7 @@ returned data:
 
 ### API Request & Response data are set in a uniform format using JSON
 
-**Overview**
+**Request Overview**
 
 - [x] [User Register](#User-Register)
 - [x] [User Log in](#User-Log-In)
@@ -296,7 +297,6 @@ returned data:
     "user": "aaa"
 }
 ```
-
 
 
 #### User Log In
@@ -608,7 +608,7 @@ returned data:
 
 ## User Authentication
 
-### Backend
+### User Authentication in the Backend
 
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png">
@@ -631,7 +631,7 @@ To prevent the unauthorized access from the frontend, we implemented the interfa
 ```
 2. Interfaces that require authorization must provide the request header field X-Access-Token information
 
-To implement that, we created a [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js) to check the token validity before handling the requests in the server. In the `middleware.js` file, we checked if the request contains a valid `X-Access-Token` which can be seen below:
+To implement that, we created a [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js) to check the token validity before handling the requests in the server, which can be seen below:
 
 ```javascript
 exports.check_api_token = (req, res, next) => {
@@ -680,17 +680,19 @@ Case: User Log in:
 ```
 
 
-### Frontend
+### User Authentication in the Frontend
 
-To implement user authentication with Angular in the frontend, we followed the following struture(credit: bezkoder):
+To implement user authentication with Angular in the frontend, we referred to the following struture(credit: bezkoder):
 
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth.png">
 </p>
 <b><p align= "center">Figure : User Authentication with Router and HttpInterceptor (credit: bezkoder)</p></b>
 
+To introduce the detailed features of how we implement user authentication in the frontend, we'll start with the user registration and login process:
 
-### User registration and user login 
+#### User registration and user login 
+
 The [`Login`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/login-page) & [`Register`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/signup-page) components have forms for submission data (with support of Form Validation). Then, they use [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) which uses Angular `HttpClient` ($http service) for sending signin/signup requests (shown below).
 
 ```javascript
@@ -712,7 +714,7 @@ export class AuthService {
   }
 }
 ```
-Here are the flowcharts for user registration and user login:
+With the functions provided in [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts), the client is able to communicate with the backend as shown below:
 
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/sign%20up.png">
@@ -723,7 +725,7 @@ Here are the flowcharts for user registration and user login:
 </p>
 <b><p align= "center">Figure : User Log In Sequence Diagram</p></b>
 
-As we can see from the diagrams, the token (JWT) will be generated and returned with every successful login/signup request which will then be needed as a passport for further requests on protected resources. Therefore, the token will be saved to the **Browser Session Storage** with the use of `token-storage.service`
+As we can see, the token (JWT) will be generated and returned with every successful login/signup request which will then be needed as a passport for further requests on protected resources. Therefore, the token will be saved to the Browser Session Storage with the use of `token-storage.service`
 
 #### Use token-storage.service to save the token and username to or get the token and username from the Browser Session Storage
 The [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts) is an Angular injectable service file which can save the token and username to or get the token and username from the `Browser Session Storage`. This includes the following functions:
