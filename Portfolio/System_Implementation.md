@@ -209,7 +209,11 @@ We now give a detailed overview of the API implementation, beginning with the AP
 
 **Here is a flowchart of how our api will handle a request**
 
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png)
+<p align="center">
+<img src="(https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png">
+</p>
+<b><p align= "center">Figure : api flowchart </p></b>
+
 
 **[api.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/api.js)** catches all api routes and sends the requests based on the request data type (game or user) to the corresponding router file (games.js and users.js)
 
@@ -611,7 +615,7 @@ returned data:
 ### User Authentication in the Backend
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth%20angular.png">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png">
 </p>
 <b><p align= "center">Figure : user authentication process to deal with a request (backend) </p></b>
 
@@ -685,7 +689,7 @@ Case: User Log in:
 To implement user authentication with Angular in the frontend, we referred to the following struture(credit: bezkoder):
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth.png">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth%20angular.png">
 </p>
 <b><p align= "center">Figure : User Authentication with Router and HttpInterceptor (credit: bezkoder)</p></b>
 
