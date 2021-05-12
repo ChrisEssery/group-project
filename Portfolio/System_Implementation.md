@@ -78,7 +78,7 @@ Sever side we have the business logic, persistent data storage and authenticatio
 
 </div>
 
-How do we conenct these two? We send requests and responses. These are called AJAX (Background) requests and responses. We get JSON formatted data from this.
+How do we connect these two? We send requests and responses. These are called AJAX (Background) requests and responses. We get JSON formatted data from this.
 
 This is the big picture view of the MEAN stack. Now, let's turn to class and sequence diagrams.
 
@@ -87,6 +87,7 @@ This is the big picture view of the MEAN stack. Now, let's turn to class and seq
 
 ### Sequence diagrams
 
+With this information in mind, we will turn our attention to the back-end of the stack and provide a detailed overview of its implementation.
 
 ## Back end
 
@@ -163,13 +164,15 @@ var Game = new Schema({
     }],
     difficultyLevel: {type: String}, // not required
   });
-  
+
   module.exports = mongoose.model('Game', Game);
 ```
 
+Having gone over the database implementation, we move to the middle tier of our system.
+
 ## Middle tier
 
-Now, turning to the middle tier, we have Express, Node.js and RESTful API.
+Turning to the middle tier, we have Express, Node.js and RESTful API.
 
 
 <div align="center">
@@ -194,6 +197,8 @@ Express is a Node.js framework which simplifies writing server-side logic. It is
 RESTful API makes it easy to decouple the backend code from the front end so that it can be used across multiple applications/platforms. To build a RESTful API, we use Node.js as our backend language, express.js to create routes easier and middlewares, and mongodb together with mongoose to create schemas and models and store the data.
 
 ### Details of Implementation
+
+We now give a detailed overview of the API implementation, beginning with the API work flow.
 
 ### API Work Flow
 
@@ -275,9 +280,9 @@ Case User Log in:
 
 Tokens are generated when users login/signup and will be send back to the client
 ```javascript
-    
+
     const token = jwt.encode({
-    iss: body.id, 
+    iss: body.id,
     exp: moment().add( 7, 'days').valueOf()}, 'secret')
     delete body.password
     res.status(201).json({
@@ -291,7 +296,7 @@ Tokens are generated when users login/signup and will be send back to the client
 
 ```javascript
 exports.check_api_token = (req, res, next) => {
-    const token = req.get('x-access-token') 
+    const token = req.get('x-access-token')
     //check if the request contains a X-Access-Token
     if (!token) {
       return res.status(401).json({
@@ -673,7 +678,7 @@ exports.check_api_token = (req, res, next) => {
 }
 ```
 
-
+We now turn our attention to the front-end of our application.
 
 ## Front end
 
@@ -685,18 +690,117 @@ For the front end, we decided to use Angular.
 
 </div>
 
-Angular is a client-side framework which is really effective at building SPAs. This is because it simultaneously renders UI with dynamic data, handles user input and communicates with the services in the back end. This, in many ways, creates an expreience similar to that of a mobile app.
+Angular is a client-side framework which is really effective at building SPAs. This is because it simultaneously renders UI with dynamic data, handles user input and communicates with the services in the back end. This, in many ways, creates an experience similar to that of a mobile app.
 
-Angular is great for getting creating a professional UI in very little time. The tree of angular components are really useful for several reasons. First, it's easily maintainable. Second, readability is improved. Third, reusability.
+Angular is great for getting creating a professional UI in very little time. The tree of angular components are really useful for several reasons. First, it's easily maintainable. Second, readability is improved. Third, reusability. The details of our front-end implementation now follow.
 
 
 ### Details of Implementation
 
-
-Frontend class diagram:
+<<<<<<< Updated upstream
+### Frontend class diagram:
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
 
+=======
+<<<<<<< HEAD
+Below is an image of the front-end class diagram:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
+
+And below is the front-end flowchart:
+
+=======
+### Frontend class diagram:
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
+
+>>>>>>> Stashed changes
+As shown in this class diagram, ...
+
+
+### Routing
+
+Here is the flowchart of our frontend navigation:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
+
+To handle the navigation from one view to the next, we used the Angular Router. The Router enables navigation by interpreting a browser URL as an instruction to change the view. This can be seen below:
+```javascript
+const routes: Routes = [
+  {
+    path: '',
+    component: StartPageComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'signup',
+    component: SignupComponent
+  },
+  {
+    path: 'home',
+    component: HomePageComponent,
+    canActivate: [AuthGuard], //Prevent unauthorized access
+    children: [
+      {
+        path: '',
+        component: GameMenuComponent //redirect to game menu page by default with path /home
+      },
+      {
+        path: 'profile', // subpath : /home/profile
+        component: ProfileComponent
+      },
+      {
+        path: 'leaderboard',
+        component: LeaderboardComponent
+      }
+    ]
+  },
+  { path: 'connect4',redirectTo: '/connect4start', pathMatch: 'full'},
+  { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},
+  { path: 'connect4_gameplay', component: ConnectFourContainerComponent, canActivate: [AuthGuard]},
+  { path: "memorygame", redirectTo: "/start", pathMatch: "full" },
+  { path: "start", component: StartComponent,canActivate: [AuthGuard]},
+  { path: 'gameplay', component: GameplayComponent ,canActivate: [AuthGuard]},
+  { path: 'ranking', component: RankingComponent,canActivate: [AuthGuard]}
+];
+```
+### User Authentication
+
+We followed the below structure (credit: bezkoder) to implement the authentication process in Angular:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth.png)
+
+**Features**
+- Tokens are stored in the session storage, which can be called from the localTokenStorage service
+- Tokens are generated from the login/sign up process
+- Using Angular Route Guard For securing routes
+
+We tried to block the routes from loading based on some permissions or blocking a route based if not authenticated
+```javascript
+    path: 'home',
+    component: HomePageComponent,
+    canActivate: [AuthGuard], //Prevent unauthorized access
+    children: [
+      {
+        path: '',
+        component: GameMenuComponent //redirect to game menu page by default with path /home
+      },
+      {
+        path: 'profile', // subpath : /home/profile
+        component: ProfileComponent
+      },
+      {
+        path: 'leaderboard',
+        component: LeaderboardComponent
+      }
+```
+
+
+
 Frontend flowchart:
+>>>>>>> f541592e6a4e82b8b952aca621bdbddef7881200
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
 
 

@@ -199,7 +199,7 @@ Now, let's turn to the weekly sprints.
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. One of the first things we did during this sprint was to get setup on Github. We tried to develop our understanding of the basic operations of GitHub, including the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). We added to the readme in our repository, and starting on documentation. With regards to communication, we agreed on the main channels of communication, namely Microsoft Teams and Discord. We also decided to create stakeholder stories, including user stories, to help guide us during the development. We agreed to build a start page for our application, and finalised our decision to build a online multiplayer game plaform for the elderly with video chat. In addition to this, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. With regards to communication, we agreed on the main channels of communication, namely Microsoft Teams and Discord. We also decided to create stakeholder stories, including user stories, to help guide us during the development. We also made progress on our repository on Github. We tried to build on our understanding of the basic operations of GitHub, including merge conflicts, fast-forwards, and the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). We added sections to our readme and made progress with our documentation. We agreed to build a start page for our application, and finalised our decision to build a online multiplayer game plaform for the elderly with video chat. In addition to this, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
 
 ### Key points
 
@@ -442,9 +442,7 @@ We felt we were able to do a lot of work during this sprint. Having a start page
 ## Sprints paused : complete backlog items and other work commitments (22.03.21-05.04.21)
 ___
 
-By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which was taking up a lot of our time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items.
-
-Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
+By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which was challenging and took up most of our available time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items. Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
 
 
 
@@ -453,9 +451,7 @@ Another important aspect of this 'pause' was that it enabled us to get stuck int
 ___
 
 
-This was the first sprint after pausing our sprints for two weeks. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to make sure our application. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people.
-
-Another major aim for this sprint was to implement basic features such user login, signup, logout, get user information, get friendlist, and add friend. And to test on it.
+This was the first sprint following the two week pause to our sprints. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to add multiplayer functionality, video chat and start building the back-end of our system. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people. Another major aim for this sprint was to implement basic features such user login, signup, logout, get user information, get friend list, and add friend. And to test on all of those features.
 
 ### Key points
 
@@ -587,9 +583,7 @@ Another major aim for this sprint was to implement basic features such user logi
 ### Evaluation of Sprint
 
 
-Following our two week break from Agile sprints, we felt better placed to tackle our fourth sprint. At this stage, we had covered a lot of ground with regards to the UI and UX design, and the start page and login were suitable for our end-users. We had also built two working games. But these games still lacked multiplayer functionality and didn't have a functioning video feed, so it was clear that a lot of work was still required to not only get these two games up and running, but also to integrate the games with the start page and login.
-
-There were still many new features to add to our product and we had four new fairly challenging backlog items to complete, including building the database and API, adding multiplayer functionality and video chat and continuing with documentation. On reflection, these tasks may have been too large to complete over the course of one week - two weeks would have been more appropriate.
+Following our two week break from Agile sprints, we felt better placed to tackle our fourth sprint. At this stage, we had covered a lot of ground with regards to the UI and UX design, and the start page and login were suitable for our end-users. We had also built two working games. But these games still lacked multiplayer functionality and didn't have a functioning video feed, so it was clear that a lot of work was still required to not only get these two games up and running, but also to integrate the games with the start page and login. There were still many new features to add to our product and we had four new fairly challenging backlog items to complete, including building the database and API, adding multiplayer functionality and video chat and continuing with documentation. On reflection, these tasks may have been too large to complete over the course of one week - two weeks would have been more appropriate.
 
 
 
@@ -795,20 +789,18 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 </table>
 
+
 ### Evaluation of Sprint
 
-
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
-
-It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
-
+**EDIT**
+On reflection, this was a major sprint for us. Integrating the front and back-end of the stack was really important because we wanted to deploy a MVP and do user acceptance testing before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. These tasks were challenging and took up a lot of our time.
 
 
 
 ## Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
-This was our penultimate sprint. By this point we had to finalise our API. We also aimed to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. We agreed to make the pages of application responsive, including mobile responsive, complete the evaluation of our design in our report, conduct unit testing, and complete an introduction demo video. These remaining tasks were all very important to ensure our product was working properly prior to release.
+This was our penultimate sprint. By this point we had to finalise our API. We also aimed to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. We agreed to make the pages of the application responsive, including mobile responsive, and to complete the evaluation of our design, conduct unit testing, and complete our introduction demo video. Each of these tasks were very important to ensure our product was working properly prior to release.
 
 ### Key points
 

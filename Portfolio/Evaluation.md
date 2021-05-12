@@ -36,7 +36,7 @@ When it came to the design of the project we knew it was important to have a num
 
 ### Methods used
 
-We turn to the methods used and evaluate the effectiveness of each of these. It is worth noting that given the time constraints of this unit, we were unable to use as many evaluation techniques as we would have liked. Focus groups, interviews and observations all would have been invaluable methods for garnering useful data to inform our design decisions. We discuss this in the below subsection [Other possible methods](#other-possible-methods). But first, let's consider the first method we used to evaluate our product design, namely, paper prototyping.
+We turn to the methods used and evaluate the effectiveness of each of these. It is worth noting that given the time constraints of this unit, we were unable to use as many evaluation techniques as we would have liked. Heat map testing, surveys, interviews, and observations would have all been invaluable for gathering useful data about our users to inform our design decisions. We discuss this in the below subsection [Other possible methods](#other-possible-methods). But first, let's consider the first method we used to evaluate our product design, namely, paper prototyping.
 
 
 ### Paper prototyping
@@ -351,8 +351,6 @@ In both Beta and Gamma testing, the focus is on the UX and to verify software co
 
 ### Beta testing
 
-**DO TESTING TONIGHT**
-
 As mentioned above, the main purpose of this testing was to verify software compatibility with different software, different network connections, and to get the users’ feedback on software usability and functionality. This testing involved a focus group of 6 older family members via video conferencing. To preserve the anonymity of the participants, we will not refer to their names or disclose any personal data regarding them. We also obtained consent from the participants, and assured them that the feedback they provided would be anonymous. We did not have time to apply for ethical approval from the University of Bristol's Research Ethics committee. Our focus group is, therefore, an ad hoc attempt at Beta testing.
 
 The structure of the testing was as follows. We gave the group a list of points to consider when using and interacting with our product. These points were:
@@ -375,9 +373,9 @@ This helped inform our design choices and tested the functionality of the platfo
 
 **Limitations of Beta testing**
 
-The main limitations with this field testing type of user acceptance testing centred around the role of biases in affecting our users' feedback. In particular, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity [[**2**]](#references)). A further issue concerns the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population or indeed our end-users [[**2**]](#references)). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias [[**3**]](#references)).
+The main limitations with this type of user acceptance testing was the role of biases in affecting our users' feedback. In particular, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity [[**2**]](#references)). A further issue concerns the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population or indeed our end-users [[**2**]](#references)). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias [[**3**]](#references)).
 
-A further limitation of our user testing concerns the range of methods used. With our testing we could have used heat map testing, surveys, questionnaires and other testing methods to improve our acceptance testing. Overall though, we feel our Beta testing helped us gain useful feedback prior to product release. 
+A further limitation of our user testing concerns the range of methods used. With our testing we could have used heat map testing, surveys, questionnaires and other testing methods to improve our acceptance testing. Overall though, we feel our Beta testing helped us gain useful feedback prior to product release.
 
 ### References
 
