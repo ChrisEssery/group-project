@@ -611,7 +611,7 @@ returned data:
 
 
 
-### User Authentication in the Backend
+### User Authentication in Backend
 
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png">
@@ -712,9 +712,7 @@ And below is the front-end flowchart:
 
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/(updated)flowchart%20frontend.png)
 
-For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
-
-### User Authentication in the Frontend
+### User Authentication in Frontend
 
 To implement user authentication with Angular in the frontend, we referred to the following struture(credit: bezkoder):
 
@@ -872,7 +870,7 @@ Therefore, we updated our flowchart to include [`auth-guard.guard`](https://gith
 
 <b><p align= "center">Figure : Flowchart for the frontend</p></b>
 
-
+For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
 
 ### Start page
 
