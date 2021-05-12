@@ -145,7 +145,7 @@ With this objective, it is fair to say that we were successful.
 
   * ***Implement a login, leaderboard and two board games with multiplayer functionality and video chat.***
 
-With this objective, we can consider it to have been completely fulfilled. We successfully implemented all of the above functionality and compounded it to form the MVP for our application. 
+With this objective, we can consider it to have been completely fulfilled. We successfully implemented all of the above functionality it was compounded to form the MVP for our application. We are aware however, that there is opportunity for further refining of these implementations. The multiplayer functionality could be further developed to employ a matchmaking and lobby system and the games lack session persistence. Although Jitsi was a more than capable solution for enabling real-time video chat for our application, it would be beneficial for us to develop a proprietary video chat API in future to allow us to tailor the functionality exactly to the needs of our application. These potential developments are discussed further in the 'Future Work' section of this conclusion.
 
   * ***Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.***
 
