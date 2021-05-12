@@ -265,7 +265,7 @@ To further encourage users to engage with the application, we could explore addi
 
 We could then extend this to developing an achievement-based system. This wouldn't need to just be win-based and it could include achievements such as "played 50 games of Connect Four in one month" or "won five games of Connect Four in a row". Again, this could help to provide a source of extrinsic motivation for using the application and helping our users to engage with each other more.
 
-### Adding better instructions
+### Adding more detailed instructions
 
 A further extension concerns adding more detailed instructions to the application on how to navigate the site and efficiently use the full feature-set (adding friends, seeing leaderboards etc.). With your typical application, there may not be as much emphasis on implementing instructions for this, but when thinking about the demographic that the application is targeting (the elderly), we must take into consideration the fact that the baseline of computer literacy may be lower.
 
