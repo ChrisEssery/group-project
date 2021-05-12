@@ -789,13 +789,11 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 </table>
 
+
 ### Evaluation of Sprint
 
-
-We felt we were able to do a lot of work during this sprint. Having a start-page to show the users and collect feedback was invaluable at this stage of the development. However, we weren't able to produce a MVP, which on reflection we would have liked to have done by this stage of the development lifecycle. Regardless, we were happy with a progress by this point in time. The designs for the backend were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily.
-
-It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
-
+**EDIT**
+On reflection, this was a major sprint for us. Integrating the front and back-end of the stack was really important because we wanted to deploy a MVP and do user acceptance testing before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. These tasks were challenging and took up a lot of our time. 
 
 
 
