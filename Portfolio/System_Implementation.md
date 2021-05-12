@@ -250,78 +250,6 @@ returned data:
   error: 'invalid password'
 }
 ```
-### User Data Protection
-
-- User password is encrypted using [blueimp-md5](https://www.npmjs.com/package/blueimp-md5)
-
-Case User Register:
-```javascript
-   //encrypt password
-    body.password = md5(body.password)
-```
-Case User Log in:
-```javascript
-    //check password
-    if (md5(body.password) !== targetUser.password) {
-        return res.status(401).json({
-           error: 'invalid password'
-        })
-    }
-```
-- [Express session](https://www.npmjs.com/package/express-session) is used to store user data between HTTP request
-
-### User Authentication
-
-- Check user credentials
-
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png)
-
-- Interface authentication: Uniform use of Token authentication (based on JSON Web Token)
-
-Tokens are generated when users login/signup and will be send back to the client
-```javascript
-
-    const token = jwt.encode({
-    iss: body.id,
-    exp: moment().add( 7, 'days').valueOf()}, 'secret')
-    delete body.password
-    res.status(201).json({
-    token,
-    user: body.username
-  })
-```
-
-- Interfaces that require authorization must provide the request header field X-Access-Token information(see [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js))
-
-
-```javascript
-exports.check_api_token = (req, res, next) => {
-    const token = req.get('x-access-token')
-    //check if the request contains a X-Access-Token
-    if (!token) {
-      return res.status(401).json({
-        error: 'Authentication failure: X-Access-Token information could not be found in the request'
-      })
-    }
-   //check if the token is valid
-    try {
-      const decodedToken = jwt.decode(token, 'secret')
-      // check if the token is expired
-      if (decodedToken.exp < moment().valueOf()) {
-        return res.status(401).json({
-          error: 'Authentication failed: Token has expired'
-        })
-      }
-      req.body.userId = decodedToken.iss
-      next()
-    } catch (err) {
-      res.status(401).json({
-        error: 'Authentication failed: Invalid Token'
-      })
-    }
-  }
-```
-
 
 ### API Request & Response data are set in a uniform format using JSON
 
@@ -643,8 +571,6 @@ exports.check_api_token = (req, res, next) => {
 ]
 ```
 
-
-
 #### Get top users of a specific game according to the game score
 
 **Request:**
@@ -677,6 +603,145 @@ exports.check_api_token = (req, res, next) => {
   ]
 }
 ```
+
+## User Authentication
+
+
+### Backend
+
+#### Database
+The role of a database in a user authentication system is used to store data about the user, including username, email and the hashed password. 
+
+In order to keep the password secure before saving to the database, we used [blueimp-md5](https://www.npmjs.com/package/blueimp-md5) to encrypt the user password, which can be seen below: 
+
+Case User Register:
+```javascript
+   //encrypt password
+    body.password = md5(body.password)
+```
+Case User Log in:
+```javascript
+    //check password
+    if (md5(body.password) !== targetUser.password) {
+        return res.status(401).json({
+           error: 'invalid password'
+        })
+    }
+```
+
+#### API
+The API is what receives all of the front-end’s requests and sends the browser data. To prevent the unauthorized access from the frontend, we implemented the interface authentication with uniform use of Token authentication (based on [JSON Web Token](https://jwt.io/)). 
+ 
+-  The token (JWT string with secret) is created when the user login/signup and will be sent back to the client with the user information. 
+```javascript
+
+    const token = jwt.encode({
+    iss: body.id,
+    exp: moment().add( 7, 'days').valueOf()}, 'secret')
+    delete body.password
+    res.status(201).json({
+    token,
+    user: body.username
+  })
+```
+
+- Interfaces that require authorization must provide the request header field X-Access-Token information
+
+To implement that, we created a [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js) to check the token validity before handling the requests in the server. In the middleware.js file, we checked if the request contains a X-Access-Token, if the token is valid and if the token is unexpired, which can be seen below:
+
+```javascript
+exports.check_api_token = (req, res, next) => {
+    const token = req.get('x-access-token')
+    //check if the request contains a X-Access-Token
+    if (!token) {
+      return res.status(401).json({
+        error: 'Authentication failure: X-Access-Token information could not be found in the request'
+      })
+    }
+   //check if the token is valid
+    try {
+      const decodedToken = jwt.decode(token, 'secret')
+      // check if the token is expired
+      if (decodedToken.exp < moment().valueOf()) {
+        return res.status(401).json({
+          error: 'Authentication failed: Token has expired'
+        })
+      }
+      req.body.userId = decodedToken.iss
+      next()
+    } catch (err) {
+      res.status(401).json({
+        error: 'Authentication failed: Invalid Token'
+      })
+    }
+  }
+```
+**Overall, the backend user authentication process when receiving a request can be shown in this diagram below:"
+
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png">
+</p>
+<b><p align= "center">Figure : User Authentication Flowchart (backend) </p></b>
+
+
+### Frontend
+
+To implement user authentication with Angular in the frontend, we followed the following struture(credit: bezkoder):
+
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth.png">
+</p>
+<b><p align= "center">Figure : User Authentication with Router and HttpInterceptor (credit: bezkoder)</p></b>
+
+Based on this structure, we implements the following **features**:
+
+– The [`App component`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app.component.html) is a container using Router. It gets user token & user information from Browser Session Storage via [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts). 
+
+- The [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts) is an Angular injectable service file which can save/get the token and username from the session storage.
+
+- The [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) uses Angular `HttpClient` ($http service) to make authentication requests (including user signup, login and signout).
+
+- The [`auth.interceptor`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.interceptor.ts) adds a `JWT` to HTTP Authorization Header before sending request to the backend.
+
+– The [`Login`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/login-page) & [`Register`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/signup-page) components have form for submission data (with support of Form Validation). They use [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts) for checking state and [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) for sending signin/signup requests.
+
+– Every HTTP request by `$http` service will be inspected and transformed before being sent by [`auth.interceptor`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.interceptor.ts).
+
+– The [`Start-page component`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/start-page) is public for all visitors, which contains the login and signup buttons.
+
+- Any unauthorized access attemps will be redirects to the login page with the use of [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts)
+
+- We use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to block the routes from loading based on some permissions or blocking a route based if not authenticated. If the access attemps are unauthorized, we use `router` to navigate to the login page:
+
+```javascript
+    path: 'home',
+    component: HomePageComponent,
+    canActivate: [AuthGuard], //Prevent unauthorized access
+    children: [
+      {
+        path: '',
+        component: GameMenuComponent //redirect to game menu page by default with path /home
+      },
+      {
+        path: 'profile', // subpath : /home/profile
+        component: ProfileComponent
+      },
+      {
+        path: 'leaderboard',
+        component: LeaderboardComponent
+      }
+```
+
+#### Flow for user registration and user login 
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/sign%20up.png">
+</p>
+<b><p align= "center">Figure : User Registration Sequence Diagram</p></b>
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/login.png">
+</p>
+<b><p align= "center">Figure : User Log In Sequence Diagram</p></b>
+
 
 We now turn our attention to the front-end of our application.
 
@@ -766,41 +831,6 @@ const routes: Routes = [
   { path: 'ranking', component: RankingComponent,canActivate: [AuthGuard]}
 ];
 ```
-### User Authentication
-
-We followed the below structure (credit: bezkoder) to implement the authentication process in Angular:
-
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth.png)
-
-**Features**
-- Tokens are stored in the session storage, which can be called from the localTokenStorage service
-- Tokens are generated from the login/sign up process
-- Using Angular Route Guard For securing routes
-
-We tried to block the routes from loading based on some permissions or blocking a route based if not authenticated
-```javascript
-    path: 'home',
-    component: HomePageComponent,
-    canActivate: [AuthGuard], //Prevent unauthorized access
-    children: [
-      {
-        path: '',
-        component: GameMenuComponent //redirect to game menu page by default with path /home
-      },
-      {
-        path: 'profile', // subpath : /home/profile
-        component: ProfileComponent
-      },
-      {
-        path: 'leaderboard',
-        component: LeaderboardComponent
-      }
-```
-
-
-
-Frontend flowchart:
->>>>>>> f541592e6a4e82b8b952aca621bdbddef7881200
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
 
 
