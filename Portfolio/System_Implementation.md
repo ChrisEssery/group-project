@@ -210,7 +210,7 @@ We now give a detailed overview of the API implementation, beginning with the AP
 **Here is a flowchart of how our api will handle a request**
 
 <p align="center">
-<img src="(https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png">
 </p>
 <b><p align= "center">Figure : api flowchart </p></b>
 
