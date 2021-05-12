@@ -793,14 +793,14 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 ### Evaluation of Sprint
 
 **EDIT**
-On reflection, this was a major sprint for us. Integrating the front and back-end of the stack was really important because we wanted to deploy a MVP and do user acceptance testing before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. These tasks were challenging and took up a lot of our time. 
+On reflection, this was a major sprint for us. Integrating the front and back-end of the stack was really important because we wanted to deploy a MVP and do user acceptance testing before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. These tasks were challenging and took up a lot of our time.
 
 
 
 ## Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)
 ___
 
-This was our penultimate sprint. By this point we had to finalise our API. We also aimed to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. We agreed to make the pages of application responsive, including mobile responsive, complete the evaluation of our design in our report, conduct unit testing, and complete an introduction demo video. These remaining tasks were all very important to ensure our product was working properly prior to release.
+This was our penultimate sprint. By this point we had to finalise our API. We also aimed to focus on adding video chat and multiplayer functionality to the memory game. This was a fairly challenging task since the memory game consisted of many components, services and routes. We agreed to make the pages of the application responsive, including mobile responsive, and to complete the evaluation of our design, conduct unit testing, and complete our introduction demo video. Each of these tasks were very important to ensure our product was working properly prior to release.
 
 ### Key points
 
