@@ -610,17 +610,15 @@ returned data:
 
 ### Backend
 
-#### Database
-The role of a database in a user authentication system is used to store data about the user, including username, email and the hashed password. 
-
+#### User data protection
 In order to keep the password secure before saving to the database, we used [blueimp-md5](https://www.npmjs.com/package/blueimp-md5) to encrypt the user password, which can be seen below: 
 
-Case User Register:
+**Case User Register:**
 ```javascript
    //encrypt password
     body.password = md5(body.password)
 ```
-Case User Log in:
+**Case User Log in:**
 ```javascript
     //check password
     if (md5(body.password) !== targetUser.password) {
@@ -630,10 +628,10 @@ Case User Log in:
     }
 ```
 
-#### API
-The API is what receives all of the front-end’s requests and sends the browser data. To prevent the unauthorized access from the frontend, we implemented the interface authentication with uniform use of Token authentication (based on [JSON Web Token](https://jwt.io/)). 
+#### Handling requests
+The server is what receives all of the front-end’s requests and sends the browser data. To prevent the unauthorized access from the frontend, we implemented the interface authentication with uniform use of Token authentication (based on [JSON Web Token](https://jwt.io/)). 
  
--  The token (JWT string with secret) is created when the user login/signup and will be sent back to the client with the user information. 
+**The token (JWT string with secret) is created when the user login/signup and will be sent back to the client with the user information. **
 ```javascript
 
     const token = jwt.encode({
@@ -646,9 +644,9 @@ The API is what receives all of the front-end’s requests and sends the browser
   })
 ```
 
-- Interfaces that require authorization must provide the request header field X-Access-Token information
+**Interfaces that require authorization must provide the request header field X-Access-Token information**
 
-To implement that, we created a [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js) to check the token validity before handling the requests in the server. In the middleware.js file, we checked if the request contains a X-Access-Token, if the token is valid and if the token is unexpired, which can be seen below:
+To implement that, we created a [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js) to check the token validity before handling the requests in the server. In the `middleware.js` file, we checked if the request contains a valid `X-Access-Token` which can be seen below:
 
 ```javascript
 exports.check_api_token = (req, res, next) => {
@@ -694,8 +692,41 @@ To implement user authentication with Angular in the frontend, we followed the f
 </p>
 <b><p align= "center">Figure : User Authentication with Router and HttpInterceptor (credit: bezkoder)</p></b>
 
-#### token-storage.service
+#### User registration and user login 
+The [`Login`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/login-page) & [`Register`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/signup-page) components have forms for submission data (with support of Form Validation). Then, they use [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) which uses Angular `HttpClient` ($http service) for sending signin/signup requests (shown below).
 
+```javascript
+export class AuthService {
+  private USER_AUTH_API = "http://localhost:3000/api/users";
+
+  constructor(private httpClient: HttpClient) {}
+
+  register(userData: any){
+    return this.httpClient.post(this.USER_AUTH_API, userData)
+  }
+
+  login(credentials: any){
+    return this.httpClient.post(this.USER_AUTH_API+'/session', credentials)
+  }
+  
+  signout(username: String){
+    return this.httpClient.delete(this.USER_AUTH_API+'/session')
+  }
+}
+```
+**Flow for user registration and user login**
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/sign%20up.png">
+</p>
+<b><p align= "center">Figure : User Registration Sequence Diagram</p></b>
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/login.png">
+</p>
+<b><p align= "center">Figure : User Log In Sequence Diagram</p></b>
+
+As we can see from the diagrams, the token (JWT) will be generated and returned with every successful login/signup request which will then be needed as a passport for further requests on protected resources. Therefore, the token will be saved to the **Browser Session Storage** with the use of `token-storage.service`
+
+#### Use token-storage.service to save the token and username to or get the token and username from the Browser Session Storage
 The [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts) is an Angular injectable service file which can save the token and username to or get the token and username from the **Browser Session Storage**. This includes the following functions:
 
 ```javascript
@@ -726,30 +757,10 @@ export class TokenStorageService {
   }
 }
 ```
-#### auth.service
-The [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) uses Angular `HttpClient` ($http service) to make authentication requests. This includes the following requests:
-```javascript
-export class AuthService {
-  private USER_AUTH_API = "http://localhost:3000/api/users";
 
-  constructor(private httpClient: HttpClient) {}
+#### Use auth.interceptor to add the token to HTTP Authorization Header before sending request to the backend
+Every HTTP request by `$http` service will be inspected and transformed before being sent by [`auth.interceptor`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.interceptor.ts), which can be seen below:
 
-  register(userData: any){
-    return this.httpClient.post(this.USER_AUTH_API, userData)
-  }
-
-  login(credentials: any){
-    return this.httpClient.post(this.USER_AUTH_API+'/session', credentials)
-  }
-  
-  signout(username: String){
-    return this.httpClient.delete(this.USER_AUTH_API+'/session')
-  }
-}
-```
-
-#### auth.interceptor
-The [`auth.interceptor`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.interceptor.ts) adds a `JWT` to HTTP Authorization Header before sending request to the backend, which can be seen below:
 ```javascript
 const TOKEN_HEADER_KEY = 'X-Access-Token';
 @Injectable()
@@ -767,16 +778,9 @@ export class AuthInterceptor implements HttpInterceptor {
   }
 }
 ```
+#### Use auth-guard.guard to block unauthorized access to protected routes
 
-– The [`Login`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/login-page) & [`Register`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/signup-page) components have form for submission data (with support of Form Validation). They use [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts) for checking state and [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) for sending signin/signup requests.
-
-– Every HTTP request by `$http` service will be inspected and transformed before being sent by [`auth.interceptor`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.interceptor.ts).
-
-– The [`Start-page component`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/start-page) is public for all visitors, which contains the login and signup buttons.
-
-- Any unauthorized access attemps will be redirects to the login page with the use of [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts)
-
-- We use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to block the routes from loading based on some permissions or blocking a route based if not authenticated. If the access attemps are unauthorized, we use `router` to navigate to the login page:
+We use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to block the routes from loading based on some permissions or blocking a route based if not authenticated. If the access attemps are unauthorized, we use `router` to navigate to the login page:
 
 ```javascript
     path: 'home',
@@ -796,17 +800,7 @@ export class AuthInterceptor implements HttpInterceptor {
         component: LeaderboardComponent
       }
 ```
-
-#### Flow for user registration and user login 
-<p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/sign%20up.png">
-</p>
-<b><p align= "center">Figure : User Registration Sequence Diagram</p></b>
-<p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/login.png">
-</p>
-<b><p align= "center">Figure : User Log In Sequence Diagram</p></b>
-
+As you can see, any unauthorized access attemps will be redirects to the login page for user to login.
 
 We now turn our attention to the front-end of our application.
 
