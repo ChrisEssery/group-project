@@ -844,77 +844,14 @@ Angular is great for getting creating a professional UI in very little time. The
 
 ### Details of Implementation
 
-<<<<<<< Updated upstream
-### Frontend class diagram:
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
 
-=======
-<<<<<<< HEAD
 Below is an image of the front-end class diagram:
 
 ![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
 
 And below is the front-end flowchart:
 
-=======
-### Frontend class diagram:
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
-
->>>>>>> Stashed changes
-As shown in this class diagram, ...
-
-
-### Routing
-
-Here is the flowchart of our frontend navigation:
-
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
-
-To handle the navigation from one view to the next, we used the Angular Router. The Router enables navigation by interpreting a browser URL as an instruction to change the view. This can be seen below:
-```javascript
-const routes: Routes = [
-  {
-    path: '',
-    component: StartPageComponent
-  },
-  {
-    path: 'login',
-    component: LoginComponent
-  },
-  {
-    path: 'signup',
-    component: SignupComponent
-  },
-  {
-    path: 'home',
-    component: HomePageComponent,
-    canActivate: [AuthGuard], //Prevent unauthorized access
-    children: [
-      {
-        path: '',
-        component: GameMenuComponent //redirect to game menu page by default with path /home
-      },
-      {
-        path: 'profile', // subpath : /home/profile
-        component: ProfileComponent
-      },
-      {
-        path: 'leaderboard',
-        component: LeaderboardComponent
-      }
-    ]
-  },
-  { path: 'connect4',redirectTo: '/connect4start', pathMatch: 'full'},
-  { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},
-  { path: 'connect4_gameplay', component: ConnectFourContainerComponent, canActivate: [AuthGuard]},
-  { path: "memorygame", redirectTo: "/start", pathMatch: "full" },
-  { path: "start", component: StartComponent,canActivate: [AuthGuard]},
-  { path: 'gameplay', component: GameplayComponent ,canActivate: [AuthGuard]},
-  { path: 'ranking', component: RankingComponent,canActivate: [AuthGuard]}
-];
-```
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
-
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/(updated)flowchart%20frontend.png)
 
 For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
 
