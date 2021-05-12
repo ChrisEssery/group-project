@@ -798,7 +798,9 @@ export class AuthGuard implements CanActivate {
 }
 ```
 
-In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts), any attempts to access the home page will be passed to [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to check the permission. This can be seen below:
+In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts), any attempts to access the home page will be passed to [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to check the permission. 
+
+An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) in the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts) can be seen below:
 
 ```javascript
     path: 'home',
@@ -819,7 +821,7 @@ In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/bl
       }
 ```
 
-Therefore, we updated our flowchart to the following:
+Therefore, we updated our flowchart to include [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts):
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend(with%20authguard).png">
 </p>
