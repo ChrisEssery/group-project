@@ -611,7 +611,7 @@ returned data:
 ### User Authentication in the Backend
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth%20angular.png">
 </p>
 <b><p align= "center">Figure : user authentication process to deal with a request (backend) </p></b>
 
