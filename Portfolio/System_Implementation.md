@@ -269,7 +269,7 @@ Case User Log in:
 
 - Check user credentials
 
-
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png)
 
 - Interface authentication: Uniform use of Token authentication (based on JSON Web Token)
 
