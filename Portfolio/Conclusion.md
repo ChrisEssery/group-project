@@ -271,6 +271,9 @@ A further extension concerns adding more detailed instructions to the applicatio
 
 Potential means of delivering these instructions include written instructions, video instructions or a more developmentally time-intensive, but more comprehensive method, the development of interactive demo instructions. For example, encouraging the individual using the application to navigate the page in real-time, further reinforcing what the instructions have told them. This would serve further purpose in allowing the user to refresh their mind on how to use the application, which may be of particular importance in users that may suffer with memory-loss issues.
 
+### Improving application responsivness
+
+As alluded to earlier in this conclusion...
 
 ### Expansion of front-end and back-end testing
 
