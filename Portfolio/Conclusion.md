@@ -140,15 +140,16 @@ To reflect on whether our project objectives were met, let's turn to the objecti
 
   * ***Build and deploy a responsive SPA using the MEAN stack, as per the project brief.***
 
-With this objective, it is fair to say that we were successful. To demonstrate this, we will cover each of the services that form part of the MEAN stack:
+With this objective, it is fair to say that we were successful. To demonstrate this, we will cover each of the services that form part of the MEAN stack and how we used them:
 
-* **(M) MongoDB** - 
+* **(M) MongoDB** - MongoDB was used as persistent data storage for user account information and game record data (rankings, win/loss data etc.)
 * **(E) Express** - 
 * **(A) Angular** - 
 * **(N) NodeJS** - 
 
+With regards to the responsiveness of the application however...
 
-  * ***Implement a login, leaderboard and two board games with multiplayer functionality and video chat.***
+* ***Implement a login, leaderboard and two board games with multiplayer functionality and video chat.***
 
 With this objective, we can consider it to have been completely fulfilled. We successfully implemented all of the above functionality it was compounded to form the MVP for our application. We are aware however, that there is opportunity for further refining of these implementations. The multiplayer functionality could be further developed to employ a matchmaking and lobby system and the games lack session persistence. Although Jitsi was a more than capable solution for enabling real-time video chat for our application, it would be beneficial for us to develop a proprietary video chat API in future to allow us to tailor the functionality exactly to the needs of our application. These potential developments are discussed further in the 'Future Work' section of this conclusion.
 
