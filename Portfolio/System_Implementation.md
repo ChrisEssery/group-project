@@ -16,7 +16,6 @@ In this section, we discuss the the system implementation of the app. We start w
    * [Overview of stack](#overview-of-stack)
    * [Class diagrams](#class-diagram)
    * [Sequence diagrams](#sequence-diagrams)
-* [**User Authentication**](#user-authentication)
 * [**Back End**](#back-end)
    * [MongoDB](#mongodb)
    * [Details of Implementation](#details-of-implementation)
@@ -610,7 +609,7 @@ returned data:
 }
 ```
 
-## User Authentication
+
 
 ### User Authentication in the Backend
 
@@ -620,7 +619,7 @@ returned data:
 <b><p align= "center">Figure : user authentication process to deal with a request (backend) </p></b>
 
 To prevent the unauthorized access from the frontend, we implemented the interface authentication with uniform use of Token authentication (based on [JSON Web Token](https://jwt.io/)), which include the following features:
- 
+
 1. The token (JWT string with secret) is created when the user login/signup and will be sent back to the client with the user information.
 ```javascript
 
@@ -684,6 +683,37 @@ Case: User Log in:
 ```
 
 
+
+We now turn our attention to the front-end of our application.
+
+## Front end
+
+For the front end, we decided to use Angular.
+
+<div align="center">
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation4.png)
+
+</div>
+
+Angular is a client-side framework which is really effective at building SPAs. This is because it simultaneously renders UI with dynamic data, handles user input and communicates with the services in the back end. This, in many ways, creates an experience similar to that of a mobile app.
+
+Angular is great for getting creating a professional UI in very little time. The tree of angular components are really useful for several reasons. First, it's easily maintainable. Second, readability is improved. Third, reusability. The details of our front-end implementation now follow.
+
+
+### Details of Implementation
+
+
+Below is an image of the front-end class diagram:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
+
+And below is the front-end flowchart:
+
+![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/(updated)flowchart%20frontend.png)
+
+For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
+
 ### User Authentication in the Frontend
 
 To implement user authentication with Angular in the frontend, we referred to the following struture(credit: bezkoder):
@@ -691,6 +721,7 @@ To implement user authentication with Angular in the frontend, we referred to th
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth%20angular.png">
 </p>
+
 <b><p align= "center">Figure : User Authentication with Router and HttpInterceptor (credit: bezkoder)</p></b>
 
 To introduce the detailed features of how we implement user authentication in the frontend, we'll start with the user registration and login process:
@@ -718,20 +749,25 @@ export class AuthService {
   }
 }
 ```
+
 With the functions provided in [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts), the client is able to communicate with the backend as shown below:
 
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/sign%20up.png">
 </p>
+
 <b><p align= "center">Figure : User Registration Sequence Diagram</p></b>
+
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/login.png">
 </p>
+
 <b><p align= "center">Figure : User Log In Sequence Diagram</p></b>
 
 As we can see, the token (JWT) will be generated and returned with every successful login/signup request which will then be needed as a passport for further requests on protected resources. Therefore, the token will be saved to the Browser Session Storage with the use of `token-storage.service`
 
 #### Use token-storage.service to save the token and username to or get the token and username from the Browser Session Storage
+
 The [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts) is an Angular injectable service file which can save the token and username to or get the token and username from the `Browser Session Storage`. This includes the following functions:
 
 ```javascript
@@ -764,6 +800,7 @@ export class TokenStorageService {
 ```
 
 #### Use auth.interceptor to add the token to HTTP Authorization Header before sending request to the backend
+
 Every HTTP request by `$http` service will be inspected and transformed before being sent by [`auth.interceptor`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.interceptor.ts), which can be seen below:
 
 ```javascript
@@ -783,9 +820,11 @@ export class AuthInterceptor implements HttpInterceptor {
   }
 }
 ```
+
 #### Use auth-guard.guard to block unauthorized access to protected routes
 
 We use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to block the routes from loading based on some permissions or blocking a route based if not authenticated. If the access attemps are unauthorized, we use `router` to navigate to the login page:
+
 ```javascript
 export class AuthGuard implements CanActivate {
   constructor(private router:Router, private tokenStorageService:TokenStorageService){}
@@ -826,40 +865,14 @@ An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-proj
 ```
 
 Therefore, we updated our flowchart to include [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts):
+
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend(with%20authguard).png">
 </p>
+
 <b><p align= "center">Figure : Flowchart for the frontend</p></b>
 
-We now turn our attention to the front-end of our application.
 
-## Front end
-
-For the front end, we decided to use Angular.
-
-<div align="center">
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation4.png)
-
-</div>
-
-Angular is a client-side framework which is really effective at building SPAs. This is because it simultaneously renders UI with dynamic data, handles user input and communicates with the services in the back end. This, in many ways, creates an experience similar to that of a mobile app.
-
-Angular is great for getting creating a professional UI in very little time. The tree of angular components are really useful for several reasons. First, it's easily maintainable. Second, readability is improved. Third, reusability. The details of our front-end implementation now follow.
-
-
-### Details of Implementation
-
-
-Below is an image of the front-end class diagram:
-
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
-
-And below is the front-end flowchart:
-
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/(updated)flowchart%20frontend.png)
-
-For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
 
 ### Start page
 
@@ -935,7 +948,7 @@ The main features of the login were
       }
     )
 
-  ```  
+ ```
  * [Login.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.html). Add information
  * [Login.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.css). Add information
 
@@ -971,7 +984,7 @@ The main features of the leaderboard are in the following component:
     )
   }
 
-  ```
+ ```
   The getWinsLeaderboard in data.service.ts:
 
   ```
