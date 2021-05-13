@@ -1025,24 +1025,35 @@ For example, we changed the title font size to fit different screen sizes. (belo
 
 <p align="center">
 <img src="../Portfolio/images/login(mobile).png" width="300px">
-<img src="../Portfolio/images/login(mobile).png" width="300px">
+<img src="../Portfolio/images/signup(mobile).png" width="300px">
+<img src="../Portfolio/images/startpage(mobile).png" width="300px">
 </p>
 
-For the games, we hided the game choice buttons on screen which has width less that 1440px (the least width for web page) so that the users are not able to access the game on their mobile devices/tablets.
-
+For the games, we hid the game choice buttons on screen which has width less that 1440px (the least width for web page) so that the users are not able to access the game on their mobile devices/tablets.
+<p align="center">
+<img src="../Portfolio/images/home(mobile.png" width="300px">
+</p>
 
 
 2. Use of Bootstrap's grid system
 
 [Bootstrap’s grid system](https://getbootstrap.com/docs/4.0/layout/grid/) uses a series of containers, rows, and columns to layout and align content. It’s built with [flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Flexible_Box_Layout/Basic_Concepts_of_Flexbox) and is fully responsive. Based on that, we divided the profile page into 3 columns without a specified width to make the page properly presented on small screens.
-
+<p align="center">
+<img src="../Portfolio/images/mobileprofile.gif" width="300px">
+</p>
 
 
 3. Use of Bootstrap's navbar component
 
 The navigation bar often takes up too much space on a small screen. So, we implemented Bootstrap's navbar component which will be automatically collapsed with a small screen, which can be seen below:
 
+<p align="center">
+<img src="../Portfolio/images/navbar.png" width="300px">
+</p>
 
+<p align="center">
+<img src="../Portfolio/images/navbar(mobile.png" width="300px">
+</p>
 
 
 ## Additional elements and components
