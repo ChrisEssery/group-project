@@ -36,7 +36,7 @@ ___
 - Lizhao presented the paper prototype video she has been creating.
 - Chris updated on progress of the Java produced Connect 4 game.
 - Browsed previously completed group projects together.
-- Spoke to course organiser regarding projects involving elderly people. They pointed us to LINK! tangible-memories.com.
+- Spoke to course organiser regarding projects involving elderly people. They pointed us to [tangible-memories.com](https//tangible-memories.com).
 - Max & Chris spoke of potential issues integrating their games into the MEAN stack.
 
 ## March 18th
@@ -45,11 +45,10 @@ ___
 - Max gave us an update on the progress of the memory game.
 - Max & Chris unfortunately may need to rethink coding their games to work on the MEAN stack.
 
-## March 25th
+## March 25th (Sprints Paused)
 
 - Spoke to course organizer who stated that continually buiding games would be problematic if we want to finalize the app with a video feed.
 - From the conversion the group agreed to only produce two games for the moment. Connect 4 and the Memory game.
-- Caught up with general progress from each team member.
 - Organized further catch-ups over Easter.
 
 ## April 2nd
