@@ -273,7 +273,7 @@ Potential means of delivering these instructions include written instructions, v
 
 ### Improving application responsivness
 
-As alluded to earlier in this conclusion, the application is not currently designed for the games to work on smaller devices.
+As alluded to earlier in this conclusion, the application is not currently designed for the games to work on smaller devices. Other functionality such as viewing your profile and leaderboards is exists on mobile devices, however when users try to access the games, they are requested to access the application on a device with a larger screen.  
 
 ### Expansion of front-end and back-end testing
 
