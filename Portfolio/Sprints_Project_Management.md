@@ -100,7 +100,7 @@ There are several different frameworks used to implement the Agile method: Featu
 - No finite end to the project
 
 
-### Agile - Our chosen methodology
+### Agile : Our chosen methodology
 
 In light of the strengths and weaknesses of both methodologies, we decided to use the Agile approach for our project development. The reason for this was fourfold. First, we really liked the client-focused approach of Agile. This was, we felt, appropriate for our purposes since our application was designed with important usability requirements. Without regular feedback from our end-users then, we wouldn't necessarily be able to meet those usability requirements, and produce a product which they would actually be able to use. Second, we liked the idea of building software quickly. This was really relevant for our project since we only had 12 weeks to build our product whilst balancing the competing demands of two other units. Third, and related to the two previous reasons, being able to improve the features iteratively early in the lifecycle seemed more sensible as it would allow us to change the design of the product whenever required. Had we chosen to follow the waterfall approach, this type of flexibility would have been out of the question. Fourth, and finally, we felt that the inflexibility of the waterfall method, particular with regards to changing requirements, would really hamper the development and prevent us from producing a usable product. As such, it seemed like an untenable method for our particular purposes.
 
