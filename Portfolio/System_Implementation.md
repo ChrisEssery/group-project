@@ -1014,12 +1014,16 @@ The leaderboard component is another important part of our product which will pr
 The `profile` component is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking their names and click on "back" button to go back to their own profile. The recent matches is presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented.
 
 ### Games
-#### Memory Game
+
+### Memory Game
 <p align="center">
 <img src="../Portfolio/images/memorygame.png" width="100%">
 </p>
 
-#### Connect 4
+The memory game is composed of components for the buttons, cards, heading, and board layout as well as a folder of 'services' which contain the game logic for the cards, gameplay, and leaderboard.
+
+
+### Connect 4
 <p align="center">
 <img src="../Portfolio/images/connect4.png" width="100%">
 </p>
@@ -1074,7 +1078,9 @@ The navigation bar often takes up too much space on a small screen. So, we imple
 
 ### Additional elements: Details of Implementation
 
-### Multiplayer Functionality
+We now turn to the additional elements and components that were added to our application. We begin by looking at the multiplayer functionality.
+
+## Multiplayer Functionality
 
 ## WebSockets
 Reliable real-time data communication is essential on the modern Internet. To meet these demands, in 2011 the WebSocket protocol was developed. This protocol allows web applications to send and receive data instantly. It can be used for purposes such as chat applications, location information-based applications or multiplayer games.
@@ -1154,6 +1160,8 @@ There are different levels of App Service plans. The plan used for this deployme
 
 <img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">
 
+Having now covered the additional elements and components, we now turn our attention to the deployment and integration.
+
 ## Deployment and Integration
 
 The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
@@ -1164,7 +1172,7 @@ The deployment of our app utilized the software known as Docker. Compatibility f
 
 Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
 
-In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
+In preparation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronisation between the containers.
 
 Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
 
