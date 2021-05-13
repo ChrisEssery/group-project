@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](/Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](../Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
@@ -51,7 +51,7 @@ First, we'll look the waterfall method. The lifecycle of this approach is depict
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/sprints2.png)
+![alt text](../Logo/sprints2.png)
 
 </div>
 
@@ -76,7 +76,7 @@ Now, let's take a look at the Agile methodology. The lifecycle of this approach 
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/sprints1.png)
+![alt text](../Logo/sprints1.png)
 
 </div>
 
@@ -106,7 +106,7 @@ In light of the strengths and weaknesses of both methodologies, we decided to us
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/sprints3.png)
+![alt text](../Logo/sprints3.png)
 
 </div>
 
@@ -126,7 +126,7 @@ We used Jira to implement these actions, and created Gantt charts to visualise t
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/jira.png)
+![alt text](../Logo/jira.png)
 
 </div>
 
@@ -154,11 +154,11 @@ Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the
 
 ## Communication
 
-In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md).
+In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](/Team_Meetings.md).
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/comms1.png)
+![alt text](../Logo/comms1.png)
 
 </div>
 
@@ -168,7 +168,7 @@ The second communication platform we used was Discord, the instant messaging gro
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/comms2.png)
+![alt text](../Logo/comms2.png)
 
 </div>
 
@@ -269,7 +269,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. From p
 
  ```
 
-Given the client-led approach of the Agile method, we now turn to user feedback. Please note that these are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md).
+Given the client-led approach of the Agile method, we now turn to user feedback. Please note that these are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](/Evaluation.md).
 
 ### User feedback
 
@@ -281,32 +281,32 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_bob.jpg" width=40%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
  <td>This is the type of website layout I was thinking of. The title is big and in a clear font, and so far there aren't too many features. I am happy with this paper prototype video, but I think I would need some instructions on how to use it. For instance, how do we login? </td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_sally.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
  <td>I think a multiplayer game is a great idea. I also think that having a video feed would work really well, and help me see my friends and family members. The paper prototype video is clear and easy to follow, and I think having different levels of difficulty would be really good as I'd quite like to challenge myself, but I was hoping there would be a leaderboard so I know how well I'm doing.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<td><img src="../Logo/manager_jack.jpg" width=45%>
+<a href="/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I believe we should use the Agile method.</td>
 <td>N/A</td>
 <td>Create stakeholder stories</td>
 <td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you've only built the start page. Whilst this is a step in the right direction, you still need to prioritise building other parts of the application. This is because the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and that the product is on the right track with respect to the wants and needs of the end user. You want to build a minimum viable product (MVP) as soon as you can.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_simon.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want a product with a UCD.</td>
  <td>N/A</td>
  <td>Paper prototype and research target population</td>
@@ -371,32 +371,32 @@ The aim of this sprint was to show older friends and family members our start pa
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_bob.jpg" width=40%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page.</td>
  <td>Start page</td>
  <td>Start page</td>
  <td>I really like this start page. The bright colours are very engaging and the title is bold and in a clear font. I really like the background as well - it is eye-catching without being distracting. I really like the the music as well, but I think I would want the music to stop once I've logged in.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_sally.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want a start page that is easy to understand.</td>
  <td>Start page</td>
  <td>Start page</td>
  <td>The start page is very nice, but I think I would find the moving title a little bit nauseating if it were to continue during the login and gameplay.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<td><img src="../Logo/manager_jack.jpg" width=45%>
+<a href="/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
 <td>N/A</td>
 <td>Create and circulate questionnaire regarding UI wireframe/Relational diagram -> UML diagram.</td>
 <td>This start page is really good - well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data).</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_simon.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to see consistency in the UI and UX.</td>
  <td>Start page</td>
  <td>Start page</td>
@@ -450,7 +450,7 @@ By this stage, we felt it was appropriate to pause the sprints. The rationale fo
 ___
 
 
-This was the first sprint following the two week pause to our sprints. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to add multiplayer functionality, video chat and start building the back-end of our system. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](#https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people. Another major aim for this sprint was to implement basic features such user login, signup, logout, get user information, get friend list, and add friend. And to test on all of those features.
+This was the first sprint following the two week pause to our sprints. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to add multiplayer functionality, video chat and start building the back-end of our system. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](#/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people. Another major aim for this sprint was to implement basic features such user login, signup, logout, get user information, get friend list, and add friend. And to test on all of those features.
 
 ### Key points
 
@@ -500,16 +500,16 @@ This was the first sprint following the two week pause to our sprints. By this p
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_bob.jpg" width=40%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to create an account.</td>
  <td>Create account</td>
  <td>Users are able to create an account/UI wireframe</td>
  <td>This shows me how the website will work, which looks good. I would quite like to update the profile page and add more information about my gaming experience such as the number of matches recently played, the win rate, the people recently played. Would you be able to add this information?.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_sally.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to log in to view my game history.</td>
  <td>Login</td>
  <td>Authenticate user</td>
@@ -517,16 +517,16 @@ This was the first sprint following the two week pause to our sprints. By this p
 </td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<td><img src="../Logo/manager_jack.jpg" width=45%>
+<a href="/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
 <td>User authentication</td>
 <td>Authenticate user</td>
 <td style="width=70%;"> I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_simon.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want the games to be fun and interactive.</td>
  <td>Games</td>
  <td>Build basic versions of games and obtain user feedback.</td>
@@ -631,32 +631,32 @@ The aim of this sprint was to add new features to our product such as a leaderbo
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_bob.jpg" width=40%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see my friends on video chat.</td>
  <td>Video chat</td>
  <td>Add video chat to connect four</td>
  <td>I can now see my opponent through video chat - fantastic. Is there anything I need to do to make sure this works? Do I have to turn on my camera and do I need to talk into the the microphone? Some instructions on how to do this would be really helpful. But aside from that, I think the video chat is really good.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_sally.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to earn points and see my game history.</td>
  <td>Game history</td>
  <td>GET user game history</td>
  <td>I can now view my game history - excellent. I really like that I will be able to see my past efforts.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<td><img src="../Logo/manager_jack.jpg" width=45%>
+<a href="/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores</td>
 <td>Leaderboard</td>
 <td>Get game's leaderboard</td>
 <td>One thing to bear in mind is that the way game scores are sorted may vary with different games. Add a parameter `order` to the url path when making the request. My other piece of advice would be to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_simon.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want my users to have face-to-face communication with others during the gameplay.</td>
  <td>Video chat</td>
  <td>Add video chat to connect four</td>
@@ -754,32 +754,32 @@ The main aim of this sprint was to integrate the front and back-end of the stack
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_bob.jpg" width=40%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
  <td>Leaderboard</td>
  <td>Build a leaderboard</td>
  <td>I can now see a leaderboard! Excellent. This all looks straightforward with a clean layout.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_sally.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want view my profile.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
  <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<td><img src="../Logo/manager_jack.jpg" width=45%>
+<a href="/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I believe the end-users should view their results.</td>
 <td>Leaderboard/Demo video</td>
 <td>Leaderboard/Start creating the introduction demo video</td>
 <td>The leaderboard looks good, it has a clean design and isn't too cluttered. I think your end-users will like the layout. That said, I think you need make sure the users know what the scores stand for. For instance, how do you score players? Is it based on individual wins or the number of turns taken to achieve those wins? And are the scoring systems the same for the memory game and connect four or are they different? This should really be spelled out in a bit more detail. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided. As for the appearance of the video, I would advise you to make sure the video is fun, engaging, and appropriate for your end-users. This is a difficult balance to strike, but you want to grab the attention of your end-users without overwhelming them. It would be worthwhile, therefore, to show an early version of the demo and obtain feedback on that version. That way you can make changes to the video, including modifying the instructions, so as to make it as informative and useful as possible. </td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_simon.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
  <td>Leaderboard/Profile page</td>
  <td>Build a leaderboard/Build user profile page</td>
@@ -842,32 +842,32 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
  <th>Feedback from Users</th>
 </tr>
 <tr>
- <td><img src="/Logo/user_bob.jpg" width=40%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_bob.jpg" width=40%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want clear instructions on how to use the product.</td>
  <td>Demo video</td>
  <td>Complete introduction demo video</td>
  <td>This demo video is good, but I think that it is a little bit light on instructions. Maybe you should add more instructions?</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_sally.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_sally.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to see my profile on different sized screens.</td>
  <td>Page responsivity</td>
  <td>Make pages of application responsive, including mobile responsive</td>
  <td>Now I can see my profile page and the leaderboard on my tablet and smartphone. Fantastic! This is very convenient for me because I am more familiar with these devices.</td>
 </tr>
 <tr>
-<td><img src="/Logo/manager_jack.jpg" width=45%>
-<a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<td><img src="../Logo/manager_jack.jpg" width=45%>
+<a href="/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I believe thorough testing is essential</td>
 <td>Testing</td>
 <td>Create test accounts and test both backend and frontend work correctly</td>
 <td>Testing the back-end and front-end is really important, I'm glad you've now turned your attention to it. It's important because it will help you to determine whether both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. It is essential that you are very thorough with this testing, as you don't want to miss any bugs which your end-users might then run into. And back-end testing is important because it, among other things, serves to check for data corruption and data loss. By conducting testing on both parts of the stack you will be able to identify faults and errors in your code and make corrections - and remove bugs - where necessary. This really is an absolutely essential aspect of building a product, so make sure that you do it properly and that everything is tested thoroughly.</td>
 </tr>
 <tr>
- <td><img src="/Logo/user_simon.jpg" width=45%>
- <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <td><img src="../Logo/user_simon.jpg" width=45%>
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
  <td>Leaderboard/Profile page</td>
  <td>Build API using express framework and node.js</td>
@@ -957,7 +957,7 @@ After setting up GitHub, we realised it was important make small, frequent commi
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/branches.png)
+![alt text](../Logo/branches.png)
 
 </div>
 
@@ -980,7 +980,7 @@ The diagram below shows the basic workflow of the repositories and the working c
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/github.png)
+![alt text](../Logo/github.png)
 
 </div>
 
@@ -991,7 +991,7 @@ There were also real conflicts, as depicted below:
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/github-real-conflicts.png)
+![alt text](../Logo/github-real-conflicts.png)
 
 </div>
 
@@ -999,7 +999,7 @@ We dealt this by fixing all conflicts manually before making a commit. This then
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/github-conflicts.png)
+![alt text](../Logo/github-conflicts.png)
 
 </div>
 
@@ -1014,6 +1014,6 @@ ___
 
 ## Navigate
 
-- [Go To Next Section: Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
-- [Go To Previous Section: UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
-- [Go Back To: Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+- [Go To Next Section: Evaluation](/Evaluation.md)
+- [Go To Previous Section: UX Design](/UX_Design.md)
+- [Go Back To: Readme](../README.md)
