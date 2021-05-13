@@ -219,6 +219,8 @@ In light of these user requirements, we decided to tailor our approach. For this
 
 The first three of these suggestions are applicable to our application. It is these types of game design that we wanted our product to be based upon. From our perspective, we agreed that it was important to address the issues of loneliness and isolation in a fun, playful way. We wanted our platform to be viewed as a form of entertainment that could be used for social and cognitive purposes. We also decided to create our platform as a game with rules and structure because we felt that a game of this type would encourage competition and entertainment and lend itself to sharpening the mind in a social interaction - all delivered through a simple, visually appealing front-end.
 
+Using these insights we were able to optimise the the product design.
+
 ## Understanding user group
 
 As we showed in the above section on [Evolution of UI Design](#evolution-of-ui-design), one of the methods we used to better understand our user group was questionnaires. In particular, we distributed a digital UI prototype to potential users with an online questionnaire. This was a very effective way of obtaining clear, unambiguous information from our users regarding the UI of our product. Another method we used to improve our understanding of our users was through user stories. In what follows, we identify our users and stakeholders before detailing the user and stakeholder stories we used to develop our understanding the group who would eventually be using our product.
