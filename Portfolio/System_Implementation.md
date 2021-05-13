@@ -16,18 +16,18 @@ In this section, we discuss the the system implementation of the app. We start w
    * [Overview of stack](#overview-of-stack)
 * [**Back End**](#back-end)
    * [MongoDB](#mongodb)
-   * [Details of Implementation](#details-of-implementation)
+   * [Back End : Details of Implementation](#backend--details-of-implementation)
 * [**Middle tier**](#middle-tier)
    * [Express](#express)
    * [Node](#node)
    * [RESTful API](#restful-api)
-   * [Details of Implementation](#details-of-implementation)
+   * [Middle Tier : Details of Implementation](#middle tier--details-of-implementation)
 * [**Front end**](#front-end)
-   * [Details of Implementation](#details-of-implementation)
+   * [Front End : Details of Implementation](#front-end--details-of-implementation)
 * [**Additional elements and components**](#additional-elements-and-components)
-   * [Details of Implementation](#details-of-implementation)
+   * [Additional elements: Details of Implementation](#additional-elements--details-of-implementation)
 * [**Deployment and integration**](#deployment-and-integration)
-   * [Details of Implementation](#details-of-implementation)
+   * [Deployment: Details of Implementation](#deployment--details-of-implementation)
 
 
 ## Stack architecture and system design
@@ -104,7 +104,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilises an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for easy front-end use.
 
-### Details of Implementation
+### Back End: Details of Implementation
 
 With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an intial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars. This allowed potential to expand the app to have a leaderboard element and some customization.
 
@@ -189,7 +189,7 @@ Express is a Node.js framework which simplifies writing server-side logic. It is
 
 RESTful API makes it easy to decouple the backend code from the front end so that it can be used across multiple applications/platforms. To build a RESTful API, we use Node.js as our backend language, express.js to create routes easier and middlewares, and mongodb together with mongoose to create schemas and models and store the data.
 
-### Details of Implementation
+### Middle Tier : Details of Implementation
 
 We now give a detailed overview of the API implementation, beginning with the API work flow.
 
@@ -693,7 +693,7 @@ Angular is a client-side framework which is really effective at building SPAs. T
 Angular is great for getting creating a professional UI in very little time. The tree of angular components are really useful for several reasons. First, it's easily maintainable. Second, readability is improved. Third, reusability. The details of our front-end implementation now follow.
 
 
-### Details of Implementation
+### Front End: Details of Implementation
 
 
 Below is an image of the front-end class diagram:
@@ -852,7 +852,7 @@ An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-proj
         path: 'leaderboard',
         component: LeaderboardComponent
       }
-   ] 
+   ]
  },
  { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},   
 ```
@@ -914,7 +914,7 @@ As we mentioned earlier in the user authentication part, the user form data will
 
 ```typescript
 login(){
-    const formData = this.checkLoginForm 
+    const formData = this.checkLoginForm
     this.authService.login(formData).subscribe(
       (data:any)=>{
         this.errMsg = ''
@@ -933,7 +933,7 @@ login(){
 
 ### Home Page
 
-The `home-page` component is the parent component of `game-menu`, `leaderboard` and `profile` components. To navigate between these subcomponents, we choosed to use the `navbar` component from [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). To match the style of our project, the navbar was made as transparent and fixed at the top of the page. 
+The `home-page` component is the parent component of `game-menu`, `leaderboard` and `profile` components. To navigate between these subcomponents, we choosed to use the `navbar` component from [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). To match the style of our project, the navbar was made as transparent and fixed at the top of the page.
 <div align="center">
 
 
@@ -975,7 +975,7 @@ Now, we are going to look at the child components of the `home-page` component:
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/homepage.png)
 
 </div>
-The game menu component is composed of a title component and button group component which serve as an interface for the specific gameplay page with the two buttons of game names. 
+The game menu component is composed of a title component and button group component which serve as an interface for the specific gameplay page with the two buttons of game names.
 
 #### Leaderboard
 
@@ -1008,7 +1008,7 @@ The leaderboard component is another important part of our product which will pr
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/profile.gif" width="100%">
 </p>
 
-The `profile` component is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking their names and click on "back" button to go back to their own profile. The recent matches is presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented. 
+The `profile` component is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking their names and click on "back" button to go back to their own profile. The recent matches is presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented.
 
 ### Page Responsiveness
 
@@ -1024,7 +1024,7 @@ The deployment of our app utilized the software known as Docker. Compatibility f
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
 
-### Details of Implementation
+### Deployment: Details of Implementation]
 
 Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
 
