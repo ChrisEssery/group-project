@@ -885,6 +885,12 @@ As mentioned in the subsection on [digital literacy](https://github.com/ChrisEss
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/login-page.png)
 
 </div>
+<div align="center">
+
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/formvalidation.png)
+
+</div>
 
 The signup and login page includes the static title with the consistent style of the title from the start page, the background component and the reactive forms provided by Angular. [Angular reactive forms](https://angular.io/guide/reactive-forms) provide a model-driven approach to handling form inputs whose values change over time. In order to validate form input and display useful validation messages, we added the required validator to the registration/login forms and used the Angular built-in `NgModel` to check for control states such as `valid` and `dirty` and display messages which can be seen below:
 
