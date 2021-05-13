@@ -179,7 +179,7 @@ Because we were familiar with both of these applications, we were able to seamle
 
 The sprints are in chronological order, starting with the first sprint in early March all the way up to the final sprint in the beginning of May.
 
-**ADD GANTT CHART**
+![alt text](../Logo/Gantt_Chart.png)
 
 In what follows we will refer to the meeting notes, product backlog, list of key features to be implemented from previous sprints, and user feedback. Items in the backlog were tagged as 'Done' once they had been completed and implemented.
 
