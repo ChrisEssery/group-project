@@ -14,8 +14,6 @@ In this section, we discuss the the system implementation of the app. We start w
 
 * [**Stack architecture and system design**](#Stack-architecture-and-system-design)
    * [Overview of stack](#overview-of-stack)
-   * [Class diagrams](#class-diagram)
-   * [Sequence diagrams](#sequence-diagrams)
 * [**Back End**](#back-end)
    * [MongoDB](#mongodb)
    * [Details of Implementation](#details-of-implementation)
@@ -82,10 +80,6 @@ How do we connect these two? We send requests and responses. These are called AJ
 
 This is the big picture view of the MEAN stack. Now, let's turn to class and sequence diagrams.
 
-### Class diagrams
-
-
-### Sequence diagrams
 
 With this information in mind, we will turn our attention to the back-end of the stack and provide a detailed overview of its implementation.
 
@@ -665,7 +659,7 @@ exports.check_api_token = (req, res, next) => {
 ```
 
 ### User data protection
-In order to keep the password secure before saving to the database, we used [blueimp-md5](https://www.npmjs.com/package/blueimp-md5) to encrypt the user password, which can be seen below: 
+In order to keep the password secure before saving to the database, we used [blueimp-md5](https://www.npmjs.com/package/blueimp-md5) to encrypt the user password, which can be seen below:
 
 Case: User Register:
 ```javascript
@@ -724,7 +718,7 @@ To implement user authentication with Angular in the frontend, we referred to th
 
 To introduce the detailed features of how we implement user authentication in the frontend, we'll start with the user registration and login process:
 
-#### User registration and user login 
+#### User registration and user login
 
 The [`Login`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/login-page) & [`Register`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/signup-page) components have forms for submission data (with support of Form Validation). Then, they use [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) which uses Angular `HttpClient` ($http service) for sending signin/signup requests (shown below).
 
@@ -741,7 +735,7 @@ export class AuthService {
   login(credentials: any){
     return this.httpClient.post(this.USER_AUTH_API+'/session', credentials)
   }
-  
+
   signout(username: String){
     return this.httpClient.delete(this.USER_AUTH_API+'/session')
   }
@@ -839,7 +833,7 @@ export class AuthGuard implements CanActivate {
 }
 ```
 
-In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts), any attempts to access the home page will be passed to [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to check the permission. 
+In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts), any attempts to access the home page will be passed to [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to check the permission.
 
 An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) in the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts) can be seen below:
 
@@ -850,10 +844,10 @@ An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-proj
     children: [
       {
         path: '',
-        component: GameMenuComponent 
+        component: GameMenuComponent
       },
       {
-        path: 'profile', 
+        path: 'profile',
         component: ProfileComponent
       },
       {

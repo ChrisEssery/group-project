@@ -16,7 +16,7 @@ In this section, we discuss the User Experience (UX) design of our app. We start
   * [Design Process and Ideation](#design-process-and-ideation)
   * [Evolution of UI Design](#evolution-of-ui-design)
 * [**Identification of users and stakeholders**](#identification-of-users-and-stakeholders)
-* [**UX approach - design methods**](#ux-approach--design-methods)
+* [**UX approach : design methods**](#ux-approach--design-methods)
   * [Design heuristics](#design-heuristics)
   * [User-centred design](#user-centred-design)
 * [**Understanding user group**](#understanding-user-group)
@@ -163,7 +163,7 @@ There was plenty of scope to include more stakeholders to this list of four. For
 
 Now, before turning to our stakeholder stories, we consider the UX approach and design methods we took to shape the style and design of our product to meet the usability requirements of end-users.
 
-## UX approach - design methods
+## UX approach : design methods
 
 When considering the UX approach, we felt it was important to choose something tried and tested, which we could rely on to guide us. For this reason we chose to use the 'ten commandments' articulated by Jakob Nielson and Rold Molich in their famous paper "Improving a Human-Computer Dialogue"[**6**](#references). In this paper, the authors claim that there are a set of principles (referred to as heuristics) which people in industry can use and adopt to make an informed assessment of their human-computer interaction. Let's explore this in more depth.
 
