@@ -16,7 +16,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Software Development Lifecycle](#software-development-lifecycle)
       * [The waterfall method](#the-waterfall-method)
       * [The Agile methods](#the-agile-method)
-      * [Agile - Our chosen methodology](#agile-our-chosen-methodology)
+      * [Agile : Our chosen methodology](#agile-our--chosen-methodology)
 * [**Team Organisation**](#team-organisation)
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
@@ -29,7 +29,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
    * [Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-api-finalised-260421-030521)
-   * [Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)](#sprint-8--finish-report-030521-070521)
+   * [Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)](#sprint-8--finish-report-and-complete-unit-testing-030521-070521)
 * [**Team use of Git**](#team-use-of-git)
 
 
