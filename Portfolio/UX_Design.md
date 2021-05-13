@@ -16,7 +16,7 @@ In this section, we discuss the User Experience (UX) design of our app. We start
   * [Design Process and Ideation](#design-process-and-ideation)
   * [Evolution of UI Design](#evolution-of-ui-design)
 * [**Identification of users and stakeholders**](#identification-of-users-and-stakeholders)
-* [**UX approach-design methods**](#ux-approach--design-methods)
+* [**UX approach : design methods**](#ux-approach--design-methods)
   * [Design heuristics](#design-heuristics)
   * [User-centred design](#user-centred-design)
 * [**Understanding user group**](#understanding-user-group)
