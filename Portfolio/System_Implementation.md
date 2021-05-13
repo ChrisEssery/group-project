@@ -25,9 +25,9 @@ In this section, we discuss the the system implementation of the app. We start w
 * [**Front end**](#front-end)
    * [Front End : Details of Implementation](#front-end--details-of-implementation)
 * [**Additional elements and components**](#additional-elements-and-components)
-   * [Additional elements: Details of Implementation](#additional-elements--details-of-implementation)
+   * [Additional elements: Details of Implementation](#additional-elements-and-components)
 * [**Deployment and integration**](#deployment-and-integration)
-   * [Deployment: Details of Implementation](#deployment--details-of-implementation)
+   * [Deployment: Details of Implementation](#deployment-and-integration)
 
 
 ## Stack architecture and system design
@@ -1021,19 +1021,9 @@ The following ways were used to make the screen responsive to different variatio
 2. media query
 
 
-## Deployment and Integration
+## Additional elements and components
 
-The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
-
-### Deployment: Details of Implementation
-
-Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
-
-In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
-
-Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
+### Additional elements: Details of Implementation
 
 ### Multiplayer Functionality
 
@@ -1114,6 +1104,22 @@ For the purpose of this project, the solution architected was not overly complex
 There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
 <img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">
+
+## Deployment and Integration
+
+The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
+
+### Deployment: Details of Implementation
+
+Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
+
+In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
+
+Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
+
+
 
 ___
 
