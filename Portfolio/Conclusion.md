@@ -82,6 +82,10 @@ With the help of Jira and Microsoft Teams the sprints were made very easy. At th
 
 We would then regroup the following week with the current progress. The team members could share what they’ve done whilst the others give encouragement and discuss improvements. We could also discuss the user and stake holder feedback that we would expect should a player of our game use the app at that moment in time.
 
+Our sprints got under way in the beginning of March and continued until early May. Each sprint centred around feature implementations required for that week, as well as including any tasks in the backlog from previous sprints. The goals for the week were decided and we kept to those goals until the end of the week. We reviewed our work at the end of each sprint. This meant that our approach towards the development of the product was consistent with the agile methodology, and given the fact that we had very little time to build the product we felt it was very important to incorporate the proto-personas during every sprint.
+
+With respect to the meetings and sprints and how they worked, we met every Monday at 11am. And then on Wednesdays and Fridays. In every successive meeting we discussed the work we had done, and when items were assigned tasks as "complete". We compiled a list of Backlog and items that were complete. Overall, though, at the heart of this process was the users. During every sprint we had the users in mind, ensuring that we addressed their goals and demands.
+
 Overall, the sprints were managed very effectively. The team did an amazing job to chip away at the work week by week. This meant we weren’t scrambling at the end of the project to get everything done. It allowed us more time for further documentation and to add any extra simple features.
 
 ### Github
