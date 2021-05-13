@@ -163,7 +163,7 @@ We were unable to complete this objective due to the time constraints placed on 
 
   * ***Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy.***
 
-With this objective, it is fair to say that we were successful.
+Throughout every stage of the development of our application, our design philosophy has revolved around making the application as clear and easy to read and navigate as possible, without compromising any of the functionality of our app.
 
 ### How did we 'serious play' in our application?
 
