@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](./Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](/Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
