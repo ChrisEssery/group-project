@@ -363,11 +363,15 @@ Here, 'functionality' refers to whether product behaves the way it should irresp
 
 We took observation notes and asked the participants to write down notes about the product. These notes were then used to develop an affinity chart. Overall the feedback was very helpful for identifying any design issues or functionality problems. During the session, we used screen sharing to demonstrate how to use the application.
 
-The feedback is summarise below:
+The feedback is summarise in the affinity diagram below:
 
-   *
-   *
-   *
+![alt text](../Logo/affinity.png)
+
+The main suggestions for improving the product were:
+
+   * Additional instructions required, particularly for the games.
+   * More games would be preferable.
+   * Rewards and prizes would enhance the gaming experience.
 
 This helped inform our design choices and tested the functionality of the platform. Whilst this was a really useful test to perform before pre-release, we would have benefited from more time and resources to conduct this type of field testing on a group of participants unknown to us for both Beta and Gamma testing.
 
