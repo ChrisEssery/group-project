@@ -15,8 +15,8 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Group working methods**](#group-working-methods)
    * [Software Development Lifecycle](#software-development-lifecycle)
       * [The waterfall method](#the-waterfall-method)
-      * [The Agile method](#the-agile-method)
-      * [Agile - Our chosen methodology](#agile-our-chosen-methodology)
+      * [The Agile methods](#the-agile-method)
+      * [Agile : Our chosen methodology](#agile--our-chosen-methodology)
 * [**Team Organisation**](#team-organisation)
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
@@ -29,7 +29,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
    * [Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-api-finalised-260421-030521)
-   * [Sprint 8 : Finish report (03.05.21-07.05.21)](#sprint-8--finish-report-030521-070521)
+   * [Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)](#sprint-8--finish-report-and-complete-unit-testing-030521-070521)
 * [**Team use of Git**](#team-use-of-git)
 
 
@@ -100,7 +100,7 @@ There are several different frameworks used to implement the Agile method: Featu
 - No finite end to the project
 
 
-### Agile - Our chosen methodology
+### Agile : Our chosen methodology
 
 In light of the strengths and weaknesses of both methodologies, we decided to use the Agile approach for our project development. The reason for this was fourfold. First, we really liked the client-focused approach of Agile. This was, we felt, appropriate for our purposes since our application was designed with important usability requirements. Without regular feedback from our end-users then, we wouldn't necessarily be able to meet those usability requirements, and produce a product which they would actually be able to use. Second, we liked the idea of building software quickly. This was really relevant for our project since we only had 12 weeks to build our product whilst balancing the competing demands of two other units. Third, and related to the two previous reasons, being able to improve the features iteratively early in the lifecycle seemed more sensible as it would allow us to change the design of the product whenever required. Had we chosen to follow the waterfall approach, this type of flexibility would have been out of the question. Fourth, and finally, we felt that the inflexibility of the waterfall method, particular with regards to changing requirements, would really hamper the development and prevent us from producing a usable product. As such, it seemed like an untenable method for our particular purposes.
 
@@ -154,7 +154,7 @@ Like Lizhao, Chris's strengths lie in coding, but with a particular focus on the
 
 ## Communication
 
-In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](/Team_Meetings.md).
+In light of the COVID-19 pandemic and national lockdown, our team was unable to meet in person to discuss the system design and implementation. We were also unable to sit down and write code together. Given these constraints, it was essential that we kept in regular contact with one another. We did this via two communication platforms. The first platform we used was Microsoft Teams, which we felt was an excellent platform for hosting meetings. Throughout the project we took detailed team meeting notes which can be found [here](../Portfolio/Team_Meetings.md).
 
 <div align="center">
 
@@ -199,7 +199,7 @@ With this in mind, let's now turn to the weekly sprints.
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. With regards to communication, we agreed on the main channels of communication, namely Microsoft Teams and Discord. We also decided to create stakeholder stories, including user stories, to help guide us during the development. We also made progress on our repository on Github. We tried to build on our understanding of the basic operations of GitHub, including merge conflicts, fast-forwards, and the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of Git**](#team-use-of-git)). We added sections to our readme and made progress with our documentation. We agreed to build a start page for our application, and finalised our decision to build a online multiplayer game plaform for the elderly with video chat. In addition to this, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. With regards to communication, we agreed on the main channels of communication, namely Microsoft Teams and Discord. We also decided to create stakeholder stories, including user stories, to help guide us during the development. We also made progress on our repository on Github. We tried to build on our understanding of the basic operations of GitHub, including merge conflicts, fast-forwards, and the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of Git**](#team-use-of-git). We added sections to our readme and made progress with our documentation. We agreed to build a start page for our application, and finalised our decision to build a online multiplayer game plaform for the elderly with video chat. In addition to this, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
 
 ### Key points
 
@@ -290,7 +290,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
@@ -372,7 +372,7 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="../UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="./UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page.</td>
  <td>Start page</td>
  <td>Start page</td>
@@ -450,7 +450,7 @@ By this stage, we felt it was appropriate to pause the sprints. The rationale fo
 ___
 
 
-This was the first sprint following the two week pause to our sprints. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to add multiplayer functionality, video chat and start building the back-end of our system. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people. Another major aim for this sprint was to implement basic features such user login, signup, logout, get user information, get friend list, and add friend. And to test on all of those features.
+This was the first sprint following the two week pause to our sprints. By this point we had completed a lot of the backlog items, and had made a lot of progress both with the system implementation and the documentation. The aim of this sprint was to add multiplayer functionality, video chat and start building the back-end of our system. Having obtained feedback from users regarding the start page in the previous sprint, and created UI wireframe and obtain user feedback from a questionnaire regarding UI wireframe, we wanted to add multiplayer functionality and video chat. These features were essential for our product, since having identified [a gap in the market](../Portfolio/Background.md#a-gap-in-the-market) in the background section we knew that video chat with multiplayer mode were lacking in existing gaming platforms for older people. Another major aim for this sprint was to implement basic features such user login, signup, logout, get user information, get friend list, and add friend. And to test on all of those features.
 
 ### Key points
 

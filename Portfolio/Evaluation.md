@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](../Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
@@ -51,7 +51,7 @@ With these limitations in mind, we decided to create a short video demo of the p
 
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="">
+  <img width="700" height="400" src="../Portfolio/images/demo.gif" alt="">
   <br/>
   <b >Paper Prototype Demo</b>
   <br/><br/>
@@ -147,38 +147,38 @@ The first method is models of behaviour. These empirical research models of huma
 Functional testing is paramount to the successful launching of our MEAN stack SPA. Thankfully the MEAN stack includes some prerequisite software which helps implement easy front-end functional testing on the differing components.
 The software includes Karma which is a test-runner for JavaScript which runs on Node.js. Karma is great for testing code in browsers as well as different devices. The software allows us to clearly see which tests are failing within the specific components. This helps speed up the debugging process.
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Karma.png)
+![alt text](../Logo/Karma.png)
 
 For Karma to work well we need to implement a test framework for our project. The are a wide variety of frameworks to choose from with some of the most popular being Mocha and Jasmine. Both of these frameworks allow us to write tests on our individual components. Mocha is a popular choice and actually also has an inbuilt driver which can also run tests in the browser just like Karma. Karma is however the better option to run these tests on thanks to its flexibility in its browser testing. Also, Mocha is lacking in assertion testing and requires a plug-in called Chai to be able to write such tests. Jasmine on the other hand already has these assertion tests built in. Weighing this all up we decided to choose Jasmine for our implementation.
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Jasmine_Mocha.png)
+![alt text](../Logo/Jasmine_Mocha.png)
 
 Now that the framework was chosen, we could specifically test our JavaScript code using the Jasmine syntax which will capture any problematic component issues. See below for how these software’s were utilized on our project.
 To begin the front-end testing, we had to produce a test plan as below:
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/TestPlan.png)
+![alt text](../Logo/TestPlan.png)
 
 This test plan outlines the specifics of our front-end testing. As you can see our focus was purely on the navigation of our users as well as logging out effectively. We also fixed all the default angular tests such that all components are created. In order to implement this, we had to edit the components spec files which our tests focused upon. As below:
 
 ### Implementation
 
 #### Test A.
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/InvalidPassandUser.png)
+![alt text](../Logo/InvalidPassandUser.png)
 
 #### Test B.
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Navigation.png)
+![alt text](../Logo/Navigation.png)
 
 #### Test C.
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/SignoutWorks.png)
+![alt text](../Logo/SignoutWorks.png)
 
 #### Test D
 We wanted to extend our testing to fix the default Angular tests so that we could see if there were any hidden issues in our components. For the most part this was simple and just required the adding of the RouterTestingModule and HttpClientModule. However, it did unearth a few unexpected issues. These resided within the card and Jitsi components.
 
 The first issue with the card component was that the card class was not produced prior to checking the component existed. This caused an undefined issue given that the elements within the class were not assigned. This was a straightforward fix and just required an import of the card class and initializing an instance of this as below:
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/FixTesting1.png)
+![alt text](../Logo/FixTesting1.png)
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/FixTesting2.png)
+![alt text](../Logo/FixTesting2.png)
 
 The second issue was with Jitsi. This issue still remains and can be observed as a failure after running ‘ng test’. Due to how the Jitsi library/API is written, this test failure is unavoidable. However, this does not impact the functionality or the user experience of the application, as discovered via rigorous during development and testing. The Jitsi library is written in such a way that even if imported locally and compiled with the project, the JitsiMeetAPI library has to be embedded and called via a <script> tag, meaning that it is not called until the application is loaded. This therefore meant that we had to use the 'declare' keyword to notify the TypeScript compiler that the variable exists and has a specific type, so that when the script is loaded, the object can be created and it's methods can be called.
 
@@ -188,16 +188,16 @@ To avoid this test failure, we could have used a library that enabled us to do e
 ### Test Results
 Through running ‘ng test’ we could easily see any issues within our front-end code which could be problematic for our users. The Karma software allows us to clearly see which components failed the specific tests and hints towards fixes for these.
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/TotalPasses.png)
+![alt text](../Logo/TotalPasses.png)
 
 #### Test A.
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/LoginTestWorks.png)
+![alt text](../Logo/LoginTestWorks.png)
 
 #### Test B & C.
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NavbarTestWorks.png)
+![alt text](../Logo/NavbarTestWorks.png)
 
 #### Test D
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/JitsiFail.png)
+![alt text](../Logo/JitsiFail.png)
 
 Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct. Whilst the issue with Jitsi was unresolvable if we had further time then this could be something we would look to fix.
 
@@ -253,7 +253,7 @@ remove all the changes to the database
 4. make sure that data is transferred/updated to the database correctly
 
 API testing collection:
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/collection.png)
+![image](../Portfolio/images/collection.png)
 **Methods:**
 
 To carry out testst, we used the `pm.response` object in Postman. You defined tests using the `pm.test` function, providing a name and function that returns a boolean (`true` or `false`) value indicating whether the test passed or failed. Then, we used [ChaiJS BDD](https://www.chaijs.com/api/bdd/) syntax and `pm.expect` in the assertions to test the response detail. Here are some selected parts of the testing codes:  
@@ -324,14 +324,14 @@ Please see our [published api document](https://documenter.getpostman.com/view/1
 
 **Test Results:**
 1. API tests
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/1.png)
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/2.png)
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/3.png)
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/4.png)
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/5.png)
+![image](../Portfolio/images/1.png)
+![image](../Portfolio/images/2.png)
+![image](../Portfolio/images/3.png)
+![image](../Portfolio/images/4.png)
+![image](../Portfolio/images/5.png)
 2. Database status
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/testuserscollection.png)
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/testgamescollection.png)
+![image](../Portfolio/images/testuserscollection.png)
+![image](../Portfolio/images/testgamescollection.png)
 
 
 ## User acceptance testing
@@ -391,6 +391,6 @@ ___
 
 ## Navigate
 
-- [Go To Next Section: Conclusion](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Conclusion.md)
-- [Go To Previous Section: Sprints & Project Management](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md)
-- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+- [Go To Next Section: Conclusion](../Portfolio/Conclusion.md)
+- [Go To Previous Section: Sprints & Project Management](../Portfolio/Sprints_Project_Management.md)
+- [Go Back To Readme](../README.md)
