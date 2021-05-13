@@ -169,7 +169,7 @@ They also suggest avoiding placing interactive items towards the edge of the win
 
 ### How did we 'serious play' in our application?
 
-As discussed in the background and UX design sections of this report, the concept of 'serious play' underpinned our research, design and development of our project. 
+As discussed in the background and UX design sections of this report, the concept of 'serious play' underpinned our research, design and development of our project. Referring back to the work of Zimmerman (2004), we ultimately ended up using play as an activity mediated through structure and rules. 
 
 ## Impact of Covid-19
 
