@@ -39,7 +39,7 @@ In this section, we discuss project sprints and management. We start by going ov
 
 With regard to the group working methods, we knew it was very important to maintain regular contact with one another throughout the duration of the unit. Given that we were working remotely, communication was obviously essential. For a discussion on our chosen form of communication, see [Communication](#communication).
 
-We also realised the importance of delegation. So, to ensure that the team was organised with a clear, delegated structure in mind we assigned team roles. For a discussion of this, see [Team Organisation](#team-ogranisation) and [Team roles and contributions](#team-roles-and-contributions).
+We also realised the importance of delegation. So, to ensure that the team was organised with a clear, delegated structure in mind we assigned team roles. For a discussion of this, see [Team Organisation](#team-organisation) and [Team roles and contributions](#team-roles-and-contributions).
 
 ## Software development lifecycle
 
