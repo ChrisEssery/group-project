@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](../Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
@@ -47,7 +47,7 @@ Below is a mind map created for our project ideation phase. This mind map shows 
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/mind_map.png)
+![alt text](../Logo/mind_map.png)
 
 </div>
 
@@ -57,7 +57,7 @@ Below is another mind map which contains different world issues and problems. As
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/mind_map2.png)
+![alt text](../Logo/mind_map2.png)
 
 </div>
 
@@ -69,9 +69,9 @@ As you can see, the rows are populated with different types of games. These incl
 
 [![ideas.png](https://i.postimg.cc/GtcMx9sp/ideas.png)](https://postimg.cc/MMFbW65k)
 
-After some deliberation, our team decided that we would develop a product to address loneliness and isolation in older adults. This, we felt, was a very important issue in society, and was something that each one of us had direct experience of with older grandparents. It was also an issue that could be addressed through 'serious play'.  This concept was, as mentioned in the [Background](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md) section of this report, essential for shaping our understanding of the product - namely, what it would look like and how it would work. So, using this concept, and in particular, Zimmerman's category of 'game play', we were able to make informed decisions regarding this stage of the product design. In particular, we decided on the basic structure and rules of the platform and how it would serve to help our end-users. As discussed in the subsection on the [psychology of playing games](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#the-psychology-of-playing-games), there were several questions we had to ask during this ideation phase. For instance: does our app have a clear goal? Is this goal apparent upfront to the user, or is it something they have to discover through using our platform? Will our application raise awareness of an issue? And if it does, will this be explicit or implicit in the product? These were all pertinent questions we had to ask ourselves when considering the design our application. By using these questions, we were able to pin down key goals of our platform.
+After some deliberation, our team decided that we would develop a product to address loneliness and isolation in older adults. This, we felt, was a very important issue in society, and was something that each one of us had direct experience of with older grandparents. It was also an issue that could be addressed through 'serious play'.  This concept was, as mentioned in the [Background](../Portfolio/Background.md) section of this report, essential for shaping our understanding of the product - namely, what it would look like and how it would work. So, using this concept, and in particular, Zimmerman's category of 'game play', we were able to make informed decisions regarding this stage of the product design. In particular, we decided on the basic structure and rules of the platform and how it would serve to help our end-users. As discussed in the subsection on the [psychology of playing games](../Portfolio/Background.md#the-psychology-of-playing-games), there were several questions we had to ask during this ideation phase. For instance: does our app have a clear goal? Is this goal apparent upfront to the user, or is it something they have to discover through using our platform? Will our application raise awareness of an issue? And if it does, will this be explicit or implicit in the product? These were all pertinent questions we had to ask ourselves when considering the design our application. By using these questions, we were able to pin down key goals of our platform.
 
-As already mentioned, we decided that our product would aim to promote behaviour change through an online gaming platform. We agreed that this would serve to address the issues of loneliness and isolation in our end-users. And we wanted to design the product to facilitate brain training, develop fine motor skills and strategic thinking capabilities through challenging games. Having researched the [extrinsic and intrinsic motivations](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#extrinsic-vs-intrinsic-motivations) that drive gameplay, we knew that our end-users would have extrinsic motivations in the form of leaderboards, winning games, and social contact and that these motivations would, over time, turn into intrinsic motivation in the form of enjoyment, purpose, growth, and curiosity. It was, therefore, important for us to bear both of these motivations in mind when designing the UI. That is, to find an alignment between these intrinsic and extrinsic motivations, and integrate features capable of eliciting both of them. This was of great importance.
+As already mentioned, we decided that our product would aim to promote behaviour change through an online gaming platform. We agreed that this would serve to address the issues of loneliness and isolation in our end-users. And we wanted to design the product to facilitate brain training, develop fine motor skills and strategic thinking capabilities through challenging games. Having researched the [extrinsic and intrinsic motivations](../Portfolio/Background.md#extrinsic-vs-intrinsic-motivations) that drive gameplay, we knew that our end-users would have extrinsic motivations in the form of leaderboards, winning games, and social contact and that these motivations would, over time, turn into intrinsic motivation in the form of enjoyment, purpose, growth, and curiosity. It was, therefore, important for us to bear both of these motivations in mind when designing the UI. That is, to find an alignment between these intrinsic and extrinsic motivations, and integrate features capable of eliciting both of them. This was of great importance.
 
 Overall, this design and ideation phase was an excellent way to bounce around ideas and hone in on a narrow range of games. But this ideation phase required refinement. In particular, we needed to improve and enhance the UI and UX. So, we moved on to produce a paper prototype, prototype video, UI wireframe, and an updated UI wireframe. With these steps in the UI and UX design, we developed further insights about what our end-users wanted. With this in mind, we now go on to explain the evolution of the app's UI design. This evolution changed and developed over time with a total of four separate versions.
 
@@ -86,7 +86,7 @@ At this stage, we used the shared powerpoint in Teams to brainstorm and design e
 At this stage, we integrated all the web pages together and focused on adding navigation between the pages. We filmed a short video demo to make sure the navigation flow goes well.
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/demo.gif" alt="">
+  <img width="700" height="400" src="../Portfolio/images/demo.gif" alt="">
   <br/>
   <b >Paper Prototype Demo</b>
   <br/><br/>
@@ -102,9 +102,9 @@ At this stage, we converted the paper prototype of our website to a wireframe to
 We distributed the digital UI prototype to the potential users and created a test to gather user feedback with a focus on the feasibility of the website, the functionality and ease of use. We distributed our digital UI prototype to the potential users with an online questionnaire to gather feedback and update our wireframes.
 
 Here are some sample questions from the prototype test:
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test1.png)
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test2.png)
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/test3.png)
+![image](../Portfolio/images/test1.png)
+![image](../Portfolio/images/test2.png)
+![image](../Portfolio/images/test3.png)
 See our full test report [here](https://my.helio.app/report/01F1WDKPM82XVYYJVE0HS5Q93T).
 <br/><br/>
 
@@ -123,7 +123,7 @@ Based on the report, we focused on the following key issues to update:
 Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQzi/NotSoBoredGames?node-id=6%3A137&scaling=scale-down&page-id=6%3A121) for our website:
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/updated%20wireframe.png" alt="">
+  <img width="700" height="400" src="../Portfolio/images/updated%20wireframe.png" alt="">
   <br/>
   <b align="center">UI Wireframe</b>
   <br/><br/>
@@ -131,13 +131,13 @@ Here is the [updated wireframe](https://www.figma.com/proto/fEaURWLCXr8yoBFjMjvQ
 
 The UI wireframe above provides a low-fidelity skeleton of the UI. This serves to show the main features, layout, content, and functionality of the UI, without getting bogged down in the visual design of the app. It is essential in UI design as it determines what the user will eventually interact with when they eventually use the software, and it helps those working on the front-end of the product to better understand how they should design and build the main features and functions of the UI.
 
-With the insights gained from the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, we were very mindful when creating the UI wireframe of how important it was to make our application as simple and straightforward as possible. Given this, the start page, login and both games are all designed to have a limited number of features, the style of which is clear, brightly coloured, and easy to navigate. This approach to UI was very important because the elderly demographic have the lowest levels of digital literacy. Making the application simple and easy to use was, therefore, an absolute necessity to ensure it was accessible to those end-users. To not do so would amount to excluding those end-users from using the product, which is at odds with our approach to UI and UX design. The game design, and in particular, the usability requirements for our target users are explored in more depth in the next subsection [Game design for older people](#game-design-for-older-people).
+With the insights gained from the subsection on [digital literacy](../Portfolio/Background.md#digital-literacy) in the Background section, we were very mindful when creating the UI wireframe of how important it was to make our application as simple and straightforward as possible. Given this, the start page, login and both games are all designed to have a limited number of features, the style of which is clear, brightly coloured, and easy to navigate. This approach to UI was very important because the elderly demographic have the lowest levels of digital literacy. Making the application simple and easy to use was, therefore, an absolute necessity to ensure it was accessible to those end-users. To not do so would amount to excluding those end-users from using the product, which is at odds with our approach to UI and UX design. The game design, and in particular, the usability requirements for our target users are explored in more depth in the next subsection [Game design for older people](#game-design-for-older-people).
 
 Turning back to the UI wireframe, it can be presented in the form of a UI demo, as shown below:
 
 <br/><br/>
 <p align="center">
-  <img width="700" height="400" src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/Wireframe.gif" alt="">
+  <img width="700" height="400" src="../Portfolio/images/Wireframe.gif" alt="">
   <br/>
   <b align="center">UI Demo</b>
   <br/><br/>
@@ -157,7 +157,7 @@ When identifying the users and stakeholders, we took the decision to use two end
 
 ```
 
-The end-users are two members of our target group, both with interests in online gaming as a platform for connecting with others. The two additional stakeholders are a product manager who offers advice on the design of the product, and a care home manager acting as a sponsor. It is important to note that these end-users and stakeholders are all 'proto-personas'. These [proto-personas](https://pdmethods.com/proto-personas/) are based on assumptions about relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework. These fictional characters whose identities have been created to guarantee our approach aligns with the agile method hold views that represent feedback collected from real users obtained through the methods used to evaluated our design, as well as our own personal reflections on the product design from the perspective of our end-users. For a discussion of the strengths and weaknesses of this method, see our [Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md#user-stories).
+The end-users are two members of our target group, both with interests in online gaming as a platform for connecting with others. The two additional stakeholders are a product manager who offers advice on the design of the product, and a care home manager acting as a sponsor. It is important to note that these end-users and stakeholders are all 'proto-personas'. These [proto-personas](https://pdmethods.com/proto-personas/) are based on assumptions about relevant stakeholders, and are designed to simulate the approach taken in a real-life agile project, during which there is a continuous dialogue between the software development team and their clients, owing to the client-led approach at the heart of the agile framework. These fictional characters whose identities have been created to guarantee our approach aligns with the agile method hold views that represent feedback collected from real users obtained through the methods used to evaluated our design, as well as our own personal reflections on the product design from the perspective of our end-users. For a discussion of the strengths and weaknesses of this method, see our [Evaluation](../Portfolio/Evaluation.md#user-stories).
 
 There was plenty of scope to include more stakeholders to this list of four. For instance, we could have included administrative staff who might work for NotSoBored games, who communicate with stakeholders about any new features or updates. We could also have included charities and organisations who care for and/or support older adults. Other potential stakeholders could include family members of our end-users, whose more advanced understanding of digital technology could be used to support their older family members. However, due to time-constraints we decided that four stakeholders would suffice to inform us during the each sprint. This approach adopts an [autoethnography](https://www.researchgate.net/publication/260778406_Autoethnography_as_a_research_method_Advantages_limitations_and_criticisms) approach. An autoethnography is a form of qualitative research based on self-reflection and the process of writing to explore and understand personal experiences and connect this autobiographical story to wider societal issues. For our purposes, this relates to self-reflection on the position of our stakeholders via proto-personas. This was an excellent method for adding stakeholders into our agile development, and meant that despite being able to meet older adults in person show them our product, we were able to reflect on what their responses might be. This, together with the questionnaire data we gathered meant we could adjust our UI and UX design to best serve our end-users.
 
@@ -208,7 +208,7 @@ Using this UCD was really beneficial since it helped focus our attention on the 
 
 ### Game design for older people
 
-For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. In addition to this, there are also mental and physical impairments associated with old age such as loss of hearing, vision, motor movement, and reduced cognitive abilities both in terms of memory and executive function. As a result, older adults tend to have slower response times to game stimuli.
+For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](../Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. In addition to this, there are also mental and physical impairments associated with old age such as loss of hearing, vision, motor movement, and reduced cognitive abilities both in terms of memory and executive function. As a result, older adults tend to have slower response times to game stimuli.
 
 In light of these user requirements, we decided to tailor our approach. For this, it was useful to turn to research on the design of digital games. Take, for instance, research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70 and above age group. Some of the suggestions include:
 
@@ -229,7 +229,7 @@ As we showed in the above section on [Evolution of UI Design](#evolution-of-ui-d
 
 ## Stakeholders
 
-In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [Documentation of sprints](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md#documentation-of-sprints).
+In what follows, we will outline our stakeholder stories. These stories will list important and relevant information about our stakeholders, particularly with regard to their knowledge and experience of the product we will be developing. These stakeholders will then form a major part of our sprints, the details of which can be found in [Documentation of sprints](../Portfolio/Sprints_Project_Management.md#documentation-of-sprints).
 
 
 ## User stories
@@ -243,7 +243,7 @@ ___
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_bob_profile.jpg)
+![alt text](../Logo/user_bob_profile.jpg)
 
 </div>
 
@@ -278,7 +278,7 @@ ___
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_sally_profile.jpg)
+![alt text](../Logo/user_sally_profile.jpg)
 
 </div>
 
@@ -316,7 +316,7 @@ ___
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/manager_jack_profile.jpg)
+![alt text](../Logo/manager_jack_profile.jpg)
 
 </div>
 
@@ -345,7 +345,7 @@ ___
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/user_simon_profile.jpg)
+![alt text](../Logo/user_simon_profile.jpg)
 
 </div>
 
@@ -373,7 +373,7 @@ Using the stakeholder stories we now can create a use case diagram in which the 
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/use-case.png)
+![alt text](../Logo/use-case.png)
 
 </div>
 
@@ -415,13 +415,13 @@ These main interactions with the various parts of our system can be shown in ano
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/interaction-flow-diagram.png)
+![alt text](../Logo/interaction-flow-diagram.png)
 
 </div>
 
 In the above interaction flow diagram you can see our three main stakeholders. The product manager represents our product and on either side of him you have the end-user and the sponsor. Their main interactions with the product are included, such as creating an account, playing games, viewing game history and tracking user engagement. In addition to this, we have a flowchart which shows the steps our end-users will go through when using our product:
 
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend.png)
+![image](../Portfolio/images/flowchart%20frontend.png)
 
 Taken together, these interaction flow diagrams and the front-end flowchart capture the main steps the user will go through when using our product.
 
@@ -440,6 +440,6 @@ ___
 
 ## Navigate
 
-- [Go To Next Section: Sprints & Project Management](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md)
-- [Go To Previous Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md)
-- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+- [Go To Next Section: Sprints & Project Management](../Portfolio/Sprints_Project_Management.md)
+- [Go To Previous Section: System Implementation](../Portfolio/System_Implementation.md)
+- [Go Back To Readme](../README.md)
