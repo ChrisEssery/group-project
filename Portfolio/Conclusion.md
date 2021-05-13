@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](../Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
@@ -20,7 +20,6 @@ In this final section, we reflect on our application and how far we've come. We 
     * [Sprints](#sprints)
     * [GitHub](#github)
     * [Teamwork, Communication & Organisation](#teamwork-communication-&-organisation)
-    * [Evaluation of working practices](#evaluation-of-working-practices)
 * [**Reflection of success of project**](#reflection-of-success-of-project)
   * [Back-End](#back-end)
   * [Front-End](#front-end)
@@ -49,7 +48,7 @@ We now turn to our working practices. In particular, we discuss our main lines o
 
 ### Our working practices
 
-Throughout the project the team was well organised and attended meetings often. This allowed for good discussion on weekly progress and helped keep the team motivated with a clear direction. Furthermore, this allowed us to allocate people to specific tasks and avoid any crossovers. We also thoroughly documented our [discussions](../Portfolio/Team_Meetings.md) so that everyone could see the expectations and tasks.
+Throughout the project the team was well organised and attended meetings often. This allowed for good discussion on weekly progress and helped keep the team motivated with a clear direction. Furthermore, this allowed us to allocate people to specific tasks and avoid any crossovers. We also thoroughly documented our [discussions](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md) so that everyone could see the expectations and tasks.
 
 With the use of Microsoft Teams and Discord we were able to communicate effectively between each other. Our use of the group chat was effective for not only troubleshooting but highlighting progress. This helped the team easily see the lifecycle of the project and kept us all motivated.
 
@@ -71,7 +70,7 @@ Overall, Microsoft Teams was a very good platform for our collaboration througho
 
 The Agile approach suited our project really well and helped everyone manage their workload effectively alongside other university work. With clear and defined tasks allocated to each of us we were able to easily approach weekly sprints. Furthermore, we could analyse what was completed and how it would affect our stakeholders before we moved onto future sprints.
 
-Our use of proto-personas to create user stories, as detailed in the section on [UX Design](../Portfolio/UX_Design.md), proved very helpful during our sprints, since they forced us to implement user stories. This motivated us to prioritise tasks and implement key features each week, and use the proto-personas as a way to reflect on the design and functionality of those features which would shed light on any design issues. This meant that we could apportion enough time for each feature, so that we weren't focusing on any particular part of the product.
+Our use of proto-personas to create user stories, as detailed in the section on [UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md), proved very helpful during our sprints, since they forced us to implement user stories. This motivated us to prioritise tasks and implement key features each week, and use the proto-personas as a way to reflect on the design and functionality of those features which would shed light on any design issues. This meant that we could apportion enough time for each feature, so that we weren't focusing on any particular part of the product.
 
 We also utilized the Jira software effectively for our sprints. We started by laying out the tasks needed in the ‘To Do’ section. This was a rough draft and some tasks were broken up into multiples later. We then allocated team members in our meetings and moved to the ‘In Progress’ section once they had started. Finally, we could tick of and move tasks to the ‘Done’ pane once team members had progressed. Whilst Jira was helpful, some issues were noted in the way that tasks could still remain even when the sprint had ended. This was minor however and the task would just be added to future sprints. Overall, the platform was very helpful in getting the team organised and added motivation from seeing the tasks being ticked off one by one.
 
@@ -93,7 +92,7 @@ The team was really effective in its use of Github. There were frequent commits 
 
 Once team members were assigned some of the bigger tasks, they could create their own branches to work in. Team members wouldn’t then clash if issues arose. Many branches were created specifically for the individual games, MongoDB, API building and testing. We could then bring all our branches together under the dev branch and see our app take shape. Whilst effective, this methodology was not greatly organised and we did feel by the end of the project that we had too many branches. It did also impact the merging to our ‘dev’ branch and we needed good communication to avoid any clashes. This is an aspect we could look to improve moving forward in our work practices.
 
-There were also certain GitHub features that we didn't utilise which would have helped us. For instance, milestones. Milestones serve to track groups of pull requests and issues in a repository. This would have further improved our prioritisation of tasks. Also, as discussed in [Sprints & Project Management](../Portfolio/Sprints_Project_Management.md), we may have also benefited from one team member becoming the GitHub expert who could then be relied on to teach the other team members how to use the platform, and offer expert advice on any issues we encountered. This would have helped us use the platform more effectively and overcome GitHub-related problems more quickly.
+There were also certain GitHub features that we didn't utilise which would have helped us. For instance, milestones. Milestones serve to track groups of pull requests and issues in a repository. This would have further improved our prioritisation of tasks. Also, as discussed in [Sprints & Project Management](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Sprints_Project_Management.md), we may have also benefited from one team member becoming the GitHub expert who could then be relied on to teach the other team members how to use the platform, and offer expert advice on any issues we encountered. This would have helped us use the platform more effectively and overcome GitHub-related problems more quickly.
 
 Overall, Github was incredibly useful and was easily the most important software used on the project. It gave team members a comfortable place to work in their own branches where others didn’t interfere. The version control was managed very well by the team and we never had any major issues merging across our changes. We would be happy and confident to utilise Github again.
 
@@ -103,7 +102,7 @@ The team itself was a great mix of abilities and interests. All team members wer
 
 We discussed the team roles early on to get a good idea of what each of us wanted to be working on. This allowed us to assign members to work on the tutorials which aligned with their interests. These did diverge slightly throughout the life of the project but had no repercussions. Everyone was content with the aspects of the project they chose to do. This really helped the team members push beyond their expectations.
 
-Throughout the project the team were well organised and attended meetings often. The communication was also excellent with all members being very responsive. This made the collaboration easy which reflected well on our projects progress. We effectively documented all our team meetings in detail which you can find [here](../Portfolio/Team_Meetings.md).
+Throughout the project the team were well organised and attended meetings often. The communication was also excellent with all members being very responsive. This made the collaboration easy which reflected well on our projects progress. We effectively documented all our team meetings in detail which you can find [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Team_Meetings.md).
 
 The team was also excellent on a human level. No-one ever felt outcast and everyone was always supportive and respectful of each other. With this positivity we could easily crack on with the work with little pressure.
 
@@ -159,18 +158,17 @@ With this objective, we.
 
   * ***Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.***
 
-We were unable to complete this objective due to the time constraints placed on us. Despite the fact we were unable to meet this objective, we believe this could be a really fruitful extension of our product since it could help gather useful data on the impact of our product on subjective feelings of wellbeing and self-reported levels of loneliness and isolation. Whilst these questions lie outside the realm of this project, they nonetheless could be addressed in a small-scale study investigating the role of our platform on these phenomena. The PENS model, discussed in [the Background section of this report](../Portfolio/Background.md), could be used to inform the questions to ask the participants of such a study, or the Game Experience Questionnaire (GEQIJ) proposed by IJsselsteijn et al., 2008 which consists of  seven constructs - Competence, Sensory & Imaginative Immersion, Flow, Tension/Annoyance, Challenge, Negative affect and Positive affect - could also be used.
+We were unable to complete this objective due to the time constraints placed on us. Despite the fact we were unable to meet this objective, we believe this could be a really fruitful extension of our product since it could help gather useful data on the impact of our product on subjective feelings of wellbeing and self-reported levels of loneliness and isolation. Whilst these questions lie outside the realm of this project, they nonetheless could be addressed in a small-scale study investigating the role of our platform on these phenomena. The PENS model, discussed in [the Background section of this report](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md), could be used to inform the questions to ask the participants of such a study, or the Game Experience Questionnaire (GEQIJ) proposed by IJsselsteijn et al., 2008 which consists of  seven constructs - Competence, Sensory & Imaginative Immersion, Flow, Tension/Annoyance, Challenge, Negative affect and Positive affect - could also be used.
 
   * ***Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy.***
 
-Throughout every stage of the development of our application, our design philosophy has revolved around making the application as clear and easy to read and navigate as possible, without compromising any of the functionality of our app. Correia de Barros et. al (2014) suggest that providing a reasonable amount of space between interactive items in the window helps to avoid the accidental pressing of items. We took this on board and the clearest example of this can be seen with both the signup and login buttons, as well as the game selection buttons. They are large, include large text and are spaced reasonably far apart.
+Throughout every stage of the development of our application, our design philosophy has revolved around making the application as clear and easy to read and navigate as possible, without compromising any of the functionality of our app. Correia de Barros et. al (2014) suggest that providing a reasonable amount of space between interactive items on the page helps to avoid the accidental pressing of buttons. We took this on board and the clearest example of this can be seen with both the signup and login buttons, as well as the game selection buttons. They are large, include large text and are spaced quite far apart.
 
-They also suggest avoiding placing interactive items towards the edge of the window to avoid pressing items external to the application page itself. With certain parts of the application such as the navigation bar, it is hard to avoid this, but wherever possible, such as with the games, we put emphasis on keeping items as central as possible. One of their recommendations that could have been implemented to a greater extent was including icons with the buttons where possible, to make the function of a button more obvious. This was implemented for the home button on the navigation bar, but perhaps including icons for the memory game and Connect Four buttons would help to make the side even more easily navigatable.
+They also suggest avoiding placing interactive items towards the edge of the window to avoid pressing items external to the application page itself. With certain parts of the application such as the navigation bar, it is hard to avoid this, but wherever possible, such as with the games, we put emphasis on keeping items as central as possible. One of their recommendations that could have been implemented to a greater extent was including icons with the buttons where possible, to make what a button does more obvious. This was implemented for the home button on the navigation bar, but perhaps including icons for the memory game and Connect Four would help to make the side even more easily navigatable.
 
 ### How did we 'serious play' in our application?
 
-As discussed in the background and UX design sections of this report, the concept of 'serious play' underpinned our research, design and development of our project. Referring back to the work of Zimmerman (2004), we ultimately ended up using play as an activity mediated through structure and rules. This was demonstrated through our choice of games having a clear, fixed ruleset. Without this structure, it would have undermined our objective of the challenging the user, and allowing the user to challenge others. We developed leaderboards and a scoring system to help solidify this. On reflection, we determined that an element of unstructured play could also have been implemented to offer some respite from competitive gameplay. We therefore chose to implement the multiplayer functionality of the memory game as a team game where your score is shared. We have also discussed adding futher collaborative experiences such as shared digital drawing canvasses.
-
+As discussed in the background and UX design sections of this report,
 
 ## Impact of Covid-19
 
@@ -215,9 +213,9 @@ However, whilst these considerations are important to bear in mind, it is not cl
 
 #### Positive implications
 
-Despite the potential for negative outcomes when playing online games, there are numerous positive outcomes which might be realised when playing our online game. Our platform is designed to fun, engaging and social. These factors can all improve a person's wellbeing. As we discussed in the section on [using games to tackle isolation and loneliness](../Portfolio/Background.md#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation) in the Background section, online games can be very beneficial for older adults. Specifically, playing online games can leave people feeling connected with others and satisfied that they have achieved something, both of which lead to an improved sense of wellbeing.
+Despite the potential for negative outcomes when playing online games, there are numerous positive outcomes which might be realised when playing our online game. Our platform is designed to fun, engaging and social. These factors can all improve a person's wellbeing. As we discussed in the section on [using games to tackle isolation and loneliness](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation) in the Background section, online games can be very beneficial for older adults. Specifically, playing online games can leave people feeling connected with others and satisfied that they have achieved something, both of which lead to an improved sense of wellbeing.
 
-Another issue our platform serves to address is the gap in digital literacy for older adults, as we discussed in the subsection [digital literacy](../Portfolio/Background.md#digital-literacy) in the Background section of the report. Designing our application with the end-users in mind, making the UI and UX simple, straightforward, and with short, concise instructions all help to make the gaming experience as easy as possible. This is important because making a game easy makes it inclusive, and serves to bridge the digital literacy gap for the elderly. That is, it helps make the experience appropriate for our end-users and inclusive. This inclusivity is key since it then redresses the digital divide for our target users.
+Another issue our platform serves to address is the gap in digital literacy for older adults, as we discussed in the subsection [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section of the report. Designing our application with the end-users in mind, making the UI and UX simple, straightforward, and with short, concise instructions all help to make the gaming experience as easy as possible. This is important because making a game easy makes it inclusive, and serves to bridge the digital literacy gap for the elderly. That is, it helps make the experience appropriate for our end-users and inclusive. This inclusivity is key since it then redresses the digital divide for our target users.
 
 ### Data protection
 
@@ -233,13 +231,16 @@ We are aware that if we were to develop our product beyond this point, we would 
 
 ## Future work
 
-There is, we feel, a lot of scope to add to and extend the features of our product. We cover some of the more significant potential developments in the sections below.
+There is, we feel, a lot of scope to add to and extend the features of our product. In particular, there
+
+- *ADD MORE IDEAS/FLESH OUT THE IDEAS BELOW* -
 
 ### Adding more games
 
 One possible extension concerns adding more games to the platform. When we began this project we planned to have four games to choose from. However, after scoping the project we realised that this was too ambitious. Instead, we decided it would be better to deploy a fully-functioning MVP with two games. But there is certainly scope to go beyond four games, and add a number of different games and different gaming categories such as cognitively challenging games, memory games, fun games, social games, and cooperative games. Our application currently does not include any form of matchmaking and is limited to just two players within one gaming session. Obviously, the implementation of the matchmaking is too substantial to be fully implemented due to the time constraints. However, this would be a good step to take moving forward should we decide to release the game to the public at large.
 
 The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on. However, this extension would have to be moderated since the core idea behind our application is to connect older adults together and make sure that that the platform is easy enough to use so that their lower levels of digital literacy don't exclude them from using our product. Focus groups and user testing would be required to determine the optimum number of games.
+
 
 ### Multiplayer session persistence
 
@@ -253,7 +254,8 @@ Another unit of functionality our application would benefit from is difficulty l
 
 ### Invite friends to play
 
-We have considered adding a feature to allow our users to invite their friends to use the application. This would most likely take shape in the form of the user inputting their friend's e-mail address and an automated e-mail would be sent to them asking them if they would like to join them on the website. The e-mail would include a short paragraph consisting of information such as "Your friend (insert friend name here) has invited you to play with them on NotSoBored games!". In the email there would also be a large button with the text "Play Now" that would direct the user to the sign up page.
+Another extension concerns adding an 'invite friends to play' feature.
+
 
 ### Adding a challenge and achievement system
 
@@ -277,9 +279,9 @@ Our app could also be improved via the expansion of our front-end functional tes
 
 ## Impact of our work
 
-There are several ways our work will have an impact, the first of which concerns its application in research on loneliness and isolation in the elderly population. Although we lacked the time and resources to conduct research on this topic, one future area of work which our product could be applied to is research on loneliness and isolation in the elderly. In particular, our product could be used to garner data on the effect of digital games on older adults who self-report as lonely and isolated. Specifically, researchers could conduct a small-scale study in which users' self-reported levels of loneliness and isolation are measured over a set period of time. As Alan (1999) points out, this type of hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. As such, this is an area of research which our product could be applied to. Indeed, the ubiquity of computers and smartphones and the self-centric orientation of their technologies capable of connecting individuals from across the globe indicates that multiplayer games with video functionality could play an important role in future research on loneliness in older adults.
+There are several ways our work will have an impact...
 
-A further impact concerns the the potential to help drive the networking of older people outside of the context of digital games. Perhaps our use of video chat specifically targetted towards the older demographic could act as a springboard for other researchers or developers to explore the use of video chat, chatrooms or other forms of social networking specifically for the elderly population and help to provide those who are isolated with more opportunities to connect with others.
+One potential impact of our work concerns its application in research on loneliness and isolation in the elderly population. Although we lacked the time and resources to conduct research on this topic, one future area of work which our product could be applied to is research on loneliness and isolation in the elderly. In particular, our product could be used to garner data on the effect of digital games on older adults who self-report as lonely and isolated. Specifically, researchers could conduct a small-scale study in which users' self-reported levels of loneliness and isolation are measured over a set period of time. As Alan (1999) points out, this type of hypothesis testing is an indispensable part of research since it allows researchers to test hypotheses and determine the contribution of certain independent and dependent variables. As such, this is an area of research which our product could be applied to. Indeed, the ubiquity of computers and smartphones and the self-centric orientation of their technologies capable of connecting individuals from across the globe indicates that multiplayer games with video functionality could play an important role in future research on loneliness in older adults.
 
 Building upon contemporary gaming platforms, we believe that this project pushes the field forward and provides a promising point of departure for future applications for older adults.
 
@@ -302,5 +304,5 @@ ___
 
 ## Navigate
 
-- [Go To Previous Section: Evaluation](../Portfolio/Evaluation.md)
-- [Go Back To Readme](../README.md)
+- [Go To Previous Section: Evaluation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Evaluation.md)
+- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
