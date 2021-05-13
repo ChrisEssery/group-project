@@ -843,7 +843,7 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want clear instructions on how to use the product.</td>
  <td>Demo video</td>
  <td>Complete introduction demo video</td>
@@ -1015,5 +1015,5 @@ ___
 ## Navigate
 
 - [Go To Next Section: Evaluation](/Evaluation.md)
-- [Go To Previous Section: UX Design](/UX_Design.md)
+- [Go To Previous Section: UX Design](../Portfolio/UX_Design.md)
 - [Go Back To: Readme](../README.md)
