@@ -30,6 +30,7 @@ In this section, we discuss background literature, complete a state-of-the-art s
   * [A gap in the market](#a-gap-in-the-market)
 * [**Problem definition**](#problem-definition)
   * [Motivation](#motivation)
+  * [Problem definition](#problem-definition)
 
 
 ## Background literature
@@ -39,7 +40,7 @@ In this section, we provide an overview of the background literature relating to
 
 ### Setting the context
 
-According to a recent report by the Lancet Public Health, the Covid-19 pandemic and enforced social distancing measures have significantly affected the mental health and wellbeing of older adults [[**1**]](#references). It follows from this, the author's claim, that there has been an unprecedented rise in levels of loneliness and social isolation among this demographic [[**1**]](#references). But many factors underly the emergence of these public health issues. Covid-19 has played its part, and likely acted as an accelerant driving these health issues above the normal average. But loneliness and isolation among the elderly pre-date the pandemic [[**1**]](#references). With advances in modern medicine and a rise in the global average life expectancy, ageing societies continue to grow without sufficient investments in social care infrastructure. What's more, loss of loved ones, reduced mobility, and an increased chance of illness often prevent this group from socialising which in turn leads to an increase in loneliness and isolation. This points to a growing public health issue affecting societies worldwide - one that is likely to continue with the growing size of the elderly population.
+According to a recent report by the Lancet Public Health, the Covid-19 pandemic and enforced social distancing measures have significantly affected the mental health and wellbeing of older adults [[**1**]](#references). It follows from this, the author's claim, that there has been an unprecedented rise in levels of loneliness and social isolation among this demographic [[**1**]](#references). But many factors underly the emergence of these public health issues. Covid-19 has played its part, and likely acted as an accelerant driving these health issues above the normal average. But loneliness and isolation among the elderly pre-date the pandemic [[**1**]](#references). With advances in modern medicine and a rise in the global average life expectancy, ageing societies continue to grow without sufficient investments in social care infrastructure. What's more, loss of loved ones, reduced mobility, and an increased chance of illness often prevent this group from socialising, which in turn leads to an increase in loneliness and isolation. This points to a growing public health issue affecting societies worldwide - one that is likely to continue with the growing size of the elderly population.
 
 <div align="center">
 
@@ -51,7 +52,7 @@ This is the backdrop against which our analysis should proceed. But before going
 
 ### Defining key terms
 
-Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references). Social isolation, Valtora and Hanratt claim, has multiple dimensions. According to this definition, social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
+Following Valtora and Hanratty, we define loneliness as both a social and emotional phenomenon. According to this definition, social loneliness refers to a "subjective negative feeling associated with a lack of social network", and emotional loneliness refers to the "absence of a specific companion"[[**2**]](#references). Social isolation, Valtora and Hanratt claim, has multiple dimensions. They suggest that social isolation refers to a lack of social interactions with friends, family, and the community [[**2**]](#references).
 
 Our target group is adults above the age of 70. However, we acknowledge that individuals who fall short of this boundary would also benefit from the social engagement derived from playing our game. And for our user testing we asked a wide range of users to test our prototype and provide their feedback in our user test survey (see [here](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#user-testing) for a discussion about the results of that survey).
 
@@ -230,7 +231,6 @@ This site contains a fewer games that AARP. It's free. It is a clean, straightfo
 - Fewer games
 - No multiplayer functionality
 
-Gametable provides fewer games and has a simple, clean interface. It is engaging and appears to be well-suited for our target demographic.
 
 ### Lexulous
 ___
@@ -256,7 +256,7 @@ For example, Lexulous and Words with friends are scrabble-style games easily dow
 - Is it better than competitors, for e.g., wordswithfriends?
 - Requires download which might confuse users
 
-Having considered these three, well-known applications we now turn our attention to some lesser-known outliers.
+Having considered these main applications we now turn our attention to some outliers.
 
 ___
 
@@ -312,11 +312,11 @@ The final outlier is an application designed to change one's mindset. Using prin
 
 ### A gap in the market
 
-After conducting our state-of-the-art survey, we noticed a trend among existing gaming platforms for the elderly. This trend among these applications was to offer a lot of games. There was also a trend among some outliers to apply the principles of positive psychology to change the mindset of the user - using the techniques of mindfulness to alter the end-users' perception of the world around them.
+After conducting our state-of-the-art survey, we realised that the trend among existing gaming platforms for the elderly was that the applications had a lot of games to choose from. There was also a trend among some outliers to apply the principles of positive psychology to change the mindset of the user - using the techniques of mindfulness to alter the end-users' perception of the world around them.
 
-One thing was very clear: we noticed that a large majority of these platforms were overly complicated, difficult to navigate, and lacked video chat functionality. Having gathered this information about games for older adults, we were left with the insight that there exists a gap in the market. In particular, there is a gap for a website similar to Gametable, with its clean design, ease of use, and limited number of games, but with the added features of multiplayer mode and video communication functionality.
+One thing was very clear, though: we noticed that a large majority of these platforms were overly complicated, difficult to navigate, and lacked video chat functionality. Having gathered this information about games for older adults, we were left with the insight that there exists a gap in the market. In particular, there is a gap for a site like Gametable, which is easy to use, offers a small number of games to choose from, and has the added features of multiplayer mode and video communication functionality.
 
-These added features, we concluded, were essential to address the issues of loneliness and isolation. After all, simply playing an online game by yourself is very different from playing with a friend or family member. In particular, these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent, either a friend or family member, was, we felt, a social act which leaves you feeling as though you've had an actual social interaction. Having been through many national lockdowns we were all familiar with seeing friends and loved ones via platforms such as Zoom and Skype, and know that those interactions whilst not a substitute for in-person contact were certainly valuable and somewhat satisfied the desire for social contact. It was these features that we believed were crucial for addressing the problems of loneliness and social isolation.
+These added features, we concluded, were essential to address the issues of loneliness and isolation. Simply playing an online game by yourself is very different from playing with a friend or family member. Not only did we realise this, but we also realised that these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent who is either a friend or family member is a very easy way to make you feel like you've socialised with those individuals. It was these features, therefore, which in our minds were crucial for addressing the problems of loneliness and social isolation.
 
 
 <div align="center">
