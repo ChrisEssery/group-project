@@ -299,6 +299,8 @@ Building upon contemporary gaming platforms, we believe that this project pushes
 
 [5] Votipka, D., et al (2018). Hackers vs. Testers: A Comparison of Software Vulnerability Discovery Processes, IEEE Symposium on Security and Privacy (SP), 374-391.
 
+[6] Correia de Barros, A., et al (2014) Design and evaluation of a mobile user interface for older adults: navigation, interaction and visual design recommendations, 5th International Conference on Software Development and Technologies for Enhancing Accessibility and Fighting Info-exclusion, DSAI 2013, Procedia Computer Science, 369-378.
+
 ___
 
 ## Navigate
