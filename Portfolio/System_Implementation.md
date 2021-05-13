@@ -940,12 +940,9 @@ login(){
 ### Home Page
 
 The `home-page` component is the parent component of `game-menu`, `leaderboard` and `profile` components. To navigate between these subcomponents, we choosed to use the `navbar` component from [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). To match the style of our project, the navbar was made as transparent and fixed at the top of the page.
-<div align="center">
-
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/navbar.png)
-
-</div>
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/home.gif" width="100%">
+</p>
 
 Everytime the user hits the home page url, the `navbar` and `background` components will be loaded first before the child components. We included `<router-outlet>` into your `home-page` component to let `Angular` loads child routes' components there. The routes are defined in the `app-routing.module.ts` like this:
 
