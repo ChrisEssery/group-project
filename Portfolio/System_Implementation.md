@@ -933,7 +933,15 @@ login(){
 
 ### Home Page
 
-The `home-page` component is the parent component of `game-menu`, `leaderboard` and `profile` components. To navigate between these subcomponents, we choosed to use the `navbar` component from [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). To match the style of our project, the navbar was made as transparent and fixed at the top of the page. Everytime the user hits the home page url, the `navbar` and `background` components will be loaded first before the child components. We included `<router-outlet>` into your `home-page` component to let `Angular` loads child routes' components there. The routes are defined in the `app-routing.module.ts` like this:
+The `home-page` component is the parent component of `game-menu`, `leaderboard` and `profile` components. To navigate between these subcomponents, we choosed to use the `navbar` component from [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). To match the style of our project, the navbar was made as transparent and fixed at the top of the page. 
+<div align="center">
+
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/navbar.png)
+
+</div>
+
+Everytime the user hits the home page url, the `navbar` and `background` components will be loaded first before the child components. We included `<router-outlet>` into your `home-page` component to let `Angular` loads child routes' components there. The routes are defined in the `app-routing.module.ts` like this:
 
 ```typescript
 {
@@ -960,6 +968,13 @@ The `home-page` component is the parent component of `game-menu`, `leaderboard` 
 Now, we are going to look at the child components of the `home-page` component:
 
 #### Game-menu
+
+<div align="center">
+
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/homepage.png)
+
+</div>
 The game menu component is composed of a title component and button group component which serve as an interface for the specific gameplay page with the two buttons of game names. 
 
 #### Leaderboard
@@ -988,6 +1003,10 @@ The leaderboard component is another important part of our product which will pr
 
 
 #### Profile
+
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/profile.gif" width="100%">
+</p>
 
 The `profile` component is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking their names and click on "back" button to go back to their own profile. The recent matches is presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented. 
 
