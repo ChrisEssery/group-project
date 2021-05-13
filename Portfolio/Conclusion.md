@@ -169,8 +169,7 @@ They also suggest avoiding placing interactive items towards the edge of the win
 
 ### How did we 'serious play' in our application?
 
-As discussed in the background and UX design sections of this report, the concept of 'serious play' underpinned our research, design and development of our project. Referring back to the work of Zimmerman (2004), we ultimately ended up using play as an activity mediated through structure and rules. This was demonstrated through our choice of games having a clear, fixed ruleset.
-
+As discussed in the background and UX design sections of this report, the concept of 'serious play' underpinned our research, design and development of our project. Referring back to the work of Zimmerman (2004), we ultimately ended up using play as an activity mediated through structure and rules. This was demonstrated through our choice of games having a clear, fixed ruleset. Without this structure, it would have undermined our objective of the challenging the user, and allowing the user to challenge others. We developed leaderboards and a scoring system to help solidify this. On reflection, we determined that an element of unstructured play could also have been implemented to offer some respite from competitive gameplay. We therefore chose to implement the multiplayer functionality of the memory game as a team game where your score is shared. We have also discussed adding futher collaborative experiences such as shared digital drawing canvasses.
 
 
 ## Impact of Covid-19
