@@ -1019,9 +1019,9 @@ The `profile` component is where the user data is presented. This includes the f
 <img src="../Portfolio/images/memorygame.png" width="100%">
 </p>
 
-#### Connect 3
+#### Connect 4
 <p align="center">
-<img src="../Portfolio/imagesconnect4.png" width="100%">
+<img src="../Portfolio/images/connect4.png" width="100%">
 </p>
 
 ### Page Responsiveness
