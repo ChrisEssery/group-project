@@ -1051,11 +1051,12 @@ The navigation bar often takes up too much space on a small screen. So, we imple
 <img src="../Portfolio/images/navbar.png" width="100%">
 </p>
 <b><p align= "center">navbar on web page </p></b>
+<br>
 
 <p align="center">
-<img src="../Portfolio/images/navbar(mobile.png">
+<img src="../Portfolio/images/navbar(mobile.png" width="50%">
 </p>
-<b><p align= "center">navbar on mobile devices </p></b>
+<b><p align= "center">navbar on mobile device </p></b>
 
 
 ## Additional elements and components
