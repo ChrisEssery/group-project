@@ -837,7 +837,7 @@ In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/bl
 An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) in the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts) can be seen below:
 
 ```javascript
-    path: 'home',
+  { path: 'home',
     component: HomePageComponent,
     canActivate: [AuthGuard], //Prevent unauthorized access
     children: [
@@ -853,6 +853,9 @@ An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-proj
         path: 'leaderboard',
         component: LeaderboardComponent
       }
+   ] 
+ },
+ { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},   
 ```
 
 Therefore, we updated our flowchart to include [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts):
@@ -871,66 +874,57 @@ The first page of our application is the start page. This is shown below.
 
 <div align="center">
 
+
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/start-page.png)
 
 </div>
 
-Let's take a closer look at the main features of this page. This consisted of three separate components, including a background, title, and btngrp1 component.
+As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'. For the background component, we added a color changing animation and transparent squares animations for the background component to engage the users using CSS. The title component was designed with a bouncy animation of the letters to create a happy and vibrant first impression for our users. The two buttons were designed with a hover effect for our users to indicate them the next action in a straightforward way. Each of the button will be linked to signup and login page respectively using Angular `Routerlink`.
 
- * [Start-page.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/start-page.component.html). As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'.
-
- ```
- <app-background></app-background>
- <app-title></app-title>
- <br>
- <br>
- <br>
- <br>
- <app-btngrp1></app-btngrp1>
-
- ```
-
- * [Background.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css). Add information
-
- The following code was used to make the screen responsive to different variations in screen size, including mobile responsiveness. This was important as we were aware that some users would want to access and view their profile and the leaderboard using their smartphones and/or tablets.
-
- ```
- @media screen and (max-width:1024px) {
-   /* Specific to this particular image */
-   .bgPulse {
-     left:50%;
-     margin-left: -512px;
-     /* 50% */
-   }
- }
-
- ```
-
- * [Title.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/title.component.css). Add information
-
-### Login
-
-The next page is the login. This is shown in the image below:
+### Login/sign up page
 
 <div align="center">
+
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/login-page.png)
 
 </div>
 
-The main features of the login were
+The signup and login page includes the static title with the consistent style of the title from the start page, the background component and the reactive forms provided by Angular. [Angular reactive forms](https://angular.io/guide/reactive-forms) provide a model-driven approach to handling form inputs whose values change over time. In order to validate form input and display useful validation messages, we added the required validator to the registration/login forms and used the Angular built-in `NgModel` to check for control states such as `valid` and `dirty` and display messages which can be seen below:
 
- * [Login.component.ts](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.ts). Add information
+```html
+<div class="textbox">
+   <i class="fas fa-user"></i>
+   <input type="text" placeholder="Username" name="username"  required [(ngModel)]="signUpForm.username" #username="ngModel">
+</div>
+<div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username isvrequired</div>
+```
 
- ```
- login(){
-    const formData = this.checkLoginForm
+To check the email format:
+
+```html
+<div *ngIf="email.invalid && (email.dirty || email.touched)" class="alert alert-danger">
+    <div *ngIf="email.errors">Invalid email address</div>
+</div>
+```
+
+The submit button will be disabled if the form data is not valid:
+
+```html
+<button [disabled]="!registerForm.form.valid" class="btn" type="submit">Sign up</button>
+```
+
+As we mentioned earlier in the user authentication part, the user form data will be recieved from the user input will be transferred to the backend with the use of `authService`. Then, the returned token and username from the backend will be saved to the browser session storage with the use of `tokenStorageService` . Once the users are successful logged in, they will be redirected to the home page using `Router`. See the code below:
+
+```typescript
+login(){
+    const formData = this.checkLoginForm 
     this.authService.login(formData).subscribe(
       (data:any)=>{
         this.errMsg = ''
         this.tokenStorageService.saveToken(data.token)
         this.tokenStorageService.saveUser(data.user)
-        this.router.navigate(['/home'])
+        this.router.navigate(['/home']) //navigate to the home page
       },
       error=>{
         if(error.status === 401) {
@@ -938,10 +932,8 @@ The main features of the login were
         }
       }
     )
-
- ```
- * [Login.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.html). Add information
- * [Login.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/login-page/login.component.css). Add information
+  }
+```
 
 ### Games
 
