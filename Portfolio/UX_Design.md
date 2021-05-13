@@ -23,11 +23,11 @@ In this section, we discuss the User Experience (UX) design of our app. We start
   * [Stakeholders](#stakeholders)
   * [End-users](#end-user)
   * [Stakeholder stories](#stakeholder-stories)
-  * [Product manager](#project-manager)
+  * [Product manager](#product-manager)
   * [Sponsor](#sponsor)
 * [**Wireframes and interaction flow diagrams**](#wireframes-and-interaction-flow-diagrams)
   * [The end-users](#the-end-users)
-  * [The product manager](#the-project-manager)
+  * [The product manager](#the-product-manager)
   * [The sponsor](#the-sponsor)
 
 
