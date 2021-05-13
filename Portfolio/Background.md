@@ -29,8 +29,8 @@ In this section, we discuss background literature, complete a state-of-the-art s
   * [Outliers](#outliers)
   * [A gap in the market](#a-gap-in-the-market)
 * [**Problem definition**](#problem-definition)
-  * [Motivation](#motivation)
   * [Problem definition](#problem-definition)
+  * [Motivation](#motivation)
 
 
 ## Background literature
@@ -159,7 +159,7 @@ But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#refe
 
 </div>
 
-Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
+Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
 
 In light of these considerations, our approach to the UI and UX will based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design). For a discussion of our approach to UX design, see the section on [UX Design](../Portfolio/UX_Design.md).
 
