@@ -4,6 +4,7 @@
 
 import { Component, OnInit } from '@angular/core';
 import { GameService } from "src/app/games/memory-game/service/game.service";
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-memory-game',
@@ -12,7 +13,7 @@ import { GameService } from "src/app/games/memory-game/service/game.service";
 })
 export class MemoryGameComponent implements OnInit {
 
-  constructor(public gameService: GameService) {}
+  constructor(public gameService: GameService, public router: Router) {}
 
   ngOnInit() {}
 
@@ -21,4 +22,7 @@ export class MemoryGameComponent implements OnInit {
     this.gameService.addFriend()
   }
 
+  backToHome(){
+    this.router.navigateByUrl('/home');
+  }
 }
