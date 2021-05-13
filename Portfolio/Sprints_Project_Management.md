@@ -16,7 +16,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Software Development Lifecycle](#software-development-lifecycle)
       * [The waterfall method](#the-waterfall-method)
       * [The Agile methods](#the-agile-method)
-      * [Agile : Our chosen methodology](#agile-our--chosen-methodology)
+      * [Agile : Our chosen methodology](#agile-our-chosen-methodology)
 * [**Team Organisation**](#team-organisation)
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
