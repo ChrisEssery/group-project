@@ -163,7 +163,9 @@ We were unable to complete this objective due to the time constraints placed on 
 
   * ***Deliver a SPA that is easy to use and is inclusive of older adults with lower levels of digital literacy.***
 
-Throughout every stage of the development of our application, our design philosophy has revolved around making the application as clear and easy to read and navigate as possible, without compromising any of the functionality of our app.
+Throughout every stage of the development of our application, our design philosophy has revolved around making the application as clear and easy to read and navigate as possible, without compromising any of the functionality of our app. Correia de Barros et. al (2014) suggest that providing a reasonable amount of space between interactive items on the page helps to avoid the accidental pressing of buttons. We took this on board and the clearest example of this can be seen with both the signup and login buttons as well as the game selection buttons. They are large, include large text and are spaced quite far apart.
+
+
 
 ### How did we 'serious play' in our application?
 
