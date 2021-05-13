@@ -1,8 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 @import url(../../start-page/btngrp1/btngrp1.component.css);
 
-/* .title{display: none;}
-@media (min-width: 768px) { .title{display: block;} } */
 
 .title {
     margin-top: 10%;
