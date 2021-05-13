@@ -166,7 +166,7 @@ Please note that aside from screenshots, all photos used in this report were obt
 
 ## Acknowledgments
 
-Finally, we would like to say a big thank the MSc Software Engineering team for all their help and support over the last 12 weeks. We've come a long way, and we're very grateful and have learnt a lot from you.
+Finally, we would like to say a big thank the MSc Software Engineering team for all their help and support over the last 12 weeks.
 
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</div>
