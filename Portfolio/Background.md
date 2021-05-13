@@ -162,7 +162,7 @@ But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#refe
 
 Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
 
-In light of these considerations, our approach to the UI and UX will based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design). For a discussion of our approach to UX design, see the section on [UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
+In light of these considerations, our approach to the UI and UX will based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design). For a discussion of our approach to UX design, see the section on [UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md).
 
 
 ## State of the art survey: what is out there already?
@@ -175,9 +175,9 @@ We now turn to our state-of-the-art survey. After reviewing the state-of-the-art
 
 </div>
 
-We now turn to the state-of-the-art survey. There is a wide range of digital games designed for the elderly and games that can be easily used by the elderly. Mobile games are a good option as you have thousands of fun, free games that allow you to play against friends, family, and anyone in the world.
+We now turn to the state-of-the-art survey. There exist a wide range of digital games designed for the elderly. There also exist games that weren't necessarily designed for the elderly, but can nonetheless be easily used by them. Mobile phone games are a good option as there are thousands of fun, free games that allow you to play against friends, family, and a vast number of other people in the world.
 
-Puzzle games such as candy crush is a popular mobile game. There are also console games, but for our purposes, we will be focusing on games that you can access through a webpage or on your smartphone. Let's focus on the webpage games. We have Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! is a game that enables you to rebuild monuments from around the world. AARP's free online games host a huge range of card, puzzle, and arcade games. Gametable's free online games are an example that is close to what we would like to approximate with our application since it has easy games like tic-tac-toe and checkers. It is simple and straightforward to use. Let's now focus on three of these: AARP, Gametable's free online games, and Lexulous. After we have done this, we will look at three outliers that merit consideration.
+There are also console games, but for our purposes we will be focusing on games that you can access through a webpage or on your smartphone. Some of the most popular games include Bejeweled, which involves swapping bright gems of different shapes and colours to earn points. Gummy Drop! which is a game that enables you to rebuild monuments from around the world. AARP's free online games host a huge range of card, puzzle, and arcade games. Let's focus on three of these: AARP, Gametable's free online games, and Lexulous. After we have looked at these games, we will look at three outliers that also merit consideration.
 
 ### AARP's free online games
 ___
