@@ -25,9 +25,9 @@ In this section, we discuss the the system implementation of the app. We start w
 * [**Front end**](#front-end)
    * [Front End : Details of Implementation](#front-end--details-of-implementation)
 * [**Additional elements and components**](#additional-elements-and-components)
-   * [Additional elements: Details of Implementation](#additional-elements--details-of-implementation)
+   * [Additional elements: Details of Implementation](#additional-elements-and-components)
 * [**Deployment and integration**](#deployment-and-integration)
-   * [Deployment: Details of Implementation](#deployment--details-of-implementation)
+   * [Deployment: Details of Implementation](#deployment-and-integration)
 
 
 ## Stack architecture and system design
@@ -104,7 +104,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilises an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for easy front-end use.
 
-### Back End: Details of Implementation
+### Back End : Details of Implementation
 
 With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an intial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars. This allowed potential to expand the app to have a leaderboard element and some customization.
 
@@ -693,7 +693,7 @@ Angular is a client-side framework which is really effective at building SPAs. T
 Angular is great for getting creating a professional UI in very little time. The tree of angular components are really useful for several reasons. First, it's easily maintainable. Second, readability is improved. Third, reusability. The details of our front-end implementation now follow.
 
 
-### Front End: Details of Implementation
+### Front End : Details of Implementation
 
 
 Below is an image of the front-end class diagram:
@@ -940,12 +940,9 @@ login(){
 ### Home Page
 
 The `home-page` component is the parent component of `game-menu`, `leaderboard` and `profile` components. To navigate between these subcomponents, we choosed to use the `navbar` component from [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). To match the style of our project, the navbar was made as transparent and fixed at the top of the page.
-<div align="center">
-
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/navbar.png)
-
-</div>
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/home.gif" width="100%">
+</p>
 
 Everytime the user hits the home page url, the `navbar` and `background` components will be loaded first before the child components. We included `<router-outlet>` into your `home-page` component to let `Angular` loads child routes' components there. The routes are defined in the `app-routing.module.ts` like this:
 
@@ -1024,19 +1021,9 @@ The following ways were used to make the screen responsive to different variatio
 2. media query
 
 
-## Deployment
+## Additional elements and components
 
-The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
-
-### Deployment: Details of Implementation]
-
-Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
-
-In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
-
-Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
+### Additional elements: Details of Implementation
 
 ### Multiplayer Functionality
 
@@ -1117,6 +1104,22 @@ For the purpose of this project, the solution architected was not overly complex
 There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
 <img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">
+
+## Deployment and Integration
+
+The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
+
+![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
+
+### Deployment: Details of Implementation
+
+Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
+
+In preperation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronization between the containers.
+
+Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
+
+
 
 ___
 

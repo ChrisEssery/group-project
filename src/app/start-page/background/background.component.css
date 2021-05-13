@@ -12,13 +12,6 @@
     animation : bgColor 20s linear infinite;
     z-index: -1;
 }
-@media screen and (max-width:1024px) {
-    /* Specific to this particular image */
-    .bgPulse {
-      left:50%;
-      margin-left: -512px;
-    }
-  }
 
 
 .bgPulse span {
