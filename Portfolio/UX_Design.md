@@ -204,20 +204,20 @@ The principles behind these steps are:
   5. Design addresses the whole user experience.
   6. Design team includes multidisciplinary skills and perspectives.
 
-Using this UCD was really beneficial since it helped focus our attention on the users and their needs, wants and requirements.
+Using this UCD was really beneficial since it helped focus our attention on the users and their needs, wants and requirements. As a result, we had a better idea of design requirements for older people. We will now take a closer look at these design requirements.
 
 ### Game design for older people
 
-For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. There are, of course, mental and physical impairments associated with old age such as loss of hearing, vision, motor movement and cognitive abilities both in terms of memory and executive function. Older adults tend to have slower response times to game stimuli.
+For a better insight into the usability requirements for our target users, we now look at design requirements. As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section, a digital game for the elderly should be designed with the needs of the target user in mind. In particular, it is important to design the game according to the technical competence of the user and familiarity with digital interfaces and online platforms. In addition to this, there are also mental and physical impairments associated with old age such as loss of hearing, vision, motor movement, and reduced cognitive abilities both in terms of memory and executive function. As a result, older adults tend to have slower response times to game stimuli.
 
-In light of these user requirements, we can tailor our approach. For this, it is useful to turn to research on the design of digital games. Take, for instance,  research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70+ age group. Some of the suggestions include:
+In light of these user requirements, we decided to tailor our approach. For this, it was useful to turn to research on the design of digital games. Take, for instance, research conducted by Ijsselsteijn et al () in which the design of digital games for the elderly is considered from the perspective of health and psychology. In this work, the authors stress the importance of going beyond typical usability requirements to account for the wide range of abilities and impairments in the 70 and above age group. Some of the suggestions include:
 
  - Using a game for social and educational purposes
  - For relaxation and entertainment
  - Motivation for sharpening the mind
  - Encouraging physical activity
 
-The first three of these suggestions are applicable to our application. It is these types of game design that we wanted our product to be based upon. From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. We wanted our platform to be viewed as a form of entertainment that could be used social and cognitive purposes. We also decided to create our platform as a game with rules and structure because we felt that this type of game would encourage competition and entertainment and lend itself to sharpening the mind in a social interaction - all delivered through a simple, visually appealing front-end.
+The first three of these suggestions are applicable to our application. It is these types of game design that we wanted our product to be based upon. From our perspective, we agreed that it was important to address the issues of loneliness and isolation in a fun, playful way. We wanted our platform to be viewed as a form of entertainment that could be used for social and cognitive purposes. We also decided to create our platform as a game with rules and structure because we felt that a game of this type would encourage competition and entertainment and lend itself to sharpening the mind in a social interaction - all delivered through a simple, visually appealing front-end.
 
 ## Understanding user group
 
@@ -249,15 +249,15 @@ ___
 
 Bob enjoys playing board games, but he has no experience with digital games. His motivations are as follows:
 
-  *"I want a challenge, but he wants to do this with friends or family. I don't want to get lost in the complexity of a 'busy' interface. I want to play games to stimulate my brain and learn more."*
+  *"I want a challenge, but I want to challenge myself with friends and family. I want to play games to stimulate my brain and learn more. I also don't want to get lost in the complexity of a 'busy' interface."*
 
-He thinks that online games aren't just for teenagers, they're for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
+Bob thinks that online games aren't just for teenagers but are for people of all ages, and that if the process of playing online games was made more accessible and easy-to-understand then there would be a greater uptake in online games among older adults.
 
 ### Expectations
 
 Bob's expectations are as follows:
 
-  *"I expect the application will be easy to use. I want the interface to bright, bold and easy to see. I also want to be challenged by the games and compete against other players."*
+  *"I expect the application will be easy to use. I want the interface to bright, bold and easy to see. I also want to be challenged by the games and compete against other players. A leaderboard would be a great feature as well."*
 
 ### Special Requirements
 
@@ -266,7 +266,7 @@ Bob'd special requirements are:
    * Bob's vision has been fading for a few years so he would really like to have a bright, lively interface to engage with.
    * Bob's memory occasionally fails him, so he would like there to be short instructions on how to play the games.
 
-Tailoring the design of the product to meet these needs would, therefore, be beneficial to sally's experience.
+Tailoring the product design to meet these needs would, therefore, be beneficial to Bob's experience and ensure that he is able to use the product. Making sure that the UI and UX takes into account his expectations and special requirements is of great importance.
 
 ## End-user
 
@@ -284,7 +284,7 @@ ___
 
 Sally knows nothing about digital games. She used to play board games when she was younger, but she doesn't play anyone since she doesn't socialise very much. After her husband passed away a few years ago, she began to withdraw from social life. Her family visit her when they can, but they would like to see her more often. Her motivations are:
 
-  *"I want to socialise with family and loved ones, and I want to engage in something that is fun. I want to make sure doing things will stimulate my brain."*
+  *"I want to socialise with family and loved ones, and I want to engage in something that is fun. I want to see my game history, and have an account where I can look at my friend's game history."*
 
 Sally thinks that an online game platform might a good way for her to connect with his family more regularly and overcome the loneliness and isolation she's been feeling since her husband's death.
 
@@ -301,7 +301,7 @@ Sally's special requirements are:
    * Sally experiences anxiety, so she doesn't want to feel overwhelmed by the interface.
    * Sally's hearing isn't particularly good so if there is audio she wants it to be loud.
 
-Tailoring the design of the product to meet these needs would, therefore, be beneficial to sally's experience.
+As with Bob, tailoring the design of the product to meet Sally's needs will be beneficial to sally's experience and increase the likelihood that she will use the product.
 
 ## Stakeholder stories
 ___
@@ -332,7 +332,7 @@ Jack's expectations are as follows:
 
   *"I expect the group will use the Agile methodology as best they can, that they will communicate regularly. I want the team to aim to produce a minimum viable product (MVP) as soon as they can. I expect the group to make sure that the needs of the end-user are put above all else."*
 
-Meeting these expectations is important for our project since the advise of the product manager is valuable since he is experienced and well-informed on the processes surrounding the development lifecycle and best practice.
+Meeting these expectations is important for our project since the advise of the product manager is invaluable. He is experienced and well-informed on the processes underlying the development lifecycle and best practices.
 
 
 ## Sponsor
@@ -351,7 +351,7 @@ ___
 
 Simon, 69, is the manager of a local care home. He has first-hand experience of the needs of our target audience, namely older adults, and he knows the potential of using games to enhance their wellbeing. He has been a regular gamer for many years, and he firmly believes it is one of best form of entertainment. His main motivations are as follows:
 
-  *"I want to use our product to help improve the lives of the residents in the care home I manage. I would like to use the platform himself to further cultivate close relationships with the care home residents."*
+  *"I want the product to help improve the lives of residents in the care home I manage. I would like to use the platform myself to further cultivate close relationships with the care home residents, and find out whether they are using the product."*
 
 His feedback during the sprint cycles is invaluable, since he not only understands the wants and desires of older adults, but also, as an older adult with an interest in online games, he is well placed to advise on the type of user interface that would be most effective.
 
@@ -361,12 +361,12 @@ Simon's expectations are as follows:
 
   *"I expect the group to embrace the project using the Agile methodology, and that the group listen to the stakeholders throughout the build. I also expect the games to be presented in a clear way and are challenging enough to push the residents. It would also be very useful to have multiplayer and video chat functionality."*
 
-As with the other stakeholders, tailoring the design of the product to meet these expectations would be beneficial to our stakeholders' interaction with and experience of the product.
+As with the above-mentioned stakeholders, tailoring the design of the product to meet these expectations will be beneficial to our stakeholders' interaction with and experience of the NotSoBored Games application.
 
 
 ## Wireframes and interaction flow diagrams
 
-Some of the main user stories are represented in the use case diagram below. As you can see, there are also two product manager stories both of which are linked to the user stories. These stories include creating an account, playing multiplayer games, viewing your profile, game history, leaderboard, and friend list. This set of stories helped signpost us towards our end prototype, and offered a logical oder of tasks and features to prioritise.
+Using the stakeholder stories we now can create a use case diagram in which the main user stories are depicted in a graphical representation of their interactions with our system. As you can see, there are also two product manager stories both of which are linked to the user stories. These stories include creating an account, playing multiplayer games, viewing your profile, game history, leaderboard, and friend list. This set of stories helped signpost us towards our end prototype, and offered a logical oder of tasks and features to prioritise.
 
 
 <div align="center">
@@ -407,7 +407,8 @@ There are many ways in which our stakeholders will interact with the different p
 
   The sponsor is able to use the platform as a way to improve the quality of life of their care home residents.
 ```
-These main interactions with the various parts of our system can be depicted in the following interaction flow diagram:
+
+These main interactions with the various parts of our system can be shown in another graphical depiction, namely the interaction flow diagram below:
 
 
 <div align="center">
