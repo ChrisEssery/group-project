@@ -15,7 +15,7 @@ In this section, we discuss project sprints and management. We start by going ov
 * [**Group working methods**](#group-working-methods)
    * [Software Development Lifecycle](#software-development-lifecycle)
       * [The waterfall method](#the-waterfall-method)
-      * [The Agile method](#the-agile-method)
+      * [The Agile methods](#the-agile-method)
       * [Agile - Our chosen methodology](#agile-our-chosen-methodology)
 * [**Team Organisation**](#team-organisation)
 * [**Team roles and contributions**](#team-roles-and-contributions)
@@ -29,7 +29,7 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
    * [Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-api-finalised-260421-030521)
-   * [Sprint 8 : Finish report (03.05.21-07.05.21)](#sprint-8--finish-report-030521-070521)
+   * [Sprint 8 : Finish report and complete unit testing (03.05.21-07.05.21)](#sprint-8--finish-report-030521-070521)
 * [**Team use of Git**](#team-use-of-git)
 
 
@@ -39,7 +39,7 @@ In this section, we discuss project sprints and management. We start by going ov
 
 With regard to the group working methods, we knew it was very important to maintain regular contact with one another throughout the duration of the unit. Given that we were working remotely, communication was obviously essential. For a discussion on our chosen form of communication, see [Communication](#communication).
 
-We also realised the importance of delegation. So, to ensure that the team was organised with a clear, delegated structure in mind we assigned team roles. For a discussion of this, see [Team Organisation](#team-ogranisation) and [Team roles and contributions](#team-roles-and-contributions).
+We also realised the importance of delegation. So, to ensure that the team was organised with a clear, delegated structure in mind we assigned team roles. For a discussion of this, see [Team Organisation](#team-organisation) and [Team roles and contributions](#team-roles-and-contributions).
 
 ## Software development lifecycle
 
@@ -199,7 +199,7 @@ With this in mind, let's now turn to the weekly sprints.
 ___
 
 
-The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. With regards to communication, we agreed on the main channels of communication, namely Microsoft Teams and Discord. We also decided to create stakeholder stories, including user stories, to help guide us during the development. We also made progress on our repository on Github. We tried to build on our understanding of the basic operations of GitHub, including merge conflicts, fast-forwards, and the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of GitHub**](#team-use-of-github)). We added sections to our readme and made progress with our documentation. We agreed to build a start page for our application, and finalised our decision to build a online multiplayer game plaform for the elderly with video chat. In addition to this, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
+The aim of this sprint was to decide on our architecture and how we intended to progress with regard to communication. It also involved the ideation phase where we agreed upon the concept and design of our product. With regards to communication, we agreed on the main channels of communication, namely Microsoft Teams and Discord. We also decided to create stakeholder stories, including user stories, to help guide us during the development. We also made progress on our repository on Github. We tried to build on our understanding of the basic operations of GitHub, including merge conflicts, fast-forwards, and the importance of creating different branches and adhering to a GitHub protocol with respect to push and pull requests (for a discussion on our approach to GitHub, see [**Team use of Git**](#team-use-of-git). We added sections to our readme and made progress with our documentation. We agreed to build a start page for our application, and finalised our decision to build a online multiplayer game plaform for the elderly with video chat. In addition to this, from previous weeks we had decided to build four games and call the product 'NotSoBored Games'.
 
 ### Key points
 
@@ -269,7 +269,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. From p
 
  ```
 
-Given the client-led approach of the Agile method, we now turn to user feedback. Please note that these are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](/Evaluation.md).
+Given the client-led approach of the Agile method, we now turn to user feedback. Please note that these are fictional users whose feedback is based on real user feedback we acquired through our user testing. To see our user testing, please see: [Evaluation](../Portfolio/Evaluation.md).
 
 ### User feedback
 
@@ -290,7 +290,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
@@ -372,7 +372,7 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="../UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="./UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page.</td>
  <td>Start page</td>
  <td>Start page</td>
