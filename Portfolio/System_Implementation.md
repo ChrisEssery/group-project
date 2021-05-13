@@ -32,7 +32,7 @@ In this section, we discuss the the system implementation of the app. We start w
 
 ## Stack architecture and system design
 
-In this section, we will now give a quick overview of the architecture and how it functions. First though, let's define key terms. To begin with, what is a single page application?
+In this section, we will now give a quick overview of the architecture and how it functions. First, let's define key terms, starting with a single page application (SPA). What is a SPA?
 
 <div align="center">
 
@@ -42,7 +42,7 @@ In this section, we will now give a quick overview of the architecture and how i
 
 In an angular app, we have one root index.html file. We serve that from our node server or from a different server (it can be decoupled from node).
 
-This html page includes script imports that houses our angular app, the angular framework and our code. We use that application to dynamically re-render what the user sees without sending a request for a second page to be rendered by the server because we never need to reload the page. We instead navigate to the page directly. We add new elements, helped out by the angular framework. This offers a powerful way to change the page. This provides a really interactive and fast webpage. Instant re-rendering, instant user feedback and makes building an engaging UI possible. Dynamically re-rendered all the time by angular.
+This html page includes script imports that houses our angular app, the angular framework and our code. We use that application to dynamically re-render what the user sees without sending a request for a second page to be rendered by the server because we never need to reload the page. We instead navigate to the page directly. We add new elements, helped out by the angular framework. This offers a powerful way to change the page, and provides a really interactive and fast webpage. Instant re-rendering, instant user feedback, and makes building an engaging UI easy to do with the page dynamically re-rendered all the time by Angular.
 
 How does the MEAN stack work then?
 
@@ -106,11 +106,11 @@ With the MongoDB database working we then looked to create our data model. This 
 
 ### Back End : Details of Implementation
 
-With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an intial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars. This allowed potential to expand the app to have a leaderboard element and some customization.
+With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an initial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars. This allowed potential to expand the app to have a leaderboard element and some customization.
 
 ![alt text](../Logo/ERD1.png)
 
-Upon implementation of this proposed schema we noted a few issues in the design. Firstly, the 'GameManager' part of the collection was largely obsolete and thus was removed. We also decided against the 'avatar' extra for the moment given the large workload we still had. Once all concerns had been discussed between the back-end team, Harri produced the intial database. From there on Lizhao took over in writing her API to write and use the stored data as needed. Lizhao needed to make some final tweaks to the database to work alongside the API. A final Database Class Diagram was produced to represent our database below:
+Upon implementation of this proposed schema we noted a few issues in the design. Firstly, the 'GameManager' part of the collection was largely obsolete and thus was removed. We also decided against the 'avatar' extra for the moment given the large workload we still had. Once all concerns had been discussed between the back-end team, Harri produced the initial database. From there on Lizhao took over in writing her API to write and use the stored data as needed. Lizhao needed to make some final tweaks to the database to work alongside the API. A final Database Class Diagram was produced to represent our database below:
 
 ![alt text](../Logo/DatabaseClassDiagram.png)
 
@@ -212,7 +212,7 @@ We now give a detailed overview of the API implementation, beginning with the AP
 
 **[users.js](../server/routes/users.js)** handles with all api requests that query about user data (i.e. [User Register](#User-Register), [User Log in](#User-Log-In), [Get a user's friendlist](#Get-a-user's-friendlist), [Get a user's game history](#Get-a-user's-game-history))
 
-**[middleware.js](../server/routes/middleware.js)** serves as a middleware which prevents unauthorized access without valid token and makes sure every request comes with a valid and unexpired X-Acess-Token.
+**[middleware.js](../server/routes/middleware.js)** serves as a middleware which prevents unauthorised access without valid token and makes sure every request comes with a valid and unexpired X-Acess-Token.
 
 ### Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
 
