@@ -12,7 +12,7 @@ In this section, we discuss the User Experience (UX) design of our app. We start
 
 ## Table of contents
 
-* [**UX Design**](#ux-design)
+* [**UX Design: introduction**](#ux-design--introduction)
   * [Design Process and Ideation](#design-process-and-ideation)
   * [Evolution of UI Design](#evolution-of-ui-design)
 * [**Identification of users and stakeholders**](#identification-of-users-and-stakeholders)
@@ -32,7 +32,7 @@ In this section, we discuss the User Experience (UX) design of our app. We start
 
 
 
-## UX Design
+## UX Design : introduction
 
 With regard to the UX design, we felt it was very important early on to consider how the design of our product would impact our stakeholders. We began this process in the project ideation phase. For a discussion on our design process and ideation, see [Design process and ideation](#design-process-and-ideation).
 
