@@ -161,12 +161,12 @@ Our project was created with:
 
 ## Copyright
 
-Please note that aside from screenshots, all photos used in this report were obtained from either [unsplash](https://unsplash.com/), a curated selection of images licensed under the Unsplash license, a similar license to Creative Commons photos, or non-copyrighted pictures.
+Please note that aside from screenshots, all photos used in this report were obtained from either [unsplash](https://unsplash.com/), a curated selection of images licensed under the Unsplash license, a similar license to Creative Commons photos, or from non-copyrighted pictures.
 
 
 ## Acknowledgments
 
-Finally, we would like to thank the MSc Software Engineering team for all their help and support over the last 12 weeks.
+Finally, we would like to say a big thank the MSc Software Engineering team for all their help and support over the last 12 weeks.
 
 
 ![Alt Text](https://media.giphy.com/media/vFKqnCdLPNOKc/giphy.gif)</div>
