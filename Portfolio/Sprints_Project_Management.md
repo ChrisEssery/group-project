@@ -290,7 +290,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
@@ -298,7 +298,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
-<a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+<a href="./UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I believe we should use the Agile method.</td>
 <td>N/A</td>
 <td>Create stakeholder stories</td>
@@ -372,7 +372,7 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page.</td>
  <td>Start page</td>
  <td>Start page</td>
