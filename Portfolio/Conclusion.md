@@ -21,8 +21,6 @@ In this final section, we reflect on our application and how far we've come. We 
     * [GitHub](#github)
     * [Teamwork, Communication & Organisation](#teamwork-communication-&-organisation)
 * [**Reflection of success of project**](#reflection-of-success-of-project)
-  * [Back-End](#back-end)
-  * [Front-End](#front-end)
   * [Design](#design)
   * [How well did our project fulfil the brief?](#how-well-did-our-project-fulfil-the-brief?)
   * [Were objectives met?](#were-objectives-met?)
@@ -121,18 +119,10 @@ There have been many successes throughout the duration of this unit. One of the 
 We also feel that we successfully designated roles to each team member. These roles were maintained throughout the project.
 
 
-
-### Back-End
-
-
-
-### Front-End
-
-
-
 ### Design
 
-After conducting the background research and state of the art survey we were well placed to design our product. ADD ADD ADD
+After conducting background research and a state of the art survey we were well placed to design our product. In addition, the design and ideation phase offered an excellent opportunity to share ideas and hone in on a narrow range of games. We moved on to produce a paper prototype, prototype video, UI wireframe, and an updated UI wireframe. With these steps in the UI and UX design, we developed further insights about what our end-users wanted. We combined this information with our stakeholder stories to enhance the design so that it was fun, engaging, and based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design).
+
 
 ### How well did our project fulfil the brief?
 
@@ -156,9 +146,9 @@ Generally speaking, we consider our SPA to be responsive. The application scales
 
 With this objective, we can consider it to have been completely fulfilled. We successfully implemented all of the above functionality it was compounded to form the MVP for our application. We are aware however, that there is opportunity for further refining of these implementations. The multiplayer functionality could be further developed to employ a matchmaking and lobby system and the games lack session persistence. Although Jitsi was a more than capable solution for enabling real-time video chat for our application, it would be beneficial for us to develop a proprietary video chat API in future to allow us to tailor the functionality exactly to the needs of our application. These potential developments are discussed further in the 'Future Work' section of this conclusion.
 
-  * ***Conduct extensive user testing through the development lifecycle, in line with the agile framework, to ensure the product meets the needs of the end-user.***
+  * ***Conduct extensive user testing through the development lifecycle, in line with the Agile framework, to ensure the product meets the needs of the end-user.***
 
-With this objective, we.
+We successfully used the Agile methodology during this project. One of the first things we did to make sure of this was to create stakeholder stories, which we then used during the sprints to generate feedback on key implementations. The use of proto-personas and questionnaires were indispensable for this purpose, as we were able to reflect on what our end-users would think about the style and function of features. We conducted Beta testing which helped verify software compatibility with different software, different network connections, and to obtain users’ feedback on software usability and functionality
 
   * ***Explore the effectiveness of this platform for improving states of wellbeing in end-users through user testing and self-report questionnaires.***
 
@@ -172,7 +162,7 @@ They also suggest avoiding placing interactive items towards the edge of the win
 
 ### How did we 'serious play' in our application?
 
-As discussed in the background and UX design sections of this report,
+As discussed in the background and UX design sections of this report, the concept of serious play was at the centre of our product. We decided that it was important to address the issues of loneliness and isolation in a fun, structured, and playful way which could be categorised within the first of Zimmerman's categories, namely 'game play'. We also decided to create our platform to meet the needs of our players, and in particular to satisfy Ryan's three needs of pride, autonomy, and social belonging. We felt that these needs would be best satisfied through an interaction with rules and structure for the following reasons. In the case of pride, we agreed that a game with rules and an underlying level of competition would encourage our end-users to become more competent and with that gain self-confidence. This, in turn, would improve their sense of self-efficacy and pride. With autonomy, admittedly a game with rules and structure could be seen as putting constraints on a person's sense of agency, but we thought rules and structure would also leave the users feeling like they were in control of their own decisions and strategies. With the need of relatedness, we felt this need would be met through interaction and competition with friends and family, especially with video chat and multiplayer functionality. But what about our approach to rules? When it came to our approach to game rules we had to ask ourselves a series of questions. It is to these questions we now turn.
 
 ## Impact of Covid-19
 
