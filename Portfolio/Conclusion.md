@@ -232,9 +232,7 @@ We are aware that if we were to develop our product beyond this point, we would 
 
 ## Future work
 
-There is, we feel, a lot of scope to add to and extend the features of our product. In particular, there
-
-- *ADD MORE IDEAS/FLESH OUT THE IDEAS BELOW* -
+There is, we feel, a lot of scope to add to and extend the features of our product. We cover some of the more significant potential developments in the sections below.
 
 ### Adding more games
 
@@ -256,7 +254,6 @@ Another unit of functionality our application would benefit from is difficulty l
 ### Invite friends to play
 
 Another extension concerns adding an 'invite friends to play' feature.
-
 
 ### Adding a challenge and achievement system
 
