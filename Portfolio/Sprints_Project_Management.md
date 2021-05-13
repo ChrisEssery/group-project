@@ -17,7 +17,7 @@ In this section, we discuss project sprints and management. We start by going ov
       * [The waterfall method](#the-waterfall-method)
       * [The Agile method](#the-agile-method)
       * [Agile - Our chosen methodology](#agile-our-chosen-methodology)
-* [**Team Organisation**](#team-ogranisation)
+* [**Team Organisation**](#team-organisation)
 * [**Team roles and contributions**](#team-roles-and-contributions)
 * [**Communication**](#communication)
 * [**Documentation of sprints**](#documentation-of-sprints)
