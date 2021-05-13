@@ -1048,12 +1048,14 @@ For the games, we hid the game choice buttons on screen which has width less tha
 The navigation bar often takes up too much space on a small screen. So, we implemented Bootstrap's navbar component which will be automatically collapsed with a small screen, which can be seen below:
 
 <p align="center">
-<img src="../Portfolio/images/navbar.png" width="300px">
+<img src="../Portfolio/images/navbar.png" width="100%">
 </p>
+<b><p align= "center">navbar on web page </p></b>
 
 <p align="center">
-<img src="../Portfolio/images/navbar(mobile.png" width="300px">
+<img src="../Portfolio/images/navbar(mobile.png">
 </p>
+<b><p align= "center">navbar on mobile devices </p></b>
 
 
 ## Additional elements and components
