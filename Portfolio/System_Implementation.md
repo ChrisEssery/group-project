@@ -870,12 +870,10 @@ For our front-end, we had a number of separate pages. Each of these pages consis
 
 The first page of our application is the start page. This is shown below.
 
-<div align="center">
 
-
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/start-page.png)
-
-</div>
+<p align="center">
+<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/startpage.gif" width="100%">
+</p>
 
 As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'. For the background component, we added a color changing animation and transparent squares animations for the background component to engage the users using CSS. The title component was designed with a bouncy animation of the letters to create a happy and vibrant first impression for our users. The two buttons were designed with a hover effect for our users to indicate them the next action in a straightforward way. Each of the button will be linked to signup and login page respectively using Angular `Routerlink`.
 
