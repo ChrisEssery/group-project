@@ -1021,13 +1021,13 @@ The following ways were used to make the screen responsive to different variatio
 2. media query
 
 
-## Deployment
+## Deployment and Integration
 
 The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
 
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
 
-### Deployment: Details of Implementation]
+### Deployment: Details of Implementation
 
 Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
 
