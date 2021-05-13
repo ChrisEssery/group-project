@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](../Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
@@ -36,7 +36,7 @@ In this section, we will now give a quick overview of the architecture and how i
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation5.png)
+![alt text](../Logo/implementation5.png)
 
 </div>
 
@@ -52,7 +52,7 @@ Let's have a look at the architecture.
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation1.png)
+![alt text](../Logo/implementation1.png)
 
 </div>
 
@@ -62,7 +62,7 @@ Client(browser) is presentation and UI. This can be served by Amazon Web Service
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation6.png)
+![alt text](../Logo/implementation6.png)
 
 </div>
 
@@ -71,7 +71,7 @@ Sever side we have the business logic, persistent data storage and authenticatio
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation7.png)
+![alt text](../Logo/implementation7.png)
 
 </div>
 
@@ -86,7 +86,7 @@ With this information in mind, we will turn our attention to the back-end of the
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation2.png)
+![alt text](../Logo/implementation2.png)
 
 </div>
 
@@ -98,7 +98,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Mongooseicon.png)
+![alt text](../Logo/Mongooseicon.png)
 
 </div>
 
@@ -108,15 +108,15 @@ With the MongoDB database working we then looked to create our data model. This 
 
 With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an intial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars. This allowed potential to expand the app to have a leaderboard element and some customization.
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/ERD1.png)
+![alt text](../Logo/ERD1.png)
 
 Upon implementation of this proposed schema we noted a few issues in the design. Firstly, the 'GameManager' part of the collection was largely obsolete and thus was removed. We also decided against the 'avatar' extra for the moment given the large workload we still had. Once all concerns had been discussed between the back-end team, Harri produced the intial database. From there on Lizhao took over in writing her API to write and use the stored data as needed. Lizhao needed to make some final tweaks to the database to work alongside the API. A final Database Class Diagram was produced to represent our database below:
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/DatabaseClassDiagram.png)
+![alt text](../Logo/DatabaseClassDiagram.png)
 
 Based on the diagram, we defined the User schema and Game schema using Mongoose as the following:
 
-[user.js](https://github.com/ChrisEssery/group-project/blob/dev/server/models/user.js)
+[user.js](../server/models/user.js)
 ```javascript
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
@@ -142,7 +142,7 @@ const User = new Schema ({
 module.exports = mongoose.model('User', User);
 ```
 
-[game.js](https://github.com/ChrisEssery/group-project/blob/dev/server/models/game.js)
+[game.js](../server/models/game.js)
 ```javascript
 var mongoose = require('mongoose');
 var Schema = mongoose.Schema;
@@ -170,7 +170,7 @@ Turning to the middle tier, we have Express, Node.js and RESTful API.
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation3.png)
+![alt text](../Logo/implementation3.png)
 
 </div>
 
@@ -202,17 +202,17 @@ We now give a detailed overview of the API implementation, beginning with the AP
 **Here is a flowchart of how our api will handle a request**
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png">
+<img src="../Portfolio/images/api%20call%20flowchart.png">
 </p>
 
 
-**[api.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/api.js)** catches all api routes and sends the requests based on the request data type (game or user) to the corresponding router file (games.js and users.js)
+**[api.js](../server/routes/api.js)** catches all api routes and sends the requests based on the request data type (game or user) to the corresponding router file (games.js and users.js)
 
-**[games.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/games.js)** handles with all api requests that query about game data (i.e. [Add a new game instance](#Add-a-new-game-instance), [Get top users of a specific game according to the game score](#Get-top-users-of-a-specific-game-according-to-the-game-score))
+**[games.js](../server/routes/games.js)** handles with all api requests that query about game data (i.e. [Add a new game instance](#Add-a-new-game-instance), [Get top users of a specific game according to the game score](#Get-top-users-of-a-specific-game-according-to-the-game-score))
 
-**[users.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/users.js)** handles with all api requests that query about user data (i.e. [User Register](#User-Register), [User Log in](#User-Log-In), [Get a user's friendlist](#Get-a-user's-friendlist), [Get a user's game history](#Get-a-user's-game-history))
+**[users.js](../server/routes/users.js)** handles with all api requests that query about user data (i.e. [User Register](#User-Register), [User Log in](#User-Log-In), [Get a user's friendlist](#Get-a-user's-friendlist), [Get a user's game history](#Get-a-user's-game-history))
 
-**[middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js)** serves as a middleware which prevents unauthorized access without valid token and makes sure every request comes with a valid and unexpired X-Acess-Token.
+**[middleware.js](../server/routes/middleware.js)** serves as a middleware which prevents unauthorized access without valid token and makes sure every request comes with a valid and unexpired X-Acess-Token.
 
 ### Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
 
@@ -606,7 +606,7 @@ returned data:
 ### User Authentication (Backend)
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png">
+<img src="../Portfolio/images/userauth(backend).png">
 </p>
 <b><p align= "center">user authentication process to deal with a request (backend) </p></b>
 
@@ -626,7 +626,7 @@ To prevent the unauthorized access from the frontend, we implemented the interfa
 ```
 2. Interfaces that require authorization must provide the request header field X-Access-Token information
 
-To implement that, we created a [middleware.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/middleware.js) to check the token validity before handling the requests in the server, which can be seen below:
+To implement that, we created a [middleware.js](../server/routes/middleware.js) to check the token validity before handling the requests in the server, which can be seen below:
 
 ```javascript
 exports.check_api_token = (req, res, next) => {
@@ -684,7 +684,7 @@ For the front end, we decided to use Angular.
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/implementation4.png)
+![alt text](../Logo/implementation4.png)
 
 </div>
 
@@ -698,18 +698,18 @@ Angular is great for getting creating a professional UI in very little time. The
 
 Below is an image of the front-end class diagram:
 
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/frontend%20tree.png)
+![image](../Portfolio/images/frontend%20tree.png)
 
 And below is the front-end flowchart:
 
-![image](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/(updated)flowchart%20frontend.png)
+![image](../Portfolio/images/(updated)flowchart%20frontend.png)
 
 ### User Authentication (Frontend)
 
 To implement user authentication with Angular in the frontend, we referred to the following struture:
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth%20angular.png">
+<img src="../Portfolio/images/userauth%20angular.png">
 </p>
 
 <b><p align= "center">User Authentication with Router and HttpInterceptor</p></b>
@@ -718,7 +718,7 @@ To introduce the detailed features of how we implement user authentication in th
 
 #### User registration and user login
 
-The [`Login`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/login-page) & [`Register`](https://github.com/ChrisEssery/group-project/tree/dev/src/app/signup-page) components have forms for submission data (with support of Form Validation). Then, they use [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts) which uses Angular `HttpClient` ($http service) for sending signin/signup requests (shown below).
+The [`Login`](../src/app/login-page) & [`Register`](../src/app/signup-page) components have forms for submission data (with support of Form Validation). Then, they use [`auth.service`](../src/app/_services/auth.service.ts) which uses Angular `HttpClient` ($http service) for sending signin/signup requests (shown below).
 
 ```javascript
 export class AuthService {
@@ -740,16 +740,16 @@ export class AuthService {
 }
 ```
 
-With the functions provided in [`auth.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.service.ts), the client is able to communicate with the backend as shown below:
+With the functions provided in [`auth.service`](../src/app/_services/auth.service.ts), the client is able to communicate with the backend as shown below:
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/sign%20up.png">
+<img src="../Portfolio/images/sign%20up.png">
 </p>
 
 <b><p align= "center">User Registration Sequence Diagram</p></b>
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/login.png">
+<img src="../Portfolio/images/login.png">
 </p>
 
 <b><p align= "center">User Log In Sequence Diagram</p></b>
@@ -758,7 +758,7 @@ As we can see, the token (JWT) will be generated and returned with every success
 
 #### Use token-storage.service to save the token and username to or get the token and username from the Browser Session Storage
 
-The [`token-storage.service`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/token-storage.service.ts) is an Angular injectable service file which can save the token and username to or get the token and username from the `Browser Session Storage`. This includes the following functions:
+The [`token-storage.service`](../src/app/_services/token-storage.service.ts) is an Angular injectable service file which can save the token and username to or get the token and username from the `Browser Session Storage`. This includes the following functions:
 
 ```javascript
 export class TokenStorageService {
@@ -791,7 +791,7 @@ export class TokenStorageService {
 
 #### Use auth.interceptor to add the token to HTTP Authorization Header before sending request to the backend
 
-Every HTTP request by `$http` service will be inspected and transformed before being sent by [`auth.interceptor`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth.interceptor.ts), which can be seen below:
+Every HTTP request by `$http` service will be inspected and transformed before being sent by [`auth.interceptor`](../src/app/_services/auth.interceptor.ts), which can be seen below:
 
 ```javascript
 const TOKEN_HEADER_KEY = 'X-Access-Token';
@@ -813,7 +813,7 @@ export class AuthInterceptor implements HttpInterceptor {
 
 #### Use auth-guard.guard to block unauthorized access to protected routes
 
-We use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to block the routes from loading based on some permissions or blocking a route based if not authenticated. If the access attemps are unauthorized, we use `router` to navigate to the login page:
+We use [`auth-guard.guard`](../src/app/_services/auth-guard.guard.ts) to block the routes from loading based on some permissions or blocking a route based if not authenticated. If the access attemps are unauthorized, we use `router` to navigate to the login page:
 
 ```javascript
 export class AuthGuard implements CanActivate {
@@ -831,9 +831,9 @@ export class AuthGuard implements CanActivate {
 }
 ```
 
-In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts), any attempts to access the home page will be passed to [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) to check the permission.
+In the [`app-routing.module.ts`](../src/app/app-routing.module.ts), any attempts to access the home page will be passed to [`auth-guard.guard`](../src/app/_services/auth-guard.guard.ts) to check the permission.
 
-An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) in the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts) can be seen below:
+An example to use [`auth-guard.guard`](../src/app/_services/auth-guard.guard.ts) in the [`app-routing.module.ts`](../src/app/app-routing.module.ts) can be seen below:
 
 ```javascript
   { path: 'home',
@@ -857,10 +857,10 @@ An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-proj
  { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},   
 ```
 
-Therefore, we updated our flowchart to include [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts):
+Therefore, we updated our flowchart to include [`auth-guard.guard`](../src/app/_services/auth-guard.guard.ts):
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend(with%20authguard).png">
+<img src="../Portfolio/images/flowchart%20frontend(with%20authguard).png">
 </p>
 
 
@@ -872,23 +872,23 @@ The first page of our application is the start page. This is shown below.
 
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/startpage.gif" width="100%">
+<img src="../Portfolio/images/startpage.gif" width="100%">
 </p>
 
-As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'. For the background component, we added a color changing animation and transparent squares animations for the background component to engage the users using CSS. The title component was designed with a bouncy animation of the letters to create a happy and vibrant first impression for our users. The two buttons were designed with a hover effect for our users to indicate them the next action in a straightforward way. Each of the button will be linked to signup and login page respectively using Angular `Routerlink`.
+As mentioned in the subsection on [digital literacy](../Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'. For the background component, we added a color changing animation and transparent squares animations for the background component to engage the users using CSS. The title component was designed with a bouncy animation of the letters to create a happy and vibrant first impression for our users. The two buttons were designed with a hover effect for our users to indicate them the next action in a straightforward way. Each of the button will be linked to signup and login page respectively using Angular `Routerlink`.
 
 ### Login/sign up page
 
 <div align="center">
 
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/login-page.png)
+![alt text](../Logo/login-page.png)
 
 </div>
 <div align="center">
 
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/formvalidation.png)
+![alt text](../Portfolio/images/formvalidation.png)
 
 </div>
 
@@ -941,7 +941,7 @@ login(){
 
 The `home-page` component is the parent component of `game-menu`, `leaderboard` and `profile` components. To navigate between these subcomponents, we choosed to use the `navbar` component from [Bootstrap](https://getbootstrap.com/docs/5.0/getting-started/introduction/). To match the style of our project, the navbar was made as transparent and fixed at the top of the page.
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/home.gif" width="100%">
+<img src="../Portfolio/images/home.gif" width="100%">
 </p>
 
 Everytime the user hits the home page url, the `navbar` and `background` components will be loaded first before the child components. We included `<router-outlet>` into your `home-page` component to let `Angular` loads child routes' components there. The routes are defined in the `app-routing.module.ts` like this:
@@ -975,7 +975,7 @@ Now, we are going to look at the child components of the `home-page` component:
 <div align="center">
 
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/homepage.png)
+![alt text](../Portfolio/images/homepage.png)
 
 </div>
 The game menu component is composed of a title component and button group component which serve as an interface for the specific gameplay page with the two buttons of game names.
@@ -984,7 +984,7 @@ The game menu component is composed of a title component and button group compon
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/leaderboard.png)
+![alt text](../Logo/leaderboard.png)
 
 </div>
 
@@ -1008,7 +1008,7 @@ The leaderboard component is another important part of our product which will pr
 #### Profile
 
 <p align="center">
-<img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/profile.gif" width="100%">
+<img src="../Portfolio/images/profile.gif" width="100%">
 </p>
 
 The `profile` component is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking their names and click on "back" button to go back to their own profile. The recent matches is presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented.
@@ -1109,7 +1109,7 @@ There are different levels of App Service plans. The plan used for this deployme
 
 The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/Docker_Image.png)
+![alt text](../Logo/Docker_Image.png)
 
 ### Deployment: Details of Implementation
 
@@ -1125,6 +1125,6 @@ ___
 
 ## Navigate
 
-- [Go To Next Section: UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md)
-- [Go To Previous Section: Background](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md)
-- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+- [Go To Next Section: UX Design](../Portfolio/UX_Design.md)
+- [Go To Previous Section: Background](../Portfolio/Background.md)
+- [Go Back To Readme](../README.md)
