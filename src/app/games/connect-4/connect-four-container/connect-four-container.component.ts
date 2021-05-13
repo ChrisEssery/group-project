@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ConnectFourComponent } from '../connect-four/connect-four.component';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-connect-four-container',
@@ -8,9 +9,12 @@ import { ConnectFourComponent } from '../connect-four/connect-four.component';
 })
 export class ConnectFourContainerComponent implements OnInit {
 
-  constructor(public connectFour: ConnectFourComponent) { }
+  constructor(public connectFour: ConnectFourComponent, public router: Router) { }
 
   ngOnInit(): void {
   }
 
+  backToHome(){
+    this.router.navigateByUrl('/home');
+  }
 }
