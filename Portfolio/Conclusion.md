@@ -271,9 +271,9 @@ A further extension concerns adding more detailed instructions to the applicatio
 
 Potential means of delivering these instructions include written instructions, video instructions or a more developmentally time-intensive, but more comprehensive method, the development of interactive demo instructions. For example, encouraging the individual using the application to navigate the page in real-time, further reinforcing what the instructions have told them. This would serve further purpose in allowing the user to refresh their mind on how to use the application, which may be of particular importance in users that may suffer with memory-loss issues.
 
-### Improving application responsivness
+### Improving application responsiveness
 
-As alluded to earlier in this conclusion, the application is not currently designed for the games to work on smaller devices. Other functionality such as viewing your profile and leaderboards is exists on mobile devices, however when users try to access the games, they are requested to access the application on a device with a larger screen.  
+As alluded to earlier in this conclusion, the application is not currently designed for the games to work on smaller devices. Other functionality such as viewing your profile and leaderboards is exists on mobile devices, however when users try to access the games, they are requested to access the application on a device with a larger screen. We have discussed how we would go about improving the responsiveness and we agreed that we would initially look at developing it for larger tablets such as iPads and Kindles. 
 
 ### Expansion of front-end and back-end testing
 
