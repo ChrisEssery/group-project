@@ -22,9 +22,12 @@ In this section, we discuss background literature, complete a state-of-the-art s
   * [The psychology behind playing games](#the-psychology-behind-playing-games)
   * [Extrinsic vs intrinsic motivations](#extrinsic-vs-intrinsic-motivations)
   * [Digital literacy](#digital-literacy)
-* [**State of the art survey**](#state-of-the-art-survey)
-  * [State of the art survey](#state-of-the-art-survey)
-  * [Evaluation of survey](#evaluation-of-survey)
+* [**State of the art survey: what is out there already?**](#state-of-the-art-survey-what-is-out-there-already)
+  * [AARP's free online games](#aarps-free-online-games)
+  * [Gametable's free online Games](#gametables-free-online-games)
+  * [Lexulous](#lexulous)
+  * [Outliers](#outliers)
+  * [A gap in the market](#a-gap-in-the-market)
 * [**Problem definition**](#problem-definition)
   * [Motivation](#motivation)
   * [Problem definition](#problem-definition)
@@ -89,7 +92,7 @@ Now, let's look at serious play and the motivations behind playing games.
 
 Following Zimmerman (2004), we assign 'play' three categories. The first category refers to 'play' as 'game play', where play is a verb, involving action. In these cases play arises through the interaction with structures and rules. This is what one might typically think of when talking about play. The second category is ludic activity. This refers to instances of play where activities are not only games, but rather unstructured play. It's a simulation of play, and there are no strongly defined objectives. The third category involves play as a mindset. Here, play is more of an adjective where the spirit of play is imbibed into non-typical play activities.
 
-There is a theory of play, developed by Richard Ryan, using the PENS model, that is, 'Player Experience of Needs Satisfaction'. We have three key needs to satisfy through play. First there is competence, feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. Instil these feelings of pride and self-efficacy, you help push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency, feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations. It is these three needs that we aim to satisfy through play.
+There is a theory of play, developed by Richard Ryan, using the PENS model, that is, 'Player Experience of Needs Satisfaction'. We have three key needs to satisfy through play. First there is competence and feelings of pride and self-confidence, self-efficacy towards activity and mastery of a challenge. By instilling these feelings of pride and self-efficacy in the end-user, you help to push a person reach what they think to be there limits and then go beyond those limits. Autonomy is all about freedom and agency; feeling in control and being able to self-express. Finally, there is relatedness, of connecting with others and feeling like you are a part of community. These are aspects of intrinsic motivations. It is these three needs that we aim to satisfy through play.
 
 From our perspective, we decided it was important to address the issues of loneliness and isolation in a fun, playful way. This can be categorised as the first of Zimmerman's categories, namely 'game play'. We also decided to create our platform to meet the needs of our players, and in particular to satisfy Ryan's three needs stated above. But what about our approach to rules? When it came to our approach to game rules we had to ask ourselves a series of questions. It is to these questions we now turn.
 
@@ -186,18 +189,22 @@ ___
 
 </div>
 
-This site contains a very large number of different board games ranging from sudoku and checkers to chess and scrabble. It has a membership fee of $12 per year. It is fairly straightforward to navigate, however the webpage is quite cluttered. No video communication functionality.
+This site contains a very large number of different board games ranging from sudoku and checkers to chess and scrabble. It has a membership fee of $12 per year. It is fairly straightforward to navigate, however the webpage is noticeably cluttered and there exists no video communication functionality.
 
 
 ### The Pros:
+
 - Site contains a wide variety of games
 - Responsive
 - Clean designed
 
 ### The Cons:
+
 - Membership fee is quite high
 - Paradox of choice - too many games to choose from
 - No video game functionality
+
+Overall, the design and layout of this platform is not appropriate for our target demographic, namely the over 70s. Let's now look at another online platform.
 
 ### Gametable's free online Games
 ___
@@ -305,9 +312,9 @@ The final outlier is an application designed to change one's mindset. Using prin
 
 ### A gap in the market
 
-After conducting our state-of-the-art survey, we realised that the trend among existing gaming platforms for the elderly was that the applications had a lot of games to choose from and were not easy to navigate. There is also a trend among some outliers to apply the principles of positive psychology to change the mindset of the user - to use the techniques of mindfulness to alter the end-users' perception of things around them.
+After conducting our state-of-the-art survey, we realised that the trend among existing gaming platforms for the elderly was that the applications had a lot of games to choose from. There was also a trend among some outliers to apply the principles of positive psychology to change the mindset of the user - using the techniques of mindfulness to alter the end-users' perception of the world around them.
 
-One thing was very clear, though: we noticed that a large majority of these platforms were overly complicated, difficult to navigate, and lacked video chat functionality. Having gathered this information about games for older adults, we were left with the insight that there exists a gap in the market. In particular, there is a gap for a site like Gametable, namely a site which is easy to use, offers a small number of games to choose from, and has the added features of multiplayer mode and video communication functionality.
+One thing was very clear, though: we noticed that a large majority of these platforms were overly complicated, difficult to navigate, and lacked video chat functionality. Having gathered this information about games for older adults, we were left with the insight that there exists a gap in the market. In particular, there is a gap for a site like Gametable, which is easy to use, offers a small number of games to choose from, and has the added features of multiplayer mode and video communication functionality.
 
 These added features, we concluded, were essential to address the issues of loneliness and isolation. Simply playing an online game by yourself is very different from playing with a friend or family member. Not only did we realise this, but we also realised that these features of multiplayer and video chat were really important for connecting older adults. Being able to see your opponent who is either a friend or family member is a very easy way to make you feel like you've socialised with those individuals. It was these features, therefore, which in our minds were crucial for addressing the problems of loneliness and social isolation.
 
