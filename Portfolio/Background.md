@@ -1,6 +1,6 @@
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/NotSoBoredGamesTitleAnim.gif)
+![alt text](../Logo/NotSoBoredGamesTitleAnim.gif)
 
 </div>
 
@@ -44,7 +44,7 @@ According to a recent report by the Lancet Public Health, the Covid-19 pandemic 
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background1.png)
+![alt text](../Logo/background1.png)
 
 </div>
 
@@ -73,7 +73,7 @@ According to research by Kaufman et al, digital games offer opportunities for ol
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background2.png)
+![alt text](../Logo/background2.png)
 
 </div>
 
@@ -112,7 +112,7 @@ Now, let's turn to the questions above, and provide our answers to those questio
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-rules.jpg)
+![alt text](../Logo/background-rules.jpg)
 
 </div>
 
@@ -139,7 +139,7 @@ To see this in action, let's consider gamification. Gamification commonly occurs
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-motivations.jpg)
+![alt text](../Logo/background-motivations.jpg)
 
 </div>
 
@@ -155,13 +155,13 @@ But what exactly is digital literacy? According to Gilster (1997)[[**8**]](#refe
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background-literacy.jpg)
+![alt text](../Logo/background-literacy.jpg)
 
 </div>
 
 Increasing levels of digital literacy among older adults has many obstacles, however. These obstacles extend beyond systematic issues concerning insufficient policies and programs for the elderly. As mentioned in the previous subsection on [digital games tackling loneliness and isolation](#can-digital-games-help-tackle-the-health-concerns-associated-with-loneliness-and-isolation?), older adults tend to have lower memory and self-efficacy. They also require more time to learn new things and understand new materials[[**9**]](#references). What's more, they are much less experienced with these technologies, having spent a large portion of their lives without these technologies. These challenges - systemic, cognitive, and experience-based - make learning new technologies very difficult for the elderly population, and therefore leads to low up-take of new technologies and devices. Hence, there is a low level of digital literacy among this group.
 
-In light of these considerations, our approach to the UI and UX will based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design). For a discussion of our approach to UX design, see the section on [UX Design](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md).
+In light of these considerations, our approach to the UI and UX will based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design). For a discussion of our approach to UX design, see the section on [UX Design](../Portfolio/UX_Design.md).
 
 
 ## State of the art survey: what is out there already?
@@ -170,7 +170,7 @@ We now turn to our state-of-the-art survey. After reviewing the state-of-the-art
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background11.png)
+![alt text](../Logo/background11.png)
 
 </div>
 
@@ -183,7 +183,7 @@ ___
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background5.png)
+![alt text](../Logo/background5.png)
 
 </div>
 
@@ -209,7 +209,7 @@ ___
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background4.png)
+![alt text](../Logo/background4.png)
 
 </div>
 
@@ -235,7 +235,7 @@ ___
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background3.png)
+![alt text](../Logo/background3.png)
 
 </div>
 
@@ -319,7 +319,7 @@ These added features, we concluded, were essential to address the issues of lone
 
 <div align="center">
 
-![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/background6.png)
+![alt text](../Logo/background6.png)
 
 </div>
 
@@ -387,5 +387,5 @@ ___
 
 ## Navigate
 
-- [Go To Next Section: System Implementation](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/System_Implementation.md)
-- [Go Back To Readme](https://github.com/ChrisEssery/group-project/tree/dev)
+- [Go To Next Section: System Implementation](../Portfolio/System_Implementation.md)
+- [Go Back To Readme](../README.md)
