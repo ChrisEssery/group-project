@@ -24,8 +24,8 @@ In this section, we discuss project sprints and management. We start by going ov
    * [Sprint 1 : Ideation and Setup (01.03.21-08.03.21)](#sprint-1--ideation-and-setup-010321-080321)
    * [Sprint 2 : Start building front-end and design back-end (08.03.21-15.03.21)](#sprint-2--start-building-front-end-and-design-back-end-080321-150321)
    * [Sprint 3 : Obtain user feedback and continue building front-end (15.03.21-22.03.21)](#sprint-3--obtain-user-feedback-and-continue-building-front-end-150321-220321)
-   * [Sprints paused : Complete backlog items and other work commitments (22.03.21-05.04.21)](#sprints-paused--complete-backlog-items-and-other-work-commitments-220321-050421)
-   * [Sprint 4 : Add multiplayer functionality, video chat and build backend (05.04.21-12.04.21)](#sprint-4--add-multiplayer-functionality-video-chat-and-build-backend-050421-120421)
+   * [Sprints paused : Complete backlog items and other work commitments (22.03.21-29.03.21)](#sprints-paused--complete-backlog-items-and-other-work-commitments-220321-290321)
+   * [Sprint 4 : Add multiplayer functionality, video chat and build backend (29.03.21-12.04.21)](#sprint-4--add-multiplayer-functionality-video-chat-and-build-backend-290321-120421)
    * [Sprint 5 : Adding new features (12.04.21-19.04.21)](#sprint-5--adding-new-features-120421-190421)
    * [Sprint 6 : Front-end and back-end integration (19.04.21-26.04.21)](#sprint-6--front-end-and-back-end-integration-190421-260421)
    * [Sprint 7 : Pages made responsive and API finalised (26.04.21-03.05.21)](#sprint-7--pages-made-responsive-and-api-finalised-260421-030521)
@@ -438,7 +438,7 @@ The aim of this sprint was to show older friends and family members our start pa
 We felt we were able to do a lot of work during this sprint. Having a start page to show the users and collect feedback was invaluable at this stage of the development. We were happy with a progress by this point in time. Using feedback from the questionnaire we could shape the opinions of our proto-personas. This proved really useful during this stage of the design and build of the start page, because we were able to identify that the moving title and the background audio might be a little distracting. With this in mind, we made sure that those effects were only present in the start page and did not extend into subsequent pages. The designs for the back-end were coming along nicely and it seemed that we would be able to integrate the front and back-end fairly easily. It was clear, however, that our workload in the other units of term was getting bigger, and as such our progress might slow down over the coming weeks. We also wanted to better understand how we would build the database and API. This would take time and was likely to be a backlog item which carried through to subsequent sprints.
 
 
-## Sprints paused : complete backlog items and other work commitments (22.03.21-05.04.21)
+## Sprints paused : complete backlog items and other work commitments (22.03.21-29.03.21)
 ___
 
 By this stage, we felt it was appropriate to pause the sprints. The rationale for this decision was twofold. First, we had a large database assignment due in for the Java unit, which was challenging and took up most of our available time. Second, there were a number of unfinished backlog items from the previous sprints which needed to be attended to before proceeding to the next sprint. These reasons, we felt, were sufficient to warrant pausing the sprints before continuing onto the next one. The pause was a decision we took based on the situation we found ourselves in. It not only demonstrates the flexible nature of the agile methodology, but importantly, highlights that we understood it was important to complete uncompleted items. Another important aspect of this 'pause' was that it enabled us to get stuck into the documentation. From early on, we realised the importance of working on the documentation continuously. This not only helped keep a record of what we had done, but also, helped focus our attention on where we were heading and what we needed to do.
@@ -446,7 +446,7 @@ By this stage, we felt it was appropriate to pause the sprints. The rationale fo
 
 
 
-## Sprint 4 : Add multiplayer functionality, video chat and build backend (05.04.21-12.04.21)
+## Sprint 4 : Add multiplayer functionality, video chat and build backend (29.03.21-12.04.21)
 ___
 
 
@@ -581,10 +581,7 @@ This was the first sprint following the two week pause to our sprints. By this p
 
 ### Evaluation of Sprint
 
-
-Following our two week break from Agile sprints, we felt better placed to tackle our fourth sprint. At this stage, we had covered a lot of ground with regards to the UI and UX design, and the start page and login were suitable for our end-users. We had also built two working games. But these games still lacked multiplayer functionality and didn't have a functioning video feed, so it was clear that a lot of work was still required to not only get these two games up and running, but also to integrate the games with the start page and login. There were still many new features to add to our product and we had four new fairly challenging backlog items to complete, including building the database and API, adding multiplayer functionality and video chat and continuing with documentation. On reflection, these tasks may have been too large to complete over the course of one week - two weeks would have been more appropriate.
-
-
+Following our break from Agile sprints, we felt better placed to tackle our fourth and longer sprint. At this stage, we had covered a lot of ground with regards to the UI and UX design, and the start page and login were suitable for our end-users. The size of this sprint allowed the team to build the base of two working games for our app! These games still lacked multiplayer functionality, didn't have a functioning video feed and were yet to be integrated with the start page and login. This was the area to turn our attention to for the next upcoming sprints.
 
 
 
