@@ -25,9 +25,9 @@ In this section, we discuss the the system implementation of the app. We start w
 * [**Front end**](#front-end)
    * [Front End : Details of Implementation](#front-end--details-of-implementation)
 * [**Additional elements and components**](#additional-elements-and-components)
-   * [Additional elements: Details of Implementation](#additional-elements--details-of-implementation)
+   * [Additional elements: Details of Implementation](#additional-elements-and-components)
 * [**Deployment and integration**](#deployment-and-integration)
-   * [Deployment: Details of Implementation](#deployment--details-of-implementation)
+   * [Deployment: Details of Implementation](#deployment-and-integration)
 
 
 ## Stack architecture and system design
