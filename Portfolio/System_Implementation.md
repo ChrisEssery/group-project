@@ -104,7 +104,7 @@ So, why didn't we use a SQL database instead? We decided not to do this because 
 
 With the MongoDB database working we then looked to create our data model. This was done using Mongoose which is a more straight-forward, schema-based solution of modelling our MongoDB database. Mongoose utilises an object-orientated approach with the creation of an instance of a collection (equivalent to tables in relational databases). These created collections can then be referenced by the API to populate with the required information. This straightforward approach supports the production of the API and allows us to capture and send the data wherever needed for easy front-end use.
 
-### Back End: Details of Implementation
+### Back End : Details of Implementation
 
 With Lizhao and Harri working on the backend they had to maintain good communication throughout production. Harri was in charge of creating the database structure whilst Lizhao focused her attention on the API. The team collaborated on an intial idea for a schema (collection) shown in the ERD diagram below. The team noted that the priority was the user login information as well as the specific game information such as the Users involved. Furthermore, some extra details were added such as top scores, statistics about the game and any extras such as avatars. This allowed potential to expand the app to have a leaderboard element and some customization.
 
@@ -693,7 +693,7 @@ Angular is a client-side framework which is really effective at building SPAs. T
 Angular is great for getting creating a professional UI in very little time. The tree of angular components are really useful for several reasons. First, it's easily maintainable. Second, readability is improved. Third, reusability. The details of our front-end implementation now follow.
 
 
-### Front End: Details of Implementation
+### Front End : Details of Implementation
 
 
 Below is an image of the front-end class diagram:
