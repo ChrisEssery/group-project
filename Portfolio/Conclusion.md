@@ -240,7 +240,6 @@ One possible extension concerns adding more games to the platform. When we began
 
 The flexibility of our app allows us to easily add more games for the users to enjoy and would be a great direction to expand on. However, this extension would have to be moderated since the core idea behind our application is to connect older adults together and make sure that that the platform is easy enough to use so that their lower levels of digital literacy don't exclude them from using our product. Focus groups and user testing would be required to determine the optimum number of games.
 
-
 ### Multiplayer session persistence
 
 The application at the point of becoming an MVP lacks session persistence for the games. Currently, a limited amount of game data is stored on the server. For Connect Four, the server is only used to broadcast the connections of clients, the moves between clients and when the game is won. For the memory game, it is similar, however the card deck is transferred via the server to ensure it matches.
@@ -253,7 +252,7 @@ Another unit of functionality our application would benefit from is difficulty l
 
 ### Invite friends to play
 
-Another extension concerns adding an 'invite friends to play' feature.
+We have considered adding a feature to allow our users to invite their friends to use the application. This would most likely take shape in the form of the user inputting their friend's e-mail address and an automated e-mail would be sent to them asking them if they would like to join them on the website. The e-mail would include a short paragraph consisting of information such as "Your friend (insert friend name here) has invited you to play with them on NotSoBored games!". In the email there would also be a large button with the text "Play Now" that would direct the user to the sign up page.
 
 ### Adding a challenge and achievement system
 
