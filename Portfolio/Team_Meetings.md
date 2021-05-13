@@ -26,10 +26,10 @@ ___
 ## March 9th
 
 - Agreed on current delegated tasks for the team:
-  *Lizhao: Paper Prototype.
-  *Chris: Continuing Connect 4 game.
-  *Max: Background research/ memory game.
-  *Harri: Background research.  
+  * Lizhao: Paper Prototype.
+  * Chris: Continuing Connect 4 game.
+  * Max: Background research/ memory game.
+  * Harri: Background research.  
 
 ## March 11th
 
@@ -71,10 +71,10 @@ ___
 - Lizhao also discussed back end progress and what could potentially be stored within the database. Included personal information, scores from games, how many games a user has played and who they have played with etc.
 
 - Agreed on further delegated tasks for team members:
-  *Lizhao: Improvements to paper prototype based off user feedback. Also looking into building our API.
-  *Chris: Continuing converting Connect 4 game to MEAN stack. Preparing for course organiser meeting.
-  *Max: Further documentation specifically user stories. Looking to convert memory game for MEAN stack.
-  *Harri: Adding meeting notes. Looking into backend, specifically MongoDB. General team organisation.
+  * Lizhao: Improvements to paper prototype based off user feedback. Also looking into building our API.
+  * Chris: Continuing converting Connect 4 game to MEAN stack. Preparing for course organiser meeting.
+  * Max: Further documentation specifically user stories. Looking to convert memory game for MEAN stack.
+  * Harri: Adding meeting notes. Looking into backend, specifically MongoDB. General team organisation.
 
 ## April 12th
 
@@ -86,10 +86,10 @@ ___
 - Lizhao showed the altered/ completed paper prototype.
 
 - Further delegated tasks:
-  *Chris: Researching and implementing multiplayer/ video feed.
-  *Max: Continuing Memory Game, updating documentation.
-  *Harri: Implementing agreed on schema.
-  *Lizhao: Researching API.
+  * Chris: Researching and implementing multiplayer/ video feed.
+  * Max: Continuing Memory Game, updating documentation.
+  * Harri: Implementing agreed on schema.
+  * Lizhao: Researching API.
 
 ## April 14th
 
@@ -103,10 +103,10 @@ ___
 - Discussed the meeting with the TA's tomorrow. Chris and Harri will attend.
 
 - Further delegated Tasks:
-  *Chris: Continue looking at video aspect for multiplayer.
-  *Max: Continuing memory game. Looking into producing homepage video.
-  *Harri: Collaborating with Lizhao on backend tasks.
-  *Lizhao: Implementing API from produced schema.
+  * Chris: Continue looking at video aspect for multiplayer.
+  * Max: Continuing memory game. Looking into producing homepage video.
+  * Harri: Collaborating with Lizhao on backend tasks.
+  * Lizhao: Implementing API from produced schema.
 
 ## April 16th
 
@@ -119,10 +119,10 @@ ___
 - Lizhao explained how to get usernames so the games can present that information.
 
 - Further delegated Tasks:
-  *Chris: Still working on the video aspect. Going to help Max with multiplayer of memory game.
-  *Max: Continuing memory game tweaking.
-  *Lizhao: Continued API implementation.
-  *Harri: Help with documentation, specifically System Implementation section.
+  * Chris: Still working on the video aspect. Going to help Max with multiplayer of memory game.
+  * Max: Continuing memory game tweaking.
+  * Lizhao: Continued API implementation.
+  * Harri: Help with documentation, specifically System Implementation section.
 
 ## April 21st
 
@@ -138,10 +138,10 @@ ___
 - Harri has been working on documentation and will continue to do so.
 
 - Further delegated Tasks:
-  *Chris: Continuing the multiplayer aspect of the game. Looking to add some documentation soon.
-  *Max: Getting a first draft video finished and continuing on documentation.
-  *Lizhao: Finishing up testing of the API. Will then look into styling and responsivness of the app. As well as profile page/ leaderboard work.
-  *Harri: Helping out more with documention of the entire project.
+  * Chris: Continuing the multiplayer aspect of the game. Looking to add some documentation soon.
+  * Max: Getting a first draft video finished and continuing on documentation.
+  * Lizhao: Finishing up testing of the API. Will then look into styling and responsivness of the app. As well as profile page/ leaderboard work.
+  * Harri: Helping out more with documention of the entire project.
 
 ## April 27th (Chris known abscence)
 
