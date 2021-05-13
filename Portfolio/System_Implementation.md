@@ -23,7 +23,6 @@ In this section, we discuss the the system implementation of the app. We start w
    * [RESTful API](#restful-api)
    * [Details of Implementation](#details-of-implementation)
 * [**Front end**](#front-end)
-   * [Angular](#angular)
    * [Details of Implementation](#details-of-implementation)
 * [**Additional elements and components**](#additional-elements-and-components)
    * [Details of Implementation](#details-of-implementation)
