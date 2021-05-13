@@ -1013,6 +1013,17 @@ The leaderboard component is another important part of our product which will pr
 
 The `profile` component is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking their names and click on "back" button to go back to their own profile. The recent matches is presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented.
 
+### Games
+#### Memory Game
+<p align="center">
+<img src="../Portfolio/images/memorygame.png" width="100%">
+</p>
+
+#### Connect 4
+<p align="center">
+<img src="../Portfolio/images/connect4.png" width="100%">
+</p>
+
 ### Page Responsiveness
 
 The following ways were used to make the screen responsive to different variations in screen size, including mobile responsiveness. This was important as we were aware that some users would want to access and view their profile and the leaderboard using their smartphones and/or tablets.
