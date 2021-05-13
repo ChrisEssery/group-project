@@ -837,7 +837,7 @@ In the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/bl
 An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts) in the [`app-routing.module.ts`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/app-routing.module.ts) can be seen below:
 
 ```javascript
-    path: 'home',
+  { path: 'home',
     component: HomePageComponent,
     canActivate: [AuthGuard], //Prevent unauthorized access
     children: [
@@ -853,6 +853,9 @@ An example to use [`auth-guard.guard`](https://github.com/ChrisEssery/group-proj
         path: 'leaderboard',
         component: LeaderboardComponent
       }
+   ] 
+ },
+ { path: "connect4start", component: StartConnectFourComponent, canActivate: [AuthGuard]},   
 ```
 
 Therefore, we updated our flowchart to include [`auth-guard.guard`](https://github.com/ChrisEssery/group-project/blob/dev/src/app/_services/auth-guard.guard.ts):
@@ -871,42 +874,13 @@ The first page of our application is the start page. This is shown below.
 
 <div align="center">
 
+
 ![alt text](https://github.com/ChrisEssery/group-project/blob/dev/Logo/start-page.png)
 
 </div>
 
-Let's take a closer look at the main features of this page. This consisted of three separate components, including a background, title, and btngrp1 component.
+As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'. For the background component, we added a color changing animation and transparent squares animations for the background component to engage the users using CSS. The title component was designed with a bouncy animation of the letters to create a happy and vibrant first impression for our users. The two buttons were designed with a hover effect for our users to indicate them the next action in a straightforward way. Each of the button will be linked to signup and login page respectively using Angular `Routerlink`.
 
- * [Start-page.component.html](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/start-page.component.html). As mentioned in the subsection on [digital literacy](https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'.
-
- ```
- <app-background></app-background>
- <app-title></app-title>
- <br>
- <br>
- <br>
- <br>
- <app-btngrp1></app-btngrp1>
-
- ```
-
- * [Background.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/background.component.css). Add information
-
- The following code was used to make the screen responsive to different variations in screen size, including mobile responsiveness. This was important as we were aware that some users would want to access and view their profile and the leaderboard using their smartphones and/or tablets.
-
- ```
- @media screen and (max-width:1024px) {
-   /* Specific to this particular image */
-   .bgPulse {
-     left:50%;
-     margin-left: -512px;
-     /* 50% */
-   }
- }
-
- ```
-
- * [Title.component.css](https://github.com/ChrisEssery/group-project/blob/dev/src/app/start-page/background/title.component.css). Add information
 
 ### Login
 
