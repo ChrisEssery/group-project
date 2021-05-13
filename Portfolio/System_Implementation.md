@@ -204,7 +204,6 @@ We now give a detailed overview of the API implementation, beginning with the AP
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/api%20call%20flowchart.png">
 </p>
-<b><p align= "center">Figure : api flowchart </p></b>
 
 
 **[api.js](https://github.com/ChrisEssery/group-project/blob/dev/server/routes/api.js)** catches all api routes and sends the requests based on the request data type (game or user) to the corresponding router file (games.js and users.js)
@@ -609,7 +608,7 @@ returned data:
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth(backend).png">
 </p>
-<b><p align= "center">Figure : user authentication process to deal with a request (backend) </p></b>
+<b><p align= "center">user authentication process to deal with a request (backend) </p></b>
 
 To prevent the unauthorized access from the frontend, we implemented the interface authentication with uniform use of Token authentication (based on [JSON Web Token](https://jwt.io/)), which include the following features:
 
@@ -707,13 +706,13 @@ And below is the front-end flowchart:
 
 ### User Authentication (Frontend)
 
-To implement user authentication with Angular in the frontend, we referred to the following struture(credit: bezkoder):
+To implement user authentication with Angular in the frontend, we referred to the following struture:
 
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/userauth%20angular.png">
 </p>
 
-<b><p align= "center">Figure : User Authentication with Router and HttpInterceptor (credit: bezkoder)</p></b>
+<b><p align= "center">User Authentication with Router and HttpInterceptor</p></b>
 
 To introduce the detailed features of how we implement user authentication in the frontend, we'll start with the user registration and login process:
 
@@ -747,13 +746,13 @@ With the functions provided in [`auth.service`](https://github.com/ChrisEssery/g
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/sign%20up.png">
 </p>
 
-<b><p align= "center">Figure : User Registration Sequence Diagram</p></b>
+<b><p align= "center">User Registration Sequence Diagram</p></b>
 
 <p align="center">
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/login.png">
 </p>
 
-<b><p align= "center">Figure : User Log In Sequence Diagram</p></b>
+<b><p align= "center">User Log In Sequence Diagram</p></b>
 
 As we can see, the token (JWT) will be generated and returned with every successful login/signup request which will then be needed as a passport for further requests on protected resources. Therefore, the token will be saved to the Browser Session Storage with the use of `token-storage.service`
 
@@ -864,7 +863,6 @@ Therefore, we updated our flowchart to include [`auth-guard.guard`](https://gith
 <img src="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/images/flowchart%20frontend(with%20authguard).png">
 </p>
 
-<b><p align= "center">Figure : Flowchart for the frontend</p></b>
 
 For our front-end, we had a number of separate pages. Each of these pages consisted of a number of components linked together via Angular router. Angular router allowed the user to navigate from one page to another. Let's consider these pages, identify notable features with relevant links to the code.
 
