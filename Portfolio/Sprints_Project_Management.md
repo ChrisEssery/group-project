@@ -282,7 +282,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="../UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
@@ -290,7 +290,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to have face-to-face communication with others during the gameplay.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
@@ -298,7 +298,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
-<a href="/UX_Design.md#identification-of-users-and-stakeholders">
+<a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I believe we should use the Agile method.</td>
 <td>N/A</td>
 <td>Create stakeholder stories</td>
@@ -306,7 +306,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want a product with a UCD.</td>
  <td>N/A</td>
  <td>Paper prototype and research target population</td>
@@ -372,7 +372,7 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see an engaging start page.</td>
  <td>Start page</td>
  <td>Start page</td>
@@ -380,7 +380,7 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want a start page that is easy to understand.</td>
  <td>Start page</td>
  <td>Start page</td>
@@ -388,7 +388,7 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
-<a href="/UX_Design.md#identification-of-users-and-stakeholders">
+<a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
 <td>N/A</td>
 <td>Create and circulate questionnaire regarding UI wireframe/Relational diagram -> UML diagram.</td>
@@ -396,7 +396,7 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to see consistency in the UI and UX.</td>
  <td>Start page</td>
  <td>Start page</td>
@@ -501,7 +501,7 @@ This was the first sprint following the two week pause to our sprints. By this p
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to create an account.</td>
  <td>Create account</td>
  <td>Users are able to create an account/UI wireframe</td>
@@ -509,7 +509,7 @@ This was the first sprint following the two week pause to our sprints. By this p
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to log in to view my game history.</td>
  <td>Login</td>
  <td>Authenticate user</td>
@@ -518,7 +518,7 @@ This was the first sprint following the two week pause to our sprints. By this p
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
-<a href="/UX_Design.md#identification-of-users-and-stakeholders">
+<a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
 <td>User authentication</td>
 <td>Authenticate user</td>
@@ -526,7 +526,7 @@ This was the first sprint following the two week pause to our sprints. By this p
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want the games to be fun and interactive.</td>
  <td>Games</td>
  <td>Build basic versions of games and obtain user feedback.</td>
@@ -632,7 +632,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see my friends on video chat.</td>
  <td>Video chat</td>
  <td>Add video chat to connect four</td>
@@ -640,7 +640,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to earn points and see my game history.</td>
  <td>Game history</td>
  <td>GET user game history</td>
@@ -648,7 +648,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
-<a href="/UX_Design.md#identification-of-users-and-stakeholders">
+<a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores</td>
 <td>Leaderboard</td>
 <td>Get game's leaderboard</td>
@@ -656,7 +656,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want my users to have face-to-face communication with others during the gameplay.</td>
  <td>Video chat</td>
  <td>Add video chat to connect four</td>
@@ -755,7 +755,7 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to see my results on a leaderboard.</td>
  <td>Leaderboard</td>
  <td>Build a leaderboard</td>
@@ -763,7 +763,7 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want view my profile.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
@@ -771,7 +771,7 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
-<a href="/UX_Design.md#identification-of-users-and-stakeholders">
+<a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I believe the end-users should view their results.</td>
 <td>Leaderboard/Demo video</td>
 <td>Leaderboard/Start creating the introduction demo video</td>
@@ -779,7 +779,7 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
  <td>Leaderboard/Profile page</td>
  <td>Build a leaderboard/Build user profile page</td>
@@ -851,7 +851,7 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to see my profile on different sized screens.</td>
  <td>Page responsivity</td>
  <td>Make pages of application responsive, including mobile responsive</td>
@@ -859,7 +859,7 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
-<a href="/UX_Design.md#identification-of-users-and-stakeholders">
+<a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
 <br>Jack </a> <br /> As a product manger, I believe thorough testing is essential</td>
 <td>Testing</td>
 <td>Create test accounts and test both backend and frontend work correctly</td>
@@ -867,7 +867,7 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
- <a href="/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
  <td>Leaderboard/Profile page</td>
  <td>Build API using express framework and node.js</td>
@@ -1014,6 +1014,6 @@ ___
 
 ## Navigate
 
-- [Go To Next Section: Evaluation](/Evaluation.md)
+- [Go To Next Section: Evaluation](../Portfolio/Evaluation.md)
 - [Go To Previous Section: UX Design](../Portfolio/UX_Design.md)
 - [Go Back To: Readme](../README.md)
