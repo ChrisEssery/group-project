@@ -154,15 +154,14 @@ We were unable to complete this objective due to the time constraints placed on 
 
 Throughout every stage of the development of our application, our design philosophy has revolved around making the application as clear and easy to read and navigate as possible, without compromising any of the functionality of our app. Correia de Barros et. al (2014) suggest that providing a reasonable amount of space between interactive items on the page helps to avoid the accidental pressing of buttons. We took this on board and the clearest example of this can be seen with both the signup and login buttons, as well as the game selection buttons. They are large, include large text and are spaced quite far apart.
 
-They also suggest avoiding placing interactive items towards the edge of the window to avoid pressing items external to the application page itself. With certain parts of the application such as the navigation bar, it is hard to avoid this, but wherever possible, such as with the games, we put emphasis on keeping items as central as possible. One of their recommendations that could have been implemented to a greater extent was including icons with the buttons where possible, to make what a button does more obvious. This was implemented for the home button on the navigation bar, but perhaps including icons for the memory game and Connect Four would help to make the side even more easily navigatable.
+They also suggest avoiding placing interactive items towards the edge of the window to avoid pressing items external to the application page itself. With certain parts of the application such as the navigation bar, it is hard to avoid this, but wherever possible, such as with the games, we put emphasis on keeping items as central as possible. One of their recommendations that could have been implemented to a greater extent was including icons with the buttons where possible, to make what a button does more obvious. This was implemented for the home button on the navigation bar, but perhaps including icons for the memory game and Connect Four would help to make the side even more easily navigable.
 
 ### How did we use 'serious play' in our application?
 
-As discussed in the background and UX design sections of this report, the concept of 'serious play' underpinned our research, design and development of our project. Referring back to the work of Zimmerman (2004), we ultimately ended up using play as an activity mediated through structure and rules. This was demonstrated through our choice of games having a clear, fixed ruleset. Without this structure, it would have undermined our objective of the challenging the user, and allowing the user to challenge others. We developed leaderboards and a scoring system to help solidify this. On reflection, we determined that an element of unstructured play could also have been implemented to offer some respite from competitive gameplay. We therefore chose to implement the multiplayer functionality of the memory game as a team game where your score is shared. We have also discussed adding futher collaborative experiences such as shared digital drawing canvasses.
+As discussed in the background and UX design sections of this report, the concept of 'serious play' underpinned our research, design and development of our project. Referring back to the work of Zimmerman (2004), we ultimately ended up using play as an activity mediated through structure and rules. This was demonstrated through our choice of games having a clear, fixed ruleset. Without this structure, it would have undermined our objective of the challenging the user, and allowing the user to challenge others. We developed leaderboards and a scoring system to help solidify this. On reflection, we determined that an element of unstructured play could also have been implemented to offer some respite from competitive gameplay. We therefore chose to implement the multiplayer functionality of the memory game as a team game where your score is shared. We have also discussed adding further collaborative experiences such as shared digital drawing canvasses.
 
 We also decided to create our platform to meet the needs of our players, and in particular to satisfy Ryan's three needs of pride, autonomy, and social belonging. We felt that these needs would be best satisfied through an interaction with rules and structure for the following reasons. In the case of pride, we agreed that a game with rules and an underlying level of competition would encourage our end-users to become more competent and with that gain self-confidence. This, in turn, would improve their sense of self-efficacy and pride. With autonomy, admittedly a game with rules and structure could be seen as putting constraints on a person's sense of agency, but we thought rules and structure would also leave the users feeling like they were in control of their own decisions and strategies. With the need of relatedness, we felt this need would be met through interaction and competition with friends and family, especially with video chat and multiplayer functionality.
 
-We gave ser
 
 ## Impact of Covid-19
 
@@ -225,9 +224,8 @@ We are aware that if we were to develop our product beyond this point, we would 
 
 ## Future work
 
-There is, we feel, a lot of scope to add to and extend the features of our product. In particular, there
+There is, we feel, a lot of scope to add to and extend on the features of our product. We will now consider these, beginning with adding more games.
 
-- *ADD MORE IDEAS/FLESH OUT THE IDEAS BELOW* -
 
 ### Adding more games
 
