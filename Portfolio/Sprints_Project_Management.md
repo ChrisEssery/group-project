@@ -299,7 +299,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe we should use the Agile method.</td>
+<br>Jack </a> <br /> As a product manger, I believe we should use the Agile method.</td>
 <td>N/A</td>
 <td>Create stakeholder stories</td>
 <td>I think it's a really good step to start communicate with your end-users from the very start of the project development, which you've done through creating user stories. The paper prototype video is also a very good idea, so well done with that. I am aware, however, that you've only built the start page. Whilst this is a step in the right direction, you still need to prioritise building other parts of the application. This is because the whole purpose of sprints is to produce something tangible which your end-users can properly engage with. This will ensure that you are always implementing the agile methodology, and that the product is on the right track with respect to the wants and needs of the end user. You want to build a minimum viable product (MVP) as soon as you can.</td>
@@ -389,7 +389,7 @@ The aim of this sprint was to show older friends and family members our start pa
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
+<br>Jack </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
 <td>N/A</td>
 <td>Create and circulate questionnaire regarding UI wireframe/Relational diagram -> UML diagram.</td>
 <td>This start page is really good - well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data).</td>
@@ -519,7 +519,7 @@ This was the first sprint following the two week pause to our sprints. By this p
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
+<br>Jack </a> <br /> As a product manger, I think we should prioritise user authentication.</td>
 <td>User authentication</td>
 <td>Authenticate user</td>
 <td style="width=70%;"> I am very glad that you have focused on user authentication. Authentication is really important because it will enable you to keep your networks secure by permitting only authenticated users to access its protected resources, which includes user data stored in the database. This will protect our user's privacy and ensure that we are responsible with data security.</td>
@@ -649,7 +649,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores</td>
+<br>Jack </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores</td>
 <td>Leaderboard</td>
 <td>Get game's leaderboard</td>
 <td>One thing to bear in mind is that the way game scores are sorted may vary with different games. Add a parameter `order` to the url path when making the request. My other piece of advice would be to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
@@ -772,7 +772,7 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe the end-users should view their results.</td>
+<br>Jack </a> <br /> As a product manger, I believe the end-users should view their results.</td>
 <td>Leaderboard/Demo video</td>
 <td>Leaderboard/Start creating the introduction demo video</td>
 <td>The leaderboard looks good, it has a clean design and isn't too cluttered. I think your end-users will like the layout. That said, I think you need make sure the users know what the scores stand for. For instance, how do you score players? Is it based on individual wins or the number of turns taken to achieve those wins? And are the scoring systems the same for the memory game and connect four or are they different? This should really be spelled out in a bit more detail. I also think it's really important that you create this demo video and make sure that the video contains clear, concise instructions on how to use your product. This will not be obvious to your end-users and therefore a step by step walkthrough of the different pages and features of the application should be provided. As for the appearance of the video, I would advise you to make sure the video is fun, engaging, and appropriate for your end-users. This is a difficult balance to strike, but you want to grab the attention of your end-users without overwhelming them. It would be worthwhile, therefore, to show an early version of the demo and obtain feedback on that version. That way you can make changes to the video, including modifying the instructions, so as to make it as informative and useful as possible. </td>
@@ -860,7 +860,7 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 <tr>
 <td><img src="/Logo/manager_jack.jpg" width=45%>
 <a href="https://github.com/ChrisEssery/group-project/blob/dev/Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Simon </a> <br /> As a product manger, I believe thorough testing is essential</td>
+<br>Jack </a> <br /> As a product manger, I believe thorough testing is essential</td>
 <td>Testing</td>
 <td>Create test accounts and test both backend and frontend work correctly</td>
 <td>Testing the back-end and front-end is really important, I'm glad you've now turned your attention to it. It's important because it will help you to determine whether both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. It is essential that you are very thorough with this testing, as you don't want to miss any bugs which your end-users might then run into. And back-end testing is important because it, among other things, serves to check for data corruption and data loss. By conducting testing on both parts of the stack you will be able to identify faults and errors in your code and make corrections - and remove bugs - where necessary. This really is an absolutely essential aspect of building a product, so make sure that you do it properly and that everything is tested thoroughly.</td>
