@@ -273,7 +273,7 @@ Potential means of delivering these instructions include written instructions, v
 
 ### Improving application responsiveness
 
-As alluded to earlier in this conclusion, the application is not currently designed for the games to work on smaller devices. Other functionality such as viewing your profile and leaderboards is exists on mobile devices, however when users try to access the games, they are requested to access the application on a device with a larger screen. We have discussed how we would go about improving the responsiveness and we agreed that we would initially look at developing it for larger tablets such as iPads and Kindles. 
+As alluded to earlier in this conclusion, the application is not currently designed for the games to work on smaller devices. Other functionality such as viewing your profile and leaderboards exists on mobile devices, however when users try to access the games, they are requested to access the application on a device with a larger screen. We have discussed how we would go about improving the responsiveness and we agreed that we would initially look at developing it for larger tablets such as iPads and Kindles. We have not completely ruled out the possibility of making the games responsive on smaller smart phones, but we do feel that considering the target demographic of the application, a full mobile port may not be appropriate.
 
 ### Expansion of front-end and back-end testing
 
