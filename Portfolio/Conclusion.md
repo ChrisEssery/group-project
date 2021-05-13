@@ -273,7 +273,7 @@ Potential means of delivering these instructions include written instructions, v
 
 ### Improving application responsivness
 
-As alluded to earlier in this conclusion...
+As alluded to earlier in this conclusion, the application is not currently designed for the games to work on smaller devices.
 
 ### Expansion of front-end and back-end testing
 
