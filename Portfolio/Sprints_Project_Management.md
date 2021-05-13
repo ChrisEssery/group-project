@@ -335,7 +335,7 @@ The aim of this sprint was to show older friends and family members our start pa
    * Build basic versions of games and obtain user feedback.
    * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
-   * Relational diagram -> UML diagram.
+   * Cnvert Entity Relationship Diagram (ERD) to Unified Modeling Language (UML) diagram for data model
    * Design API.
 
 **Attendees:** everyone in attendance.
