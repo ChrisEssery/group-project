@@ -282,7 +282,7 @@ Given the client-led approach of the Agile method, we now turn to user feedback.
 </tr>
 <tr>
  <td><img src="../Logo/user_bob.jpg" width=40%>
- <a href="./Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
+ <a href="UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want to have a clear webpage to navigate.</td>
  <td>N/A</td>
  <td>Paper prototype video</td>
