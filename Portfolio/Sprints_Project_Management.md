@@ -917,6 +917,13 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
   <th>Stakeholder story</th>
   <th>Problem</th>
   <th>Solution</th>
+</tr>  
+<tr>
+  <td>Front-End</td>
+  <td>Create test accounts and test both backend and frontend work correctly.</td>
+  <td>As a developer, I want to make sure that every user should get access to the games and home page with their valid access tokens.</td>
+  <td>Users may able to access the games and home page by entering the url path without logging in.</td>
+  <td>We use Angular’s route guards which can tell the router whether or not it should allow navigation to a requested route and create the `CanActive` function to only return `true` if the user is authenticated, in other words, with a valid token. If the user isn’t authenticated, they are re-routed to the login page.</td>
 </tr>
 <tr>
   <td>Front-End</td>
