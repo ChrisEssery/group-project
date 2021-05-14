@@ -1061,7 +1061,7 @@ For example, we changed the title font size to fit different screen sizes. (See 
 <img src="../Portfolio/images/startpage(mobile).png" width="300px">
 </p>
 
-For the games, we hid the game choice buttons on screen which has width less that 1440px (the least width for web page) so that the users are not able to access the game on their mobile devices/tablets.
+For the games, we hid the game choice buttons on screen which has width less that 1440px (the minimal standard size for web page) so that the users are not able to access the game on their mobile devices/tablets.
 <p align="center">
 <img src="../Portfolio/images/home(mobile.png" width="300px">
 </p>
