@@ -371,7 +371,7 @@ This helped inform our design choices and tested the functionality of the platfo
 
 **Limitations of Beta testing**
 
-The main limitations with this type of user acceptance testing was the role of biases in affecting our users' feedback. In particular, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity [[**3**]](#references)). A further issue concerns the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population or indeed our end-users [[**4**]](#references)). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias [[**5**]](#references)).
+The main limitations with this type of user acceptance testing was the role of biases in affecting our users' feedback. In particular, given that the participants were known to various members of our team, issues regarding participation bias arise, wherein participants behave as they expect the experimenter desires, which undermines the study's internal validity [[**4**]](#references)). A further issue concerns the size and diversity of the research sample are arguably an inadequate representation of the target population. As such, findings derived from the study are not generalisable to the wider population or indeed our end-users [[**5**]](#references)). Whilst we acknowledge this shortcoming, there was scope for us to make greater efforts to reach our target audience, unknown to ourselves, and recruit them. To overcome these shortcomings, recruitment fliers and ‘community gatekeepers' to assist in recruitment could have generated a larger, more diverse pool of participants not known to our team and mitigated against the lack of generalisability and participation bias [[**6**]](#references)). This would be especially important if we were to conduct hypothesis testing in the future, because hypothesis testing - determining the role of independent and dependent variables - requires reliable data.
 
 A further limitation of our user testing concerns the range of methods used. With our testing we could have used heat map testing, surveys, questionnaires and other testing methods to improve our acceptance testing. Overall though, we feel our Beta testing helped us gain useful feedback prior to product release.
 
@@ -381,13 +381,13 @@ A further limitation of our user testing concerns the range of methods used. Wit
 
 [2] Denzin, N (2000). "Aesthetics and Qualitative Inquiry". Qualitative Inquiry. 6 (2): 256–260. doi:10.1177/107780040000600208. S2CID 145207054.
 
-[3] Alan, R. (1999). The Importance of Hypothesis Testing. Behaviour Change, 16(2).
+[3] Reiter, B. (2017). Theory and Methodology of Exploratory Social Science Research. Government and International Affairs Faculty Publications. 132.
 
 [4] Keeble, C., Barber, S., Law, GR., Baxter, PD. (2013). Participation bias assessment in three high impact journals. Sage Open, 3(4), 1-5.
 
 [5] Keller, J., Ainsworth BE. (2016). Recruiting participants into pilot trials: techniques for researchers with shoestring budgets. Californian journal of health promotion, 14(2):81–89.
 
-[6] Reiter, B. (2017). Theory and Methodology of Exploratory Social Science Research. Government and International Affairs Faculty Publications. 132.
+[6] Alan, R. (1999). The Importance of Hypothesis Testing. Behaviour Change, 16(2).
 
 ___
 
