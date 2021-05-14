@@ -26,7 +26,6 @@ In this section, we evaluate our app. We start by evaluating the design of the a
   * [Back-End (AUTOMATE API TESTING)](#back-end-automate-api-testing)
   * [Testing implementation](#testing-implementation)
 * [**User acceptance testing**](#user-acceptance-testing)
-  * [Findings and implications](#findings-and-implications)
 
 
 ## Evaluation of design
@@ -144,6 +143,7 @@ You can find the timeline for our evaluation of design below:
 
 ## Unit testing
 
+<a name="front-end"></a>
 ### Front-End
 Functional testing is paramount to the successful launching of our MEAN stack SPA. Thankfully the MEAN stack includes some prerequisite software which helps implement easy front-end functional testing on the differing components.
 The software includes Karma which is a test-runner for JavaScript which runs on Node.js. Karma is great for testing code in browsers as well as different devices. The software allows us to clearly see which tests are failing within the specific components. This helps speed up the debugging process.
@@ -202,6 +202,7 @@ Through running ‘ng test’ we could easily see any issues within our front-en
 
 Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct. Whilst the issue with Jitsi was unresolvable if we had further time then this could be something we would look to fix.
 
+<a name="back-end-automate-api-testing"></a>
 ### Back-End (AUTOMATED API TESTING)
 
 The backend API was tested vigorously using software known as [Postman](https://www.postman.com/), which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API.
