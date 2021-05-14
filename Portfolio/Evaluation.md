@@ -26,6 +26,7 @@ In this section, we evaluate our app. We start by evaluating the design of the a
   * [Back-End (AUTOMATE API TESTING)](#back-end-automate-api-testing)
   * [Testing implementation](#testing-implementation)
 * [**User acceptance testing**](#user-acceptance-testing)
+  * [Beta testing](#beta-testing)
 
 
 ## Evaluation of design
