@@ -781,7 +781,7 @@ The main aim of this sprint was to integrate the front and back-end of the stack
  <br>Sally </a> <br /> As a user, I want view my profile.</td>
  <td>Profile page</td>
  <td>Build user profile page</td>
- <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
+ <td>This profile page feature is just what I was hoping for. Now I am able to update my personal information and view my friendlist. I like that I can see my most recent games as well as my scores in those games, and it all looks fairly easy to navigate.</td>
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
