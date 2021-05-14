@@ -15,7 +15,7 @@ In this final section, we reflect on our application and how far we've come. We 
 
 * [**Reflection on working practices**](#reflection-on-working-practices)
   * [Our working practices](#our-working-practices)
-    * [Microsoft teams & Discord](#microsoft-teams-&-discord)
+    * [Microsoft Teams & Discord](#microsoft-teams-&-discord)
     * [Agile and Jira](#agile-and-jira)
     * [Sprints](#sprints)
     * [GitHub](#github)
