@@ -1028,13 +1028,19 @@ The `profile` component is where the user data is presented. This includes the f
 <img src="../Portfolio/images/memorygame.png" width="100%">
 </p>
 
-The memory game is composed of components for the buttons, cards, heading, and board layout as well as a folder of 'services' which contain the game logic for the cards, gameplay, and leaderboard.
+The memory game is composed of components for the buttons, cards, heading, and board layout as well as a folder of 'services' which contain the game logic for the cards, gameplay, and leaderboard. Below you can find a brief description of the compontents and their functionality.
+
+* **Cards** - The card component consists of an id, an image reference and two simple functions to hide and show the face of the cards during gameplay.
+* **Board layout** - 
+* 
 
 
 ### Connect 4
 <p align="center">
 <img src="../Portfolio/images/connect4.png" width="100%">
 </p>
+
+The Connect 4 game is not as modularised as the memory game. The game was initially built in vanilla JavaScript and then re-written in TypeScript so that it would function within Angular. The board consists of 49 (7x7) divs that are contained by using CSS flexbox to form a grid structure. After the page has loaded, an event listener is added to each div (via ngAfterViewInit()), so that when the slot is clicked by the user, the game functions according to the ruleset. Depending on which player is currently taking their turn, the div is coloured accordingly and classes are added to determine that the slot is taken and which player has taken it. This prevents users from placing their tokens in slots that have already been taken or slots that do not have tokens below them. To solve this issue at the start of the game, there is a row of invisible divs that have been assigned the "bottom" class, which allows players to place their tokens in the bottom row.  After each turn, the current player type is changed so that players are unable to take two turns in a row. To determine if there is a winner, after each turn has been taken, the board is checked for any of the winning four-in-a-row combinations, all of which are stored in a winningArrays array.
 
 ### Page Responsiveness
 
