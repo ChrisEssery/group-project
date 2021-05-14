@@ -225,7 +225,7 @@ The following are a list of tasks and features that the team were tasked to deli
       → Backlog item: create a simple UI design paper prototype.
       → Backlog item: create a group Discord server.
       → Backlog item: create stakeholder stories.
-    
+
     ```
 
 ### Evaluation of Sprint
@@ -819,12 +819,11 @@ The main aim of this sprint was to integrate the front and back-end of the stack
   <td>Friendlist was only presented as a list of friend's usernames. Users are not able to know their friends in depth.</td>
   <td>Change the friendlist in user profile page from a list of String to a list of attributes which allow users to click on and navigate to their friend's profile page, so that they will be able to know more about their friends' personal information and recent matches.</td>
 </tr>
-</table> 
-  
+</table>
+
 ### Evaluation of Sprint
 
-**EDIT**
-On reflection, this was a major sprint for us. Integrating the front and back-end of the stack was really important because we wanted to deploy a MVP and do user acceptance testing before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was positive. And now we had successfully built a basic leaderboard which served to record the scores obtained in both connect four and the memory game. However, we still needed to implement multiplayer and video chat functionality for the memory game. These tasks were challenging and took up a lot of our time.
+On reflection, this was a major sprint for us. Integrating the front and back-end of the stack was really important because we wanted to deploy a MVP and do user acceptance testing before the release date. By this point, we had obtained user feedback on the connect four multiplayer and video chat functionality, which was overall very positive. And now we had successfully built a basic leaderboard, and created a friendlist which enabled users to navigate their friend's profiles and game history. This showed a record of the scores obtained in both connect four and the memory game. We felt very happy with the progress we'd made up to this point. However, we still needed to implement multiplayer and video chat functionality for the memory game, finalise our API, and make all the pages reponsive, including mobile responsive for the profile page and leaderboard. These tasks were challenging and would take up a lot of our time.
 
 
 
