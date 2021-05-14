@@ -617,7 +617,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 ```
   → Backlog item: implement multiplayer functionality for memory game.
   → Backlog item: add relevant documentation for database.
-  → Backlog item: build API to handle leaderboard, recent games GET request.
+  → Backlog item: build API to handle add friend, get leaderboard, recent games and friendlist requests.
   → Backlog item: API tests on new features.
   → Backlog item: Build home page with game menu.
   → Backlog item: Complete home page component and add game choice buttons.
