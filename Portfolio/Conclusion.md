@@ -219,7 +219,7 @@ Another unit of functionality our application would benefit from is difficulty l
 
 ### Invite friends to play
 
-We have considered adding a feature to allow our users to invite their friends to use the application. This would most likely take shape in the form of the user inputting their friend's e-mail address and an automated e-mail would be sent to them asking them if they would like to join them on the website. The e-mail would include a short paragraph consisting of information such as "Your friend (insert friend name here) has invited you to play with them on NotSoBored games!". In the email there would also be a large button with the text "Play Now" that would direct the user to the sign up page.
+We have considered adding a feature to allow our users to invite their friends to use the application. This would most likely take shape in the form of the user inputting their friend's e-mail address and an automated e-mail would be sent to them asking them if they would like to join them on the website. The e-mail would include a short paragraph consisting of information such as "Your friend (insert friend name here) has invited you to play with them on NotSoBoredGames!". In the email there would also be a large button with the text "Play Now" that would direct the user to the sign up page.
 
 
 ### Adding a challenge and achievement system
