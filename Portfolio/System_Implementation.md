@@ -986,7 +986,7 @@ Now, we are going to look at the child components of the `home-page` component:
 ![alt text](../Portfolio/images/homepage.png)
 
 </div>
-The `game menu component` is composed of a `title component` and `button group componen`t which serves as an interface for the specific gameplay page with the two buttons of game names.
+The `game menu component` is composed of a `title component` and `button group component` which serves as an interface for the specific gameplay page with the two buttons of game names.
 
 #### Leaderboard
 
