@@ -555,6 +555,12 @@ This was the first sprint following the week pause to our sprints. By this point
   <td>Add navbar component to the parent component (home page component), so that the navbar only needs to be loaded once before the child components being loaded.</td>
 </tr>
 <tr>
+  <td>Front-End</td>
+  <td>Implement user authentication connecting frontend and backend.</td>
+  <td>As a user, I want to able to create an account and login with my credentials.</td>
+  <td>Users may submit registration/login form with empty data.</td>
+  <td>Validate input in template-driven forms using Angular built-in functions. We add validation attributes such as `required` and inspect the control's state by exporting `ngModel`which mirrors many of the properties of its underlying `FormControl` instance. In this way, we are able check for control states such as `valid` and `dirty` and prevent users from submitting with invalid form data.</td>
+</tr>
 <tr>
   <td>Front-End</td>
   <td>Build basic versions of games and obtain user feedback.</td>
