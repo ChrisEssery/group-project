@@ -802,7 +802,25 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 </tr>
 </table>
 
+### Technical problems and solutions
 
+<table>
+<tr>
+  <th>Part of MEAN stack</th>
+  <th>Backlog item</th>
+  <th>Stakeholder story</th>
+  <th>Problem</th>
+  <th>Solution</th>
+</tr>
+<tr>
+  <td>Front-End</td>
+  <td>Build user profile component.</td>
+  <td>As a user, I want to make more friends from the games and view my friendlist.</td>
+  <td>Friendlist was only presented as a list of friend's usernames. Users are not able to know their friends in depth.</td>
+  <td>Change the friendlist in user profile page from a list of String to a list of attributes which allow users to click on and navigate to their friend's profile page, so that they will be able to know more about their friends' personal information and recent matches.</td>
+</tr>
+  
+  
 ### Evaluation of Sprint
 
 **EDIT**
