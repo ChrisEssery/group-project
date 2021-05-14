@@ -99,6 +99,7 @@ There were also certain GitHub features that we didn't utilise which would have 
 
 Overall, Github was incredibly useful and was easily the most important software used on the project. It gave team members a comfortable place to work in their own branches where others didn’t interfere. The version control was managed very well by the team and we never had any major issues merging across our changes. We would be happy and confident to utilise Github again.
 
+<a name="teamwork-communication-&-organisation"></a>
 ### Teamwork, Communication & Organisation
 
 The team itself was a great mix of abilities and interests. All team members were very engaging and positive which really helped us establish early ideas of our app. This made decisions very easy and we could clearly see a direction to head in early on.
@@ -120,10 +121,10 @@ We also feel that we successfully designated roles to each team member. These ro
 
 After conducting background research and a state of the art survey we were well placed to design our product. In addition, the design and ideation phase offered an excellent opportunity to share ideas and hone in on a narrow range of games. We moved on to produce a paper prototype, prototype video, UI wireframe, and an updated UI wireframe. With these steps in the UI and UX design, we developed further insights about what our end-users wanted. We combined this information with our stakeholder stories to enhance the design so that it was fun, engaging, and based on a [user-centred design (UCD)](https://www.interaction-design.org/literature/topics/user-centered-design).
 
-
+<a name="how-well-did-our-project-fulfil-the-brief?"><a/>
 ### How well did our project fulfil the brief?
 
-
+<a name="were-objectives-met?"><a/>
 ### Were objectives met?
 
 To reflect on whether our project objectives were met, let's turn to the objectives we set ourselves and assess whether each of these was met. Consider the first of these:
