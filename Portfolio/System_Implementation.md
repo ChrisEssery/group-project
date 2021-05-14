@@ -1154,7 +1154,7 @@ There are many benefits of using a cloud platform as opposed to your own web ser
 
 * Automation - Azure provides services such as Logic Apps and Functions, which allow you to automate processes for your systems and minimise the time administrating.
 
-For the purpose of this project, the solution architected was not overly complex. The solution used was Azure App Service. App Service allows you to deploy a container, or code, using the language or framework of your choice. It is a fully managed platform, meaning you don't have to handle any of the management of the underlying servers, such as patching or scaling. In a production environment, you can also use the built-in CI/CD integration do minimise downtime.
+During the project, we deployed our application to Azure by using two different solutions. For the initial testing of the container in a live environment, we deployed the container using the Azure App Service. Azure App Service allows you to deploy a container, or code, using the language or framework of your choice. It is a fully managed platform, meaning you don't have to handle any of the management of the underlying servers, such as patching or scaling.  In a production environment, you can also use the built-in CI/CD integration do minimise downtime.
 
 There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
