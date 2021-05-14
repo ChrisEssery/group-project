@@ -1132,14 +1132,7 @@ We began researching which services would meet our needs. We explored Twilio, Pu
 
 <img src="https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png" width="500" height="400">
 
-Firstly, we needed to call the Jitsi Meet script in the index.html file of the project.
-
-<img width="436" alt="Screenshot 2021-05-08 at 23 09 44" src="https://user-images.githubusercontent.com/29493918/117554929-a8290700-b052-11eb-8d95-2d6ad8ad60d2.png">
-
-We then generated a component to house all of the Jitsi component logic.
-
-<img width="330" alt="Screenshot 2021-05-08 at 23 10 49" src="https://user-images.githubusercontent.com/29493918/117554952-e0c8e080-b052-11eb-9995-41076576a7d0.png">
-
+Firstly, we needed to call the Jitsi Meet script in the index.html file of the project. We then generated a component to house all of the Jitsi component logic.
 At this point, we were then easily able to use the component in any of the other components that required the real-time video chat.
 
 ### Deploying to Microsoft Azure
@@ -1163,6 +1156,8 @@ There are different levels of App Service plans. The plan used for this deployme
 Azure Web Apps only allows you to expose two ports; port 80 for HTTP and port 443 for HTTPS. As the application became more complex through the development of the multiplayer functionality, the WebSockets we were using required exposing ports 3050 and 3080. At this point, we decided the best path to take would be to deploy the application to a tradional web server in the form of an Azure virtual machine (VM). We decided to choose a lightweight Ubuntu 18.04-LTS image, size Standard B2s (2vcpus and 4 GiB memory), deployed to the UK South region.
 
 To prepare the VM to host our application, we logged in via SSH, installed all of the required Docker packages and then built and ran the container on the VM. Initially, the application was accessed via HTTP over port 3000. We decided that we wanted to use the more secure HTTPS protocol. To achieve this, we could have installed a certificate onto the VM and configured the VMs network interface card to forward all traffic for port 443 to port 3000. However, we decided to use another Azure service, Application Gateway, to manage this externally to the VM.
+
+![alt_text](https://docs.microsoft.com/en-us/azure/application-gateway/media/application-gateway-url-route-overview/figure1-720.png)
 
 Having now covered the additional elements and components, we now turn our attention to the deployment and integration.
 
