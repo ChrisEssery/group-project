@@ -335,7 +335,7 @@ The aim of this sprint was to show older friends and family members our start pa
    * Build basic versions of games and obtain user feedback.
    * Create a user login.
    * Continue with documentation with a focus on Sprints and project management.
-   * Cnvert Entity Relationship Diagram (ERD) to Unified Modeling Language (UML) diagram for data model
+   * Convert Entity Relationship Diagram (ERD) to Unified Modelling Language (UML) diagram for data model
    * Design API.
 
 **Attendees:** everyone in attendance.
@@ -649,7 +649,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <br>Jack </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores</td>
 <td>Leaderboard</td>
 <td>Get game's leaderboard</td>
-<td>One thing to bear in mind is that the way game scores are sorted may vary with different games. Add a parameter `order` to the url path when making the request. My other piece of advice would be to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract early-adopter customers and validate a product idea early in the product development cycle. In industries such as software, the MVP can help the product team receive user feedback as quickly as possible to iterate and improve the product. Because the agile methodology is built on both validating and iterating products based on user input, the MVP plays a central role in agile development. A company might choose to develop and release a minimum viable product because its product team wants to either release a product to the market as quickly as possible, test an idea with real users before committing a large budget to the product’s full development, or learn what resonates with the company’s target market and what doesn’t. In addition to allowing your company to validate an idea for a product without having to build the entire product, an MVP can also help minimise the time and resources you might otherwise commit to building a product that won’t succeed.</td>
+<td>One thing to bear in mind is that the way game scores are sorted may vary with different games. Add a parameter `order` to the url path when making the request. My other piece of advice would be to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract clients and validate a product idea early in the development cycle. The Agile methodology validates products based on user input, and the MVP is crucial for obtaining this input. There are a number of reasons you might want to release a MVP. You might choose to do this to release a product as quickly as possible. Alternatively, you might be trying to test an idea with real users before committing to a full development, or you may want to learn what does and doesn't appeal to your target market. Finally, in addition to validating an idea for a product without the commitment of building a final version of the product, a MVP can also help minimise the time and resources you might otherwise have to dedicate to build a product that isn't guaranteed to be successful.</td>
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
