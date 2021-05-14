@@ -143,7 +143,7 @@ You can find the timeline for our evaluation of design below:
 
 ## Unit testing
 
-<a name="front-end"></a>
+<a name="frontend"></a>
 ### Front-End
 Functional testing is paramount to the successful launching of our MEAN stack SPA. Thankfully the MEAN stack includes some prerequisite software which helps implement easy front-end functional testing on the differing components.
 The software includes Karma which is a test-runner for JavaScript which runs on Node.js. Karma is great for testing code in browsers as well as different devices. The software allows us to clearly see which tests are failing within the specific components. This helps speed up the debugging process.
