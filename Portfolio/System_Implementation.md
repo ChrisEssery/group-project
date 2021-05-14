@@ -1158,7 +1158,11 @@ During the project, we deployed our application to Azure by using two different 
 
 There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
-<img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">
+<img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">.
+
+Azure Web Apps only allows you to expose two ports; port 80 for HTTP and port 443 for HTTPS. As the application became more complex through the development of the multiplayer functionality, the WebSockets we were using required exposing ports 3050 and 3080. At this point, we decided the best path to take would be to deploy the application to a tradional web server in the form of an Azure virtual machine (VM). We decided to choose a lightweight Ubuntu 18.04-LTS image, size Standard B2s (2vcpus and 4 GiB memory), deployed to the UK South region.
+
+To prepare the VM to host our application, we logged in via SSH, installed all of the required Docker packages and then built and ran the container on the VM. Initially, the application was accessed via HTTP over port 3000. We decided that we wanted to use the more secure HTTPS protocol. To achieve this, we could have installed a certificate onto the VM and configured the VMs network interface card to forward all traffic for port 443 to port 3000. However, we decided to use another Azure service, Application Gateway, to manage this externally to the VM.
 
 Having now covered the additional elements and components, we now turn our attention to the deployment and integration.
 
