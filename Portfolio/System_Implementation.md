@@ -1140,8 +1140,6 @@ A typical implementation of Socket.io can be seen below:
 
 <img width="419" alt="Screenshot 2021-05-07 at 00 41 44" src="https://user-images.githubusercontent.com/29493918/117378383-36738080-aecd-11eb-99c9-b2df7d191409.png">
 
-Overall, Socket.io provided all of the functionality required to delivery the multiplayer aspects of the game in a clean, intuitive fashion.
-
 ### Real-time Video Chat
 Along with multiplayer functionality, providing a real-time video chat solution was another key objective. Initially, we had discussed developing a video chat application from the ground up using ASP.NET and Angular, however we decided that focusing our development time on our own application was a more effective use of our time.
 
@@ -1151,6 +1149,22 @@ We began researching which services would meet our needs. We explored Twilio, Pu
 
 Firstly, we needed to call the Jitsi Meet script in the index.html file of the project. We then generated a component to house all of the Jitsi component logic.
 At this point, we were then easily able to use the component in any of the other components that required the real-time video chat.
+
+Having now covered the additional elements and components, we now turn our attention to the deployment and integration.
+
+## Deployment and Integration
+
+The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
+
+![alt text](../Logo/Docker_Image.png)
+
+### Deployment: Details of Implementation
+
+Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
+
+In preparation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronisation between the containers.
+
+Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
 
 ### Deploying to Microsoft Azure
 ![alt_text](https://miro.medium.com/max/3840/1*_HYOZExV1wV2f0OrfZ9YcA.png)
@@ -1179,24 +1193,6 @@ To prepare the VM to host our application, we logged in via SSH, installed all o
 Application Gateway is a web traffic load balancer that allows you to have full control over the traffic going to your web applications. It allows you to route traffic coming in on certain ports to the load balancer to different ports within your server pool, which we used to route all traffic on port 443 to port 3000. The other feature of Application Gateway that we utilised was the use of end-to-end TLS encryption. With this feature enabled, it meant that we did not need to store any certificates on the VM at all, as all of the traffic SSL/TLS processing was done by the Application Gateway. For the management of the certificate, we used Azure Key Vault, Azure's solution for securely storing and managing keys, secrets and certificates. Application Gateway supports integration with Azure Key Vault, which made it ideal for our use case.
 
 Finally, to make the application accessible, we added a public IP address to the Application Gateway and added a DNS record for our domain. The live server version of our MVP can be found at www.notsoboredgames.co.uk
-
-Having now covered the additional elements and components, we now turn our attention to the deployment and integration.
-
-## Deployment and Integration
-
-The deployment of our app utilized the software known as Docker. Compatibility for differing components of our app can be troublesome, alonside OS requirements. Docker allows each component of the app to be ran it's own personalized environment known as a container. This technique is not specific to Docker software but it's functionality and versatility make it one of the best containerising softwares in deployment today.      
-
-![alt text](../Logo/Docker_Image.png)
-
-### Deployment: Details of Implementation
-
-Initially a Dockerfile was created so that the node element of our app could be containerised and served. This allowed us to view the front-end from very early stages in the production.
-
-In preparation for the back-end a wait-script was added which allowed the MongoDB database to always start-up prior to the node element of our app. This allowed synchronisation between the containers.
-
-Once the back-end work had begun we could then create the docker-compose configuration file. This allowed us to containise the database seperate to the node element. Once implemented the back-end could 'talk' to the front-end easily without any trouble. With our multiplayer aspect of the app we needed to tweak the docker-compose slightly to accept some extra ports in order for this to work as expected.
-
-
 
 ___
 
