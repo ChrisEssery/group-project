@@ -307,6 +307,7 @@ The final outlier is an application designed to change one's mindset. Using prin
 - Engaging activities and games can be used anywhere
 - Price: Free to start; subscription plans start at $11.67/month
 
+Having now identified three outliers in the market, we now ask ourselves the question: is there a gap in this market? Which is to say, is there an area or service which current products aren't serving? If there is, then we can exploit that gap. Let's take a look. 
 
 ### A gap in the market
 
