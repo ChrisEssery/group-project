@@ -393,7 +393,7 @@ The aim of this sprint was to show older friends and family members our start pa
 <br>Jack </a> <br /> As a product manger, I want to see an engaging UI which is appropriate for the end-users.</td>
 <td>N/A</td>
 <td>Create and circulate questionnaire regarding UI wireframe/Relational diagram -> UML diagram.</td>
-<td>This start page is really good - well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data).</td>
+<td>This start page is really good - well done. I think the style and format is appropriate for your end-users, however I would stress that it is really important to gather user feedback as often as possible to ascertain what they think about the front-end design of the product. One thing you might want to consider is adding simple instructions for the login and entering the games. This is because it might be hard for them to navigate. It's important to remember that your end-users will more than likely have a low level of digital literacy, so you want to make your product very easy to use. For this reason, I would advise that your scrum leader makes sure that you are always revisiting the issue of usability and making sure the end-users are consulted on new features throughout the development lifecycle. With the relational diagram, will this work for MongoDB? I think you might need a model suitable for mongoDB. You will also need to give some consideration to the API design, in particular the routes and data.</td>
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
@@ -429,7 +429,7 @@ The aim of this sprint was to show older friends and family members our start pa
   <td>Check api path.</td>
   <td>Developers are able to report the correct error message when there is a request on undefined path.</td>
   <td>Request on invalid url path.</td>
-  <td>Catch all routes at the end of the file for each routes (`/api/games/xxx` or /api/users/xxx`) and return the status code `404</td>
+  <td>Catch all routes at the end of the file for each routes (`/api/games/xxx` or /api/users/xxx`) and return the status code `404.</td>
 </tr>
 </table>
 
