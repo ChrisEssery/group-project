@@ -883,7 +883,7 @@ The first page of our application is the start page. This is shown below.
 <img src="../Portfolio/images/startpage.gif" width="100%">
 </p>
 
-As mentioned in the subsection on [digital literacy](../Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'. For the background component, we added a color changing animation and transparent squares animations to engage the users using CSS. The title component was designed with a bouncy animation of the letters to create a happy and vibrant first impression for our users. The two buttons were designed with a hover effect for our users to indicate them the next action in a straightforward way. Each of the button will be linked to signup and login page respectively using Angular `Routerlink`.
+As mentioned in the subsection on [digital literacy](../Portfolio/Background.md#digital-literacy) in the Background section of this report, a digital game for the elderly should be designed with the needs of the target user in mind. As such, we decided to make the user interface bright, bold and easy to use. So, we decided to have a bright, engaging background, a clear bold title and two buttons, one to 'sign up' and another 'login'. For the `background component`, we added a color changing animation and transparent squares animations to engage the users using CSS. The `title component` was designed with a bouncy animation of the letters to create a happy and vibrant first impression for our users. The two `buttons` were designed with a hover effect for our users to indicate them the next action in a straightforward way. Each of the button will be linked to signup and login page respectively using Angular `Routerlink`.
 
 ### Login/sign up page
 
@@ -900,7 +900,7 @@ As mentioned in the subsection on [digital literacy](../Portfolio/Background.md#
 
 </div>
 
-The signup and login page include the static title component which inherits the style of the title from the start page, the background component and the reactive form component provided by Angular. [Angular reactive forms](https://angular.io/guide/reactive-forms) provide a model-driven approach to handling form inputs whose values change over time. In order to validate form input and display useful validation messages, we added the `required` validator to the registration/login forms and used the Angular built-in `NgModel` to check for control states such as `valid` and `dirty` and display messages which can be seen below:
+The signup and login page include the static `title component` which inherits the style of the title from the start page, the `background component` and the `reactive form component` provided by Angular. [Angular reactive forms](https://angular.io/guide/reactive-forms) provide a model-driven approach to handling form inputs whose values change over time. In order to validate form input and display useful validation messages, we added the `required` validator to the registration/login forms and used the Angular built-in `NgModel` to check for control states such as `valid` and `dirty` and display messages which can be seen below:
 
 ```html
 <div class="textbox">
@@ -986,7 +986,7 @@ Now, we are going to look at the child components of the `home-page` component:
 ![alt text](../Portfolio/images/homepage.png)
 
 </div>
-The game menu component is composed of a title component and button group component which serve as an interface for the specific gameplay page with the two buttons of game names.
+The `game menu component` is composed of a `title component` and `button group componen`t which serves as an interface for the specific gameplay page with the two buttons of game names.
 
 #### Leaderboard
 
@@ -996,7 +996,7 @@ The game menu component is composed of a title component and button group compon
 
 </div>
 
-The leaderboard component is another important part of our product which will present the leading players' names and their winning times. The data is loaded from the backend once the leaderboard component is called.
+The `leaderboard component` is another important part of our product which presents the leading players' names and their winning times. The data is loaded from the backend once the leaderboard component is called.
 
 ```typescript
  ngOnInit(): void {
@@ -1019,7 +1019,7 @@ The leaderboard component is another important part of our product which will pr
 <img src="../Portfolio/images/profile.gif" width="100%">
 </p>
 
-The `profile` component is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking their names and click on "back" button to go back to their own profile. The recent matches is presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented.
+The `profile component` is where the user data is presented. This includes the friendlist, personal information and the recent matches. The "edit profile" button is added for user to update their information. Once it is clicked, we use the [Angular reactive form](https://angular.io/guide/reactive-forms) to collect user information and pass to the backend. For the friendlist, users can choose to view their friend's profile page by clicking on their names and press "back" button to go back to their own profile. The recent matches are presented in a table format which includes the other player's username, the game name, and the date. The table is sorted according to the date. Only the most recent 10 game records will be presented.
 
 ### Games
 
