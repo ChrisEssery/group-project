@@ -1028,11 +1028,14 @@ The `profile component` is where the user data is presented. This includes the f
 <img src="../Portfolio/images/memorygame.png" width="100%">
 </p>
 
-The memory game is composed of components for the buttons, cards, heading, and board layout as well as a folder of 'services' which contain the game logic for the cards, gameplay, and leaderboard. Below you can find a brief description of the compontents and their functionality.
+
+The memory game is composed of components for the buttons, cards, heading, and board layout as well as a folder of 'services' which contain the game logic for the cards, gameplay, and leaderboard. Below you can find a brief description of the cards and their functionality:
 
 * **Cards** - The card component consists of an id, an image reference and two simple functions to hide and show the face of the cards during gameplay.
-* **Board layout** - 
-* 
+* **Board layout** - The cards are contained within a CSS flexbox set with the times to wrap and flow in rows.
+
+The main game logic is split across two TypeScript files; one for the game logic and one for the card logic. The card logic file consists of two functions. The first of which creates an array of every card required for the game. The second shuffles the cards before playing. When the game service is instantiated, it creates a card service and then gets this shuffled array of cards. When the player takes their turn, the card they selected is pushed onto an activeCards array, and if the proceeding card matches (via a comparison of the card IDs), they remain visible. After each turn is complete, an isGameFinished() function is called , which determines whether all of the cards are visible. If they are, then the game ends.
+
 
 
 ### Connect 4
