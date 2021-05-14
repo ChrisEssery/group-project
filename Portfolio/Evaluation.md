@@ -26,7 +26,6 @@ In this section, we evaluate our app. We start by evaluating the design of the a
   * [Back-End (AUTOMATE API TESTING)](#back-end-automate-api-testing)
   * [Testing implementation](#testing-implementation)
 * [**User acceptance testing**](#user-acceptance-testing)
-  * [Findings and implications](#findings-and-implications)
 
 
 ## Evaluation of design
@@ -104,11 +103,11 @@ Walford (2004), who claims that "…the aim of research is surely to reduce the 
 
 ### Heuristics
 
-Heuristics are a useful method because they can help in predicting user behaviour and when compared to primary datam can uncover important research questions and hypotheses.
+Heuristics are a useful method because they can help in predicting user behaviour and when compared to primary data can uncover important research questions and hypotheses. They're also a fast, economical way of obtaining data from users, and an easy method to apply. Overall, they serve as a quick way to identify and resolve usability and design problems with individual elements of the system and how those problems may impact the UX.
 
 **Limitations**
 
-One of the downsides of heuristics commonly make assumptions about products and people. Heuristics may not be suited to novel technologies - there is a risk of new technology outpacing heuristics. However, despite these considerations, heuristics are a great tool for making the design do's and don'ts intuitive. For our purposes, heuristcs were perfect because we didn't have access to many users given the covid crisis. Challenges to end-users, particularly given that our end-users are an at-risk group.
+One of the downsides of heuristics commonly make assumptions about products and people. Heuristics may not be suited to novel technologies. This is because there is a risk of new technology outpacing heuristics. However, despite these considerations, heuristics are a great tool for making the design do's and don'ts intuitive. For our purposes, heuristics were perfect because we didn't have access to many users given the covid crisis. And this was even more of an issue for our team since our target end-users are the most at-risk group with regard to the Covid-19 virus.
 
 Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
 
@@ -144,6 +143,7 @@ You can find the timeline for our evaluation of design below:
 
 ## Unit testing
 
+<a name="frontend"></a>
 ### Front-End
 Functional testing is paramount to the successful launching of our MEAN stack SPA. Thankfully the MEAN stack includes some prerequisite software which helps implement easy front-end functional testing on the differing components.
 The software includes Karma which is a test-runner for JavaScript which runs on Node.js. Karma is great for testing code in browsers as well as different devices. The software allows us to clearly see which tests are failing within the specific components. This helps speed up the debugging process.
@@ -202,6 +202,7 @@ Through running ‘ng test’ we could easily see any issues within our front-en
 
 Our functional testing showed that the navigation, login and logout of users is smooth and gives us confidence that the implementation was correct. Whilst the issue with Jitsi was unresolvable if we had further time then this could be something we would look to fix.
 
+<a name="back-end-automate-api-testing"></a>
 ### Back-End (AUTOMATED API TESTING)
 
 The backend API was tested vigorously using software known as [Postman](https://www.postman.com/), which is is a scalable API testing tool that allows us to run automated and thorough tests to our RESTful API.
@@ -337,7 +338,7 @@ Please see our [published api document](https://documenter.getpostman.com/view/1
 
 ## User acceptance testing
 
-We now turn to the user acceptance testing (UAT). According to Wikipedia, user acceptance testing "consists of a process of verifying that a solution works for the user." The most important consideration here is that UAT centres around whether the users are able to use the application, and whether the application behaves in expected ways.
+We now turn to the user acceptance testing (UAT). According to one definition, user acceptance testing ["consists of a process of verifying that a solution works for the user"](https://en.wikipedia.org/wiki/Acceptance_testing) The most important consideration here is that UAT centres around whether the users are able to use the application, and whether the application behaves in expected ways.
 
 There exist three main software testing phases:
 

@@ -16,6 +16,7 @@ In this section, we discuss the the system implementation of the app. We start w
    * [Overview of stack](#overview-of-stack)
 * [**Back End**](#back-end)
    * [MongoDB](#mongodb)
+   * [Mongoose](#mongoose)
    * [Back End : Details of Implementation](#back-end--details-of-implementation)
 * [**Middle tier**](#middle-tier)
    * [Express](#express)
@@ -84,6 +85,8 @@ With this information in mind, we will turn our attention to the back-end of the
 
 ## Back end
 
+<a name="mongodb"></a>
+### MongoDB
 <div align="center">
 
 ![alt text](../Logo/implementation2.png)
@@ -95,6 +98,9 @@ For our database, we used MongoDB. MongoDB is a NoSQL database which stores docu
 There are several reasons. Firstly, MongoDB is a powerful database that can be easily integrated into a Node/Express environment. For this reason, it was an obvious choice, as we were looking to build our application quickly and with as little problems as possible. The 'M' in MEAN was, therefore, very important to ensure everything worked well and without issues. Secondly, MongoDB is highly scalable. Were we to continue with NotSoBored games and try make it into a business, mongoDB would allow for us to scale in size.
 
 So, why didn't we use a SQL database instead? We decided not to do this because we wanted to use the MEAN stack, which is a recognised stack that enables quick builds, and we also recognised that, for our purposes, we don't require a database to hold data with lots of connections. Instead, the data we will be storing requires very few. Give this fact, we felt it wasn't necessary to use SQL.
+
+<a name="mongoose"></a>
+### Mongoose
 
 <div align="center">
 
@@ -214,7 +220,7 @@ We now give a detailed overview of the API implementation, beginning with the AP
 
 **[middleware.js](../server/routes/middleware.js)** serves as a middleware which prevents unauthorised access without valid token and makes sure every request comes with a valid and unexpired X-Acess-Token.
 
-### Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
+### Use the HTTP Status Code to identify the Status
 
 **Returned Status Code Specification**
 
@@ -335,7 +341,7 @@ returned data:
 - Status code: `204`
 
 
-
+<a name="Get-a-user's-personal-information"></a>
 #### Get a user 's personal information
 
 **Request:**
@@ -364,6 +370,7 @@ returned data:
 }
 ```
 
+<a name="Get-a-user's-friendlist"></a>
 #### Get a user's friendlist
 
 **Request:**
@@ -388,7 +395,7 @@ returned data:
     ]
 }
 ```
-
+<a name="Get-a-user's-game-history"></a>
 #### Get a user's game history
 
 **Request:**
@@ -431,6 +438,7 @@ returned data:
 }
 ```
 
+<a name="Update-a-user's-personal-information"></a>
 #### Update a user's personal information
 
 **Request:**
@@ -466,7 +474,7 @@ returned data:
     "result": "updated successfully"
 }
 ```
-
+<a name="Add-a-friend-to-a-user's-friendlist"></a>
 #### Add a friend to a user's friendlist
 
 **Request:**
@@ -1132,14 +1140,7 @@ We began researching which services would meet our needs. We explored Twilio, Pu
 
 <img src="https://jitsi.org/wp-content/uploads/2018/11/jitsi-logo-blue-grey-text.png" width="500" height="400">
 
-Firstly, we needed to call the Jitsi Meet script in the index.html file of the project.
-
-<img width="436" alt="Screenshot 2021-05-08 at 23 09 44" src="https://user-images.githubusercontent.com/29493918/117554929-a8290700-b052-11eb-8d95-2d6ad8ad60d2.png">
-
-We then generated a component to house all of the Jitsi component logic.
-
-<img width="330" alt="Screenshot 2021-05-08 at 23 10 49" src="https://user-images.githubusercontent.com/29493918/117554952-e0c8e080-b052-11eb-9995-41076576a7d0.png">
-
+Firstly, we needed to call the Jitsi Meet script in the index.html file of the project. We then generated a component to house all of the Jitsi component logic.
 At this point, we were then easily able to use the component in any of the other components that required the real-time video chat.
 
 ### Deploying to Microsoft Azure
@@ -1158,7 +1159,17 @@ During the project, we deployed our application to Azure by using two different 
 
 There are different levels of App Service plans. The plan used for this deployment was the Basic Plan, with the B1 instance, information for which can be found below.
 
-<img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">
+<img width="1291" alt="Screenshot 2021-05-08 at 22 48 09" src="https://user-images.githubusercontent.com/29493918/117554442-9e51d480-b04f-11eb-96c0-1182b0653506.png">.
+
+Azure Web Apps only allows you to expose two ports; port 80 for HTTP and port 443 for HTTPS. As the application became more complex through the development of the multiplayer functionality, the WebSockets we were using required exposing ports 3050 and 3080. At this point, we decided the best path to take would be to deploy the application to a tradional web server in the form of an Azure virtual machine (VM). We decided to choose a lightweight Ubuntu 18.04-LTS image, size Standard B2s (2vcpus and 4 GiB memory), deployed to the UK South region.
+
+To prepare the VM to host our application, we logged in via SSH, installed all of the required Docker packages and then built and ran the container on the VM. Initially, the application was accessed via HTTP over port 3000. We decided that we wanted to use the more secure HTTPS protocol. To achieve this, we could have installed a certificate onto the VM and configured the VMs network interface card to forward all traffic for port 443 to port 3000. However, we decided to use another Azure service, Application Gateway, to manage this externally to the VM.
+
+![alt_text](https://docs.microsoft.com/en-us/azure/application-gateway/media/application-gateway-url-route-overview/figure1-720.png)
+
+Application Gateway is a web traffic load balancer that allows you to have full control over the traffic going to your web applications. It allows you to route traffic coming in on certain ports to the load balancer to different ports within your server pool, which we used to route all traffic on port 443 to port 3000. The other feature of Application Gateway that we utilised was the use of end-to-end TLS encryption. With this feature enabled, it meant that we did not need to store any certificates on the VM at all, as all of the traffic SSL/TLS processing was done by the Application Gateway. For the management of the certificate, we used Azure Key Vault, Azure's solution for securely storing and managing keys, secrets and certificates. Application Gateway supports integration with Azure Key Vault, which made it ideal for our use case.
+
+Finally, to make the application accessible, we added a public IP address to the Application Gateway and added a DNS record for our domain. The live server version of our MVP can be found at www.notsoboredgames.co.uk
 
 Having now covered the additional elements and components, we now turn our attention to the deployment and integration.
 
