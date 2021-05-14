@@ -819,7 +819,7 @@ The main aim of this sprint was to integrate the front and back-end of the stack
   <td>Friendlist was only presented as a list of friend's usernames. Users are not able to know their friends in depth.</td>
   <td>Change the friendlist in user profile page from a list of String to a list of attributes which allow users to click on and navigate to their friend's profile page, so that they will be able to know more about their friends' personal information and recent matches.</td>
 </tr>
-  
+</table> 
   
 ### Evaluation of Sprint
 
