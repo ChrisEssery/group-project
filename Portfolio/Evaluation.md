@@ -104,7 +104,7 @@ Heuristics are a useful method because they can help in predicting user behaviou
 
 One of the downsides of heuristics commonly make assumptions about products and people. Heuristics may not be suited to novel technologies. This is because there is a risk of new technology outpacing heuristics. However, despite these considerations, heuristics are a great tool for making the design do's and don'ts intuitive. For our purposes, heuristics were perfect because we didn't have access to many users given the covid crisis. And this was even more of an issue for our team since our target end-users are the most at-risk group with regard to the Covid-19 virus.
 
-Before moving on to our evaluation of the design, let's consider some of the strengths and weaknesses of this approach.
+Before moving on to other possible methods for design evaluation, let's consider some of the strengths and weaknesses of this approach.
 
 <table>
 <tr>
