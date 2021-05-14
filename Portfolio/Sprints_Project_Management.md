@@ -549,6 +549,14 @@ This was the first sprint following the week pause to our sprints. By this point
 </tr>
 <tr>
   <td>Front-End</td>
+  <td>Build home page component and add navbar.</td>
+  <td>As a user, I want to navigate between pages with the aid of a clear navbar menu at the top.</td>
+  <td>Unnecessary repetitive load for navbar component on the child components like user profile and leaderboard page.</td>
+  <td>Add navbar component to the parent component (home page component), so that the navbar only needs to be loaded once before the child components being loaded.</td>
+</tr>
+<tr>
+<tr>
+  <td>Front-End</td>
   <td>Build basic versions of games and obtain user feedback.</td>
   <td>As a sponsor, I want the games to be fun and interactive.</td>
   <td>The prototype memory game was written using Javascript, html and css since there were many useful online tutorials to model the game on. The problem with this was that we were using Angular with TypeScript because TypeScript speeds up the development experience by catching errors and providing fixes. However,  migrating from JavaScript to TypeScript, the primary language for the Angular application development, took quite a lot of time to complete.</td>
