@@ -43,7 +43,7 @@ We also realised the importance of delegation. So, to ensure that the team was o
 
 ## Software development lifecycle
 
-In order to produce working software, it is important to follow a recognised methodology. This is because the methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now take a look at these approaches.
+In order to produce working software, it is important to follow a recognised methodology. This is because a methodology helps guide collaborative decision making from project initiation to production use by end-users. There exist two main methodologies for this purpose: the waterfall model and the Agile method. These methods cover the planning, design, coding, testing and production involved in software development. Both have their merits and drawbacks. We'll now take a look at these approaches.
 
 ### The waterfall method
 
@@ -418,15 +418,15 @@ The aim of this sprint was to show older friends and family members our start pa
 </tr>
 <tr>
   <td>Back-End</td>
-  <td>Relational diagram -> UML diagram.</td>
+  <td>Convert Entity Relationship Diagram (ERD) to Unified Modelling Language (UML) diagram for data model.</td>
   <td>Relational model to show the stakeholders.</td>
-  <td>Relational model didn't work for MongoDB</td>
+  <td>Relational model didn't work for MongoDB.</td>
   <td>Relational diagram. We chose a UML diagram, because the relational model didn't work for MongoDB. So, we developed the data model to suit mongoDB style - namely, something object oriented.</td>
 </tr>
 <tr>
   <td>Back-End</td>
   <td>Check api path.</td>
-  <td>Developers are able to report the correct error message when there is a request on underfined path</td>
+  <td>Developers are able to report the correct error message when there is a request on undefined path.</td>
   <td>Request on invalid url path.</td>
   <td>Catch all routes at the end of the file for each routes (`/api/games/xxx` or /api/users/xxx`) and return the status code `404</td>
 </tr>
@@ -646,7 +646,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
 <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Jack </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores</td>
+<br>Jack </a> <br /> As a product manger, I want users to view the specific game leaderboard based on the scores.</td>
 <td>Leaderboard</td>
 <td>Get game's leaderboard</td>
 <td>One thing to bear in mind is that the way game scores are sorted may vary with different games. Add a parameter `order` to the url path when making the request. My other piece of advice would be to build a MVP as soon as possible. Why? A MVP is a product with enough features to attract clients and validate a product idea early in the development cycle. The Agile methodology validates products based on user input, and the MVP is crucial for obtaining this input. There are a number of reasons you might want to release a MVP. You might choose to do this to release a product as quickly as possible. Alternatively, you might be trying to test an idea with real users before committing to a full development, or you may want to learn what does and doesn't appeal to your target market. Finally, in addition to validating an idea for a product without the commitment of building a final version of the product, a MVP can also help minimise the time and resources you might otherwise have to dedicate to build a product that isn't guaranteed to be successful.</td>
@@ -842,32 +842,32 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
  <td><img src="../Logo/user_bob.jpg" width=40%>
  <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Bob</a> <br /> As a user, I want clear instructions on how to use the product.</td>
- <td>Demo video</td>
- <td>Complete introduction demo video</td>
+ <td>Demo video.</td>
+ <td>Complete introduction demo video.</td>
  <td>This demo video is good, but I think that it is a little bit light on instructions. Maybe you should add more instructions?</td>
 </tr>
 <tr>
  <td><img src="../Logo/user_sally.jpg" width=45%>
  <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Sally </a> <br /> As a user, I want to see my profile on different sized screens.</td>
- <td>Page responsivity</td>
- <td>Make pages of application responsive, including mobile responsive</td>
+ <td>Page responsivity.</td>
+ <td>Make pages of application responsive, including mobile responsive.</td>
  <td>Now I can see my profile page and the leaderboard on my tablet and smartphone. Fantastic! This is very convenient for me because I am more familiar with these devices.</td>
 </tr>
 <tr>
 <td><img src="../Logo/manager_jack.jpg" width=45%>
 <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
-<br>Jack </a> <br /> As a product manger, I believe thorough testing is essential</td>
-<td>Testing</td>
-<td>Create test accounts and test both backend and frontend work correctly</td>
+<br>Jack </a> <br /> As a product manger, I believe thorough testing is essential.</td>
+<td>Testing.</td>
+<td>Create test accounts and test both backend and frontend work correctly.</td>
 <td>Testing the back-end and front-end is really important, I'm glad you've now turned your attention to it. It's important because it will help you to determine whether both parts of the stack are working correctly. Testing the front-end is very important because it serves to determine the overall functionality and usability of the application, including validating buttons, menus, links, and other elements of the application that are used by the end-users. It is essential that you are very thorough with this testing, as you don't want to miss any bugs which your end-users might then run into. And back-end testing is important because it, among other things, serves to check for data corruption and data loss. By conducting testing on both parts of the stack you will be able to identify faults and errors in your code and make corrections - and remove bugs - where necessary. This really is an absolutely essential aspect of building a product, so make sure that you do it properly and that everything is tested thoroughly.</td>
 </tr>
 <tr>
  <td><img src="../Logo/user_simon.jpg" width=45%>
  <a href="../Portfolio/UX_Design.md#identification-of-users-and-stakeholders">
  <br>Simon </a> <br /> As a sponsor, I want to make sure there are rules and structure to the product.</td>
- <td>Leaderboard/Profile page</td>
- <td>Build API using express framework and node.js</td>
+ <td>Leaderboard/Profile page.</td>
+ <td>Build API using express framework and node.js.</td>
  <td>I'm glad that you have built the API. Without the API, we won't have a working product.</td>
 </tr>
 </tr>
@@ -886,15 +886,15 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 </tr>
 <tr>
   <td>Front-End</td>
-  <td>Make pages of application responsive, including mobile responsive</td>
-  <td>As a user, I want to see my profile on different sized screens</td>
+  <td>Make pages of application responsive, including mobile responsive.</td>
+  <td>As a user, I want to see my profile on different sized screens.</td>
   <td>It was not possible to make the Jitsi video chat mobile responsive.</td>
   <td>To prevent any issues with players using the video chat, we set the games to be only available on PC. If the user attempts to play the games on a mobile device they will not be able to since the game choice buttons will not appear for smaller screens (less than 1440px in width).</td>
 </tr>
 <tr>
   <td>Front-End</td>
-  <td>Conduct unit testing</td>
-  <td>As a product manger, I believe thorough testing is essential</td>
+  <td>Conduct unit testing.</td>
+  <td>As a product manger, I believe thorough testing is essential.</td>
   <td>The card class within the card component was not produced prior to checking the component existed. This caused an undefined issue given that the elements within the class were not assigned.</td>
   <td>This was a straightforward fix and just required an import of the card class and initialising an instance of this.</td>
 </tr>
