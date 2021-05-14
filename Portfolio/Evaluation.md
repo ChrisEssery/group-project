@@ -112,8 +112,8 @@ Before moving on to other possible methods for design evaluation, let's consider
   <th>The Cons</th>
 </tr>
 <tr>
-  <td>- Evaluators can focus directly on specific issues, flag them and find optimal solutions <br /> - Evaluators can identify faults with individual elements and determine their impact on the overall UX  <br /> - Compared to testing on users, you can obtain feedback without ethical issues and costs. </td>
-  <td>- Evaluators' insights are subjective; findings can lack proof and be biased <br /> - Finding several evaluators may be hard and expensive  <br />- Evaluators can identify issues that aren't usability problems </td>
+  <td>- Focuses directly on specific issues, flag them and find optimal solutions <br /> - Identifies faults with individual elements and determine their impact on the overall UX  <br /> - You can obtain feedback without ethical issues and costs. </td>
+  <td>- Insights are subjective; absence of proof and vulnerable to bias <br /> - Finding experienced evaluators may be difficult and costly  <br />- Can identify issues that aren't usability problems. </td>
 </tr>
 </table>
 
