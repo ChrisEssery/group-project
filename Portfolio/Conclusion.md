@@ -52,6 +52,7 @@ With the use of Microsoft Teams and Discord we were able to communicate effectiv
 
 The Agile approach suited our project really well and helped everyone manage their workload effectively alongside other university work. With clear and defined tasks allocated to each of us we were able to easily follow the model. Our sprints were effective and well documented and clearly showed the progress made as our app came to life.
 
+<a name="microsoft-teams-&-discord"></a>
 ### Microsoft Teams & Discord
 
 Throughout the project we had strong communication between team members through the use of Microsoft Teams. Initially we tried also using the Discord platform and it was useful to share ideas however Microsoft Teams became the main area of team communication.
