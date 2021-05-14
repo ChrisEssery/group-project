@@ -125,21 +125,22 @@ Before moving on to our evaluation of the design, let's consider some of the str
 
 ### Other possible methods
 
-By this point it is probably clear that most of the data we obtained was qualitative. Qualitative methods generate data that are represented by observations or reports of people's opinions and behaviours. This method is best suited when the goal is to understand and represent the opinions and perspectives of the target users. Given this, qualitative methods seemed the natural choice when trying to evaluated our design. Analysing this type of data may include interviews, observation notes, open-ended survey responses, and user-diaries. There are several ways in which such data may be analysed with differing levels of rigour.
+By this point it is probably clear that most of the data we obtained was qualitative. Qualitative methods generate data that are represented by observations or reports of people's opinions and behaviours. This method is best suited when the goal is to understand and represent the opinions and perspectives of the target users. Given this, qualitative methods seemed the natural choice when trying to evaluated our design. Analysing this type of data may include interviews, observation notes, open-ended survey responses, and user-diaries. There are several ways in which such data may be analysed with differing levels of rigour. On reflection, we would have liked to employ a mixed methods approach to generate both quantitative and qualitative data, using one to inform the other (that is, 'triangulation'). However, this lay outside the scope of our project due to the time constraints impose on use and the nature of the product we were developing. Despite this, there exist different methods we could have used that would have served to help evaluate our product design.
 
-On reflection, we would have liked to employ a mixed methods approach to generate both quantitative and qualitative data, using one to inform the other (that is, 'triangulation'). However, this lay outside the scope of our project due to the time constraints impose on use and the nature of the product we were developing. Despite this, there exist different methods we could have used that would have served to help evaluate our product design.
+**Fitts’ law**
+Fitts' law (1954) is an empirical research model of human behaviour that can be used to predict or estimate evaluative outcomes. The law states that the amount of time required for a person to move a computer mouse cursor to a target area and select that target area. Therefore, ["...the time to acquire a target is a function of the distance to and size of the target"](https://www.slideserve.com/ilandere/human-factors-and-fitts-law-ken-goldberg-ieor-and-eecs-uc-berkeley). Fitts’ law is widely applied in user experience (UX) and user interface (UI) design. For example, this law influenced the convention of making interactive buttons large (especially on finger-operated mobile devices)—smaller buttons are more difficult (and time-consuming) to click. Likewise, the distance between a user’s task/attention area and the task-related button should be kept as short as possible. The law is applicable to rapid, pointing movements, not continuous motion (e.g., drawing). Such movements typically consist of one large motion component (ballistic movement) followed by fine adjustments to acquire (move over) the target. The law is particularly important in visual interface design—or any interface involving pointing (by finger or mouse, etc.): we use it to assess the appropriate sizes of interactive elements according to the context of use and highlight potential design usability problems.
 
-The first method is models of behaviour. These empirical research models of human behaviour can be used to predict or estimate evaluative outcomes. Fitts' law (1954) is a good example of research which cites Fitts' law. ADD MORE.
-
-**Cognitive walkthroughs** - This second method involves emulating a user's problem-solving process at each step in the the human-computer-dialogue and check to see how users progress from step to step in these interactions
+**Cognitive walkthroughs**
+This second method involves emulating a user's problem-solving process at each step in the the human-computer-dialogue and check to see how users progress from step to step in these interactions
 
 **Thematic analysis** is the final method we will consider here. This is a popular and flexible means of applying structure and a prescriber process for your analysis. In short, this approach involves gathering together your data from all available sources, creating category labels ("codes") that describe emerging and or expected patterns trend, apportion evidence (e.g. quotes from users, research observations excerpts beneath each category label, restructuring codes into a hierarchy tree and grouping related items together to generate themes).
 
 
 ### Timeline of evaluation of design
 
-**ADD timeline**
+You can find the timeline for our evaluation of design below:
 
+![alt text](../Logo/evaluation-timeline.png)
 
 ## Unit testing
 
