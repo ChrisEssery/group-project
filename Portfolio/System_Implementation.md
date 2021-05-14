@@ -907,7 +907,7 @@ The signup and login page include the static `title component` which inherits th
    <i class="fas fa-user"></i>
    <input type="text" placeholder="Username" name="username"  required [(ngModel)]="signUpForm.username" #username="ngModel">
 </div>
-<div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username isvrequired</div>
+<div [hidden]="username.valid || username.pristine"class="alert alert-danger">Username is required</div>
 ```
 
 To check the email format:
