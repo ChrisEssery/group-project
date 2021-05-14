@@ -224,7 +224,7 @@ The following are a list of tasks and features that the team were tasked to deli
       → Backlog item: create a simple UI design paper prototype.
       → Backlog item: create a group Discord server.
       → Backlog item: create stakeholder stories.
-
+    
     ```
 
 ### Evaluation of Sprint
@@ -246,6 +246,7 @@ The aim of this sprint was to get something built and pushed onto GitHub. From p
   * Discussed stakeholder stories and their feedback.
   * Work on documentation with a focus on background research and state-of-the-art survey.
   * Make data model (build a relational entity diagram of data model).
+  * Navigation design
 
 **Attendees:** everyone in attendance.
 
@@ -261,11 +262,11 @@ The aim of this sprint was to get something built and pushed onto GitHub. From p
 ### Backlog items
 
  ```
-   → Backlog item: add audio to start page.
    → Backlog item: start building games.
    → Backlog item: design backend.
    → Backlog item: make data model.
    → Backlog item: conduct background research and state-of-the-art survey.
+   → Backlog item: analyze and improve ways for users to navigate through the app.
 
  ```
 
@@ -331,9 +332,9 @@ The aim of this sprint was to show older friends and family members our start pa
    * Obtain feedback from users regarding the start page.
    * Create UI wireframe and obtain user feedback.
    * Create and circulate questionnaire regarding UI wireframe.
-   * Start building back-end.
+   * Start building docker image.
    * Build basic versions of games and obtain user feedback.
-   * Create a user login.
+   * Create user login and signup components.
    * Continue with documentation with a focus on Sprints and project management.
    * Convert Entity Relationship Diagram (ERD) to Unified Modelling Language (UML) diagram for data model
    * Design API.
@@ -343,7 +344,6 @@ The aim of this sprint was to show older friends and family members our start pa
 ### Key implementations from previous sprint
 
    * Build start page.
-   * Add audio to start page.
    * Memory game and connect four build underway.
    * Back-end design started.
    * Documentation underway with a focus on background research and UX design.
@@ -354,7 +354,7 @@ The aim of this sprint was to show older friends and family members our start pa
 ```
   → Backlog item: continue researching video chat APIs.
   → Backlog item: obtain user feedback on UI wireframe through a questionnaire.
-  → Backlog item: create login.
+  → Backlog item: create login and signup components.
   → Backlog item: build basic version of games and obtain feedback.
   → Backlog item: relational diagram -> UML diagram.
   → Backlog item: design API.
@@ -456,11 +456,11 @@ This was the first sprint following the week pause to our sprints. By this point
 
    * Implement multiplayer functionality for connect four.
    * Research and add video chat to the games.
+   * Add a navbar to the main page.
    * Build backend (build MongoDB models with mongoose).
    * Build API using express framework and node.js.
    * Implement basic features such as login, signup, logout, etc.
    * Add a game instance - store game records persistently.
-   * GET user game history.
    * Authenticate user.
 
 **Attendees:** everyone in attendance.
@@ -470,9 +470,9 @@ This was the first sprint following the week pause to our sprints. By this point
    * Obtain feedback from users regarding the start page.
    * Create UI wireframe and obtain user feedback.
    * Create and circulated questionnaire regarding UI wireframe.
-   * Start building back-end.
+   * Dockerfile created.
    * Build basic versions of games and obtained user feedback.
-   * Create a user login.
+   * Build user login and signup components.
    * Continue with documentation with a focus on Sprints and project management.
 
 
@@ -481,12 +481,12 @@ This was the first sprint following the week pause to our sprints. By this point
 ```
   → Backlog item: implement multiplayer functionality for connect four.
   → Backlog item: add video chat to connect four.
+  → Backlog item: build home page component and add navbar.
   → Backlog item: build backend (build MongoDB models with mongoose).
-  → Backlog item: build API using express framework and node.js.
-  → Backlog item: implement basic features such as login, signup, logout, etc.
-  → Backlog item: add a game instance - store game records persistently.
-  → Backlog item: GET user game history.
-  → Backlog item: Authenticate user.
+  → Backlog item: build API using express framework and node.js to implement login, signup, logout HTTP request methods and test.
+  → Backlog item: build API for adding a game instance - store game records persistently and test.
+  → Backlog item: create user.auth service for making API calls to authenticate a user.
+  → Backlog item: implement user authentication connecting frontend and backend.
 
 ```
 
@@ -595,6 +595,7 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
    * Add features such as leaderboard and recent games and test on those features.
    * Add relevant documentation for database.
+   * Build home page with game menu.
    * Implement multiplayer functionality for memory game.
    * Obtain user feedback on the connect four with multiplayer and video chat functionality.
 
@@ -604,7 +605,9 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 
    * Implement multiplayer functionality for connect four.
    * Add video chat to connect four.
-   * Build database.
+   * Database built.
+   * User authentication implemented.
+   * Home page with a navbar built.
    * Add a game instance - store game records persistently.
 
 
@@ -613,8 +616,10 @@ The aim of this sprint was to add new features to our product such as a leaderbo
 ```
   → Backlog item: implement multiplayer functionality for memory game.
   → Backlog item: add relevant documentation for database.
-  → Backlog item: build API using express framework and node.js.
-  → Backlog item: add features such as leaderboard and recent games and test on those features.
+  → Backlog item: build API to handle leaderboard, recent games GET request.
+  → Backlog item: API tests on new features.
+  → Backlog item: Build home page with game menu.
+  → Backlog item: Complete home page component and add game choice buttons.
 
 ```
 
@@ -713,9 +718,8 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 
    * Integrate front-end and back-end.
    * Create angular services for making calls to api.
-   * Implement user authentication in the front end.
-   * Build user profile page.
-   * Build a leaderboard.
+   * Build user profile component.
+   * Build a leaderboard component.
    * Start creating the introduction demo video.
    * Implement multiplayer functionality for memory game.
 
@@ -731,12 +735,10 @@ The main aim of this sprint was to integrate the front and back-end of the stack
 
 ```
   → Backlog item: implement multiplayer functionality for memory game.
-  → Backlog item: create angular services for making calls to api.
-  → Backlog item: implement user authentication in the front end.
-  → Backlog item: integrate front-end and back-end.
-  → Backlog item: build a leaderboard.
+  → Backlog item: create data service for making calls to api.
+  → Backlog item: build leaderboard and user profile components.
+  → Backlog item: integrate front-end and back-end for transferring user and game data.
   → Backlog item: implement video chat for memory game.
-  → Backlog item: build API using express framework and node.js.
   → Backlog item: start introduction demo video.
 
 ```
@@ -800,7 +802,6 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 
 ### Key points
 
-   * Build API using express framework and node.js.
    * Create test accounts and test both backend and frontend work correctly.
    * Add multiplayer functionality to memory game.
    * Make pages of application responsive, including mobile responsive.
@@ -813,9 +814,9 @@ This was our penultimate sprint. By this point we had to finalise our API. We al
 
 ### Key implementations from previous sprint
 
-   * Build leaderboard.
-   * Build API using express framework and node.js.
-   * Add relevant documentation for database.
+   * A minimal working app built.
+   * API finalised.
+   * Add relevant documentation for API implementation.
 
 
 ### Backlog items
