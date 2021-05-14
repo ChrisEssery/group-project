@@ -220,7 +220,7 @@ We now give a detailed overview of the API implementation, beginning with the AP
 
 **[middleware.js](../server/routes/middleware.js)** serves as a middleware which prevents unauthorised access without valid token and makes sure every request comes with a valid and unexpired X-Acess-Token.
 
-### Use the [HTTP Status Code](#Returne-Status-Code-Specification) to identify the Status
+### Use the HTTP Status Code to identify the Status
 
 **Returned Status Code Specification**
 
