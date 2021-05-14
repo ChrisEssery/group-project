@@ -900,7 +900,7 @@ As mentioned in the subsection on [digital literacy](../Portfolio/Background.md#
 
 </div>
 
-The signup and login page includes the static title with the consistent style of the title from the start page, the background component and the reactive forms provided by Angular. [Angular reactive forms](https://angular.io/guide/reactive-forms) provide a model-driven approach to handling form inputs whose values change over time. In order to validate form input and display useful validation messages, we added the required validator to the registration/login forms and used the Angular built-in `NgModel` to check for control states such as `valid` and `dirty` and display messages which can be seen below:
+The signup and login page include the static title component which inherits the style of the title from the start page, the background component and the reactive form component provided by Angular. [Angular reactive forms](https://angular.io/guide/reactive-forms) provide a model-driven approach to handling form inputs whose values change over time. In order to validate form input and display useful validation messages, we added the `required` validator to the registration/login forms and used the Angular built-in `NgModel` to check for control states such as `valid` and `dirty` and display messages which can be seen below:
 
 ```html
 <div class="textbox">
@@ -924,7 +924,7 @@ The submit button will be disabled if the form data is not valid:
 <button [disabled]="!registerForm.form.valid" class="btn" type="submit">Sign up</button>
 ```
 
-As we mentioned earlier in the user authentication part, the user form data will be recieved from the user input will be transferred to the backend with the use of `authService`. Then, the returned token and username from the backend will be saved to the browser session storage with the use of `tokenStorageService` . Once the users are successful logged in, they will be redirected to the home page using `Router`. See the code below:
+As we mentioned earlier in the user authentication part, the user form data recieved from the user input will be transferred to the backend with the use of `authService`. Then, the returned token and username from the API call will be saved to the `browser session storage` with the use of `tokenStorageService` . Once the users are successful logged in, they will be redirected to the home page using `Router`. See the code below:
 
 ```typescript
 login(){
