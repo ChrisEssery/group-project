@@ -330,7 +330,7 @@ Please see our [published api document](https://documenter.getpostman.com/view/1
 
 ## User acceptance testing
 
-We now turn to the user acceptance testing (UAT). According to one definition, user acceptance testing ["consists of a process of verifying that a solution works for the user"](https://en.wikipedia.org/wiki/Acceptance_testing) The most important consideration here is that UAT centres around whether the users are able to use the application, and whether the application behaves in expected ways.
+We now turn to the user acceptance testing (UAT). According to one definition, user acceptance testing ["consists of a process of verifying that a solution works for the user"](https://en.wikipedia.org/wiki/Acceptance_testing). The most important consideration here is that UAT centres around whether the users are able to use the application, and whether the application behaves in expected ways.
 
 There exist three main software testing phases:
 
