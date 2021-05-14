@@ -1159,6 +1159,10 @@ To prepare the VM to host our application, we logged in via SSH, installed all o
 
 ![alt_text](https://docs.microsoft.com/en-us/azure/application-gateway/media/application-gateway-url-route-overview/figure1-720.png)
 
+Application Gateway is a web traffic load balancer that allows you to have full control over the traffic going to your web applications. It allows you to route traffic coming in on certain ports to the load balancer to different ports within your server pool, which we used to route all traffic on port 443 to port 3000. The other feature of Application Gateway that we utilised was the use of end-to-end TLS encryption. With this feature enabled, it meant that we did not need to store any certificates on the VM at all, as all of the traffic SSL/TLS processing was done by the Application Gateway. For the management of the certificate, we used Azure Key Vault, Azure's solution for securely storing and managing keys, secrets and certificates. Application Gateway supports integration with Azure Key Vault, which made it ideal for our use case.
+
+Finally, to make the application accessible, we added a public IP address to the Application Gateway and added a DNS record for our domain. The live server version of our MVP can be found at www.notsoboredgames.co.uk
+
 Having now covered the additional elements and components, we now turn our attention to the deployment and integration.
 
 ## Deployment and Integration
