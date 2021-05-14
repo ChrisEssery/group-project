@@ -16,6 +16,7 @@ In this section, we discuss the the system implementation of the app. We start w
    * [Overview of stack](#overview-of-stack)
 * [**Back End**](#back-end)
    * [MongoDB](#mongodb)
+   * [Mongoose](#mongoose)
    * [Back End : Details of Implementation](#back-end--details-of-implementation)
 * [**Middle tier**](#middle-tier)
    * [Express](#express)
@@ -84,6 +85,8 @@ With this information in mind, we will turn our attention to the back-end of the
 
 ## Back end
 
+<a name="mongodb"></a>
+### MongoDB
 <div align="center">
 
 ![alt text](../Logo/implementation2.png)
@@ -95,6 +98,9 @@ For our database, we used MongoDB. MongoDB is a NoSQL database which stores docu
 There are several reasons. Firstly, MongoDB is a powerful database that can be easily integrated into a Node/Express environment. For this reason, it was an obvious choice, as we were looking to build our application quickly and with as little problems as possible. The 'M' in MEAN was, therefore, very important to ensure everything worked well and without issues. Secondly, MongoDB is highly scalable. Were we to continue with NotSoBored games and try make it into a business, mongoDB would allow for us to scale in size.
 
 So, why didn't we use a SQL database instead? We decided not to do this because we wanted to use the MEAN stack, which is a recognised stack that enables quick builds, and we also recognised that, for our purposes, we don't require a database to hold data with lots of connections. Instead, the data we will be storing requires very few. Give this fact, we felt it wasn't necessary to use SQL.
+
+<a name="mongoose"></a>
+### Mongoose
 
 <div align="center">
 
@@ -335,7 +341,7 @@ returned data:
 - Status code: `204`
 
 
-
+<a name="Get-a-user's-personal-information"></a>
 #### Get a user 's personal information
 
 **Request:**
@@ -364,6 +370,7 @@ returned data:
 }
 ```
 
+<a name="Get-a-user's-friendlist"></a>
 #### Get a user's friendlist
 
 **Request:**
@@ -388,7 +395,7 @@ returned data:
     ]
 }
 ```
-
+<a name="Get-a-user's-game-history"></a>
 #### Get a user's game history
 
 **Request:**
@@ -431,6 +438,7 @@ returned data:
 }
 ```
 
+<a name="Update-a-user's-personal-information"></a>
 #### Update a user's personal information
 
 **Request:**
@@ -466,7 +474,7 @@ returned data:
     "result": "updated successfully"
 }
 ```
-
+<a name="Add-a-friend-to-a-user's-friendlist"></a>
 #### Add a friend to a user's friendlist
 
 **Request:**
