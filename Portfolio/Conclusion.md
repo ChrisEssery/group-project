@@ -94,8 +94,7 @@ The team was also excellent on a human level. No-one ever felt outcast and every
 
 There have been many successes throughout the duration of this unit. One of the first hurdles we faced as a team was that one of our team members moved to a different team at the beginning of the project. This presented a few challenges. Firstly, there were fewer of us to complete the project which meant that each individual team member had, in theory, more work to complete. Secondly, this meant that our project had to be scaled back to account for a smaller team. As such, there were certain features we inevitably were unable to implement. The way we dealt with this was a success, since we did not dwell on the fact but simply moved forward with a positive mindset, aware of how much we could achieve if we remained focused and goal-oriented. With this in mind, we feel proud of how far we have come - of how we have worked as a team, on team member down, to produce a working prototype based on an idea which arose during the ideation phase. In retrospect, rather than holding us back, it seems that losing one team member gave us the motivation required to work hard and develop our product. In this sense it may have even given us more motivation than we would have otherwise had if our team member had not moved.
 
-We also feel that we successfully designated roles to each team member. These roles were maintained throughout the project.
-
+Now, we reflect on our successes with regards to the product design.
 
 ### Design
 
