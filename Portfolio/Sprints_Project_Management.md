@@ -70,6 +70,7 @@ The main focus of this approach is structure. Milestones are set, breaking the p
 - Hard to identify and measure progress within each stage
 - Testing occurs near the end of the lifecycle
 
+<a name="the-agile-method></a>
 ### The Agile methods
 
 Now, let's take a look at the Agile methodology. The lifecycle of this approach is depicted below:
